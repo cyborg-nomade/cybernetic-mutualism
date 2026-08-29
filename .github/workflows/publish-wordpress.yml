@@ -1,0 +1,60 @@
+name: Publish to WordPress
+
+on:
+  workflow_dispatch:
+    inputs:
+      path:
+        description: Repository-relative Markdown path
+        required: true
+        default: MANIFESTO.md
+        type: string
+      status:
+        description: WordPress post status
+        required: true
+        default: draft
+        type: choice
+        options:
+          - draft
+          - pending
+          - private
+          - publish
+      dry_run:
+        description: Validate and render without contacting WordPress
+        required: true
+        default: true
+        type: boolean
+
+permissions:
+  contents: read
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+          cache: pip
+      - run: python -m pip install --disable-pip-version-check -r requirements.txt
+      - name: Validate and render
+        if: ${{ inputs.dry_run }}
+        env:
+          POST_PATH: ${{ inputs.path }}
+          POST_STATUS: ${{ inputs.status }}
+        run: >-
+          python scripts/publish_wordpress.py
+          "$POST_PATH"
+          --status "$POST_STATUS"
+          --dry-run
+      - name: Create or update WordPress post
+        if: ${{ !inputs.dry_run }}
+        env:
+          POST_PATH: ${{ inputs.path }}
+          POST_STATUS: ${{ inputs.status }}
+          WORDPRESS_ACCESS_TOKEN: ${{ secrets.WORDPRESS_ACCESS_TOKEN }}
+          WORDPRESS_SITE_ID: "109675820"
+        run: >-
+          python scripts/publish_wordpress.py
+          "$POST_PATH"
+          --status "$POST_STATUS"

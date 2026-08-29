@@ -1,0 +1,49 @@
+# cybernetic mutualism
+
+Cybernetic mutualism is a research program for rebuilding mutualism as a
+materialist, cybernetic theory of history and society.
+
+The project begins from a Proudhonian claim: social antinomies are not errors
+waiting for a final synthesis. Centralisation and decentralisation, liberty and
+authority, cooperation and conflict continually produce, constrain, and
+transform one another. It adds a second claim: the topology of communication
+networks is a primary material constraint on productive organisation, culture,
+worldviews, and political institutions.
+
+The initial statement of the project is the
+[provisional manifesto](MANIFESTO.md).
+
+## repository structure
+
+- `MANIFESTO.md` — the current canonical statement of the theory.
+- `posts/` — essays and shorter texts intended for publication.
+- `scripts/publish_wordpress.py` — Markdown-to-WordPress publisher.
+- `docs/PUBLISHING.md` — local and GitHub Actions publishing runbook.
+- `tests/` — checks for the publishing tool.
+
+## editorial principles
+
+- Distinguish the author's claims from exploratory scaffolding and inherited
+  concepts.
+- Treat quotations, citations, historical data, and mathematical claims as
+  unverified until checked against primary or authoritative sources.
+- State what would falsify a model, not only what appears to confirm it.
+- Preserve unresolved antinomies instead of forcing premature synthesis.
+- Keep prose readable independently of its formal models.
+
+## publish a local dry run
+
+```bash
+python -m venv .venv
+.venv/bin/python -m pip install -r requirements.txt
+.venv/bin/python scripts/publish_wordpress.py MANIFESTO.md --dry-run
+```
+
+Publishing is deliberately manual and draft-first. See
+[the publishing runbook](docs/PUBLISHING.md) before configuring WordPress
+credentials or running a live publication.
+
+## status
+
+This is groundwork: the theory, vocabulary, formal models, evidence, and
+bibliography are all provisional and expected to change.
