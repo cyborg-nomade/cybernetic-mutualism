@@ -1,8 +1,11 @@
 +++
 title = "cybernetic mutualism: a provisional manifesto"
 slug = "cybernetic-mutualism-provisional-manifesto"
-status = "draft"
+status = "publish"
 excerpt = "a provisional statement of cybernetic mutualism as a materialist theory of communication, contradiction, and historical change"
+published_at = "2026-08-30"
+canonical_url = "https://antinomiaimediata.wordpress.com/2026/08/30/cybernetic-mutualism-provisional-manifesto/"
+wordpress_post_id = 4279
 +++
 
 # cybernetic mutualism
