@@ -32,24 +32,35 @@ The numeric site ID is public and stable. The access token is secret.
 ## one-time WordPress authentication
 
 WordPress.com requires an OAuth2 bearer token for authenticated calls to
-`public-api.wordpress.com`. Its current official setup process is:
+`public-api.wordpress.com`. This repository uses the production authorization
+code flow:
 
-1. Register a WordPress.com application to obtain a client ID and client secret.
-2. If the account uses two-factor authentication, create a WordPress.com
-   application password.
-3. Exchange the client credentials and WordPress credentials/application
-   password for an OAuth2 access token.
-4. Store only the resulting token in GitHub as the Actions secret
-   `WORDPRESS_ACCESS_TOKEN`.
+1. Register a WordPress.com application with the repository URL as its website
+   and exact redirect URI.
+2. Open the WordPress.com authorization endpoint with a random `state` value,
+   this site's hostname in `blog`, and the `global` scope.
+3. Approve the application while logged into the publishing account.
+4. Exchange the returned one-time code, client ID, and client secret at
+   `https://public-api.wordpress.com/oauth2/token`.
+5. Verify that the resulting bearer token can query editable posts for site ID
+   `109675820`.
+6. Send the token directly to GitHub as the Actions secret
+   `WORDPRESS_ACCESS_TOKEN` without printing or committing it.
+
+The live `wp/v2/sites/...` endpoint currently requires the `global` scope even
+for post operations. That scope can act on other blogs belonging to the same
+WordPress.com account. Publication routing is narrower: this workflow is pinned
+to site ID `109675820`, and another repository must deliberately configure its
+own target site ID.
 
 Follow the official documentation rather than committing any credential:
 
 - <https://developer.wordpress.com/docs/api/getting-started/>
 - <https://developer.wordpress.com/docs/api/oauth2/>
 
-The repository does not need the WordPress username, account password,
-application password, client ID, or client secret after the bearer token has
-been obtained.
+The repository does not need the WordPress username, account password, client
+ID, or client secret after the bearer token has been obtained. An application
+password is not used by this flow.
 
 ## configure GitHub Actions
 
