@@ -507,12 +507,13 @@ posts/
 
 The immediate cycle should produce five concrete artifacts:
 
-1. a project glossary for antinomy, topology, substrate, centralisation,
+1. [x] a project glossary for antinomy, topology, substrate, centralisation,
    decentralisation, control, complexity, and progress;
-2. a claim registry extracting the manifesto's empirical and conceptual claims;
-3. the essay "after dark mutualism," clarifying continuity and rupture;
-4. a paired case design for print/Reformation and a difficult comparison;
-5. a minimal two-variable antinomy simulation with a visual parameter map.
+2. [ ] a claim registry extracting the manifesto's empirical and conceptual
+   claims;
+3. [ ] the essay "after dark mutualism," clarifying continuity and rupture;
+4. [ ] a paired case design for print/Reformation and a difficult comparison;
+5. [ ] a minimal two-variable antinomy simulation with a visual parameter map.
 
 The cycle is complete when these artifacts reveal at least one necessary
 revision to the manifesto. If they reveal none, the review has probably not
