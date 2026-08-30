@@ -21,7 +21,7 @@ The initial statement of the project is the
 - `posts/` — essays and shorter texts intended for publication.
 - `scripts/publish_wordpress.py` — Markdown-to-WordPress publisher.
 - `docs/PUBLISHING.md` — local and GitHub Actions publishing runbook.
-- `docs/SOCIAL.md` — mobile Facebook and RSS-to-X distribution runbook.
+- `docs/SOCIAL.md` — Facebook automation and manual X distribution runbook.
 - `tests/` — checks for the publishing tool.
 
 ## editorial principles
