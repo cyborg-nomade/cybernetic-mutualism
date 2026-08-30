@@ -16,9 +16,12 @@ The initial statement of the project is the
 ## repository structure
 
 - `MANIFESTO.md` — the current canonical statement of the theory.
+- `ROADMAP.md` — the research program, case portfolio, simulation agenda, and
+  publication sequence.
 - `posts/` — essays and shorter texts intended for publication.
 - `scripts/publish_wordpress.py` — Markdown-to-WordPress publisher.
 - `docs/PUBLISHING.md` — local and GitHub Actions publishing runbook.
+- `docs/SOCIAL.md` — mobile Facebook and RSS-to-X distribution runbook.
 - `tests/` — checks for the publishing tool.
 
 ## editorial principles
