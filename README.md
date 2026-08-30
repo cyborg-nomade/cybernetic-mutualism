@@ -18,6 +18,8 @@ The initial statement of the project is the
 - `MANIFESTO.md` — the current canonical statement of the theory.
 - `ROADMAP.md` — the research program, case portfolio, simulation agenda, and
   publication sequence.
+- `research/glossary.md` — provisional inherited, technical, and
+  project-specific definitions for the research program.
 - `posts/` — essays and shorter texts intended for publication.
 - `scripts/publish_wordpress.py` — Markdown-to-WordPress publisher.
 - `docs/PUBLISHING.md` — local and GitHub Actions publishing runbook.
