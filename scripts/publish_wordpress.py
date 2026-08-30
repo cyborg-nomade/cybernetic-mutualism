@@ -20,7 +20,7 @@ import markdown
 
 
 DEFAULT_SITE_ID = "109675820"
-API_ROOT = "https://public-api.wordpress.com/wp/v2/sites"
+API_ROOT = "https://public-api.wordpress.com/rest/v1.1/sites"
 ALLOWED_STATUSES = {"draft", "pending", "private", "publish"}
 SLUG_PATTERN = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 
@@ -87,7 +87,7 @@ def render_html(markdown_body: str) -> str:
 
 
 def build_payload(document: Document, status_override: str | None = None) -> dict[str, Any]:
-    """Build a WordPress Core REST API post payload."""
+    """Build a WordPress.com REST API post payload."""
     status = status_override or document.metadata.get("status", "draft")
     if status not in ALLOWED_STATUSES:
         raise ValueError(f"unsupported WordPress status: {status}")
@@ -97,6 +97,9 @@ def build_payload(document: Document, status_override: str | None = None) -> dic
         "slug": document.metadata["slug"],
         "status": status,
         "content": render_html(document.markdown_body),
+        # WordPress.com uses this field to hand a newly published post to
+        # Jetpack Social. Drafts and non-public posts must never be shared.
+        "publicize": status == "publish",
     }
 
     for source, target in (
@@ -116,6 +119,8 @@ def api_request(
     url: str,
     token: str,
     payload: dict[str, Any] | None = None,
+    *,
+    not_found_ok: bool = False,
 ) -> Any:
     """Make an authenticated JSON request and return the decoded response."""
     body = json.dumps(payload).encode("utf-8") if payload is not None else None
@@ -134,6 +139,8 @@ def api_request(
         with urllib.request.urlopen(request, timeout=30) as response:
             return json.loads(response.read().decode("utf-8"))
     except urllib.error.HTTPError as error:
+        if error.code == 404 and not_found_ok:
+            return None
         response_body = error.read().decode("utf-8", errors="replace")
         raise RuntimeError(
             f"WordPress API returned HTTP {error.code}: {response_body}"
@@ -149,22 +156,29 @@ def upsert_post(
 ) -> tuple[str, dict[str, Any]]:
     """Create or update a post, using its slug as the stable identity."""
     posts_url = f"{API_ROOT}/{urllib.parse.quote(site_id, safe='')}/posts"
-    query = urllib.parse.urlencode(
-        {
-            "slug": payload["slug"],
-            "context": "edit",
-            "status": "any",
-            "per_page": 1,
-        }
+    slug = urllib.parse.quote(payload["slug"], safe="")
+    existing = api_request(
+        "GET",
+        f"{posts_url}/slug:{slug}?context=edit",
+        token,
+        not_found_ok=True,
     )
-    matches = api_request("GET", f"{posts_url}?{query}", token)
 
-    if matches:
-        post_id = matches[0]["id"]
-        result = api_request("POST", f"{posts_url}/{post_id}", token, payload)
+    request_payload = payload.copy()
+    if existing:
+        post_id = existing["ID"]
+        # Jetpack Social should run exactly once: on the first transition from
+        # a non-public status to publish. Ordinary edits must not create a
+        # second Facebook post.
+        request_payload["publicize"] = (
+            payload["status"] == "publish" and existing.get("status") != "publish"
+        )
+        result = api_request(
+            "POST", f"{posts_url}/{post_id}", token, request_payload
+        )
         return "updated", result
 
-    result = api_request("POST", posts_url, token, payload)
+    result = api_request("POST", f"{posts_url}/new", token, request_payload)
     return "created", result
 
 
@@ -224,10 +238,10 @@ def main(argv: list[str] | None = None) -> int:
             json.dumps(
                 {
                     "action": action,
-                    "id": result.get("id"),
+                    "id": result.get("ID"),
                     "status": result.get("status"),
                     "slug": result.get("slug"),
-                    "link": result.get("link"),
+                    "link": result.get("URL"),
                 },
                 indent=2,
             )

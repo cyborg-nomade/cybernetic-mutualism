@@ -3,8 +3,14 @@ from __future__ import annotations
 import tempfile
 import unittest
 from pathlib import Path
+from unittest.mock import call, patch
 
-from scripts.publish_wordpress import build_payload, load_document, render_html
+from scripts.publish_wordpress import (
+    build_payload,
+    load_document,
+    render_html,
+    upsert_post,
+)
 
 
 class PublishWordPressTests(unittest.TestCase):
@@ -49,8 +55,23 @@ This is **important**.
         payload = build_payload(load_document(path), "publish")
 
         self.assertEqual(payload["status"], "publish")
+        self.assertTrue(payload["publicize"])
         self.assertEqual(payload["categories"], [1, 2])
         self.assertIn("<strong>important</strong>", payload["content"])
+
+    def test_draft_payload_does_not_request_social_sharing(self) -> None:
+        path = self.write_document(
+            """+++
+title = "a title"
+slug = "a-title"
+status = "draft"
++++
+
+text
+"""
+        )
+
+        self.assertFalse(build_payload(load_document(path))["publicize"])
 
     def test_invalid_slug_is_rejected(self) -> None:
         path = self.write_document(
@@ -71,6 +92,79 @@ text
 
         self.assertIn("footnote", rendered)
         self.assertIn("source", rendered)
+
+    @patch("scripts.publish_wordpress.api_request")
+    def test_new_published_post_requests_social_sharing(self, request) -> None:
+        payload = {
+            "title": "a title",
+            "slug": "a-title",
+            "status": "publish",
+            "content": "<p>text</p>",
+            "publicize": True,
+        }
+        created = {"ID": 42, "status": "publish", "slug": "a-title"}
+        request.side_effect = [None, created]
+
+        action, result = upsert_post("123", "token", payload)
+
+        self.assertEqual(action, "created")
+        self.assertEqual(result, created)
+        self.assertEqual(
+            request.call_args_list,
+            [
+                call(
+                    "GET",
+                    "https://public-api.wordpress.com/rest/v1.1/sites/123/posts/slug:a-title?context=edit",
+                    "token",
+                    not_found_ok=True,
+                ),
+                call(
+                    "POST",
+                    "https://public-api.wordpress.com/rest/v1.1/sites/123/posts/new",
+                    "token",
+                    payload,
+                ),
+            ],
+        )
+
+    @patch("scripts.publish_wordpress.api_request")
+    def test_editing_published_post_suppresses_duplicate_sharing(self, request) -> None:
+        payload = {
+            "title": "a title",
+            "slug": "a-title",
+            "status": "publish",
+            "content": "<p>revision</p>",
+            "publicize": True,
+        }
+        existing = {"ID": 42, "status": "publish", "slug": "a-title"}
+        updated = existing | {"content": "<p>revision</p>"}
+        request.side_effect = [existing, updated]
+
+        action, result = upsert_post("123", "token", payload)
+
+        self.assertEqual(action, "updated")
+        self.assertEqual(result, updated)
+        update_payload = request.call_args_list[1].args[3]
+        self.assertFalse(update_payload["publicize"])
+
+    @patch("scripts.publish_wordpress.api_request")
+    def test_publishing_existing_draft_requests_social_sharing(self, request) -> None:
+        payload = {
+            "title": "a title",
+            "slug": "a-title",
+            "status": "publish",
+            "content": "<p>text</p>",
+            "publicize": True,
+        }
+        existing = {"ID": 42, "status": "draft", "slug": "a-title"}
+        published = existing | {"status": "publish"}
+        request.side_effect = [existing, published]
+
+        action, _ = upsert_post("123", "token", payload)
+
+        self.assertEqual(action, "updated")
+        update_payload = request.call_args_list[1].args[3]
+        self.assertTrue(update_payload["publicize"])
 
 
 if __name__ == "__main__":

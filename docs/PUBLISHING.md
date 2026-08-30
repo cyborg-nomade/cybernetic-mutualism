@@ -18,13 +18,16 @@ dry run.
 3. The publisher queries WordPress by slug.
 4. It creates the post when the slug is new or updates the matching post when it
    already exists.
-5. WordPress remains the public presentation layer; Git history remains the
+5. On the first transition to `publish`, it explicitly asks Jetpack Social to
+   share the post; later edits suppress another share.
+6. WordPress remains the public presentation layer; Git history remains the
    editorial record.
 
-The integration uses the standard WordPress.com REST endpoint:
+The integration uses the WordPress.com REST endpoint that exposes Jetpack
+Social's `publicize` control:
 
 ```text
-https://public-api.wordpress.com/wp/v2/sites/109675820/posts
+https://public-api.wordpress.com/rest/v1.1/sites/109675820/posts
 ```
 
 The numeric site ID is public and stable. The access token is secret.
@@ -47,11 +50,10 @@ code flow:
 6. Send the token directly to GitHub as the Actions secret
    `WORDPRESS_ACCESS_TOKEN` without printing or committing it.
 
-The live `wp/v2/sites/...` endpoint currently requires the `global` scope even
-for post operations. That scope can act on other blogs belonging to the same
-WordPress.com account. Publication routing is narrower: this workflow is pinned
-to site ID `109675820`, and another repository must deliberately configure its
-own target site ID.
+The configured token has the `global` scope and can act on other blogs belonging
+to the same WordPress.com account. Publication routing is narrower: this
+workflow is pinned to site ID `109675820`, and another repository must
+deliberately configure its own target site ID.
 
 Follow the official documentation rather than committing any credential:
 
@@ -113,6 +115,9 @@ ID if this tool is later reused for another site.
 8. When ready, run with status `publish` and **Dry run** disabled.
 
 Using a stable slug makes subsequent runs update the same post.
+Facebook auto-sharing is requested only when a new post is published or an
+existing draft is published for the first time. Updating an already-published
+post does not create another social post.
 
 ## recovery and failure handling
 
