@@ -1,8 +1,11 @@
 +++
 title = "after dark mutualism"
 slug = "after-dark-mutualism"
-status = "draft"
+status = "publish"
 excerpt = "why dark mutualism became cybernetic mutualism, what survives the change, and what the project now rejects"
+published_at = "2026-08-31"
+canonical_url = "https://antinomiaimediata.wordpress.com/2026/08/31/after-dark-mutualism/"
+wordpress_post_id = 4281
 +++
 
 # after dark mutualism
