@@ -93,6 +93,17 @@ text
         self.assertIn("footnote", rendered)
         self.assertIn("source", rendered)
 
+    def test_render_html_omits_leading_level_one_heading(self) -> None:
+        rendered = render_html("# post title\n\nopening paragraph")
+
+        self.assertNotIn("<h1>", rendered)
+        self.assertTrue(rendered.startswith("<p>opening paragraph</p>"))
+
+    def test_render_html_preserves_nonleading_level_one_heading(self) -> None:
+        rendered = render_html("opening paragraph\n\n# later heading")
+
+        self.assertIn("<h1>later heading</h1>", rendered)
+
     @patch("scripts.publish_wordpress.api_request")
     def test_new_published_post_requests_social_sharing(self, request) -> None:
         payload = {

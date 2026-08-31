@@ -23,6 +23,7 @@ DEFAULT_SITE_ID = "109675820"
 API_ROOT = "https://public-api.wordpress.com/rest/v1.1/sites"
 ALLOWED_STATUSES = {"draft", "pending", "private", "publish"}
 SLUG_PATTERN = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
+LEADING_H1_PATTERN = re.compile(r"\A<h1(?:\s[^>]*)?>.*?</h1>\s*", re.DOTALL)
 
 
 @dataclass(frozen=True)
@@ -79,11 +80,15 @@ def load_document(path: Path) -> Document:
 
 def render_html(markdown_body: str) -> str:
     """Render repository Markdown into WordPress-ready HTML."""
-    return markdown.markdown(
+    rendered = markdown.markdown(
         markdown_body,
         extensions=["extra", "sane_lists", "smarty"],
         output_format="html5",
     )
+    # WordPress renders the post title separately. A leading level-one heading
+    # is useful in the canonical Markdown document but would duplicate that
+    # title in the published body.
+    return LEADING_H1_PATTERN.sub("", rendered, count=1)
 
 
 def build_payload(document: Document, status_override: str | None = None) -> dict[str, Any]:
