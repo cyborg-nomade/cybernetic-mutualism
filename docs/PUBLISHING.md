@@ -78,27 +78,26 @@ The site ID is already configured in the workflow and is not sensitive.
 ## local setup
 
 ```bash
-python -m venv .venv
-.venv/bin/python -m pip install -r requirements.txt
+uv sync --locked
 ```
 
 Validate and preview the WordPress payload without credentials:
 
 ```bash
-.venv/bin/python scripts/publish_wordpress.py MANIFESTO.md --dry-run
+uv run --locked python scripts/publish_wordpress.py MANIFESTO.md --dry-run
 ```
 
 Create or update a WordPress draft:
 
 ```bash
 export WORDPRESS_ACCESS_TOKEN="..."
-.venv/bin/python scripts/publish_wordpress.py MANIFESTO.md
+uv run --locked python scripts/publish_wordpress.py MANIFESTO.md
 ```
 
 Publish immediately only after reviewing the draft or dry-run output:
 
 ```bash
-.venv/bin/python scripts/publish_wordpress.py MANIFESTO.md --status publish
+uv run --locked python scripts/publish_wordpress.py MANIFESTO.md --status publish
 ```
 
 The `WORDPRESS_SITE_ID` environment variable can override the configured site

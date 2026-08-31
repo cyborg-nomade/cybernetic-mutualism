@@ -12,10 +12,36 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - uses: actions/setup-python@v7
         with:
+          fetch-depth: 0
+      - uses: astral-sh/setup-uv@c771a70e6277c0a99b617c7a806ffedaca235ff9 # v9.0.0
+        with:
+          version: "0.11.28"
           python-version: "3.13"
-          cache: pip
-      - run: python -m pip install --disable-pip-version-check -r requirements.txt
-      - run: python -m unittest discover -s tests -v
-      - run: python scripts/publish_wordpress.py MANIFESTO.md --dry-run > /dev/null
+          enable-cache: true
+      - run: uv sync --locked
+      - run: uv run --locked ruff check .
+      - run: uv run --locked ruff format --check .
+      - run: uv run --locked mypy
+      - run: >-
+          uv run --locked pytest
+          --cov=models
+          --cov=scripts
+          --cov-report=term-missing
+          --cov-report=xml
+      - name: Verify generated model outputs
+        run: |
+          output_directory="$(mktemp -d)"
+          trap 'rm -rf "${output_directory}"' EXIT
+          uv run --locked python -m models.antinomy.generate \
+            --output-dir "${output_directory}" >/dev/null
+          diff -rq models/antinomy/outputs "${output_directory}"
+      - run: >-
+          uv run --locked python scripts/publish_wordpress.py
+          MANIFESTO.md --dry-run > /dev/null
+      - name: Analyze with SonarQube when configured
+        if: ${{ env.SONAR_TOKEN != '' && env.SONAR_HOST_URL != '' }}
+        uses: SonarSource/sonarqube-scan-action@v7
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
