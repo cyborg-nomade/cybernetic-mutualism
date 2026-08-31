@@ -215,6 +215,12 @@ attention economy.
 communication, ownership, production, and state organisation. Look for temporal
 precedence, necessary conditions, and cases where the proposed ordering fails.
 
+**close reading:** pair Proudhon's 1846 *System of Economic Contradictions; or,
+The Philosophy of Misery* with Marx's 1847 *The Poverty of Philosophy*.
+reconstruct Marx's economic and dialectical objections, test them against
+Proudhon's text and later work, and distinguish a real materialist correction
+from polemical narrowing or retrospective Marxist canon formation.
+
 ### 9. direction without destination
 
 **Central question:** Is increasing extent, persistence, speed,
@@ -437,25 +443,26 @@ provisional sequence is:
 
 1. **after dark mutualism:** why the name changed and what remains;
 2. **antinomies are dynamical systems:** manifesto points 1–2;
-3. **the base has a topology:** point 3;
-4. **case study — print, Reformation, and state formation**;
-5. **the five-domain circuit:** point 4;
-6. **substrates and feasible topology spaces:** point 5;
-7. **model note — a minimal substrate-transition simulation**;
-8. **how decentralisation manufactures hubs:** point 6;
-9. **case study — the open web and platform capture**;
-10. **productive conflict and its inhibitors:** point 7;
-11. **Marx after the communication turn:** point 8;
-12. **case study — Cybersyn and Soviet information bottlenecks**;
-13. **case study — China as a coupled centralisation problem**;
-14. **direction without destiny:** point 9;
-15. **case study — collapse, simplification, and lost complexity**;
-16. **determinism, reflexivity, and political action:** point 10;
-17. **control without a controller:** point 11;
-18. **model note — central, distributed, and polycentric control**;
-19. **how cybernetic mutualism could be wrong:** point 12;
-20. **a protocol for correction:** point 13;
-21. **research report — what survived the first cycle**.
+3. **Marx against the *Philosophy of Misery*:** a paired close reading;
+4. **the base has a topology:** point 3;
+5. **case study — print, Reformation, and state formation**;
+6. **the five-domain circuit:** point 4;
+7. **substrates and feasible topology spaces:** point 5;
+8. **model note — a minimal substrate-transition simulation**;
+9. **how decentralisation manufactures hubs:** point 6;
+10. **case study — the open web and platform capture**;
+11. **productive conflict and its inhibitors:** point 7;
+12. **Marx after the communication turn:** point 8;
+13. **case study — Cybersyn and Soviet information bottlenecks**;
+14. **case study — China as a coupled centralisation problem**;
+15. **direction without destiny:** point 9;
+16. **case study — collapse, simplification, and lost complexity**;
+17. **determinism, reflexivity, and political action:** point 10;
+18. **control without a controller:** point 11;
+19. **model note — central, distributed, and polycentric control**;
+20. **how cybernetic mutualism could be wrong:** point 12;
+21. **a protocol for correction:** point 13;
+22. **research report — what survived the first cycle**.
 
 This order is a scaffold, not an obligation. A live case, newly available
 archive, failed model, or productive digression may interrupt it.
