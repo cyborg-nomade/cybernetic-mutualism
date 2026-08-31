@@ -116,11 +116,13 @@ does not show that the social mechanisms represented by the coupling exist.
 
 ## Reproduction
 
-The implementation and generator use only the Python standard library.
+The model and generator use only the Python standard library. The repository's
+development tools are installed from the locked `uv` environment.
 
 ```bash
-python3 -m models.antinomy.generate
-python3 -m unittest tests.test_antinomy_model -v
+just model
+just test
+just model-check
 ```
 
 Generation rewrites these deterministic artifacts:
@@ -155,7 +157,41 @@ observations; or if the viability and lock-in thresholds drive the substantive
 conclusion. Noise sensitivity, asynchronous updates, structural adaptation,
 formal bifurcation continuation, and comparison with case data remain open.
 
-The main conceptual correction is therefore negative as well as positive:
-feedback sign, response lag, and saturation suffice for several formal regimes
-in this map, but adaptation is not needed to produce them and the map supplies
-no empirical warrant for the manifesto's broader historical claims.
+## Conclusions and Next Steps
+
+The sweep supports four conclusions within its declared formal domain.
+
+First, *balance* is not one dynamical outcome. The same two capacities and the
+same response rule produce a stable joint equilibrium, a persistent asymmetric
+lock-in, a period-two oscillation, or a low-viability state as shared support
+and cross-inhibition change. Distinguishing these outcomes therefore adds
+information that the undifferentiated prose claim does not contain.
+
+Second, coupling does explanatory work in this model. Canceling the net
+cross-effect removes lock-in and coupled oscillation at every sampled support
+level in the ablation. This does not establish that a real institution contains
+the proposed coupling, but it identifies a mechanism that an empirical case
+would have to measure rather than merely name.
+
+Third, a balance can lose stability without either capacity disappearing. The
+115 marked cells show where the symmetric fixed point changes local stability;
+the neighboring lock-in and oscillation regions make bifurcation a parameter
+boundary, not a synonym for collapse. The 73 seed-disagreement cells further
+show that initial conditions can select different outcomes under the same
+parameters.
+
+Fourth, adaptation is not necessary to obtain these formal distinctions.
+Feedback sign, one-step response lag, persistence, and saturation suffice here.
+CM-04 should therefore retain its narrowed wording and C1 confidence: the toy
+model demonstrates a useful formal possibility, while leaving every empirical
+and historical application open.
+
+The next model revision should test the most restrictive assumption first:
+replace the imposed symmetry with separate persistence, enablement, inhibition,
+and response timing for autonomy and coordination. It should then compare
+synchronous with asynchronous updates and the sigmoid with at least one
+alternative bounded response. If the regime distinctions survive, the next
+research action is to preregister observable proxies for autonomy,
+coordination, and their cross-effects in one federation case and compare the
+coupled model against uncoupled and common-shock rivals. If they do not survive,
+CM-04 should be narrowed again before any historical calibration is attempted.

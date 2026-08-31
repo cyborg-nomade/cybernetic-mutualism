@@ -32,6 +32,12 @@ Every major claim should eventually have:
 - evidence that could weaken or falsify it;
 - a record of how the claim changed during investigation.
 
+Every case, experiment, and model note should end with **Conclusions and Next
+Steps**. That section should state the result the artifact warrants now, its
+consequence for the wider theory or claim registry, and the next action most
+likely to discriminate between remaining explanations. Caveats must bound a
+conclusion, not substitute for one.
+
 The program should resist four recurrent failures:
 
 - **topological reductionism:** treating communication as the sole cause rather

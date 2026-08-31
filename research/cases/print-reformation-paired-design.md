@@ -440,3 +440,23 @@ account has been made stronger rather than mentioned ceremonially.
   and Organization* 41, no. 3 (2025): 1045–1084. This offers a recent
   firm-level design for the timing and heterogeneous effects of Venetian
   censorship; its causal estimates require independent historical scrutiny.
+
+## Conclusions and Next Steps
+
+This design warrants one conclusion now: print topology cannot be tested as a
+singular prior cause by comparing aggregate printing and confessional outcomes.
+A defensible test must separate communication reach from product demand,
+political protection, market organization, censorship, and ordinary geographic
+access, then compare their timing within each region before comparing Germany
+with Italy. The paired design therefore turns CM-07 through CM-09 into
+discriminating questions, but supplies no evidence yet for raising or lowering
+their confidence.
+
+The immediate next step is to freeze the jurisdiction list, outcome codebook,
+phase boundaries, and missing-data rules before collecting observations. The
+first evidence pass should then build the dated ordinance and censorship ledger
+and two process traces, Saxony and Venice. Its decision point is whether the
+available catalogs support a reproducible network dataset or only bounded
+descriptive comparisons. Either result is useful: the latter would redirect
+the case toward source-grounded sequence analysis instead of manufacturing a
+network measure from incompatible records.
