@@ -509,7 +509,7 @@ The immediate cycle should produce five concrete artifacts:
 
 1. [x] a project glossary for antinomy, topology, substrate, centralisation,
    decentralisation, control, complexity, and progress;
-2. [ ] a claim registry extracting the manifesto's empirical and conceptual
+2. [x] a claim registry extracting the manifesto's empirical and conceptual
    claims;
 3. [ ] the essay "after dark mutualism," clarifying continuity and rupture;
 4. [ ] a paired case design for print/Reformation and a difficult comparison;
