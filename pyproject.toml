@@ -1,0 +1,79 @@
+[project]
+name = "cybernetic-mutualism"
+version = "0.1.0"
+description = "Research models and publishing tools for cybernetic mutualism"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "Markdown==3.10.3",
+]
+
+[dependency-groups]
+dev = [
+    "mypy>=1.18.2",
+    "pytest>=8.4.2",
+    "pytest-cov>=7.0.0",
+    "ruff>=0.13.2",
+    "types-Markdown>=3.8.0.20250915",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = ["--strict-config", "--strict-markers", "-ra"]
+
+[tool.coverage.run]
+branch = true
+source = ["models", "scripts"]
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true
+fail_under = 80
+
+[tool.coverage.xml]
+output = "coverage.xml"
+
+[tool.mypy]
+python_version = "3.13"
+files = ["models", "scripts"]
+strict = true
+pretty = true
+show_error_codes = true
+
+[tool.ruff]
+target-version = "py313"
+line-length = 88
+extend-exclude = ["models/antinomy/outputs"]
+
+[tool.ruff.lint]
+select = [
+    "B",
+    "C4",
+    "C90",
+    "D",
+    "E",
+    "F",
+    "I",
+    "N",
+    "PERF",
+    "PL",
+    "RUF",
+    "SIM",
+    "UP",
+]
+ignore = ["D203", "D213"]
+
+[tool.ruff.lint.mccabe]
+max-complexity = 8
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.lint.pylint]
+max-args = 6
+max-branches = 8
+max-statements = 35
+
+[tool.ruff.format]
+docstring-code-format = true

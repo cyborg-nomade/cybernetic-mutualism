@@ -1,3 +1,5 @@
+"""Verify Markdown validation, rendering, and WordPress payload behavior."""
+
 from __future__ import annotations
 
 import tempfile
@@ -14,7 +16,10 @@ from scripts.publish_wordpress import (
 
 
 class PublishWordPressTests(unittest.TestCase):
+    """Test publication behavior without contacting WordPress."""
+
     def write_document(self, contents: str) -> Path:
+        """Write a temporary Markdown source and return its path."""
         temporary_directory = tempfile.TemporaryDirectory()
         self.addCleanup(temporary_directory.cleanup)
         path = Path(temporary_directory.name) / "post.md"
@@ -22,6 +27,7 @@ class PublishWordPressTests(unittest.TestCase):
         return path
 
     def test_load_document_parses_toml_front_matter(self) -> None:
+        """Valid TOML front matter should become document metadata."""
         path = self.write_document(
             """+++
 title = "a title"
@@ -40,6 +46,7 @@ status = "draft"
         self.assertIn("# hello", document.markdown_body)
 
     def test_build_payload_renders_html_and_overrides_status(self) -> None:
+        """Payload construction should render Markdown and honor an override."""
         path = self.write_document(
             """+++
 title = "a title"
@@ -60,6 +67,7 @@ This is **important**.
         self.assertIn("<strong>important</strong>", payload["content"])
 
     def test_draft_payload_does_not_request_social_sharing(self) -> None:
+        """Draft posts should never request public social distribution."""
         path = self.write_document(
             """+++
 title = "a title"
@@ -74,6 +82,7 @@ text
         self.assertFalse(build_payload(load_document(path))["publicize"])
 
     def test_invalid_slug_is_rejected(self) -> None:
+        """A slug outside the repository convention should fail validation."""
         path = self.write_document(
             """+++
 title = "a title"
@@ -88,24 +97,28 @@ text
             load_document(path)
 
     def test_render_html_supports_footnotes(self) -> None:
+        """The configured Markdown extensions should render footnotes."""
         rendered = render_html("statement[^1]\n\n[^1]: source")
 
         self.assertIn("footnote", rendered)
         self.assertIn("source", rendered)
 
     def test_render_html_omits_leading_level_one_heading(self) -> None:
+        """A leading title should not be duplicated in the WordPress body."""
         rendered = render_html("# post title\n\nopening paragraph")
 
         self.assertNotIn("<h1>", rendered)
         self.assertTrue(rendered.startswith("<p>opening paragraph</p>"))
 
     def test_render_html_preserves_nonleading_level_one_heading(self) -> None:
+        """A later level-one heading should remain part of the post body."""
         rendered = render_html("opening paragraph\n\n# later heading")
 
         self.assertIn("<h1>later heading</h1>", rendered)
 
     @patch("scripts.publish_wordpress.api_request")
     def test_new_published_post_requests_social_sharing(self, request) -> None:
+        """A newly published post should request one social share."""
         payload = {
             "title": "a title",
             "slug": "a-title",
@@ -140,6 +153,7 @@ text
 
     @patch("scripts.publish_wordpress.api_request")
     def test_editing_published_post_suppresses_duplicate_sharing(self, request) -> None:
+        """Editing a public post should not request a duplicate social share."""
         payload = {
             "title": "a title",
             "slug": "a-title",
@@ -160,6 +174,7 @@ text
 
     @patch("scripts.publish_wordpress.api_request")
     def test_publishing_existing_draft_requests_social_sharing(self, request) -> None:
+        """The first draft-to-public transition should request social sharing."""
         payload = {
             "title": "a title",
             "slug": "a-title",

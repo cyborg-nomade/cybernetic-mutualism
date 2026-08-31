@@ -1,0 +1,63 @@
+{
+  "bifurcation_candidate_cells": 115,
+  "classification": {
+    "collapse_threshold": 0.1,
+    "lock_in_gap": 0.25,
+    "oscillation_threshold": 0.05,
+    "tolerance": 1e-07
+  },
+  "modal_counts": {
+    "collapse": 951,
+    "equilibrium": 621,
+    "lock-in": 544,
+    "oscillation": 206,
+    "unresolved": 15
+  },
+  "model": {
+    "equations": [
+      "A[t+1] = sigmoid(b + p*A[t] + (m-q)*C[t])",
+      "C[t+1] = sigmoid(b + p*C[t] + (m-q)*A[t])"
+    ],
+    "fixed_parameters": {
+      "mutual_enablement": 2.0,
+      "noise": 0.0,
+      "persistence": 2.0
+    }
+  },
+  "regime_transition_candidate_cells": 325,
+  "representative_classifications": {
+    "collapse": "collapse",
+    "equilibrium": "equilibrium",
+    "lock-in": "lock-in",
+    "oscillation": "oscillation"
+  },
+  "robustness": {
+    "checks": 133,
+    "failures": 0
+  },
+  "seed_disagreement_cells": 73,
+  "sweep": {
+    "cells": 2337,
+    "opposition": {
+      "maximum": 14.0,
+      "minimum": 0.0,
+      "step": 0.25
+    },
+    "seeds": [
+      7,
+      19,
+      41,
+      73,
+      101,
+      151,
+      211
+    ],
+    "steps": 600,
+    "support": {
+      "maximum": 4.0,
+      "minimum": -6.0,
+      "step": 0.25
+    },
+    "tail": 100
+  }
+}

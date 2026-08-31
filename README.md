@@ -23,13 +23,15 @@ The initial statement of the project is the
 - `research/claims.md` — falsification and revision ledger for the manifesto's
   historical, conceptual, causal, empirical, model, and normative claims.
 - `research/cases/` — comparative designs and dated case evidence.
+- `models/` — reproducible formal models, generated outputs, and model notes.
 - `posts/` — essays and shorter texts intended for publication.
 - `scripts/publish_wordpress.py` — Markdown-to-WordPress publisher.
 - `docs/PUBLISHING.md` — local and GitHub Actions publishing runbook.
 - `docs/SOCIAL.md` — Facebook automation and manual X distribution runbook.
 - `docs/STYLE.md` — prose conventions for blog-bound writing.
+- `docs/DEVELOPMENT.md` — reproducible Python environment and quality workflow.
 - `docs/WORKFLOW.md` — one-chat, one-branch, one-PR working convention.
-- `tests/` — checks for the publishing tool.
+- `tests/` — checks for models and publishing tools.
 
 ## editorial principles
 
@@ -41,12 +43,20 @@ The initial statement of the project is the
 - Preserve unresolved antinomies instead of forcing premature synthesis.
 - Keep prose readable independently of its formal models.
 
+## development
+
+```bash
+just sync
+just check
+```
+
+See the [development guide](docs/DEVELOPMENT.md) for model, test, lint, type,
+coverage, and SonarQube commands.
+
 ## publish a local dry run
 
 ```bash
-python -m venv .venv
-.venv/bin/python -m pip install -r requirements.txt
-.venv/bin/python scripts/publish_wordpress.py MANIFESTO.md --dry-run
+uv run --locked python scripts/publish_wordpress.py MANIFESTO.md --dry-run
 ```
 
 Publishing is deliberately manual and draft-first. See

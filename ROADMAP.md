@@ -32,6 +32,12 @@ Every major claim should eventually have:
 - evidence that could weaken or falsify it;
 - a record of how the claim changed during investigation.
 
+Every case, experiment, and model note should end with **Conclusions and Next
+Steps**. That section should state the result the artifact warrants now, its
+consequence for the wider theory or claim registry, and the next action most
+likely to discriminate between remaining explanations. Caveats must bound a
+conclusion, not substitute for one.
+
 The program should resist four recurrent failures:
 
 - **topological reductionism:** treating communication as the sole cause rather
@@ -520,7 +526,9 @@ The immediate cycle should produce five concrete artifacts:
    claims;
 3. [x] the essay "after dark mutualism," clarifying continuity and rupture;
 4. [x] a paired case design for print/Reformation and a difficult comparison;
-5. [ ] a minimal two-variable antinomy simulation with a visual parameter map.
+5. [x] a [minimal two-variable antinomy simulation](models/antinomy/README.md)
+   with a visual parameter map, reproducible sweep, tests, and stated failure
+   conditions.
 
 The cycle is complete when these artifacts reveal at least one necessary
 revision to the manifesto. If they reveal none, the review has probably not

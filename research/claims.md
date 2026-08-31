@@ -70,7 +70,7 @@ changes require a dated revision note.
 | [CM-01](#cm-01--antinomies-as-mutually-dependent-relations) | Antinomies as mutually dependent relations | Conceptual; causal | C1 | Needs specification |
 | [CM-02](#cm-02--mutualism-as-a-theory-of-progress) | Mutualism as a theory of progress | Historical interpretation | C1 | Needs specification |
 | [CM-03](#cm-03--historical-change-is-nonlinear-and-scale-dependent) | Historical change is nonlinear and scale-dependent | Empirical generalisation | C1 | Needs specification |
-| [CM-04](#cm-04--cybernetic-dynamics-can-formalise-antinomies) | Cybernetic dynamics can formalise antinomies | Model claim | C1 | Proposed |
+| [CM-04](#cm-04--cybernetic-dynamics-can-formalise-antinomies) | Cybernetic dynamics can formalise antinomies | Model claim | C1 | Provisionally retained |
 | [CM-05](#cm-05--no-social-order-ends-antagonism) | No social order ends antagonism | Empirical generalisation | C1 | Needs revision |
 | [CM-06](#cm-06--society-depends-on-reproduced-communication) | Society depends on reproduced communication | Conceptual; causal | C1 | Needs specification |
 | [CM-07](#cm-07--communication-topology-constrains-social-organisation) | Communication topology constrains social organisation | Causal | C1 | Under test |
@@ -189,10 +189,12 @@ changes require a dated revision note.
 
 - **Type:** Model claim.
 - **Confidence:** C1 — conjectural.
-- **Status:** Proposed.
-- **Statement:** A minimal dynamical model using feedback sign, delay,
-  saturation, and adaptation can distinguish meanings of antinomic balance by
-  producing equilibrium, oscillation, lock-in, bifurcation, or collapse.
+- **Status:** Provisionally retained within the two-variable toy model; not
+  empirically validated.
+- **Statement:** A minimal dynamical model using feedback sign, response lag,
+  and saturation can distinguish several meanings of antinomic balance by
+  producing equilibrium, oscillation, and lock-in, while separately locating
+  candidate bifurcation boundaries and an operational low-viability state.
 - **Source:** [Manifesto section 2](../MANIFESTO.md#2-antinomies-do-not-end).
 - **Unit and scope:** Initially, a two-variable model of a single specified
   antinomy; later, empirically parameterised cases.
@@ -206,10 +208,21 @@ changes require a dated revision note.
 - **Could weaken it:** No mapping from variables to observations, no new
   distinction, extreme parameter fragility, or equal performance by a simpler
   model.
-- **Evidence:** For — none assembled. Against — none assembled.
+- **Evidence:** For — the [minimal two-variable antinomy
+  model](../models/antinomy/README.md) produces distinct fixed, asymmetric, and
+  period-two attractors across a reproducible parameter sweep; a net-uncoupled
+  ablation does not reproduce lock-in or coupled oscillation at the sampled
+  support levels. Against/limits — the positive and negative cross-effects are
+  not separately identifiable, collapse depends on a declared viability
+  threshold, 15 cells remain unresolved, and no empirical case has been mapped
+  to the variables.
 - **Dependencies:** Requires a specified instance of CM-01.
 - **Revision history:** 2026-08-30 — extracted as a model-performance claim,
   not evidence that Proudhon's language was already cybernetic.
+  2026-08-31 — narrowed after the first toy model: adaptation was not required;
+  bifurcation was separated from trajectory regimes; collapse was limited to
+  an operational viability failure. Status changed to provisionally retained
+  only within the declared formal domain; confidence remains C1.
 
 ### CM-05 — no social order ends antagonism
 

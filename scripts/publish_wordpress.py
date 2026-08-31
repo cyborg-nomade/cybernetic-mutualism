@@ -18,44 +18,46 @@ from typing import Any
 
 import markdown
 
-
 DEFAULT_SITE_ID = "109675820"
 API_ROOT = "https://public-api.wordpress.com/rest/v1.1/sites"
 ALLOWED_STATUSES = {"draft", "pending", "private", "publish"}
 SLUG_PATTERN = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 LEADING_H1_PATTERN = re.compile(r"\A<h1(?:\s[^>]*)?>.*?</h1>\s*", re.DOTALL)
+HTTP_NOT_FOUND = 404
 
 
 @dataclass(frozen=True)
 class Document:
+    """Store a validated publication source and its parsed front matter."""
+
     path: Path
     metadata: dict[str, Any]
     markdown_body: str
 
 
-def load_document(path: Path) -> Document:
-    """Load TOML front matter and Markdown body from *path*."""
-    raw = path.read_text(encoding="utf-8")
-    lines = raw.splitlines()
-
-    if not lines or lines[0].strip() != "+++":
-        raise ValueError(f"{path}: expected TOML front matter starting with +++")
-
+def find_front_matter_end(path: Path, lines: list[str]) -> int:
+    """Return the line index that closes a TOML front-matter block."""
     try:
-        closing_index = next(
-            index for index, line in enumerate(lines[1:], start=1) if line.strip() == "+++"
+        return next(
+            index
+            for index, line in enumerate(lines[1:], start=1)
+            if line.strip() == "+++"
         )
     except StopIteration as error:
         raise ValueError(f"{path}: TOML front matter has no closing +++") from error
 
-    metadata = tomllib.loads("\n".join(lines[1:closing_index]))
-    body = "\n".join(lines[closing_index + 1 :]).strip() + "\n"
 
+def validate_required_text_fields(path: Path, metadata: dict[str, Any]) -> None:
+    """Require nonempty title and slug strings in publication metadata."""
     for required in ("title", "slug"):
         value = metadata.get(required)
         if not isinstance(value, str) or not value.strip():
             raise ValueError(f"{path}: front matter field {required!r} is required")
 
+
+def validate_document_metadata(path: Path, metadata: dict[str, Any]) -> None:
+    """Validate every supported publication front-matter field."""
+    validate_required_text_fields(path, metadata)
     slug = metadata["slug"]
     if not SLUG_PATTERN.fullmatch(slug):
         raise ValueError(
@@ -75,7 +77,19 @@ def load_document(path: Path) -> Document:
         ):
             raise ValueError(f"{path}: {field} must be a list of positive integers")
 
-    return Document(path=path, metadata=metadata, markdown_body=body)
+
+def load_document(path: Path) -> Document:
+    """Load and validate TOML front matter and Markdown body from *path*."""
+    raw_document = path.read_text(encoding="utf-8")
+    lines = raw_document.splitlines()
+    if not lines or lines[0].strip() != "+++":
+        raise ValueError(f"{path}: expected TOML front matter starting with +++")
+
+    closing_index = find_front_matter_end(path, lines)
+    metadata = tomllib.loads("\n".join(lines[1:closing_index]))
+    validate_document_metadata(path, metadata)
+    markdown_body = "\n".join(lines[closing_index + 1 :]).strip() + "\n"
+    return Document(path=path, metadata=metadata, markdown_body=markdown_body)
 
 
 def render_html(markdown_body: str) -> str:
@@ -83,7 +97,7 @@ def render_html(markdown_body: str) -> str:
     rendered = markdown.markdown(
         markdown_body,
         extensions=["extra", "sane_lists", "smarty"],
-        output_format="html5",
+        output_format="html",
     )
     # WordPress renders the post title separately. A leading level-one heading
     # is useful in the canonical Markdown document but would duplicate that
@@ -91,7 +105,10 @@ def render_html(markdown_body: str) -> str:
     return LEADING_H1_PATTERN.sub("", rendered, count=1)
 
 
-def build_payload(document: Document, status_override: str | None = None) -> dict[str, Any]:
+def build_payload(
+    document: Document,
+    status_override: str | None = None,
+) -> dict[str, Any]:
     """Build a WordPress.com REST API post payload."""
     status = status_override or document.metadata.get("status", "draft")
     if status not in ALLOWED_STATUSES:
@@ -144,7 +161,7 @@ def api_request(
         with urllib.request.urlopen(request, timeout=30) as response:
             return json.loads(response.read().decode("utf-8"))
     except urllib.error.HTTPError as error:
-        if error.code == 404 and not_found_ok:
+        if error.code == HTTP_NOT_FOUND and not_found_ok:
             return None
         response_body = error.read().decode("utf-8", errors="replace")
         raise RuntimeError(
@@ -178,9 +195,7 @@ def upsert_post(
         request_payload["publicize"] = (
             payload["status"] == "publish" and existing.get("status") != "publish"
         )
-        result = api_request(
-            "POST", f"{posts_url}/{post_id}", token, request_payload
-        )
+        result = api_request("POST", f"{posts_url}/{post_id}", token, request_payload)
         return "updated", result
 
     result = api_request("POST", f"{posts_url}/new", token, request_payload)
@@ -188,6 +203,7 @@ def upsert_post(
 
 
 def build_parser() -> argparse.ArgumentParser:
+    """Build the command-line parser for the publication workflow."""
     parser = argparse.ArgumentParser(
         description="Render Markdown and create or update a WordPress.com post by slug."
     )
@@ -211,6 +227,7 @@ def build_parser() -> argparse.ArgumentParser:
 
 
 def main(argv: list[str] | None = None) -> int:
+    """Run a dry render or authenticated WordPress upsert."""
     args = build_parser().parse_args(argv)
 
     try:
