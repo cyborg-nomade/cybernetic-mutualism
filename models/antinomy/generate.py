@@ -143,7 +143,9 @@ def mark_transition_candidates(rows: list[dict[str, object]]) -> None:
 
 def write_csv(path: Path, rows: list[dict[str, object]]) -> None:
     with path.open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=list(rows[0]))
+        writer = csv.DictWriter(
+            handle, fieldnames=list(rows[0]), lineterminator="\n"
+        )
         writer.writeheader()
         writer.writerows(rows)
 
@@ -152,7 +154,7 @@ def write_examples(path: Path) -> dict[str, str]:
     classifications: dict[str, str] = {}
     with path.open("w", encoding="utf-8", newline="") as handle:
         fields = ("example", "step", "autonomy", "coordination", "seed")
-        writer = csv.DictWriter(handle, fieldnames=fields)
+        writer = csv.DictWriter(handle, fieldnames=fields, lineterminator="\n")
         writer.writeheader()
         for expected, parameters in EXAMPLES.items():
             trajectory = simulate(parameters, steps=200, seed=7)
@@ -234,7 +236,9 @@ def write_robustness(path: Path) -> dict[str, int]:
                 }
             )
     with path.open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=list(rows[0]))
+        writer = csv.DictWriter(
+            handle, fieldnames=list(rows[0]), lineterminator="\n"
+        )
         writer.writeheader()
         writer.writerows(rows)
     failures = sum(
