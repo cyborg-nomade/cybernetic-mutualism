@@ -23,6 +23,7 @@ The initial statement of the project is the
 - `research/claims.md` — falsification and revision ledger for the manifesto's
   historical, conceptual, causal, empirical, model, and normative claims.
 - `research/cases/` — comparative designs and dated case evidence.
+- `models/` — reproducible formal models, generated outputs, and model notes.
 - `posts/` — essays and shorter texts intended for publication.
 - `scripts/publish_wordpress.py` — Markdown-to-WordPress publisher.
 - `docs/PUBLISHING.md` — local and GitHub Actions publishing runbook.
