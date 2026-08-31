@@ -1,15 +1,11 @@
-# repository instructions
+# Repository instructions
 
-## prose style
+## Prose style
 
-follow [the project style guide](docs/STYLE.md) for all authored prose.
+Follow [the project style guide](docs/STYLE.md) only for prose intended for
+publication on the blog, including files in `posts/`.
 
-- begin ordinary sentences with lowercase letters, including after periods.
-  retain capitals only where the term itself requires them, such as proper
-  names, acronyms, initialisms, and source-faithful quotations. write the
-  first-person pronoun as lowercase `i`.
-- do not use tables in essays or other authored prose. express comparisons and
-  mappings in paragraphs.
-- avoid topic lists unless list structure is genuinely necessary. prefer
-  connected prose.
-- use American English spelling.
+Research designs, case notes, evidence records, models, technical
+documentation, and other scientific or repository prose use conventional
+capitalization and whatever structures best fit their purpose. Tables and
+lists are permitted in those files when they improve precision or readability.

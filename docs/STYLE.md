@@ -1,26 +1,31 @@
-# prose style
+# Blog prose style
 
-this guide applies to essays, research notes, the manifesto, and other authored
-project prose. source-faithful quotations, code, identifiers, bibliographic
-titles, and proper names retain their required forms.
+This guide applies only to prose intended for publication on the blog,
+including files in `posts/`. It does not govern research designs, case notes,
+evidence records, models, technical documentation, the roadmap, or other
+scientific and repository prose. Those materials use conventional
+capitalization and whatever structures best fit their purpose.
 
-## capitalization
+Source-faithful quotations, code, identifiers, bibliographic titles, and proper
+names retain their required forms.
 
-ordinary sentences begin with lowercase letters, including sentences following
-periods and other terminal punctuation. capitals belong only where the term
-itself requires them, such as proper names, acronyms, and initialisms. the
+## Capitalization
+
+Ordinary sentences begin with lowercase letters, including sentences following
+periods and other terminal punctuation. Capitals belong only where the term
+itself requires them, such as proper names, acronyms, and initialisms. The
 first-person pronoun is lowercase *i*.
 
-## structure
+## Structure
 
-do not use tables in authored prose. rewrite comparisons and mappings as
-connected paragraphs.
+Do not use tables in blog prose. Rewrite comparisons and mappings as connected
+paragraphs.
 
-avoid topic lists unless sequence, procedure, or another genuinely list-shaped
-relationship would become less clear in prose. do not use lists merely to
+Avoid topic lists unless sequence, procedure, or another genuinely list-shaped
+relationship would become less clear in prose. Do not use lists merely to
 inventory the themes of an argument.
 
-## spelling
+## Spelling
 
-prefer American English spelling, including forms such as *organization*,
+Prefer American English spelling, including forms such as *organization*,
 *centralization*, *behavior*, *labor*, *modeled*, and *totalization*.
