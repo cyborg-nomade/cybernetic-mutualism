@@ -145,12 +145,19 @@ changes require a dated revision note.
   independent; the apparent theory is a retrospective reconstruction.
 - **Could weaken it:** Chronological close reading shows no stable developmental
   account or shows that the claimed unity depends on later terminology.
-- **Evidence:** For — the glossary lists candidate primary sources but does not
-  complete the close reading. Against — none assembled.
+- **Evidence:** For — [*After Dark
+  Mutualism*](../posts/after-dark-mutualism.md#a-correction-about-progress)
+  begins the source check: the 1853 *Philosophy of Progress* defines progress
+  against fixed and final forms. The glossary lists further candidate primary
+  sources, but the chronological close reading remains incomplete. Against —
+  the earlier dark-mutualist account incorrectly described Proudhon's view as
+  linear.
 - **Dependencies:** Affects the project's genealogy, but failure would not by
   itself refute the communication or control hypotheses.
 - **Revision history:** 2026-08-30 — extracted and restricted to a defensible
   strand rather than mutualism without qualification.
+  2026-08-31 — recorded the essay's initial source check and correction without
+  raising confidence.
 
 ### CM-03 — historical change is nonlinear and scale-dependent
 

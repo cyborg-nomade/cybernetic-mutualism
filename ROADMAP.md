@@ -511,7 +511,7 @@ The immediate cycle should produce five concrete artifacts:
    decentralisation, control, complexity, and progress;
 2. [x] a claim registry extracting the manifesto's empirical and conceptual
    claims;
-3. [ ] the essay "after dark mutualism," clarifying continuity and rupture;
+3. [x] the essay "after dark mutualism," clarifying continuity and rupture;
 4. [ ] a paired case design for print/Reformation and a difficult comparison;
 5. [ ] a minimal two-variable antinomy simulation with a visual parameter map.
 
