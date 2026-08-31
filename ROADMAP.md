@@ -520,7 +520,9 @@ The immediate cycle should produce five concrete artifacts:
    claims;
 3. [x] the essay "after dark mutualism," clarifying continuity and rupture;
 4. [x] a paired case design for print/Reformation and a difficult comparison;
-5. [ ] a minimal two-variable antinomy simulation with a visual parameter map.
+5. [x] a [minimal two-variable antinomy simulation](models/antinomy/README.md)
+   with a visual parameter map, reproducible sweep, tests, and stated failure
+   conditions.
 
 The cycle is complete when these artifacts reveal at least one necessary
 revision to the manifesto. If they reveal none, the review has probably not
