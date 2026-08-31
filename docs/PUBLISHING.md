@@ -14,7 +14,8 @@ dry run.
 
 1. A publishable Markdown file carries TOML front matter.
 2. `scripts/publish_wordpress.py` validates the metadata and renders Markdown to
-   HTML.
+   HTML, omitting a leading level-one heading because WordPress supplies the
+   post title.
 3. The publisher queries WordPress by slug.
 4. It creates the post when the slug is new or updates the matching post when it
    already exists.

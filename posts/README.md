@@ -17,6 +17,10 @@ excerpt = "optional summary"
 post text goes here.
 ```
 
+keep the level-one heading in the Markdown source so the document remains
+self-contained in the repository. the publisher omits a leading `<h1>` from the
+WordPress body because WordPress renders the front-matter title separately.
+
 Supported fields are:
 
 - `title` — required.
