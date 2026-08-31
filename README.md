@@ -26,6 +26,8 @@ The initial statement of the project is the
 - `scripts/publish_wordpress.py` — Markdown-to-WordPress publisher.
 - `docs/PUBLISHING.md` — local and GitHub Actions publishing runbook.
 - `docs/SOCIAL.md` — Facebook automation and manual X distribution runbook.
+- `docs/STYLE.md` — permanent prose, structure, capitalization, and spelling
+  conventions.
 - `docs/WORKFLOW.md` — one-chat, one-branch, one-PR working convention.
 - `tests/` — checks for the publishing tool.
 
