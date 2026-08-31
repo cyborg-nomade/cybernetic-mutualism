@@ -73,9 +73,9 @@ changes require a dated revision note.
 | [CM-04](#cm-04--cybernetic-dynamics-can-formalise-antinomies) | Cybernetic dynamics can formalise antinomies | Model claim | C1 | Proposed |
 | [CM-05](#cm-05--no-social-order-ends-antagonism) | No social order ends antagonism | Empirical generalisation | C1 | Needs revision |
 | [CM-06](#cm-06--society-depends-on-reproduced-communication) | Society depends on reproduced communication | Conceptual; causal | C1 | Needs specification |
-| [CM-07](#cm-07--communication-topology-constrains-social-organisation) | Communication topology constrains social organisation | Causal | C1 | Needs specification |
-| [CM-08](#cm-08--communication-topology-can-be-causally-prior) | Communication topology can be causally prior | Causal | C1 | Needs specification |
-| [CM-09](#cm-09--durable-phenomena-enter-a-five-domain-circuit) | Durable phenomena enter a five-domain circuit | Causal; model claim | C1 | Needs specification |
+| [CM-07](#cm-07--communication-topology-constrains-social-organisation) | Communication topology constrains social organisation | Causal | C1 | Under test |
+| [CM-08](#cm-08--communication-topology-can-be-causally-prior) | Communication topology can be causally prior | Causal | C1 | Under test |
+| [CM-09](#cm-09--durable-phenomena-enter-a-five-domain-circuit) | Durable phenomena enter a five-domain circuit | Causal; model claim | C1 | Under test |
 | [CM-10](#cm-10--substrates-define-feasible-topology-spaces) | Substrates define feasible topology spaces | Conceptual; causal | C1 | Needs revision |
 | [CM-11](#cm-11--substrate-change-pressures-inherited-institutions) | Substrate change pressures inherited institutions | Causal | C1 | Needs specification |
 | [CM-12](#cm-12--decentralisation-has-generative-and-disorganising-effects) | Decentralisation has mixed effects | Causal | C1 | Needs specification |
@@ -269,7 +269,7 @@ changes require a dated revision note.
 
 - **Type:** Causal.
 - **Confidence:** C1 — conjectural.
-- **Status:** Needs specification.
+- **Status:** Under test.
 - **Statement:** Holding relevant resources and actors sufficiently comparable,
   differences in who can communicate with whom, through which paths and at what
   cost, change which forms of coordination are feasible and sustainable.
@@ -289,15 +289,21 @@ changes require a dated revision note.
   explanatory power, or predicted infeasible organisations persist without
   hidden channels.
 - **Evidence:** For — none assembled. Against — none assembled.
+- **Active test:** [Print, Reformation, and institutional
+  selection](cases/print-reformation-paired-design.md) compares the
+  German-speaking Empire with print-rich northern Italy and separates
+  production, reproduction, reception, and control layers.
 - **Dependencies:** Requires the operational definitions in
   [the glossary](glossary.md#topology).
 - **Revision history:** 2026-08-30 — extracted.
+  2026-08-31 — moved under test by the paired print/Reformation case design;
+  confidence remains C1 until evidence is assembled.
 
 ### CM-08 — communication topology can be causally prior
 
 - **Type:** Causal.
 - **Confidence:** C1 — conjectural.
-- **Status:** Needs specification.
+- **Status:** Under test.
 - **Statement:** In at least some historical transitions, a change in
   communication substrate or topology is a necessary earlier constraint on a
   change in productive or political organisation, and explains its timing or
@@ -320,16 +326,20 @@ changes require a dated revision note.
 - **Evidence:** For — none assembled. Against — the manifesto itself notes that
   productive and scientific arrangements can generate communication
   technologies; no cases have yet adjudicated direction.
+- **Active test:** [Print, Reformation, and institutional
+  selection](cases/print-reformation-paired-design.md) preregisters
+  topology-first, state-first, production-first, and coupled sequences.
 - **Dependencies:** Stronger than CM-07; CM-07 could survive this claim's
   rejection.
 - **Revision history:** 2026-08-30 — narrowed from general causal priority to
   priority in at least some reconstructable transitions.
+  2026-08-31 — moved under test without raising confidence.
 
 ### CM-09 — durable phenomena enter a five-domain circuit
 
 - **Type:** Causal; model claim.
 - **Confidence:** C1 — conjectural.
-- **Status:** Needs specification.
+- **Status:** Under test.
 - **Statement:** For some durable social phenomena, a coupled model of
   communication topology (`T`), production (`P`), artefacts (`A`), worldview
   (`W`), and political organisation (`S`) explains timing, variation, or regime
@@ -348,9 +358,13 @@ changes require a dated revision note.
 - **Could weaken it:** Domains cannot be assigned reliably, omitted-domain
   models perform as well, or flexible couplings explain every possible result.
 - **Evidence:** For — none assembled. Against — none assembled.
+- **Active test:** [Print, Reformation, and institutional
+  selection](cases/print-reformation-paired-design.md) specifies five
+  same-ledger narratives and reduced baselines for the paired cases.
 - **Dependencies:** Does not require CM-08; causal priority can differ by case.
 - **Revision history:** 2026-08-30 — narrowed from "most durable human
   phenomena" to a comparative model claim about some specified phenomena.
+  2026-08-31 — moved under test without raising confidence.
 
 ### CM-10 — substrates define feasible topology spaces
 
