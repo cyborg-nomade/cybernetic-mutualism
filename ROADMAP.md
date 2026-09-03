@@ -542,11 +542,13 @@ available warrant. The [dated manifesto
 revision](MANIFESTO.md#2-antinomies-do-not-end) now states a bounded,
 falsifiable tendency. No claim confidence was raised by closing the cycle.
 
-## Second Research Cycle — Proposed
+## Second Research Cycle — Active
 
-**Status:** Proposed on 2026-09-01; not an empirical result. The gateway
-decision record and manifesto wording are present for review, while all new
-essay, robustness, preregistration, and evidence deliverables remain pending.
+**Status:** Proposed on 2026-09-01 and activated on 2026-09-03 after review and
+acceptance of the first-cycle decision record and bounded manifesto revision.
+Activation is a workflow decision, not an empirical result. The essay is in
+review draft; robustness, preregistration, and evidence deliverables remain
+pending.
 
 ### Purpose
 
@@ -559,7 +561,7 @@ topological priority as given.
 
 ### Ordered Deliverables and Dependencies
 
-1. **Decision gate — first-cycle synthesis and bounded manifesto revision.**
+1. [x] **Decision gate — first-cycle synthesis and bounded manifesto revision.**
    Review the [first-cycle decision
    record](research/decisions/first-cycle-synthesis.md) and its dated revision
    to [manifesto section 2](MANIFESTO.md#2-antinomies-do-not-end). Acceptance
@@ -567,7 +569,8 @@ topological priority as given.
    later item. Tests [CM-04](research/claims.md#cm-04--cybernetic-dynamics-can-formalise-antinomies)
    and [CM-05](research/claims.md#cm-05--social-orders-can-regenerate-antagonism) only
    at the level of warranted scope; it supplies no empirical support.
-2. **Public essay — “Antinomies Are Dynamical Systems.”** Explain the
+2. [ ] **Public essay — [“Antinomies Are Dynamical
+   Systems”](posts/antinomies-are-dynamical-systems.md).** Explain the
    conceptual distinction among persistent relation, equilibrium, oscillation,
    lock-in, and collapse; report the toy model's negative and limiting findings;
    and distinguish the project's reconstruction from claims about Proudhon.
@@ -575,14 +578,14 @@ topological priority as given.
    addresses [CM-01](research/claims.md#cm-01--antinomies-as-mutually-dependent-relations),
    [CM-04](research/claims.md#cm-04--cybernetic-dynamics-can-formalise-antinomies),
    and [CM-05](research/claims.md#cm-05--social-orders-can-regenerate-antagonism).
-3. **Two-variable model robustness package.** Replace symmetric coupling with
+3. [ ] **Two-variable model robustness package.** Replace symmetric coupling with
    separate directional effects, compare synchronous and asynchronous updates,
    and reproduce the sweep with at least one alternative bounded response
    function. Predefine which regime distinctions must survive, report boundary
    movement and failures, and retain an uncoupled ablation. This follows item 1
    and can run independently of the essay and print case. It directly tests
    [CM-04](research/claims.md#cm-04--cybernetic-dynamics-can-formalise-antinomies).
-4. **One preregistered empirical antinomy.** Name an institution and observation
+4. [ ] **One preregistered empirical antinomy.** Name an institution and observation
    window; define observable autonomy and coordination proxies; specify directed
    cross-effects; and compare the coupled account with uncoupled and
    common-shock rivals. Design work may begin after item 1 in parallel with the
@@ -590,7 +593,7 @@ topological priority as given.
    final model-comparison rules must incorporate item 3's robustness decision.
    It tests [CM-01](research/claims.md#cm-01--antinomies-as-mutually-dependent-relations)
    and [CM-04](research/claims.md#cm-04--cybernetic-dynamics-can-formalise-antinomies).
-5. **First print/Reformation evidence pass.** Freeze the jurisdiction list,
+5. [ ] **First print/Reformation evidence pass.** Freeze the jurisdiction list,
    outcome codebook, phase boundaries, and missing-data rules; build the dated
    ordinance and censorship ledger; and complete Saxony and Venice process
    traces. Decide whether the catalogs warrant a reproducible network dataset
@@ -602,7 +605,7 @@ topological priority as given.
 
 ### Completion and Decision Criteria
 
-The proposed cycle is complete only when all five deliverables have reviewable
+The second cycle is complete only when all five deliverables have reviewable
 artifacts and a second-cycle decision record makes the following decisions:
 
 - retain, narrow, or reject CM-04 according to whether its regime distinctions

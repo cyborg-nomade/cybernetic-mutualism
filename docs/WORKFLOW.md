@@ -2,36 +2,43 @@
 
 ## unit of work
 
-Each research item is developed in its own chat. This normally includes every
-item in the roadmap, while allowing separate chats for editorial,
-infrastructural, or exploratory work that falls outside the roadmap.
+Each research cycle is coordinated in its own chat. The chat retains the
+decisions, dependencies, and handoffs that connect the cycle's individual
+research items. Separate chats remain appropriate for editorial,
+infrastructural, or exploratory work outside the active cycle.
 
-One chat corresponds to one feature branch and one pull request:
+Branches and pull requests remain item-sized:
 
 ```text
-chat → feature branch → commits → pull request → review and merge
+cycle chat → item branch → commits → pull request → review and merge
+           → next item branch → commits → pull request → review and merge
 ```
 
-This keeps the conversation, research scope, repository history, and review
-boundary aligned.
+This keeps the cycle's reasoning in one conversation without forcing models,
+essays, evidence passes, and decision records into one oversized review.
 
 ## lifecycle
 
-1. Start a new chat with a clearly scoped outcome.
-2. Update local `main` from `origin/main` before creating the branch.
-3. Create a descriptive feature branch for that chat.
-4. Keep all of the chat's deliverables on that branch, including texts, sources,
+1. Start a new chat for a declared research cycle and record its completion and
+   decision criteria.
+2. Select the next item whose dependencies are satisfied.
+3. Update local `main` from `origin/main` before creating the item branch.
+4. Create a descriptive feature branch for that item.
+5. Keep the item's deliverables on that branch, including texts, sources,
    models, code, data, and documentation.
-5. Validate the deliverables in proportion to their form: check citations and
+6. Validate the deliverables in proportion to their form: check citations and
    claims, run tests for code, and inspect rendered publication drafts.
-6. Commit coherent milestones as the work develops.
-7. End the chat by opening a pull request against `main` that summarizes the
+7. Commit coherent milestones as the work develops.
+8. Open a pull request against `main` that summarizes the
    deliverables, unresolved questions, and verification performed.
-8. The project owner reviews and merges the pull request.
+9. The project owner reviews and merges the pull request.
+10. Return to the cycle chat, update `main`, and select the next unblocked item.
+11. Close the chat only when the cycle's decision record applies its declared
+    completion criteria or explicitly records why the cycle stopped.
 
-Follow-up work discovered during a chat may remain in the same branch when it is
-necessary to complete that chat's outcome. A materially separate research item
-belongs in a new chat and feature branch.
+Follow-up work may remain in the same branch when it is necessary to complete
+that item's outcome. A materially separate item normally receives a new branch
+and pull request while remaining in the same cycle chat.
 
 ## branch names
 
@@ -51,6 +58,6 @@ name mechanically.
 ## merging
 
 Do not commit new project work directly to `main`. After a pull request is
-merged, update local `main` before starting the next chat's branch. Delete merged
+merged, update local `main` before starting the next item branch. Delete merged
 feature branches when convenient; the pull request and Git history preserve the
 record.
