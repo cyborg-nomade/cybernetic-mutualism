@@ -10,9 +10,10 @@ CONCLUSION_HEADING = "## Conclusions and Next Steps"
 
 
 def find_research_artifacts() -> list[Path]:
-    """Return current case, experiment, and model-note Markdown files."""
+    """Return current case, decision, experiment, and model-note files."""
     artifact_patterns = (
         "research/cases/*.md",
+        "research/decisions/*.md",
         "research/experiments/*.md",
         "models/**/README.md",
     )
@@ -38,6 +39,29 @@ class ResearchArtifactTests(unittest.TestCase):
                 self.assertGreaterEqual(conclusion_position, 0)
                 later_major_heading = document.find("\n## ", conclusion_position + 1)
                 self.assertEqual(later_major_heading, -1)
+
+    def test_cycle_status_and_decision_links_are_registered(self) -> None:
+        """Cycle labels should retain their decision record and proposal status."""
+        roadmap = (REPOSITORY_ROOT / "ROADMAP.md").read_text(encoding="utf-8")
+        claims = (REPOSITORY_ROOT / "research/claims.md").read_text(encoding="utf-8")
+
+        self.assertIn("## First Research Cycle — Complete", roadmap)
+        self.assertIn("## Second Research Cycle — Proposed", roadmap)
+        self.assertIn(
+            "(research/decisions/first-cycle-synthesis.md)",
+            roadmap,
+        )
+        self.assertIn("(decisions/first-cycle-synthesis.md)", claims)
+
+    def test_manifesto_records_the_bounded_first_cycle_revision(self) -> None:
+        """The published manifesto should make its dated correction visible."""
+        manifesto = (REPOSITORY_ROOT / "MANIFESTO.md").read_text(encoding="utf-8")
+
+        self.assertIn("revision note — 2026-09-01", manifesto)
+        self.assertNotIn(
+            "every order generates new asymmetries and new counterforces",
+            manifesto,
+        )
 
 
 if __name__ == "__main__":

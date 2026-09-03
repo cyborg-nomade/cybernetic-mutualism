@@ -71,7 +71,7 @@ changes require a dated revision note.
 | [CM-02](#cm-02--mutualism-as-a-theory-of-progress) | Mutualism as a theory of progress | Historical interpretation | C1 | Needs specification |
 | [CM-03](#cm-03--historical-change-is-nonlinear-and-scale-dependent) | Historical change is nonlinear and scale-dependent | Empirical generalisation | C1 | Needs specification |
 | [CM-04](#cm-04--cybernetic-dynamics-can-formalise-antinomies) | Cybernetic dynamics can formalise antinomies | Model claim | C1 | Provisionally retained |
-| [CM-05](#cm-05--no-social-order-ends-antagonism) | No social order ends antagonism | Empirical generalisation | C1 | Needs revision |
+| [CM-05](#cm-05--social-orders-can-regenerate-antagonism) | Social orders can regenerate antagonism | Empirical generalisation | C1 | Needs specification |
 | [CM-06](#cm-06--society-depends-on-reproduced-communication) | Society depends on reproduced communication | Conceptual; causal | C1 | Needs specification |
 | [CM-07](#cm-07--communication-topology-constrains-social-organisation) | Communication topology constrains social organisation | Causal | C1 | Under test |
 | [CM-08](#cm-08--communication-topology-can-be-causally-prior) | Communication topology can be causally prior | Causal | C1 | Under test |
@@ -224,15 +224,14 @@ changes require a dated revision note.
   an operational viability failure. Status changed to provisionally retained
   only within the declared formal domain; confidence remains C1.
 
-### CM-05 — no social order ends antagonism
+### CM-05 — social orders can regenerate antagonism
 
 - **Type:** Empirical generalisation.
 - **Confidence:** C1 — conjectural.
-- **Status:** Needs revision.
-- **Statement:** The manifesto's universal assertion that there is no final
-  decentralisation, plan, class, market, or revolution should be replaced by a
-  bounded hypothesis: durable social orders tend to generate new asymmetries,
-  conflicts, and counterforces under identifiable conditions.
+- **Status:** Needs specification.
+- **Statement:** Durable social orders can generate new asymmetries, conflicts,
+  and counterforces when differentiated positions accumulate advantages,
+  environments change, or prior controls provoke organised responses.
 - **Source:** [Manifesto section 2](../MANIFESTO.md#2-antinomies-do-not-end).
 - **Unit and scope:** Institutional orders observed over a period long enough
   for distributional and organisational after-effects to appear.
@@ -247,11 +246,17 @@ changes require a dated revision note.
 - **Could weaken it:** Long-duration cases retain low asymmetry and no organised
   counterforce, or the mechanism cannot distinguish recurrence from the trivial
   statement that change continues.
-- **Evidence:** For — none assembled. Against — none assembled.
+- **Evidence:** For — none assembled. Against — none assembled. The
+  [first-cycle synthesis](decisions/first-cycle-synthesis.md) is a wording and
+  scope decision, not empirical evidence for the bounded claim.
 - **Dependencies:** Draws on CM-01 but is a separate historical
   generalisation.
 - **Revision history:** 2026-08-30 — marked **needs revision** because the
   manifesto's absolute form is not falsifiable and groups unlike institutions.
+  2026-09-01 — replaced the universal manifesto assertion with the bounded
+  statement above; status changed to **needs specification** and confidence
+  remains C1. See the [first-cycle decision
+  record](decisions/first-cycle-synthesis.md).
 
 ### CM-06 — society depends on reproduced communication
 
@@ -823,7 +828,7 @@ true. They come primarily from [manifesto section
 8. Keep descriptive recurrence, functional performance, and normative
    justification separate.
 
-## revision queue exposed by the first extraction
+## revision queue after the first-cycle synthesis
 
 The registry itself has already found claims that should not remain in their
 current manifesto form:
@@ -832,10 +837,12 @@ current manifesto form:
    platform capture is an institutional and ownership regime on digital
    substrates, not a substrate equivalent to speech, writing, print, broadcast,
    or digital networks.
-2. **Several universal statements need domains.** "Antinomies do not end," "no
-   final class," and "most durable human phenomena" currently resist failure by
-   ranging over unspecified cases and times. CM-01, CM-05, and CM-09 supply
-   bounded replacements.
+2. **Several universal statements need domains.** The first-cycle
+   [decision record](decisions/first-cycle-synthesis.md) resolved CM-05's
+   manifesto wording by replacing the universal recurrence claim with a
+   bounded hypothesis, but its measures and comparison class still need
+   specification. "Most durable human phenomena" remains too broad; CM-01 and
+   CM-09 supply bounded research formulations.
 3. **Causal priority must be comparative.** CM-08 replaces a general hierarchy
    with case-level rival timelines that can favour communication-first,
    production-first, state-first, or reciprocal explanations.

@@ -516,7 +516,11 @@ posts/
 - `models/` should contain reproducible code and results.
 - `decisions/` should record major conceptual changes and their reasons.
 
-## first research cycle
+## First Research Cycle — Complete
+
+**Status:** Complete as of 2026-09-01. The completion decision is recorded in
+the [first-cycle synthesis and decision
+record](research/decisions/first-cycle-synthesis.md).
 
 The immediate cycle should produce five concrete artifacts:
 
@@ -530,6 +534,91 @@ The immediate cycle should produce five concrete artifacts:
    with a visual parameter map, reproducible sweep, tests, and stated failure
    conditions.
 
-The cycle is complete when these artifacts reveal at least one necessary
-revision to the manifesto. If they reveal none, the review has probably not
-been adversarial enough.
+The cycle's completion condition was not the checked artifact list alone. It
+required the artifacts to reveal at least one necessary manifesto revision.
+That condition was met: the synthesis found that section 2's assertion that
+every order generates new asymmetries and counterforces exceeded CM-05's
+available warrant. The [dated manifesto
+revision](MANIFESTO.md#2-antinomies-do-not-end) now states a bounded,
+falsifiable tendency. No claim confidence was raised by closing the cycle.
+
+## Second Research Cycle — Proposed
+
+**Status:** Proposed on 2026-09-01; not an empirical result. The gateway
+decision record and manifesto wording are present for review, while all new
+essay, robustness, preregistration, and evidence deliverables remain pending.
+
+### Purpose
+
+Test whether the first cycle's formal antinomy distinctions survive less
+restrictive assumptions and can be connected to observable institutional
+relations, while beginning the evidence needed to adjudicate communication-
+first explanations. The cycle must preserve uncoupled, common-shock,
+state-first, and production-first rivals instead of treating coupling or
+topological priority as given.
+
+### Ordered Deliverables and Dependencies
+
+1. **Decision gate — first-cycle synthesis and bounded manifesto revision.**
+   Review the [first-cycle decision
+   record](research/decisions/first-cycle-synthesis.md) and its dated revision
+   to [manifesto section 2](MANIFESTO.md#2-antinomies-do-not-end). Acceptance
+   closes the first cycle and fixes the bounded CM-05 language used by every
+   later item. Tests [CM-04](research/claims.md#cm-04--cybernetic-dynamics-can-formalise-antinomies)
+   and [CM-05](research/claims.md#cm-05--social-orders-can-regenerate-antagonism) only
+   at the level of warranted scope; it supplies no empirical support.
+2. **Public essay — “Antinomies Are Dynamical Systems.”** Explain the
+   conceptual distinction among persistent relation, equilibrium, oscillation,
+   lock-in, and collapse; report the toy model's negative and limiting findings;
+   and distinguish the project's reconstruction from claims about Proudhon.
+   This follows item 1 but can proceed independently of items 3 and 5. It
+   addresses [CM-01](research/claims.md#cm-01--antinomies-as-mutually-dependent-relations),
+   [CM-04](research/claims.md#cm-04--cybernetic-dynamics-can-formalise-antinomies),
+   and [CM-05](research/claims.md#cm-05--social-orders-can-regenerate-antagonism).
+3. **Two-variable model robustness package.** Replace symmetric coupling with
+   separate directional effects, compare synchronous and asynchronous updates,
+   and reproduce the sweep with at least one alternative bounded response
+   function. Predefine which regime distinctions must survive, report boundary
+   movement and failures, and retain an uncoupled ablation. This follows item 1
+   and can run independently of the essay and print case. It directly tests
+   [CM-04](research/claims.md#cm-04--cybernetic-dynamics-can-formalise-antinomies).
+4. **One preregistered empirical antinomy.** Name an institution and observation
+   window; define observable autonomy and coordination proxies; specify directed
+   cross-effects; and compare the coupled account with uncoupled and
+   common-shock rivals. Design work may begin after item 1 in parallel with the
+   essay, but preregistration must be frozen before evidence collection and its
+   final model-comparison rules must incorporate item 3's robustness decision.
+   It tests [CM-01](research/claims.md#cm-01--antinomies-as-mutually-dependent-relations)
+   and [CM-04](research/claims.md#cm-04--cybernetic-dynamics-can-formalise-antinomies).
+5. **First print/Reformation evidence pass.** Freeze the jurisdiction list,
+   outcome codebook, phase boundaries, and missing-data rules; build the dated
+   ordinance and censorship ledger; and complete Saxony and Venice process
+   traces. Decide whether the catalogs warrant a reproducible network dataset
+   or only bounded descriptive comparisons. This follows item 1 and can proceed
+   independently of items 2 through 4. It tests
+   [CM-07](research/claims.md#cm-07--communication-topology-constrains-social-organisation),
+   [CM-08](research/claims.md#cm-08--communication-topology-can-be-causally-prior),
+   and [CM-09](research/claims.md#cm-09--durable-phenomena-enter-a-five-domain-circuit).
+
+### Completion and Decision Criteria
+
+The proposed cycle is complete only when all five deliverables have reviewable
+artifacts and a second-cycle decision record makes the following decisions:
+
+- retain, narrow, or reject CM-04 according to whether its regime distinctions
+  survive asymmetric coupling, asynchronous updates, and an alternative
+  response function under prespecified criteria;
+- retain CM-05 at C1 or revise it again, without treating the recurrence of one
+  modeled regime as evidence for a universal historical tendency;
+- accept the empirical antinomy preregistration only if autonomy,
+  coordination, reciprocal effects, uncoupled dynamics, and common shocks have
+  observable and discriminating specifications fixed before evidence;
+- classify the print/Reformation evidence path as a reproducible network study
+  or a bounded process-tracing comparison, and record what the first evidence
+  pass warrants for CM-07 through CM-09; and
+- state which findings change the wider programme, which claims remain at C1,
+  and the next action most likely to discriminate among surviving rivals.
+
+Publication of the essay or execution of a model sweep alone does not complete
+the cycle. Confidence may rise only when linked evidence meets the registry's
+declared standard; registration of this proposal raises none.

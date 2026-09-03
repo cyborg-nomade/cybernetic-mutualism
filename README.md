@@ -22,6 +22,8 @@ The initial statement of the project is the
   project-specific definitions for the research program.
 - `research/claims.md` — falsification and revision ledger for the manifesto's
   historical, conceptual, causal, empirical, model, and normative claims.
+- `research/decisions/` — dated synthesis records for major conceptual and
+  programme decisions.
 - `research/cases/` — comparative designs and dated case evidence.
 - `models/` — reproducible formal models, generated outputs, and model notes.
 - `posts/` — essays and shorter texts intended for publication.

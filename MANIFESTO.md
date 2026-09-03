@@ -57,10 +57,19 @@ delay, saturation, adaptation, and error correction give formal languages to
 what Proudhon described philosophically. equilibrium, when it exists, is an
 activity rather than a destination. stability is reproduced, not possessed.
 
-there is therefore no final decentralisation, final central plan, final class,
-final market, or final revolution. every order generates new asymmetries and new
-counterforces. the disappearance of one contradiction changes the field in
-which others develop.
+there is no reason to assume a final decentralisation, final central plan,
+final class, final market, or final revolution. durable orders can generate new
+asymmetries and counterforces when positions accumulate advantages,
+environments change, or prior controls provoke organized responses. this is a
+historical hypothesis, not a universal law: some orders may remove a specified
+asymmetry without replacing it, and external shocks may explain recurrence
+better. the disappearance of one contradiction can change the field in which
+others develop.
+
+> revision note — 2026-09-01: the first research cycle replaced the universal
+> assertion that every order generates new asymmetries and counterforces with
+> the bounded formulation above. the decision and limits are recorded in the
+> [first-cycle synthesis](research/decisions/first-cycle-synthesis.md).
 
 ## 3. communication is material
 
