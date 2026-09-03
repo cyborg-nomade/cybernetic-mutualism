@@ -1,8 +1,11 @@
 +++
 title = "antinomies are dynamical systems"
 slug = "antinomies-are-dynamical-systems"
-status = "draft"
+status = "publish"
 excerpt = "what a two-variable model clarifies about equilibrium, oscillation, lock-in, collapse, and the limits of formalizing social opposition"
+published_at = "2026-09-03"
+canonical_url = "https://antinomiaimediata.wordpress.com/2026/09/03/antinomies-are-dynamical-systems/"
+wordpress_post_id = 4284
 +++
 
 # antinomies are dynamical systems

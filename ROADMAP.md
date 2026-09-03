@@ -546,9 +546,8 @@ falsifiable tendency. No claim confidence was raised by closing the cycle.
 
 **Status:** Proposed on 2026-09-01 and activated on 2026-09-03 after review and
 acceptance of the first-cycle decision record and bounded manifesto revision.
-Activation is a workflow decision, not an empirical result. The essay is in
-review draft; robustness, preregistration, and evidence deliverables remain
-pending.
+Activation is a workflow decision, not an empirical result. The public essay is
+complete; robustness, preregistration, and evidence deliverables remain pending.
 
 ### Purpose
 
@@ -569,7 +568,7 @@ topological priority as given.
    later item. Tests [CM-04](research/claims.md#cm-04--cybernetic-dynamics-can-formalise-antinomies)
    and [CM-05](research/claims.md#cm-05--social-orders-can-regenerate-antagonism) only
    at the level of warranted scope; it supplies no empirical support.
-2. [ ] **Public essay — [“Antinomies Are Dynamical
+2. [x] **Public essay — [“Antinomies Are Dynamical
    Systems”](posts/antinomies-are-dynamical-systems.md).** Explain the
    conceptual distinction among persistent relation, equilibrium, oscillation,
    lock-in, and collapse; report the toy model's negative and limiting findings;
