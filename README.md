@@ -32,7 +32,8 @@ The initial statement of the project is the
 - `docs/SOCIAL.md` — Facebook automation and manual X distribution runbook.
 - `docs/STYLE.md` — prose conventions for blog-bound writing.
 - `docs/DEVELOPMENT.md` — reproducible Python environment and quality workflow.
-- `docs/WORKFLOW.md` — one-chat, one-branch, one-PR working convention.
+- `docs/WORKFLOW.md` — cycle-scoped chats with item-scoped branches and pull
+  requests.
 - `tests/` — checks for models and publishing tools.
 
 ## editorial principles

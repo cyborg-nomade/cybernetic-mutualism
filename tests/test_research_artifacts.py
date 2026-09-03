@@ -46,12 +46,16 @@ class ResearchArtifactTests(unittest.TestCase):
         claims = (REPOSITORY_ROOT / "research/claims.md").read_text(encoding="utf-8")
 
         self.assertIn("## First Research Cycle — Complete", roadmap)
-        self.assertIn("## Second Research Cycle — Proposed", roadmap)
+        self.assertIn("## Second Research Cycle — Active", roadmap)
         self.assertIn(
             "(research/decisions/first-cycle-synthesis.md)",
             roadmap,
         )
         self.assertIn("(decisions/first-cycle-synthesis.md)", claims)
+        self.assertIn(
+            "(posts/antinomies-are-dynamical-systems.md)",
+            roadmap,
+        )
 
     def test_manifesto_records_the_bounded_first_cycle_revision(self) -> None:
         """The published manifesto should make its dated correction visible."""
