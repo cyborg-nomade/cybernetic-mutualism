@@ -67,7 +67,7 @@ changes require a dated revision note.
 
 | ID | Short name | Type | Confidence | Status |
 | --- | --- | --- | --- | --- |
-| [CM-01](#cm-01--antinomies-as-mutually-dependent-relations) | Antinomies as mutually dependent relations | Conceptual; causal | C1 | Needs specification |
+| [CM-01](#cm-01--antinomies-as-mutually-dependent-relations) | Antinomies as mutually dependent relations | Conceptual; causal | C1 | Under test: registered design |
 | [CM-02](#cm-02--mutualism-as-a-theory-of-progress) | Mutualism as a theory of progress | Historical interpretation | C1 | Needs specification |
 | [CM-03](#cm-03--historical-change-is-nonlinear-and-scale-dependent) | Historical change is nonlinear and scale-dependent | Empirical generalisation | C1 | Needs specification |
 | [CM-04](#cm-04--cybernetic-dynamics-can-formalise-antinomies) | Cybernetic dynamics can formalise antinomies | Model claim | C1 | Provisionally retained in narrowed domain |
@@ -98,7 +98,7 @@ changes require a dated revision note.
 
 - **Type:** Conceptual; causal.
 - **Confidence:** C1 — conjectural.
-- **Status:** Needs specification.
+- **Status:** Under test: empirical design registered; collection not begun.
 - **Statement:** Some opposed social tendencies are co-constitutive: each helps
   produce, enable, or delimit the other within a shared relation, so removing
   either pole transforms the relation rather than finally resolving it.
@@ -119,9 +119,17 @@ changes require a dated revision note.
   removable poles with an unchanged relation, or no discriminating observation
   between antinomy and ordinary interaction.
 - **Evidence:** For — none assembled. Against — none assembled.
+- **Active test:** The [ASF autonomy/coordination
+  preregistration](cases/asf-autonomy-coordination-preregistration.md) specifies
+  four project–foundation relationships in 2023–2025, observable decision
+  rights and commitments, directed mechanisms, and uncoupled, common-shock,
+  and one-way rivals. Its source and coding gates may prevent identification.
+  Registration is not evidence, and acceptance remains subject to review.
 - **Dependencies:** Grounds CM-04, CM-05, CM-12, and CM-13.
 - **Revision history:** 2026-08-30 — extracted; wording narrowed from all
   manifesto oppositions to **some** named social tendencies.
+  2026-09-04 — registered the ASF candidate test without changing the statement
+  or C1 confidence. No systematic case evidence has been collected.
 
 ### CM-02 — mutualism as a theory of progress
 
@@ -225,6 +233,11 @@ changes require a dated revision note.
   asymmetric synchronous arctangent variants retain some oscillatory seed
   runs but fail modal-region survival. Uncoupled controls remain free of
   lock-in and oscillation; reference collapse labels remain threshold-sensitive.
+- **Active empirical design:** The [ASF
+  preregistration](cases/asf-autonomy-coordination-preregistration.md) tests
+  whether directed mechanisms can be mapped to public institutional records
+  and discriminated from simpler accounts. It does not fit or validate the toy
+  model's parameters or attractors. No case evidence is supplied by registration.
 - **Dependencies:** Requires a specified instance of CM-01.
 - **Revision history:** 2026-08-30 — extracted as a model-performance claim,
   not evidence that Proudhon's language was already cybernetic.

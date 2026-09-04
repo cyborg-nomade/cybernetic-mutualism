@@ -547,8 +547,10 @@ falsifiable tendency. No claim confidence was raised by closing the cycle.
 **Status:** Proposed on 2026-09-01 and activated on 2026-09-03 after review and
 acceptance of the first-cycle decision record and bounded manifesto revision.
 Activation is a workflow decision, not an empirical result. The public essay is
-complete. The robustness package is complete as a reviewable artifact, with
-CM-04 narrowed at C1; preregistration and evidence deliverables remain pending.
+complete. The robustness package is merged, with CM-04 narrowed at C1. The
+empirical preregistration is complete as a reviewable packet; its acceptance,
+the print/Reformation evidence pass, and the cycle-close synthesis remain
+pending. No ASF case evidence has been collected under the new protocol.
 
 ### Purpose
 
@@ -589,7 +591,8 @@ topological priority as given.
    The [item 3 decision](research/decisions/antinomy-structural-robustness.md)
    narrows CM-04 at C1: equilibrium, lock-in, and operational collapse survive
    all 18 tested variants; period-two oscillation survives only four.
-4. [ ] **One preregistered empirical antinomy.** Name an institution and observation
+4. [x] **[One preregistered empirical
+   antinomy](research/cases/asf-autonomy-coordination-preregistration.md).** Name an institution and observation
    window; define observable autonomy and coordination proxies; specify directed
    cross-effects; and compare the coupled account with uncoupled and
    common-shock rivals. Design work may begin after item 1 in parallel with the
@@ -597,6 +600,12 @@ topological priority as given.
    final model-comparison rules must incorporate item 3's robustness decision.
    It tests [CM-01](research/claims.md#cm-01--antinomies-as-mutually-dependent-relations)
    and [CM-04](research/claims.md#cm-04--cybernetic-dynamics-can-formalise-antinomies).
+   The 2026-09-04 packet fixes four ASF project–foundation relationships over
+   2023–2025, event-level proxies and rival accounts, source/coding gates, and
+   an exposure audit. This is a retrospective public-record study registered
+   before systematic evidence extraction, not an empirical result or a
+   numerical calibration of the toy model. The packet awaits review; evidence
+   collection is a separate subsequent work item.
 5. [ ] **First print/Reformation evidence pass.** Freeze the jurisdiction list,
    outcome codebook, phase boundaries, and missing-data rules; build the dated
    ordinance and censorship ledger; and complete Saxony and Venice process

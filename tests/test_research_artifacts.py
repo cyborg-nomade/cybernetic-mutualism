@@ -2,7 +2,9 @@
 
 from __future__ import annotations
 
+import tomllib
 import unittest
+from datetime import timedelta
 from pathlib import Path
 
 REPOSITORY_ROOT = Path(__file__).resolve().parents[1]
@@ -65,6 +67,72 @@ class ResearchArtifactTests(unittest.TestCase):
         self.assertNotIn(
             "every order generates new asymmetries and new counterforces",
             manifesto,
+        )
+
+    def test_empirical_registration_packet_is_linked_and_complete(self) -> None:
+        """Keep the frozen case, codebook, exposure audit, and decision connected."""
+        directory = REPOSITORY_ROOT / "research/cases"
+        manifest = tomllib.loads(
+            (directory / "asf-autonomy-coordination-registration.toml").read_text()
+        )
+        expected_project_count = 4
+        self.assertEqual(len(manifest["project_ids"]), expected_project_count)
+        self.assertEqual(len(set(manifest["project_ids"])), expected_project_count)
+        for key in ("protocol", "codebook", "source_audit", "structural_decision"):
+            self.assertTrue((directory / manifest[key]).is_file(), key)
+        for path in ("ROADMAP.md", "research/claims.md"):
+            self.assertIn(manifest["protocol"], (REPOSITORY_ROOT / path).read_text())
+        protocol = (directory / manifest["protocol"]).read_text()
+        for key in ("codebook", "source_audit"):
+            self.assertIn(manifest[key], protocol)
+
+    def test_empirical_registration_windows_cover_all_response_horizons(self) -> None:
+        """Prevent right-censoring the longest prespecified response sensitivity."""
+        manifest = tomllib.loads(
+            (
+                REPOSITORY_ROOT
+                / "research/cases/asf-autonomy-coordination-registration.toml"
+            ).read_text()
+        )
+        self.assertLess(manifest["baseline_start"], manifest["baseline_end"])
+        self.assertLess(manifest["baseline_end"], manifest["primary_start"])
+        self.assertLess(manifest["primary_start"], manifest["primary_end"])
+        longest_horizon = max(manifest["sensitivity_horizons_days"])
+        self.assertLessEqual(
+            manifest["primary_end"] + timedelta(days=longest_horizon),
+            manifest["followup_end"],
+        )
+        self.assertLess(manifest["followup_end"], manifest["source_publication_cutoff"])
+        self.assertLess(
+            manifest["source_publication_cutoff"], manifest["registered_on"]
+        )
+        start, end = manifest["primary_start"], manifest["primary_end"]
+        actual_months = (end.year - start.year) * 12 + end.month - start.month + 1
+        self.assertEqual(manifest["primary_months"], actual_months)
+        self.assertLessEqual(manifest["source_coverage_months_required"], actual_months)
+        quarters = manifest["primary_months"] // 3
+        self.assertEqual(
+            manifest["project_quarter_blocks"],
+            quarters * len(manifest["project_ids"]),
+        )
+
+    def test_empirical_registration_does_not_claim_evidence_or_external_review(
+        self,
+    ) -> None:
+        """Keep design-time disclosures distinct from completed empirical work."""
+        manifest = tomllib.loads(
+            (
+                REPOSITORY_ROOT
+                / "research/cases/asf-autonomy-coordination-registration.toml"
+            ).read_text()
+        )
+        self.assertFalse(manifest["outcome_collection_started_at_registration"])
+        self.assertFalse(manifest["complete_outcome_blindness_claimed"])
+        self.assertFalse(manifest["external_registry_submission"])
+        self.assertTrue(manifest["independent_human_audit_required"])
+        self.assertLessEqual(
+            manifest["qualified_families_per_direction_required"],
+            manifest["opportunity_families_per_direction_required"],
         )
 
 
