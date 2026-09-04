@@ -256,6 +256,27 @@ temporal order, they cannot qualify as witnesses of that direction. Repeated
 acknowledgements do not satisfy the count threshold. A mixed shock/coupling
 account can support a witness only if the cross-effect itself meets all four
 requirements and the remaining shock contribution is separately reported.
+For the rival-resolution gate, each family-level rival entry asks whether
+uncoupled own-history dynamics or a common shock can account for the receiver
+change without the claimed cross-effect. `contradicted` is the only addressed
+state. `supported`, `compatible but not discriminated`, `unassessable`, a
+missing entry, or an otherwise unresolved entry is unaddressed; it prevents
+`discriminating_contrast_met` from being yes and therefore prevents that
+family from qualifying. A documented partial shock contribution in a mixed
+account is reported separately: it does not count as a supported sufficient
+rival when independent evidence still establishes the cross-effect.
+
+Treat the directional one-way accounts at the corpus level. `A → C only` is
+addressed only by at least one qualified C → A family, and `C → A only` is
+addressed only by at least one qualified A → C family. The stronger bounded
+criterion's two-family, signed requirement in both directions necessarily
+addresses both one-way accounts. Reciprocal coupling is the focal account,
+not a rival that can block itself. Consequently, “no decisive rival remains
+unaddressed” means that both family-level alternatives are addressed for every
+family counted toward the threshold and that both one-way accounts are
+addressed. Do not use a majority of rival-matrix entries or treat unknown as
+contradiction.
+
 For each direction, the sign condition requires distinct `family_id` values:
 there must be an enablement-or-both family and a different constraint-or-both
 family. One family coded `both` cannot satisfy both required sign observations;
@@ -313,13 +334,14 @@ separate work item after this registration is accepted.
 
 ## Registration Amendment 1 — Review Clarifications
 
-**Date:** 2026-09-04. **Reason:** CodeRabbit review of PR #13 identified six
-ambiguities or incomplete guards before packet acceptance. **Exposure since
-registration:** no additional ASF source, selected-project record, case
-outcome, or external reviewer code was inspected. The design-stage exposure
-remains exactly that disclosed in the source audit. **Affected analyses:** G3
-audit-frame selection and agreement, signed-family cardinality, timing
-sensitivity, and tests guarding the cohort, links, and horizons.
+**Date:** 2026-09-04. **Reason:** CodeRabbit review and re-review of PR #13
+identified eight ambiguities or incomplete guards before packet acceptance.
+**Exposure since registration:** no additional ASF source, selected-project
+record, case outcome, or external reviewer code was inspected. The design-stage
+exposure remains exactly that disclosed in the source audit. **Affected
+analyses:** G3 audit-frame selection and agreement, rival resolution,
+signed-family cardinality, timing sensitivity, and tests guarding the cohort,
+links, horizons, and manifest types.
 
 This amendment supersedes the ambiguous rules in registration anchor commit
 `00d696ed80bd388955f622e0611853165f19508c` for future evidence work. It does

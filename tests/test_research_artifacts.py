@@ -143,14 +143,27 @@ class ResearchArtifactTests(unittest.TestCase):
                 / "research/cases/asf-autonomy-coordination-registration.toml"
             ).read_text()
         )
-        self.assertFalse(manifest["outcome_collection_started_at_registration"])
-        self.assertFalse(manifest["complete_outcome_blindness_claimed"])
-        self.assertFalse(manifest["external_registry_submission"])
-        self.assertTrue(manifest["independent_human_audit_required"])
-        self.assertTrue(manifest["separate_family_per_required_sign"])
-        self.assertTrue(manifest["sensitivity_difference_at_either_horizon_qualifies"])
-        self.assertTrue(manifest["audit_all_opportunity_families"])
-        self.assertTrue(manifest["audit_selection_reason_blinded"])
+        self.assertIs(manifest["outcome_collection_started_at_registration"], False)
+        self.assertIs(manifest["complete_outcome_blindness_claimed"], False)
+        self.assertIs(manifest["external_registry_submission"], False)
+        self.assertIs(manifest["independent_human_audit_required"], True)
+        self.assertIs(manifest["separate_family_per_required_sign"], True)
+        self.assertIs(
+            manifest["sensitivity_difference_at_either_horizon_qualifies"], True
+        )
+        self.assertIs(manifest["audit_all_opportunity_families"], True)
+        self.assertIs(manifest["audit_selection_reason_blinded"], True)
+        self.assertEqual(manifest["rival_addressed_states"], ["contradicted"])
+        self.assertEqual(
+            manifest["rival_unaddressed_states"],
+            [
+                "supported",
+                "compatible but not discriminated",
+                "unassessable",
+                "missing",
+                "unresolved",
+            ],
+        )
         required_agreement_fields = {
             "eligible",
             "decision_right",
