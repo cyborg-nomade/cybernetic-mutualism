@@ -547,7 +547,8 @@ falsifiable tendency. No claim confidence was raised by closing the cycle.
 **Status:** Proposed on 2026-09-01 and activated on 2026-09-03 after review and
 acceptance of the first-cycle decision record and bounded manifesto revision.
 Activation is a workflow decision, not an empirical result. The public essay is
-complete; robustness, preregistration, and evidence deliverables remain pending.
+complete. The robustness package is complete as a reviewable artifact, with
+CM-04 narrowed at C1; preregistration and evidence deliverables remain pending.
 
 ### Purpose
 
@@ -577,13 +578,17 @@ topological priority as given.
    addresses [CM-01](research/claims.md#cm-01--antinomies-as-mutually-dependent-relations),
    [CM-04](research/claims.md#cm-04--cybernetic-dynamics-can-formalise-antinomies),
    and [CM-05](research/claims.md#cm-05--social-orders-can-regenerate-antagonism).
-3. [ ] **Two-variable model robustness package.** Replace symmetric coupling with
+3. [x] **[Two-variable model robustness
+   package](models/antinomy_robustness/README.md).** Replace symmetric coupling with
    separate directional effects, compare synchronous and asynchronous updates,
    and reproduce the sweep with at least one alternative bounded response
    function. Predefine which regime distinctions must survive, report boundary
    movement and failures, and retain an uncoupled ablation. This follows item 1
    and can run independently of the essay and print case. It directly tests
    [CM-04](research/claims.md#cm-04--cybernetic-dynamics-can-formalise-antinomies).
+   The [item 3 decision](research/decisions/antinomy-structural-robustness.md)
+   narrows CM-04 at C1: equilibrium, lock-in, and operational collapse survive
+   all 18 tested variants; period-two oscillation survives only four.
 4. [ ] **One preregistered empirical antinomy.** Name an institution and observation
    window; define observable autonomy and coordination proxies; specify directed
    cross-effects; and compare the coupled account with uncoupled and

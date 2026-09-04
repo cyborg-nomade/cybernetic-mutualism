@@ -36,6 +36,13 @@ jobs:
           uv run --locked python -m models.antinomy.generate \
             --output-dir "${output_directory}" >/dev/null
           diff -rq models/antinomy/outputs "${output_directory}"
+      - name: Verify structural robustness outputs
+        run: |
+          output_directory="$(mktemp -d)"
+          trap 'rm -rf "${output_directory}"' EXIT
+          uv run --locked python -m models.antinomy_robustness.generate \
+            --workers 4 --output-dir "${output_directory}" >/dev/null
+          diff -rq models/antinomy_robustness/outputs "${output_directory}"
       - run: >-
           uv run --locked python scripts/publish_wordpress.py
           MANIFESTO.md --dry-run > /dev/null

@@ -1,0 +1,871 @@
+{
+  "baseline_verified": true,
+  "controls_clean": true,
+  "decision": "narrow",
+  "full_protocol": true,
+  "protocol_sha256": "e82f468fd439a8977c8f800562b01e0c0768f85dab355b006aafbe5f30ab5aed",
+  "scenarios": [
+    {
+      "changed_modal_cells": 0,
+      "changed_transition_edges": 0,
+      "four_seed_modal_counts": {
+        "collapse": 951,
+        "equilibrium": 621,
+        "lock-in": 544,
+        "oscillation": 206,
+        "unresolved": 15
+      },
+      "matched_modal_fraction": 1.0,
+      "modal_counts": {
+        "collapse": 951,
+        "equilibrium": 621,
+        "lock-in": 544,
+        "oscillation": 206,
+        "unresolved": 15
+      },
+      "regime_iou": {
+        "collapse": 1.0,
+        "equilibrium": 1.0,
+        "lock-in": 1.0,
+        "oscillation": 1.0,
+        "unresolved": 1.0
+      },
+      "scenario": "logistic_synchronous_symmetric",
+      "seed_disagreement_cells": 73,
+      "survives": {
+        "collapse": true,
+        "equilibrium": true,
+        "lock-in": true,
+        "oscillation": true
+      },
+      "transition_edge_iou": 1.0,
+      "transition_edges": 214,
+      "uncoupled_forbidden_labels": 0,
+      "uncoupled_seed_counts": {
+        "collapse": 105,
+        "equilibrium": 182
+      }
+    },
+    {
+      "changed_modal_cells": 236,
+      "changed_transition_edges": 276,
+      "four_seed_modal_counts": {
+        "collapse": 918,
+        "equilibrium": 601,
+        "lock-in": 744,
+        "oscillation": 74,
+        "unresolved": 0
+      },
+      "matched_modal_fraction": 0.8990158322635858,
+      "modal_counts": {
+        "collapse": 918,
+        "equilibrium": 601,
+        "lock-in": 744,
+        "oscillation": 74,
+        "unresolved": 0
+      },
+      "regime_iou": {
+        "collapse": 0.9652996845425867,
+        "equilibrium": 0.8599695585996956,
+        "lock-in": 0.7311827956989247,
+        "oscillation": 0.3592233009708738,
+        "unresolved": 0.0
+      },
+      "scenario": "logistic_synchronous_minus10",
+      "seed_disagreement_cells": 46,
+      "survives": {
+        "collapse": true,
+        "equilibrium": true,
+        "lock-in": true,
+        "oscillation": true
+      },
+      "transition_edge_iou": 0.16109422492401215,
+      "transition_edges": 168,
+      "uncoupled_forbidden_labels": 0,
+      "uncoupled_seed_counts": {
+        "collapse": 105,
+        "equilibrium": 182
+      }
+    },
+    {
+      "changed_modal_cells": 244,
+      "changed_transition_edges": 273,
+      "four_seed_modal_counts": {
+        "collapse": 918,
+        "equilibrium": 601,
+        "lock-in": 752,
+        "oscillation": 66,
+        "unresolved": 0
+      },
+      "matched_modal_fraction": 0.8955926401369276,
+      "modal_counts": {
+        "collapse": 918,
+        "equilibrium": 601,
+        "lock-in": 752,
+        "oscillation": 66,
+        "unresolved": 0
+      },
+      "regime_iou": {
+        "collapse": 0.9652996845425867,
+        "equilibrium": 0.8599695585996956,
+        "lock-in": 0.723404255319149,
+        "oscillation": 0.32038834951456313,
+        "unresolved": 0.0
+      },
+      "scenario": "logistic_synchronous_plus10",
+      "seed_disagreement_cells": 30,
+      "survives": {
+        "collapse": true,
+        "equilibrium": true,
+        "lock-in": true,
+        "oscillation": true
+      },
+      "transition_edge_iou": 0.16257668711656442,
+      "transition_edges": 165,
+      "uncoupled_forbidden_labels": 0,
+      "uncoupled_seed_counts": {
+        "collapse": 105,
+        "equilibrium": 182
+      }
+    },
+    {
+      "changed_modal_cells": 213,
+      "changed_transition_edges": 64,
+      "four_seed_modal_counts": {
+        "collapse": 951,
+        "equilibrium": 627,
+        "lock-in": 751,
+        "oscillation": 0,
+        "unresolved": 8
+      },
+      "matched_modal_fraction": 0.9088575096277278,
+      "modal_counts": {
+        "collapse": 951,
+        "equilibrium": 627,
+        "lock-in": 751,
+        "oscillation": 0,
+        "unresolved": 8
+      },
+      "regime_iou": {
+        "collapse": 1.0,
+        "equilibrium": 0.9904306220095693,
+        "lock-in": 0.7243675099866844,
+        "oscillation": 0.0,
+        "unresolved": 0.5333333333333333
+      },
+      "scenario": "logistic_autonomy-first_symmetric",
+      "seed_disagreement_cells": 0,
+      "survives": {
+        "collapse": true,
+        "equilibrium": true,
+        "lock-in": true,
+        "oscillation": false
+      },
+      "transition_edge_iou": 0.7050691244239631,
+      "transition_edges": 156,
+      "uncoupled_forbidden_labels": 0,
+      "uncoupled_seed_counts": {
+        "collapse": 105,
+        "equilibrium": 182
+      }
+    },
+    {
+      "changed_modal_cells": 311,
+      "changed_transition_edges": 249,
+      "four_seed_modal_counts": {
+        "collapse": 918,
+        "equilibrium": 602,
+        "lock-in": 817,
+        "oscillation": 0,
+        "unresolved": 0
+      },
+      "matched_modal_fraction": 0.866923406076166,
+      "modal_counts": {
+        "collapse": 918,
+        "equilibrium": 602,
+        "lock-in": 817,
+        "oscillation": 0,
+        "unresolved": 0
+      },
+      "regime_iou": {
+        "collapse": 0.9652996845425867,
+        "equilibrium": 0.8586626139817629,
+        "lock-in": 0.6638141809290954,
+        "oscillation": 0.0,
+        "unresolved": 0.0
+      },
+      "scenario": "logistic_autonomy-first_minus10",
+      "seed_disagreement_cells": 0,
+      "survives": {
+        "collapse": true,
+        "equilibrium": true,
+        "lock-in": true,
+        "oscillation": false
+      },
+      "transition_edge_iou": 0.17275747508305647,
+      "transition_edges": 139,
+      "uncoupled_forbidden_labels": 0,
+      "uncoupled_seed_counts": {
+        "collapse": 105,
+        "equilibrium": 182
+      }
+    },
+    {
+      "changed_modal_cells": 310,
+      "changed_transition_edges": 245,
+      "four_seed_modal_counts": {
+        "collapse": 918,
+        "equilibrium": 601,
+        "lock-in": 818,
+        "oscillation": 0,
+        "unresolved": 0
+      },
+      "matched_modal_fraction": 0.8673513050919983,
+      "modal_counts": {
+        "collapse": 918,
+        "equilibrium": 601,
+        "lock-in": 818,
+        "oscillation": 0,
+        "unresolved": 0
+      },
+      "regime_iou": {
+        "collapse": 0.9652996845425867,
+        "equilibrium": 0.8599695585996956,
+        "lock-in": 0.6650366748166259,
+        "oscillation": 0.0,
+        "unresolved": 0.0
+      },
+      "scenario": "logistic_autonomy-first_plus10",
+      "seed_disagreement_cells": 0,
+      "survives": {
+        "collapse": true,
+        "equilibrium": true,
+        "lock-in": true,
+        "oscillation": false
+      },
+      "transition_edge_iou": 0.17785234899328858,
+      "transition_edges": 137,
+      "uncoupled_forbidden_labels": 0,
+      "uncoupled_seed_counts": {
+        "collapse": 105,
+        "equilibrium": 182
+      }
+    },
+    {
+      "changed_modal_cells": 214,
+      "changed_transition_edges": 67,
+      "four_seed_modal_counts": {
+        "collapse": 951,
+        "equilibrium": 628,
+        "lock-in": 751,
+        "oscillation": 0,
+        "unresolved": 7
+      },
+      "matched_modal_fraction": 0.9084296106118956,
+      "modal_counts": {
+        "collapse": 951,
+        "equilibrium": 628,
+        "lock-in": 751,
+        "oscillation": 0,
+        "unresolved": 7
+      },
+      "regime_iou": {
+        "collapse": 1.0,
+        "equilibrium": 0.9888535031847133,
+        "lock-in": 0.7243675099866844,
+        "oscillation": 0.0,
+        "unresolved": 0.4666666666666667
+      },
+      "scenario": "logistic_coordination-first_symmetric",
+      "seed_disagreement_cells": 1,
+      "survives": {
+        "collapse": true,
+        "equilibrium": true,
+        "lock-in": true,
+        "oscillation": false
+      },
+      "transition_edge_iou": 0.6912442396313364,
+      "transition_edges": 153,
+      "uncoupled_forbidden_labels": 0,
+      "uncoupled_seed_counts": {
+        "collapse": 105,
+        "equilibrium": 182
+      }
+    },
+    {
+      "changed_modal_cells": 310,
+      "changed_transition_edges": 245,
+      "four_seed_modal_counts": {
+        "collapse": 918,
+        "equilibrium": 601,
+        "lock-in": 818,
+        "oscillation": 0,
+        "unresolved": 0
+      },
+      "matched_modal_fraction": 0.8673513050919983,
+      "modal_counts": {
+        "collapse": 918,
+        "equilibrium": 601,
+        "lock-in": 818,
+        "oscillation": 0,
+        "unresolved": 0
+      },
+      "regime_iou": {
+        "collapse": 0.9652996845425867,
+        "equilibrium": 0.8599695585996956,
+        "lock-in": 0.6650366748166259,
+        "oscillation": 0.0,
+        "unresolved": 0.0
+      },
+      "scenario": "logistic_coordination-first_minus10",
+      "seed_disagreement_cells": 0,
+      "survives": {
+        "collapse": true,
+        "equilibrium": true,
+        "lock-in": true,
+        "oscillation": false
+      },
+      "transition_edge_iou": 0.17785234899328858,
+      "transition_edges": 137,
+      "uncoupled_forbidden_labels": 0,
+      "uncoupled_seed_counts": {
+        "collapse": 105,
+        "equilibrium": 182
+      }
+    },
+    {
+      "changed_modal_cells": 311,
+      "changed_transition_edges": 249,
+      "four_seed_modal_counts": {
+        "collapse": 918,
+        "equilibrium": 602,
+        "lock-in": 817,
+        "oscillation": 0,
+        "unresolved": 0
+      },
+      "matched_modal_fraction": 0.866923406076166,
+      "modal_counts": {
+        "collapse": 918,
+        "equilibrium": 602,
+        "lock-in": 817,
+        "oscillation": 0,
+        "unresolved": 0
+      },
+      "regime_iou": {
+        "collapse": 0.9652996845425867,
+        "equilibrium": 0.8586626139817629,
+        "lock-in": 0.6638141809290954,
+        "oscillation": 0.0,
+        "unresolved": 0.0
+      },
+      "scenario": "logistic_coordination-first_plus10",
+      "seed_disagreement_cells": 0,
+      "survives": {
+        "collapse": true,
+        "equilibrium": true,
+        "lock-in": true,
+        "oscillation": false
+      },
+      "transition_edge_iou": 0.17275747508305647,
+      "transition_edges": 139,
+      "uncoupled_forbidden_labels": 0,
+      "uncoupled_seed_counts": {
+        "collapse": 105,
+        "equilibrium": 182
+      }
+    },
+    {
+      "changed_modal_cells": 648,
+      "changed_transition_edges": 355,
+      "four_seed_modal_counts": {
+        "collapse": 573,
+        "equilibrium": 1159,
+        "lock-in": 455,
+        "oscillation": 120,
+        "unresolved": 30
+      },
+      "matched_modal_fraction": 0.7227214377406932,
+      "modal_counts": {
+        "collapse": 573,
+        "equilibrium": 1159,
+        "lock-in": 455,
+        "oscillation": 120,
+        "unresolved": 30
+      },
+      "regime_iou": {
+        "collapse": 0.6025236593059937,
+        "equilibrium": 0.5358067299396031,
+        "lock-in": 0.5984,
+        "oscillation": 0.5748792270531401,
+        "unresolved": 0.046511627906976744
+      },
+      "scenario": "arctangent_synchronous_symmetric",
+      "seed_disagreement_cells": 71,
+      "survives": {
+        "collapse": true,
+        "equilibrium": true,
+        "lock-in": true,
+        "oscillation": true
+      },
+      "transition_edge_iou": 0.09438775510204081,
+      "transition_edges": 215,
+      "uncoupled_forbidden_labels": 0,
+      "uncoupled_seed_counts": {
+        "collapse": 56,
+        "equilibrium": 231
+      }
+    },
+    {
+      "changed_modal_cells": 713,
+      "changed_transition_edges": 309,
+      "four_seed_modal_counts": {
+        "collapse": 554,
+        "equilibrium": 1103,
+        "lock-in": 678,
+        "oscillation": 2,
+        "unresolved": 0
+      },
+      "matched_modal_fraction": 0.6949080017115961,
+      "modal_counts": {
+        "collapse": 554,
+        "equilibrium": 1103,
+        "lock-in": 678,
+        "oscillation": 2,
+        "unresolved": 0
+      },
+      "regime_iou": {
+        "collapse": 0.5825446898002103,
+        "equilibrium": 0.547576301615799,
+        "lock-in": 0.599476439790576,
+        "oscillation": 0.009708737864077669,
+        "unresolved": 0.0
+      },
+      "scenario": "arctangent_synchronous_minus10",
+      "seed_disagreement_cells": 14,
+      "survives": {
+        "collapse": true,
+        "equilibrium": true,
+        "lock-in": true,
+        "oscillation": false
+      },
+      "transition_edge_iou": 0.06927710843373494,
+      "transition_edges": 141,
+      "uncoupled_forbidden_labels": 0,
+      "uncoupled_seed_counts": {
+        "collapse": 56,
+        "equilibrium": 231
+      }
+    },
+    {
+      "changed_modal_cells": 715,
+      "changed_transition_edges": 305,
+      "four_seed_modal_counts": {
+        "collapse": 554,
+        "equilibrium": 1103,
+        "lock-in": 680,
+        "oscillation": 0,
+        "unresolved": 0
+      },
+      "matched_modal_fraction": 0.6940522036799316,
+      "modal_counts": {
+        "collapse": 554,
+        "equilibrium": 1103,
+        "lock-in": 680,
+        "oscillation": 0,
+        "unresolved": 0
+      },
+      "regime_iou": {
+        "collapse": 0.5825446898002103,
+        "equilibrium": 0.547576301615799,
+        "lock-in": 0.597911227154047,
+        "oscillation": 0.0,
+        "unresolved": 0.0
+      },
+      "scenario": "arctangent_synchronous_plus10",
+      "seed_disagreement_cells": 8,
+      "survives": {
+        "collapse": true,
+        "equilibrium": true,
+        "lock-in": true,
+        "oscillation": false
+      },
+      "transition_edge_iou": 0.0701219512195122,
+      "transition_edges": 137,
+      "uncoupled_forbidden_labels": 0,
+      "uncoupled_seed_counts": {
+        "collapse": 56,
+        "equilibrium": 231
+      }
+    },
+    {
+      "changed_modal_cells": 755,
+      "changed_transition_edges": 338,
+      "four_seed_modal_counts": {
+        "collapse": 573,
+        "equilibrium": 1159,
+        "lock-in": 587,
+        "oscillation": 0,
+        "unresolved": 18
+      },
+      "matched_modal_fraction": 0.676936243046641,
+      "modal_counts": {
+        "collapse": 573,
+        "equilibrium": 1159,
+        "lock-in": 587,
+        "oscillation": 0,
+        "unresolved": 18
+      },
+      "regime_iou": {
+        "collapse": 0.6025236593059937,
+        "equilibrium": 0.5358067299396031,
+        "lock-in": 0.5181208053691275,
+        "oscillation": 0.0,
+        "unresolved": 0.06451612903225806
+      },
+      "scenario": "arctangent_autonomy-first_symmetric",
+      "seed_disagreement_cells": 0,
+      "survives": {
+        "collapse": true,
+        "equilibrium": true,
+        "lock-in": true,
+        "oscillation": false
+      },
+      "transition_edge_iou": 0.05056179775280899,
+      "transition_edges": 160,
+      "uncoupled_forbidden_labels": 0,
+      "uncoupled_seed_counts": {
+        "collapse": 56,
+        "equilibrium": 231
+      }
+    },
+    {
+      "changed_modal_cells": 715,
+      "changed_transition_edges": 305,
+      "four_seed_modal_counts": {
+        "collapse": 554,
+        "equilibrium": 1103,
+        "lock-in": 680,
+        "oscillation": 0,
+        "unresolved": 0
+      },
+      "matched_modal_fraction": 0.6940522036799316,
+      "modal_counts": {
+        "collapse": 554,
+        "equilibrium": 1103,
+        "lock-in": 680,
+        "oscillation": 0,
+        "unresolved": 0
+      },
+      "regime_iou": {
+        "collapse": 0.5825446898002103,
+        "equilibrium": 0.547576301615799,
+        "lock-in": 0.597911227154047,
+        "oscillation": 0.0,
+        "unresolved": 0.0
+      },
+      "scenario": "arctangent_autonomy-first_minus10",
+      "seed_disagreement_cells": 0,
+      "survives": {
+        "collapse": true,
+        "equilibrium": true,
+        "lock-in": true,
+        "oscillation": false
+      },
+      "transition_edge_iou": 0.0701219512195122,
+      "transition_edges": 137,
+      "uncoupled_forbidden_labels": 0,
+      "uncoupled_seed_counts": {
+        "collapse": 56,
+        "equilibrium": 231
+      }
+    },
+    {
+      "changed_modal_cells": 715,
+      "changed_transition_edges": 305,
+      "four_seed_modal_counts": {
+        "collapse": 554,
+        "equilibrium": 1103,
+        "lock-in": 680,
+        "oscillation": 0,
+        "unresolved": 0
+      },
+      "matched_modal_fraction": 0.6940522036799316,
+      "modal_counts": {
+        "collapse": 554,
+        "equilibrium": 1103,
+        "lock-in": 680,
+        "oscillation": 0,
+        "unresolved": 0
+      },
+      "regime_iou": {
+        "collapse": 0.5825446898002103,
+        "equilibrium": 0.547576301615799,
+        "lock-in": 0.597911227154047,
+        "oscillation": 0.0,
+        "unresolved": 0.0
+      },
+      "scenario": "arctangent_autonomy-first_plus10",
+      "seed_disagreement_cells": 0,
+      "survives": {
+        "collapse": true,
+        "equilibrium": true,
+        "lock-in": true,
+        "oscillation": false
+      },
+      "transition_edge_iou": 0.0701219512195122,
+      "transition_edges": 137,
+      "uncoupled_forbidden_labels": 0,
+      "uncoupled_seed_counts": {
+        "collapse": 56,
+        "equilibrium": 231
+      }
+    },
+    {
+      "changed_modal_cells": 756,
+      "changed_transition_edges": 342,
+      "four_seed_modal_counts": {
+        "collapse": 573,
+        "equilibrium": 1160,
+        "lock-in": 587,
+        "oscillation": 0,
+        "unresolved": 17
+      },
+      "matched_modal_fraction": 0.6765083440308087,
+      "modal_counts": {
+        "collapse": 573,
+        "equilibrium": 1160,
+        "lock-in": 587,
+        "oscillation": 0,
+        "unresolved": 17
+      },
+      "regime_iou": {
+        "collapse": 0.6025236593059937,
+        "equilibrium": 0.5353448275862069,
+        "lock-in": 0.5181208053691275,
+        "oscillation": 0.0,
+        "unresolved": 0.03225806451612903
+      },
+      "scenario": "arctangent_coordination-first_symmetric",
+      "seed_disagreement_cells": 1,
+      "survives": {
+        "collapse": true,
+        "equilibrium": true,
+        "lock-in": true,
+        "oscillation": false
+      },
+      "transition_edge_iou": 0.03932584269662921,
+      "transition_edges": 156,
+      "uncoupled_forbidden_labels": 0,
+      "uncoupled_seed_counts": {
+        "collapse": 56,
+        "equilibrium": 231
+      }
+    },
+    {
+      "changed_modal_cells": 715,
+      "changed_transition_edges": 305,
+      "four_seed_modal_counts": {
+        "collapse": 554,
+        "equilibrium": 1103,
+        "lock-in": 680,
+        "oscillation": 0,
+        "unresolved": 0
+      },
+      "matched_modal_fraction": 0.6940522036799316,
+      "modal_counts": {
+        "collapse": 554,
+        "equilibrium": 1103,
+        "lock-in": 680,
+        "oscillation": 0,
+        "unresolved": 0
+      },
+      "regime_iou": {
+        "collapse": 0.5825446898002103,
+        "equilibrium": 0.547576301615799,
+        "lock-in": 0.597911227154047,
+        "oscillation": 0.0,
+        "unresolved": 0.0
+      },
+      "scenario": "arctangent_coordination-first_minus10",
+      "seed_disagreement_cells": 0,
+      "survives": {
+        "collapse": true,
+        "equilibrium": true,
+        "lock-in": true,
+        "oscillation": false
+      },
+      "transition_edge_iou": 0.0701219512195122,
+      "transition_edges": 137,
+      "uncoupled_forbidden_labels": 0,
+      "uncoupled_seed_counts": {
+        "collapse": 56,
+        "equilibrium": 231
+      }
+    },
+    {
+      "changed_modal_cells": 715,
+      "changed_transition_edges": 305,
+      "four_seed_modal_counts": {
+        "collapse": 554,
+        "equilibrium": 1103,
+        "lock-in": 680,
+        "oscillation": 0,
+        "unresolved": 0
+      },
+      "matched_modal_fraction": 0.6940522036799316,
+      "modal_counts": {
+        "collapse": 554,
+        "equilibrium": 1103,
+        "lock-in": 680,
+        "oscillation": 0,
+        "unresolved": 0
+      },
+      "regime_iou": {
+        "collapse": 0.5825446898002103,
+        "equilibrium": 0.547576301615799,
+        "lock-in": 0.597911227154047,
+        "oscillation": 0.0,
+        "unresolved": 0.0
+      },
+      "scenario": "arctangent_coordination-first_plus10",
+      "seed_disagreement_cells": 0,
+      "survives": {
+        "collapse": true,
+        "equilibrium": true,
+        "lock-in": true,
+        "oscillation": false
+      },
+      "transition_edge_iou": 0.0701219512195122,
+      "transition_edges": 137,
+      "uncoupled_forbidden_labels": 0,
+      "uncoupled_seed_counts": {
+        "collapse": 56,
+        "equilibrium": 231
+      }
+    }
+  ],
+  "schema_version": 1,
+  "settings": {
+    "grid": {
+      "cross_inhibition_values": [
+        0.0,
+        0.25,
+        0.5,
+        0.75,
+        1.0,
+        1.25,
+        1.5,
+        1.75,
+        2.0,
+        2.25,
+        2.5,
+        2.75,
+        3.0,
+        3.25,
+        3.5,
+        3.75,
+        4.0,
+        4.25,
+        4.5,
+        4.75,
+        5.0,
+        5.25,
+        5.5,
+        5.75,
+        6.0,
+        6.25,
+        6.5,
+        6.75,
+        7.0,
+        7.25,
+        7.5,
+        7.75,
+        8.0,
+        8.25,
+        8.5,
+        8.75,
+        9.0,
+        9.25,
+        9.5,
+        9.75,
+        10.0,
+        10.25,
+        10.5,
+        10.75,
+        11.0,
+        11.25,
+        11.5,
+        11.75,
+        12.0,
+        12.25,
+        12.5,
+        12.75,
+        13.0,
+        13.25,
+        13.5,
+        13.75,
+        14.0
+      ],
+      "shared_support_values": [
+        -6.0,
+        -5.75,
+        -5.5,
+        -5.25,
+        -5.0,
+        -4.75,
+        -4.5,
+        -4.25,
+        -4.0,
+        -3.75,
+        -3.5,
+        -3.25,
+        -3.0,
+        -2.75,
+        -2.5,
+        -2.25,
+        -2.0,
+        -1.75,
+        -1.5,
+        -1.25,
+        -1.0,
+        -0.75,
+        -0.5,
+        -0.25,
+        0.0,
+        0.25,
+        0.5,
+        0.75,
+        1.0,
+        1.25,
+        1.5,
+        1.75,
+        2.0,
+        2.25,
+        2.5,
+        2.75,
+        3.0,
+        3.25,
+        3.5,
+        3.75,
+        4.0
+      ]
+    },
+    "seeds": [
+      7,
+      19,
+      41,
+      73,
+      101,
+      151,
+      211
+    ],
+    "steps": 600,
+    "thresholds": {
+      "collapse_capacity": 0.1,
+      "lock_in_gap": 0.25,
+      "minimum_oscillation_amplitude": 0.05,
+      "numerical_tolerance": 1e-07,
+      "tail_length": 100
+    }
+  }
+}
