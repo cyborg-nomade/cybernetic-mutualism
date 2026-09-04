@@ -245,7 +245,7 @@ single-coder descriptive ledger only; do not claim this gate was passed.
 | Outcome after gates | Registered decision |
 | --- | --- |
 | Any gate fails | Public-record design is underidentified/infeasible at the stated level; publish missingness and stop the registered causal comparison. No replacement cohort or confidence change. |
-| Both directions have at least two qualified witness families, including an enabling and a constraining witness in each, with at least two PMCs represented per direction; no decisive rival remains unaddressed | Provisionally retain this **bounded reciprocal-mechanism interpretation**, not the necessity or universal validity of antinomy. |
+| Both directions have at least two qualified witness families, including an enabling and a constraining witness in separate families in each direction, with at least two PMCs represented per direction; no decisive rival remains unaddressed | Provisionally retain this **bounded reciprocal-mechanism interpretation**, not the necessity or universal validity of antinomy. |
 | Both directions have at least one qualified witness but fail the full signed-family criterion above | Reciprocal interaction only; the registered antinomy criterion is not met. |
 | Only one direction has any qualified witnesses | Narrow this candidate to an observed one-way account; do not infer that the reverse direction is universally absent. |
 | Neither direction has qualified witnesses, with informative unchanged outcomes or rival-supported changes | Do not retain this candidate as a demonstrated antinomy; identify whether uncoupled, common-shock, or mixed accounts suffice. |
@@ -256,12 +256,20 @@ temporal order, they cannot qualify as witnesses of that direction. Repeated
 acknowledgements do not satisfy the count threshold. A mixed shock/coupling
 account can support a witness only if the cross-effect itself meets all four
 requirements and the remaining shock contribution is separately reported.
+For each direction, the sign condition requires distinct `family_id` values:
+there must be an enablement-or-both family and a different constraint-or-both
+family. One family coded `both` cannot satisfy both required sign observations;
+two distinct `both` families can. This rule does not allow either family to
+count more than once toward the two-family minimum.
 
-Run the same adjudication at 60 and 180 days. If the primary retained outcome
-does not survive either sensitivity horizon, narrow the conclusion to its
-timing dependence; do not choose the most favorable horizon. Report both the
-primary result and this sensitivity qualification. No automatic confidence
-increase follows from this small, selected, nonexperimental study.
+Run the complete gates and adjudication independently at 60 and 180 days. Keep
+the 90-day category as the primary decision. If **either** sensitivity horizon
+returns a different decision category or fails a gate that passed at 90 days,
+qualify the primary conclusion as timing-sensitive and state which horizon
+changed and how. Do not replace or upgrade the primary category when a
+sensitivity result is more favorable. Report both sensitivity results even
+when neither changes the category. No automatic confidence increase follows
+from this small, selected, nonexperimental study.
 
 ## Relation to CM-01, CM-04, and Institutional Viability
 
@@ -302,6 +310,23 @@ outcome classifications, external contacts, publication, or scheduled
 collection is authorized by creating it. The next ordered cycle deliverable
 is item 5's print/Reformation evidence pass; an ASF evidence pass needs a
 separate work item after this registration is accepted.
+
+## Registration Amendment 1 — Review Clarifications
+
+**Date:** 2026-09-04. **Reason:** CodeRabbit review of PR #13 identified six
+ambiguities or incomplete guards before packet acceptance. **Exposure since
+registration:** no additional ASF source, selected-project record, case
+outcome, or external reviewer code was inspected. The design-stage exposure
+remains exactly that disclosed in the source audit. **Affected analyses:** G3
+audit-frame selection and agreement, signed-family cardinality, timing
+sensitivity, and tests guarding the cohort, links, and horizons.
+
+This amendment supersedes the ambiguous rules in registration anchor commit
+`00d696ed80bd388955f622e0611853165f19508c` for future evidence work. It does
+not change the institution, cohort, observation window, source cutoff,
+constructs, primary horizon, rivals, thresholds, or collection status. The
+original commit remains in history. The clarified rules above are prospective:
+no evidence record or result exists to reclassify under either version.
 
 ## Conclusions and Next Steps
 

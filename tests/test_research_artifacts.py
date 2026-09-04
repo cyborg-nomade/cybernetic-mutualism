@@ -75,16 +75,21 @@ class ResearchArtifactTests(unittest.TestCase):
         manifest = tomllib.loads(
             (directory / "asf-autonomy-coordination-registration.toml").read_text()
         )
-        expected_project_count = 4
-        self.assertEqual(len(manifest["project_ids"]), expected_project_count)
-        self.assertEqual(len(set(manifest["project_ids"])), expected_project_count)
+        expected_project_ids = {"httpd", "tomcat", "maven", "ant"}
+        self.assertEqual(set(manifest["project_ids"]), expected_project_ids)
+        self.assertEqual(len(manifest["project_ids"]), len(expected_project_ids))
         for key in ("protocol", "codebook", "source_audit", "structural_decision"):
             self.assertTrue((directory / manifest[key]).is_file(), key)
-        for path in ("ROADMAP.md", "research/claims.md"):
-            self.assertIn(manifest["protocol"], (REPOSITORY_ROOT / path).read_text())
+        expected_targets = {
+            "ROADMAP.md": f"research/cases/{manifest['protocol']}",
+            "research/claims.md": f"cases/{manifest['protocol']}",
+        }
+        for path, target in expected_targets.items():
+            document = (REPOSITORY_ROOT / path).read_text()
+            self.assertIn(f"]({target})", document)
         protocol = (directory / manifest["protocol"]).read_text()
         for key in ("codebook", "source_audit"):
-            self.assertIn(manifest[key], protocol)
+            self.assertIn(f"]({manifest[key]})", protocol)
 
     def test_empirical_registration_windows_cover_all_response_horizons(self) -> None:
         """Prevent right-censoring the longest prespecified response sensitivity."""
@@ -97,7 +102,19 @@ class ResearchArtifactTests(unittest.TestCase):
         self.assertLess(manifest["baseline_start"], manifest["baseline_end"])
         self.assertLess(manifest["baseline_end"], manifest["primary_start"])
         self.assertLess(manifest["primary_start"], manifest["primary_end"])
-        longest_horizon = max(manifest["sensitivity_horizons_days"])
+        horizons = [
+            manifest["primary_horizon_days"],
+            *manifest["sensitivity_horizons_days"],
+        ]
+        self.assertTrue(
+            all(
+                isinstance(horizon, int)
+                and not isinstance(horizon, bool)
+                and horizon > 0
+                for horizon in horizons
+            )
+        )
+        longest_horizon = max(horizons)
         self.assertLessEqual(
             manifest["primary_end"] + timedelta(days=longest_horizon),
             manifest["followup_end"],
@@ -130,6 +147,31 @@ class ResearchArtifactTests(unittest.TestCase):
         self.assertFalse(manifest["complete_outcome_blindness_claimed"])
         self.assertFalse(manifest["external_registry_submission"])
         self.assertTrue(manifest["independent_human_audit_required"])
+        self.assertTrue(manifest["separate_family_per_required_sign"])
+        self.assertTrue(manifest["sensitivity_difference_at_either_horizon_qualifies"])
+        self.assertTrue(manifest["audit_all_opportunity_families"])
+        self.assertTrue(manifest["audit_selection_reason_blinded"])
+        required_agreement_fields = {
+            "eligible",
+            "decision_right",
+            "autonomy_change",
+            "coordination_disposition",
+            "receiver_observed",
+            "temporal_order",
+            "channel",
+            "effect_sign",
+            "ordered_acts_met",
+            "receiver_conduct_met",
+            "linked_change_met",
+            "discriminating_contrast_met",
+            "qualified_witness",
+        }
+        self.assertEqual(
+            set(manifest["audit_agreement_fields"]), required_agreement_fields
+        )
+        self.assertEqual(
+            len(manifest["audit_agreement_fields"]), len(required_agreement_fields)
+        )
         self.assertLessEqual(
             manifest["qualified_families_per_direction_required"],
             manifest["opportunity_families_per_direction_required"],

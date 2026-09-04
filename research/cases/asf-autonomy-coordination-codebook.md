@@ -134,34 +134,48 @@ and C → A only. Coding a mechanism witness requires the four protocol
 conditions, not simply a majority of favorable matrix entries.
 
 Keep a separate `qualified_witness` flag per direction and horizon with four
-condition flags: ordered acts, receiving conduct/channel, concrete linked
-change, and discriminating contrast/rival assessment. A qualified witness
-needs all four. Count distinct issue families, not messages or repeated votes.
+condition fields: `ordered_acts_met`, `receiver_conduct_met`,
+`linked_change_met`, and `discriminating_contrast_met`. Each field is yes, no,
+or unknown. A `qualified_witness` is yes only when all four are yes; otherwise
+it is no, with the unresolved conditions retained. Count distinct issue
+families, not messages or repeated votes.
 Do not count one self-report and the board's reprint as independent accounts.
 Multiple signs in one family do not increase its independent-family count.
 
 ## Coding Audit: G3
 
 The first coder records measurements before making causal classifications.
-A second human reviewer, whose role and review date must be recorded, codes
-all candidate qualified witnesses plus a deterministic audit sample from the
-remaining opportunity families. Select the latter by sorting the SHA-256 of
-`family_id` within each project/initiating-role stratum and taking the first
-20%, rounded upward, with at least one per nonempty stratum. Review all
-opportunities when fewer than eight exist overall. Keep the first coder's
-causal classifications hidden until the reviewer has recorded their own.
-This is not blindness to historical events or to the underlying documents.
+Before those classifications are disclosed, freeze an audit frame containing:
 
-Before reconciliation, require at least 90% exact agreement on the categorical
-fields `eligible`, `decision_right`, `autonomy_change`,
-`coordination_disposition`, `temporal_order`, and `effect_sign`, computed as
-matching jointly coded field values divided by all such field comparisons.
-Unknown is a legitimate category; report its agreement separately so a high
-unknown fraction is not mistaken for reliability. Missing review fields are
-disagreements. Report each field's agreement too. Inspect every disagreement
-about a qualified witness and every disputed event-date interval; unresolved
-disputes remove that witness from qualification. Preserve original codes and
-the documented adjudication, including minority interpretations.
+1. every family the first coder marked as an A → C or C → A opportunity; and
+2. a deterministic screening sample from every other eligible family.
+
+For item 2, stratify by project and documented initiating role (PMC,
+foundation, external, or unknown). Within each stratum, sort ascending by the
+hexadecimal SHA-256 of `project|initiating_role|family_id` and take the first
+20%, rounded upward, with at least one family from each nonempty stratum.
+Review all eligible families when fewer than eight exist overall. Freeze and
+hash the full audit-frame ID list. Give the second reviewer the union in hash
+order without the first coder's measurements, opportunity flags, causal
+classifications, qualification flags, or selection reasons. Reveal selection
+reasons only after the reviewer locks their codes. Thus every first-coder
+opportunity is reviewed while false-negative opportunity screening is tested
+on a reproducible sample. This is not blindness to historical events or to
+the underlying documents.
+
+Before reconciliation, require at least 90% exact agreement across `eligible`,
+`decision_right`, `autonomy_change`, `coordination_disposition`,
+`receiver_observed`, `temporal_order`, `channel`, `effect_sign`, each of the
+four condition fields, and `qualified_witness`. Compute the aggregate as exact
+matching values divided by all jointly required field comparisons. Matching
+unknown values remain matches in that denominator. For every field, separately
+report exact agreement, each coder's unknown rate, and agreement restricted to
+records where neither coder used unknown; do not let common uncertainty look
+like substantive reliability. Missing review fields are disagreements. Inspect
+every disagreement about a qualified witness and every disputed event-date
+interval; unresolved disputes remove that witness from qualification. Preserve
+original codes and the documented adjudication, including minority
+interpretations.
 
 Failure of the agreement threshold or absence of an independent human review
 fails G3. Publish only the descriptive/single-coder result under the original
