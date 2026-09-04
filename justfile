@@ -12,6 +12,20 @@ sync:
 model:
     uv run --locked python -m models.antinomy.generate
 
+# Run the frozen 18-scenario structural robustness experiment.
+robustness:
+    uv run --locked python -m models.antinomy_robustness.generate --workers 4
+
+# Independently regenerate and compare every structural robustness artifact.
+robustness-check:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    output_directory="$(mktemp -d)"
+    trap 'rm -rf "${output_directory}"' EXIT
+    uv run --locked python -m models.antinomy_robustness.generate \
+        --workers 4 --output-dir "${output_directory}" >/dev/null
+    diff -rq models/antinomy_robustness/outputs "${output_directory}"
+
 # Verify that fresh model outputs match the committed artifacts byte for byte.
 model-check:
     #!/usr/bin/env bash
@@ -49,7 +63,7 @@ typecheck:
     uv run --locked mypy
 
 # Run every local quality gate used by continuous integration.
-check: lint typecheck coverage model-check
+check: lint typecheck coverage model-check robustness-check
 
 # Send coverage and static-analysis results to a configured SonarQube server.
 sonar: coverage

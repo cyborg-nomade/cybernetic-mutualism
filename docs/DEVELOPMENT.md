@@ -21,6 +21,8 @@ and model-reproduction gates used in continuous integration.
 | `just` | List available recipes |
 | `just model` | Regenerate the committed antinomy outputs |
 | `just model-check` | Generate into a temporary directory and compare every artifact byte for byte |
+| `just robustness` | Run the frozen 18-scenario antinomy structural experiment |
+| `just robustness-check` | Independently reproduce every structural experiment artifact |
 | `just test` | Run the pytest suite |
 | `just coverage` | Run tests with branch coverage and create `coverage.xml` |
 | `just lint` | Check Ruff rules and deterministic formatting |
@@ -35,6 +37,13 @@ Run a tool directly through the locked environment when no recipe is needed:
 uv run --locked python -m models.antinomy.generate --help
 uv run --locked pytest tests/test_antinomy_model.py
 ```
+
+The full `just check` includes both model sweeps and can take several minutes.
+For fast feedback while editing, run `just lint typecheck test`. Structural
+robustness generation uses four processes, with deterministic output ordering;
+pass `--workers 1` to its Python module for a serial run. Scientific failure of
+a robustness hypothesis is a valid result, not a failing test. Failure to
+reproduce the archived baseline or committed artifacts is a failing gate.
 
 ## Readability standard
 

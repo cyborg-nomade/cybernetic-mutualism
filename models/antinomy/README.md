@@ -195,3 +195,15 @@ research action is to preregister observable proxies for autonomy,
 coordination, and their cross-effects in one federation case and compare the
 coupled model against uncoupled and common-shock rivals. If they do not survive,
 CM-04 should be narrowed again before any historical calibration is attempted.
+
+**Second-cycle update, 2026-09-04:** The
+[structural robustness package](../antinomy_robustness/README.md) has now tested
+directional coupling, both fixed sequential update orders, and an alternative
+bounded response. It reproduces the original outputs but fails the prospective
+four-regime robustness criterion: period-two oscillation is assumption-sensitive.
+CM-04 has been narrowed at C1 in the
+[decision record](../../research/decisions/antinomy-structural-robustness.md).
+Independent directional persistence and support remain untested. The next
+cycle item is the empirical preregistration bounded by that decision; the
+original results above remain a record of the first-cycle model, not a claim
+that all four regimes survived the subsequent structural test.

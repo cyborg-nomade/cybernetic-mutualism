@@ -70,7 +70,7 @@ changes require a dated revision note.
 | [CM-01](#cm-01--antinomies-as-mutually-dependent-relations) | Antinomies as mutually dependent relations | Conceptual; causal | C1 | Needs specification |
 | [CM-02](#cm-02--mutualism-as-a-theory-of-progress) | Mutualism as a theory of progress | Historical interpretation | C1 | Needs specification |
 | [CM-03](#cm-03--historical-change-is-nonlinear-and-scale-dependent) | Historical change is nonlinear and scale-dependent | Empirical generalisation | C1 | Needs specification |
-| [CM-04](#cm-04--cybernetic-dynamics-can-formalise-antinomies) | Cybernetic dynamics can formalise antinomies | Model claim | C1 | Provisionally retained |
+| [CM-04](#cm-04--cybernetic-dynamics-can-formalise-antinomies) | Cybernetic dynamics can formalise antinomies | Model claim | C1 | Provisionally retained in narrowed domain |
 | [CM-05](#cm-05--social-orders-can-regenerate-antagonism) | Social orders can regenerate antagonism | Empirical generalisation | C1 | Needs specification |
 | [CM-06](#cm-06--society-depends-on-reproduced-communication) | Society depends on reproduced communication | Conceptual; causal | C1 | Needs specification |
 | [CM-07](#cm-07--communication-topology-constrains-social-organisation) | Communication topology constrains social organisation | Causal | C1 | Under test |
@@ -189,12 +189,14 @@ changes require a dated revision note.
 
 - **Type:** Model claim.
 - **Confidence:** C1 — conjectural.
-- **Status:** Provisionally retained within the two-variable toy model; not
-  empirically validated.
-- **Statement:** A minimal dynamical model using feedback sign, response lag,
-  and saturation can distinguish several meanings of antinomic balance by
-  producing equilibrium, oscillation, and lock-in, while separately locating
-  candidate bifurcation boundaries and an operational low-viability state.
+- **Status:** Provisionally retained in a narrowed two-variable model domain;
+  cross-structural four-regime robustness failed; not empirically validated.
+- **Statement:** A bounded two-variable feedback model can distinguish joint
+  equilibrium, asymmetric lock-in, and operational low-capacity states across
+  the tested response, update-schedule, and directional-coupling perturbations.
+  Period-two oscillation is an additional assumption-sensitive possibility,
+  not a generic prediction of antinomic relations. Candidate bifurcation
+  boundaries remain a separate result of the original symmetric model.
 - **Source:** [Manifesto section 2](../MANIFESTO.md#2-antinomies-do-not-end).
 - **Unit and scope:** Initially, a two-variable model of a single specified
   antinomy; later, empirically parameterised cases.
@@ -215,7 +217,14 @@ changes require a dated revision note.
   support levels. Against/limits — the positive and negative cross-effects are
   not separately identifiable, collapse depends on a declared viability
   threshold, 15 cells remain unresolved, and no empirical case has been mapped
-  to the variables.
+  to the variables. The [structural robustness
+  experiment](../models/antinomy_robustness/README.md) reproduces the baseline
+  and retains equilibrium, lock-in, and operational collapse in all 18
+  variants, but oscillation survives the declared criterion in only four.
+  Every sampled sequential trajectory lacks period-two oscillation; the
+  asymmetric synchronous arctangent variants retain some oscillatory seed
+  runs but fail modal-region survival. Uncoupled controls remain free of
+  lock-in and oscillation; reference collapse labels remain threshold-sensitive.
 - **Dependencies:** Requires a specified instance of CM-01.
 - **Revision history:** 2026-08-30 — extracted as a model-performance claim,
   not evidence that Proudhon's language was already cybernetic.
@@ -223,6 +232,10 @@ changes require a dated revision note.
   bifurcation was separated from trajectory regimes; collapse was limited to
   an operational viability failure. Status changed to provisionally retained
   only within the declared formal domain; confidence remains C1.
+  2026-09-04 — narrowed the four-regime robustness claim after the prespecified
+  structural test. Period-two oscillation is now explicitly assumption-sensitive;
+  confidence remains C1. See the [second-cycle item 3
+  decision](decisions/antinomy-structural-robustness.md).
 
 ### CM-05 — social orders can regenerate antagonism
 
