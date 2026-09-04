@@ -196,6 +196,7 @@ def test_invalid_experiment_grids_fail(grid):
 def test_factorial_and_seed_validation():
     """Preserve all 18 conditions with baseline first and explicit unique seeds."""
     expected_scenarios = 18
+    assert len(scenarios()) == expected_scenarios
     assert len(set(scenarios())) == expected_scenarios
     assert scenarios()[0].name == "logistic_synchronous_symmetric"
     for seeds in ((), (7, 7)):
