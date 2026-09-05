@@ -108,6 +108,11 @@ class ResearchArtifactTests(unittest.TestCase):
         source_audit = (directory / manifest["source_audit"]).read_text()
         self.assertIn("Initial audit date: 2026-09-04", source_audit)
         self.assertIn("Amendment check date: 2026-09-05", source_audit)
+        self.assertIn(
+            "No case episode has been systematically retrieved,\n"
+            "classified, or entered into an outcome ledger.",
+            source_audit,
+        )
 
     def test_empirical_registration_windows_cover_all_response_horizons(self) -> None:
         """Prevent right-censoring the longest prespecified response sensitivity."""
@@ -141,6 +146,7 @@ class ResearchArtifactTests(unittest.TestCase):
         }
         for key, expected in frozen_values.items():
             with self.subTest(key=key):
+                self.assertIs(type(manifest[key]), type(expected))
                 self.assertEqual(manifest[key], expected)
         self.assertLess(manifest["baseline_start"], manifest["baseline_end"])
         self.assertLess(manifest["baseline_end"], manifest["primary_start"])
