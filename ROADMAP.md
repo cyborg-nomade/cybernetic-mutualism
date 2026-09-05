@@ -32,6 +32,19 @@ Every major claim should eventually have:
 - evidence that could weaken or falsify it;
 - a record of how the claim changed during investigation.
 
+Every experiment must also be completable by one independent researcher using
+publicly available sources and locally runnable tools. A grant, institutional
+affiliation, paid service, private archive, collaborator, or external reviewer
+may improve a later replication, but none may be a required gate for completing
+the registered primary analysis. If a design cannot meet its integrity standard
+under that constraint, it must be narrowed or redesigned before evidence is
+collected rather than left contingent on aid that may never arrive.
+
+Research economy is part of design quality. Expensive source collection should
+use staged stop rules, deterministic sampling where a census is unnecessary,
+and prespecified nested outputs that reuse the same observations without
+turning post hoc patterns into new confirmations.
+
 Every case, experiment, and model note should end with **Conclusions and Next
 Steps**. That section should state the result the artifact warrants now, its
 consequence for the wider theory or claim registry, and the next action most
@@ -599,13 +612,20 @@ topological priority as given.
    essay, but preregistration must be frozen before evidence collection and its
    final model-comparison rules must incorporate item 3's robustness decision.
    It tests [CM-01](research/claims.md#cm-01--antinomies-as-mutually-dependent-relations)
-   and [CM-04](research/claims.md#cm-04--cybernetic-dynamics-can-formalise-antinomies).
+   and the observational adequacy of
+   [CM-04](research/claims.md#cm-04--cybernetic-dynamics-can-formalise-antinomies),
+   with nested decision-authority tests of
+   [CM-12](research/claims.md#cm-12--decentralisation-has-generative-and-disorganising-effects)
+   and [CM-13](research/claims.md#cm-13--centralisation-has-enabling-and-suppressive-effects).
    The 2026-09-04 packet fixes four ASF project–foundation relationships over
    2023–2025, event-level proxies and rival accounts, source/coding gates, and
    an exposure audit. This is a retrospective public-record study registered
    before systematic evidence extraction, not an empirical result or a
-   numerical calibration of the toy model. The packet awaits review; evidence
-   collection is a separate subsequent work item.
+   numerical calibration of the toy model. A 2026-09-05 pre-evidence amendment
+   makes the audit completable by one researcher, reduces routine-release coding
+   through deterministic sampling, and fixes claim-level decisions before
+   collection. The packet awaits review; evidence collection is a separate
+   subsequent work item.
 5. [ ] **First print/Reformation evidence pass.** Freeze the jurisdiction list,
    outcome codebook, phase boundaries, and missing-data rules; build the dated
    ordinance and censorship ledger; and complete Saxony and Venice process

@@ -9,6 +9,10 @@ institutional descriptions. They do not verify archive completeness or the
 2023–2025 mechanisms. No case episode has been systematically retrieved,
 classified, or entered into an outcome ledger.
 
+The 2026-09-05 solo-completion and research-yield amendment inspected no
+additional source. This audit therefore remains the complete exposure record
+for both the original packet and its amendments.
+
 ## Material Inspected During Design
 
 | Source | What was inspected and why | Exposure or limitation |
@@ -70,20 +74,22 @@ access audit; if the causal comparison needs unavailable private material, its
 identification gate fails. A failed gate is a registered result, not permission
 to change the project sample or infer hidden exchanges.
 
-Archive completeness, the number of eligible opportunities, sufficient
-variation, and the availability of a second human reviewer remain unverified.
-The packet is a frozen design with explicit feasibility gates, not a promise
-that the public records will meet them. No interviews, external contact,
-account access, or personal-data enrichment is authorized here.
+Archive completeness, the number of eligible opportunities, and sufficient
+variation remain unverified. The amended audit is deliberately completable by
+one researcher and does not depend on recruiting or paying a second coder. The
+packet is a frozen design with explicit feasibility gates, not a promise that
+the public records will meet them. No interviews, external contact, account
+access, or personal-data enrichment is authorized here.
 
 ## Conclusions and Next Steps
 
 The inspected sources support a candidate public-record study and identify
 known confidentiality constraints. They do not warrant any directed-effect
 claim, historical policy attribution, or assertion that the cohort has passed
-the access gate. CM-01 and CM-04 gain no empirical support from this audit.
+the access gate. CM-01, CM-04, CM-12, and CM-13 gain no empirical support from
+this audit.
 
 Preserve this disclosure with the registered protocol. After review and
 separate authorization for the evidence pass, the next discriminating action
-is the fixed-cohort source and eligibility audit, not selection of illustrative
-success stories.
+is to freeze the blank schema and executable audit before the fixed-cohort
+source and eligibility audit, not to select illustrative success stories.

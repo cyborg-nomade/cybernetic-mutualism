@@ -11,9 +11,9 @@
   [registration manifest](asf-autonomy-coordination-registration.toml).
 
 This registers a test, not a finding. It provides no empirical support for
-CM-01 or CM-04 and changes no confidence level. The records already exist;
-this is prospective specification of an analysis of historical records, not
-preregistration before the historical events occurred. The source audit
+CM-01, CM-04, CM-12, or CM-13 and changes no confidence level. The records
+already exist; this is prospective specification of an analysis of historical
+records, not preregistration before the historical events occurred. The source audit
 discloses the governance material and incidental search-result information
 seen during design. No claim of complete outcome blindness is made.
 
@@ -31,6 +31,16 @@ of this PR.
 Do locally exercised decision rights and foundation-level coordination
 recurrently enable and constrain one another, or do public records better
 support one-way oversight, independent routines, or responses to common shocks?
+
+Three nested questions reuse the same observations without changing the primary
+case-selection rule:
+
+1. Does a documented shift of binding decision authority toward PMCs show both
+   generative and coordination-burdening effects in this decision layer?
+2. Does a documented shift toward foundation authority show both enabling and
+   suppressive effects in this decision layer?
+3. Does the A/C vocabulary yield a classifiable, rival-discriminating account,
+   or does it merely redescribe ordinary governance events?
 
 The ASF separates project technical direction from foundation oversight in its
 [governance account](https://www.apache.org/foundation/governance/pmcs).
@@ -121,15 +131,23 @@ dispute. The [board process](https://www.apache.org/foundation/board/meeting)
 identifies project and foundation officer reports; it does not guarantee that
 every relevant exchange will be public.
 
-Enumerate all public formal release-vote openings and all proposals requesting
-a binding change in technical direction, project governance, or foundation
-services in the projects' development lists. Include unsuccessful, withdrawn,
-unanswered, and apparently routine proposals. Exclude ordinary patches, user
-support, automated notifications, release announcements without a decision
-record, and personnel speculation. Treat a referenced public issue tracker or
-official service ticket as corroboration, not as an unrestricted additional
-sampling frame. Follow references until the same episode closes or reaches
-the horizon; do not follow unrelated disputes into new projects or years.
+Screen the complete public subject index for formal release-vote openings and
+proposals requesting a binding change in technical direction, project
+governance, or foundation services. Extract every cross-boundary candidate and
+every ambiguous thread needed to decide eligibility. Include unsuccessful,
+withdrawn, unanswered, and apparently routine proposals. For the local-only
+release baseline, do not code a census: within each nonempty project-quarter,
+sort eligible release-vote openings by the hexadecimal SHA-256 of
+`project|YYYY-QN|source_id` and code the first one. Preserve the screened count
+and sampled ID for every stratum. This caps routine baseline coding at 48
+families without outcome-based selection.
+
+Exclude ordinary patches, user support, automated notifications, release
+announcements without a decision record, and personnel speculation. Treat a
+referenced public issue tracker or official service ticket as corroboration,
+not as an unrestricted additional sampling frame. Follow references until the
+same episode closes or reaches the horizon; do not follow unrelated disputes
+into new projects or years.
 
 Search aids include `vote`, `result`, `proposal`, `board`, `PMC`, `policy`,
 `infra`, `legal`, `brand`, `retire`, and their inflections. Keywords assist
@@ -238,9 +256,14 @@ receiver disposition and time order classifiable from public records. Unknown
 cases remain in the denominator. These conditions test observability, not
 the required number of successful coupling witnesses.
 
-**G3 — Coding audit.** Complete the codebook's independent human review before
-adjudicating the hypothesis. If a second reviewer is unavailable, publish a
-single-coder descriptive ledger only; do not claim this gate was passed.
+**G3 — Solo stability and reproducibility audit.** Complete the codebook's
+frozen, delayed blinded recoding and executable integrity checks before
+adjudicating the hypotheses. The initial recode agreement must reach 90% under
+the registered calculation. This is an intra-rater stability gate, not evidence
+of inter-rater reliability. It requires no collaborator, payment, institution,
+private access, or external service. Failure yields a completed but unstable
+descriptive study; it does not authorize recruiting a gatekeeper or repeatedly
+recoding until the threshold passes.
 
 | Outcome after gates | Registered decision |
 | --- | --- |
@@ -289,16 +312,21 @@ returns a different decision category or fails a gate that passed at 90 days,
 qualify the primary conclusion as timing-sensitive and state which horizon
 changed and how. Do not replace or upgrade the primary category when a
 sensitivity result is more favorable. Report both sensitivity results even
-when neither changes the category. No automatic confidence increase follows
-from this small, selected, nonexperimental study.
+when neither changes the category.
 
-## Relation to CM-01, CM-04, and Institutional Viability
+## Registered Outputs and Claim Decisions
 
 [CM-01](../claims.md#cm-01--antinomies-as-mutually-dependent-relations) receives
 a concrete candidate test, not evidence merely because governance is divided.
-Even a retained reciprocal interpretation would not prove that removing a
-pole necessarily transforms the relation. Such necessity would require
-separate intervention or removal evidence not promised here.
+If G1 through G3 pass and the full bounded reciprocal category holds at 60, 90,
+and 180 days, raise CM-01 from C1 to C2 for the explicitly bounded ASF
+project–foundation domain. This is enough for provisional evidence bearing on
+an existential “some relations” claim, but cannot exceed C2 because the four
+comparisons share one selected institution and no removal intervention occurs.
+If the primary result is timing-sensitive or falls in any lower category, keep
+CM-01 at C1 and record whether this candidate is narrowed, not retained, or
+indeterminate. No result here proves that removing a pole necessarily
+transforms the relation; that requires a separate intervention or removal test.
 
 [CM-04](../claims.md#cm-04--cybernetic-dynamics-can-formalise-antinomies) retains
 the [item 3 narrowing](../decisions/antinomy-structural-robustness.md). This
@@ -308,6 +336,41 @@ parameters, attractors, or predictive superiority. Do not fit logistic or
 arctangent equations to narrative labels. Any later quantitative comparison
 needs its own measurement model and preregistration before fitting.
 
+Make an explicit observational-adequacy decision for CM-04. If G1 through G3
+pass and the decision table returns a non-indeterminate category at the primary
+horizon, retain the A/C directional vocabulary as observationally usable in
+this domain. If G1 passes but G2 fails for insufficient or unclassifiable
+opportunities, or G3 fails for coding instability, narrow its empirical
+applicability and state which failure occurred. If G1 fails, withhold the
+mapping decision because source access, not the vocabulary, failed. None of
+these outcomes changes CM-04's C1 confidence in the numerical model; it changes
+only the warranted empirical scope of its terms.
+
+For the nested [CM-12](../claims.md#cm-12--decentralisation-has-generative-and-disorganising-effects)
+test, use only qualified families with a documented shift of binding decision
+authority toward the PMC that begins inside the primary event-onset window.
+Provisional bounded support requires two distinct families across at least two
+PMCs: at least one generative family with `autonomy_change = expanded` and
+`newly_feasible_action_executed = yes`, and at least one disorganising family
+with `coordination_burden_change = increased` or a named shared commitment coded
+`failed`. For
+[CM-13](../claims.md#cm-13--centralisation-has-enabling-and-suppressive-effects),
+apply the same cardinality and onset rules to shifts toward foundation
+authority: at least one enabling family must have
+`newly_feasible_action_executed = yes`, and at least one suppressive family must
+have `autonomy_change = restricted`. Every family must meet the primary
+directional witness and rival-resolution rules, and
+`authority_outcome_link_met` must be yes; the two signs must be in separate
+families.
+
+If G1 through G3 pass and a nested mixed-effect criterion holds at all three
+horizons, raise that claim to C2 only for the ASF decision-authority layer. A
+timing-sensitive or single-sign result leaves it at C1 and narrows the proposed
+conditions. No qualifying families under passed gates count against this ASF
+instantiation; failed gates produce no claim-level direction. These tests do
+not measure communication-network concentration, ownership, or the other
+layers named in the general claims.
+
 Institutional viability is separate from both A and C: record an official
 change in project/PMC status or an explicit inability to meet an identified
 governance obligation, with its authoritative source and duration. Retirement
@@ -316,15 +379,28 @@ report alone is not collapse. If no independent status/obligation evidence
 exists, viability is unknown. No toy threshold such as 0.1 is transferred to
 institutional records. CM-05 and the print/Reformation claims remain untouched.
 
+Regardless of causal gate outcomes, publish four reusable registered products:
+the month-level source-access map; the screened and sampled episode inventory;
+direction × sign × authority-shift × disposition tables at all horizons; and a
+ledger of which measurement or rival condition blocked each candidate. These
+are descriptive infrastructure, not consolation prizes recoded as confirmation.
+
 ## Deliverables and Stop Rule
 
-The later evidence pass must publish the source inventory, screening log,
-episode/family ledger, A/C component records, shock ledger, contrast pairs,
-reviewer disagreements, missingness tables, per-family rival matrix, and
-decision under all three horizons. Include source URLs, locators, dates,
-retrieval hashes, and the registration commit. Preserve negative and
-unresolved cases. Retrieve all eligible records in the fixed scope or declare
+The later evidence pass must publish the source inventory, screening and
+deterministic-sampling log, episode/family ledger, A/C and authority-shift
+component records, shock ledger, contrast pairs, first and blinded-recode
+values, recode disagreements, executable audit report, missingness tables,
+per-family rival matrix, nested claim tables, and decisions under all three
+horizons. Include source URLs, locators, dates, retrieval hashes, and the
+registration commit. Preserve negative and unresolved cases. Retrieve all
+eligible cross-boundary records and the fixed local baseline sample or declare
 the work incomplete; resource limits do not authorize outcome-based stopping.
+
+Before retrieving case records, implement and freeze the blank data schemas,
+sampling functions, horizon calculations, gate calculator, nested-claim
+calculator, and synthetic tests for the executable audit. Later bug fixes
+require the same dated-amendment disclosure as prose changes.
 
 This item ends with the accepted registration packet. No case evidence,
 outcome classifications, external contacts, publication, or scheduled
@@ -350,16 +426,43 @@ constructs, primary horizon, rivals, thresholds, or collection status. The
 original commit remains in history. The clarified rules above are prospective:
 no evidence record or result exists to reclassify under either version.
 
+## Registration Amendment 2 — Solo Completion and Research Yield
+
+**Date:** 2026-09-05. **Reason:** The researcher disclosed that the programme is
+independent, has no institutional or grant backing, has no budget for a second
+coder, and requires every experiment to be completable without external human
+aid. Review also found that the original corpus cost was disproportionate to
+its prespecified claim consequences. **Exposure since Amendment 1:** no
+additional ASF source, selected-project record, case outcome, or external
+reviewer code was inspected. The design-stage exposure remains exactly that
+disclosed in the source audit. **Affected analyses:** G3, routine-release
+sampling, measurement fields, deliverables, and decision rules for CM-01,
+CM-04, CM-12, and CM-13.
+
+This amendment replaces the mandatory second-human audit with the solo
+stability and reproducibility gate, replaces the local-only release census with
+a deterministic project-quarter sample, and adds the nested analyses and
+claim-level consequences above. The original human-audit rule remains visible
+in Git history but is infeasible under the programme constraint and will not be
+reported as a primary or sensitivity result. An optional independent
+replication may be added later only as a separately labelled robustness study;
+it cannot determine completion or overwrite the registered solo analysis.
+Because no case record has been collected or coded, these changes are
+prospective and do not respond to observed results.
+
 ## Conclusions and Next Steps
 
 This packet warrants treating ASF project autonomy and foundation coordination
 as a specified, potentially falsifiable candidate relation. It establishes no
-reciprocal effect. The main risk is public-record underidentification, which
-the gates must expose rather than conceal through assumed zero effects.
-CM-01 remains C1 with a registered test; CM-04 retains its narrowed C1 formal
-warrant and receives no empirical validation.
+reciprocal effect. The main risks are public-record underidentification and
+single-researcher coding instability, which the gates must expose rather than
+conceal through assumed zero effects or fictitious independence. CM-01, CM-12,
+and CM-13 remain C1 pending evidence but now have explicit bounded routes to C2.
+CM-04 retains its narrowed C1 formal warrant and gains an empirical-scope
+decision rather than a promise of numerical validation.
 
-Review and accept this packet before retrieving case records. The next
-discriminating action for the ASF study is the registered source/cohort audit,
-followed only if appropriate by the full episode comparison. Neither that
-evidence pass nor the print/Reformation evidence pass begins in this package.
+Review and accept this packet before retrieving case records. The next action
+for the ASF study is to implement and freeze its blank schemas and executable
+audit, followed by the registered source/cohort audit and, only if appropriate,
+the full episode comparison. Neither that implementation nor either evidence
+pass begins in this package.

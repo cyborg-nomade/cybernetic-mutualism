@@ -1,10 +1,11 @@
 # Frozen design metadata; not a record of completed data collection or review.
 registration_id = "asf-autonomy-coordination-v1"
 registered_on = 2026-09-04
+amended_on = 2026-09-05
 design = "retrospective-public-records-process-comparison"
 institution = "Apache Software Foundation"
 cycle_item = 4
-claims = ["CM-01", "CM-04"]
+claims = ["CM-01", "CM-04", "CM-12", "CM-13"]
 project_ids = ["httpd", "tomcat", "maven", "ant"]
 primary_start = 2023-01-01
 primary_end = 2025-12-31
@@ -15,6 +16,8 @@ source_publication_cutoff = 2026-08-31
 primary_horizon_days = 90
 sensitivity_horizons_days = [60, 180]
 project_quarter_blocks = 48
+local_release_baseline_per_nonempty_project_quarter = 1
+maximum_local_release_baseline_families = 48
 source_coverage_months_required = 33
 primary_months = 36
 opportunity_families_per_direction_required = 4
@@ -22,17 +25,50 @@ classifiable_opportunity_fraction_required = 0.75
 qualified_families_per_direction_required = 2
 projects_per_direction_required = 2
 required_signs = ["enablement", "constraint"]
-human_audit_fraction = 0.20
-human_agreement_required = 0.90
+nonopportunity_recode_fraction = 0.20
+solo_recode_agreement_required = 0.90
+solo_recode_washout_days = 14
 outcome_collection_started_at_registration = false
 complete_outcome_blindness_claimed = false
-independent_human_audit_required = true
+independent_human_audit_required = false
+external_human_replication_optional = true
+solo_completion_required = true
+solo_recode_required = true
+executable_integrity_audit_required = true
 external_registry_submission = false
-review_amendment_ids = ["pr13-review-clarifications-2026-09-04"]
+amendment_ids = [
+  "pr13-review-clarifications-2026-09-04",
+  "solo-completion-and-research-yield-2026-09-05",
+]
 separate_family_per_required_sign = true
 sensitivity_difference_at_either_horizon_qualifies = true
 audit_all_opportunity_families = true
 audit_selection_reason_blinded = true
+claim_c2_requires_all_gates = true
+cm01_c2_requires_full_result_at_all_horizons = true
+nested_claim_c2_requires_mixed_result_at_all_horizons = true
+nested_claim_families_required = 2
+nested_claim_projects_required = 2
+nested_claim_family_required_values = [
+  "qualified_witness:yes",
+  "authority_outcome_link_met:yes",
+]
+cm12_family_required_values = ["decision_authority_shift:toward PMC"]
+cm12_generative_required_values = [
+  "autonomy_change:expanded",
+  "newly_feasible_action_executed:yes",
+]
+cm12_disorganising_any_values = [
+  "coordination_burden_change:increased",
+  "coordination_disposition:failed",
+]
+cm13_family_required_values = ["decision_authority_shift:toward foundation"]
+cm13_enabling_required_values = [
+  "newly_feasible_action_executed:yes",
+]
+cm13_suppressive_required_values = [
+  "autonomy_change:restricted",
+]
 rival_addressed_states = ["contradicted"]
 rival_unaddressed_states = [
   "supported",
@@ -44,8 +80,12 @@ rival_unaddressed_states = [
 audit_agreement_fields = [
   "eligible",
   "decision_right",
+  "decision_authority_shift",
   "autonomy_change",
+  "newly_feasible_action_executed",
   "coordination_disposition",
+  "coordination_burden_change",
+  "authority_outcome_link_met",
   "receiver_observed",
   "temporal_order",
   "channel",
