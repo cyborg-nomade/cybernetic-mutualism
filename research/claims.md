@@ -67,7 +67,7 @@ changes require a dated revision note.
 
 | ID | Short name | Type | Confidence | Status |
 | --- | --- | --- | --- | --- |
-| [CM-01](#cm-01--antinomies-as-mutually-dependent-relations) | Antinomies as mutually dependent relations | Conceptual; causal | C1 | Needs specification |
+| [CM-01](#cm-01--antinomies-as-mutually-dependent-relations) | Antinomies as mutually dependent relations | Conceptual; causal | C1 | Under test: registered design |
 | [CM-02](#cm-02--mutualism-as-a-theory-of-progress) | Mutualism as a theory of progress | Historical interpretation | C1 | Needs specification |
 | [CM-03](#cm-03--historical-change-is-nonlinear-and-scale-dependent) | Historical change is nonlinear and scale-dependent | Empirical generalisation | C1 | Needs specification |
 | [CM-04](#cm-04--cybernetic-dynamics-can-formalise-antinomies) | Cybernetic dynamics can formalise antinomies | Model claim | C1 | Provisionally retained in narrowed domain |
@@ -78,8 +78,8 @@ changes require a dated revision note.
 | [CM-09](#cm-09--durable-phenomena-enter-a-five-domain-circuit) | Durable phenomena enter a five-domain circuit | Causal; model claim | C1 | Under test |
 | [CM-10](#cm-10--substrates-define-feasible-topology-spaces) | Substrates define feasible topology spaces | Conceptual; causal | C1 | Needs revision |
 | [CM-11](#cm-11--substrate-change-pressures-inherited-institutions) | Substrate change pressures inherited institutions | Causal | C1 | Needs specification |
-| [CM-12](#cm-12--decentralisation-has-generative-and-disorganising-effects) | Decentralisation has mixed effects | Causal | C1 | Needs specification |
-| [CM-13](#cm-13--centralisation-has-enabling-and-suppressive-effects) | Centralisation has mixed effects | Causal | C1 | Needs specification |
+| [CM-12](#cm-12--decentralisation-has-generative-and-disorganising-effects) | Decentralisation has mixed effects | Causal | C1 | Under test: ASF decision-authority layer |
+| [CM-13](#cm-13--centralisation-has-enabling-and-suppressive-effects) | Centralisation has mixed effects | Causal | C1 | Under test: ASF decision-authority layer |
 | [CM-14](#cm-14--decentralising-innovations-tend-toward-recapture) | Decentralising innovations tend toward recapture | Empirical generalisation; causal | C1 | Needs specification |
 | [CM-15](#cm-15--inhibitory-institutions-can-make-rivalry-productive) | Inhibitory institutions can make rivalry productive | Causal | C1 | Needs specification |
 | [CM-16](#cm-16--recurrence-does-not-confer-legitimacy) | Recurrence does not confer legitimacy | Conceptual; normative | C1 | Proposed |
@@ -98,7 +98,7 @@ changes require a dated revision note.
 
 - **Type:** Conceptual; causal.
 - **Confidence:** C1 — conjectural.
-- **Status:** Needs specification.
+- **Status:** Under test: empirical design registered; collection not begun.
 - **Statement:** Some opposed social tendencies are co-constitutive: each helps
   produce, enable, or delimit the other within a shared relation, so removing
   either pole transforms the relation rather than finally resolving it.
@@ -119,9 +119,22 @@ changes require a dated revision note.
   removable poles with an unchanged relation, or no discriminating observation
   between antinomy and ordinary interaction.
 - **Evidence:** For — none assembled. Against — none assembled.
+- **Active test:** The [ASF autonomy/coordination
+  preregistration](cases/asf-autonomy-coordination-preregistration.md) specifies
+  four project–foundation relationships in 2023–2025, observable decision
+  rights and commitments, directed mechanisms, and uncoupled, common-shock,
+  and one-way rivals. Its source, identifiability, and solo reproducibility gates
+  may prevent identification. A full reciprocal result stable at all three
+  horizons is prespecified to raise only the bounded ASF instantiation to C2.
+  Registration is not evidence, and acceptance remains subject to review.
 - **Dependencies:** Grounds CM-04, CM-05, CM-12, and CM-13.
 - **Revision history:** 2026-08-30 — extracted; wording narrowed from all
   manifesto oppositions to **some** named social tendencies.
+  2026-09-04 — registered the ASF candidate test without changing the statement
+  or C1 confidence. No systematic case evidence has been collected.
+  2026-09-05 — amended the pre-evidence decision rule to permit C2 only for a
+  gate-passing reciprocal result stable at 60, 90, and 180 days; replaced the
+  infeasible external-coder dependency with a disclosed solo stability audit.
 
 ### CM-02 — mutualism as a theory of progress
 
@@ -225,6 +238,13 @@ changes require a dated revision note.
   asymmetric synchronous arctangent variants retain some oscillatory seed
   runs but fail modal-region survival. Uncoupled controls remain free of
   lock-in and oscillation; reference collapse labels remain threshold-sensitive.
+- **Active empirical design:** The [ASF
+  preregistration](cases/asf-autonomy-coordination-preregistration.md) tests
+  whether directed mechanisms can be mapped to public institutional records
+  and discriminated from simpler accounts. It prespecifies retain, narrow, and
+  withhold outcomes for that observational mapping. It does not fit or validate
+  the toy model's parameters or attractors. No case evidence is supplied by
+  registration.
 - **Dependencies:** Requires a specified instance of CM-01.
 - **Revision history:** 2026-08-30 — extracted as a model-performance claim,
   not evidence that Proudhon's language was already cybernetic.
@@ -236,6 +256,8 @@ changes require a dated revision note.
   structural test. Period-two oscillation is now explicitly assumption-sensitive;
   confidence remains C1. See the [second-cycle item 3
   decision](decisions/antinomy-structural-robustness.md).
+  2026-09-05 — added a claim about the empirical scope of the model vocabulary
+  to the ASF design; this cannot raise the numerical model above C1.
 
 ### CM-05 — social orders can regenerate antagonism
 
@@ -458,7 +480,7 @@ changes require a dated revision note.
 
 - **Type:** Causal.
 - **Confidence:** C1 — conjectural.
-- **Status:** Needs specification.
+- **Status:** Under test: ASF decision-authority layer.
 - **Statement:** Under specifiable conditions, decreasing concentration in a
   named network layer increases variation, local information, experimentation,
   or edge formation while also raising coordination cost, fragmentation, or
@@ -476,15 +498,24 @@ changes require a dated revision note.
 - **Could weaken it:** Stable network measures show no conditional relation, or
   effects disappear when resources and selection into structure are addressed.
 - **Evidence:** For — none assembled. Against — none assembled.
+- **Active test:** The [ASF preregistration](cases/asf-autonomy-coordination-preregistration.md)
+  treats a documented shift of binding authority toward a PMC as a decrease in
+  concentration in that decision layer only. Separate qualified families must
+  show executed expanded options and increased coordination burden or failed
+  shared commitment across at least two PMCs. Stability at all three horizons
+  can support only this bounded instantiation at C2.
 - **Dependencies:** Uses [the glossary definition](glossary.md#decentralisation)
   and must not infer one layer from another.
 - **Revision history:** 2026-08-30 — extracted.
+  2026-09-05 — specified a bounded decision-authority-layer test without
+  generalising PMC authority to other network layers; confidence remains C1
+  before evidence.
 
 ### CM-13 — centralisation has enabling and suppressive effects
 
 - **Type:** Causal.
 - **Confidence:** C1 — conjectural.
-- **Status:** Needs specification.
+- **Status:** Under test: ASF decision-authority layer.
 - **Statement:** Under specifiable conditions, increasing concentration in a
   named network layer enables standards, memory, scale, or coordinated action
   while also reducing variation, signal correction, or adaptability and
@@ -503,9 +534,18 @@ changes require a dated revision note.
 - **Could weaken it:** Concentration measures do not condition outcomes after
   addressing selection and resources, or no predicted trade-off appears.
 - **Evidence:** For — none assembled. Against — none assembled.
+- **Active test:** The [ASF preregistration](cases/asf-autonomy-coordination-preregistration.md)
+  treats a documented shift of binding authority toward the foundation as an
+  increase in concentration in that decision layer only. Separate qualified
+  families must show enablement and restriction across at least two PMCs.
+  Stability at all three horizons can support only this bounded instantiation
+  at C2.
 - **Dependencies:** Uses [the glossary definition](glossary.md#centralisation)
   and must be evaluated separately by layer.
 - **Revision history:** 2026-08-30 — extracted.
+  2026-09-05 — specified a bounded decision-authority-layer test without
+  generalising foundation authority to other network layers; confidence
+  remains C1 before evidence.
 
 ### CM-14 — decentralising innovations tend toward recapture
 
