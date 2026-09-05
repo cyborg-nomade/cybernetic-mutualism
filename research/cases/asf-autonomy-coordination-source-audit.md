@@ -2,7 +2,8 @@
 
 ## Status
 
-Audit date: 2026-09-04. This records design-stage source inspection for the
+Initial audit date: 2026-09-04. Amendment check date: 2026-09-05. This records
+design-stage source inspection for the
 [ASF preregistration](asf-autonomy-coordination-preregistration.md), not an
 evidence pass. Sources below establish candidate access routes and current
 institutional descriptions. They do not verify archive completeness or the

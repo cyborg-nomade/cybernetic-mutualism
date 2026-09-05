@@ -46,6 +46,7 @@ audit_all_opportunity_families = true
 audit_selection_reason_blinded = true
 claim_c2_requires_all_gates = true
 cm01_c2_requires_full_result_at_all_horizons = true
+cm04_indeterminate_decision = "narrow_observational_applicability"
 nested_claim_c2_requires_mixed_result_at_all_horizons = true
 nested_claim_families_required = 2
 nested_claim_projects_required = 2
@@ -53,16 +54,16 @@ nested_claim_family_required_values = [
   "qualified_witness:yes",
   "authority_outcome_link_met:yes",
 ]
-cm12_family_required_values = ["decision_authority_shift:toward PMC"]
+cm12_family_required_values = ["decision_authority_shift:toward_pmc"]
 cm12_generative_required_values = [
   "autonomy_change:expanded",
   "newly_feasible_action_executed:yes",
 ]
-cm12_disorganising_any_values = [
-  "coordination_burden_change:increased",
-  "coordination_disposition:failed",
+cm12_disorganising_any_condition_sets = [
+  ["coordination_burden_change:increased"],
+  ["shared_commitment_named:yes", "coordination_disposition:failed"],
 ]
-cm13_family_required_values = ["decision_authority_shift:toward foundation"]
+cm13_family_required_values = ["decision_authority_shift:toward_foundation"]
 cm13_enabling_required_values = [
   "newly_feasible_action_executed:yes",
 ]
@@ -84,6 +85,7 @@ audit_agreement_fields = [
   "autonomy_change",
   "newly_feasible_action_executed",
   "coordination_disposition",
+  "shared_commitment_named",
   "coordination_burden_change",
   "authority_outcome_link_met",
   "receiver_observed",
@@ -100,3 +102,56 @@ protocol = "asf-autonomy-coordination-preregistration.md"
 codebook = "asf-autonomy-coordination-codebook.md"
 source_audit = "asf-autonomy-coordination-source-audit.md"
 structural_decision = "../decisions/antinomy-structural-robustness.md"
+
+[allowed_values]
+local_origin = ["pmc", "foundation", "external", "unknown"]
+decision_right = [
+  "pmc_binding",
+  "foundation_case_specific_authorization",
+  "shared_authorization",
+  "unknown",
+]
+decision_authority_shift = [
+  "toward_pmc",
+  "toward_foundation",
+  "toward_shared",
+  "unchanged",
+  "unknown",
+]
+authority_outcome_link_met = ["yes", "no", "unknown"]
+local_disposition = ["adopted", "rejected", "revised", "withdrawn", "pending", "unknown"]
+autonomy_change = ["expanded", "restricted", "unchanged", "unknown"]
+newly_feasible_action_executed = ["yes", "no", "not_applicable", "unknown"]
+commitment_mode = ["voluntary", "imposed", "mixed", "unknown"]
+shared_commitment_named = ["yes", "no", "not_applicable", "unknown"]
+coordination_disposition = [
+  "created",
+  "implemented",
+  "revised",
+  "refused",
+  "failed",
+  "ongoing",
+  "unknown",
+]
+coordination_burden_change = ["increased", "decreased", "unchanged", "unknown"]
+receiver_observed = ["known", "unknown"]
+temporal_order = [
+  "sender_first",
+  "receiver_first",
+  "documented_within_day_order",
+  "unknown",
+]
+channel = [
+  "public_cross_reference",
+  "documented_official_act",
+  "public_service_record",
+  "private_only_reference",
+  "unknown",
+]
+effect_sign = ["enablement", "constraint", "both", "no_demonstrated_effect", "unknown"]
+viability_event = [
+  "official_status_change",
+  "explicit_obligation_failure",
+  "no_documented_event",
+  "unknown",
+]

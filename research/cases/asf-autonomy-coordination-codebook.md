@@ -82,21 +82,22 @@ qualified witness, or even an observable receiver response.
 
 | Field | Allowed values and coding rule |
 | --- | --- |
-| `local_origin` | PMC / foundation / external / unknown; a contributor proposal counts as local only when pursued through the PMC's public decision process |
-| `decision_right` | PMC binding / foundation case-specific authorization / shared authorization / unknown; cite the historically applicable rule and observed act |
-| `decision_authority_shift` | Toward PMC / toward foundation / toward shared / unchanged / unknown; requires a documented before/after allocation of binding authority for the same decision class and names only the decision-authority layer |
-| `authority_outcome_link_met` | yes / no / unknown; yes requires contemporaneous attribution or a discriminating within-episode or matched contrast linking the authority shift to the nested outcome rather than mere co-occurrence |
-| `local_disposition` | Adopted / rejected / revised / withdrawn / pending / unknown; a rejected proposal can still demonstrate exercised local discretion |
-| `autonomy_change` | Expanded / restricted / unchanged / unknown; compare an explicitly documented prior and subsequent option set, not message counts |
-| `newly_feasible_action_executed` | yes / no / not applicable / unknown; yes requires evidence that the authority or coordination change made a previously unavailable or blocked action feasible and that the action was then performed |
-| `commitment_mode` | Voluntary / imposed / mixed / unknown; record whose obligation and whose authority |
-| `coordination_disposition` | Created / implemented / revised / refused / failed / ongoing / unknown; mere receipt is not implementation |
-| `coordination_burden_change` | Increased / decreased / unchanged / unknown; requires an added or removed authorization/reporting step, or documented duplicated, revised, or abandoned work attributed to the coordination arrangement; raw latency alone is insufficient |
-| `receiver_observed` | Known / unknown; known requires a source for actual receiver conduct or an explicit unchanged disposition |
-| `temporal_order` | Sender first / receiver first / documented within-day order / unknown |
-| `channel` | Public cross-reference / documented official act / public service record / private-only reference / unknown |
-| `effect_sign` | Enablement / constraint / both / no demonstrated effect / unknown; direction is stored separately |
-| `viability_event` | Official status change / explicit inability to meet a named governance obligation / no documented event / unknown; retain reason and duration |
+| `local_origin` | `pmc` / `foundation` / `external` / `unknown`; a contributor proposal counts as local only when pursued through the PMC's public decision process |
+| `decision_right` | `pmc_binding` / `foundation_case_specific_authorization` / `shared_authorization` / `unknown`; cite the historically applicable rule and observed act |
+| `decision_authority_shift` | `toward_pmc` / `toward_foundation` / `toward_shared` / `unchanged` / `unknown`; requires a documented before/after allocation of binding authority for the same decision class and names only the decision-authority layer |
+| `authority_outcome_link_met` | `yes` / `no` / `unknown`; yes requires contemporaneous attribution or a discriminating within-episode or matched contrast linking the authority shift to the nested outcome rather than mere co-occurrence |
+| `local_disposition` | `adopted` / `rejected` / `revised` / `withdrawn` / `pending` / `unknown`; a rejected proposal can still demonstrate exercised local discretion |
+| `autonomy_change` | `expanded` / `restricted` / `unchanged` / `unknown`; compare an explicitly documented prior and subsequent option set, not message counts |
+| `newly_feasible_action_executed` | `yes` / `no` / `not_applicable` / `unknown`; yes requires evidence that the authority or coordination change made a previously unavailable or blocked action feasible and that the action was then performed |
+| `commitment_mode` | `voluntary` / `imposed` / `mixed` / `unknown`; record whose obligation and whose authority |
+| `shared_commitment_named` | `yes` / `no` / `not_applicable` / `unknown`; yes requires a publicly identified cross-boundary commitment, its parties, and its intended deliverable or rule |
+| `coordination_disposition` | `created` / `implemented` / `revised` / `refused` / `failed` / `ongoing` / `unknown`; mere receipt is not implementation |
+| `coordination_burden_change` | `increased` / `decreased` / `unchanged` / `unknown`; requires an added or removed authorization/reporting step, or documented duplicated, revised, or abandoned work attributed to the coordination arrangement; raw latency alone is insufficient |
+| `receiver_observed` | `known` / `unknown`; known requires a source for actual receiver conduct or an explicit unchanged disposition |
+| `temporal_order` | `sender_first` / `receiver_first` / `documented_within_day_order` / `unknown` |
+| `channel` | `public_cross_reference` / `documented_official_act` / `public_service_record` / `private_only_reference` / `unknown` |
+| `effect_sign` | `enablement` / `constraint` / `both` / `no_demonstrated_effect` / `unknown`; direction is stored separately |
+| `viability_event` | `official_status_change` / `explicit_obligation_failure` / `no_documented_event` / `unknown`; retain reason and duration |
 
 “No documented event” means only that the reviewed corpus contains none; it
 does not assert institutional viability. “Unchanged” requires affirmative
@@ -118,10 +119,10 @@ fields only from the same evidence bundle and horizon used for the associated
 family; an attractive project result cannot retroactively create an authority
 shift.
 
-Code `toward PMC` only for a transition from foundation or shared binding
-authority to PMC binding authority; code `toward foundation` only for a
+Code `toward_pmc` only for a transition from foundation or shared binding
+authority to PMC binding authority; code `toward_foundation` only for a
 transition from PMC or shared authority to foundation binding authority. Code
-`toward shared` only when a sole authority becomes shared, and `unchanged` only
+`toward_shared` only when a sole authority becomes shared, and `unchanged` only
 when the before/after authority is documented and identical. All other or
 incompletely observed transitions are unknown. A nested CM-12/CM-13 family must
 begin inside the primary event-onset window.
@@ -180,9 +181,9 @@ a claim decision, use a local script to freeze an audit frame containing:
 1. every family marked as an A → C or C → A opportunity in the first pass; and
 2. a deterministic screening sample from every other eligible family.
 
-For item 2, stratify by project and documented initiating role (PMC,
-foundation, external, or unknown). Within each stratum, sort ascending by the
-hexadecimal SHA-256 of `project|initiating_role|family_id` and take the first
+For item 2, stratify by project and documented initiating role (`pmc`,
+`foundation`, `external`, or `unknown`). Within each stratum, sort ascending by
+the hexadecimal SHA-256 of `project|initiating_role|family_id` and take the first
 20%, rounded upward, with at least one family from each nonempty stratum.
 Recode all eligible families when fewer than eight exist overall. Freeze and
 hash the full audit-frame ID list and generate the blank recoding bundle at the
@@ -203,11 +204,11 @@ a second person and call it independent review.
 Before reconciliation, require at least 90% exact agreement across `eligible`,
 `decision_right`, `decision_authority_shift`, `autonomy_change`,
 `newly_feasible_action_executed`, `coordination_disposition`,
-`coordination_burden_change`, `authority_outcome_link_met`, `receiver_observed`,
-`temporal_order`, `channel`, `effect_sign`, each of the four condition fields,
-and `qualified_witness`. Compute the aggregate as exact matching values divided
-by all jointly required field comparisons. Matching unknown values remain
-matches in that denominator.
+`shared_commitment_named`, `coordination_burden_change`,
+`authority_outcome_link_met`, `receiver_observed`, `temporal_order`, `channel`,
+`effect_sign`, each of the four condition fields, and `qualified_witness`.
+Compute the aggregate as exact matching values divided by all jointly required
+field comparisons. Matching unknown values remain matches in that denominator.
 For every field, separately report exact agreement, each pass's unknown rate,
 and agreement restricted to records where neither pass used unknown; do not let
 common uncertainty look like substantive stability. Missing recode fields are
@@ -247,7 +248,7 @@ named project and cannot enter evidence counts.
 | An external outage precedes both a missed local action and a foundation service response | Candidate common shock; coupled effects unresolved until separately demonstrated |
 | A foundation service refusal explicitly removes one proposed local option; the PMC publicly records choosing another because of that refusal | Candidate C → A constraint; qualify only after timing, contrast, authority, and rival checks |
 | A local design requirement produces a documented change in a joint service plan, which then enables the local action | Candidate effects in both directions; one issue family, not two independent confirmations |
-| A dated rule moves a release decision from case-specific foundation approval to PMC authority; the PMC then performs a formerly blocked release | `decision_authority_shift = toward PMC`; candidate CM-12 generative family only if the directional and rival gates also pass |
+| A dated rule moves a release decision from case-specific foundation approval to PMC authority; the PMC then performs a formerly blocked release | `decision_authority_shift = toward_pmc`; candidate CM-12 generative family only if the directional and rival gates also pass |
 | A PMC gains binding authority but the same record documents a new duplicated approval path that causes the shared commitment to fail | Candidate CM-12 disorganising family; code the burden and failure, but do not treat it as a second family if it is the same issue |
 | A foundation takes binding authority and supplies a service that enables one project action while blocking a different local option in another issue family | Candidate CM-13 enablement and suppression in two families; each must qualify independently |
 | A report refers to private board feedback with no public receiver act | Not-public channel/receiver; cannot infer sign, success, or absence of effect |

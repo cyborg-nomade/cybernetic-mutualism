@@ -339,12 +339,14 @@ needs its own measurement model and preregistration before fitting.
 Make an explicit observational-adequacy decision for CM-04. If G1 through G3
 pass and the decision table returns a non-indeterminate category at the primary
 horizon, retain the A/C directional vocabulary as observationally usable in
-this domain. If G1 passes but G2 fails for insufficient or unclassifiable
-opportunities, or G3 fails for coding instability, narrow its empirical
-applicability and state which failure occurred. If G1 fails, withhold the
-mapping decision because source access, not the vocabulary, failed. None of
-these outcomes changes CM-04's C1 confidence in the numerical model; it changes
-only the warranted empirical scope of its terms.
+this domain. If G1 through G3 pass but the primary category is indeterminate,
+narrow its empirical applicability because the mapped observations did not
+discriminate an account. Also narrow it if G1 passes but G2 fails for
+insufficient or unclassifiable opportunities, or G3 fails for coding
+instability, and state which failure occurred. If G1 fails, withhold the mapping
+decision because source access, not the vocabulary, failed. None of these
+outcomes changes CM-04's C1 confidence in the numerical model; it changes only
+the warranted empirical scope of its terms.
 
 For the nested [CM-12](../claims.md#cm-12--decentralisation-has-generative-and-disorganising-effects)
 test, use only qualified families with a documented shift of binding decision
@@ -352,8 +354,8 @@ authority toward the PMC that begins inside the primary event-onset window.
 Provisional bounded support requires two distinct families across at least two
 PMCs: at least one generative family with `autonomy_change = expanded` and
 `newly_feasible_action_executed = yes`, and at least one disorganising family
-with `coordination_burden_change = increased` or a named shared commitment coded
-`failed`. For
+with `coordination_burden_change = increased`, or with both
+`shared_commitment_named = yes` and `coordination_disposition = failed`. For
 [CM-13](../claims.md#cm-13--centralisation-has-enabling-and-suppressive-effects),
 apply the same cardinality and onset rules to shifts toward foundation
 authority: at least one enabling family must have
