@@ -34,7 +34,7 @@ The electoral sequence connects authorized inspection to a reproducible teaching
 artifact. E03 records the 1527 commission; E04 records the 1528 instruction
 addressed to pastors. Heidelberg's source description explicitly connects the
 text to visitation experience. This is evidence of institutional work producing
-and using communication, rather than a sequence in which the printed instruction
+and targeting communication, rather than a sequence in which the printed instruction
 first creates the inspection machinery. It does not settle what earlier pamphlet
 circulation contributed to the political choice. E02 supplies a contemporaneous
 control attempt and reported dissemination, but no measured local exposure series.
@@ -49,10 +49,11 @@ They do not isolate protection from theological commitments, imported personnel,
 or material resources, and they do not establish equal print exposure in ES/DS.
 
 The process trace's important positive link is therefore **authority and personnel
-→ instructional use**, with possible feedback through standardization. The feedback
-effect is still a hypothesis: printed instructions are observed; changes in local
-compliance caused by their use are not. The change in electoral geography after
-1547 must also remain visible. E19 establishes an imperial legal settlement but
+→ production and targeting of instruction**. Local implementation is reported
+only indirectly; comprehension, circulation volume, and uniform compliance are
+not established. Feedback through standardization remains untested. The change
+in electoral geography after 1547 must also remain visible. E19 establishes an
+imperial legal settlement but
 cannot repair missing parish returns or turn the former electoral territory into
 an unchanged statistical unit.
 
@@ -98,7 +99,7 @@ replications. Every row uses the same observations and exposes its missing link.
 | Starting domain | Saxony reconstruction | Venice reconstruction |
 | --- | --- | --- |
 | Topology (`T`) | E02/E04: communication is targeted and an instructional channel is visible. No measured change in reach or path redundancy separates the territories. | E08/E10: correspondence and manuscript channels are visible; E11–E17 alter control conditions. Undocumented shipments cannot become edges. |
-| Production (`P`) | E04/E07: print production serves institutional instruction. Prices, costs, firm resources and parish finance are missing. | E01/E13/E14: production and booksellers' resistance enter the control sequence. The ledger supplies no balanced firm panel. |
+| Production (`P`) | E04/E07: print production targets institutional instruction; local use is indirectly reported. Prices, costs, firm resources and parish finance are missing. | E01/E13/E14: production and booksellers' resistance enter the control sequence. The ledger supplies no balanced firm panel. |
 | Artifacts (`A`) | E03/E04/E07: manuscript instructions, printed guidance and worship order enable repeated procedures in principle. Their incremental implementation effect is unmeasured. | E09/E10/E13: work, manuscript advocacy and index have different uses. Artifact existence does not measure successful coordination. |
 | Worldview (`W`) | E05–E07: commitments, preaching and doctrine accompany political selection. Their independent contribution is not isolated. | E08/E10/E18: doctrinal disagreement, reform advocacy and Catholic adaptation cannot be collapsed into one Protestant label. |
 | Political organization (`S`) | E03/E06/E07: commissions, succession and appointments explain institutional steps. Earlier demand and exposure remain possible causes of rulers' choices. | E11/E14/E18: jurisdictional bargaining, resistance and settlement structure permitted action. A monolithic immediate-shock model loses relevant sequence. |
