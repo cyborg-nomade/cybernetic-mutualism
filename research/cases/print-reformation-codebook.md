@@ -119,6 +119,14 @@ Failure to meet a gate is not evidence of absence; separately report contradicti
 and research-direction decisions. No confidence level above C2 is available from
 this selected first pass.
 
+## Amendment 1 — Military Context
+
+2026-09-08, after source inspection: add `military_context` to the event types
+to record the battle of Mühlberg without misclassifying it as a settlement.
+This is an exposed descriptive amendment, not a new confirmatory test, new
+jurisdiction, or change to the confidence gates. The original rules remain
+available at `fdea00e`.
+
 ## Conclusions and Next Steps
 
 This freeze makes the evidence pass executable without external assistance and
