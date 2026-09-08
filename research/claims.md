@@ -341,7 +341,10 @@ changes require a dated revision note.
 - **Could weaken it:** Topology measures add no out-of-sample or comparative
   explanatory power, or predicted infeasible organisations persist without
   hidden channels.
-- **Evidence:** For — none assembled. Against — none assembled.
+- **Evidence:** For — the [first print/Reformation pass](cases/print-reformation-evidence-pass.md)
+  records instructional, correspondence, and control relations. Against/limits —
+  comparable measured topology and a discriminating exposure contrast remain
+  missing; those observations do not isolate a topology effect.
 - **Active test:** [Print, Reformation, and institutional
   selection](cases/print-reformation-paired-design.md) compares the
   German-speaking Empire with print-rich northern Italy and separates
@@ -351,6 +354,8 @@ changes require a dated revision note.
 - **Revision history:** 2026-08-30 — extracted.
   2026-08-31 — moved under test by the paired print/Reformation case design;
   confidence remains C1 until evidence is assembled.
+  2026-09-08 — assembled bounded process traces; retain C1 because the
+  first-pass topology/comparison gate is unmet. Network construction is deferred.
 
 ### CM-08 — communication topology can be causally prior
 
@@ -376,9 +381,12 @@ changes require a dated revision note.
 - **Could weaken it:** Production or political change consistently precedes and
   predicts topology better, or the proposed ordering reverses after improved
   dating and source criticism.
-- **Evidence:** For — none assembled. Against — the manifesto itself notes that
-  productive and scientific arrangements can generate communication
-  technologies; no cases have yet adjudicated direction.
+- **Evidence:** For — no discriminating evidence of topology's priority yet.
+  Against/limits — the [first print/Reformation pass](cases/print-reformation-evidence-pass.md)
+  strengthens political selection in specific institutional sequences. It also
+  rejects a direct Mühlberg-result trigger for the earlier Venetian magistracy,
+  without rejecting broader wartime pressure. These findings constrain local
+  explanations; they do not refute the existential claim across all transitions.
 - **Active test:** [Print, Reformation, and institutional
   selection](cases/print-reformation-paired-design.md) preregisters
   topology-first, state-first, production-first, and coupled sequences.
@@ -387,6 +395,8 @@ changes require a dated revision note.
 - **Revision history:** 2026-08-30 — narrowed from general causal priority to
   priority in at least some reconstructable transitions.
   2026-08-31 — moved under test without raising confidence.
+  2026-09-08 — retain C1; subsequent print-case analysis must compare political
+  selection and reciprocal accounts without presuming communication's priority.
 
 ### CM-09 — durable phenomena enter a five-domain circuit
 
@@ -410,7 +420,10 @@ changes require a dated revision note.
   history.
 - **Could weaken it:** Domains cannot be assigned reliably, omitted-domain
   models perform as well, or flexible couplings explain every possible result.
-- **Evidence:** For — none assembled. Against — none assembled.
+- **Evidence:** For — the [first print/Reformation pass](cases/print-reformation-evidence-pass.md)
+  can reconstruct all five perspectives from one ledger. Against/limits — no
+  distinct additional link demonstrably outperforms the stronger reduced
+  accounts; narrative coverage is not evidence of explanatory superiority.
 - **Active test:** [Print, Reformation, and institutional
   selection](cases/print-reformation-paired-design.md) specifies five
   same-ledger narratives and reduced baselines for the paired cases.
@@ -418,6 +431,8 @@ changes require a dated revision note.
 - **Revision history:** 2026-08-30 — narrowed from "most durable human
   phenomena" to a comparative model claim about some specified phenomena.
   2026-08-31 — moved under test without raising confidence.
+  2026-09-08 — retain C1; the first-pass comparison does not earn the full
+  account's additional complexity. Record the missing discriminator explicitly.
 
 ### CM-10 — substrates define feasible topology spaces
 

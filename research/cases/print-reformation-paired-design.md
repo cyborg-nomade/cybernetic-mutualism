@@ -2,6 +2,13 @@
 
 ## Status and purpose
 
+**2026-09-08 update:** The design below records the original prospective plan.
+The [first evidence pass](print-reformation-evidence-pass.md),
+[coding freeze](print-reformation-codebook.md), [ledger](print-reformation-ledger.md),
+and [source audit](print-reformation-source-audit.md) now provide a bounded
+implementation. The sample and full durability outcomes are incomplete; the
+current decision is process tracing. CM-07–CM-09 remain at C1.
+
 This document specifies a comparison before the project assembles or codes the
 case evidence. It is a design, not a finding. Its purpose is to test whether the
 spread of print helps explain the timing and geography of durable confessional
@@ -434,12 +441,14 @@ account has been made stronger rather than mentioned ceremonially.
   Germany”](https://doi.org/10.17016/FEDS.2016.028), Finance and Economics
   Discussion Series 2016-028. This identifies church ordinances as a distinct
   institutional outcome and documents the source series used to date them.
-- Michela Giorcelli and Nicola Lacetera, [“Censorship, Industry Structure, and
-  Creativity: Evidence from the Catholic Inquisition in Renaissance
-  Venice”](https://doi.org/10.1093/jleo/ewae010), *Journal of Law, Economics,
-  and Organization* 41, no. 3 (2025): 1045–1084. This offers a recent
+- Stefano Comino, Alberto Galasso, and Clara Graziano, [“Censorship, Industry
+  Structure, and Creativity: Evidence from the Catholic Inquisition in Renaissance
+  Venice”](https://doi.org/10.1093/jleo/ewae015), *Journal of Law, Economics,
+  and Organization* 41, no. 3 (2025): 1045–1074. This offers a recent
   firm-level design for the timing and heterogeneous effects of Venetian
   censorship; its causal estimates require independent historical scrutiny.
+  Bibliographic correction on 2026-09-08: the earlier version misattributed
+  the authors, DOI, and page range; see the source audit.
 
 ## Conclusions and Next Steps
 
@@ -452,11 +461,17 @@ with Italy. The paired design therefore turns CM-07 through CM-09 into
 discriminating questions, but supplies no evidence yet for raising or lowering
 their confidence.
 
-The immediate next step is to freeze the jurisdiction list, outcome codebook,
-phase boundaries, and missing-data rules before collecting observations. The
+At the design stage, the next step was to freeze the jurisdiction list, outcome
+codebook, phase boundaries, and missing-data rules before collecting observations. The
 first evidence pass should then build the dated ordinance and censorship ledger
 and two process traces, Saxony and Venice. Its decision point is whether the
 available catalogs support a reproducible network dataset or only bounded
 descriptive comparisons. Either result is useful: the latter would redirect
 the case toward source-grounded sequence analysis instead of manufacturing a
 network measure from incompatible records.
+
+The [2026-09-08 first pass](print-reformation-evidence-pass.md) has now reached
+that decision point and selects bounded process tracing for its current release.
+Review of the packet and the second-cycle synthesis precede a further evidence
+pass. Its identified follow-up targets are original Venetian policy chronology,
+Saxon implementation returns, and a small bibliographic crosswalk.

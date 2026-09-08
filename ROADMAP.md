@@ -561,8 +561,9 @@ falsifiable tendency. No claim confidence was raised by closing the cycle.
 acceptance of the first-cycle decision record and bounded manifesto revision.
 Activation is a workflow decision, not an empirical result. The public essay is
 complete. The robustness package is merged, with CM-04 narrowed at C1. The
-empirical preregistration is complete as a reviewable packet; its acceptance,
-the print/Reformation evidence pass, and the cycle-close synthesis remain
+empirical preregistration was accepted and merged in PR #13 on 2026-09-05.
+The print/Reformation first evidence pass is complete as a reviewable bounded
+process-tracing packet; its acceptance and the cycle-close synthesis remain
 pending. No ASF case evidence has been collected under the new protocol.
 
 ### Purpose
@@ -624,9 +625,10 @@ topological priority as given.
    numerical calibration of the toy model. A 2026-09-05 pre-evidence amendment
    makes the audit completable by one researcher, reduces routine-release coding
    through deterministic sampling, and fixes claim-level decisions before
-   collection. The packet awaits review; evidence collection is a separate
-   subsequent work item.
-5. [ ] **First print/Reformation evidence pass.** Freeze the jurisdiction list,
+   collection. The packet was accepted and merged in PR #13 on 2026-09-05;
+   evidence collection is a separate subsequent work item.
+5. [x] **[First print/Reformation evidence
+   pass](research/cases/print-reformation-evidence-pass.md).** Freeze the jurisdiction list,
    outcome codebook, phase boundaries, and missing-data rules; build the dated
    ordinance and censorship ledger; and complete Saxony and Venice process
    traces. Decide whether the catalogs warrant a reproducible network dataset
@@ -635,6 +637,14 @@ topological priority as given.
    [CM-07](research/claims.md#cm-07--communication-topology-constrains-social-organisation),
    [CM-08](research/claims.md#cm-08--communication-topology-can-be-causally-prior),
    and [CM-09](research/claims.md#cm-09--durable-phenomena-enter-a-five-domain-circuit).
+
+   The 2026-09-08 packet provides a frozen codebook, 19 dated observations,
+   Saxony/Venice traces, a ducal-Saxony contrast, and a catalog audit. It chooses
+   bounded process tracing: the bibliographic sample and complete durability
+   outcomes remain incomplete, and no validated transmission graph is available.
+   It strengthens institutional-selection questions and flags a chronological
+   problem in a direct 1547 battle-trigger account. CM-07–CM-09 remain at C1.
+   The packet awaits review; the cycle-close synthesis follows acceptance.
 
 ### Completion and Decision Criteria
 
