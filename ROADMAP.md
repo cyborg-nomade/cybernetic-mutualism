@@ -555,7 +555,7 @@ available warrant. The [dated manifesto
 revision](MANIFESTO.md#2-antinomies-do-not-end) now states a bounded,
 falsifiable tendency. No claim confidence was raised by closing the cycle.
 
-## Second Research Cycle — Active
+## Second Research Cycle — Complete
 
 **Status:** Proposed on 2026-09-01 and activated on 2026-09-03 after review and
 acceptance of the first-cycle decision record and bounded manifesto revision.
@@ -564,9 +564,10 @@ complete. The robustness package is merged, with CM-04 narrowed at C1. The
 empirical preregistration was accepted and merged in PR #13 on 2026-09-05.
 The print/Reformation first evidence pass was accepted and merged in PR #14 on
 2026-09-08 as a bounded process-tracing packet. The
-[second-cycle synthesis](research/decisions/second-cycle-synthesis.md), proposed
-on 2026-09-14, applies every completion criterion and proposes closing the cycle.
-Owner acceptance of that decision remains pending; the cycle is still active.
+[second-cycle synthesis](research/decisions/second-cycle-synthesis.md) was
+accepted by the project owner on 2026-09-14 after PR #15 review. It applies
+every completion criterion and closes the second cycle without activating the
+next one.
 No ASF case evidence has been collected under the new protocol.
 
 ### Purpose
@@ -674,13 +675,13 @@ Publication of the essay or execution of a model sweep alone does not complete
 the cycle. Confidence may rise only when linked evidence meets the registry's
 declared standard; registration of this proposal raises none.
 
-### Proposed Close and Handoff
+### Accepted Close and Proposed Handoff
 
 The [second-cycle decision record](research/decisions/second-cycle-synthesis.md)
-proposes closure with CM-04 narrowed, CM-05 retained in its bounded form, and
+records closure with CM-04 narrowed, CM-05 retained in its bounded form, and
 CM-07–CM-09 retained at C1 under a bounded process-tracing path. No confidence
-level rises. Acceptance would close this cycle, not finish the historical
-comparison or activate the next cycle.
+level rises. Acceptance closes this cycle, not the historical comparison, and
+does not activate the next cycle.
 
 The proposed next priority is the ASF study: first implement and freeze its
 blank schemas and executable audit, then apply the registered source/cohort

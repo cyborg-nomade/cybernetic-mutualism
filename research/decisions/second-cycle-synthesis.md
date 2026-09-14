@@ -1,9 +1,10 @@
 # Second Research Cycle Synthesis and Decision Record
 
 - **Proposed:** 2026-09-14
-- **Status:** Cycle close proposed; owner review and acceptance pending
-- **Scope:** The five [second-cycle deliverables](../../ROADMAP.md#second-research-cycle--active), including the accepted model, registration, and first historical evidence pass
-- **Decision:** Close the cycle on acceptance of this record; no claim confidence increase or next-cycle activation
+- **Accepted:** 2026-09-14, by the project owner after PR #15 review
+- **Status:** Accepted; second cycle complete
+- **Scope:** The five [second-cycle deliverables](../../ROADMAP.md#second-research-cycle--complete), including the accepted model, registration, and first historical evidence pass
+- **Decision:** Close the cycle; no claim confidence increase or next-cycle activation
 
 ## Decision and Completion Criteria
 
@@ -15,9 +16,9 @@ selection becomes a concrete historical working account, while communication
 topology's causal priority remains unestablished. An accepted empirical
 registration specifies how evidence can now alter several bounded claims.
 
-The cycle remains active pending acceptance of this record. Acceptance would
-close this cycle, not complete the ASF study or the full print/Reformation
-comparison. It authorizes neither a new evidence pass nor another publication.
+Owner acceptance closes this cycle, not the ASF study or the full
+print/Reformation comparison. It authorizes neither a new evidence pass nor
+another publication.
 
 | Declared criterion | Evidence and adjudication | Decision |
 | --- | --- | --- |
@@ -163,14 +164,14 @@ This is a proposed separate packet, not work started by the synthesis.
 
 ## Conclusions and Next Steps
 
-This record warrants closing the second cycle on review and acceptance. The
+This accepted record closes the second cycle. The
 cycle narrowed CM-04's formal scope, replaced empty historical evidence slots
 with bounded institutional sequences, and fixed an independently executable
 test with meaningful claim consequences. It did not demonstrate a universal
 recurrence law, establish topological priority, or raise any claim above C1.
 
 The programme now needs discriminating observations more than further generic
-illustrations. After acceptance, the next proposed item is the ASF executable
+illustrations. The next proposed item is the ASF executable
 audit, followed by the registered evidence and solo-stability sequence under
 separate authorization. The historical comparison's missing sample and outcomes
 remain explicit obligations; cycle closure does not discharge them.
