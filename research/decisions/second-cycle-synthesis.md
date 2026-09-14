@@ -115,7 +115,7 @@ discard unknowns, or keep recoding until a desired result appears.
 
 | Claim | Decision at cycle close | Consequence for further work |
 | --- | --- | --- |
-| CM-01 | C1 unchanged; no demonstrated empirical antinomy yet. | The registered full reciprocal result, all gates passed and stable across 60/90/180 days, permits C2 only in the bounded ASF domain. It does not establish the necessity of either pole. |
+| CM-01 | C1 unchanged; C2 has not been granted. No demonstrated empirical antinomy yet. | If G1–G3 pass and the registered full bounded reciprocal category holds at each of 60, 90, and 180 days, that future result would warrant C2 only in the bounded ASF project–foundation domain. It would not establish the necessity of either pole. |
 | CM-04 | C1 retained with the item-3 structural narrowing. | ASF can retain, narrow, or withhold the observational mapping under its registered rules, not validate numerical parameters, attractors, or predictive superiority. |
 | CM-05 | Bounded C1 tendency retained; no new wording change. | A separate long-duration, rival-discriminating design is still needed. ASF does not test historical recurrence. |
 | CM-07 | C1 retained; relational/control observations now assembled. | Comparable paths and changes in topology, separated from authority and resource differences, remain missing. |
