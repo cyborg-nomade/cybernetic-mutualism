@@ -43,12 +43,14 @@ class ResearchArtifactTests(unittest.TestCase):
                 self.assertEqual(later_major_heading, -1)
 
     def test_cycle_status_and_decision_links_are_registered(self) -> None:
-        """Cycle labels should retain their decision record and proposal status."""
+        """Completed cycles should retain their accepted decision-record links."""
         roadmap = (REPOSITORY_ROOT / "ROADMAP.md").read_text(encoding="utf-8")
         claims = (REPOSITORY_ROOT / "research/claims.md").read_text(encoding="utf-8")
 
         self.assertIn("## First Research Cycle — Complete", roadmap)
-        self.assertIn("## Second Research Cycle — Active", roadmap)
+        self.assertIn("## Second Research Cycle — Complete", roadmap)
+        self.assertIn("(research/decisions/second-cycle-synthesis.md)", roadmap)
+        self.assertIn("(decisions/second-cycle-synthesis.md)", claims)
         self.assertIn(
             "(research/decisions/first-cycle-synthesis.md)",
             roadmap,

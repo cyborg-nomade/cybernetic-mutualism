@@ -126,7 +126,7 @@ changes require a dated revision note.
   and one-way rivals. Its source, identifiability, and solo reproducibility gates
   may prevent identification. A full reciprocal result stable at all three
   horizons is prespecified to raise only the bounded ASF instantiation to C2.
-  Registration is not evidence, and acceptance remains subject to review.
+  Registration is not evidence; the packet was accepted in PR #13 on 2026-09-05.
 - **Dependencies:** Grounds CM-04, CM-05, CM-12, and CM-13.
 - **Revision history:** 2026-08-30 — extracted; wording narrowed from all
   manifesto oppositions to **some** named social tendencies.
@@ -895,6 +895,20 @@ true. They come primarily from [manifesto section
    wider programme.
 8. Keep descriptive recurrence, functional performance, and normative
    justification separate.
+
+## Second-Cycle Synthesis
+
+The [second-cycle decision record](decisions/second-cycle-synthesis.md), accepted
+by the project owner on 2026-09-14 after PR #15 review, consolidates the accepted
+item-level decisions without raising confidence. CM-04 retains its structural narrowing;
+CM-05 retains the bounded first-cycle formulation. CM-07–CM-09 now have linked
+historical observations but no established topological priority or five-domain
+superiority. The ASF registration defines future bounded decisions for CM-01,
+CM-04, CM-12, and CM-13; it supplies no case finding yet. All claims remain at C1.
+
+The proposed handoff prioritizes the registered ASF audit and evidence sequence.
+The historical sample and durability gaps and the revision queue below remain
+open; a cycle-close decision is not additional evidence for any claim.
 
 ## revision queue after the first-cycle synthesis
 

@@ -555,16 +555,20 @@ available warrant. The [dated manifesto
 revision](MANIFESTO.md#2-antinomies-do-not-end) now states a bounded,
 falsifiable tendency. No claim confidence was raised by closing the cycle.
 
-## Second Research Cycle — Active
+## Second Research Cycle — Complete
 
 **Status:** Proposed on 2026-09-01 and activated on 2026-09-03 after review and
 acceptance of the first-cycle decision record and bounded manifesto revision.
 Activation is a workflow decision, not an empirical result. The public essay is
 complete. The robustness package is merged, with CM-04 narrowed at C1. The
 empirical preregistration was accepted and merged in PR #13 on 2026-09-05.
-The print/Reformation first evidence pass is complete as a reviewable bounded
-process-tracing packet; its acceptance and the cycle-close synthesis remain
-pending. No ASF case evidence has been collected under the new protocol.
+The print/Reformation first evidence pass was accepted and merged in PR #14 on
+2026-09-08 as a bounded process-tracing packet. The
+[second-cycle synthesis](research/decisions/second-cycle-synthesis.md) was
+accepted by the project owner on 2026-09-14 after PR #15 review. It applies
+every completion criterion and closes the second cycle without activating the
+next one.
+No ASF case evidence has been collected under the new protocol.
 
 ### Purpose
 
@@ -644,7 +648,9 @@ topological priority as given.
    outcomes remain incomplete, and no validated transmission graph is available.
    It strengthens institutional-selection questions and flags a chronological
    problem in a direct 1547 battle-trigger account. CM-07–CM-09 remain at C1.
-   The packet awaits review; the cycle-close synthesis follows acceptance.
+   The packet was accepted and merged in PR #14 on 2026-09-08. The
+   [cycle-close synthesis](research/decisions/second-cycle-synthesis.md) now
+   records its consequences alongside the other accepted deliverables.
 
 ### Completion and Decision Criteria
 
@@ -668,3 +674,18 @@ artifacts and a second-cycle decision record makes the following decisions:
 Publication of the essay or execution of a model sweep alone does not complete
 the cycle. Confidence may rise only when linked evidence meets the registry's
 declared standard; registration of this proposal raises none.
+
+### Accepted Close and Proposed Handoff
+
+The [second-cycle decision record](research/decisions/second-cycle-synthesis.md)
+records closure with CM-04 narrowed, CM-05 retained in its bounded form, and
+CM-07–CM-09 retained at C1 under a bounded process-tracing path. No confidence
+level rises. Acceptance closes this cycle, not the historical comparison, and
+does not activate the next cycle.
+
+The proposed next priority is the ASF study: first implement and freeze its
+blank schemas and executable audit, then apply the registered source/cohort
+gate before proceeding to evidence comparison and delayed solo recoding.
+Targeted historical follow-up remains queued; neither evidence work nor a new
+publication begins with this synthesis. The next cycle should receive its own
+scope and decision criteria before activation.
