@@ -896,6 +896,20 @@ true. They come primarily from [manifesto section
 8. Keep descriptive recurrence, functional performance, and normative
    justification separate.
 
+## Second-Cycle Synthesis
+
+The [second-cycle decision record](decisions/second-cycle-synthesis.md), proposed
+on 2026-09-14 and pending owner acceptance, consolidates the accepted item-level
+decisions without raising confidence. CM-04 retains its structural narrowing;
+CM-05 retains the bounded first-cycle formulation. CM-07–CM-09 now have linked
+historical observations but no established topological priority or five-domain
+superiority. The ASF registration defines future bounded decisions for CM-01,
+CM-04, CM-12, and CM-13; it supplies no case finding yet. All claims remain at C1.
+
+The proposed handoff prioritizes the registered ASF audit and evidence sequence.
+The historical sample and durability gaps and the revision queue below remain
+open; a cycle-close decision is not additional evidence for any claim.
+
 ## revision queue after the first-cycle synthesis
 
 The registry itself has already found claims that should not remain in their
