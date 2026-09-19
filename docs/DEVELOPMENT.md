@@ -38,6 +38,10 @@ uv run --locked python -m models.antinomy.generate --help
 uv run --locked pytest tests/test_antinomy_model.py
 ```
 
+The [offline ASF audit guide](ASF_AUDIT.md) documents blank-ledger generation,
+deterministic sampling, first-pass locks, delayed recoding, and registered
+decision reports. Its synthetic tests require no case records or network access.
+
 The full `just check` includes both model sweeps and can take several minutes.
 For fast feedback while editing, run `just lint typecheck test`. Structural
 robustness generation uses four processes, with deterministic output ordering;

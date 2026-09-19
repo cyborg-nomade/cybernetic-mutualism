@@ -689,3 +689,24 @@ gate before proceeding to evidence comparison and delayed solo recoding.
 Targeted historical follow-up remains queued; neither evidence work nor a new
 publication begins with this synthesis. The next cycle should receive its own
 scope and decision criteria before activation.
+
+## Third Research Cycle — Active
+
+**Activated:** 2026-09-16 on the owner's instruction, in the dedicated “3rd
+Cycle” task. The [activation and decision plan](research/decisions/third-cycle-plan.md)
+adopts the accepted ASF-first handoff. Current authorization covers the first
+item through owner review; no ASF case evidence has been retrieved or coded.
+
+The ordered deliverables are the executable audit and its pre-evidence freeze;
+the source/cohort access gate; the complete registered first pass and lock;
+delayed blinded recoding and all-horizon decisions; and a cycle synthesis.
+Each item retains its own branch and PR. Evidence work starts only after the
+tooling is reviewed and frozen and the evidence item is separately authorized.
+
+The [tooling implementation record](research/cases/asf-autonomy-coordination-tooling.md)
+discloses the proposed audit supplement and execution conventions for review.
+Cycle completion requires an accepted synthesis applying the registered
+claim decisions or an explicit registered stop, with missingness and incomplete
+work preserved. A favorable finding or confidence increase is not required.
+All claims remain C1. The print/Reformation follow-up, wider revision queue,
+and publication work remain deferred.
