@@ -1,8 +1,8 @@
 # ASF Audit Tooling: Pre-Evidence Implementation Record
 
 - **Date:** 2026-09-16.
-- **Status:** Third-cycle item 1; implementation submitted for review, not yet
-  an accepted executable freeze or an empirical run.
+- **Status:** Third-cycle item 1 accepted and frozen on 2026-09-19; no empirical run.
+- **Executable freeze:** `18b13ff18500c33d8812459eda72ad6c11640f1a`.
 - **Original registration:** `00d696ed80bd388955f622e0611853165f19508c`.
 - **Accepted amendments:** `pr13-review-clarifications-2026-09-04` and
   `solo-completion-and-research-yield-2026-09-05`.
@@ -30,10 +30,10 @@ It cannot verify that a source actually supports an interpretation, an archive
 inventory is complete, or the researcher abstained from evidence work during
 washout. Those assertions remain explicit, source-linked human responsibilities.
 
-## Proposed Pre-Evidence Clarification: Audit Supplement
+## Accepted Pre-Evidence Clarification: Audit Supplement
 
 **Identifier:** `tooling-audit-supplement-2026-09-16`.
-**Status:** Proposed for owner acceptance with this item. This is not silently
+**Status:** Accepted by the owner with PR #16 on 2026-09-19. This is not silently
 added to the list of accepted amendments in the original TOML.
 **Reason:** The codebook requires a recode sample from every eligible
 non-opportunity family, while primary routine-release coding is restricted to
@@ -84,7 +84,7 @@ in review, revise implementation and tests before the executable freeze.
 These conventions make otherwise unspecified file-level behavior reviewable;
 they do not change the cohort, observation windows, numerical thresholds, or
 claim-confidence routes. Together with the audit supplement, they form the
-proposed execution specification. Acceptance is the freeze boundary; future
+accepted execution specification. Acceptance is the freeze boundary; future
 bug fixes or rule changes require dated disclosure and retention of the
 previous results under the protocol's amendment procedure.
 
@@ -144,11 +144,28 @@ Verification after these corrections passes `just check`: 193 tests, including
 strict mypy, and byte-for-byte reproduction of both model artifact sets.
 Changed local documentation links and `git diff --check` also pass.
 
+## Owner Acceptance and Executable Freeze — 2026-09-19
+
+The owner confirmed review and approval of
+[PR #16](https://github.com/cyborg-nomade/cybernetic-mutualism/pull/16) and
+authorized the merge. The accepted executable commit is
+`18b13ff18500c33d8812459eda72ad6c11640f1a`; its merge commit is
+`f6a70a2ece9675dedbb09abe57b16320b672cb77`. Acceptance includes the audit
+supplement, operational conventions, and dated review corrections above.
+Both CI test runs passed. CodeRabbit acknowledged the four fixes and resolved
+all four threads; its automatic full re-review was skipped. The original
+registration anchor and two earlier amendments remain identifiable and unchanged.
+
+This is the executable freeze, not a first-pass data lock. No new ASF evidence
+was retrieved or coded during closeout, and the 14-day washout has not started.
+Any later executable change requires a dated disclosure under the amendment
+procedure. Item 2 remains the next separate evidence deliverable.
+
 ## Conclusions and Next Steps
 
 The tooling makes a prospective execution of the ASF registration locally
 reviewable and testable. It warrants no empirical conclusion, independence
 claim, or increase above C1, and leaves CM-04's structural narrowing intact.
-Review the implementation and disclosed audit supplement, accept an executable
-freeze, then separately authorize the access/cohort audit. No case collection,
+The accepted executable freeze completes item 1. The next discriminating action
+is the access/cohort audit, subject to separate evidence authorization. No case collection,
 historical follow-up, or publication is part of this item.

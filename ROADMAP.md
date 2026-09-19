@@ -694,8 +694,10 @@ scope and decision criteria before activation.
 
 **Activated:** 2026-09-16 on the owner's instruction, in the dedicated “3rd
 Cycle” task. The [activation and decision plan](research/decisions/third-cycle-plan.md)
-adopts the accepted ASF-first handoff. Current authorization covers the first
-item through owner review; no ASF case evidence has been retrieved or coded.
+adopts the accepted ASF-first handoff. The owner approved item 1 on 2026-09-19;
+[PR #16](https://github.com/cyborg-nomade/cybernetic-mutualism/pull/16) is merged
+and executable commit `18b13ff18500c33d8812459eda72ad6c11640f1a` is frozen.
+No ASF case evidence has been retrieved or coded.
 
 The ordered deliverables are the executable audit and its pre-evidence freeze;
 the source/cohort access gate; the complete registered first pass and lock;
@@ -704,7 +706,9 @@ Each item retains its own branch and PR. Evidence work starts only after the
 tooling is reviewed and frozen and the evidence item is separately authorized.
 
 The [tooling implementation record](research/cases/asf-autonomy-coordination-tooling.md)
-discloses the proposed audit supplement and execution conventions for review.
+records the accepted audit supplement, execution conventions, and review fixes.
+Item 2, the source/cohort access audit, is next, subject to separate evidence
+authorization.
 Cycle completion requires an accepted synthesis applying the registered
 claim decisions or an explicit registered stop, with missingness and incomplete
 work preserved. A favorable finding or confidence increase is not required.

@@ -5,7 +5,10 @@
 - **Entry state:** Accepted [second-cycle synthesis](second-cycle-synthesis.md);
   PR #15 merged at `360fa99903a12315446b10766c7d88af11b20979`.
 - **Scope:** The registered ASF comparison, beginning with executable tooling.
-- **Current item:** Audit implementation, pending owner review and freeze.
+- **Current state:** Item 1 accepted and frozen on 2026-09-19; item 2 is next.
+- **Executable freeze:** `18b13ff18500c33d8812459eda72ad6c11640f1a`, accepted
+  through [PR #16](https://github.com/cyborg-nomade/cybernetic-mutualism/pull/16)
+  and merged at `f6a70a2ece9675dedbb09abe57b16320b672cb77`.
 
 ## Purpose and Authority
 
@@ -21,9 +24,9 @@ The [preregistration](../cases/asf-autonomy-coordination-preregistration.md),
 and [source audit](../cases/asf-autonomy-coordination-source-audit.md) control
 execution. Preserve anchor `00d696ed80bd388955f622e0611853165f19508c`, amendment
 `pr13-review-clarifications-2026-09-04`, and amendment
-`solo-completion-and-research-yield-2026-09-05`. The proposed
+`solo-completion-and-research-yield-2026-09-05`. The accepted
 [implementation clarification](../cases/asf-autonomy-coordination-tooling.md)
-is separately disclosed for review before evidence exposure.
+was separately disclosed and accepted with PR #16 before evidence exposure.
 
 ## Ordered Deliverables
 
@@ -37,9 +40,10 @@ is separately disclosed for review before evidence exposure.
 
 Use one task for the cycle and an item-sized branch and PR for each reviewable
 deliverable. Items 2 and 3 may require a staged review within the evidence work,
-but retrieval must not be combined with item 1. The current authorization covers
-item 1 through an open PR; it does not authorize merging, case retrieval,
-empirical coding, publication, historical collection, or scheduled work.
+but retrieval must not be combined with item 1. On 2026-09-19 the owner approved
+PR #16 and authorized its merge and closeout. Item 1 is complete. Case retrieval
+and empirical coding belong to the separately authorized evidence item;
+publication, historical collection, and scheduled work remain outside this item.
 
 ## Completion and Decision Criteria
 
@@ -79,8 +83,9 @@ other claims outside the registered ASF decisions remain unchanged.
 
 ## Conclusions and Next Steps
 
-The owner has activated a bounded ASF-first third cycle. The next reviewable
-item is the executable audit, whose value is to make the registered decisions
-reproducible before outcome exposure. All claims remain C1; no ASF case record
-has been collected. Review and freeze item 1, including its disclosed
-implementation clarification, before authorizing the source/cohort audit.
+The owner has accepted and frozen the executable audit, including its disclosed
+implementation clarification and review corrections. This makes the registered
+decisions reproducible before outcome exposure; it supplies no empirical
+finding. All claims remain C1 and no ASF case record has been collected. The
+next discriminating action is item 2, the separately authorized source/cohort
+audit applying G1 to the fixed cohort.
