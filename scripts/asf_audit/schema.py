@@ -169,7 +169,7 @@ UNIQUE_KEYS = {
     "cohort": ("project",),
     "coverage": ("kind", "project", "month"),
     "special_meetings": ("meeting_id",),
-    "screening": ("project", "source_id"),
+    "screening": ("screen_id",),
     "families": ("family_id", "project"),
     "measurements": ("record_id",),
     "evidence": ("record_id", "field", "source_id", "locator"),
@@ -251,4 +251,20 @@ def structural_errors(tables: Tables) -> list[str]:
                 for column, values in schema.items()
                 if values and row.get(column) not in values
             )
+    return errors + screening_identity_errors(tables["screening"])
+
+
+def screening_identity_errors(rows: list[Row]) -> list[str]:
+    """Preserve independent families while rejecting repeated source associations."""
+    associations = [
+        tuple(row.get(field, "") for field in ("project", "source_id", "family_id"))
+        for row in rows
+    ]
+    errors = []
+    if len(associations) != len(set(associations)):
+        errors.append("screening: duplicate project/source/family association")
+    if any(not row.get("project") or not row.get("source_id") for row in rows):
+        errors.append("screening: missing project or source ID")
+    if any(row.get("eligible") == "yes" and not row.get("family_id") for row in rows):
+        errors.append("screening: eligible entry requires a family ID")
     return errors

@@ -1,5 +1,6 @@
 """Exercise the frozen first-pass and solo recode lifecycle on invented bytes."""
 
+import json
 from copy import deepcopy
 from datetime import UTC, datetime, timedelta
 from pathlib import Path
@@ -30,6 +31,7 @@ from scripts.asf_audit.stability import (
     recode_errors,
     reconcile,
 )
+from scripts.asf_audit.timing import recode_not_before
 from scripts.asf_audit.validation import integrity_errors
 
 LOCK_TIME = datetime(2026, 9, 16, 12, tzinfo=UTC)
@@ -328,3 +330,118 @@ def test_family_bundle_must_include_all_recode_support(tmp_path: Path) -> None:
     tables = synthetic_tables(tmp_path)
     tables["families"][0]["source_ids"] = "s0"
     assert any("bundle omits" in error for error in integrity_errors(tables, tmp_path))
+
+
+def test_cli_lock_and_adjudication_signal_preserved_integrity_failures(
+    tmp_path: Path,
+    monkeypatch: pytest.MonkeyPatch,
+    capsys: pytest.CaptureFixture[str],
+) -> None:
+    """Completed locks and reports remain inspectable but exit nonzero on corruption."""
+    source, target = tmp_path / "dataset", tmp_path / "lock"
+    tables = synthetic_tables(source)
+    tables["sources"][0]["sha256"] = "0" * 64
+    write_tables(source, tables)
+    monkeypatch.setattr(
+        "sys.argv", ["asf-audit", "lock", str(source), "--output", str(target)]
+    )
+    assert main() == 1
+    locked = json.loads(capsys.readouterr().out)
+    assert locked["integrity_errors"]
+    assert (target / "lock.json").is_file()
+    start = recode_not_before(read_json(target / "lock.json")["locked_at"])
+    begin_recode(target, locked["lock_sha256"], start, True)
+    score = submit_recode(
+        target, exact_recode(tables, target), locked["lock_sha256"], start
+    )
+    monkeypatch.setattr(
+        "sys.argv",
+        [
+            "asf-audit",
+            "adjudicate",
+            str(target),
+            "--lock-hash",
+            locked["lock_sha256"],
+            "--score-hash",
+            score["score_sha256"],
+        ],
+    )
+    assert main() == 1
+    report = json.loads(capsys.readouterr().out)
+    assert report["integrity_errors"]
+    assert not report["horizons"]["90"]["gates"]["G3"]
+    assert report["claims"]["CM-01"]["confidence"] == "C1"
+
+
+@pytest.mark.parametrize(
+    ("report", "exit_code"),
+    [
+        ({"integrity_pass": True, "integrity_errors": ["broken hash"]}, 1),
+        ({"integrity_pass": False, "integrity_errors": []}, 1),
+        ({"integrity_pass": True, "integrity_errors": []}, 0),
+        ({"G1": {"pass": False}, "integrity_errors": []}, 0),
+    ],
+)
+def test_cli_distinguishes_integrity_failure_from_scientific_gate_failure(
+    report: dict[str, object],
+    exit_code: int,
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    """A success flag cannot hide errors; valid negative results remain reportable."""
+    monkeypatch.setattr("sys.argv", ["asf-audit", "access", "unused"])
+    monkeypatch.setattr("scripts.asf_audit.__main__.dispatch", lambda _args: report)
+    assert main() == exit_code
+
+
+@pytest.mark.parametrize("phase", ["copy", "bundle", "manifest"])
+def test_failed_lock_build_leaves_destination_unused_and_retryable(
+    tmp_path: Path,
+    monkeypatch: pytest.MonkeyPatch,
+    phase: str,
+) -> None:
+    """Failures during any build phase clean staging and never expose a partial lock."""
+    source, target = tmp_path / "dataset", tmp_path / "lock"
+    tables = synthetic_tables(source)
+    write_tables(source, tables)
+    original_write = Path.write_bytes
+
+    def fail(*_args: object, **_kwargs: object) -> None:
+        assert not target.exists()
+        raise OSError("invented lock build failure")
+
+    def fail_manifest(path: Path, data: bytes) -> int:
+        if path.name == "lock.json":
+            fail()
+        return original_write(path, data)
+
+    with monkeypatch.context() as patch:
+        if phase == "manifest":
+            patch.setattr(Path, "write_bytes", fail_manifest)
+        else:
+            attribute = "shutil.copyfile" if phase == "copy" else "make_bundle"
+            patch.setattr(f"scripts.asf_audit.freeze.{attribute}", fail)
+        with pytest.raises(OSError, match="invented lock build failure"):
+            freeze_first_pass(source, target, LOCK_TIME)
+    assert not target.exists()
+    assert not list(tmp_path.glob(".lock.*"))
+    locked = freeze_first_pass(source, target, LOCK_TIME)
+    assert not locked["integrity_errors"]
+    verify_lock(target, locked["lock_sha256"])
+
+
+@pytest.mark.parametrize("kind", ["directory", "file", "dangling_symlink"])
+def test_lock_build_never_replaces_an_existing_destination(
+    tmp_path: Path, kind: str
+) -> None:
+    """Refuse existing destinations before inspecting or copying any input."""
+    target = tmp_path / "lock"
+    if kind == "directory":
+        target.mkdir()
+    elif kind == "file":
+        target.write_text("preserve existing data")
+    else:
+        target.symlink_to(tmp_path / "missing")
+    with pytest.raises(FileExistsError, match="already exists"):
+        freeze_first_pass(tmp_path / "unused-input", target, LOCK_TIME)
+    assert target.exists() or target.is_symlink()
+    assert not list(tmp_path.glob(".lock.*"))

@@ -25,6 +25,7 @@ from scripts.asf_audit.sampling import (
     hash_key,
     local_baseline,
 )
+from scripts.asf_audit.schema import structural_errors
 from scripts.asf_audit.stability import agreement
 from scripts.asf_audit.timing import (
     authority_shift,
@@ -359,3 +360,52 @@ def test_two_document_copies_cannot_supply_two_acts(tmp_path: Path) -> None:
     row["receiver_act_id"] = "another-act"
     row["receiver_source_id"] = row["sender_source_id"]
     assert qualifies(row, tables)
+
+
+def test_independent_families_can_share_one_original_source(tmp_path: Path) -> None:
+    """Separate requests survive full validation without inventing source IDs."""
+    tables = synthetic_tables(tmp_path)
+    first, second = (row["family_id"] for row in tables["families"][:2])
+    for rows in tables.values():
+        for row in rows:
+            if row.get("family_id") in (first, second):
+                row["project"] = "httpd"
+                if "episode_id" in row:
+                    row["episode_id"] = f"httpd|s0|{row['family_id']}"
+    assert not integrity_errors(tables, tmp_path)
+    original = tables["screening"][0]
+    tables["screening"].append(original | {"screen_id": "another-entry-id"})
+    assert any(
+        "duplicate project/source/family" in error
+        for error in structural_errors(tables)
+    )
+    tables["screening"][-1]["family_id"] = "different-family"
+    tables["screening"][-1]["screen_id"] = original["screen_id"]
+    assert any("duplicate key" in error for error in structural_errors(tables))
+
+
+def test_excluded_screening_entries_need_no_invented_family(tmp_path: Path) -> None:
+    """Preserve ordinary excluded messages while requiring families for eligibility."""
+    tables = synthetic_tables(tmp_path)
+    row = tables["screening"][0]
+    row.update(eligible="no", kind="excluded", family_id="")
+    assert not structural_errors(tables)
+    row["eligible"] = "yes"
+    assert "screening: eligible entry requires a family ID" in structural_errors(tables)
+
+
+def test_shared_source_release_ties_are_independent_of_csv_order(
+    tmp_path: Path,
+) -> None:
+    """Exact source/hash ties retain a stable family choice and an explicit ID log."""
+    tables = synthetic_tables(tmp_path)
+    for row in tables["screening"]:
+        row.update(project="httpd", kind="local_release")
+    expected = local_baseline(tables)
+    tables["screening"].reverse()
+    assert local_baseline(tables) == expected
+    assert expected[0]["family_id"] == "invented-0"
+    assert (
+        expected[0]["ordered_family_ids"]
+        == "invented-0;invented-1;invented-2;invented-3"
+    )

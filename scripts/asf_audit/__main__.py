@@ -86,7 +86,9 @@ def main() -> int:
         print(canonical({"error": str(error)}).decode(), end="")
         return 2
     print(canonical(report).decode(), end="")
-    if isinstance(report, dict) and report.get("integrity_pass") is False:
+    if isinstance(report, dict) and (
+        report.get("integrity_pass") is False or report.get("integrity_errors")
+    ):
         return 1
     return 0
 

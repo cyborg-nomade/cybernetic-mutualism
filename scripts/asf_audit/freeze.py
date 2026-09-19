@@ -6,6 +6,7 @@ import json
 import shutil
 from datetime import UTC, datetime
 from pathlib import Path
+from tempfile import TemporaryDirectory
 from typing import Any
 
 from scripts.asf_audit.protocol import Row, Tables, canonical, digest, provenance
@@ -40,6 +41,7 @@ def read_json(path: Path) -> dict[str, Any]:
 
 def freeze_first_pass(directory: Path, target: Path, now: datetime) -> dict[str, Any]:
     """Freeze input, frame, and blank bundle together before any aggregation."""
+    require_new_target(target)
     tables = load_tables(directory)
     errors = integrity_errors(tables, directory)
     frame = audit_frame(tables)
@@ -49,7 +51,30 @@ def freeze_first_pass(directory: Path, target: Path, now: datetime) -> dict[str,
         )
     if target.resolve().is_relative_to(directory.resolve()):
         raise ValueError("Lock directory must be outside the mutable dataset")
-    target.mkdir(parents=True, exist_ok=False)
+    target.parent.mkdir(parents=True, exist_ok=True)
+    with TemporaryDirectory(prefix=f".{target.name}.", dir=target.parent) as temporary:
+        staging = Path(temporary)
+        result = populate_lock(tables, frame, errors, directory, staging, now)
+        require_new_target(target)
+        staging.rename(target)
+    return result
+
+
+def require_new_target(target: Path) -> None:
+    """Refuse existing destinations, including dangling symbolic links."""
+    if target.exists() or target.is_symlink():
+        raise FileExistsError(f"Lock destination already exists: {target}")
+
+
+def populate_lock(
+    tables: Tables,
+    frame: list[str],
+    errors: list[str],
+    directory: Path,
+    target: Path,
+    now: datetime,
+) -> dict[str, Any]:
+    """Write every frozen component into a disposable sibling staging directory."""
     frozen = target / "first-pass"
     frozen.mkdir()
     for name in SCHEMAS:

@@ -46,7 +46,11 @@ def baseline_stratum(
     """Select a release opening, retaining its underlying family identity."""
     candidates = sorted(
         groups[project, block],
-        key=lambda row: (hash_key(project, block, row["source_id"]), row["source_id"]),
+        key=lambda row: (
+            hash_key(project, block, row["source_id"]),
+            row["source_id"],
+            row["family_id"],
+        ),
     )
     selected = candidates[0] if candidates else {}
     return {
@@ -54,6 +58,7 @@ def baseline_stratum(
         "quarter": block,
         "count": str(len(candidates)),
         "ordered_source_ids": ";".join(row["source_id"] for row in candidates),
+        "ordered_family_ids": ";".join(row["family_id"] for row in candidates),
         "ordered_hashes": ";".join(
             hash_key(project, block, row["source_id"]) for row in candidates
         ),

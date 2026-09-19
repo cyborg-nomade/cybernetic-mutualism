@@ -165,7 +165,8 @@ def episode_errors(tables: Tables) -> list[str]:
     families = {(row["family_id"], row["project"]) for row in tables["families"]}
     errors = []
     for row in episodes.values():
-        if row["episode_id"] != f"{row['project']}|{row['earliest_source_id']}":
+        base_id = f"{row['project']}|{row['earliest_source_id']}"
+        if row["episode_id"] not in (base_id, f"{base_id}|{row['family_id']}"):
             errors.append("episode ID must use project and earliest original source ID")
         if (row["family_id"], row["project"]) not in families:
             errors.append("episode references an unknown family/project")
