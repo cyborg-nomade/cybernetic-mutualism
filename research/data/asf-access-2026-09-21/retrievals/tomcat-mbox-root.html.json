@@ -1,0 +1,12 @@
+{
+  "file": "sources/tomcat-mbox-root.html",
+  "url": "https://tomcat.apache.org/mail/",
+  "retrieved_at": "2026-09-21T14:36:29.880960+00:00",
+  "effective_url": "https://lists.apache.org/",
+  "http_status": 200,
+  "content_type": "text/html",
+  "curl_exit": 0,
+  "error": "",
+  "bytes": 3424,
+  "sha256": "8524d5ad268def28166e4a4c623637b9c9b61a73e484295154f21b3f1489cfd7"
+}

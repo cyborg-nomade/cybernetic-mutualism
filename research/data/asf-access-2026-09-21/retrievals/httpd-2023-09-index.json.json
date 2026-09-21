@@ -1,0 +1,14 @@
+{
+  "file": "sources/httpd-2023-09-index.json.gz",
+  "url": "https://lists.apache.org/api/stats.lua?list=dev&domain=httpd.apache.org&d=2023-09",
+  "retrieved_at": "2026-09-21T14:39:36.443273+00:00",
+  "effective_url": "https://lists.apache.org/api/stats.lua?list=dev&domain=httpd.apache.org&d=2023-09",
+  "http_status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "curl_exit": 0,
+  "error": "",
+  "bytes": 9116,
+  "sha256": "89ce1b35b0e594977804c140598c212bfe552222ec0f3682a06f9a2741da1c76",
+  "raw_bytes": 50948,
+  "raw_sha256": "5957a299c5ad43d86aceb3a4262d6b84da53656079c100001bddb5e4803e77e1"
+}

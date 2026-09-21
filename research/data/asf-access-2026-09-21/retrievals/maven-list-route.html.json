@@ -1,0 +1,12 @@
+{
+  "file": "sources/maven-list-route.html",
+  "url": "https://maven.apache.org/mailing-lists.html",
+  "retrieved_at": "2026-09-21T14:36:29.793087+00:00",
+  "effective_url": "https://maven.apache.org/mailing-lists.html",
+  "http_status": 200,
+  "content_type": "text/html",
+  "curl_exit": 0,
+  "error": "",
+  "bytes": 11760,
+  "sha256": "f49a14e5284c6527b9b4ace1b172a1ee76e30d5139f33fc588eb173f68213529"
+}

@@ -1,0 +1,494 @@
+{
+  "projects": [
+    "httpd",
+    "tomcat",
+    "maven",
+    "ant"
+  ],
+  "registration_commit": "00d696ed80bd388955f622e0611853165f19508c",
+  "tables": {
+    "attestations": {
+      "name": [],
+      "notes": [],
+      "source_ids": [],
+      "value": [
+        "yes",
+        "no",
+        "unknown"
+      ]
+    },
+    "cohort": {
+      "eligible": [
+        "yes",
+        "no",
+        "unknown"
+      ],
+      "notes": [],
+      "project": [],
+      "source_ids": []
+    },
+    "contrasts": {
+      "comparator_family_id": [],
+      "notes": [],
+      "record_id": [],
+      "within_episode_source_ids": []
+    },
+    "coverage": {
+      "board_state": [
+        "approved_minutes",
+        "official_no_meeting",
+        "missing",
+        "unknown"
+      ],
+      "coverage_id": [],
+      "index_state": [
+        "reviewable",
+        "verified_empty",
+        "missing",
+        "unknown"
+      ],
+      "kind": [
+        "development",
+        "board"
+      ],
+      "month": [],
+      "notes": [],
+      "project": [],
+      "source_ids": [],
+      "threads_state": [
+        "retrievable",
+        "none_included",
+        "missing",
+        "unknown"
+      ]
+    },
+    "episodes": {
+      "disposition_history": [],
+      "earliest_source_id": [],
+      "episode_id": [],
+      "family_id": [],
+      "intended_receiver": [],
+      "original_option": [],
+      "project": [],
+      "requested_change": [],
+      "sender_act": [],
+      "sender_role": [],
+      "source_ids": [],
+      "viability_duration": [],
+      "viability_reason": []
+    },
+    "evidence": {
+      "field": [],
+      "locator": [],
+      "record_id": [],
+      "source_id": []
+    },
+    "families": {
+      "action_class": [
+        "release_decision",
+        "technical_direction",
+        "governance",
+        "infrastructure_service",
+        "policy_compliance"
+      ],
+      "earliest_source_id": [],
+      "exposure": [
+        "exposed",
+        "unexposed",
+        "unknown"
+      ],
+      "family_id": [],
+      "family_rationale": [],
+      "initiating_role": [
+        "pmc",
+        "foundation",
+        "external",
+        "unknown"
+      ],
+      "onset_earliest": [],
+      "onset_latest": [],
+      "project": [],
+      "source_ids": []
+    },
+    "measurements": {
+      "after_authority": [
+        "pmc_binding",
+        "foundation_case_specific_authorization",
+        "shared_authorization",
+        "unknown"
+      ],
+      "authority_outcome_link_met": [
+        "yes",
+        "no",
+        "unknown"
+      ],
+      "autonomy_change": [
+        "expanded",
+        "restricted",
+        "unchanged",
+        "unknown"
+      ],
+      "before_authority": [
+        "pmc_binding",
+        "foundation_case_specific_authorization",
+        "shared_authorization",
+        "unknown"
+      ],
+      "channel": [
+        "public_cross_reference",
+        "documented_official_act",
+        "public_service_record",
+        "private_only_reference",
+        "unknown"
+      ],
+      "commitment_mode": [
+        "voluntary",
+        "imposed",
+        "mixed",
+        "unknown"
+      ],
+      "coordination_burden_change": [
+        "increased",
+        "decreased",
+        "unchanged",
+        "unknown"
+      ],
+      "coordination_disposition": [
+        "created",
+        "implemented",
+        "revised",
+        "refused",
+        "failed",
+        "ongoing",
+        "unknown"
+      ],
+      "decision_authority_shift": [
+        "toward_pmc",
+        "toward_foundation",
+        "toward_shared",
+        "unchanged",
+        "unknown"
+      ],
+      "decision_right": [
+        "pmc_binding",
+        "foundation_case_specific_authorization",
+        "shared_authorization",
+        "unknown"
+      ],
+      "direction": [
+        "A_to_C",
+        "C_to_A"
+      ],
+      "discriminating_contrast_met": [
+        "yes",
+        "no",
+        "unknown"
+      ],
+      "effect_sign": [
+        "enablement",
+        "constraint",
+        "both",
+        "no_demonstrated_effect",
+        "unknown"
+      ],
+      "eligible": [
+        "yes",
+        "no",
+        "unknown"
+      ],
+      "episode_id": [],
+      "family_id": [],
+      "horizon": [
+        "60",
+        "90",
+        "180"
+      ],
+      "linked_change_met": [
+        "yes",
+        "no",
+        "unknown"
+      ],
+      "local_disposition": [
+        "adopted",
+        "rejected",
+        "revised",
+        "withdrawn",
+        "pending",
+        "unknown"
+      ],
+      "local_origin": [
+        "pmc",
+        "foundation",
+        "external",
+        "unknown"
+      ],
+      "missingness": [
+        "none",
+        "not_applicable",
+        "not_public",
+        "archive_gap",
+        "undated",
+        "publication_cutoff_unknown",
+        "not_observed_in_reviewed_records"
+      ],
+      "newly_feasible_action_executed": [
+        "yes",
+        "no",
+        "not_applicable",
+        "unknown"
+      ],
+      "notes": [],
+      "opportunity": [
+        "yes",
+        "no",
+        "unknown"
+      ],
+      "ordered_acts_met": [
+        "yes",
+        "no",
+        "unknown"
+      ],
+      "project": [],
+      "qualified_witness": [
+        "yes",
+        "no"
+      ],
+      "receiver_act_id": [],
+      "receiver_conduct_met": [
+        "yes",
+        "no",
+        "unknown"
+      ],
+      "receiver_earliest": [],
+      "receiver_latest": [],
+      "receiver_observed": [
+        "known",
+        "unknown"
+      ],
+      "receiver_source_id": [],
+      "receiver_unchanged": [
+        "yes",
+        "no",
+        "unknown"
+      ],
+      "record_id": [],
+      "sender_act_id": [],
+      "sender_earliest": [],
+      "sender_latest": [],
+      "sender_source_id": [],
+      "shared_commitment_named": [
+        "yes",
+        "no",
+        "not_applicable",
+        "unknown"
+      ],
+      "shift_earliest": [],
+      "shift_latest": [],
+      "temporal_order": [
+        "sender_first",
+        "receiver_first",
+        "documented_within_day_order",
+        "unknown"
+      ],
+      "viability_event": [
+        "official_status_change",
+        "explicit_obligation_failure",
+        "no_documented_event",
+        "unknown"
+      ],
+      "within_day_order": [
+        "yes",
+        "no",
+        "unknown"
+      ]
+    },
+    "rivals": {
+      "contrary": [],
+      "explanation": [],
+      "missing": [],
+      "record_id": [],
+      "rival": [
+        "reciprocal_coupling",
+        "uncoupled_own_history",
+        "common_shock",
+        "A_to_C_only",
+        "C_to_A_only"
+      ],
+      "source_ids": [],
+      "state": [
+        "supported",
+        "contradicted",
+        "compatible but not discriminated",
+        "unassessable",
+        "missing",
+        "unresolved"
+      ],
+      "supporting": []
+    },
+    "screening": {
+      "eligible": [
+        "yes",
+        "no",
+        "unknown"
+      ],
+      "family_id": [],
+      "kind": [
+        "cross_boundary",
+        "ambiguous",
+        "local_release",
+        "local_other",
+        "excluded"
+      ],
+      "opening_date": [],
+      "project": [],
+      "reason": [],
+      "screen_id": [],
+      "source_id": []
+    },
+    "shock_searches": {
+      "complete": [
+        "yes",
+        "no",
+        "unknown"
+      ],
+      "end": [],
+      "foundation_source_ids": [],
+      "notes": [],
+      "project_source_ids": [],
+      "record_id": [],
+      "shock_ids": [],
+      "start": []
+    },
+    "shocks": {
+      "affected_projects": [],
+      "continuation_source_ids": [],
+      "continuing": [
+        "yes",
+        "no",
+        "unknown"
+      ],
+      "exposure_differences": [],
+      "external_precursor": [
+        "yes",
+        "no",
+        "unknown"
+      ],
+      "kind": [
+        "infrastructure_service",
+        "security",
+        "external_policy_legal",
+        "sponsor_employer",
+        "contributor_availability",
+        "dependency_demand"
+      ],
+      "notes": [],
+      "onset_earliest": [],
+      "onset_latest": [],
+      "shock_id": [],
+      "source_ids": []
+    },
+    "sources": {
+      "access_state": [
+        "public_complete",
+        "public_redacted",
+        "incomplete_archive",
+        "inaccessible",
+        "private_reference_only"
+      ],
+      "authority_at_event": [],
+      "content_path": [],
+      "decisive_material_complete": [
+        "yes",
+        "no",
+        "unknown"
+      ],
+      "eligible": [
+        "yes",
+        "no",
+        "unknown"
+      ],
+      "event_earliest": [],
+      "event_latest": [],
+      "exclusion_reason": [],
+      "locator": [],
+      "published_at": [],
+      "registration_commit": [],
+      "retrieved_at": [],
+      "sha256": [],
+      "source_id": [],
+      "source_kind": [
+        "approved_minutes",
+        "project_report",
+        "development_message",
+        "referenced_ticket",
+        "official_policy",
+        "primary_shock",
+        "archive_index"
+      ],
+      "url": []
+    },
+    "special_meetings": {
+      "event_date": [],
+      "meeting_id": [],
+      "notes": [],
+      "source_ids": [],
+      "state": [
+        "approved_minutes",
+        "missing",
+        "unknown"
+      ]
+    }
+  },
+  "unique_keys": {
+    "attestations": [
+      "name"
+    ],
+    "cohort": [
+      "project"
+    ],
+    "contrasts": [
+      "record_id"
+    ],
+    "coverage": [
+      "kind",
+      "project",
+      "month"
+    ],
+    "episodes": [
+      "episode_id"
+    ],
+    "evidence": [
+      "record_id",
+      "field",
+      "source_id",
+      "locator"
+    ],
+    "families": [
+      "family_id",
+      "project"
+    ],
+    "measurements": [
+      "record_id"
+    ],
+    "rivals": [
+      "record_id",
+      "rival"
+    ],
+    "screening": [
+      "screen_id"
+    ],
+    "shock_searches": [
+      "record_id"
+    ],
+    "shocks": [
+      "shock_id"
+    ],
+    "sources": [
+      "source_id"
+    ],
+    "special_meetings": [
+      "meeting_id"
+    ]
+  },
+  "version": 1
+}

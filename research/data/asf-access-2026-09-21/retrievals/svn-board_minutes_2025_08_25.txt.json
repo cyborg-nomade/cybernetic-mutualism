@@ -1,0 +1,16 @@
+{
+  "file": "sources/board_minutes_2025_08_25.txt",
+  "url": "https://svn.apache.org/repos/asf/infrastructure/site/trunk/content/foundation/records/minutes/2025/board_minutes_2025_08_25.txt",
+  "retrieved_at": "2026-09-21T14:41:45.267830+00:00",
+  "effective_url": "https://svn.apache.org/repos/asf/infrastructure/site/trunk/content/foundation/records/minutes/2025/board_minutes_2025_08_25.txt",
+  "http_status": 200,
+  "content_type": "text/plain",
+  "curl_exit": 0,
+  "error": "",
+  "bytes": 1410,
+  "sha256": "9eee77bcb7a03ee760ebb196b4f9d2e68e006283952894686d9ebc386228064d",
+  "raw_bytes": 1410,
+  "raw_sha256": "9eee77bcb7a03ee760ebb196b4f9d2e68e006283952894686d9ebc386228064d",
+  "response_headers": "HTTP/1.1 200 OK\nDate: Mon, 21 Sep 2026 14:41:45 GMT\nServer: Apache\nCache-Control: max-age=0\nLast-Modified: Fri, 03 Oct 2025 23:04:15 GMT\nETag: \"1928931//infrastructure/site/trunk/content/foundation/records/minutes/2025/board_minutes_2025_08_25.txt\"\nAccept-Ranges: bytes\nContent-Length: 1410\nVary: Accept-Encoding\nContent-Security-Policy: default-src 'none'; style-src 'self'; img-src 'self'  https://www.apache.org\nContent-Type: text/plain\n\n",
+  "storage_note": "Byte-identical public web/SVN responses share one retained source artifact."
+}

@@ -1,0 +1,12 @@
+{
+  "file": "sources/bylaws.html",
+  "url": "https://www.apache.org/foundation/bylaws.html",
+  "retrieved_at": "2026-09-21T14:36:30.549917+00:00",
+  "effective_url": "https://www.apache.org/foundation/bylaws.html",
+  "http_status": 200,
+  "content_type": "text/html",
+  "curl_exit": 0,
+  "error": "",
+  "bytes": 78226,
+  "sha256": "fc8a4b097b7fbae0226aca74fdf359337074046d9eb736bbd3bfe57b01ece7dc"
+}

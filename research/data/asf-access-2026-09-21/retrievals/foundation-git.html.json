@@ -1,0 +1,12 @@
+{
+  "file": "sources/foundation-git.html",
+  "url": "https://github.com/apache/www-site",
+  "retrieved_at": "2026-09-21T14:38:02.404640+00:00",
+  "effective_url": "https://github.com/apache/www-site",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "curl_exit": 0,
+  "error": "",
+  "bytes": 304966,
+  "sha256": "21098cf41e08f4c954634c3d187a7062b1d2a5af18493759339a8d50d708e233"
+}

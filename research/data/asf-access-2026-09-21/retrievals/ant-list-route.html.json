@@ -1,0 +1,12 @@
+{
+  "file": "sources/ant-list-route.html",
+  "url": "https://ant.apache.org/mail.html",
+  "retrieved_at": "2026-09-21T14:36:29.804613+00:00",
+  "effective_url": "https://ant.apache.org/mail.html",
+  "http_status": 200,
+  "content_type": "text/html",
+  "curl_exit": 0,
+  "error": "",
+  "bytes": 18155,
+  "sha256": "b6cae566e5cfc561f52c909de5fe8b16584585036de437405cba36605b0a524c"
+}

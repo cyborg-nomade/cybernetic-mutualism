@@ -1,0 +1,12 @@
+{
+  "file": "sources/ant-mod-mbox-root.html",
+  "url": "https://mail-archives.apache.org/mod_mbox/ant-dev/",
+  "retrieved_at": "2026-09-21T14:38:02.106477+00:00",
+  "effective_url": "https://lists.apache.org/list.html?dev@ant.apache.org",
+  "http_status": 200,
+  "content_type": "text/html",
+  "curl_exit": 0,
+  "error": "",
+  "bytes": 11399,
+  "sha256": "667aa6e6550b4ca50683c1440db789281b06fddaf1e09c75abac79d911d05cf8"
+}

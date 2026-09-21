@@ -1,0 +1,12 @@
+{
+  "file": "sources/tomcat-list-route.html",
+  "url": "https://tomcat.apache.org/lists.html",
+  "retrieved_at": "2026-09-21T14:36:29.707042+00:00",
+  "effective_url": "https://tomcat.apache.org/lists.html",
+  "http_status": 200,
+  "content_type": "text/html",
+  "curl_exit": 0,
+  "error": "",
+  "bytes": 18126,
+  "sha256": "93236512cb6169e25f0631fdd9d9efe72baa9d28f5ea32a1af9ce56a96fe16df"
+}

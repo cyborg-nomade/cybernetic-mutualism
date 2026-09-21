@@ -1,0 +1,14 @@
+{
+  "file": "sources/maven-2024-05-index.json.gz",
+  "url": "https://lists.apache.org/api/stats.lua?list=dev&domain=maven.apache.org&d=2024-05",
+  "retrieved_at": "2026-09-21T14:39:49.727313+00:00",
+  "effective_url": "https://lists.apache.org/api/stats.lua?list=dev&domain=maven.apache.org&d=2024-05",
+  "http_status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "curl_exit": 0,
+  "error": "",
+  "bytes": 66727,
+  "sha256": "07e8726180a6110d458d0c75d9565820da473360f0a10ce7105a96ea7119b8d5",
+  "raw_bytes": 410523,
+  "raw_sha256": "5b4f01b3828a31e0a57afc9f006f60df2d40566732a4276e7ef24dde806ff039"
+}

@@ -1,0 +1,15 @@
+{
+  "file": "sources/maven-2023-11.mbox.gz",
+  "url": "https://lists.apache.org/api/mbox.lua?list=dev&domain=maven.apache.org&d=2023-11",
+  "retrieved_at": "2026-09-21T14:43:22.117162+00:00",
+  "effective_url": "https://lists.apache.org/api/mbox.lua?list=dev&domain=maven.apache.org&d=2023-11",
+  "http_status": 200,
+  "content_type": "application/mbox",
+  "curl_exit": 0,
+  "error": "",
+  "bytes": 425532,
+  "sha256": "6f8625adeb896682eed52ce35d6d3a9ed71f3f5d50f5bde2ff165dc972bcbded",
+  "raw_bytes": 2013142,
+  "raw_sha256": "d8dc391b77b69eeb62b71cc55ee175a3aa4bf59266a619e847fc7c9200989fff",
+  "response_headers": "HTTP/1.1 200 OK\nDate: Mon, 21 Sep 2026 14:43:22 GMT\nServer: Python/3.9 aiohttp/3.6.3\nContent-Type: application/mbox\nContent-Disposition: attachment; filename=dev_maven_apache_org_2023-11.mbox\nVary: Cookie\nCache-Control: max-age=600\nTransfer-Encoding: chunked\n\n"
+}

@@ -1,0 +1,12 @@
+{
+  "file": "sources/ponymail.js",
+  "url": "https://lists.apache.org/js/ponymail.js?revision=f51d5f8",
+  "retrieved_at": "2026-09-21T14:38:02.105905+00:00",
+  "effective_url": "https://lists.apache.org/js/ponymail.js?revision=f51d5f8",
+  "http_status": 200,
+  "content_type": "application/javascript",
+  "curl_exit": 0,
+  "error": "",
+  "bytes": 157722,
+  "sha256": "daf9c4ea8eac5f5ae0c07e4d8b6852da01e488411f2110b4932a32111fb51476"
+}

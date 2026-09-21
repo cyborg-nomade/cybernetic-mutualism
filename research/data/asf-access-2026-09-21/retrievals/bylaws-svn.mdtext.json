@@ -1,0 +1,15 @@
+{
+  "file": "sources/bylaws-svn.mdtext",
+  "url": "https://svn.apache.org/repos/asf/infrastructure/site/trunk/content/foundation/bylaws.mdtext",
+  "retrieved_at": "2026-09-21T14:40:24.768257+00:00",
+  "effective_url": "https://svn.apache.org/repos/asf/infrastructure/site/trunk/content/foundation/bylaws.mdtext",
+  "http_status": 200,
+  "content_type": "text/plain",
+  "curl_exit": 0,
+  "error": "",
+  "bytes": 50504,
+  "sha256": "c77fdc69fe257f265ce00016be939fad1a4c581f8025602c8fef41143e1088e8",
+  "raw_bytes": 50504,
+  "raw_sha256": "c77fdc69fe257f265ce00016be939fad1a4c581f8025602c8fef41143e1088e8",
+  "response_headers": "HTTP/1.1 200 OK\nDate: Mon, 21 Sep 2026 14:40:24 GMT\nServer: Apache\nCache-Control: max-age=0\nLast-Modified: Tue, 16 Mar 2021 23:51:51 GMT\nETag: \"1887743//infrastructure/site/trunk/content/foundation/bylaws.mdtext\"\nAccept-Ranges: bytes\nContent-Length: 50504\nVary: Accept-Encoding\nContent-Security-Policy: default-src 'none'; style-src 'self'; img-src 'self'  https://www.apache.org\nContent-Type: text/plain\n\n"
+}

@@ -1,0 +1,14 @@
+{
+  "file": "sources/tomcat-2024-09-index.json.gz",
+  "url": "https://lists.apache.org/api/stats.lua?list=dev&domain=tomcat.apache.org&d=2024-09",
+  "retrieved_at": "2026-09-21T14:39:43.689419+00:00",
+  "effective_url": "https://lists.apache.org/api/stats.lua?list=dev&domain=tomcat.apache.org&d=2024-09",
+  "http_status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "curl_exit": 0,
+  "error": "",
+  "bytes": 121387,
+  "sha256": "1d1d616106d3c75cb67c4e9722a968296baa942aaefbe08e81c2e2e28d3b6247",
+  "raw_bytes": 963962,
+  "raw_sha256": "f46196aa327d569db7e6a0d94daffffe9f04e0d167ec81fd591b86348516bb0b"
+}

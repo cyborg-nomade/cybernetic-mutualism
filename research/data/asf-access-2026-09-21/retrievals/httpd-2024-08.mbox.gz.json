@@ -1,0 +1,15 @@
+{
+  "file": "sources/httpd-2024-08.mbox.gz",
+  "url": "https://lists.apache.org/api/mbox.lua?list=dev&domain=httpd.apache.org&d=2024-08",
+  "retrieved_at": "2026-09-21T14:41:39.752385+00:00",
+  "effective_url": "https://lists.apache.org/api/mbox.lua?list=dev&domain=httpd.apache.org&d=2024-08",
+  "http_status": 200,
+  "content_type": "application/mbox",
+  "curl_exit": 0,
+  "error": "",
+  "bytes": 290528,
+  "sha256": "3ae6f7585e40a58d277cc641b0990b8e0b7e9416987f3e39b9568e3bb2c87095",
+  "raw_bytes": 1051519,
+  "raw_sha256": "04f237172144580dd6192c400d6bb1ce002f7762d90ad7130ea9422cbbb88839",
+  "response_headers": "HTTP/1.1 200 OK\nDate: Mon, 21 Sep 2026 14:41:40 GMT\nServer: Python/3.9 aiohttp/3.6.3\nContent-Type: application/mbox\nContent-Disposition: attachment; filename=dev_httpd_apache_org_2024-08.mbox\nVary: Cookie\nCache-Control: max-age=600\nTransfer-Encoding: chunked\n\n"
+}
