@@ -1,0 +1,57 @@
+                    The Apache Software Foundation
+
+                  Board of Directors Meeting Minutes
+
+                           August 25, 2025
+
+
+ 1. Call to order
+
+    The meeting was scheduled for 21:00 UTC and began at 21:06 when
+    a sufficient attendance to constitute a quorum was recognized by
+    the chair.
+
+    Other Time Zones:
+    http://www.timeanddate.com//worldclock/fixedtime.html?iso=2025-08-25T21:00:00&msg=ASF+Special+Board+Meeting
+
+    The meeting was held via teleconference, hosted by the Secretary
+    via Zoom.
+
+    The #asfboard channel on the-asf.slack.com was used for backup.
+
+ 2. Roll Call
+
+    Directors Present:
+
+      Rich Bowen
+      Zili Chen
+      Shane Curcuru
+      Jim Jagielski
+      Justin Mclean
+      Jean-Baptiste Onofré
+      Greg Stein - joined :08
+      Sander Striker
+      Kanchana Pradeepika Welagedara
+
+    Executive Officers Present:
+
+      Craig L Russell
+      Ruth Suehle
+      Jeff Jirsa
+
+ 3. Discussion Items
+
+    A. Executive Session
+
+       Audience: Directors, Assistant Secretary, President, Executive Vice President
+       Topic: reports regarding conduct
+
+       The board was briefed by President and EVP on code of conduct concerns.
+       No decisions were made during this session.
+
+ 4. Adjournment
+
+    Adjourned at 22:02 UTC
+
+------------------------------------------------------
+End of minutes for the August 25, 2025 board meeting.

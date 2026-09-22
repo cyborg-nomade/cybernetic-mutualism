@@ -1,0 +1,12 @@
+{
+  "file": "sources/httpd-list-route.html",
+  "url": "https://httpd.apache.org/lists.html",
+  "retrieved_at": "2026-09-21T14:36:29.706970+00:00",
+  "effective_url": "https://httpd.apache.org/lists.html",
+  "http_status": 200,
+  "content_type": "text/html",
+  "curl_exit": 0,
+  "error": "",
+  "bytes": 13688,
+  "sha256": "eccda35234c6be2dfbcb75d80f5bd9da04699e2be0f0a6c5123ddc5c17852da0"
+}

@@ -1,0 +1,12 @@
+{
+  "file": "sources/board_minutes_2023_03_22.txt",
+  "url": "https://www.apache.org/foundation/records/minutes/2023/board_minutes_2023_03_22.txt",
+  "retrieved_at": "2026-09-21T14:37:32.293843+00:00",
+  "effective_url": "https://www.apache.org/foundation/records/minutes/2023/board_minutes_2023_03_22.txt",
+  "http_status": 200,
+  "content_type": "text/plain; charset=utf-8",
+  "curl_exit": 0,
+  "error": "",
+  "bytes": 183626,
+  "sha256": "196c56e6d31f447e11c767503f9c6ee30f08cd737a94c3384b07572d96e6b80f"
+}

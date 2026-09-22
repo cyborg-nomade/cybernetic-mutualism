@@ -1,0 +1,1180 @@
+{
+  "G1": {
+    "board_months": 36,
+    "denominator_months": 36,
+    "development_months": {
+      "ant": 36,
+      "httpd": 36,
+      "maven": 36,
+      "tomcat": 36
+    },
+    "eligible_projects": [
+      "ant",
+      "httpd",
+      "maven",
+      "tomcat"
+    ],
+    "pass": true,
+    "required_months": 33,
+    "special_meetings_complete": true
+  },
+  "executable_commit": "18b13ff18500c33d8812459eda72ad6c11640f1a",
+  "integrity_errors": [],
+  "monthly_message_checks": [
+    {
+      "exported_messages": 24,
+      "indexed_messages": 24,
+      "message_id_multisets_match": true,
+      "month": "2023-01",
+      "project": "ant",
+      "unique_message_ids": 24
+    },
+    {
+      "exported_messages": 29,
+      "indexed_messages": 29,
+      "message_id_multisets_match": true,
+      "month": "2023-02",
+      "project": "ant",
+      "unique_message_ids": 29
+    },
+    {
+      "exported_messages": 10,
+      "indexed_messages": 10,
+      "message_id_multisets_match": true,
+      "month": "2023-03",
+      "project": "ant",
+      "unique_message_ids": 10
+    },
+    {
+      "exported_messages": 16,
+      "indexed_messages": 16,
+      "message_id_multisets_match": true,
+      "month": "2023-04",
+      "project": "ant",
+      "unique_message_ids": 16
+    },
+    {
+      "exported_messages": 13,
+      "indexed_messages": 13,
+      "message_id_multisets_match": true,
+      "month": "2023-05",
+      "project": "ant",
+      "unique_message_ids": 13
+    },
+    {
+      "exported_messages": 10,
+      "indexed_messages": 10,
+      "message_id_multisets_match": true,
+      "month": "2023-06",
+      "project": "ant",
+      "unique_message_ids": 10
+    },
+    {
+      "exported_messages": 13,
+      "indexed_messages": 13,
+      "message_id_multisets_match": true,
+      "month": "2023-07",
+      "project": "ant",
+      "unique_message_ids": 13
+    },
+    {
+      "exported_messages": 63,
+      "indexed_messages": 63,
+      "message_id_multisets_match": true,
+      "month": "2023-08",
+      "project": "ant",
+      "unique_message_ids": 63
+    },
+    {
+      "exported_messages": 23,
+      "indexed_messages": 23,
+      "message_id_multisets_match": true,
+      "month": "2023-09",
+      "project": "ant",
+      "unique_message_ids": 23
+    },
+    {
+      "exported_messages": 9,
+      "indexed_messages": 9,
+      "message_id_multisets_match": true,
+      "month": "2023-10",
+      "project": "ant",
+      "unique_message_ids": 9
+    },
+    {
+      "exported_messages": 39,
+      "indexed_messages": 39,
+      "message_id_multisets_match": true,
+      "month": "2023-11",
+      "project": "ant",
+      "unique_message_ids": 39
+    },
+    {
+      "exported_messages": 11,
+      "indexed_messages": 11,
+      "message_id_multisets_match": true,
+      "month": "2023-12",
+      "project": "ant",
+      "unique_message_ids": 11
+    },
+    {
+      "exported_messages": 17,
+      "indexed_messages": 17,
+      "message_id_multisets_match": true,
+      "month": "2024-01",
+      "project": "ant",
+      "unique_message_ids": 17
+    },
+    {
+      "exported_messages": 19,
+      "indexed_messages": 19,
+      "message_id_multisets_match": true,
+      "month": "2024-02",
+      "project": "ant",
+      "unique_message_ids": 19
+    },
+    {
+      "exported_messages": 7,
+      "indexed_messages": 7,
+      "message_id_multisets_match": true,
+      "month": "2024-03",
+      "project": "ant",
+      "unique_message_ids": 7
+    },
+    {
+      "exported_messages": 10,
+      "indexed_messages": 10,
+      "message_id_multisets_match": true,
+      "month": "2024-04",
+      "project": "ant",
+      "unique_message_ids": 10
+    },
+    {
+      "exported_messages": 7,
+      "indexed_messages": 7,
+      "message_id_multisets_match": true,
+      "month": "2024-05",
+      "project": "ant",
+      "unique_message_ids": 7
+    },
+    {
+      "exported_messages": 20,
+      "indexed_messages": 20,
+      "message_id_multisets_match": true,
+      "month": "2024-06",
+      "project": "ant",
+      "unique_message_ids": 20
+    },
+    {
+      "exported_messages": 7,
+      "indexed_messages": 7,
+      "message_id_multisets_match": true,
+      "month": "2024-07",
+      "project": "ant",
+      "unique_message_ids": 7
+    },
+    {
+      "exported_messages": 30,
+      "indexed_messages": 30,
+      "message_id_multisets_match": true,
+      "month": "2024-08",
+      "project": "ant",
+      "unique_message_ids": 30
+    },
+    {
+      "exported_messages": 4,
+      "indexed_messages": 4,
+      "message_id_multisets_match": true,
+      "month": "2024-09",
+      "project": "ant",
+      "unique_message_ids": 4
+    },
+    {
+      "exported_messages": 8,
+      "indexed_messages": 8,
+      "message_id_multisets_match": true,
+      "month": "2024-10",
+      "project": "ant",
+      "unique_message_ids": 8
+    },
+    {
+      "exported_messages": 17,
+      "indexed_messages": 17,
+      "message_id_multisets_match": true,
+      "month": "2024-11",
+      "project": "ant",
+      "unique_message_ids": 17
+    },
+    {
+      "exported_messages": 19,
+      "indexed_messages": 19,
+      "message_id_multisets_match": true,
+      "month": "2024-12",
+      "project": "ant",
+      "unique_message_ids": 19
+    },
+    {
+      "exported_messages": 7,
+      "indexed_messages": 7,
+      "message_id_multisets_match": true,
+      "month": "2025-01",
+      "project": "ant",
+      "unique_message_ids": 7
+    },
+    {
+      "exported_messages": 4,
+      "indexed_messages": 4,
+      "message_id_multisets_match": true,
+      "month": "2025-02",
+      "project": "ant",
+      "unique_message_ids": 4
+    },
+    {
+      "exported_messages": 9,
+      "indexed_messages": 9,
+      "message_id_multisets_match": true,
+      "month": "2025-03",
+      "project": "ant",
+      "unique_message_ids": 9
+    },
+    {
+      "exported_messages": 3,
+      "indexed_messages": 3,
+      "message_id_multisets_match": true,
+      "month": "2025-04",
+      "project": "ant",
+      "unique_message_ids": 3
+    },
+    {
+      "exported_messages": 20,
+      "indexed_messages": 20,
+      "message_id_multisets_match": true,
+      "month": "2025-05",
+      "project": "ant",
+      "unique_message_ids": 20
+    },
+    {
+      "exported_messages": 50,
+      "indexed_messages": 50,
+      "message_id_multisets_match": true,
+      "month": "2025-06",
+      "project": "ant",
+      "unique_message_ids": 50
+    },
+    {
+      "exported_messages": 15,
+      "indexed_messages": 15,
+      "message_id_multisets_match": true,
+      "month": "2025-07",
+      "project": "ant",
+      "unique_message_ids": 15
+    },
+    {
+      "exported_messages": 58,
+      "indexed_messages": 58,
+      "message_id_multisets_match": true,
+      "month": "2025-08",
+      "project": "ant",
+      "unique_message_ids": 58
+    },
+    {
+      "exported_messages": 30,
+      "indexed_messages": 30,
+      "message_id_multisets_match": true,
+      "month": "2025-09",
+      "project": "ant",
+      "unique_message_ids": 30
+    },
+    {
+      "exported_messages": 8,
+      "indexed_messages": 8,
+      "message_id_multisets_match": true,
+      "month": "2025-10",
+      "project": "ant",
+      "unique_message_ids": 8
+    },
+    {
+      "exported_messages": 15,
+      "indexed_messages": 15,
+      "message_id_multisets_match": true,
+      "month": "2025-11",
+      "project": "ant",
+      "unique_message_ids": 15
+    },
+    {
+      "exported_messages": 7,
+      "indexed_messages": 7,
+      "message_id_multisets_match": true,
+      "month": "2025-12",
+      "project": "ant",
+      "unique_message_ids": 7
+    },
+    {
+      "exported_messages": 87,
+      "indexed_messages": 87,
+      "message_id_multisets_match": true,
+      "month": "2023-01",
+      "project": "httpd",
+      "unique_message_ids": 87
+    },
+    {
+      "exported_messages": 28,
+      "indexed_messages": 28,
+      "message_id_multisets_match": true,
+      "month": "2023-02",
+      "project": "httpd",
+      "unique_message_ids": 28
+    },
+    {
+      "exported_messages": 150,
+      "indexed_messages": 150,
+      "message_id_multisets_match": true,
+      "month": "2023-03",
+      "project": "httpd",
+      "unique_message_ids": 150
+    },
+    {
+      "exported_messages": 64,
+      "indexed_messages": 64,
+      "message_id_multisets_match": true,
+      "month": "2023-04",
+      "project": "httpd",
+      "unique_message_ids": 64
+    },
+    {
+      "exported_messages": 101,
+      "indexed_messages": 101,
+      "message_id_multisets_match": true,
+      "month": "2023-05",
+      "project": "httpd",
+      "unique_message_ids": 101
+    },
+    {
+      "exported_messages": 48,
+      "indexed_messages": 48,
+      "message_id_multisets_match": true,
+      "month": "2023-06",
+      "project": "httpd",
+      "unique_message_ids": 48
+    },
+    {
+      "exported_messages": 29,
+      "indexed_messages": 29,
+      "message_id_multisets_match": true,
+      "month": "2023-07",
+      "project": "httpd",
+      "unique_message_ids": 29
+    },
+    {
+      "exported_messages": 41,
+      "indexed_messages": 41,
+      "message_id_multisets_match": true,
+      "month": "2023-08",
+      "project": "httpd",
+      "unique_message_ids": 41
+    },
+    {
+      "exported_messages": 34,
+      "indexed_messages": 34,
+      "message_id_multisets_match": true,
+      "month": "2023-09",
+      "project": "httpd",
+      "unique_message_ids": 34
+    },
+    {
+      "exported_messages": 94,
+      "indexed_messages": 94,
+      "message_id_multisets_match": true,
+      "month": "2023-10",
+      "project": "httpd",
+      "unique_message_ids": 94
+    },
+    {
+      "exported_messages": 68,
+      "indexed_messages": 68,
+      "message_id_multisets_match": true,
+      "month": "2023-11",
+      "project": "httpd",
+      "unique_message_ids": 68
+    },
+    {
+      "exported_messages": 39,
+      "indexed_messages": 39,
+      "message_id_multisets_match": true,
+      "month": "2023-12",
+      "project": "httpd",
+      "unique_message_ids": 39
+    },
+    {
+      "exported_messages": 39,
+      "indexed_messages": 39,
+      "message_id_multisets_match": true,
+      "month": "2024-01",
+      "project": "httpd",
+      "unique_message_ids": 39
+    },
+    {
+      "exported_messages": 61,
+      "indexed_messages": 61,
+      "message_id_multisets_match": true,
+      "month": "2024-02",
+      "project": "httpd",
+      "unique_message_ids": 61
+    },
+    {
+      "exported_messages": 32,
+      "indexed_messages": 32,
+      "message_id_multisets_match": true,
+      "month": "2024-03",
+      "project": "httpd",
+      "unique_message_ids": 32
+    },
+    {
+      "exported_messages": 83,
+      "indexed_messages": 83,
+      "message_id_multisets_match": true,
+      "month": "2024-04",
+      "project": "httpd",
+      "unique_message_ids": 83
+    },
+    {
+      "exported_messages": 20,
+      "indexed_messages": 20,
+      "message_id_multisets_match": true,
+      "month": "2024-05",
+      "project": "httpd",
+      "unique_message_ids": 20
+    },
+    {
+      "exported_messages": 106,
+      "indexed_messages": 106,
+      "message_id_multisets_match": true,
+      "month": "2024-06",
+      "project": "httpd",
+      "unique_message_ids": 105
+    },
+    {
+      "exported_messages": 107,
+      "indexed_messages": 107,
+      "message_id_multisets_match": true,
+      "month": "2024-07",
+      "project": "httpd",
+      "unique_message_ids": 103
+    },
+    {
+      "exported_messages": 62,
+      "indexed_messages": 62,
+      "message_id_multisets_match": true,
+      "month": "2024-08",
+      "project": "httpd",
+      "unique_message_ids": 62
+    },
+    {
+      "exported_messages": 27,
+      "indexed_messages": 27,
+      "message_id_multisets_match": true,
+      "month": "2024-09",
+      "project": "httpd",
+      "unique_message_ids": 25
+    },
+    {
+      "exported_messages": 21,
+      "indexed_messages": 21,
+      "message_id_multisets_match": true,
+      "month": "2024-10",
+      "project": "httpd",
+      "unique_message_ids": 21
+    },
+    {
+      "exported_messages": 10,
+      "indexed_messages": 10,
+      "message_id_multisets_match": true,
+      "month": "2024-11",
+      "project": "httpd",
+      "unique_message_ids": 10
+    },
+    {
+      "exported_messages": 25,
+      "indexed_messages": 25,
+      "message_id_multisets_match": true,
+      "month": "2024-12",
+      "project": "httpd",
+      "unique_message_ids": 25
+    },
+    {
+      "exported_messages": 76,
+      "indexed_messages": 76,
+      "message_id_multisets_match": true,
+      "month": "2025-01",
+      "project": "httpd",
+      "unique_message_ids": 76
+    },
+    {
+      "exported_messages": 23,
+      "indexed_messages": 23,
+      "message_id_multisets_match": true,
+      "month": "2025-02",
+      "project": "httpd",
+      "unique_message_ids": 23
+    },
+    {
+      "exported_messages": 8,
+      "indexed_messages": 8,
+      "message_id_multisets_match": true,
+      "month": "2025-03",
+      "project": "httpd",
+      "unique_message_ids": 8
+    },
+    {
+      "exported_messages": 2,
+      "indexed_messages": 2,
+      "message_id_multisets_match": true,
+      "month": "2025-04",
+      "project": "httpd",
+      "unique_message_ids": 2
+    },
+    {
+      "exported_messages": 24,
+      "indexed_messages": 24,
+      "message_id_multisets_match": true,
+      "month": "2025-05",
+      "project": "httpd",
+      "unique_message_ids": 24
+    },
+    {
+      "exported_messages": 12,
+      "indexed_messages": 12,
+      "message_id_multisets_match": true,
+      "month": "2025-06",
+      "project": "httpd",
+      "unique_message_ids": 12
+    },
+    {
+      "exported_messages": 60,
+      "indexed_messages": 60,
+      "message_id_multisets_match": true,
+      "month": "2025-07",
+      "project": "httpd",
+      "unique_message_ids": 60
+    },
+    {
+      "exported_messages": 16,
+      "indexed_messages": 16,
+      "message_id_multisets_match": true,
+      "month": "2025-08",
+      "project": "httpd",
+      "unique_message_ids": 16
+    },
+    {
+      "exported_messages": 17,
+      "indexed_messages": 17,
+      "message_id_multisets_match": true,
+      "month": "2025-09",
+      "project": "httpd",
+      "unique_message_ids": 17
+    },
+    {
+      "exported_messages": 15,
+      "indexed_messages": 15,
+      "message_id_multisets_match": true,
+      "month": "2025-10",
+      "project": "httpd",
+      "unique_message_ids": 15
+    },
+    {
+      "exported_messages": 24,
+      "indexed_messages": 24,
+      "message_id_multisets_match": true,
+      "month": "2025-11",
+      "project": "httpd",
+      "unique_message_ids": 24
+    },
+    {
+      "exported_messages": 34,
+      "indexed_messages": 34,
+      "message_id_multisets_match": true,
+      "month": "2025-12",
+      "project": "httpd",
+      "unique_message_ids": 34
+    },
+    {
+      "exported_messages": 241,
+      "indexed_messages": 241,
+      "message_id_multisets_match": true,
+      "month": "2023-01",
+      "project": "maven",
+      "unique_message_ids": 241
+    },
+    {
+      "exported_messages": 321,
+      "indexed_messages": 321,
+      "message_id_multisets_match": true,
+      "month": "2023-02",
+      "project": "maven",
+      "unique_message_ids": 321
+    },
+    {
+      "exported_messages": 339,
+      "indexed_messages": 339,
+      "message_id_multisets_match": true,
+      "month": "2023-03",
+      "project": "maven",
+      "unique_message_ids": 339
+    },
+    {
+      "exported_messages": 306,
+      "indexed_messages": 306,
+      "message_id_multisets_match": true,
+      "month": "2023-04",
+      "project": "maven",
+      "unique_message_ids": 306
+    },
+    {
+      "exported_messages": 323,
+      "indexed_messages": 323,
+      "message_id_multisets_match": true,
+      "month": "2023-05",
+      "project": "maven",
+      "unique_message_ids": 323
+    },
+    {
+      "exported_messages": 364,
+      "indexed_messages": 364,
+      "message_id_multisets_match": true,
+      "month": "2023-06",
+      "project": "maven",
+      "unique_message_ids": 364
+    },
+    {
+      "exported_messages": 120,
+      "indexed_messages": 120,
+      "message_id_multisets_match": true,
+      "month": "2023-07",
+      "project": "maven",
+      "unique_message_ids": 120
+    },
+    {
+      "exported_messages": 99,
+      "indexed_messages": 99,
+      "message_id_multisets_match": true,
+      "month": "2023-08",
+      "project": "maven",
+      "unique_message_ids": 99
+    },
+    {
+      "exported_messages": 117,
+      "indexed_messages": 117,
+      "message_id_multisets_match": true,
+      "month": "2023-09",
+      "project": "maven",
+      "unique_message_ids": 117
+    },
+    {
+      "exported_messages": 362,
+      "indexed_messages": 362,
+      "message_id_multisets_match": true,
+      "month": "2023-10",
+      "project": "maven",
+      "unique_message_ids": 362
+    },
+    {
+      "exported_messages": 263,
+      "indexed_messages": 263,
+      "message_id_multisets_match": true,
+      "month": "2023-11",
+      "project": "maven",
+      "unique_message_ids": 263
+    },
+    {
+      "exported_messages": 171,
+      "indexed_messages": 171,
+      "message_id_multisets_match": true,
+      "month": "2023-12",
+      "project": "maven",
+      "unique_message_ids": 171
+    },
+    {
+      "exported_messages": 204,
+      "indexed_messages": 204,
+      "message_id_multisets_match": true,
+      "month": "2024-01",
+      "project": "maven",
+      "unique_message_ids": 204
+    },
+    {
+      "exported_messages": 221,
+      "indexed_messages": 221,
+      "message_id_multisets_match": true,
+      "month": "2024-02",
+      "project": "maven",
+      "unique_message_ids": 221
+    },
+    {
+      "exported_messages": 243,
+      "indexed_messages": 243,
+      "message_id_multisets_match": true,
+      "month": "2024-03",
+      "project": "maven",
+      "unique_message_ids": 243
+    },
+    {
+      "exported_messages": 254,
+      "indexed_messages": 254,
+      "message_id_multisets_match": true,
+      "month": "2024-04",
+      "project": "maven",
+      "unique_message_ids": 254
+    },
+    {
+      "exported_messages": 343,
+      "indexed_messages": 343,
+      "message_id_multisets_match": true,
+      "month": "2024-05",
+      "project": "maven",
+      "unique_message_ids": 343
+    },
+    {
+      "exported_messages": 275,
+      "indexed_messages": 275,
+      "message_id_multisets_match": true,
+      "month": "2024-06",
+      "project": "maven",
+      "unique_message_ids": 274
+    },
+    {
+      "exported_messages": 167,
+      "indexed_messages": 167,
+      "message_id_multisets_match": true,
+      "month": "2024-07",
+      "project": "maven",
+      "unique_message_ids": 167
+    },
+    {
+      "exported_messages": 339,
+      "indexed_messages": 339,
+      "message_id_multisets_match": true,
+      "month": "2024-08",
+      "project": "maven",
+      "unique_message_ids": 339
+    },
+    {
+      "exported_messages": 181,
+      "indexed_messages": 181,
+      "message_id_multisets_match": true,
+      "month": "2024-09",
+      "project": "maven",
+      "unique_message_ids": 181
+    },
+    {
+      "exported_messages": 327,
+      "indexed_messages": 327,
+      "message_id_multisets_match": true,
+      "month": "2024-10",
+      "project": "maven",
+      "unique_message_ids": 327
+    },
+    {
+      "exported_messages": 140,
+      "indexed_messages": 140,
+      "message_id_multisets_match": true,
+      "month": "2024-11",
+      "project": "maven",
+      "unique_message_ids": 140
+    },
+    {
+      "exported_messages": 217,
+      "indexed_messages": 217,
+      "message_id_multisets_match": true,
+      "month": "2024-12",
+      "project": "maven",
+      "unique_message_ids": 217
+    },
+    {
+      "exported_messages": 232,
+      "indexed_messages": 232,
+      "message_id_multisets_match": true,
+      "month": "2025-01",
+      "project": "maven",
+      "unique_message_ids": 232
+    },
+    {
+      "exported_messages": 236,
+      "indexed_messages": 236,
+      "message_id_multisets_match": true,
+      "month": "2025-02",
+      "project": "maven",
+      "unique_message_ids": 236
+    },
+    {
+      "exported_messages": 236,
+      "indexed_messages": 236,
+      "message_id_multisets_match": true,
+      "month": "2025-03",
+      "project": "maven",
+      "unique_message_ids": 236
+    },
+    {
+      "exported_messages": 83,
+      "indexed_messages": 83,
+      "message_id_multisets_match": true,
+      "month": "2025-04",
+      "project": "maven",
+      "unique_message_ids": 83
+    },
+    {
+      "exported_messages": 263,
+      "indexed_messages": 263,
+      "message_id_multisets_match": true,
+      "month": "2025-05",
+      "project": "maven",
+      "unique_message_ids": 263
+    },
+    {
+      "exported_messages": 176,
+      "indexed_messages": 176,
+      "message_id_multisets_match": true,
+      "month": "2025-06",
+      "project": "maven",
+      "unique_message_ids": 176
+    },
+    {
+      "exported_messages": 164,
+      "indexed_messages": 164,
+      "message_id_multisets_match": true,
+      "month": "2025-07",
+      "project": "maven",
+      "unique_message_ids": 164
+    },
+    {
+      "exported_messages": 140,
+      "indexed_messages": 140,
+      "message_id_multisets_match": true,
+      "month": "2025-08",
+      "project": "maven",
+      "unique_message_ids": 140
+    },
+    {
+      "exported_messages": 234,
+      "indexed_messages": 234,
+      "message_id_multisets_match": true,
+      "month": "2025-09",
+      "project": "maven",
+      "unique_message_ids": 234
+    },
+    {
+      "exported_messages": 260,
+      "indexed_messages": 260,
+      "message_id_multisets_match": true,
+      "month": "2025-10",
+      "project": "maven",
+      "unique_message_ids": 260
+    },
+    {
+      "exported_messages": 247,
+      "indexed_messages": 247,
+      "message_id_multisets_match": true,
+      "month": "2025-11",
+      "project": "maven",
+      "unique_message_ids": 247
+    },
+    {
+      "exported_messages": 130,
+      "indexed_messages": 130,
+      "message_id_multisets_match": true,
+      "month": "2025-12",
+      "project": "maven",
+      "unique_message_ids": 130
+    },
+    {
+      "exported_messages": 781,
+      "indexed_messages": 781,
+      "message_id_multisets_match": true,
+      "month": "2023-01",
+      "project": "tomcat",
+      "unique_message_ids": 781
+    },
+    {
+      "exported_messages": 787,
+      "indexed_messages": 787,
+      "message_id_multisets_match": true,
+      "month": "2023-02",
+      "project": "tomcat",
+      "unique_message_ids": 787
+    },
+    {
+      "exported_messages": 783,
+      "indexed_messages": 783,
+      "message_id_multisets_match": true,
+      "month": "2023-03",
+      "project": "tomcat",
+      "unique_message_ids": 783
+    },
+    {
+      "exported_messages": 683,
+      "indexed_messages": 683,
+      "message_id_multisets_match": true,
+      "month": "2023-04",
+      "project": "tomcat",
+      "unique_message_ids": 681
+    },
+    {
+      "exported_messages": 749,
+      "indexed_messages": 749,
+      "message_id_multisets_match": true,
+      "month": "2023-05",
+      "project": "tomcat",
+      "unique_message_ids": 749
+    },
+    {
+      "exported_messages": 708,
+      "indexed_messages": 708,
+      "message_id_multisets_match": true,
+      "month": "2023-06",
+      "project": "tomcat",
+      "unique_message_ids": 708
+    },
+    {
+      "exported_messages": 484,
+      "indexed_messages": 484,
+      "message_id_multisets_match": true,
+      "month": "2023-07",
+      "project": "tomcat",
+      "unique_message_ids": 484
+    },
+    {
+      "exported_messages": 670,
+      "indexed_messages": 670,
+      "message_id_multisets_match": true,
+      "month": "2023-08",
+      "project": "tomcat",
+      "unique_message_ids": 670
+    },
+    {
+      "exported_messages": 946,
+      "indexed_messages": 946,
+      "message_id_multisets_match": true,
+      "month": "2023-09",
+      "project": "tomcat",
+      "unique_message_ids": 940
+    },
+    {
+      "exported_messages": 1167,
+      "indexed_messages": 1167,
+      "message_id_multisets_match": true,
+      "month": "2023-10",
+      "project": "tomcat",
+      "unique_message_ids": 1167
+    },
+    {
+      "exported_messages": 618,
+      "indexed_messages": 618,
+      "message_id_multisets_match": true,
+      "month": "2023-11",
+      "project": "tomcat",
+      "unique_message_ids": 618
+    },
+    {
+      "exported_messages": 542,
+      "indexed_messages": 542,
+      "message_id_multisets_match": true,
+      "month": "2023-12",
+      "project": "tomcat",
+      "unique_message_ids": 542
+    },
+    {
+      "exported_messages": 638,
+      "indexed_messages": 638,
+      "message_id_multisets_match": true,
+      "month": "2024-01",
+      "project": "tomcat",
+      "unique_message_ids": 636
+    },
+    {
+      "exported_messages": 908,
+      "indexed_messages": 908,
+      "message_id_multisets_match": true,
+      "month": "2024-02",
+      "project": "tomcat",
+      "unique_message_ids": 907
+    },
+    {
+      "exported_messages": 525,
+      "indexed_messages": 525,
+      "message_id_multisets_match": true,
+      "month": "2024-03",
+      "project": "tomcat",
+      "unique_message_ids": 525
+    },
+    {
+      "exported_messages": 660,
+      "indexed_messages": 660,
+      "message_id_multisets_match": true,
+      "month": "2024-04",
+      "project": "tomcat",
+      "unique_message_ids": 660
+    },
+    {
+      "exported_messages": 490,
+      "indexed_messages": 490,
+      "message_id_multisets_match": true,
+      "month": "2024-05",
+      "project": "tomcat",
+      "unique_message_ids": 490
+    },
+    {
+      "exported_messages": 779,
+      "indexed_messages": 779,
+      "message_id_multisets_match": true,
+      "month": "2024-06",
+      "project": "tomcat",
+      "unique_message_ids": 779
+    },
+    {
+      "exported_messages": 713,
+      "indexed_messages": 713,
+      "message_id_multisets_match": true,
+      "month": "2024-07",
+      "project": "tomcat",
+      "unique_message_ids": 713
+    },
+    {
+      "exported_messages": 592,
+      "indexed_messages": 592,
+      "message_id_multisets_match": true,
+      "month": "2024-08",
+      "project": "tomcat",
+      "unique_message_ids": 592
+    },
+    {
+      "exported_messages": 815,
+      "indexed_messages": 815,
+      "message_id_multisets_match": true,
+      "month": "2024-09",
+      "project": "tomcat",
+      "unique_message_ids": 815
+    },
+    {
+      "exported_messages": 1010,
+      "indexed_messages": 1010,
+      "message_id_multisets_match": true,
+      "month": "2024-10",
+      "project": "tomcat",
+      "unique_message_ids": 1010
+    },
+    {
+      "exported_messages": 781,
+      "indexed_messages": 781,
+      "message_id_multisets_match": true,
+      "month": "2024-11",
+      "project": "tomcat",
+      "unique_message_ids": 781
+    },
+    {
+      "exported_messages": 651,
+      "indexed_messages": 651,
+      "message_id_multisets_match": true,
+      "month": "2024-12",
+      "project": "tomcat",
+      "unique_message_ids": 651
+    },
+    {
+      "exported_messages": 613,
+      "indexed_messages": 613,
+      "message_id_multisets_match": true,
+      "month": "2025-01",
+      "project": "tomcat",
+      "unique_message_ids": 613
+    },
+    {
+      "exported_messages": 885,
+      "indexed_messages": 885,
+      "message_id_multisets_match": true,
+      "month": "2025-02",
+      "project": "tomcat",
+      "unique_message_ids": 885
+    },
+    {
+      "exported_messages": 981,
+      "indexed_messages": 981,
+      "message_id_multisets_match": true,
+      "month": "2025-03",
+      "project": "tomcat",
+      "unique_message_ids": 981
+    },
+    {
+      "exported_messages": 499,
+      "indexed_messages": 499,
+      "message_id_multisets_match": true,
+      "month": "2025-04",
+      "project": "tomcat",
+      "unique_message_ids": 499
+    },
+    {
+      "exported_messages": 523,
+      "indexed_messages": 523,
+      "message_id_multisets_match": true,
+      "month": "2025-05",
+      "project": "tomcat",
+      "unique_message_ids": 523
+    },
+    {
+      "exported_messages": 538,
+      "indexed_messages": 538,
+      "message_id_multisets_match": true,
+      "month": "2025-06",
+      "project": "tomcat",
+      "unique_message_ids": 536
+    },
+    {
+      "exported_messages": 399,
+      "indexed_messages": 399,
+      "message_id_multisets_match": true,
+      "month": "2025-07",
+      "project": "tomcat",
+      "unique_message_ids": 399
+    },
+    {
+      "exported_messages": 548,
+      "indexed_messages": 548,
+      "message_id_multisets_match": true,
+      "month": "2025-08",
+      "project": "tomcat",
+      "unique_message_ids": 548
+    },
+    {
+      "exported_messages": 922,
+      "indexed_messages": 922,
+      "message_id_multisets_match": true,
+      "month": "2025-09",
+      "project": "tomcat",
+      "unique_message_ids": 921
+    },
+    {
+      "exported_messages": 652,
+      "indexed_messages": 652,
+      "message_id_multisets_match": true,
+      "month": "2025-10",
+      "project": "tomcat",
+      "unique_message_ids": 651
+    },
+    {
+      "exported_messages": 539,
+      "indexed_messages": 539,
+      "message_id_multisets_match": true,
+      "month": "2025-11",
+      "project": "tomcat",
+      "unique_message_ids": 539
+    },
+    {
+      "exported_messages": 508,
+      "indexed_messages": 508,
+      "message_id_multisets_match": true,
+      "month": "2025-12",
+      "project": "tomcat",
+      "unique_message_ids": 508
+    }
+  ],
+  "registration_commit": "00d696ed80bd388955f622e0611853165f19508c",
+  "retrieval_receipts_verified": 393,
+  "scope": "G1 access only; not screening, G2, G3, or a first-pass lock"
+}

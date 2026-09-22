@@ -5,7 +5,8 @@
 - **Entry state:** Accepted [second-cycle synthesis](second-cycle-synthesis.md);
   PR #15 merged at `360fa99903a12315446b10766c7d88af11b20979`.
 - **Scope:** The registered ASF comparison, beginning with executable tooling.
-- **Current state:** Item 1 accepted and frozen on 2026-09-19; item 2 is next.
+- **Current state:** Item 1 accepted and frozen on 2026-09-19; item 2 completed
+  for owner review on 2026-09-21, with G1 passing.
 - **Executable freeze:** `18b13ff18500c33d8812459eda72ad6c11640f1a`, accepted
   through [PR #16](https://github.com/cyborg-nomade/cybernetic-mutualism/pull/16)
   and merged at `f6a70a2ece9675dedbb09abe57b16320b672cb77`.
@@ -41,9 +42,12 @@ was separately disclosed and accepted with PR #16 before evidence exposure.
 Use one task for the cycle and an item-sized branch and PR for each reviewable
 deliverable. Items 2 and 3 may require a staged review within the evidence work,
 but retrieval must not be combined with item 1. On 2026-09-19 the owner approved
-PR #16 and authorized its merge and closeout. Item 1 is complete. Case retrieval
-and empirical coding belong to the separately authorized evidence item;
-publication, historical collection, and scheduled work remain outside this item.
+PR #16 and authorized its merge and closeout. Item 1 is complete. On 2026-09-21
+the owner authorized item 2, the separate source/cohort audit, through its own
+reviewable PR. The [access audit](../cases/asf-autonomy-coordination-access-audit.md)
+records G1 passing, exact source bytes, and additional exposure. Item 3 screening
+and coding have not begun; item 2 is not authorization to merge its PR or start
+publication, historical collection, or scheduled work.
 
 ## Completion and Decision Criteria
 
@@ -85,7 +89,8 @@ other claims outside the registered ASF decisions remain unchanged.
 
 The owner has accepted and frozen the executable audit, including its disclosed
 implementation clarification and review corrections. This makes the registered
-decisions reproducible before outcome exposure; it supplies no empirical
-finding. All claims remain C1 and no ASF case record has been collected. The
-next discriminating action is item 2, the separately authorized source/cohort
-audit applying G1 to the fixed cohort.
+decisions reproducible before outcome exposure. The separately authorized
+access audit now supplies a dated G1 pass and retains the public source corpus
+used to verify it. It supplies no causal finding, and all claims remain C1.
+Review item 2, then proceed to item 3's complete screening and first pass as the
+next discriminator. No empirical first-pass lock or washout has begun.

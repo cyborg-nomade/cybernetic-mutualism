@@ -1,0 +1,12 @@
+{
+  "file": "sources/board_minutes_2025_10_15.txt",
+  "url": "https://www.apache.org/foundation/records/minutes/2025/board_minutes_2025_10_15.txt",
+  "retrieved_at": "2026-09-21T14:37:30.856377+00:00",
+  "effective_url": "https://www.apache.org/foundation/records/minutes/2025/board_minutes_2025_10_15.txt",
+  "http_status": 200,
+  "content_type": "text/plain; charset=utf-8",
+  "curl_exit": 0,
+  "error": "",
+  "bytes": 179890,
+  "sha256": "321c25c432c24e3e9b7c0bac2617bdc3eb2362eddc6b7ede6af8d082f018c470"
+}

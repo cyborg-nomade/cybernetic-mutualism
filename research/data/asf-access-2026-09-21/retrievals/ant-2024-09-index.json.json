@@ -1,0 +1,14 @@
+{
+  "file": "sources/ant-2024-09-index.json.gz",
+  "url": "https://lists.apache.org/api/stats.lua?list=dev&domain=ant.apache.org&d=2024-09",
+  "retrieved_at": "2026-09-21T14:39:54.950240+00:00",
+  "effective_url": "https://lists.apache.org/api/stats.lua?list=dev&domain=ant.apache.org&d=2024-09",
+  "http_status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "curl_exit": 0,
+  "error": "",
+  "bytes": 3043,
+  "sha256": "7fc45b37616daa1d41553a1e52aef7e66ab549d0784f052053266e39bc22a868",
+  "raw_bytes": 12019,
+  "raw_sha256": "bec30190683a89d25bc94e9b612521e00a4d780088231f93f5086498a661b653"
+}

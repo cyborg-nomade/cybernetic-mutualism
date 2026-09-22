@@ -1,0 +1,12 @@
+{
+  "file": "sources/httpd-static.html",
+  "url": "https://lists.apache.org/api/static.lua?list=dev%40httpd.apache.org&d=2023-01",
+  "retrieved_at": "2026-09-21T14:38:02.106731+00:00",
+  "effective_url": "https://lists.apache.org/api/static.lua?list=dev%40httpd.apache.org&d=2023-01",
+  "http_status": 404,
+  "content_type": "text/plain; charset=utf-8",
+  "curl_exit": 0,
+  "error": "",
+  "bytes": 23,
+  "sha256": "ca506c46a814eede50c0e5f9d5d323828c0e602f651afe555dff42a38c449f2a"
+}

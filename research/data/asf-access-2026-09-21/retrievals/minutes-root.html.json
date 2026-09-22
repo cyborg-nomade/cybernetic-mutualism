@@ -1,0 +1,12 @@
+{
+  "file": "sources/minutes-root.html",
+  "url": "https://www.apache.org/foundation/records/minutes/",
+  "retrieved_at": "2026-09-21T14:36:30.458664+00:00",
+  "effective_url": "https://www.apache.org/foundation/records/minutes/",
+  "http_status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "curl_exit": 0,
+  "error": "",
+  "bytes": 1412,
+  "sha256": "dae8928c8c3a0afe59100d2c3918f19cccec15814e19510f20202b7484be547c"
+}

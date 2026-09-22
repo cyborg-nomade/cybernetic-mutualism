@@ -1,0 +1,12 @@
+{
+  "file": "sources/httpd-ponymail.html",
+  "url": "https://lists.apache.org/list.html?dev@httpd.apache.org",
+  "retrieved_at": "2026-09-21T14:36:30.425745+00:00",
+  "effective_url": "https://lists.apache.org/list.html?dev@httpd.apache.org",
+  "http_status": 200,
+  "content_type": "text/html",
+  "curl_exit": 0,
+  "error": "",
+  "bytes": 11399,
+  "sha256": "667aa6e6550b4ca50683c1440db789281b06fddaf1e09c75abac79d911d05cf8"
+}

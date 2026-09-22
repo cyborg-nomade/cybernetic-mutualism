@@ -1,0 +1,69 @@
+{
+  "acceptance_record_commit": "9be4977",
+  "accepted_merge_commit": "f6a70a2ece9675dedbb09abe57b16320b672cb77",
+  "date": "2026-09-21",
+  "executable_commit": "18b13ff18500c33d8812459eda72ad6c11640f1a",
+  "ledger_hashes": {
+    "attestations.csv": "b171c4f97cf8e84ef9d11b38b46a2525c72aa792fdcf3e4089226dd0078553fc",
+    "cohort.csv": "0ffc826e4e7abc07e5b42c407b9a947948402fee38d4bc516d11751acf140bd2",
+    "contrasts.csv": "2a48bd7e7efd31936db5135343b3b9c4e59d5eba6ba73c11c2784b95141d20f7",
+    "coverage.csv": "2385b6f7bf9d8fd6ef46e182666af088a8de4f7e31c1d87072c3d85ad190682e",
+    "episodes.csv": "5649b168c2ca5ae2649bdc8ce01fe79d3899e5a4972de97df62b903897651c6f",
+    "evidence.csv": "dc7e89905234ee4d43d04842a86e2a326b9a332b2782bebf5229bbed07f49ee0",
+    "families.csv": "c22cf0c96cc5c962f6eb15ebedc05ea0da41ef6d85c9d5d2ecd9b39b6db5a5fa",
+    "measurements.csv": "7d502fcfadbf9fdd27f1bc158b192936f17dc38346abe9fbb58187d523784c89",
+    "rivals.csv": "9d5995da8da5a2d6754126f21c0014ab1cf8231c0bb1e3b242fed944e52d4846",
+    "screening.csv": "0e275dc722b6a1e5fa37174c8e48d53a32a1026628f600b93c4ba11659d86ed3",
+    "shock_searches.csv": "c5040908f8d06f05b582b4a38244acc7bb8ee8e0d98924e30803393bfaa4ad1e",
+    "shocks.csv": "3845e20a2a568b9507b331a48395ce1747b05708f89167f841e02cdd096fceea",
+    "sources.csv": "5db3e4b8aaf1c2e62198398dd0084bca61b9f6e9c2921f234cd22de92754d93c",
+    "special_meetings.csv": "a33e6a7920dad9fd83df43e0e1d89191ec1aaf46e3652061c0bd663dfeea9a23"
+  },
+  "operative_files": {
+    "research/cases/asf-autonomy-coordination-codebook.md": "6605b6eb93e8f07f1889096d55dfcc8ff7f892d7ecab42bdbda5eb6390779546",
+    "research/cases/asf-autonomy-coordination-preregistration.md": "e8b266e580914752efddb1e68d1d6c80710ea2aa73cd990432aa83642c2222a1",
+    "research/cases/asf-autonomy-coordination-registration.toml": "d7901212c06131efc0086c1d38c5f080e64f47f672df063465b88df391a85864",
+    "scripts/asf_audit/__init__.py": "2956f1c60ef304911f03beb7431dbe2ab657e8ad66ccc56131026bd8c15bd26a",
+    "scripts/asf_audit/__main__.py": "0975ae227898b6dde5be177a35de6a3e47788443270bb26538d8ce87a67a6508",
+    "scripts/asf_audit/analysis.py": "0a11f44f0b694783d62b0382b41158e7bdbc509ddfe281a44a9f09c73631ab48",
+    "scripts/asf_audit/freeze.py": "fc63d671464df843bab09d9886874fa577a865623a914ab1a097a7773a8af203",
+    "scripts/asf_audit/protocol.py": "a00381b011320fa3ea85f20ab7c178456669ef33665431efd3336d2f1abfdd92",
+    "scripts/asf_audit/report.py": "da44f783119144a932cf4ceee78aa8211648a18bd594c96c5aa21d997663db18",
+    "scripts/asf_audit/sampling.py": "09d0f7bad816597c7177562058943782bfc15ebcd6b04cb558d60eca85794520",
+    "scripts/asf_audit/schema.py": "a29ffb4cd8d6b9ac13c15078ce8c299ec8757114fb08646d81f94c666efd6d91",
+    "scripts/asf_audit/stability.py": "837627674c0bc8bc1012a7b854396513464e81cfa6e633438b4e017293b5467d",
+    "scripts/asf_audit/timing.py": "50bc0f8717294c6aebacd9d1a9fcf0ff971774a96f68ea2f0b614eb83513901c",
+    "scripts/asf_audit/validation.py": "a398bab9d8d59d13efc1d7e4dc77e7e27e34914bcb0229ad599e3bc09bef3107",
+    "uv.lock": "5c7bc2264c02f783a843eb107888a59fe86c1d56a6430a84764b3c9909358588"
+  },
+  "provenance": {
+    "amendment_ids": [
+      "pr13-review-clarifications-2026-09-04",
+      "solo-completion-and-research-yield-2026-09-05"
+    ],
+    "files": {
+      "research/cases/../decisions/antinomy-structural-robustness.md": "35e63c476f9f740bc4bcf72aec55b050552e10b9431a469d1cd23bacd21bb471",
+      "research/cases/asf-autonomy-coordination-codebook.md": "6605b6eb93e8f07f1889096d55dfcc8ff7f892d7ecab42bdbda5eb6390779546",
+      "research/cases/asf-autonomy-coordination-preregistration.md": "e8b266e580914752efddb1e68d1d6c80710ea2aa73cd990432aa83642c2222a1",
+      "research/cases/asf-autonomy-coordination-registration.toml": "d7901212c06131efc0086c1d38c5f080e64f47f672df063465b88df391a85864",
+      "research/cases/asf-autonomy-coordination-source-audit.md": "01d7c074230d8a29fa08af2487f13be2bf82b4cd159daa2396aa35e7c446f9ab",
+      "research/cases/asf-autonomy-coordination-tooling.md": "f1029a9fae9dac93d6d91c8dc0e5b72044b391a5fe93b203b8bd1c9d4b99d879",
+      "scripts/asf_audit/__init__.py": "2956f1c60ef304911f03beb7431dbe2ab657e8ad66ccc56131026bd8c15bd26a",
+      "scripts/asf_audit/__main__.py": "0975ae227898b6dde5be177a35de6a3e47788443270bb26538d8ce87a67a6508",
+      "scripts/asf_audit/analysis.py": "0a11f44f0b694783d62b0382b41158e7bdbc509ddfe281a44a9f09c73631ab48",
+      "scripts/asf_audit/freeze.py": "fc63d671464df843bab09d9886874fa577a865623a914ab1a097a7773a8af203",
+      "scripts/asf_audit/protocol.py": "a00381b011320fa3ea85f20ab7c178456669ef33665431efd3336d2f1abfdd92",
+      "scripts/asf_audit/report.py": "da44f783119144a932cf4ceee78aa8211648a18bd594c96c5aa21d997663db18",
+      "scripts/asf_audit/sampling.py": "09d0f7bad816597c7177562058943782bfc15ebcd6b04cb558d60eca85794520",
+      "scripts/asf_audit/schema.py": "a29ffb4cd8d6b9ac13c15078ce8c299ec8757114fb08646d81f94c666efd6d91",
+      "scripts/asf_audit/stability.py": "837627674c0bc8bc1012a7b854396513464e81cfa6e633438b4e017293b5467d",
+      "scripts/asf_audit/timing.py": "50bc0f8717294c6aebacd9d1a9fcf0ff971774a96f68ea2f0b614eb83513901c",
+      "scripts/asf_audit/validation.py": "a398bab9d8d59d13efc1d7e4dc77e7e27e34914bcb0229ad599e3bc09bef3107",
+      "uv.lock": "5c7bc2264c02f783a843eb107888a59fe86c1d56a6430a84764b3c9909358588"
+    },
+    "implementation_clarification_id": "tooling-audit-supplement-2026-09-16",
+    "registration_commit": "00d696ed80bd388955f622e0611853165f19508c"
+  },
+  "registration_commit": "00d696ed80bd388955f622e0611853165f19508c",
+  "scope": "Access snapshot, not first-pass lock. Header-only downstream ledgers mean not started, not no eligible episodes."
+}

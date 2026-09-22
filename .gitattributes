@@ -1,0 +1,2 @@
+# Preserve retrieved evidence bytes and keep third-party source dumps out of diffs.
+research/data/asf-access-2026-09-21/sources/** binary linguist-vendored

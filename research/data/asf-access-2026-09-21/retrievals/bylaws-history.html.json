@@ -1,0 +1,12 @@
+{
+  "file": "sources/bylaws-history.html",
+  "url": "https://svn.apache.org/viewvc/infrastructure/site/trunk/content/foundation/bylaws.mdtext?view=log",
+  "retrieved_at": "2026-09-21T14:38:50.486168+00:00",
+  "effective_url": "https://svn.apache.org/viewvc/infrastructure/site/trunk/content/foundation/bylaws.mdtext?view=log",
+  "http_status": 401,
+  "content_type": "text/html; charset=iso-8859-1",
+  "curl_exit": 0,
+  "error": "",
+  "bytes": 381,
+  "sha256": "ff6d14f77e27f7b90cb2f20bce408189f5f388961f3fcd13fe2df2cc0a002dc3"
+}
