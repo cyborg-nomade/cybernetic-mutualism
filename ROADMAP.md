@@ -699,7 +699,8 @@ adopts the accepted ASF-first handoff. The owner approved item 1 on 2026-09-19;
 and executable commit `18b13ff18500c33d8812459eda72ad6c11640f1a` is frozen.
 The owner separately authorized item 2 on 2026-09-21. Its
 [access audit](research/cases/asf-autonomy-coordination-access-audit.md) is now
-complete for review: G1 passes, with all 36 primary months verified for each
+accepted through [PR #17](https://github.com/cyborg-nomade/cybernetic-mutualism/pull/17)
+on 2026-09-22: G1 passes, with all 36 primary months verified for each
 development list and the board, plus the additional special board meeting.
 Source bytes and new exposure are retained; episode screening and coding have
 not begun.
@@ -712,8 +713,8 @@ tooling is reviewed and frozen and the evidence item is separately authorized.
 
 The [tooling implementation record](research/cases/asf-autonomy-coordination-tooling.md)
 records the accepted audit supplement, execution conventions, and review fixes.
-Item 2 awaits owner review. Item 3, complete screening and the registered first
-pass, is the next substantive deliverable after that review.
+Item 2 is complete. Item 3, complete screening and the registered first pass,
+is the next substantive deliverable.
 Cycle completion requires an accepted synthesis applying the registered
 claim decisions or an explicit registered stop, with missingness and incomplete
 work preserved. A favorable finding or confidence increase is not required.

@@ -1,7 +1,7 @@
 # ASF Cohort and Source-Access Audit
 
 - **Date:** 2026-09-21.
-- **Status:** Third-cycle item 2, completed for owner review; G1 passes.
+- **Status:** Third-cycle item 2, accepted by the owner on 2026-09-22; G1 passes.
 - **Authorization:** The owner authorized the next item after accepting and
   merging the executable tooling in PR #16.
 - **Registration anchor:** `00d696ed80bd388955f622e0611853165f19508c`.
@@ -187,11 +187,22 @@ and byte-for-byte reproduction of both model artifact sets. Changed local
 documentation links also resolve. These checks establish reproducibility and
 software consistency, not semantic correctness of future episode coding.
 
+## Owner Acceptance — 2026-09-22
+
+The owner confirmed review and approval of
+[PR #17](https://github.com/cyborg-nomade/cybernetic-mutualism/pull/17) and
+authorized its merge and closeout. The accepted access snapshot is commit
+`b2f8bfa1173199f2141a187c2a9ba768225711b7`, merged at
+`c6f7eaf291c147f2f07db9d00b3d0bc06a606930`. Both CI test runs passed, and
+there were no unresolved review threads at merge. The source bundle, ledgers,
+verification report, and accepted executable remain unchanged by this status
+record. No additional ASF source was retrieved or coded during closeout.
+
 ## Conclusions and Next Steps
 
 The fixed cohort and retrieved public records meet G1 on this dated audit.
-This removes the initial access obstacle and warrants proceeding, after item
-review, to complete subject-index screening and the registered first pass.
+Owner acceptance completes item 2, removes the initial access obstacle, and
+warrants complete subject-index screening and the registered first pass.
 It does not warrant a reciprocal, one-way, null, or nested authority-effect
 finding. All claims remain C1, including CM-04's existing structural narrowing;
 the wider programme gains an auditable access map rather than causal support.
@@ -201,4 +212,4 @@ all cross-boundary and ambiguous families, select the deterministic routine
 baseline, collect required context and follow-up, and assess opportunity
 identifiability. Preserve the original access snapshot and all new exposure.
 Only a completed first pass can be locked and begin the 14-complete-day
-washout. This item ends with its separate PR for owner review.
+washout. This item is complete through the accepted and merged PR #17.

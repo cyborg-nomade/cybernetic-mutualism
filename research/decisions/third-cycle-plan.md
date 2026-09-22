@@ -5,8 +5,11 @@
 - **Entry state:** Accepted [second-cycle synthesis](second-cycle-synthesis.md);
   PR #15 merged at `360fa99903a12315446b10766c7d88af11b20979`.
 - **Scope:** The registered ASF comparison, beginning with executable tooling.
-- **Current state:** Item 1 accepted and frozen on 2026-09-19; item 2 completed
-  for owner review on 2026-09-21, with G1 passing.
+- **Current state:** Item 1 accepted and frozen on 2026-09-19; item 2 accepted
+  on 2026-09-22, with G1 passing. Item 3 is next.
+- **Accepted access snapshot:** `b2f8bfa1173199f2141a187c2a9ba768225711b7`,
+  accepted through [PR #17](https://github.com/cyborg-nomade/cybernetic-mutualism/pull/17)
+  and merged at `c6f7eaf291c147f2f07db9d00b3d0bc06a606930`.
 - **Executable freeze:** `18b13ff18500c33d8812459eda72ad6c11640f1a`, accepted
   through [PR #16](https://github.com/cyborg-nomade/cybernetic-mutualism/pull/16)
   and merged at `f6a70a2ece9675dedbb09abe57b16320b672cb77`.
@@ -45,9 +48,10 @@ but retrieval must not be combined with item 1. On 2026-09-19 the owner approved
 PR #16 and authorized its merge and closeout. Item 1 is complete. On 2026-09-21
 the owner authorized item 2, the separate source/cohort audit, through its own
 reviewable PR. The [access audit](../cases/asf-autonomy-coordination-access-audit.md)
-records G1 passing, exact source bytes, and additional exposure. Item 3 screening
-and coding have not begun; item 2 is not authorization to merge its PR or start
-publication, historical collection, or scheduled work.
+records G1 passing, exact source bytes, and additional exposure. On 2026-09-22
+the owner approved PR #17 and authorized its merge and closeout. Item 2 is
+complete. Item 3 screening and coding have not begun; publication, historical
+collection, and scheduled work remain outside this closeout.
 
 ## Completion and Decision Criteria
 
@@ -92,5 +96,5 @@ implementation clarification and review corrections. This makes the registered
 decisions reproducible before outcome exposure. The separately authorized
 access audit now supplies a dated G1 pass and retains the public source corpus
 used to verify it. It supplies no causal finding, and all claims remain C1.
-Review item 2, then proceed to item 3's complete screening and first pass as the
-next discriminator. No empirical first-pass lock or washout has begun.
+Item 2 is accepted. Item 3's complete screening and first pass is the next
+discriminator. No empirical first-pass lock or washout has begun.
