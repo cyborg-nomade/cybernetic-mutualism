@@ -1,0 +1,30 @@
+{
+  "G2": "unassessed",
+  "G3": "unassessed",
+  "accepted_input_commit": "b2f8bfa1173199f2141a187c2a9ba768225711b7",
+  "amendment_ids": [
+    "pr13-review-clarifications-2026-09-04",
+    "solo-completion-and-research-yield-2026-09-05"
+  ],
+  "audit_frame_frozen": false,
+  "baseline_selected": false,
+  "executable_commit": "18b13ff18500c33d8812459eda72ad6c11640f1a",
+  "file_hashes": {
+    "README.md": "3d4085854637f16f78cf8a3a8b910d74b3d05b16797691ce3ab3065e6b52de4b",
+    "duplicate-variants.csv": "26f6865d0cf8f870bc8e8772b0fcfadb3e99e01298d1b784296ec404e9c9df2e",
+    "message-index.csv": "dd2d6793142188965718f190d3442a0103e22933293b97de2d99b525bd0691e0",
+    "rebuild.py": "c833ed0f94950571ae2f3678e99a2fb2eb66fbb09c7865d9d1295478d7e4ad0c",
+    "retrievals.json": "91c55d35055284504bc4ee3dcc4bee00b5a2e07c5cc40ea5601d8caf2fea3e9d",
+    "reviewed-board-sections.csv": "8ee32d5728bfff8779341a60924f8ff705fb8347d9d852f81460ed7b143846a4",
+    "reviewed-messages.csv": "2ef745f9c54de168621df429c8c8b680ec7e6c78c4c0e2a9483de818512b080c",
+    "sources/ant-processes-r1826197.xml": "b66bf88c8bedfa5727fec7d57277a16f9f4dfbb63df1f49d84739b864fad7214",
+    "subject-review.csv": "fc4c88570796838731f04f34e7042842eb14fbf02e7ef65adcc3880a61eb6bc3",
+    "verify.py": "28c4ae2cdddbc7513cd72385d8ea8f5872e2da9c4c89917988432cbbbdc4e4c1"
+  },
+  "first_pass_locked_at": null,
+  "registration_commit": "00d696ed80bd388955f622e0611853165f19508c",
+  "scope": "Initial metadata preparation and bounded source review, not completed screening or final coding",
+  "started_on": "2026-09-22",
+  "status": "incomplete",
+  "supplement_id": "tooling-audit-supplement-2026-09-16"
+}

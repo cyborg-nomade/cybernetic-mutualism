@@ -9,3 +9,4 @@ coverage.xml
 .pytest_cache/
 .ruff_cache/
 .scannerwork/
+.local/asf-first-pass-2026-09-22/

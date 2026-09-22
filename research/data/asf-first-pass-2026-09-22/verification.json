@@ -1,0 +1,14 @@
+{
+  "distinct_project_message_pairs": 35739,
+  "duplicate_variant_rows": 45,
+  "indexed_occurrences": 35763,
+  "integrity_errors": [],
+  "review_states": {
+    "body_reviewed_followup_pending": 21,
+    "pending": 5994
+  },
+  "reviewed_board_sections": 18,
+  "reviewed_message_rows": 89,
+  "scope": "Checkpoint integrity only; not completed screening or G2/G3",
+  "status": "incomplete"
+}
