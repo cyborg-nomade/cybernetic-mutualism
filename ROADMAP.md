@@ -702,8 +702,10 @@ The owner separately authorized item 2 on 2026-09-21. Its
 accepted through [PR #17](https://github.com/cyborg-nomade/cybernetic-mutualism/pull/17)
 on 2026-09-22: G1 passes, with all 36 primary months verified for each
 development list and the board, plus the additional special board meeting.
-Source bytes and new exposure are retained; episode screening and coding have
-not begun.
+Source bytes and exposure are retained. The owner subsequently authorized
+item 3 on 2026-09-22; the
+[first-pass working record](research/cases/asf-autonomy-coordination-first-pass.md)
+contains its initial, explicitly incomplete screening checkpoint.
 
 The ordered deliverables are the executable audit and its pre-evidence freeze;
 the source/cohort access gate; the complete registered first pass and lock;
@@ -714,7 +716,7 @@ tooling is reviewed and frozen and the evidence item is separately authorized.
 The [tooling implementation record](research/cases/asf-autonomy-coordination-tooling.md)
 records the accepted audit supplement, execution conventions, and review fixes.
 Item 2 is complete. Item 3, complete screening and the registered first pass,
-is the next substantive deliverable.
+is underway. The census, sampling, coding, and first-pass lock remain unfinished.
 Cycle completion requires an accepted synthesis applying the registered
 claim decisions or an explicit registered stop, with missingness and incomplete
 work preserved. A favorable finding or confidence increase is not required.

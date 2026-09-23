@@ -1,0 +1,155 @@
+[
+  {
+    "source_id": "INFRA-25209",
+    "url": "https://issues.apache.org/jira/browse/INFRA-25209",
+    "access_state": "inaccessible_login_required",
+    "retrieval_date": "2026-09-22",
+    "server_dates": [
+      "Tue, 22 Sep 2026 09:52:16 GMT",
+      "Tue, 22 Sep 2026 09:52:16 GMT"
+    ],
+    "http_statuses": [
+      "302",
+      "200"
+    ],
+    "response_sha256": "31dc1d1577f41d8fb1f4358bb8b646540e08bf51cafdd2bc0a6637140aa686cb",
+    "response_bytes": 34071,
+    "retained_path": "local_only",
+    "selected_response_headers": {
+      "Date": [
+        "Tue, 22 Sep 2026 09:52:16 GMT",
+        "Tue, 22 Sep 2026 09:52:16 GMT"
+      ],
+      "Last-Modified": [],
+      "ETag": [],
+      "Location": [
+        "/jira/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FINFRA-25209&page_caps=&user_role="
+      ],
+      "Content-Type": [
+        "text/html;charset=utf-8",
+        "text/html;charset=utf-8"
+      ]
+    },
+    "notes": "Response body is login HTML, not the ticket. No login or protected API attempted."
+  },
+  {
+    "source_id": "INFRA-25210",
+    "url": "https://issues.apache.org/jira/browse/INFRA-25210",
+    "access_state": "inaccessible_login_required",
+    "retrieval_date": "2026-09-22",
+    "server_dates": [
+      "Tue, 22 Sep 2026 09:52:47 GMT",
+      "Tue, 22 Sep 2026 09:52:47 GMT"
+    ],
+    "http_statuses": [
+      "302",
+      "200"
+    ],
+    "response_sha256": "6a4b829e85bee70a11f3eeed2aaea9e256fba922c32e9f181010631718a23b32",
+    "response_bytes": 34074,
+    "retained_path": "local_only",
+    "selected_response_headers": {
+      "Date": [
+        "Tue, 22 Sep 2026 09:52:47 GMT",
+        "Tue, 22 Sep 2026 09:52:47 GMT"
+      ],
+      "Last-Modified": [],
+      "ETag": [],
+      "Location": [
+        "/jira/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FINFRA-25210&page_caps=&user_role="
+      ],
+      "Content-Type": [
+        "text/html;charset=utf-8",
+        "text/html;charset=utf-8"
+      ]
+    },
+    "notes": "Response body is login HTML, not the ticket. No login or protected API attempted."
+  },
+  {
+    "source_id": "ant-processes-r1826197",
+    "url": "https://svn.apache.org/repos/asf/!svn/rvr/1826197/ant/site/ant/sources/processes.xml",
+    "access_state": "public_complete",
+    "retrieval_date": "2026-09-22",
+    "server_dates": [
+      "Tue, 22 Sep 2026 09:55:32 GMT"
+    ],
+    "http_statuses": [
+      "200"
+    ],
+    "response_sha256": "b66bf88c8bedfa5727fec7d57277a16f9f4dfbb63df1f49d84739b864fad7214",
+    "response_bytes": 7708,
+    "retained_path": "sources/ant-processes-r1826197.xml",
+    "selected_response_headers": {
+      "Date": [
+        "Tue, 22 Sep 2026 09:55:32 GMT"
+      ],
+      "Last-Modified": [],
+      "ETag": [
+        "\"1826197//ant/site/ant/sources/processes.xml\""
+      ],
+      "Location": [],
+      "Content-Type": [
+        "application/xml"
+      ]
+    },
+    "notes": "Publication/event applicability must be assessed separately from retrieval."
+  },
+  {
+    "source_id": "ant-processes-current",
+    "url": "https://svn.apache.org/repos/asf/ant/site/ant/sources/processes.xml",
+    "access_state": "public_complete_current_matches_fixed_revision",
+    "retrieval_date": "2026-09-22",
+    "server_dates": [
+      "Tue, 22 Sep 2026 09:53:50 GMT"
+    ],
+    "http_statuses": [
+      "200"
+    ],
+    "response_sha256": "b66bf88c8bedfa5727fec7d57277a16f9f4dfbb63df1f49d84739b864fad7214",
+    "response_bytes": 7708,
+    "retained_path": "local_only",
+    "selected_response_headers": {
+      "Date": [
+        "Tue, 22 Sep 2026 09:53:50 GMT"
+      ],
+      "Last-Modified": [
+        "Thu, 08 Mar 2018 10:13:04 GMT"
+      ],
+      "ETag": [
+        "\"1826197//ant/site/ant/sources/processes.xml\""
+      ],
+      "Location": [],
+      "Content-Type": [
+        "application/xml"
+      ]
+    },
+    "notes": "Publication/event applicability must be assessed separately from retrieval."
+  },
+  {
+    "source_id": "ant-processes-wrong-route",
+    "url": "https://svn.apache.org/repos/asf/ant/site/source/processes.xml",
+    "access_state": "not_found",
+    "retrieval_date": "2026-09-22",
+    "server_dates": [
+      "Tue, 22 Sep 2026 09:52:48 GMT"
+    ],
+    "http_statuses": [
+      "404"
+    ],
+    "response_sha256": "80c3fe2ae1062abf56456f52518bd670f9ec3917b7f85e152b347ac6b6faf880",
+    "response_bytes": 196,
+    "retained_path": "local_only",
+    "selected_response_headers": {
+      "Date": [
+        "Tue, 22 Sep 2026 09:52:48 GMT"
+      ],
+      "Last-Modified": [],
+      "ETag": [],
+      "Location": [],
+      "Content-Type": [
+        "text/html; charset=iso-8859-1"
+      ]
+    },
+    "notes": "Publication/event applicability must be assessed separately from retrieval."
+  }
+]

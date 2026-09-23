@@ -6,7 +6,8 @@
   PR #15 merged at `360fa99903a12315446b10766c7d88af11b20979`.
 - **Scope:** The registered ASF comparison, beginning with executable tooling.
 - **Current state:** Item 1 accepted and frozen on 2026-09-19; item 2 accepted
-  on 2026-09-22, with G1 passing. Item 3 is next.
+  on 2026-09-22, with G1 passing. Item 3 started on 2026-09-22 and remains
+  incomplete; its first review checkpoint is available.
 - **Accepted access snapshot:** `b2f8bfa1173199f2141a187c2a9ba768225711b7`,
   accepted through [PR #17](https://github.com/cyborg-nomade/cybernetic-mutualism/pull/17)
   and merged at `c6f7eaf291c147f2f07db9d00b3d0bc06a606930`.
@@ -50,8 +51,12 @@ the owner authorized item 2, the separate source/cohort audit, through its own
 reviewable PR. The [access audit](../cases/asf-autonomy-coordination-access-audit.md)
 records G1 passing, exact source bytes, and additional exposure. On 2026-09-22
 the owner approved PR #17 and authorized its merge and closeout. Item 2 is
-complete. Item 3 screening and coding have not begun; publication, historical
-collection, and scheduled work remain outside this closeout.
+complete. The owner then authorized item 3. Its
+[first-pass working record](../cases/asf-autonomy-coordination-first-pass.md)
+preserves the initial screening checkpoint, evidence exposure, and outstanding
+work. The complete census, baseline draw, coding, and first-pass lock remain
+unfinished. Publication, the deferred print/Reformation collection, and
+scheduled work remain outside this item.
 
 ## Completion and Decision Criteria
 
@@ -96,5 +101,6 @@ implementation clarification and review corrections. This makes the registered
 decisions reproducible before outcome exposure. The separately authorized
 access audit now supplies a dated G1 pass and retains the public source corpus
 used to verify it. It supplies no causal finding, and all claims remain C1.
-Item 2 is accepted. Item 3's complete screening and first pass is the next
-discriminator. No empirical first-pass lock or washout has begun.
+Item 2 is accepted. Item 3 is underway, with its initial review checkpoint
+explicitly incomplete. Completing the census and registered first pass remains
+the next discriminator. No empirical first-pass lock or washout has begun.
