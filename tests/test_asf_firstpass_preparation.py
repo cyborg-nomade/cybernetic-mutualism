@@ -4,8 +4,11 @@ from __future__ import annotations
 
 import gzip
 import importlib.util
+import json
+import sys
 from pathlib import Path
 from types import ModuleType
+from unittest.mock import Mock
 
 import pytest
 
@@ -17,6 +20,21 @@ PREPARATION = REPOSITORY / "research/data/asf-first-pass-2026-09-22/rebuild.py"
 def preparation() -> ModuleType:
     """Load the evidence helper without invoking its write command."""
     spec = importlib.util.spec_from_file_location("asf_preparation", PREPARATION)
+    assert spec is not None and spec.loader is not None
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
+
+
+@pytest.fixture
+def verification(
+    preparation: ModuleType, monkeypatch: pytest.MonkeyPatch
+) -> ModuleType:
+    """Load the verifier with its sibling helper without modifying sys.path."""
+    monkeypatch.setitem(sys.modules, "rebuild", preparation)
+    spec = importlib.util.spec_from_file_location(
+        "asf_verification", PREPARATION.with_name("verify.py")
+    )
     assert spec is not None and spec.loader is not None
     module = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(module)
@@ -85,3 +103,60 @@ def test_rebuild_cannot_overwrite_a_review_checkpoint(
     with pytest.raises(FileExistsError):
         preparation.main()
     assert review.read_text() == "retained reviewer notes\n"
+
+
+@pytest.mark.parametrize("stale", [False, True])
+def test_saved_report_must_match_before_printing(
+    verification: ModuleType,
+    tmp_path: Path,
+    monkeypatch: pytest.MonkeyPatch,
+    capsys: pytest.CaptureFixture[str],
+    stale: bool,
+) -> None:
+    """Reject altered progress counts without emitting a successful report."""
+    computed = {"status": "incomplete", "reviewed_message_rows": 89}
+    recorded = {**computed, "reviewed_message_rows": 0} if stale else computed
+    (tmp_path / "verification.json").write_text(json.dumps(recorded), encoding="utf-8")
+    monkeypatch.setattr(verification, "ROOT", tmp_path)
+    compute = Mock(return_value=computed)
+    monkeypatch.setattr(verification, "report", compute)
+    if stale:
+        with pytest.raises(
+            AssertionError, match=r"verification\.json is stale or modified"
+        ):
+            verification.main()
+        assert not capsys.readouterr().out
+    else:
+        verification.main()
+        assert json.loads(capsys.readouterr().out) == computed
+    compute.assert_called_once_with()
+
+
+def test_board_locators_decode_utf8_with_an_ascii_default(
+    verification: ModuleType, tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    """Retained non-ASCII headings must validate independently of locale."""
+    monkeypatch.setattr(verification, "ROOT", tmp_path / "research/data/stage")
+    heading = "Attachment A: Report — café"
+    (tmp_path / "board.txt").write_text(heading + "\n", encoding="utf-8")
+    monkeypatch.setattr(
+        verification,
+        "read_csv",
+        Mock(
+            return_value=[
+                {
+                    "source_path": "board.txt",
+                    "start_line": "1",
+                    "end_line": "1",
+                    "locator": heading,
+                }
+            ]
+        ),
+    )
+    read_text = Path.read_text
+
+    def ascii_default(path: Path, encoding: str | None = None) -> str:
+        return read_text(path, encoding=encoding or "ascii")
+
+    monkeypatch.setattr(Path, "read_text", ascii_default)
+    verification.verify_board_locators()

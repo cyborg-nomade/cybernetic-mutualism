@@ -55,7 +55,8 @@ provisional review notes, including false positives; they are not the frozen
 codebook's final eligibility or causal fields.
 
 An export block is numbered from 1 after splitting the accepted decompressed
-mbox on its `From ` envelope separators. Its `raw_sha256` includes original
+mbox on its `From␠` envelope separators, where `␠` denotes one space.
+Its `raw_sha256` includes original
 message headers and MIME content but excludes the envelope separator. The
 plain-body hash covers Python's decoded plain-text part encoded as UTF-8; equal
 plain-body hashes do not certify equality of headers or other MIME parts.
@@ -90,7 +91,11 @@ uv run --locked python research/data/asf-first-pass-2026-09-22/verify.py
 
 The verifier checks checkpoint file hashes, complete occurrence membership,
 duplicate versions, unchanged navigation fields, exact reviewed-message
-membership/bytes, and bounded board locators. A successful result cannot
+membership/bytes, bounded board locators, and agreement between the computed
+report and the saved `verification.json`. A stale or modified saved report
+causes verification to fail before any successful report is printed.
+The saved report remains an output, outside the manifest's input hashes.
+A successful result cannot
 establish the truth or completeness of a researcher's interpretation. The
 accepted snapshot verifier separately checks the input's enclosing hashes.
 The ignored `.local/asf-first-pass-2026-09-22/` directory contains working

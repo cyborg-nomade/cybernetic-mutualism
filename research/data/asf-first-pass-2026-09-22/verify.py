@@ -69,7 +69,11 @@ def verify_review_queue(messages: list[dict[str, str]]) -> Counter[str]:
 def verify_board_locators() -> None:
     """Verify bounded section locators, without attesting whole-minute review."""
     for row in read_csv("reviewed-board-sections.csv"):
-        lines = (ROOT.parents[2] / row["source_path"]).read_text().splitlines()
+        lines = (
+            (ROOT.parents[2] / row["source_path"])
+            .read_text(encoding="utf-8")
+            .splitlines()
+        )
         start, end = int(row["start_line"]), int(row["end_line"])
         assert 1 <= start <= end <= len(lines), row
         if row["locator"].startswith("Attachment"):
@@ -81,7 +85,7 @@ def verify_board_locators() -> None:
 
 def report() -> dict[str, object]:
     """Check descriptive integrity while leaving G2, G3, and claims unassessed."""
-    manifest = json.loads((ROOT / "checkpoint.json").read_text())
+    manifest = json.loads((ROOT / "checkpoint.json").read_text(encoding="utf-8"))
     assert manifest["status"] == "incomplete"
     assert manifest["first_pass_locked_at"] is None
     for name, expected in manifest["file_hashes"].items():
@@ -107,5 +111,14 @@ def report() -> dict[str, object]:
     }
 
 
+def main() -> None:
+    """Print a verified report only when its retained copy matches recomputation."""
+    computed = report()
+    recorded = json.loads((ROOT / "verification.json").read_text(encoding="utf-8"))
+    if recorded != computed:
+        raise AssertionError("verification.json is stale or modified")
+    print(json.dumps(computed, indent=2, sort_keys=True))
+
+
 if __name__ == "__main__":
-    print(json.dumps(report(), indent=2, sort_keys=True))
+    main()
