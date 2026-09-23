@@ -6,6 +6,11 @@
 - **Status:** Incomplete; initial review checkpoint only. No first-pass lock,
   baseline selection, blinded recode bundle, washout, G2/G3 result, or claim
   decision exists.
+- **Checkpoint acceptance:** The owner approved the initial checkpoint through
+  [PR #18](https://github.com/cyborg-nomade/cybernetic-mutualism/pull/18) on
+  2026-09-23. Reviewed head `98561adb68ced781767ce4c4dc43143ebdc6a88a` was merged
+  at `bec2d0787f7fd5772ca8aeae11ff4a7892b46a7a`. Acceptance does not complete
+  item 3 or start the washout.
 - **Accepted input:** Access snapshot
   `b2f8bfa1173199f2141a187c2a9ba768225711b7`, accepted through PR #17;
   [G1 passes](asf-autonomy-coordination-access-audit.md).
@@ -207,11 +212,16 @@ strict production typing, and both model-output reproduction checks. These
 checks validate software and declared metadata; they do not certify the
 substantive review as complete or independently replicated.
 
+The 2026-09-23 review follow-up resolved all three CodeRabbit findings:
+explicit delimiter notation, UTF-8 retained-text reads, and comparison of the
+saved verification report with recomputation. The updated checkpoint verifier,
+all 200 tests, the full `just check` run, and both CI runs passed at the accepted
+head. Evidence values and progress counts did not change during this review.
+
 ## Remaining Work and Review Boundary
 
-This checkpoint is the beginning of item 3, not a request to accept a completed
-first pass. The staged-review provision allows inspection of this work while
-the larger item remains open. Required work remains:
+The owner accepted this checkpoint as the beginning of item 3 under the
+staged-review provision. The larger item remains open. Required work remains:
 
 1. Finish the complete subject-index screen for all four projects, including
    mechanical notification routes and all ambiguous replies. Review complete
@@ -237,8 +247,9 @@ a second interpretation.
 
 ## Conclusions and Next Steps
 
-The inspected records warrant preserving distinct retirement and continuation
-outcomes, a documented chair appointment, timing-based false positives, and
+The accepted checkpoint's inspected records warrant preserving distinct
+retirement and continuation outcomes, a documented chair appointment,
+timing-based false positives, and
 unresolved service/policy candidates. They also show why message counts,
 proposal titles, self-reports, and current login responses cannot substitute
 for source-qualified cross-boundary episodes. The wider programme and all

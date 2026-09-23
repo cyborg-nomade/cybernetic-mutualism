@@ -705,7 +705,10 @@ development list and the board, plus the additional special board meeting.
 Source bytes and exposure are retained. The owner subsequently authorized
 item 3 on 2026-09-22; the
 [first-pass working record](research/cases/asf-autonomy-coordination-first-pass.md)
-contains its initial, explicitly incomplete screening checkpoint.
+contains its initial, explicitly incomplete screening checkpoint. The owner
+approved that checkpoint through
+[PR #18](https://github.com/cyborg-nomade/cybernetic-mutualism/pull/18), merged
+on 2026-09-23. This acceptance does not complete item 3 or begin the washout.
 
 The ordered deliverables are the executable audit and its pre-evidence freeze;
 the source/cohort access gate; the complete registered first pass and lock;
