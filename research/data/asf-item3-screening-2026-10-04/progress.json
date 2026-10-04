@@ -43,9 +43,12 @@
     "maven": 58,
     "tomcat": 0
   },
-  "new_body_reviewed_topics": 158,
-  "new_reviewed_export_variants": 1129,
+  "new_body_reviewed_topics": 191,
+  "new_reviewed_export_variants": 1413,
   "fully_read_board_records": [
+    "board-2022-12-21.txt",
+    "board_minutes_2022_10_19.txt",
+    "board_minutes_2022_11_16.txt",
     "board_minutes_2023_01_18.txt",
     "board_minutes_2023_02_15.txt",
     "board_minutes_2023_03_22.txt",
@@ -69,7 +72,23 @@
     "board_minutes_2024_09_18.txt",
     "board_minutes_2024_10_16.txt",
     "board_minutes_2024_11_20.txt",
-    "board_minutes_2024_12_18.txt"
+    "board_minutes_2024_12_18.txt",
+    "board_minutes_2025_01_15.txt",
+    "board_minutes_2025_02_19.txt",
+    "board_minutes_2025_03_19.txt",
+    "board_minutes_2025_04_16.txt",
+    "board_minutes_2025_05_21.txt",
+    "board_minutes_2025_06_18.txt",
+    "board_minutes_2025_07_16.txt",
+    "board_minutes_2025_08_20.txt",
+    "board_minutes_2025_08_25.txt",
+    "board_minutes_2025_09_24.txt",
+    "board_minutes_2025_10_15.txt",
+    "board_minutes_2025_11_19.txt",
+    "board_minutes_2025_12_17.txt"
+  ],
+  "fully_read_board_actions_without_meeting": [
+    "research/data/asf-access-2026-09-21/sources/board_minutes_2025_08_24.png"
   ],
   "pending": [
     "remaining full subject titles",

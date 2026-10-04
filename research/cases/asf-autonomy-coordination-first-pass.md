@@ -247,21 +247,28 @@ qualifying witnesses or changing G1, claims, or the registered design.
 
 The owner authorizes continued work in PR #19 until item 3 is complete,
 followed by review. The [working corpus continuation](../data/asf-item3-screening-2026-10-04/README.md)
-retains independent provisional judgments on 158 HTTP Server, Maven and Tomcat topics after
+retains independent provisional judgments on 191 HTTP Server, Maven and Tomcat topics after
 reading their complete exported plain-text bodies. Title inspection covers all
 6,015 entries in the discussion-topic queue and 197 mechanically routed titles
 from Ant, HTTP Server and Maven; Tomcat's mechanical queue remains incomplete.
-Its 1,129 export variants
+Its 1,413 export variants
 preserve original Message-IDs, exact raw/body hashes and monthly block
 locators. Duplicate index deliveries do not multiply message variants.
 
-The continuation also retains 710 exact section locators from the January
-2023 through December 2024 Board proceedings, foundation officer reports, selected
+The continuation also retains 1,166 exact section locators from October
+2022 through December 2025 Board proceedings, including the August 2025
+special meeting, foundation officer reports, selected
 PMC reports, and relevant Attic/Community Development context. The March
 Infrastructure report directly documents the shared GitHub Actions approval
 rule and project opt-outs. The April report dates the committer-only INFRA
 Jira restriction. A ticket login response therefore bounds public evidence;
 it does not establish rejection of the underlying request.
+
+The August 24 2025 logo resolution is retained separately as a visually read
+action without meeting, with the exact image hash. Baseline records date Jira
+account approval, Matomo transition, Travis withdrawal notice and Tomcat 8.5
+EOL before the study window. Later reports do not automatically reset onset.
+Bounded references, historical roles and the calendar attestation remain open.
 
 The September HTTP Server report explicitly says the Git migration vote passed
 but had not been implemented. Ant's December report dates IvyDE archiving to
@@ -274,6 +281,11 @@ Later Git migration proposals continue the earlier HTTP Server request rather
 than resetting onset. In-window mod_wasm replies continue a 2022 proposal and
 remain baseline context. The local chair's list ban and a subsequent Board
 PMC removal are distinct governance acts; causal linkage remains unestablished.
+Maven follow-ups also preserve the October 2024 inactive-access proposal,
+separate Jira/GitHub/wiki/test-project boundaries, and GitHub support cleanup
+that reportedly removed JLINK PR comments as well as duplicated issues. These
+are provisional candidates requiring original receiver and authority evidence.
+
 Provisional family labels, exclusions and file-level search notes are retained
 separately from final episode measurements and witness qualification.
 

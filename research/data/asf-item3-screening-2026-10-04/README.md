@@ -32,6 +32,10 @@ the bytes; this continuation republishes no correspondence bodies.
 main Board proceedings, all foundation officer reports, selected-project
 reports, and the Attic and Community Development context actually read in the
 listed months. Out-of-cohort PMC reports are not a new sampling frame.
+`reviewed-board-actions.json` separately retains the visually read August 24
+2025 logo resolution adopted without a meeting, with its exact image hash.
+It does not inflate the count of meeting sections.
+
 File-level findings are search notes, not measured episode values or evidence
 that every mentioned act affected a selected project. An absent report is
 identified by its agenda entry; report silence is not coded as a zero effect.
@@ -85,6 +89,13 @@ the frozen executable at `18b13ff18500c33d8812459eda72ad6c11640f1a`.
   The September HTTP Server report explicitly says the Git migration vote
   passed but had not been implemented. Ant's December report supplies an
   IvyDE archiving date, while still being a requester self-report.
+- Baseline Board records place Jira account approval, Matomo transition,
+  Travis withdrawal notice and Tomcat 8.5 EOL before the study window. Later
+  complaints or implementation reports do not automatically reset onset.
+- The 2025 Infrastructure and Privacy reports describe CSP deployment, while
+  Maven reports blocked badges. Receiver implementation and project exposure
+  require separate dates and measurements. Planned GHA, DKIM, MFA and ATR
+  changes are distinguished from later reported implementation.
 - Board support for technical enforcement of website-tracking policy in
   January 2024 is separate from implementation: the February Privacy report
   still lists the Infrastructure ticket as open. The policy's earlier onset
