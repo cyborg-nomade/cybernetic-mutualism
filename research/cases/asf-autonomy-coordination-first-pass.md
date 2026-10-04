@@ -247,21 +247,28 @@ qualifying witnesses or changing G1, claims, or the registered design.
 
 The owner authorizes continued work in PR #19 until item 3 is complete,
 followed by review. The [working corpus continuation](../data/asf-item3-screening-2026-10-04/README.md)
-retains independent provisional judgments on 93 HTTP Server and Maven topics after
+retains independent provisional judgments on 158 HTTP Server, Maven and Tomcat topics after
 reading their complete exported plain-text bodies. Title inspection covers all
 6,015 entries in the discussion-topic queue and 197 mechanically routed titles
 from Ant, HTTP Server and Maven; Tomcat's mechanical queue remains incomplete.
-Its 781 export variants
+Its 1,129 export variants
 preserve original Message-IDs, exact raw/body hashes and monthly block
 locators. Duplicate index deliveries do not multiply message variants.
 
-The continuation also retains 176 exact section locators from the January
-through June 2023 Board proceedings, foundation officer reports, selected
+The continuation also retains 710 exact section locators from the January
+2023 through December 2024 Board proceedings, foundation officer reports, selected
 PMC reports, and relevant Attic/Community Development context. The March
 Infrastructure report directly documents the shared GitHub Actions approval
 rule and project opt-outs. The April report dates the committer-only INFRA
 Jira restriction. A ticket login response therefore bounds public evidence;
 it does not establish rejection of the underlying request.
+
+The September HTTP Server report explicitly says the Git migration vote passed
+but had not been implemented. Ant's December report dates IvyDE archiving to
+November 26, while remaining a requester self-report. The January 2024 Board
+supports technical enforcement of website-tracking policy, and Privacy still
+lists the implementation ticket as open in February. Authorization, reported
+implementation and independent receiver evidence remain distinct.
 
 Later Git migration proposals continue the earlier HTTP Server request rather
 than resetting onset. In-window mod_wasm replies continue a 2022 proposal and

@@ -14,8 +14,8 @@ discussion queue. Their navigation dates remain index dates, not event dates.
 Title inspection does not attest to body review or a complete subject census.
 
 `topic-review.csv` records independent provisional judgments after reading
-the complete exported plain-text bodies of the listed HTTP Server and Maven
-topics.
+the complete exported plain-text bodies of the listed HTTP Server, Maven and
+Tomcat topics.
 Topic IDs organize titles; they are neither original source identifiers nor
 issue families. Reasons explain exclusions and retain uncertainty about
 binding proposals, historical roles, onset and shared service boundaries.
@@ -68,9 +68,27 @@ the frozen executable at `18b13ff18500c33d8812459eda72ad6c11640f1a`.
 - The April 2023 Infrastructure report records committer-only access to INFRA
   Jira. A referenced ticket's login page is missing public disposition evidence,
   not a refusal of the project's request.
+- Independent deliverables can occur within a single thread. Maven's joint
+  Stage and Verifier retirement vote concerns independently archivable
+  repositories; final family coding must preserve that distinction. A vote
+  result promising archiving does not establish that archiving occurred.
+- Tomcat's TCK repository proposal predates the January 2024 request notice:
+  the June 2023 discussion already proposes a new Git project. Runtime Java
+  requirements, build defaults and CI settings can also be separate decisions.
+- The Tomcat contributor's conditional posting warnings and actual address
+  deny-list report are different acts. Non-ASF sender domains do not disprove
+  a role, just as an ASF address does not prove authority. Historical identity
+  and role checks remain necessary.
 - Receiver acts, requester summaries and repeated Board reports remain distinct.
   The HTTP Server chair's list ban and the Board's later PMC removal are
   separate acts; their temporal proximity does not establish causal linkage.
+  The September HTTP Server report explicitly says the Git migration vote
+  passed but had not been implemented. Ant's December report supplies an
+  IvyDE archiving date, while still being a requester self-report.
+- Board support for technical enforcement of website-tracking policy in
+  January 2024 is separate from implementation: the February Privacy report
+  still lists the Infrastructure ticket as open. The policy's earlier onset
+  also requires checking before in-window eligibility is established.
 
 The local reading aid suppresses only previously displayed quoted text,
 including exact text rewrapped across lines, and preserves unquoted text and
