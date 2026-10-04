@@ -2,11 +2,11 @@
   "files": {
     "tomcat-mechanical-review.json": "e824e82173da92d8021a260caedaa28ddabed382acdad500caf406743bd3070d",
     "title-inspection.csv": "b2f789370367cbe59a6085eb46ebad223ee192689a0b7119b7ad48ecf9bfc88e",
-    "topic-review.csv": "249050b6ba403e0d055939376d565dd28646b37abed21ba92988c366f96584b9",
-    "reviewed-message-variants.csv": "77e26fa91e68cd13ff9eea6e46cf8b2a8e9f369cb3474da40215600c2c086037",
+    "topic-review.csv": "99bac73e354e969a9cbcb15669842b853b3db55880417e919a4eed47c65630e0",
+    "reviewed-message-variants.csv": "db5383bc0f86bb97e2f1d9cf5096c2930b091d710712817201ad78b7ebe8b760",
     "reviewed-board-sections.csv": "2fbbcc70b35be0bea82bbc1d109b27e5a259e5c3dae5479d81504bd382f9f98f",
     "reviewed-board-actions.json": "6eb98f6c13928fb6be35d6b23d6f5fb8018a6204d2f3b607a78bbf427989bef8",
-    "progress.json": "ad36d98230e4654fea3d1375bfcdf9715fce022486aced4c89931984bcf768f3",
+    "progress.json": "c4f70759b53be1123186fe84e4789e2dc66ac7503066200951c47e1fdc7b0d65",
     "verify.py": "0a7ed298dac8fbed9ff90343c788ea3267390de3a72833e2309f13763575d0b9",
     "README.md": "e4475e805c17641bd84f772278f5cc752a23402afab8fc03cd92b8729739b428"
   },
@@ -115,6 +115,7 @@
     "research/data/asf-access-2026-09-21/sources/tomcat-2023-01.mbox.gz": "9d15e897a20ed2079e67d1417370e1876d802fe82f77999e6bc549228ffebdc0",
     "research/data/asf-access-2026-09-21/sources/tomcat-2023-02.mbox.gz": "6de383eb00da15b1d04e41b616c02ffcef34bbad16c44ff8ea37e3660686dd02",
     "research/data/asf-access-2026-09-21/sources/tomcat-2023-03.mbox.gz": "b6dc8b1b8d8fe92cd2a733e0a8fd434178e76148143ce67147de48b9d36a05cb",
+    "research/data/asf-access-2026-09-21/sources/tomcat-2023-04.mbox.gz": "680acf525339785dba53710d1a55dfbf604a86e10a433cf865e5b0f048953af4",
     "research/data/asf-access-2026-09-21/sources/tomcat-2023-05.mbox.gz": "1c64938a0fc898190db2919aa36f144a5cbcb76ed26f4a265d4779e455ce1757",
     "research/data/asf-access-2026-09-21/sources/tomcat-2023-06.mbox.gz": "61bb2da1738466cd14874d58a557a9182ad5c23021bdbd9441ea4e7ab14d5469",
     "research/data/asf-access-2026-09-21/sources/tomcat-2023-07.mbox.gz": "d7ebcc2d130254375d0e8bb79790dffccc46f9fe4ef976d403aac9294c88d635",
