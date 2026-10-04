@@ -243,10 +243,44 @@ inability. The full Board/officer census is still pending. The continuation
 records exact source locators, hashes, read scope, and remaining work without
 qualifying witnesses or changing G1, claims, or the registered design.
 
+## Corpus Continuation Within PR #19
+
+The owner authorizes continued work in PR #19 until item 3 is complete,
+followed by review. The [working corpus continuation](../data/asf-item3-screening-2026-10-04/README.md)
+retains independent provisional judgments on 45 HTTP Server topics after
+reading their complete exported plain-text bodies. Title inspection covers all
+6,015 entries in the discussion-topic queue; purely mechanical titles remain
+a separate incomplete queue. Its 343 export variants
+preserve original Message-IDs, exact raw/body hashes and monthly block
+locators. Duplicate index deliveries do not multiply message variants.
+
+The continuation also retains 176 exact section locators from the January
+through June 2023 Board proceedings, foundation officer reports, selected
+PMC reports, and relevant Attic/Community Development context. The March
+Infrastructure report directly documents the shared GitHub Actions approval
+rule and project opt-outs. The April report dates the committer-only INFRA
+Jira restriction. A ticket login response therefore bounds public evidence;
+it does not establish rejection of the underlying request.
+
+Later Git migration proposals continue the earlier HTTP Server request rather
+than resetting onset. In-window mod_wasm replies continue a 2022 proposal and
+remain baseline context. The local chair's list ban and a subsequent Board
+PMC removal are distinct governance acts; causal linkage remains unestablished.
+Provisional family labels, exclusions and file-level search notes are retained
+separately from final episode measurements and witness qualification.
+
+Current index timestamps, original Date headers and historical public delivery
+headers remain distinct. The latter may supply a publication bound only after
+explicit provenance checks. The source exports are unchanged, and this
+continuation republishes no correspondence bodies. Its verifier checks exact
+membership and locators while refusing to assert a sample or lock. Remaining
+subject/body review, references, coding and registered locking are still open.
+
 ## Remaining Work and Review Boundary
 
-The owner accepted this checkpoint as the beginning of item 3 under the
-staged-review provision. The larger item remains open. Required work remains:
+The owner accepted the September checkpoint as the beginning of item 3 under
+the staged-review provision and now authorizes completion in PR #19. The
+larger item remains open. Required work remains:
 
 1. Finish the complete subject-index screen for all four projects, including
    mechanical notification routes and all ambiguous replies. Review complete
