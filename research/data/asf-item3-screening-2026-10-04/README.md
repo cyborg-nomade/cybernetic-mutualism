@@ -12,10 +12,17 @@ asserted here. Earlier September and October artifacts remain unchanged.
 navigation index, including mechanically routed titles inspected outside the
 discussion queue. Their navigation dates remain index dates, not event dates.
 Title inspection does not attest to body review or a complete subject census.
+`tomcat-mechanical-review.json` records the completed inspection of all 5,969
+exact payload groups (11,992 original title variants, 11,987 topic IDs),
+including original SVN path/revision subjects, and explicit pending body
+references. Baseline and follow-up indices and those body references remain
+unfinished; this title census alone does not satisfy a registered audit gate.
 
 `topic-review.csv` records independent provisional judgments after reading
 the complete exported plain-text bodies of the listed HTTP Server, Maven and
-Tomcat topics.
+Tomcat topics. Opaque graphical coordinate attributes in SVG diffs are
+retained and inventoried locally; the logo judgment distinguishes that
+structural inspection from reading human prose and licensing comments.
 Topic IDs organize titles; they are neither original source identifiers nor
 issue families. Reasons explain exclusions and retain uncertainty about
 binding proposals, historical roles, onset and shared service boundaries.

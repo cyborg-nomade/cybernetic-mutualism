@@ -1,13 +1,14 @@
 {
   "files": {
-    "title-inspection.csv": "1145867bc7257290d3d2471822a7e2ea64f90c81596c4c0a18f89c22531e1a34",
-    "topic-review.csv": "98147c782b96c5efe3f5e7a15e089a9a16998c25b14f32d0d402bc3cc5495301",
-    "reviewed-message-variants.csv": "924106a865b014d3d0bc84f4a18de6f7876911942daf89325b661f9d36526a1c",
+    "tomcat-mechanical-review.json": "e824e82173da92d8021a260caedaa28ddabed382acdad500caf406743bd3070d",
+    "title-inspection.csv": "b2f789370367cbe59a6085eb46ebad223ee192689a0b7119b7ad48ecf9bfc88e",
+    "topic-review.csv": "249050b6ba403e0d055939376d565dd28646b37abed21ba92988c366f96584b9",
+    "reviewed-message-variants.csv": "77e26fa91e68cd13ff9eea6e46cf8b2a8e9f369cb3474da40215600c2c086037",
     "reviewed-board-sections.csv": "2fbbcc70b35be0bea82bbc1d109b27e5a259e5c3dae5479d81504bd382f9f98f",
     "reviewed-board-actions.json": "6eb98f6c13928fb6be35d6b23d6f5fb8018a6204d2f3b607a78bbf427989bef8",
-    "progress.json": "390f2ae5f0fa4195651ba1ebd8d7b3433e151d7d6c448138cccf11d4bf770c1d",
+    "progress.json": "ad36d98230e4654fea3d1375bfcdf9715fce022486aced4c89931984bcf768f3",
     "verify.py": "0a7ed298dac8fbed9ff90343c788ea3267390de3a72833e2309f13763575d0b9",
-    "README.md": "bf5bd445354bf25c6124ddd42ee70d90df7a9f4877ae777a19677d9409f5cd7b"
+    "README.md": "e4475e805c17641bd84f772278f5cc752a23402afab8fc03cd92b8729739b428"
   },
   "accepted_inputs": {
     "research/data/asf-access-2026-09-21/sources/board-2022-12-21.txt": "4b2c04b05ffa0ca30512913680163c35b39430262208b1aec2665f9aaf9aeddc",
@@ -137,6 +138,8 @@
     "research/data/asf-access-2026-09-21/sources/tomcat-2025-01.mbox.gz": "995fac61caf39f0ff66e390c53714634c80727dc63dbd3cc655b7fdfd3e6dfff",
     "research/data/asf-access-2026-09-21/sources/tomcat-2025-02.mbox.gz": "6ceca00b65e3944204943b705f8b89f15bbac4564e242358db6abb2a30eb4098",
     "research/data/asf-access-2026-09-21/sources/tomcat-2025-03.mbox.gz": "283f919b4d06d1124f92687dcfab98a95b7fe14b9f3367b9d51bd536e5b978d7",
+    "research/data/asf-access-2026-09-21/sources/tomcat-2025-04.mbox.gz": "e61af59dcccc950bc329e3836cfdceb918043699f270367aa89dfbbd748293ae",
+    "research/data/asf-access-2026-09-21/sources/tomcat-2025-05.mbox.gz": "7de1af79658298cfb2e882fc541babfe360d64ef43dee63be0158a8fce4b2419",
     "research/data/asf-access-2026-09-21/sources/tomcat-2025-06.mbox.gz": "4054a1b8c6b1ed8109356c043bf08890c547d6eda755a7db2d5ac91ac4d101ad",
     "research/data/asf-access-2026-09-21/sources/tomcat-2025-07.mbox.gz": "e64c6d98fbca98c25cdc5ed2a38fbe8959e04da59706411bbac3744f43254c4c",
     "research/data/asf-access-2026-09-21/sources/tomcat-2025-08.mbox.gz": "6719b2902e8e55cd89a8653b8868f29532473f04dce952ac626f4a3530431c49",
