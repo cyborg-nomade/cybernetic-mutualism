@@ -247,11 +247,11 @@ qualifying witnesses or changing G1, claims, or the registered design.
 
 The owner authorizes continued work in PR #19 until item 3 is complete,
 followed by review. The [working corpus continuation](../data/asf-item3-screening-2026-10-04/README.md)
-retains independent provisional judgments on 191 HTTP Server, Maven and Tomcat topics after
+retains independent provisional judgments on 245 HTTP Server, Maven and Tomcat topics after
 reading their complete exported plain-text bodies. Title inspection covers all
 6,015 entries in the discussion-topic queue and 197 mechanically routed titles
 from Ant, HTTP Server and Maven; Tomcat's mechanical queue remains incomplete.
-Its 1,413 export variants
+Its 1,643 export variants
 preserve original Message-IDs, exact raw/body hashes and monthly block
 locators. Duplicate index deliveries do not multiply message variants.
 

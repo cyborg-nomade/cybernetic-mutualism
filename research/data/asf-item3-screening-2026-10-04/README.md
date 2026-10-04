@@ -79,6 +79,13 @@ the frozen executable at `18b13ff18500c33d8812459eda72ad6c11640f1a`.
 - Tomcat's TCK repository proposal predates the January 2024 request notice:
   the June 2023 discussion already proposes a new Git project. Runtime Java
   requirements, build defaults and CI settings can also be separate decisions.
+- Automated commit titles can contain substantive human discussion. Tomcat's
+  security-model draft receives review replies under its SVN notification;
+  routing alone cannot exclude it. Draft publication and intended central
+  review do not establish final policy adoption.
+- Taglibs moderator replacement, proposed non-subscriber rejection and
+  individual unsubscribe repair are distinct acts. A reported moderator
+  replacement does not prove the proposed configuration change was applied.
 - The Tomcat contributor's conditional posting warnings and actual address
   deny-list report are different acts. Non-ASF sender domains do not disprove
   a role, just as an ASF address does not prove authority. Historical identity
