@@ -43,6 +43,32 @@ def digest(data: bytes) -> str:
     return hashlib.sha256(data).hexdigest()
 
 
+def topic_navigation() -> dict[str, dict[str, str]]:
+    """Include mechanically routed topics without assigning eligibility.
+
+    Preserve the accepted discussion queue exactly. Build missing navigation
+    from all indexed occurrences; a bot route cannot hide a reviewed source.
+    These dates remain index navigation, not coded onset or publication dates.
+    """
+    previous = {r["topic_id"]: r for r in rows(PREVIOUS / "subject-review.csv")}
+    missing: dict[str, list[dict[str, str]]] = {}
+    for row in rows(PREVIOUS / "message-index.csv"):
+        if row["topic_id"] not in previous:
+            missing.setdefault(row["topic_id"], []).append(row)
+    for topic, members in missing.items():
+        first = min(members, key=lambda r: (r["index_timestamp"], r["source_id"]))
+        previous[topic] = {
+            "topic_id": topic,
+            "project": first["project"],
+            "first_date": first["index_timestamp"][:10],
+            "subject": re.sub(
+                r"^(?:(?:re|fw|fwd):\s*)+", "", first["subject"], flags=re.I
+            ).strip(),
+            "message_count": str(len(members)),
+        }
+    return previous
+
+
 def message_variants(topics: set[str]) -> list[dict[str, str]]:
     """Reconstruct every export variant for the explicitly reviewed topics.
 
@@ -105,7 +131,7 @@ def check_messages() -> None:
 
 def check_topics() -> None:
     """Preserve navigation while keeping provisional families separate."""
-    previous = {r["topic_id"]: r for r in rows(PREVIOUS / "subject-review.csv")}
+    previous = topic_navigation()
     actual = rows(ROOT / "topic-review.csv")
     if len({r["topic_id"] for r in actual}) != len(actual):
         raise AssertionError("Repeated topic review")
@@ -127,7 +153,7 @@ def check_topics() -> None:
 
 def check_titles() -> None:
     """Check title-inspection membership without promoting it to body review."""
-    previous = {r["topic_id"]: r for r in rows(PREVIOUS / "subject-review.csv")}
+    previous = topic_navigation()
     inspected = rows(ROOT / "title-inspection.csv")
     if len({r["topic_id"] for r in inspected}) != len(inspected):
         raise AssertionError("Repeated title inspection")

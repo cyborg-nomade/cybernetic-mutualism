@@ -9,11 +9,13 @@ asserted here. Earlier September and October artifacts remain unchanged.
 ## Retained Evidence and Review Scope
 
 `title-inspection.csv` records exact topic titles inspected against the accepted
-navigation index. Title inspection does not attest to body review or a
-complete subject census.
+navigation index, including mechanically routed titles inspected outside the
+discussion queue. Their navigation dates remain index dates, not event dates.
+Title inspection does not attest to body review or a complete subject census.
 
 `topic-review.csv` records independent provisional judgments after reading
-the complete exported plain-text bodies of the listed HTTP Server topics.
+the complete exported plain-text bodies of the listed HTTP Server and Maven
+topics.
 Topic IDs organize titles; they are neither original source identifiers nor
 issue families. Reasons explain exclusions and retain uncertainty about
 binding proposals, historical roles, onset and shared service boundaries.
@@ -37,7 +39,9 @@ identified by its agenda entry; report silence is not coded as a zero effect.
 `progress.json` separates title inspection from body review and lists unfinished
 work. `manifest.json` hashes both retained metadata and its specific accepted
 inputs. `verify.py` recomputes export membership and section hashes and checks
-the saved descriptive verification. It is evidence preparation, separate from
+the saved descriptive verification. It also reconstructs navigation for topics
+outside the discussion queue, so automation routing cannot hide a human review
+judgment. It is evidence preparation, separate from
 the frozen executable at `18b13ff18500c33d8812459eda72ad6c11640f1a`.
 
 ## Interpretation Controls
@@ -49,7 +53,14 @@ the frozen executable at `18b13ff18500c33d8812459eda72ad6c11640f1a`.
   historical publication bound.
 - Later iterations of a request do not reset its original onset. The HTTP
   Server SVN-to-Git continuation and a mod_wasm proposal originating in 2022
-  illustrate why this matters. The latter remains baseline context.
+  illustrate why this matters. The latter remains baseline context. Maven's
+  general Jira migration discussion begins in May 2023 and explicitly resumes
+  before its December 2024 vote; the vote cannot automatically reset onset.
+- Canceled and rephrased votes for the same deliverable remain one family.
+  Maven's Java 21 vote also has a contested disposition: the tally has a
+  positive majority, but its author calls it unsuccessful and participants
+  dispute that conclusion. Preserve both records before adjudicating the
+  policy outcome.
 - A shared foundation directive remains one family. The March 2023
   Infrastructure report directly records the outside-contributor GitHub Actions
   approval rule and project opt-outs. Project responses require their own
@@ -61,8 +72,12 @@ the frozen executable at `18b13ff18500c33d8812459eda72ad6c11640f1a`.
   The HTTP Server chair's list ban and the Board's later PMC removal are
   separate acts; their temporal proximity does not establish causal linkage.
 
-The local reading aid suppresses only previously displayed quoted lines and
-preserves unquoted text and vote marks. An initial display rule suppressed
+The local reading aid suppresses only previously displayed quoted text,
+including exact text rewrapped across lines, and preserves unquoted text and
+vote marks. A compact aid omits blank lines, exact unsubscribe footers and
+repeated metadata while retaining message identities, dates, senders and reply
+headers; full displays and omission ledgers remain available locally.
+An initial display rule suppressed
 identical quoted vote choices in the Git migration discussion. The affected
 original votes were reread in full, and the rule was corrected. This does not
 change retained source bytes. Displaying a record never automatically marks it

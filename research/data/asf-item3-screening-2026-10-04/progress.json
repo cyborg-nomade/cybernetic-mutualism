@@ -37,8 +37,14 @@
     "maven": 505,
     "tomcat": 388
   },
-  "new_body_reviewed_topics": 45,
-  "new_reviewed_export_variants": 343,
+  "mechanical_topic_title_review_counts": {
+    "ant": 137,
+    "httpd": 2,
+    "maven": 58,
+    "tomcat": 0
+  },
+  "new_body_reviewed_topics": 93,
+  "new_reviewed_export_variants": 781,
   "fully_read_board_records": [
     "board_minutes_2023_01_18.txt",
     "board_minutes_2023_02_15.txt",

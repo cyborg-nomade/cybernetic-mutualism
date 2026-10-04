@@ -129,3 +129,39 @@ def test_progress_cannot_assert_a_lock(
     monkeypatch.setattr(VERIFY, "ROOT", tmp_path)
     with pytest.raises(AssertionError, match="cannot assert selection or a lock"):
         VERIFY.report()
+
+
+def test_mechanical_route_cannot_hide_body_review(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    """Retain a human judgment even when no discussion-queue row exists."""
+    previous = tmp_path / "previous"
+    previous.mkdir()
+    write_rows(previous / "subject-review.csv", [{"topic_id": "topic-other"}])
+    indexed = {
+        "project": "maven",
+        "topic_id": "topic-bot",
+        "source_id": "<original@example.org>",
+        "index_timestamp": "2024-12-06T14:15:14+00:00",
+        "subject": "[PR] Add license files",
+        "preliminary_route": "automated_issue_or_pull_request_notification",
+    }
+    write_rows(previous / "message-index.csv", [indexed, indexed])
+    review = {
+        "topic_id": "topic-bot",
+        "project": "maven",
+        "first_date": "2024-12-06",
+        "subject": "[PR] Add license files",
+        "message_count": "2",
+        "kind": "ambiguous",
+        "reason": "Binding-policy scope requires original PR evidence.",
+        "review_scope": "full_exported_plain_bodies",
+    }
+    write_rows(tmp_path / "topic-review.csv", [review])
+    monkeypatch.setattr(VERIFY, "ROOT", tmp_path)
+    monkeypatch.setattr(VERIFY, "PREVIOUS", previous)
+    VERIFY.check_topics()
+    review["subject"] = "Invented policy title"
+    write_rows(tmp_path / "topic-review.csv", [review])
+    with pytest.raises(AssertionError, match="navigation changed"):
+        VERIFY.check_topics()
