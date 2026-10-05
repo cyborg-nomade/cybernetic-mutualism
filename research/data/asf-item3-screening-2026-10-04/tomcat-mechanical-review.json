@@ -1,0 +1,1509 @@
+{
+  "reading_aid": "tomcat-title-payload-groups.json",
+  "reading_aid_sha256": "811b55eaa12bfc70c69e0c7fcc89001eb57033ddde184df855f8e6e2cf73dc16",
+  "review_scope": "Literal original indexed titles and exact notification payloads in stated ranges manually read. Ellipses in long SVN subjects are present in original message headers, not introduced by the reading aid. Incomplete census; no body attestation from title review.",
+  "read_ranges": [
+    [
+      1,
+      5969
+    ]
+  ],
+  "body_candidates": [
+    {
+      "group_id": 143,
+      "title": "[GitHub] [tomcat] Chaohua95 closed pull request #618: Update MERGE.txt",
+      "topic_ids": [
+        "topic-6f67ec556e68f1c7"
+      ],
+      "reason": "Title leaves participation, shared service, support policy or generic scope unclear; original body required before exclusion."
+    },
+    {
+      "group_id": 144,
+      "title": "[GitHub] [tomcat] Chaohua95 opened a new pull request, #618: Update MERGE.txt",
+      "topic_ids": [
+        "topic-ebb175af723b4ff4"
+      ],
+      "reason": "Title leaves participation, shared service, support policy or generic scope unclear; original body required before exclusion."
+    },
+    {
+      "group_id": 167,
+      "title": "[GitHub] [tomcat] DanielR-spec opened a new pull request, #620: Update ci.yml",
+      "topic_ids": [
+        "topic-05cfe7617acebe6d"
+      ],
+      "reason": "Title leaves participation, shared service, support policy or generic scope unclear; original body required before exclusion."
+    },
+    {
+      "group_id": 188,
+      "title": "[GitHub] [tomcat] GHMOBILEMARCH opened a new pull request, #601: 8.5.x",
+      "topic_ids": [
+        "topic-b822b79877f4c9ae"
+      ],
+      "reason": "Title leaves participation, shared service, support policy or generic scope unclear; original body required before exclusion."
+    },
+    {
+      "group_id": 245,
+      "title": "[GitHub] [tomcat] markt-asf closed pull request #593: Update CONTRIBUTING.md",
+      "topic_ids": [
+        "topic-7a8b1d88eb14acbe"
+      ],
+      "reason": "Title leaves participation, shared service, support policy or generic scope unclear; original body required before exclusion."
+    },
+    {
+      "group_id": 255,
+      "title": "[GitHub] [tomcat] markt-asf closed pull request #620: Update ci.yml",
+      "topic_ids": [
+        "topic-bc10f41001022172"
+      ],
+      "reason": "Title leaves participation, shared service, support policy or generic scope unclear; original body required before exclusion."
+    },
+    {
+      "group_id": 285,
+      "title": "[GitHub] [tomcat] markt-asf commented on pull request #593: Update CONTRIBUTING.md",
+      "topic_ids": [
+        "topic-5913bba6ea7885a5"
+      ],
+      "reason": "Title leaves participation, shared service, support policy or generic scope unclear; original body required before exclusion."
+    },
+    {
+      "group_id": 297,
+      "title": "[GitHub] [tomcat] markt-asf commented on pull request #620: Update ci.yml",
+      "topic_ids": [
+        "topic-55d716c3950da477"
+      ],
+      "reason": "Title leaves participation, shared service, support policy or generic scope unclear; original body required before exclusion."
+    },
+    {
+      "group_id": 386,
+      "title": "[GitHub] [tomcat] rmaucher closed pull request #601: 8.5.x",
+      "topic_ids": [
+        "topic-3bac52e5b9171523"
+      ],
+      "reason": "Title leaves participation, shared service, support policy or generic scope unclear; original body required before exclusion."
+    },
+    {
+      "group_id": 429,
+      "title": "[GitHub] [tomcat] VirtualTim commented on pull request #601: 8.5.x",
+      "topic_ids": [
+        "topic-33db09ec0ae8b1e9"
+      ],
+      "reason": "Title leaves participation, shared service, support policy or generic scope unclear; original body required before exclusion."
+    },
+    {
+      "group_id": 449,
+      "title": "[GitHub] [tomcat] zengwei2000 opened a new pull request, #593: Update CONTRIBUTING.md",
+      "topic_ids": [
+        "topic-fbcfabad42bfa7b7"
+      ],
+      "reason": "Title leaves participation, shared service, support policy or generic scope unclear; original body required before exclusion."
+    },
+    {
+      "group_id": 461,
+      "title": "[PR] Most PRs merged and all conflicts fixed [tomcat-maven-plugin]",
+      "topic_ids": [
+        "topic-0a6a304e985c8e37"
+      ],
+      "reason": "Title leaves participation, shared service, support policy or generic scope unclear; original body required before exclusion."
+    },
+    {
+      "group_id": 462,
+      "title": "[PR] New feature/updated side [tomcat]",
+      "topic_ids": [
+        "topic-fe7e09bca3b7e780"
+      ],
+      "reason": "Title leaves participation, shared service, support policy or generic scope unclear; original body required before exclusion."
+    },
+    {
+      "group_id": 471,
+      "title": "svn commit: r1906376 - in /tomcat/site/trunk: docs/lists.html xdocs/lists.xml",
+      "topic_ids": [
+        "topic-9e8d04b6f3cd315c"
+      ],
+      "reason": "Title leaves participation, shared service, support policy or generic scope unclear; original body required before exclusion."
+    },
+    {
+      "group_id": 472,
+      "title": "svn commit: r1906377 - in /tomcat/site/trunk: docs/lists.html xdocs/lists.xml",
+      "topic_ids": [
+        "topic-150f2c0ba95a728e"
+      ],
+      "reason": "Title leaves participation, shared service, support policy or generic scope unclear; original body required before exclusion."
+    },
+    {
+      "group_id": 474,
+      "title": "svn commit: r1906405 - in /tomcat/site/trunk: docs/irc.html xdocs/irc.xml",
+      "topic_ids": [
+        "topic-39e18f4bff69f67b"
+      ],
+      "reason": "Title leaves participation, shared service, support policy or generic scope unclear; original body required before exclusion."
+    },
+    {
+      "group_id": 487,
+      "title": "svn commit: r1906793 - in /tomcat/site/trunk: docs/ci.html xdocs/ci.xml",
+      "topic_ids": [
+        "topic-90c99fccab31d2db"
+      ],
+      "reason": "Title leaves participation, shared service, support policy or generic scope unclear; original body required before exclusion."
+    },
+    {
+      "group_id": 509,
+      "title": "svn commit: r1907682 - in /tomcat/site/trunk: docs/ci.html xdocs/ci.xml",
+      "topic_ids": [
+        "topic-3be8a202501bc36e"
+      ],
+      "reason": "Title leaves participation, shared service, support policy or generic scope unclear; original body required before exclusion."
+    },
+    {
+      "group_id": 575,
+      "title": "svn commit: r1910521 - /tomcat/site/trunk/docs/.well-known/security.txt",
+      "topic_ids": [
+        "topic-f6eebda1f6742a32"
+      ],
+      "reason": "Title leaves participation, shared service, support policy or generic scope unclear; original body required before exclusion."
+    },
+    {
+      "group_id": 589,
+      "title": "svn commit: r1910956 - in /tomcat/site/trunk: docs/whichversion.html xdocs/whichversion.xml",
+      "topic_ids": [
+        "topic-abc811faf7726889"
+      ],
+      "reason": "Title leaves participation, shared service, support policy or generic scope unclear; original body required before exclusion."
+    },
+    {
+      "group_id": 590,
+      "title": "svn commit: r1911390 - in /tomcat/site/trunk: docs/whichversion.html xdocs/whichversion.xml",
+      "topic_ids": [
+        "topic-ade320a0d045c80b"
+      ],
+      "reason": "Title leaves participation, shared service, support policy or generic scope unclear; original body required before exclusion."
+    },
+    {
+      "group_id": 623,
+      "title": "svn commit: r1911825 - in /tomcat/site/trunk: docs/lists.html xdocs/lists.xml",
+      "topic_ids": [
+        "topic-8f57ab0ffba5c127"
+      ],
+      "reason": "Title leaves participation, shared service, support policy or generic scope unclear; original body required before exclusion."
+    },
+    {
+      "group_id": 1106,
+      "title": "svn commit: r1924081 - /tomcat/site/trunk/xdocs/whoweare.xml",
+      "topic_ids": [
+        "topic-a8005f6525f249e0"
+      ],
+      "reason": "Manually retained as bounded support/direction/release/service context or generic scope ambiguity; read original bodies before exclusion or eligibility."
+    },
+    {
+      "group_id": 1107,
+      "title": "svn commit: r1924082 - /tomcat/site/trunk/docs/whoweare.html",
+      "topic_ids": [
+        "topic-dae3c6a7ba80613b"
+      ],
+      "reason": "Manually retained as bounded support/direction/release/service context or generic scope ambiguity; read original bodies before exclusion or eligibility."
+    },
+    {
+      "group_id": 1168,
+      "title": "svn commit: r1924767 - in /tomcat/site/trunk: docs/whichversion.html xdocs/whichversion.xml",
+      "topic_ids": [
+        "topic-e1511ee4fd4ff80c"
+      ],
+      "reason": "Manually retained as bounded support/direction/release/service context or generic scope ambiguity; read original bodies before exclusion or eligibility."
+    },
+    {
+      "group_id": 1208,
+      "title": "svn commit: r1925349 - in /tomcat/site/trunk: docs/whichversion.html xdocs/whichversion.xml",
+      "topic_ids": [
+        "topic-249dc9cf2d7eac36"
+      ],
+      "reason": "Manually retained as bounded support/direction/release/service context or generic scope ambiguity; read original bodies before exclusion or eligibility."
+    },
+    {
+      "group_id": 1209,
+      "title": "svn commit: r1925350 - in /tomcat/site/trunk: docs/whichversion.html xdocs/whichversion.xml",
+      "topic_ids": [
+        "topic-b2d9ac15596c4d1a"
+      ],
+      "reason": "Manually retained as bounded support/direction/release/service context or generic scope ambiguity; read original bodies before exclusion or eligibility."
+    },
+    {
+      "group_id": 1210,
+      "title": "svn commit: r1925351 - in /tomcat/site/trunk: docs/whichversion.html xdocs/whichversion.xml",
+      "topic_ids": [
+        "topic-53151108a5c1a081"
+      ],
+      "reason": "Manually retained as bounded support/direction/release/service context or generic scope ambiguity; read original bodies before exclusion or eligibility."
+    },
+    {
+      "group_id": 1211,
+      "title": "svn commit: r1925352 - in /tomcat/site/trunk: docs/whichversion.html xdocs/whichversion.xml",
+      "topic_ids": [
+        "topic-64ba5485db19318f"
+      ],
+      "reason": "Manually retained as bounded support/direction/release/service context or generic scope ambiguity; read original bodies before exclusion or eligibility."
+    },
+    {
+      "group_id": 1217,
+      "title": "svn commit: r1925532 - in /tomcat/site/trunk: build.properties.default xdocs/download-11.xml xdocs/index.xml xdocs/migration-11.0.xml xdocs/oldnews.xml xdocs/whichversion.xml",
+      "topic_ids": [
+        "topic-2b7713fc607afa63"
+      ],
+      "reason": "Manually retained as bounded support/direction/release/service context or generic scope ambiguity; read original bodies before exclusion or eligibility."
+    },
+    {
+      "group_id": 1221,
+      "title": "svn commit: r1926211 - in /tomcat/site/trunk: docs/security-model.html xdocs/security-model.xml",
+      "topic_ids": [
+        "topic-ace34f8aaa0706ce"
+      ],
+      "reason": "Manually retained as bounded support/direction/release/service context or generic scope ambiguity; read original bodies before exclusion or eligibility."
+    },
+    {
+      "group_id": 1230,
+      "title": "svn commit: r1926589 - in /tomcat/site/trunk: docs/whoweare.html xdocs/whoweare.xml",
+      "topic_ids": [
+        "topic-5c95858aa8c5b9b8"
+      ],
+      "reason": "Manually retained as bounded support/direction/release/service context or generic scope ambiguity; read original bodies before exclusion or eligibility."
+    },
+    {
+      "group_id": 1231,
+      "title": "svn commit: r1926734 - in /tomcat/site/trunk: docs/security-model.html xdocs/security-model.xml",
+      "topic_ids": [
+        "topic-0e09c81bedfa3238"
+      ],
+      "reason": "Manually retained as bounded support/direction/release/service context or generic scope ambiguity; read original bodies before exclusion or eligibility."
+    },
+    {
+      "group_id": 1837,
+      "title": "9.0.101 was not released",
+      "topic_ids": [
+        "topic-9b1be8d25fcfdc36"
+      ],
+      "reason": "Manually retained as bounded support/direction/release/service context or generic scope ambiguity; read original bodies before exclusion or eligibility."
+    },
+    {
+      "group_id": 1862,
+      "title": "Add a makensis version check for release builds",
+      "topic_ids": [
+        "topic-22107342f05c3ab5",
+        "topic-a0bfe6da4548d27d"
+      ],
+      "reason": "Manually retained as bounded support/direction/release/service context or generic scope ambiguity; read original bodies before exclusion or eligibility."
+    },
+    {
+      "group_id": 1916,
+      "title": "Add back other records",
+      "topic_ids": [
+        "topic-4020c3f03b0f4d8c"
+      ],
+      "reason": "Manually retained as bounded support/direction/release/service context or generic scope ambiguity; read original bodies before exclusion or eligibility."
+    },
+    {
+      "group_id": 1921,
+      "title": "Add basic config for building repository data",
+      "topic_ids": [
+        "topic-ebc968cfb020ef65"
+      ],
+      "reason": "Manually retained as bounded support/direction/release/service context or generic scope ambiguity; read original bodies before exclusion or eligibility."
+    },
+    {
+      "group_id": 1941,
+      "title": "Add code to upload core dumps",
+      "topic_ids": [
+        "topic-fdda5e6923dfde8b"
+      ],
+      "reason": "Manually retained as bounded support/direction/release/service context or generic scope ambiguity; read original bodies before exclusion or eligibility."
+    },
+    {
+      "group_id": 1945,
+      "title": "Add comment on preference for 2.x over 1.x",
+      "topic_ids": [
+        "topic-dbdd992bcd7e2ce6",
+        "topic-e103031dcf25f8c9"
+      ],
+      "reason": "Manually retained as bounded support/direction/release/service context or generic scope ambiguity; read original bodies before exclusion or eligibility."
+    },
+    {
+      "group_id": 1985,
+      "title": "Add error logging to failing unit test as a workaround for missing access to unit test detail log.",
+      "topic_ids": [
+        "topic-b359068bc82a83f7"
+      ],
+      "reason": "Manually retained as bounded support/direction/release/service context or generic scope ambiguity; read original bodies before exclusion or eligibility."
+    },
+    {
+      "group_id": 1998,
+      "title": "Add gpg.sign.files to false in release build properties",
+      "topic_ids": [
+        "topic-85a1a24376ec5c85"
+      ],
+      "reason": "Manually retained as bounded support/direction/release/service context or generic scope ambiguity; read original bodies before exclusion or eligibility."
+    },
+    {
+      "group_id": 2012,
+      "title": "Add instructions to edit via POPEditor.com to all translated files",
+      "topic_ids": [
+        "topic-1753459c2589581e"
+      ],
+      "reason": "Manually retained as bounded support/direction/release/service context or generic scope ambiguity; read original bodies before exclusion or eligibility."
+    },
+    {
+      "group_id": 2017,
+      "title": "Add Java 22+ check for release",
+      "topic_ids": [
+        "topic-7847010fd8d4fdc5",
+        "topic-790fc75c451667b6"
+      ],
+      "reason": "Manually retained as bounded support/direction/release/service context or generic scope ambiguity; read original bodies before exclusion or eligibility."
+    },
+    {
+      "group_id": 2074,
+      "title": "Add my new code signing key",
+      "topic_ids": [
+        "topic-84488dd59322d7b0"
+      ],
+      "reason": "Manually retained as bounded support/direction/release/service context or generic scope ambiguity; read original bodies before exclusion or eligibility."
+    },
+    {
+      "group_id": 2107,
+      "title": "Add OpenSSL support using FFM API from Java 22",
+      "topic_ids": [
+        "topic-fc517c389aaf3aa8"
+      ],
+      "reason": "Manually retained as bounded support/direction/release/service context or generic scope ambiguity; read original bodies before exclusion or eligibility."
+    },
+    {
+      "group_id": 2111,
+      "title": "Add Panama module for Java 21",
+      "topic_ids": [
+        "topic-86df06f59d95baa5"
+      ],
+      "reason": "Manually retained as bounded support/direction/release/service context or generic scope ambiguity; read original bodies before exclusion or eligibility."
+    },
+    {
+      "group_id": 2199,
+      "title": "Add some details",
+      "topic_ids": [
+        "topic-6770353f2281c0df",
+        "topic-86181433909b80b1",
+        "topic-c835daeb1c226757",
+        "topic-d70dee659dc0a162"
+      ],
+      "reason": "Manually retained as bounded support/direction/release/service context or generic scope ambiguity; read original bodies before exclusion or eligibility."
+    },
+    {
+      "group_id": 2234,
+      "title": "Add targets allowing running the testsuite with the minimum Java version",
+      "topic_ids": [
+        "topic-0712d1676ec345a7",
+        "topic-19ab025637792db1",
+        "topic-e1f6667c245f88ae"
+      ],
+      "reason": "Manually retained as bounded support/direction/release/service context or generic scope ambiguity; read original bodies before exclusion or eligibility."
+    },
+    {
+      "group_id": 2284,
+      "title": "Add validate GH workflow",
+      "topic_ids": [
+        "topic-1dec7be48834ef61"
+      ],
+      "reason": "Manually retained as bounded support/direction/release/service context or generic scope ambiguity; read original bodies before exclusion or eligibility."
+    },
+    {
+      "group_id": 2288,
+      "title": "Add weekly runs as well as the option to run manually.",
+      "topic_ids": [
+        "topic-18b1a99034b31394"
+      ],
+      "reason": "Manually retained as bounded support/direction/release/service context or generic scope ambiguity; read original bodies before exclusion or eligibility."
+    },
+    {
+      "group_id": 2523,
+      "title": "Bump release.java.version to 22",
+      "topic_ids": [
+        "topic-7335bd9f9eedd265"
+      ],
+      "reason": "Manually retained as bounded support/direction/release/service context or generic scope ambiguity; read original bodies before exclusion or eligibility."
+    },
+    {
+      "group_id": 2530,
+      "title": "BZ 67538: Make use of Ant's <javaversion /> task to enfore the mininum Java build version",
+      "topic_ids": [
+        "topic-620a834d3056e29f",
+        "topic-631ac2f6a000dec5",
+        "topic-9113c28301435613"
+      ],
+      "reason": "Manually retained as bounded support/direction/release/service context or generic scope ambiguity; read original bodies before exclusion or eligibility."
+    },
+    {
+      "group_id": 2553,
+      "title": "Change default build-age warning from (disabled) to 180 days for final 8.5.x releases.",
+      "topic_ids": [
+        "topic-e148c477cdc3f0a3"
+      ],
+      "reason": "Manually retained as bounded support/direction/release/service context or generic scope ambiguity; read original bodies before exclusion or eligibility."
+    },
+    {
+      "group_id": 2580,
+      "title": "Clarifications and consistent wording",
+      "topic_ids": [
+        "topic-9c6bf81b872374fc",
+        "topic-a37a5432e463bd73",
+        "topic-f534837bc35caff6"
+      ],
+      "reason": "Manually retained as bounded support/direction/release/service context or generic scope ambiguity; read original bodies before exclusion or eligibility."
+    },
+    {
+      "group_id": 2581,
+      "title": "Clarify doc following feedback",
+      "topic_ids": [
+        "topic-04e6093679f38100",
+        "topic-8c1f8ed075be0b95",
+        "topic-d80c54985dd4110a"
+      ],
+      "reason": "Manually retained as bounded support/direction/release/service context or generic scope ambiguity; read original bodies before exclusion or eligibility."
+    },
+    {
+      "group_id": 2582,
+      "title": "Clarify docs",
+      "topic_ids": [
+        "topic-2571ede170fd4906",
+        "topic-cd0bfa7344b1cff0",
+        "topic-e5a1d0b4369a61e0"
+      ],
+      "reason": "Manually retained as bounded support/direction/release/service context or generic scope ambiguity; read original bodies before exclusion or eligibility."
+    },
+    {
+      "group_id": 2583,
+      "title": "Clarify language",
+      "topic_ids": [
+        "topic-263d42f465a14f6d",
+        "topic-3ad67d6a330adf34",
+        "topic-d632b7e81eae9e1e",
+        "topic-fbe7fb1dbc48fb27"
+      ],
+      "reason": "Manually retained as bounded support/direction/release/service context or generic scope ambiguity; read original bodies before exclusion or eligibility."
+    },
+    {
+      "group_id": 2667,
+      "title": "Complete partial update of BND dependency to 6.4.0",
+      "topic_ids": [
+        "topic-e291ee8bd364cdd0",
+        "topic-e865f008599af3b7",
+        "topic-f221a8ce11bba99b"
+      ],
+      "reason": "Manually retained as bounded support/direction/release/service context or generic scope ambiguity; read original bodies before exclusion or eligibility."
+    },
+    {
+      "group_id": 2697,
+      "title": "Correct description",
+      "topic_ids": [
+        "topic-f4fa31f221265abd"
+      ],
+      "reason": "Manually retained as bounded support/direction/release/service context or generic scope ambiguity; read original bodies before exclusion or eligibility."
+    },
+    {
+      "group_id": 2705,
+      "title": "Correct permissions",
+      "topic_ids": [
+        "topic-edb7b6abe4923245"
+      ],
+      "reason": "Manually retained as bounded support/direction/release/service context or generic scope ambiguity; read original bodies before exclusion or eligibility."
+    },
+    {
+      "group_id": 2773,
+      "title": "Disable release Java version check for now",
+      "topic_ids": [
+        "topic-a02a694e11b7ff7c"
+      ],
+      "reason": "Manually retained as bounded support/direction/release/service context or generic scope ambiguity; read original bodies before exclusion or eligibility."
+    },
+    {
+      "group_id": 2784,
+      "title": "Document the failed release.",
+      "topic_ids": [
+        "topic-cc63dc3a6415e421"
+      ],
+      "reason": "Manually retained as bounded support/direction/release/service context or generic scope ambiguity; read original bodies before exclusion or eligibility."
+    },
+    {
+      "group_id": 2804,
+      "title": "Drop 32-bit Windows support",
+      "topic_ids": [
+        "topic-dc2ee0449a6a9c0b"
+      ],
+      "reason": "Manually retained as bounded support/direction/release/service context or generic scope ambiguity; read original bodies before exclusion or eligibility."
+    },
+    {
+      "group_id": 2817,
+      "title": "Drop Semgrep workflow after report review",
+      "topic_ids": [
+        "topic-1971a6112754ddb8"
+      ],
+      "reason": "Manually retained as bounded support/direction/release/service context or generic scope ambiguity; read original bodies before exclusion or eligibility."
+    },
+    {
+      "group_id": 2896,
+      "title": "FFM support for OpenSSL was integrated",
+      "topic_ids": [
+        "topic-d9a562a36f0d5427"
+      ],
+      "reason": "Manually retained as bounded support/direction/release/service context or generic scope ambiguity; read original bodies before exclusion or eligibility."
+    },
+    {
+      "group_id": 2901,
+      "title": "First pass at setting up the Coverity Scan action",
+      "topic_ids": [
+        "topic-ffa2fa067fb51e90"
+      ],
+      "reason": "Manually retained as bounded support/direction/release/service context or generic scope ambiguity; read original bodies before exclusion or eligibility."
+    },
+    {
+      "group_id": 3122,
+      "title": "Fix distro line endings for new llm files",
+      "topic_ids": [
+        "topic-7e38c8e8f009637b"
+      ],
+      "reason": "Manually retained as bounded support/direction/release/service context or generic scope ambiguity; read original bodies before exclusion or eligibility."
+    },
+    {
+      "group_id": 3183,
+      "title": "Fix installer signing",
+      "topic_ids": [
+        "topic-a0c9f4c77911a5bc"
+      ],
+      "reason": "Manually retained as bounded support/direction/release/service context or generic scope ambiguity; read original bodies before exclusion or eligibility."
+    },
+    {
+      "group_id": 3191,
+      "title": "Fix Java release target",
+      "topic_ids": [
+        "topic-ec6f3297453cbed8"
+      ],
+      "reason": "Manually retained as bounded support/direction/release/service context or generic scope ambiguity; read original bodies before exclusion or eligibility."
+    },
+    {
+      "group_id": 3254,
+      "title": "Fix permissions",
+      "topic_ids": [
+        "topic-4245bf57091b8106",
+        "topic-5bf83198278a3cdd",
+        "topic-8f79e1ae163d29df"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 3385,
+      "title": "Fix workflow",
+      "topic_ids": [
+        "topic-a3bb11592868f2f4"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 3434,
+      "title": "Grr",
+      "topic_ids": [
+        "topic-1d65120852e697da"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 3477,
+      "title": "Ignore x86 binary for Tomcat 11.0.x",
+      "topic_ids": [
+        "topic-35fa36123136bd4d"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 3563,
+      "title": "Improve wording",
+      "topic_ids": [
+        "topic-7229f9c9fbe87757",
+        "topic-83102cd5e74c82d4",
+        "topic-a5c8108d09c6ea84",
+        "topic-b99c291087e8095d"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 3607,
+      "title": "Include binaries for Windows in files uploaded to Maven Central",
+      "topic_ids": [
+        "topic-0923dc1c8add30ef",
+        "topic-895ec76332724362",
+        "topic-b61a023fe29d06ae",
+        "topic-db1cf31e662ee979"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 3611,
+      "title": "Include trademark attribution in docs footer",
+      "topic_ids": [
+        "topic-7494c7fbd6fa9488",
+        "topic-8219350d020ccadd",
+        "topic-9bd2b8b910d4da1b",
+        "topic-a679d1be7ed403dd"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 3613,
+      "title": "Increase minimum Java version to 17",
+      "topic_ids": [
+        "topic-b605b1ba271a6c8c"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 3614,
+      "title": "Increase minimum Java version to Java 21 - aligns with Jakarta EE 11",
+      "topic_ids": [
+        "topic-4f249f2be0b170b6"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 3673,
+      "title": "Javadoc locale should have both language AND country for official releases.",
+      "topic_ids": [
+        "topic-21c887ac50a2a5af"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 3685,
+      "title": "Limit to one Windows run",
+      "topic_ids": [
+        "topic-60f5e9dbad98ff03"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 3689,
+      "title": "Link to Tomcat site for translation editing instructions",
+      "topic_ids": [
+        "topic-33cec1a01b46dbb7",
+        "topic-6e286017b59a7c40"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 3726,
+      "title": "Many improvements.",
+      "topic_ids": [
+        "topic-19c77520007f3d88",
+        "topic-44ee513fb14aedc0",
+        "topic-bfb9a016b8e08716"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 3728,
+      "title": "Mark 10.1.37 as not released",
+      "topic_ids": [
+        "topic-7c91a3525e0ba49a"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 3739,
+      "title": "Merge pull request #703 from RealTake/main",
+      "topic_ids": [
+        "topic-1e82ff608a549033",
+        "topic-46db18a333847826",
+        "topic-67a68b8272c356ae"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 3740,
+      "title": "Merge pull request #731 from dsoumis/patch-4",
+      "topic_ids": [
+        "topic-885d686ec2b7df28"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 3742,
+      "title": "Merge pull request #740 from rmaucher/9.0.x",
+      "topic_ids": [
+        "topic-790430dd342d02fe"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 3744,
+      "title": "Merge pull request #756 from PaulLodge/expire-header-uses-gmt",
+      "topic_ids": [
+        "topic-7d69eeab3495fd8f"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 3745,
+      "title": "Merge pull request #768 from spencekiddle/patch-1",
+      "topic_ids": [
+        "topic-8360e072d0e0ee86"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 3752,
+      "title": "Merge pull request #915 from MegaManSec/1",
+      "topic_ids": [
+        "topic-04d4f54c7f9fa113"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 3753,
+      "title": "Merge pull request #916 from MegaManSec/2",
+      "topic_ids": [
+        "topic-e08f60667a5ae545"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 3759,
+      "title": "Minimum Java version now 17 - remove unnecessary code",
+      "topic_ids": [
+        "topic-fe682089217628de"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 3778,
+      "title": "Modernize doc",
+      "topic_ids": [
+        "topic-cf0486d691ddf66d"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 3780,
+      "title": "More 32-bit Windows removal.",
+      "topic_ids": [
+        "topic-f823690521d717ee"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 3785,
+      "title": "More improvements",
+      "topic_ids": [
+        "topic-30868ecc809f1594"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 3806,
+      "title": "Move to 25 for CI",
+      "topic_ids": [
+        "topic-98a5a88a2fd13985",
+        "topic-a1ccd46c7173c004",
+        "topic-db251c7e90f2d564"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 3872,
+      "title": "No need to process author as all have been removed",
+      "topic_ids": [
+        "topic-7123c907cedd4716",
+        "topic-7136ef03e79b3239",
+        "topic-8f690dffd9ee15a6",
+        "topic-cf95a58cdbca2bac"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 3876,
+      "title": "Note that 10.1.38 was not released.",
+      "topic_ids": [
+        "topic-3aa3a8f9b418db9f"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 3976,
+      "title": "Reduce minimum Java version to 17",
+      "topic_ids": [
+        "topic-1209695f2a547a70"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 4005,
+      "title": "Refactor JreCompat for minimum Java version of Java 21",
+      "topic_ids": [
+        "topic-13344c8ca71d6b94"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 4105,
+      "title": "Remove author tags for Craig R. McClanahan at his request",
+      "topic_ids": [
+        "topic-a490d65a662a2035",
+        "topic-eef68361107b114c",
+        "topic-fb5b185ed8f88cca"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 4113,
+      "title": "Remove continue-on-error",
+      "topic_ids": [
+        "topic-d1b365e9d33ae477"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 4140,
+      "title": "Remove Java 11",
+      "topic_ids": [
+        "topic-bf172c1949e7ec9c"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 4142,
+      "title": "Remove Java 17 from the workflow",
+      "topic_ids": [
+        "topic-dfd2757b944ea208"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 4153,
+      "title": "Remove modules from trunk",
+      "topic_ids": [
+        "topic-b3185a4d634c3c75"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 4155,
+      "title": "Remove NIO2 issues since NIO2 has been removed",
+      "topic_ids": [
+        "topic-14ed7b86d23ea427"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 4180,
+      "title": "Remove reference to user comments which was removed some time ago",
+      "topic_ids": [
+        "topic-2b20bef0f4fc85e5",
+        "topic-3355d29bad4621d9",
+        "topic-809884d54a14cd3f",
+        "topic-a2ac930868d5e6ea"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 4192,
+      "title": "Remove R\u00e9my's author tags at his request",
+      "topic_ids": [
+        "topic-03e7f1c47a178ccf",
+        "topic-052cdf5a6c4ac681",
+        "topic-69055a523026106e",
+        "topic-bdef5f29753ad1e8"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 4209,
+      "title": "Remove support for HTTP/2 server push",
+      "topic_ids": [
+        "topic-0e92c8f3ae661cc6"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 4210,
+      "title": "Remove support for starting Tomcat under a SecurityManager.",
+      "topic_ids": [
+        "topic-8dd27678381ca9e5"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 4362,
+      "title": "Revert",
+      "topic_ids": [
+        "topic-833b168d7b3ec973",
+        "topic-e3faeed6012f39a0"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 4364,
+      "title": "Revert \"Add Java 22+ check for release\"",
+      "topic_ids": [
+        "topic-41917685cc4426ec"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 4383,
+      "title": "Revert \"Javadoc locale should have both language AND country for official releases.\"",
+      "topic_ids": [
+        "topic-3a3dfc304754b24e"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 4433,
+      "title": "s",
+      "topic_ids": [
+        "topic-807663dfeebfade6",
+        "topic-c8ef8ecf7cf13ade",
+        "topic-db132bd60e50e80f",
+        "topic-fe633368a40f70da"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 4455,
+      "title": "Sigh",
+      "topic_ids": [
+        "topic-17529009aef676d3",
+        "topic-43f715ff705d7688"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 4515,
+      "title": "Switch from DigiCert ONE to ssl.com eSigner for code signing",
+      "topic_ids": [
+        "topic-74456092397d2bf9",
+        "topic-a700050bf60d50dd",
+        "topic-a927a98fd769ca81",
+        "topic-c38ecb8a142f9008"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 4523,
+      "title": "Switch to new ASF logo",
+      "topic_ids": [
+        "topic-0c95a471722ced4d",
+        "topic-22e878887b677c8c",
+        "topic-efb1120fe889a302"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 4692,
+      "title": "Temporary change in release manager",
+      "topic_ids": [
+        "topic-0609a00b90ee03ee"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 4693,
+      "title": "Temporary change of release manager",
+      "topic_ids": [
+        "topic-cd21eb5e75537370"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 4694,
+      "title": "Temporary RM",
+      "topic_ids": [
+        "topic-474c3e07e51b04a1",
+        "topic-833f4f8c222e78f3"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 4712,
+      "title": "The 11.0.0-M2 release vote did not pass",
+      "topic_ids": [
+        "topic-5cacbbde885045a7"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 4713,
+      "title": "The 11.0.0-M8 release was cancelled",
+      "topic_ids": [
+        "topic-3a6fca5dbb62d40b"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 4738,
+      "title": "Trademark improvements",
+      "topic_ids": [
+        "topic-8ea67c7df9536422",
+        "topic-a7ce9a0aceb54a44",
+        "topic-c8bdcede0957b12b",
+        "topic-dc827dbf5e848b83"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 4758,
+      "title": "Undo temporary change",
+      "topic_ids": [
+        "topic-50b563ccf2267bec"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 4765,
+      "title": "Update",
+      "topic_ids": [
+        "topic-2ce506f212819547",
+        "topic-c646b3d35a51798b"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 4783,
+      "title": "Update BND to 7.0.0",
+      "topic_ids": [
+        "topic-7632729de65b1f19",
+        "topic-81d208f51092892c"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 4833,
+      "title": "Update ci.yml",
+      "topic_ids": [
+        "topic-0aad355568a054ac"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 4851,
+      "title": "Update default Java version used by Jasper to 21",
+      "topic_ids": [
+        "topic-f72250c40c345a0e"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 4853,
+      "title": "Update description and version",
+      "topic_ids": [
+        "topic-4f113a2d315ee592"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 4854,
+      "title": "Update docs",
+      "topic_ids": [
+        "topic-6b176a4d07de4eb8",
+        "topic-6d11002a6fba6a20",
+        "topic-a6e94e6389bae01e",
+        "topic-cb444c368f0f84f5"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 4855,
+      "title": "Update documentation (#668)",
+      "topic_ids": [
+        "topic-a2096dc829778181",
+        "topic-ae7ce3e37d05719c",
+        "topic-f7745d096a2f7f9e"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 4894,
+      "title": "Update info",
+      "topic_ids": [
+        "topic-9f63f72b1dacde27"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 4895,
+      "title": "Update instructions",
+      "topic_ids": [
+        "topic-94987f946c7e1511"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 4911,
+      "title": "Update Java version required to build Tomcat",
+      "topic_ids": [
+        "topic-975a172da069775b"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 4931,
+      "title": "Update minimum Java version for building",
+      "topic_ids": [
+        "topic-578763c9febfbf41",
+        "topic-f0ba2dfdb4c10aee"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 4932,
+      "title": "Update minimum Java version to 21",
+      "topic_ids": [
+        "topic-5e0fda177714e734"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 4934,
+      "title": "Update now Jakarta EE 11 plans are clearer",
+      "topic_ids": [
+        "topic-cc5fa1b580b838c1"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 5016,
+      "title": "Update to use new signing certificate",
+      "topic_ids": [
+        "topic-0e52236f2609b14d",
+        "topic-47c9b336f6129393",
+        "topic-55a5874c45393fbe",
+        "topic-704238fc0fd08dad"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 5046,
+      "title": "Update version numbers, remove Tomcat 8.5",
+      "topic_ids": [
+        "topic-9e1c3699e54292cb"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 5054,
+      "title": "Updates",
+      "topic_ids": [
+        "topic-a29ba73146023620"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 5101,
+      "title": "Use explicit javadoc locale",
+      "topic_ids": [
+        "topic-26ba8b4b3c2bd61a",
+        "topic-c3c97af472c50647"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 5114,
+      "title": "Use Java 24",
+      "topic_ids": [
+        "topic-ab2a982360c13651"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 5115,
+      "title": "Use Java 25 for Tomcat 9",
+      "topic_ids": [
+        "topic-17c629e2e8b647dc"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 5174,
+      "title": "Work around javadoc bug to provide locale in two separate ways",
+      "topic_ids": [
+        "topic-14262e2e9bfe5d55"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 5182,
+      "title": "11.0.x",
+      "topic_ids": [
+        "topic-4ee77886913da7ab"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 5203,
+      "title": "8.5.x",
+      "topic_ids": [
+        "topic-156c8f77b53f3f36"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 5381,
+      "title": "Drop Travis CI support as per direction from infra",
+      "topic_ids": [
+        "topic-dada3e9a83e3ec82"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 5391,
+      "title": "Merge pull request #8 from ConiKost/main",
+      "topic_ids": [
+        "topic-cc2303a2103f7912"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 5392,
+      "title": "Merge pull request #9 from carehart/patch-1",
+      "topic_ids": [
+        "topic-4d1f6d52fc67a25c"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 5544,
+      "title": "Use more general language for the ASF logo",
+      "topic_ids": [
+        "topic-6faa61b464bea652"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 5551,
+      "title": "Add 1.3.x branch",
+      "topic_ids": [
+        "topic-267cdc5da811ef53",
+        "topic-69296f3c64ebdcf6",
+        "topic-9a85af1b09b377c6"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 5556,
+      "title": "Add Ant version (1.10.2) requirement identical to Tomcat",
+      "topic_ids": [
+        "topic-863502189c30ad05"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 5572,
+      "title": "Add tracking file for possible changes for next major version",
+      "topic_ids": [
+        "topic-b3eda31e45e31971"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 5576,
+      "title": "Align Java build version with Tomcat 12.0.x",
+      "topic_ids": [
+        "topic-1b88dc42ccdefa3e"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 5581,
+      "title": "Align Java source compile configuration with Tomcat",
+      "topic_ids": [
+        "topic-61fef8148a5eb979",
+        "topic-a6aed97551635270"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 5595,
+      "title": "BZ 67538: Make use of Ant's <javaversion /> task to enfore the mininum Java build version",
+      "topic_ids": [
+        "topic-ed85d3f1ed16c064"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 5605,
+      "title": "Correct minimum APR version",
+      "topic_ids": [
+        "topic-de2a039d3bc6f8de"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 5667,
+      "title": "OpenSSL 3.0.0 is minimum version so hard code OPENSSL_NEW_LIBS=1",
+      "topic_ids": [
+        "topic-e13ad43b3a28c65e"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 5708,
+      "title": "Tomcat Native 1.3.1 has an additional dependency",
+      "topic_ids": [
+        "topic-b1f50dcae13ce3c5"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 5710,
+      "title": "Update ASF logo",
+      "topic_ids": [
+        "topic-8ad59aa1aa2bb3d8",
+        "topic-b83133150d92d4c2",
+        "topic-cb9fc00a5df58fcc"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 5711,
+      "title": "Update build environment and recommended versions",
+      "topic_ids": [
+        "topic-a327f8996fbebd45"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 5712,
+      "title": "Update BUILDING",
+      "topic_ids": [
+        "topic-396369b6fe90fb6e"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 5721,
+      "title": "Update EOL dates",
+      "topic_ids": [
+        "topic-3a97a8287f8e3d1c"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 5730,
+      "title": "Update minimum APR version in a few more places",
+      "topic_ids": [
+        "topic-8f6b2a34efe20e83"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 5731,
+      "title": "Update minimum LibreSSL version to 3.5.2. Remove NPN support.",
+      "topic_ids": [
+        "topic-d7211bef867e5f90"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 5745,
+      "title": "Update the minimum version of autoconf for releasing to 2.68.",
+      "topic_ids": [
+        "topic-21cb90a124d1dbeb",
+        "topic-e12636488508eded"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 5747,
+      "title": "Update to new ASF logo",
+      "topic_ids": [
+        "topic-00cbeafd834df2bd",
+        "topic-de2af1a46c542ad7"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 5750,
+      "title": "Update Windows build environment to use Visual Studio 2022",
+      "topic_ids": [
+        "topic-f12afb71b90b6ad2"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 5752,
+      "title": "Updating versions used for release builds",
+      "topic_ids": [
+        "topic-c8c41b4740c126f5"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 5756,
+      "title": "Windows builds will use OpenSSL 3.0.x onwards",
+      "topic_ids": [
+        "topic-96eedfaccc2936dd"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 5822,
+      "title": "First attempt to run TCKs on a daily basis",
+      "topic_ids": [
+        "topic-91a1ae1b7cba291b"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 5839,
+      "title": "Initial setup. Should work for EL and WebSocket.",
+      "topic_ids": [
+        "topic-7f0f51d4ec6f69a4"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 5840,
+      "title": "Jakarta EE 12 requires Java 21",
+      "topic_ids": [
+        "topic-c181a9566b956acd"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 5872,
+      "title": "Update README.md",
+      "topic_ids": [
+        "topic-909929ad8834a8c0"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    },
+    {
+      "group_id": 5907,
+      "title": "Clarify this plan was for Jakatrta EE 11",
+      "topic_ids": [
+        "topic-7c6cb1c2e6834ca3"
+      ],
+      "reason": "Manually retained as bounded policy/direction/release/role/service context or generic scope ambiguity; original body check pending."
+    }
+  ],
+  "findings": [
+    "Most GitHub titles in1\u2013460 identify ordinary bug/feature/refactoring/dependency patches; automation is not alone the exclusion reason. Participation/config titles and bare version/generic titles remain body candidates.",
+    "SVN path-only notices are provisional publication/navigation context, not independent policy requests or execution evidence. Relevant CI/list/IRC/security/support paths remain bounded body references.",
+    "Groups1780\u20131816 are release artifact publication/delete paths; they are not formal vote openings. Groups1817\u20131822 branch ranges have no substantive proposal;1823\u20131830 commit payloads remain context/candidates if changing binding build requirements.",
+    "Main groups1\u20133230 manually inspected, with1021\u20131779 through exact SVN path/revision grouping aid1\u2013458. Release artifact staging/publication/removal titles are not formal vote openings. Ordinary named code repairs/features/backports excluded at title screening; generic documents/permissions, support/build direction and shared service references queued for original bodies. No full census attestation.",
+    "All5969 payload groups representing11992 mechanically routed original Tomcat topics manually inspected, retaining exact subject variants. Ordinary specific code/dependency/test/translation fixes and ref/tag notifications excluded by substantive title scope; not because the sender is automated. Shared Infra/Travis direction, signing migration, support/runtime/build/CI requirements, central logo uptake and ambiguous generic payloads require original bodies. This completes this title aid only; not full corpus, referenced sources, body census or registered gate attestation."
+  ],
+  "header_title_difference_check": "All original export headers compared with indexed titles after whitespace/MIME normalization. Five changed title variants manually read; technical bug/refactoring titles, no new policy/service candidate. Evidence retained in original-header-title-differences.json.",
+  "svn_tail_reading_aid": "tomcat-svn-title-tail-groups.json",
+  "svn_tail_read_ranges": [
+    [
+      1,
+      458
+    ]
+  ],
+  "candidate_body_review_status": {
+    "original_candidate_topic_count": 235,
+    "reviewed_original_candidate_topics": 235,
+    "pending_original_candidate_topic_ids": [],
+    "scope": "All original queued exported topic bodies now read and independently adjudicated. Earlier reasons/pending wording retained as chronological title-screen notes; new bounded references are not part of this exhausted queue."
+  }
+}

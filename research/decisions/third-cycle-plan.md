@@ -7,7 +7,8 @@
 - **Scope:** The registered ASF comparison, beginning with executable tooling.
 - **Current state:** Item 1 accepted and frozen on 2026-09-19; item 2 accepted
   on 2026-09-22, with G1 passing. Item 3 started on 2026-09-22 and remains
-  incomplete; its first review checkpoint was accepted on 2026-09-23.
+  incomplete; its first review checkpoint was accepted on 2026-09-23. The
+  2026-10-04 continuation screens Ant subjects and extends body/family review.
 - **Accepted first-pass checkpoint:** `98561adb68ced781767ce4c4dc43143ebdc6a88a`,
   accepted through [PR #18](https://github.com/cyborg-nomade/cybernetic-mutualism/pull/18)
   and merged at `bec2d0787f7fd5772ca8aeae11ff4a7892b46a7a`. This is a staged

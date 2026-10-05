@@ -3,7 +3,7 @@
 ## Status and Authority
 
 - **Started:** 2026-09-22, on the owner's instruction to start third-cycle item 3.
-- **Status:** Incomplete; initial review checkpoint only. No first-pass lock,
+- **Status:** Incomplete; accepted initial checkpoint and Ant continuation. No first-pass lock,
   baseline selection, blinded recode bundle, washout, G2/G3 result, or claim
   decision exists.
 - **Checkpoint acceptance:** The owner approved the initial checkpoint through
@@ -28,7 +28,7 @@ registered window, sampling rule, threshold, or causal criterion. The primary
 onset window remains 2023–2025; context and follow-up remain bounded by the
 registration, including the 2026-08-31 source-publication cutoff.
 
-## Corpus and Actual Review Progress
+## Accepted September Corpus and Review Progress
 
 The [working data directory](../data/asf-first-pass-2026-09-22/README.md)
 contains every primary-window index occurrence, provisional navigation queues,
@@ -218,10 +218,108 @@ saved verification report with recomputation. The updated checkpoint verifier,
 all 200 tests, the full `just check` run, and both CI runs passed at the accepted
 head. Evidence values and progress counts did not change during this review.
 
+## October 4 Ant Continuation
+
+On the owner's instruction to resume item 3, the
+[additive Ant continuation](../data/asf-ant-screening-2026-10-04/README.md)
+screens all 651 Ant subject-index occurrences and preserves the accepted
+September data unchanged. It adds 37 complete plain-text topic reads covering
+105 messages, bringing cumulative body review to 58 Ant navigation groups and
+194 messages. Subject-only exclusions and pending ambiguous bodies remain
+separate from full body review and final eligibility coding.
+
+Five provisional release families preserve seven candidate-vote openings,
+including the cancelled/rebuilt Ivy 2.5.2 and Ant 1.10.15 candidates. The
+December 2024 Ivy 2.5.3 vote retains its January 2025 announcement as follow-up;
+the announcement does not create a new baseline opening. No sample is drawn.
+The classifier and Pack200 threads reveal account-access candidates that
+would be missed by excluding all technical-looking subjects. Public Infra
+receiver records and dated account-approval authority remain unresolved.
+
+Six bounded Ant agenda entries now resolve the September empty-attachment
+question: all explicitly state that no report was submitted. This establishes
+non-submission, not a due-date schedule, cause, duration, or institutional
+inability. The full Board/officer census is still pending. The continuation
+records exact source locators, hashes, read scope, and remaining work without
+qualifying witnesses or changing G1, claims, or the registered design.
+
+## Corpus Continuation Within PR #19
+
+The owner authorizes continued work in PR #19 until item 3 is complete,
+followed by review. The [working corpus continuation](../data/asf-item3-screening-2026-10-04/README.md)
+retains independent provisional judgments on 539 HTTP Server, Maven and Tomcat topics after
+reading their complete exported plain-text bodies. Title inspection covers all
+6,015 entries in the discussion-topic queue and 12,184 mechanically routed
+topics across all four projects (18,199 distinct topic IDs). Tomcat's 5,969
+exact payload groups preserve 11,992 original title variants; generic, policy
+and service-related payloads have received original-body checks for all 235
+topics in the original candidate queue. New bounded references remain open.
+Baseline and follow-up subject screening is still incomplete.
+Its 2,473 export variants
+preserve original Message-IDs, exact raw/body hashes and monthly block
+locators. Duplicate index deliveries do not multiply message variants.
+
+The continuation also retains 1,166 exact section locators from October
+2022 through December 2025 Board proceedings, including the August 2025
+special meeting, foundation officer reports, selected
+PMC reports, and relevant Attic/Community Development context. The March
+Infrastructure report directly documents the shared GitHub Actions approval
+rule and project opt-outs. The April report dates the committer-only INFRA
+Jira restriction. A ticket login response therefore bounds public evidence;
+it does not establish rejection of the underlying request.
+
+The August 24 2025 logo resolution is retained separately as a visually read
+action without meeting, with the exact image hash. Baseline records date Jira
+account approval, Matomo transition, Travis withdrawal notice and Tomcat 8.5
+EOL before the study window. Later reports do not automatically reset onset.
+Bounded references, historical roles and the calendar attestation remain open.
+
+The September HTTP Server report explicitly says the Git migration vote passed
+but had not been implemented. Ant's December report dates IvyDE archiving to
+November 26, while remaining a requester self-report. The January 2024 Board
+supports technical enforcement of website-tracking policy, and Privacy still
+lists the implementation ticket as open in February. Authorization, reported
+implementation and independent receiver evidence remain distinct.
+
+Later Git migration proposals continue the earlier HTTP Server request rather
+than resetting onset. In-window mod_wasm replies continue a 2022 proposal and
+remain baseline context. The local chair's list ban and a subsequent Board
+PMC removal are distinct governance acts; causal linkage remains unestablished.
+Maven follow-ups also preserve the October 2024 inactive-access proposal,
+separate Jira/GitHub/wiki/test-project boundaries, and GitHub support cleanup
+that reportedly removed JLINK PR comments as well as duplicated issues. These
+are provisional candidates requiring original receiver and authority evidence.
+
+Provisional family labels, exclusions and file-level search notes are retained
+separately from final episode measurements and witness qualification.
+
+The Java-minimum discussion explicitly resumes a July 2022 Maven proposal;
+its later runtime vote cannot automatically reset onset. June 2024 Support &
+Care letters describe a German-government funding submission, with no award
+or ASF approval established. Current linked issue representations include
+post-cutoff edits and closures and serve only as reference navigation.
+
+On October 5, further collection retained all 36 baseline/follow-up monthly
+index/export pairs locally, with 72 retrieval receipts and 10,392 indexed
+occurrences. Every Message-ID multiset matched. Baseline Ant, HTTP Server and
+Maven titles have been inspected; Tomcat and follow-up title screening remain
+open. Twelve Ant/HTTP Server baseline topics have separately retained body
+judgments. These contextual reads do not increase the in-window screening
+count or create new eligible onsets. Packaging these new sources and metadata
+for the final first-pass lock remains unfinished.
+
+Current index timestamps, original Date headers and historical public delivery
+headers remain distinct. The latter may supply a publication bound only after
+explicit provenance checks. The source exports are unchanged, and this
+continuation republishes no correspondence bodies. Its verifier checks exact
+membership and locators while refusing to assert a sample or lock. Remaining
+subject/body review, references, coding and registered locking are still open.
+
 ## Remaining Work and Review Boundary
 
-The owner accepted this checkpoint as the beginning of item 3 under the
-staged-review provision. The larger item remains open. Required work remains:
+The owner accepted the September checkpoint as the beginning of item 3 under
+the staged-review provision and now authorizes completion in PR #19. The
+larger item remains open. Required work remains:
 
 1. Finish the complete subject-index screen for all four projects, including
    mechanical notification routes and all ambiguous replies. Review complete
@@ -240,8 +338,9 @@ staged-review provision. The larger item remains open. Required work remains:
    any aggregate causal result. The 14-complete-day washout starts there.
 
 No automation, external contact, private access, publication work, or change to
-the registered research design was performed. Source/reference discovery and
-the observations above are new exposure recorded on 2026-09-22. Helper scripts
+the registered research design was performed. September's source/reference
+discovery and observations were exposure recorded on 2026-09-22; the additive
+Ant review records further exposure on 2026-10-04. Helper scripts
 prepare/check metadata; they cannot attest substantive completeness or supply
 a second interpretation.
 
@@ -254,5 +353,6 @@ unresolved service/policy candidates. They also show why message counts,
 proposal titles, self-reports, and current login responses cannot substitute
 for source-qualified cross-boundary episodes. The wider programme and all
 claim confidence levels remain unchanged at C1. Complete the remaining census
-and source/authority checks before drawing the local baseline or assessing
+and source/authority checks, building on the October Ant subject screen and
+release-family links, before drawing the local baseline or assessing
 identifiability; no first-pass lock or washout has begun.
