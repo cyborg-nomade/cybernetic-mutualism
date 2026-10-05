@@ -14,9 +14,11 @@ discussion queue. Their navigation dates remain index dates, not event dates.
 Title inspection does not attest to body review or a complete subject census.
 `tomcat-mechanical-review.json` records the completed inspection of all 5,969
 exact payload groups (11,992 original title variants, 11,987 topic IDs),
-including original SVN path/revision subjects, and explicit pending body
-references. Baseline and follow-up indices and those body references remain
-unfinished; this title census alone does not satisfy a registered audit gate.
+including original SVN path/revision subjects and its original body-candidate
+queue. All 235 original candidate topics have now received body judgments;
+the earlier pending wording remains as chronological title-screen notes.
+New bounded references and baseline/follow-up screening remain unfinished;
+this title census alone does not satisfy a registered audit gate.
 
 `topic-review.csv` records independent provisional judgments after reading
 the complete exported plain-text bodies of the listed HTTP Server, Maven and
@@ -27,6 +29,7 @@ Topic IDs organize titles; they are neither original source identifiers nor
 issue families. Reasons explain exclusions and retain uncertainty about
 binding proposals, historical roles, onset and shared service boundaries.
 Family labels are provisional navigation, pending final family adjudication.
+The current continuation covers 539 topics and 2,473 export variants.
 
 `reviewed-message-variants.csv` identifies every original export block for
 these topics, with literal RFC Message-ID, raw and decoded-body hashes, header
@@ -72,6 +75,15 @@ the frozen executable at `18b13ff18500c33d8812459eda72ad6c11640f1a`.
   positive majority, but its author calls it unsuccessful and participants
   dispute that conclusion. Preserve both records before adjudicating the
   policy outcome.
+- Maven's May 2023 Java-minimum debate explicitly resumes a July 2022
+  proposal. The February 2024 runtime vote cannot automatically establish
+  a new in-window onset. Runtime, build, release-build and CI provisioning
+  requirements need separately scoped deliverables.
+- The June 2024 Support & Care letters report a German-government funding
+  submission, not an ASF approval or funding award. Linked public issues
+  have later edits and closures, including dates after the publication cutoff.
+  Their current representations guide bounded discovery; they do not
+  authenticate the historical proposal body or establish implementation.
 - A shared foundation directive remains one family. The March 2023
   Infrastructure report directly records the outside-contributor GitHub Actions
   approval rule and project opt-outs. Project responses require their own
@@ -115,11 +127,18 @@ the frozen executable at `18b13ff18500c33d8812459eda72ad6c11640f1a`.
   still lists the Infrastructure ticket as open. The policy's earlier onset
   also requires checking before in-window eligibility is established.
 
-The local reading aid suppresses only previously displayed quoted text,
+The initial local reading aid suppresses only previously displayed quoted text,
 including exact text rewrapped across lines, and preserves unquoted text and
 vote marks. A compact aid omits blank lines, exact unsubscribe footers and
 repeated metadata while retaining message identities, dates, senders and reply
 headers; full displays and omission ledgers remain available locally.
+Additional diff aids reference exact repeated hunks or lines to their first
+retained occurrence, preserving file/hunk boundaries and hash/span ledgers.
+Human prose, licensing changes and novel code remain inspected. SVG coordinate
+values receive structural inspection and a local inventory rather than a
+claim of interpreting every numerical path. Where an exported email itself
+omits long paths or thousands of diff lines, that source limitation remains
+explicit; reading its complete plain body is not a full repository-code audit.
 An initial display rule suppressed
 identical quoted vote choices in the Git migration discussion. The affected
 original votes were reread in full, and the rule was corrected. This does not

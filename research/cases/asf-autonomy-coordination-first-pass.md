@@ -247,14 +247,15 @@ qualifying witnesses or changing G1, claims, or the registered design.
 
 The owner authorizes continued work in PR #19 until item 3 is complete,
 followed by review. The [working corpus continuation](../data/asf-item3-screening-2026-10-04/README.md)
-retains independent provisional judgments on 470 HTTP Server, Maven and Tomcat topics after
+retains independent provisional judgments on 539 HTTP Server, Maven and Tomcat topics after
 reading their complete exported plain-text bodies. Title inspection covers all
 6,015 entries in the discussion-topic queue and 12,184 mechanically routed
 topics across all four projects (18,199 distinct topic IDs). Tomcat's 5,969
 exact payload groups preserve 11,992 original title variants; generic, policy
-and service-related payloads remain queued for original-body checks. Baseline
-and follow-up subject indices are still pending.
-Its 1,965 export variants
+and service-related payloads have received original-body checks for all 235
+topics in the original candidate queue. New bounded references remain open.
+Baseline and follow-up subject screening is still incomplete.
+Its 2,473 export variants
 preserve original Message-IDs, exact raw/body hashes and monthly block
 locators. Duplicate index deliveries do not multiply message variants.
 
@@ -291,6 +292,21 @@ are provisional candidates requiring original receiver and authority evidence.
 
 Provisional family labels, exclusions and file-level search notes are retained
 separately from final episode measurements and witness qualification.
+
+The Java-minimum discussion explicitly resumes a July 2022 Maven proposal;
+its later runtime vote cannot automatically reset onset. June 2024 Support &
+Care letters describe a German-government funding submission, with no award
+or ASF approval established. Current linked issue representations include
+post-cutoff edits and closures and serve only as reference navigation.
+
+On October 5, further collection retained all 36 baseline/follow-up monthly
+index/export pairs locally, with 72 retrieval receipts and 10,392 indexed
+occurrences. Every Message-ID multiset matched. Baseline Ant, HTTP Server and
+Maven titles have been inspected; Tomcat and follow-up title screening remain
+open. Twelve Ant/HTTP Server baseline topics have separately retained body
+judgments. These contextual reads do not increase the in-window screening
+count or create new eligible onsets. Packaging these new sources and metadata
+for the final first-pass lock remains unfinished.
 
 Current index timestamps, original Date headers and historical public delivery
 headers remain distinct. The latter may supply a publication bound only after

@@ -1499,5 +1499,11 @@
       1,
       458
     ]
-  ]
+  ],
+  "candidate_body_review_status": {
+    "original_candidate_topic_count": 235,
+    "reviewed_original_candidate_topics": 235,
+    "pending_original_candidate_topic_ids": [],
+    "scope": "All original queued exported topic bodies now read and independently adjudicated. Earlier reasons/pending wording retained as chronological title-screen notes; new bounded references are not part of this exhausted queue."
+  }
 }
