@@ -1,0 +1,275 @@
+[
+  {
+    "project": "ant",
+    "source_id": "<DM6PR07MB4780E0A8A3C5950BD015D8D7AA15A@DM6PR07MB4780.namprd07.prod.outlook.com>",
+    "original_message_id": "<DM6PR07MB4780E0A8A3C5950BD015D8D7AA15A@DM6PR07MB4780.namprd07.prod.outlook.com>",
+    "archive_id": "2t64329mw9w274ldg4y1212t3gkrczlw",
+    "url": "https://lists.apache.org/api/source.lua?id=2t64329mw9w274ldg4y1212t3gkrczlw",
+    "index_timestamp": "2023-08-16T13:12:28+00:00",
+    "month": "2023-08",
+    "subject": "Re: [VOTE] Release Apache Ant 1.10.14 based on RC1",
+    "topic_id": "topic-26fe7d8896cec63a",
+    "preliminary_route": "requires_subject_review",
+    "index_path": "research/data/asf-access-2026-09-21/sources/ant-2023-08-index.json.gz",
+    "ordinal": 1,
+    "raw_sha256": "c18bc7b4f989504363f9a4ca3e7293604617758a92916d14ccf715ea7da7bb6d",
+    "body_sha256": "1087f2e814fb8c1bbd8ac2a4fe7c14c8259c0e85f2ede2b4054299d78d0fea82",
+    "headers": {
+      "Date": "Wed, 16 Aug 2023 13:12:28 +0000",
+      "From": "Gary Gregory <ggregory@rocketsoftware.com>",
+      "In-Reply-To": "<36e5f4f5-3ce5-fbb3-3486-5223dcae3430@apache.org>"
+    }
+  },
+  {
+    "project": "ant",
+    "source_id": "<1744397207.1136075.1692516268526@mail.yahoo.com>",
+    "original_message_id": "<1744397207.1136075.1692516268526@mail.yahoo.com>",
+    "archive_id": "449qsmlx4q38f37tsot1zpht6l9lpdmf",
+    "url": "https://lists.apache.org/api/source.lua?id=449qsmlx4q38f37tsot1zpht6l9lpdmf",
+    "index_timestamp": "2023-08-20T07:24:28+00:00",
+    "month": "2023-08",
+    "subject": "Re: [VOTE] Release Ivy 2.5.2 Based on RC2",
+    "topic_id": "topic-9a0060f4c5765d09",
+    "preliminary_route": "requires_subject_review",
+    "index_path": "research/data/asf-access-2026-09-21/sources/ant-2023-08-index.json.gz",
+    "ordinal": 2,
+    "raw_sha256": "4c40b0808ae7461374c1b9e2ed83564e472ea1f05ebcd732e463b2242d7aca0c",
+    "body_sha256": "12b65ac5bfd45be6599aa6414aa4faa3ba380301c5ffa6d92a39c226eb9cdef7",
+    "headers": {
+      "Date": "Sun, 20 Aug 2023 07:24:28 +0000 (UTC)",
+      "From": "Maarten Coene <maarten_coene@yahoo.com.INVALID>",
+      "In-Reply-To": "<87jzttk3w1.fsf@v45346.1blu.de>"
+    }
+  },
+  {
+    "project": "ant",
+    "source_id": "<148914140.1143819.1692516489963@mail.yahoo.com>",
+    "original_message_id": "<148914140.1143819.1692516489963@mail.yahoo.com>",
+    "archive_id": "bzwryq3jbo0lr5jt86rf9bsxgmhl8trp",
+    "url": "https://lists.apache.org/api/source.lua?id=bzwryq3jbo0lr5jt86rf9bsxgmhl8trp",
+    "index_timestamp": "2023-08-20T07:28:09+00:00",
+    "month": "2023-08",
+    "subject": "Re: [VOTE] Release Apache Ant 1.10.14 based on RC1",
+    "topic_id": "topic-26fe7d8896cec63a",
+    "preliminary_route": "requires_subject_review",
+    "index_path": "research/data/asf-access-2026-09-21/sources/ant-2023-08-index.json.gz",
+    "ordinal": 3,
+    "raw_sha256": "e41fedc6758aee34f903fd77be6459ddac5562b93342cd8eb3e0d41dcfc8c26e",
+    "body_sha256": "1916799203abb1624f3c47e4b8885c9ff3b8669edd4e3f42ba6ae72599f8aa08",
+    "headers": {
+      "Date": "Sun, 20 Aug 2023 07:28:09 +0000 (UTC)",
+      "From": "Maarten Coene <maarten_coene@yahoo.com.INVALID>",
+      "In-Reply-To": "<36e5f4f5-3ce5-fbb3-3486-5223dcae3430@apache.org>"
+    }
+  },
+  {
+    "project": "ant",
+    "source_id": "<1695478550.2222772.1735463428727@mail.yahoo.com>",
+    "original_message_id": "<1695478550.2222772.1735463428727@mail.yahoo.com>",
+    "archive_id": "lyl87n30jbxfpt0bwzjqg5gscgplw59k",
+    "url": "https://lists.apache.org/api/source.lua?id=lyl87n30jbxfpt0bwzjqg5gscgplw59k",
+    "index_timestamp": "2024-12-29T09:10:28+00:00",
+    "month": "2024-12",
+    "subject": "Re: [VOTE] Ivy 2.5.3 Release",
+    "topic_id": "topic-a1bdfa98df29126e",
+    "preliminary_route": "requires_subject_review",
+    "index_path": "research/data/asf-access-2026-09-21/sources/ant-2024-12-index.json.gz",
+    "ordinal": 4,
+    "raw_sha256": "12e705fa7ed9ee7482559a48cfeec819ea4f1bc1775738e99e6111fdb20cb49a",
+    "body_sha256": "cdf1346bdb97d9262f0a2cf2e305266aa2636825e15e237e02ab0da5614e0190",
+    "headers": {
+      "Date": "Sun, 29 Dec 2024 09:10:28 +0000 (UTC)",
+      "From": "Maarten Coene <maarten_coene@yahoo.com.INVALID>",
+      "In-Reply-To": "<CAHgmaKobDJsaawGEnOGCD0wYAqKjz_heNyUy8T3hXp77M-cBJw@mail.gmail.com>"
+    }
+  },
+  {
+    "project": "httpd",
+    "source_id": "<SA1PR14MB45954FCC31B535CB3FB78040F1D7A@SA1PR14MB4595.namprd14.prod.outlook.com>",
+    "original_message_id": "<SA1PR14MB45954FCC31B535CB3FB78040F1D7A@SA1PR14MB4595.namprd14.prod.outlook.com>",
+    "archive_id": "48qv1s9550kq95fzd38ocngr4s1lm6s8",
+    "url": "https://lists.apache.org/api/source.lua?id=48qv1s9550kq95fzd38ocngr4s1lm6s8",
+    "index_timestamp": "2023-10-16T20:28:50+00:00",
+    "month": "2023-10",
+    "subject": "Re: [VOTE] Release httpd-2.4.58-rc3 as httpd-2.4.58",
+    "topic_id": "topic-b0f29356f092fd5d",
+    "preliminary_route": "requires_subject_review",
+    "index_path": "research/data/asf-access-2026-09-21/sources/httpd-2023-10-index.json.gz",
+    "ordinal": 5,
+    "raw_sha256": "0d0cbf61afcc765277d51ade92d7a303b7fae860689ec688d15e8e212e3811a9",
+    "body_sha256": "6a7ed66e98e38a121a64311119aae1ff8a34cd785cd5affc9f2a5936b8fc6cb0",
+    "headers": {
+      "Date": "Mon, 16 Oct 2023 20:28:50 +0000",
+      "From": "Cory McIntire <cory.mcintire@webpros.com>",
+      "In-Reply-To": "<87A424B3-AD81-4F2F-9C9B-C3FD7D29609C@eissing.org>"
+    }
+  },
+  {
+    "project": "httpd",
+    "source_id": "<SA1PR14MB4595C2E08709048205FFD792F13D2@SA1PR14MB4595.namprd14.prod.outlook.com>",
+    "original_message_id": "<SA1PR14MB4595C2E08709048205FFD792F13D2@SA1PR14MB4595.namprd14.prod.outlook.com>",
+    "archive_id": "dqcwwt30ckzvxmh85ddvc2q4nkmtjx07",
+    "url": "https://lists.apache.org/api/source.lua?id=dqcwwt30ckzvxmh85ddvc2q4nkmtjx07",
+    "index_timestamp": "2024-04-03T17:24:18+00:00",
+    "month": "2024-04",
+    "subject": "Re: [VOTE] Release httpd-2.4.59-rc1 as httpd-2.4.59",
+    "topic_id": "topic-a169adee907ea1bf",
+    "preliminary_route": "requires_subject_review",
+    "index_path": "research/data/asf-access-2026-09-21/sources/httpd-2024-04-index.json.gz",
+    "ordinal": 6,
+    "raw_sha256": "56c3c9c2588cbe5a324d143e7b8e7ae3becd1c6bc16cc654638b001023824c40",
+    "body_sha256": "5aac5dfd410ef60c0ee4b9ada4bfaa1fef4d367e607369a9e320a8d37d968786",
+    "headers": {
+      "Date": "Wed, 3 Apr 2024 17:24:18 +0000",
+      "From": "Cory McIntire <cory.mcintire@webpros.com>",
+      "In-Reply-To": "<CALK=YjNtjAbR6GdKTCHoi4kf_ki0SoO2Ctj145RTT_0WAKQ6Ew@mail.gmail.com>"
+    }
+  },
+  {
+    "project": "httpd",
+    "source_id": "<SA1PR14MB459561616D0C4F717A695DE4F1D72@SA1PR14MB4595.namprd14.prod.outlook.com>",
+    "original_message_id": "<SA1PR14MB459561616D0C4F717A695DE4F1D72@SA1PR14MB4595.namprd14.prod.outlook.com>",
+    "archive_id": "vxtt6on9yrl37bhrslw4lz8jd68lwwg2",
+    "url": "https://lists.apache.org/api/source.lua?id=vxtt6on9yrl37bhrslw4lz8jd68lwwg2",
+    "index_timestamp": "2024-06-27T16:19:00+00:00",
+    "month": "2024-06",
+    "subject": "Re: [VOTE] Release httpd-2.4.60-rc4 as httpd-2.4.60",
+    "topic_id": "topic-d86bf5292e0940ae",
+    "preliminary_route": "requires_subject_review",
+    "index_path": "research/data/asf-access-2026-09-21/sources/httpd-2024-06-index.json.gz",
+    "ordinal": 7,
+    "raw_sha256": "de65ee979a407e2968b61f5d8eaac37da1969d58bb86db40df95121dabf1fa28",
+    "body_sha256": "2f96ff56a55a1c1acdff14576c21891ba8623052420e85778cac16ff275e0a46",
+    "headers": {
+      "Date": "Thu, 27 Jun 2024 16:19:00 +0000",
+      "From": "Cory McIntire <cory.mcintire@webpros.com>",
+      "In-Reply-To": "<CALK=YjPtYYfYxN9Vy0gkaKgHnszMjE3pHd3VcRwCSBpevpEf6g@mail.gmail.com>"
+    }
+  },
+  {
+    "project": "httpd",
+    "source_id": "<4D8AFD1D-B416-4052-B295-99E4EA1C540D@jagunet.com>",
+    "original_message_id": "<4D8AFD1D-B416-4052-B295-99E4EA1C540D@jagunet.com>",
+    "archive_id": "2dtn8dqpzml75b6y24qr9tck3lp15xjz",
+    "url": "https://lists.apache.org/api/source.lua?id=2dtn8dqpzml75b6y24qr9tck3lp15xjz",
+    "index_timestamp": "2025-01-21T20:15:56+00:00",
+    "month": "2025-01",
+    "subject": "Re: [VOTE] Release httpd-2.4.63 as httpd-2.4.63",
+    "topic_id": "topic-a040f57707f5550e",
+    "preliminary_route": "requires_subject_review",
+    "index_path": "research/data/asf-access-2026-09-21/sources/httpd-2025-01-index.json.gz",
+    "ordinal": 8,
+    "raw_sha256": "379f2de922cc35ac4ade92e8f3b60f7edab787985fbcd5891c6a1c1bffe02b6d",
+    "body_sha256": "ad7ee2a2cded9ad4f864b55462f43c19dc5aa2d98e28e796a060fef64d58b728",
+    "headers": {
+      "Date": "Tue, 21 Jan 2025 15:15:56 -0500",
+      "From": "Jim Jagielski <jim@jagunet.com>",
+      "In-Reply-To": "<4C492BDE-DFBF-43D6-8780-A91A922BC8C9@jagunet.com>"
+    }
+  },
+  {
+    "project": "maven",
+    "source_id": "<7D485D71-7572-4BDD-BE15-3E2F6CDB964F@apache.org>",
+    "original_message_id": "<7D485D71-7572-4BDD-BE15-3E2F6CDB964F@apache.org>",
+    "archive_id": "x4vy9vt2oskd47cvhft05v60yp2jkoqo",
+    "url": "https://lists.apache.org/api/source.lua?id=x4vy9vt2oskd47cvhft05v60yp2jkoqo",
+    "index_timestamp": "2024-07-19T09:40:47+00:00",
+    "month": "2024-07",
+    "subject": "Re: [VOTE] Release Apache Resource Bundles 1.6",
+    "topic_id": "topic-ccbbeb18fb9e3207",
+    "preliminary_route": "requires_subject_review",
+    "index_path": "research/data/asf-access-2026-09-21/sources/maven-2024-07-index.json.gz",
+    "ordinal": 9,
+    "raw_sha256": "8a9b7e5c06be6a495cbd71d308236c190a5bd0ddea2665e9bc6ba2827743c9a9",
+    "body_sha256": "2d6c281a1a309cf2a9fcb8891faebc288752780ca43afef6758e7a9ee6189710",
+    "headers": {
+      "Date": "Fri, 19 Jul 2024 11:40:47 +0200",
+      "From": "Konrad Windszus <kwin@apache.org>",
+      "In-Reply-To": "<FFC498F2-1145-4F68-91D2-21651D6DE8C9@apache.org>"
+    }
+  },
+  {
+    "project": "maven",
+    "source_id": "<BY5PR04MB655269F72C517C3A209FB1B0DE39A@BY5PR04MB6552.namprd04.prod.outlook.com>",
+    "original_message_id": "<BY5PR04MB655269F72C517C3A209FB1B0DE39A@BY5PR04MB6552.namprd04.prod.outlook.com>",
+    "archive_id": "9orpkzwznr58z5h29gpb190jgzfbg6x0",
+    "url": "https://lists.apache.org/api/source.lua?id=9orpkzwznr58z5h29gpb190jgzfbg6x0",
+    "index_timestamp": "2025-08-26T20:13:54+00:00",
+    "month": "2025-08",
+    "subject": "RE: [VOTE] Release Apache Maven Wrapper version 3.3.3",
+    "topic_id": "topic-32e749eac84855a2",
+    "preliminary_route": "requires_subject_review",
+    "index_path": "research/data/asf-access-2026-09-21/sources/maven-2025-08-index.json.gz",
+    "ordinal": 10,
+    "raw_sha256": "c3720c840b87587ffb34d6c56fa30a646e9fe4c824827748d03b3496afe08d20",
+    "body_sha256": "561efa030de3c231c01a64a2837283aeeca4b2075cb8d9eb20020a0d441bea9b",
+    "headers": {
+      "Date": "Tue, 26 Aug 2025 20:13:54 +0000",
+      "From": "Jeremy Landis <jeremylandis@hotmail.com>",
+      "In-Reply-To": "<CAGjJkv1W9eMDGd05re4X8wHS9rLFcir49xyu3w87uNhq6tWQ1A@mail.gmail.com>"
+    }
+  },
+  {
+    "project": "maven",
+    "source_id": "<PA1P189MB3554BE9C74128FBFBE092882F9AEA@PA1P189MB3554.EURP189.PROD.OUTLOOK.COM>",
+    "original_message_id": "<PA1P189MB3554BE9C74128FBFBE092882F9AEA@PA1P189MB3554.EURP189.PROD.OUTLOOK.COM>",
+    "archive_id": "3ccd7h256hzboxlorsdsjp7jfsrchj1k",
+    "url": "https://lists.apache.org/api/source.lua?id=3ccd7h256hzboxlorsdsjp7jfsrchj1k",
+    "index_timestamp": "2025-12-12T15:24:38+00:00",
+    "month": "2025-12",
+    "subject": "Re: [VOTE] Release Apache Maven Release Plugin version 3.3.1",
+    "topic_id": "topic-6e7a25eca8f6fdd6",
+    "preliminary_route": "requires_subject_review",
+    "index_path": "research/data/asf-access-2026-09-21/sources/maven-2025-12-index.json.gz",
+    "ordinal": 11,
+    "raw_sha256": "3d034ac2e73767c81d385d1886b9b475f22213a38d12eaf8d4925d7a6d7a23fa",
+    "body_sha256": "ec9406981c7d1341aa6a35c2cd71bf4d80b4fc4a73f8d56a99725e88cb079570",
+    "headers": {
+      "Date": "Fri, 12 Dec 2025 15:24:38 +0000",
+      "From": "\"Rob @ DNR\" <rvesse@dotnetrdf.org>",
+      "In-Reply-To": "<CAGjJkv1xUMCRqvrx2390ub+bmMqeMr7cvhGPbTUYsSj3JZW4pA@mail.gmail.com>"
+    }
+  },
+  {
+    "project": "tomcat",
+    "source_id": "<f0fe1912dcd84b618e3936d43d4d55c2@amazon.com>",
+    "original_message_id": "<f0fe1912dcd84b618e3936d43d4d55c2@amazon.com>",
+    "archive_id": "zy5czd9nkodvr4pdkh29lg10c5rwxf72",
+    "url": "https://lists.apache.org/api/source.lua?id=zy5czd9nkodvr4pdkh29lg10c5rwxf72",
+    "index_timestamp": "2025-03-04T17:53:33+00:00",
+    "month": "2025-03",
+    "subject": "RE: [VOTE] Release Apache Tomcat 9.0.102",
+    "topic_id": "topic-f8b1c462dcb8639b",
+    "preliminary_route": "requires_subject_review",
+    "index_path": "research/data/asf-access-2026-09-21/sources/tomcat-2025-03-index.json.gz",
+    "ordinal": 12,
+    "raw_sha256": "e6cb17cbad43dccf0064234aa3c770a020e7cafbc6a480d035869d4a9a378176",
+    "body_sha256": "241f903f679ea14aadb07b8b0f537cc2432a69e68dfd3f2f18fcf329e4fc8b28",
+    "headers": {
+      "Date": "Tue, 4 Mar 2025 17:53:33 +0000",
+      "From": "\"Engebretson, John\" <jengebr@amazon.com.INVALID>",
+      "In-Reply-To": "<CANwj8ZpB01MjqCUh7==tNha019ByZP5Bg9tN07Zx2fJNv23FXg@mail.gmail.com>"
+    }
+  },
+  {
+    "project": "tomcat",
+    "source_id": "<CANwj8Zq9sfxwtnPWWt0MvUccLUVEJr1eg9nDu867KkxqMpkasQ@mail.gmail.com>",
+    "original_message_id": "<CANwj8Zq9sfxwtnPWWt0MvUccLUVEJr1eg9nDu867KkxqMpkasQ@mail.gmail.com>",
+    "archive_id": "pmyb1v29741s1f5hopxtxr646rtq4rt7",
+    "url": "https://lists.apache.org/api/source.lua?id=pmyb1v29741s1f5hopxtxr646rtq4rt7",
+    "index_timestamp": "2025-04-03T13:23:03+00:00",
+    "month": "2025-04",
+    "subject": "Re: [VOTE] Release Apache Tomcat 9.0.103",
+    "topic_id": "topic-b607e31b9a645fd6",
+    "preliminary_route": "requires_subject_review",
+    "index_path": "research/data/asf-access-2026-09-21/sources/tomcat-2025-04-index.json.gz",
+    "ordinal": 13,
+    "raw_sha256": "6a4e2b35431ff440d1020db09a80d1318f26b88e6a543ee5ddd095faa6da7754",
+    "body_sha256": "244d34c66813029ce0941bc35e0f65fd1c849fd45b48653cde39c5bf875ec2c4",
+    "headers": {
+      "Date": "Thu, 3 Apr 2025 15:23:03 +0200",
+      "From": "=?UTF-8?Q?R=C3=A9my_Maucherat?= <remm@apache.org>",
+      "In-Reply-To": "<d03bba16-3c8f-43a0-a0fe-7e4b411b8822@christopherschultz.net>"
+    }
+  }
+]

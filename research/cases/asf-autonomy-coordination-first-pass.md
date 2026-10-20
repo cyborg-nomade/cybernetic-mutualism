@@ -3,8 +3,9 @@
 ## Status and Authority
 
 - **Started:** 2026-09-22, on the owner's instruction to start third-cycle item 3.
-- **Status:** Incomplete; accepted initial checkpoint and Ant continuation. No first-pass lock,
-  baseline selection, blinded recode bundle, washout, G2/G3 result, or claim
+- **Status:** Incomplete; accepted initial checkpoint and subsequent corpus
+  continuation. The release baseline has been drawn and retained. No
+  first-pass lock, blinded recode bundle, washout, G2/G3 result, or claim
   decision exists.
 - **Checkpoint acceptance:** The owner approved the initial checkpoint through
   [PR #18](https://github.com/cyborg-nomade/cybernetic-mutualism/pull/18) on
@@ -299,7 +300,7 @@ Care letters describe a German-government funding submission, with no award
 or ASF approval established. Current linked issue representations include
 post-cutoff edits and closures and serve only as reference navigation.
 
-On October 5, further collection retained all 36 baseline/follow-up monthly
+At the initial October 5 continuation, further collection retained all 36 baseline/follow-up monthly
 index/export pairs locally, with 72 retrieval receipts and 10,392 indexed
 occurrences. Every Message-ID multiset matched. Baseline Ant, HTTP Server and
 Maven titles have been inspected; Tomcat and follow-up title screening remain
@@ -313,7 +314,42 @@ headers remain distinct. The latter may supply a publication bound only after
 explicit provenance checks. The source exports are unchanged, and this
 continuation republishes no correspondence bodies. Its verifier checks exact
 membership and locators while refusing to assert a sample or lock. Remaining
-subject/body review, references, coding and registered locking are still open.
+subject/body review, references, coding and registered locking were still open
+at that snapshot.
+
+## October 20 Release Frame and Baseline
+
+All baseline and bounded-follow-up subject titles have now been inspected.
+The local context ledger retains 139 independent topic judgments; packaging
+the context evidence for the final first-pass dataset remains required.
+Earlier SecurityManager and Maven Java 17 originals establish pre-window
+proposals, while Ant's November 11 2025 SBOM proposal sets its 60/90/180-day
+endpoints to January 10, February 9 and May 10 2026. Later implementation
+cannot silently enter an earlier horizon.
+
+The [release frame and draw](../data/asf-release-frame-2026-10-20/README.md)
+retain 724 independently screened original candidates, of which 698 are formal
+opening messages. Exact duplicates, corrected ballots, canceled candidates
+and version-changing retries reduce to 647 independently scoped release
+families. Joint ballots split independently releasable components while
+preserving their shared original source ID. The unchanged frozen sampler
+selects one family in each of 36 nonempty project-quarter blocks; all 48
+blocks, including 12 empty ones, retain counts and ordered hash keys. Selected
+IDs will not be replaced because of an inconvenient or missing outcome.
+
+Identity review includes 806 closure candidates, a 40-message supplement and
+13 reply/nonstandard opening checks. It preserves failed votes, expedited
+successful votes followed by corrective releases, and approval without
+confirmed publication. The frame record explicitly documents the interpretive
+M2/M3 and Sitetools M17/M18 family boundaries. Its verifier re-extracts source
+variants from accepted export bytes and reproduces the draw; it does not
+affirm historical publication, actor authority, causal effects or completeness
+of the larger first pass.
+
+The draw is now fixed for the ensuing baseline evidence work. Source
+eligibility and dated-authority checks, selected-family outcomes, the
+cross-boundary census and component/shock/rival/contrast records remain
+unfinished. No first-pass lock or washout has begun.
 
 ## Remaining Work and Review Boundary
 
@@ -321,15 +357,17 @@ The owner accepted the September checkpoint as the beginning of item 3 under
 the staged-review provision and now authorizes completion in PR #19. The
 larger item remains open. Required work remains:
 
-1. Finish the complete subject-index screen for all four projects, including
-   mechanical notification routes and all ambiguous replies. Review complete
-   board/officer records and special meetings; preserve explicit omissions.
+1. Complete corpus attestations and package the reviewed primary, baseline
+   and bounded-follow-up records, including mechanical routes, Board/officer
+   records, special meetings and explicit omissions. Follow new bounded body
+   references needed for eligibility and horizon outcomes.
 2. Follow referenced public sources and resolve historically applicable roles,
    rules, publication eligibility, event intervals, original-message variants,
    and issue-family splits/merges. Keep unavailable/private channels explicit.
-3. Build the complete eligible census, including unsuccessful and withdrawn
-   requests and all eligible local release openings. Only then compute the
-   registered project-quarter sample and preserve its full ordered frame.
+3. Complete the eligible cross-boundary and local-other census, including
+   unsuccessful and withdrawn requests. Retain the completed ordered release
+   frame and fixed project-quarter draw while completing its source checks
+   and selected-family evidence.
 4. Enter episodes and measurements before causal labels; complete shock
    searches, rival matrices, and contrasts before witness qualification. Track
    60-, 90-, and 180-day dispositions independently without forward-filling.
@@ -352,7 +390,9 @@ timing-based false positives, and
 unresolved service/policy candidates. They also show why message counts,
 proposal titles, self-reports, and current login responses cannot substitute
 for source-qualified cross-boundary episodes. The wider programme and all
-claim confidence levels remain unchanged at C1. Complete the remaining census
-and source/authority checks, building on the October Ant subject screen and
-release-family links, before drawing the local baseline or assessing
-identifiability; no first-pass lock or washout has begun.
+claim confidence levels remain unchanged at C1. The completed release frame
+now supplies a reproducible baseline of 36 selected families, removing one
+sampling prerequisite without supplying a causal result. Complete the census,
+source/authority checks and component/shock/rival/contrast records for that
+fixed draw before assessing identifiability or locking the first pass. No
+first-pass lock or washout has begun.

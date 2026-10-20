@@ -1,0 +1,924 @@
+{
+  "status": "release_family_identity_review_complete_for_registered_draw",
+  "reading_scope": "All3142lines of release-closure-display.txt inspected;806original candidate messages. Exact-repeat locators and original-byte inventories retained. Quoted text is not automatically attributed to current sender. This is frame identity work, not full horizon coding.",
+  "maven_confirmed_retry_groups": [
+    {
+      "openings": [
+        1,
+        9
+      ],
+      "closures": [
+        24,
+        36
+      ],
+      "reason": "Fluido M1 canceled for regressions; M2 replacement passes."
+    },
+    {
+      "openings": [
+        2,
+        10
+      ],
+      "closures": [
+        19,
+        38
+      ],
+      "reason": "Resolver1.9.3 canceled; explicit1.9.4 respin."
+    },
+    {
+      "openings": [
+        16,
+        20
+      ],
+      "closures": [
+        42,
+        44,
+        47
+      ],
+      "reason": "Enforcer3.2.0 canceled;3.2.1 replacement passes."
+    },
+    {
+      "openings": [
+        18,
+        19
+      ],
+      "closures": [
+        43,
+        48
+      ],
+      "reason": "mvnd m2 cannot locate home; immediate m4 replacement."
+    },
+    {
+      "openings": [
+        34,
+        37
+      ],
+      "closures": [
+        61,
+        64
+      ],
+      "reason": "PluginTools3.8.0 canceled; velocity revert and3.8.1."
+    },
+    {
+      "openings": [
+        61,
+        64
+      ],
+      "closures": [
+        89,
+        93
+      ],
+      "reason": "Fluido M4 incomplete fix; explicit immediate M5 respin."
+    },
+    {
+      "openings": [
+        82,
+        91
+      ],
+      "closures": [
+        110,
+        118
+      ],
+      "reason": "Resolver1.9.9 canceled for convergence bug;1.9.10 replacement."
+    },
+    {
+      "openings": [
+        83,
+        84
+      ],
+      "closures": [
+        109,
+        112
+      ],
+      "reason": "Sitetools M9 missing issue; same-day M10 respin."
+    },
+    {
+      "openings": [
+        87,
+        89
+      ],
+      "closures": [
+        115,
+        117
+      ],
+      "reason": "SharedUtils3.4.0 canceled to include resolved issues;3.4.1 replacement."
+    },
+    {
+      "openings": [
+        94,
+        95
+      ],
+      "closures": [
+        122
+      ],
+      "reason": "Exact duplicate ballot body sent from second address."
+    },
+    {
+      "openings": [
+        96,
+        97
+      ],
+      "closures": [
+        123
+      ],
+      "reason": "Exact duplicate ballot body sent from second address."
+    },
+    {
+      "openings": [
+        109,
+        112
+      ],
+      "closures": [
+        137,
+        139
+      ],
+      "reason": "Surefire3.1.1 canceled to finish report schema;3.1.2 respin."
+    },
+    {
+      "openings": [
+        126,
+        127
+      ],
+      "closures": [
+        151,
+        154,
+        159
+      ],
+      "reason": "Maven alpha6 canceled for credential leak; immediate alpha7 corrected checksum-name typo."
+    },
+    {
+      "openings": [
+        138,
+        139
+      ],
+      "closures": [
+        170,
+        179,
+        180
+      ],
+      "reason": "Maven3.9.4 same sources, corrected binary bundle and explicit take-two."
+    },
+    {
+      "openings": [
+        162,
+        164
+      ],
+      "closures": [
+        197,
+        208
+      ],
+      "reason": "Surefire3.2.0 canceled for build problems;3.2.1 replacement."
+    },
+    {
+      "openings": [
+        173,
+        174
+      ],
+      "closures": [
+        215,
+        216
+      ],
+      "reason": "PMD3.21.1 regression; explicit3.21.2 respin."
+    },
+    {
+      "openings": [
+        184,
+        185,
+        189
+      ],
+      "closures": [
+        226,
+        227,
+        231
+      ],
+      "reason": "Sitetools M14 incomplete parent upgrade; M15 missing issue; M16 passes."
+    },
+    {
+      "openings": [
+        202,
+        204
+      ],
+      "closures": [
+        244,
+        248
+      ],
+      "reason": "Resolver alpha4 JVM hang; explicit alpha5 respin."
+    },
+    {
+      "openings": [
+        209,
+        210,
+        211
+      ],
+      "closures": [
+        253,
+        254,
+        257
+      ],
+      "reason": "Surefire3.2.4 twice canceled;3.2.5 explicit replacement. Earliest opening2023-12-31 controls quarter."
+    },
+    {
+      "openings": [
+        227,
+        256
+      ],
+      "closures": [
+        282,
+        311
+      ],
+      "reason": "Sitetools M17 canceled for regression; next M18 passes. Verify delayed replacement scope before final grouping."
+    },
+    {
+      "openings": [
+        270,
+        271,
+        280
+      ],
+      "closures": [
+        324,
+        329,
+        340
+      ],
+      "reason": "Maven beta1/2 canceled for blockers; explicit beta3 fix chain."
+    },
+    {
+      "openings": [
+        308,
+        310
+      ],
+      "closures": [
+        365,
+        370
+      ],
+      "reason": "mvnd2beta1 same-version explicit respin."
+    },
+    {
+      "openings": [
+        325,
+        326
+      ],
+      "closures": [
+        381,
+        384,
+        385
+      ],
+      "reason": "ResourceBundles1.6 regression;1.7 replacement, old1.5 hyperlinks are copy artifacts."
+    },
+    {
+      "openings": [
+        330,
+        331
+      ],
+      "closures": [
+        389,
+        390,
+        393
+      ],
+      "reason": "Maven3.9.9 same-version explicit shell respin."
+    },
+    {
+      "openings": [
+        354,
+        355
+      ],
+      "closures": [
+        416,
+        418
+      ],
+      "reason": "GPG3.2.6 same-version respin after local-repository contamination."
+    },
+    {
+      "openings": [
+        359,
+        361
+      ],
+      "closures": [
+        421,
+        425
+      ],
+      "reason": "Javadoc3.10.1 same-version checksum respin."
+    },
+    {
+      "openings": [
+        374,
+        376
+      ],
+      "closures": [
+        434,
+        435,
+        441
+      ],
+      "reason": "Maven4beta5 same-version blocker respin; later disclosed issues did not cancel second vote."
+    },
+    {
+      "openings": [
+        384,
+        387
+      ],
+      "closures": [
+        447,
+        448,
+        454
+      ],
+      "reason": "Resolver2.0.3 same-version depMgmt respin."
+    },
+    {
+      "openings": [
+        388,
+        390
+      ],
+      "closures": [
+        452,
+        455
+      ],
+      "reason": "Javadoc3.11.0 canceled incomplete PR; immediate3.11.1 replacement."
+    },
+    {
+      "openings": [
+        396,
+        397
+      ],
+      "closures": [
+        461,
+        462,
+        467
+      ],
+      "reason": "Archiver4beta2 package/group mismatch; explicit beta3 replacement."
+    },
+    {
+      "openings": [
+        433,
+        434
+      ],
+      "closures": [
+        502,
+        504
+      ],
+      "reason": "Surefire3.5.3 same-version take2."
+    },
+    {
+      "openings": [
+        448,
+        449
+      ],
+      "closures": [
+        538,
+        540
+      ],
+      "reason": "Parent45 same-version spotless respin."
+    },
+    {
+      "openings": [
+        462,
+        477
+      ],
+      "closures": [
+        553,
+        570,
+        575
+      ],
+      "reason": "SCM2.2.0 canceled/unpublished; explicit2.2.1 replacement."
+    },
+    {
+      "openings": [
+        478,
+        485
+      ],
+      "closures": [
+        579,
+        581,
+        583
+      ],
+      "reason": "Resolver2.0.12 canceled; explicit2.0.13 replacement across quarter."
+    },
+    {
+      "openings": [
+        505,
+        506
+      ],
+      "closures": [
+        599,
+        600,
+        607
+      ],
+      "reason": "ReleasePlugin3.3.0 same-version respin."
+    }
+  ],
+  "maven_confirmed_separate_releases": [
+    {
+      "openings": [
+        188,
+        193
+      ],
+      "closures": [
+        232,
+        236
+      ],
+      "reason": "Resolver1.9.17 passed before1.9.18 corrective release; do not merge simply because prior release was broken."
+    },
+    {
+      "openings": [
+        198,
+        206
+      ],
+      "closures": [
+        241,
+        244,
+        249
+      ],
+      "reason": "Maven alpha9 already passed; alpha10 corrective release remains independent."
+    },
+    {
+      "openings": [
+        251,
+        255
+      ],
+      "closures": [
+        305,
+        310
+      ],
+      "reason": "Wrapper3.3.0 passed before3.3.1 correction."
+    },
+    {
+      "openings": [
+        303,
+        309
+      ],
+      "closures": [
+        362,
+        369
+      ],
+      "reason": "mvnd1.0.0 passed before1.0.1 quickfix."
+    },
+    {
+      "openings": [
+        466,
+        468
+      ],
+      "closures": [
+        560,
+        563
+      ],
+      "reason": "Wrapper3.3.3 passed before3.3.4 correction."
+    },
+    {
+      "openings": [
+        505,
+        508
+      ],
+      "closures": [
+        607,
+        609
+      ],
+      "reason": "ReleasePlugin3.3.0 respin passed before3.3.1."
+    }
+  ],
+  "tomcat_confirmed_retry_groups": [
+    {
+      "openings": [
+        4,
+        5
+      ],
+      "closures": [
+        616,
+        617,
+        618,
+        621
+      ],
+      "reason": "8.5.85 same-version signature/tag correction."
+    },
+    {
+      "openings": [
+        32,
+        34
+      ],
+      "closures": [
+        650,
+        651,
+        653
+      ],
+      "reason": "M8 canceled JSign properties; M9 replacement."
+    },
+    {
+      "openings": [
+        58,
+        59
+      ],
+      "closures": [],
+      "reason": "8.5.95 corrected duplicate ballot, already inspected opening bodies."
+    },
+    {
+      "openings": [
+        63,
+        65
+      ],
+      "closures": [
+        676,
+        678
+      ],
+      "reason": "Actual8.5.96; first subject8.5.99 is a typo. Duplicate result corrected remy/remm spelling."
+    },
+    {
+      "openings": [
+        74,
+        75
+      ],
+      "closures": [],
+      "reason": "8.5.98 same-version staging-repository correction, original bodies inspected."
+    },
+    {
+      "openings": [
+        91,
+        92,
+        93
+      ],
+      "closures": [
+        701,
+        703,
+        704,
+        707,
+        709
+      ],
+      "reason": "10.1.21 wrong build JDK;10.1.22 Java11 startup failure;10.1.23 replacement."
+    },
+    {
+      "openings": [
+        105,
+        108
+      ],
+      "closures": [
+        721,
+        726
+      ],
+      "reason": "M23 canceled HTTP2 regression; M24 replacement."
+    },
+    {
+      "openings": [
+        106,
+        110
+      ],
+      "closures": [
+        724,
+        725
+      ],
+      "reason": "9.0.92 canceled HTTP2 regression;9.0.93 replacement."
+    },
+    {
+      "openings": [
+        107,
+        109
+      ],
+      "closures": [
+        722,
+        723,
+        727
+      ],
+      "reason": "10.1.27 canceled HTTP2 regression;10.1.28 replacement."
+    },
+    {
+      "openings": [
+        123,
+        124
+      ],
+      "closures": [
+        739,
+        742
+      ],
+      "reason": "10.1.32 stray source file;10.1.33 replacement."
+    },
+    {
+      "openings": [
+        136,
+        139,
+        140
+      ],
+      "closures": [
+        754,
+        755,
+        758
+      ],
+      "reason": "10.1.37/38 packaging/signature errors;10.1.39 replacement."
+    },
+    {
+      "openings": [
+        137,
+        138
+      ],
+      "closures": [
+        753,
+        757
+      ],
+      "reason": "9.0.101 installer nonreproducible;9.0.102 replacement."
+    },
+    {
+      "openings": [
+        166,
+        168,
+        169
+      ],
+      "closures": [
+        796,
+        797
+      ],
+      "reason": "10.1.48 same-version two re-votes, original bodies inspected."
+    },
+    {
+      "openings": [
+        177,
+        178
+      ],
+      "closures": [
+        806
+      ],
+      "reason": "Native2.0.10 canceled uninitialized variable;2.0.11 then January2026 .12 reviewed context closure."
+    },
+    {
+      "openings": [
+        33,
+        35
+      ],
+      "closures": [],
+      "reason": "9.0.77 dropped in commit7b1a9607f5 before same-day9.0.78 ballot; same comparison9.0.76 and intended changes. Full original opening/drop/replacement records inspected."
+    },
+    {
+      "openings": [
+        143,
+        144
+      ],
+      "closures": [],
+      "reason": "April4RM explicitly drops9.0.103 and plans9.0.104; commit ec44608b94 marks not released; supplement37/38 confirms reroll."
+    }
+  ],
+  "tomcat_confirmed_separate_releases": [
+    {
+      "openings": [
+        52,
+        55
+      ],
+      "closures": [
+        669,
+        674
+      ],
+      "reason": "M12 passed October10 before M13 October11 opening."
+    },
+    {
+      "openings": [
+        53,
+        58
+      ],
+      "closures": [
+        670
+      ],
+      "reason": "8.5.94 passed October10 before8.5.95 opening."
+    },
+    {
+      "openings": [
+        54,
+        57
+      ],
+      "closures": [
+        671,
+        675
+      ],
+      "reason": "10.1.14 passed before10.1.15 opening."
+    },
+    {
+      "openings": [
+        51,
+        56
+      ],
+      "closures": [
+        672,
+        673
+      ],
+      "reason": "9.0.81 passed before9.0.82 opening."
+    },
+    {
+      "openings": [
+        112,
+        115
+      ],
+      "closures": [
+        729,
+        733
+      ],
+      "reason": "M25 passed before M26 opening."
+    },
+    {
+      "openings": [
+        113,
+        116
+      ],
+      "closures": [
+        730,
+        734
+      ],
+      "reason": "9.0.94 passed before9.0.95 opening."
+    },
+    {
+      "openings": [
+        114,
+        117
+      ],
+      "closures": [
+        731,
+        732,
+        735
+      ],
+      "reason": "10.1.29 passed before10.1.30; corrected nonbinding vote does not cancel."
+    },
+    {
+      "openings": [
+        159,
+        163
+      ],
+      "closures": [
+        779,
+        790
+      ],
+      "reason": "9.0.109 passed before9.0.110 opening."
+    },
+    {
+      "openings": [
+        160,
+        161
+      ],
+      "closures": [
+        780,
+        782,
+        783,
+        784,
+        786
+      ],
+      "reason": "10.1.45 promoted despite tally correction; explicitly announced with warning before new10.1.46 release."
+    },
+    {
+      "openings": [
+        162,
+        167
+      ],
+      "closures": [
+        792,
+        795
+      ],
+      "reason": "Actual11.0.12 passed before11.0.13 opening."
+    },
+    {
+      "openings": [
+        1,
+        8
+      ],
+      "closures": [
+        622,
+        629
+      ],
+      "reason": "M2 closed as failed January23 for quorum; M3 is a new milestone/tag February17 without an explicit reopening or respin. Shared notable-change text alone is not evidence of identical intended release. Preserve failedM2 separately; this interpretive boundary remains disclosed."
+    }
+  ],
+  "pending": [],
+  "limits": "Result declarations and actor quorum attributions are retained as participant reports; historical roles need separate evidence. This frame review does not establish horizon outcomes, public-receiver gates or a frozen first pass.",
+  "maven_boundary_findings": [
+    {
+      "openings": [
+        22
+      ],
+      "reason": "Sitetools actual M5 confirmed by staged artifact and original ballot; result51 has M4 subject typo and no original reply header. Treat result association as corroborative inference, not explicit source link."
+    },
+    {
+      "openings": [
+        227,
+        256
+      ],
+      "reason": "M17 canceled for anchor-creation regression; next M18 delivers same anchor-generation feature DOXIASITETOOLS332 and parser controls plus further fixes, without an intervening approved release. Retain same unfinished release family across quarters; explicit direct respin wording absent and identity interpretation disclosed."
+    },
+    {
+      "openings": [
+        236
+      ],
+      "reason": "Resolver alpha9 called scrubbed, but no formal original alpha9 opening in complete inspected title frame or reply/nonstandard-opening checks. No invented alpha9 opening or family."
+    },
+    {
+      "openings": [
+        206,
+        217
+      ],
+      "reason": "Alpha10 passed December22 in untagged result reply (supplement15); alpha12 remains independent."
+    },
+    {
+      "openings": [
+        396,
+        397,
+        463
+      ],
+      "reason": "Beta3 ballot approved December2, yet August2025 supplement25 says beta2/beta3 were never released. Preserve approval/publication distinction; beta4 has independently different updates and new decision, not silently merge due nonpublication."
+    },
+    {
+      "openings": [
+        498
+      ],
+      "reason": "Resources3.4.0 staged artifact/repository matches subject; checksum display filename release-plugin is a copy typo."
+    }
+  ],
+  "opening_exception_judgments": [
+    {
+      "source_id": "<DM6PR07MB4780E0A8A3C5950BD015D8D7AA15A@DM6PR07MB4780.namprd07.prod.outlook.com>",
+      "project": "ant",
+      "ordinal": 1,
+      "new_independent_opening": false,
+      "reason": "Current sender tests/comments/votes or discusses a possible build change; copied ballot text is not a new formal opening."
+    },
+    {
+      "source_id": "<1744397207.1136075.1692516268526@mail.yahoo.com>",
+      "project": "ant",
+      "ordinal": 2,
+      "new_independent_opening": false,
+      "reason": "Current sender tests/comments/votes or discusses a possible build change; copied ballot text is not a new formal opening."
+    },
+    {
+      "source_id": "<148914140.1143819.1692516489963@mail.yahoo.com>",
+      "project": "ant",
+      "ordinal": 3,
+      "new_independent_opening": false,
+      "reason": "Current sender tests/comments/votes or discusses a possible build change; copied ballot text is not a new formal opening."
+    },
+    {
+      "source_id": "<1695478550.2222772.1735463428727@mail.yahoo.com>",
+      "project": "ant",
+      "ordinal": 4,
+      "new_independent_opening": false,
+      "reason": "Current sender tests/comments/votes or discusses a possible build change; copied ballot text is not a new formal opening."
+    },
+    {
+      "source_id": "<SA1PR14MB45954FCC31B535CB3FB78040F1D7A@SA1PR14MB4595.namprd14.prod.outlook.com>",
+      "project": "httpd",
+      "ordinal": 5,
+      "new_independent_opening": false,
+      "reason": "Current sender tests/comments/votes or discusses a possible build change; copied ballot text is not a new formal opening."
+    },
+    {
+      "source_id": "<SA1PR14MB4595C2E08709048205FFD792F13D2@SA1PR14MB4595.namprd14.prod.outlook.com>",
+      "project": "httpd",
+      "ordinal": 6,
+      "new_independent_opening": false,
+      "reason": "Current sender tests/comments/votes or discusses a possible build change; copied ballot text is not a new formal opening."
+    },
+    {
+      "source_id": "<SA1PR14MB459561616D0C4F717A695DE4F1D72@SA1PR14MB4595.namprd14.prod.outlook.com>",
+      "project": "httpd",
+      "ordinal": 7,
+      "new_independent_opening": false,
+      "reason": "Current sender tests/comments/votes or discusses a possible build change; copied ballot text is not a new formal opening."
+    },
+    {
+      "source_id": "<4D8AFD1D-B416-4052-B295-99E4EA1C540D@jagunet.com>",
+      "project": "httpd",
+      "ordinal": 8,
+      "new_independent_opening": false,
+      "reason": "Current sender tests/comments/votes or discusses a possible build change; copied ballot text is not a new formal opening."
+    },
+    {
+      "source_id": "<7D485D71-7572-4BDD-BE15-3E2F6CDB964F@apache.org>",
+      "project": "maven",
+      "ordinal": 9,
+      "new_independent_opening": false,
+      "reason": "ResourceBundles1.6 same-author corrected hyperlinks, continuation of already opened ballot325; retained association to its retry family."
+    },
+    {
+      "source_id": "<BY5PR04MB655269F72C517C3A209FB1B0DE39A@BY5PR04MB6552.namprd04.prod.outlook.com>",
+      "project": "maven",
+      "ordinal": 10,
+      "new_independent_opening": false,
+      "reason": "Current sender tests/comments/votes or discusses a possible build change; copied ballot text is not a new formal opening."
+    },
+    {
+      "source_id": "<PA1P189MB3554BE9C74128FBFBE092882F9AEA@PA1P189MB3554.EURP189.PROD.OUTLOOK.COM>",
+      "project": "maven",
+      "ordinal": 11,
+      "new_independent_opening": false,
+      "reason": "Current sender tests/comments/votes or discusses a possible build change; copied ballot text is not a new formal opening."
+    },
+    {
+      "source_id": "<f0fe1912dcd84b618e3936d43d4d55c2@amazon.com>",
+      "project": "tomcat",
+      "ordinal": 12,
+      "new_independent_opening": false,
+      "reason": "Current sender tests/comments/votes or discusses a possible build change; copied ballot text is not a new formal opening."
+    },
+    {
+      "source_id": "<CANwj8Zq9sfxwtnPWWt0MvUccLUVEJr1eg9nDu867KkxqMpkasQ@mail.gmail.com>",
+      "project": "tomcat",
+      "ordinal": 13,
+      "new_independent_opening": false,
+      "reason": "Current sender tests/comments/votes or discusses a possible build change; copied ballot text is not a new formal opening."
+    }
+  ],
+  "supplement_review": {
+    "original_messages": 40,
+    "aid_lines_read": [
+      [
+        1,
+        404
+      ]
+    ],
+    "scope": "Unquoted closure prose; all source headers/bytes retained. Technical test reports do not become new ballots."
+  }
+}

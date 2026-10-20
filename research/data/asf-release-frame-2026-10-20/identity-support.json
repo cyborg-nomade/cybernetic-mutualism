@@ -1,0 +1,671 @@
+{
+  "topic_ids": [
+    "topic-0a0db128481bea16",
+    "topic-243a5671a0ff5ae5",
+    "topic-2751251eae6f24e6",
+    "topic-27d446842e64d0ae",
+    "topic-2a1447f00c429672",
+    "topic-4efbb174f0f36731",
+    "topic-590790905d83fb3b",
+    "topic-9537468d8f4bfee3",
+    "topic-9d04d71f9e159f0e",
+    "topic-a4ef107ebde2cf8d",
+    "topic-b607e31b9a645fd6",
+    "topic-e182cfb2ebc7ad34",
+    "topic-e4e1d8a53d2653d3",
+    "topic-ec5469147ece2bdd"
+  ],
+  "scope": "All exported plain bodies in retained bounded-identity reading aids reviewed; original variant membership retained separately from event/family judgment.",
+  "variants": [
+    {
+      "project": "maven",
+      "month": "2023-01",
+      "source_id": "<9faddcd6-55fe-0a15-d82c-75c8abe56c60@apache.org>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/maven-2023-01.mbox.gz",
+      "block_number": "234",
+      "raw_sha256": "6839f8159b411636a7b450f08af72424d33396176cb5608e5fd5949aab2a7a0c",
+      "plain_body_sha256": "63bb373107844c1036b6e6969a81f709a93d1094f6dd0fd037aa6e6997418b01",
+      "date_header": "Tue, 31 Jan 2023 19:00:23 +0100"
+    },
+    {
+      "project": "maven",
+      "month": "2023-02",
+      "source_id": "<pony-af733cac-2422-4883-817d-9ff0209287e1-dev@maven.apache.org>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/maven-2023-02.mbox.gz",
+      "block_number": "1",
+      "raw_sha256": "2f4711779f7a5fdf772fb5f2c30ad69563b65ced41f2a399ee2b87548e50707e",
+      "plain_body_sha256": "d4c6a1f776de501efe346e197c7ac314dcf56d16c38071a0e3cd91735e8fc803",
+      "date_header": "Wed, 01 Feb 2023 06:44:48 -0000"
+    },
+    {
+      "project": "maven",
+      "month": "2023-02",
+      "source_id": "<861f273a-9c45-7266-0b0c-119578e7dcf8@apache.org>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/maven-2023-02.mbox.gz",
+      "block_number": "10",
+      "raw_sha256": "c6a8c6795915e678132b012b6975ab0550edce12eaa24706ef574046d486cc8e",
+      "plain_body_sha256": "b0cb0789aed9db16e2df04574071b8f6e5328b2557f5d007bdf71bf6f0d25e2b",
+      "date_header": "Wed, 01 Feb 2023 19:20:49 +0100"
+    },
+    {
+      "project": "maven",
+      "month": "2023-02",
+      "source_id": "<5f8a014b-0d27-59f6-63b3-b98004147c92@apache.org>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/maven-2023-02.mbox.gz",
+      "block_number": "18",
+      "raw_sha256": "125abf9509e5032eb22242412eccd26c3e092b07a8a75336c927aa9394bab06c",
+      "plain_body_sha256": "5b2e215e471dc9effc100ee387973db5b433ee67ce90834cf199c80e4dc461c7",
+      "date_header": "Sat, 04 Feb 2023 10:06:17 +0100"
+    },
+    {
+      "project": "maven",
+      "month": "2023-02",
+      "source_id": "<CAPoyBqTL3TNnJtwCvrCiay7GgyL0WRqORByRrBNh9bcwtuRnhw@mail.gmail.com>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/maven-2023-02.mbox.gz",
+      "block_number": "33",
+      "raw_sha256": "2972bcbe38335d01a3380be4d67033ee9bac0c2a0ad969e86eb29623bc0860df",
+      "plain_body_sha256": "880a4c2ae55b5c2e1e7156409fb553a1adfac8c7ecdd5b074a04b3ba0bad64e2",
+      "date_header": "Mon, 06 Feb 2023 19:40:17 +1000"
+    },
+    {
+      "project": "maven",
+      "month": "2023-02",
+      "source_id": "<CAB8EV3T32Qy83pG+XXSjVdbT5JZJNpYxTn5C=4ERTK=Y7Cf3=Q@mail.gmail.com>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/maven-2023-02.mbox.gz",
+      "block_number": "36",
+      "raw_sha256": "5aacf7aa05d12773a8f2170f9dc6fdffc23ce3b030fe33daaf999ed5b5e98c50",
+      "plain_body_sha256": "86eaff075f00e2ee98418ef1dd37ec4b865e099457fd165baff9e9d28d996dd5",
+      "date_header": "Mon, 06 Feb 2023 10:44:23 +0100"
+    },
+    {
+      "project": "maven",
+      "month": "2023-02",
+      "source_id": "<2c820e01-71ca-11fb-5a42-c385cb506010@apache.org>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/maven-2023-02.mbox.gz",
+      "block_number": "43",
+      "raw_sha256": "1deb5799cb8058788973e081d9d8aaab6bb71167044ca8ac11cc8a7ca4c38d4d",
+      "plain_body_sha256": "e80659d4ed579ca5bc802c9162dcb18526648bca904e6d9535090f27fd33bd83",
+      "date_header": "Mon, 06 Feb 2023 14:58:36 +0100"
+    },
+    {
+      "project": "maven",
+      "month": "2024-03",
+      "source_id": "<813be58c-1e70-4c19-9a64-b7178d14f078@apache.org>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/maven-2024-03.mbox.gz",
+      "block_number": "98",
+      "raw_sha256": "1da2a8085865e9c3cfd6e6945ea3b285143d5966613b9976f84f54fed7da7860",
+      "plain_body_sha256": "571f1748170e46d7185e6f3174b218bae445d95082258b1ed292d9f7fd25c589",
+      "date_header": "Sat, 09 Mar 2024 21:38:43 +0100"
+    },
+    {
+      "project": "maven",
+      "month": "2024-03",
+      "source_id": "<4e7fa943-bd99-45e8-b406-a693c4ba4d20@apache.org>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/maven-2024-03.mbox.gz",
+      "block_number": "99",
+      "raw_sha256": "472460eb1087fa3279065028229deeabf35e39832cb750719975057ee693a506",
+      "plain_body_sha256": "9f6b72ab252e7276c6a5246b8d309687254ebc1f0a610d996bd8b44cbd4b549f",
+      "date_header": "Sat, 09 Mar 2024 22:52:53 +0100"
+    },
+    {
+      "project": "maven",
+      "month": "2024-03",
+      "source_id": "<CAPLpRQKD2GMjAg8E=6xZHoe6+cqLniu+twEXVng8PQH19qZZhA@mail.gmail.com>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/maven-2024-03.mbox.gz",
+      "block_number": "100",
+      "raw_sha256": "8be5cd62291d681dc6e712f5743826ed77e27a4790e4f69dc3f4214cfabfc35c",
+      "plain_body_sha256": "ca6b3380bd7f58c149e1fb893ac6a666684e9695bd0acb1fcee53a525896eda1",
+      "date_header": "Sat, 09 Mar 2024 22:54:06 +0100"
+    },
+    {
+      "project": "maven",
+      "month": "2024-03",
+      "source_id": "<CAJG7DX1QSykVCCeG44XbFG854jd4tuZmLw=MtO6hiPB4aQ6qeQ@mail.gmail.com>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/maven-2024-03.mbox.gz",
+      "block_number": "103",
+      "raw_sha256": "ab226cb2948f2156f41b661c39d154e2fe966a8ab5d6563ad4fe8cb724437e3c",
+      "plain_body_sha256": "4607b511324d5e402f5f213d0f85ff349c9c6080b29ac413a86aaeb63b1947c6",
+      "date_header": "Sun, 10 Mar 2024 00:58:34 +0100"
+    },
+    {
+      "project": "maven",
+      "month": "2024-03",
+      "source_id": "<CAGjJkv0EKWxtpdBuZgqskJONBA9dX_63aGBp4RBib6MQV1pkjg@mail.gmail.com>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/maven-2024-03.mbox.gz",
+      "block_number": "106",
+      "raw_sha256": "b12b17f7ceb916d6ded7a000848701d3124726fc2d5abb565a7dcefca161d0c8",
+      "plain_body_sha256": "1188cbbdf13908131cdc20d1452e999f49a424dcbefca79b8042eb42cbbdcb82",
+      "date_header": "Sun, 10 Mar 2024 13:07:30 +0100"
+    },
+    {
+      "project": "maven",
+      "month": "2024-03",
+      "source_id": "<pony-b54d31d5-4f53-455c-8bb4-580c2dbeb7b5-dev@maven.apache.org>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/maven-2024-03.mbox.gz",
+      "block_number": "112",
+      "raw_sha256": "84819217dbff4e008c24cdfca193b453821350ed2c4804d07cb2d9b60f9b071c",
+      "plain_body_sha256": "43cf9dcd444ce5c511d4593f2a46aa3f1f660d5d672dced80d23a8dcf15bfd47",
+      "date_header": "Sun, 10 Mar 2024 16:22:14 -0000"
+    },
+    {
+      "project": "maven",
+      "month": "2024-03",
+      "source_id": "<CAPoyBqRfV941BdZzz8x9BDXdfOk-6hbEh9E31=6vCo5AFhN+Eg@mail.gmail.com>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/maven-2024-03.mbox.gz",
+      "block_number": "121",
+      "raw_sha256": "5567d86af54bddfe4080557f86ef84cca8a946e5ef52db24791f72b17d3259fe",
+      "plain_body_sha256": "253a1926ec716d59134b370ecb3eeafaefc8fd58b1665bc8d3910677ea856b26",
+      "date_header": "Mon, 11 Mar 2024 09:14:48 +1000"
+    },
+    {
+      "project": "maven",
+      "month": "2024-03",
+      "source_id": "<8CD59824-90B5-4662-BB7C-2B7F8C67FF23@apache.org>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/maven-2024-03.mbox.gz",
+      "block_number": "126",
+      "raw_sha256": "ceafb971218130231341f9b6d7cfa29a71d05707843b89d2805b43b403636592",
+      "plain_body_sha256": "836960ac16af5ed720faf62e687e152acd4f962951f2fc9e000509149fea6c02",
+      "date_header": "Tue, 12 Mar 2024 16:29:07 +0100"
+    },
+    {
+      "project": "maven",
+      "month": "2024-03",
+      "source_id": "<296B731C-7B77-482C-8EA9-4D34FDB8ABF1@apache.org>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/maven-2024-03.mbox.gz",
+      "block_number": "130",
+      "raw_sha256": "05998456475d876f512e66f1d8371eda62fca01e7f23f4276b2053e147ea8fa5",
+      "plain_body_sha256": "d0b2c4a2f584dbba3f96794739103482f8f7d8c5ae7984bc71e3af7be2c248f3",
+      "date_header": "Tue, 12 Mar 2024 17:20:26 +0100"
+    },
+    {
+      "project": "maven",
+      "month": "2024-04",
+      "source_id": "<80f612c8-9819-40d0-a603-fd73fa50cac4@apache.org>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/maven-2024-04.mbox.gz",
+      "block_number": "177",
+      "raw_sha256": "ed9aa3b08d778363b1258de4409bba1097345c588724b92137810b5568eb1d06",
+      "plain_body_sha256": "a29867481879d94b617cb64def5d193df43a473eee4391617fef5bbea4075f7e",
+      "date_header": "Tue, 23 Apr 2024 21:03:06 +0200"
+    },
+    {
+      "project": "maven",
+      "month": "2024-04",
+      "source_id": "<pony-650e09ca-59b5-4dd7-bb27-4e86211ddada-dev@maven.apache.org>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/maven-2024-04.mbox.gz",
+      "block_number": "183",
+      "raw_sha256": "3f39dfecf22f2f4be01e1b11bf3aab6dd05633b4e44fdb0f790943dd466d1d0e",
+      "plain_body_sha256": "35fb61e96bcc41882fb1835e9e24667afb2c75d82baa924f439461559116a0cc",
+      "date_header": "Wed, 24 Apr 2024 07:34:06 -0000"
+    },
+    {
+      "project": "maven",
+      "month": "2024-04",
+      "source_id": "<CAGjJkv3y9cbyOnrNSc=691MW4_qsxNKpSo6fu+WfmxnaPnCGQw@mail.gmail.com>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/maven-2024-04.mbox.gz",
+      "block_number": "184",
+      "raw_sha256": "5df8cb4e9e859f92fbc046f79709c494ebb715bbdab68206c055393c5eabe56a",
+      "plain_body_sha256": "a2b15ccc9d1b0c3aa7a84ddd51ae257d1b61cd2439111a9d73db4f5e240c504a",
+      "date_header": "Wed, 24 Apr 2024 10:09:44 +0200"
+    },
+    {
+      "project": "maven",
+      "month": "2024-04",
+      "source_id": "<pony-0b241abd-ff1e-4162-99c1-f91e189a5dca-dev@maven.apache.org>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/maven-2024-04.mbox.gz",
+      "block_number": "185",
+      "raw_sha256": "22f2f5ffc253e6f71aaf038f71863b7c50402a1fa94dd16b138c9884a60192d3",
+      "plain_body_sha256": "85f33413ef6dfef2d2a726ba0e323e5b9775bf22a7c2ab1bde3b403a423e275f",
+      "date_header": "Wed, 24 Apr 2024 16:42:12 -0000"
+    },
+    {
+      "project": "maven",
+      "month": "2024-04",
+      "source_id": "<CAJG7DX31XL8mMbwA0J_KnJ=2t5asFkQF5gw5M-cCxyv+fRWqVg@mail.gmail.com>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/maven-2024-04.mbox.gz",
+      "block_number": "197",
+      "raw_sha256": "7eb1d691d635ab9cf3805dd034889aa458c7e981405f1d6f5bb64ab6ea7a386f",
+      "plain_body_sha256": "17a610c8a0e62c6e8c462467dc90515a220326faa7dd8ae97cb4b276ba18cde7",
+      "date_header": "Fri, 26 Apr 2024 14:59:25 +0200"
+    },
+    {
+      "project": "maven",
+      "month": "2024-04",
+      "source_id": "<d21cd1e7-7915-4cd0-8a8b-280fa395541e@apache.org>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/maven-2024-04.mbox.gz",
+      "block_number": "200",
+      "raw_sha256": "d50f2f22b386b9cb5e2ba62169951fb4fa6f3331e58e267442202ce9957b1c92",
+      "plain_body_sha256": "b6800cbd2de7cd4b2d3fcbc4aef7b85d5f25395094bcff1e045bed4259fcff57",
+      "date_header": "Fri, 26 Apr 2024 16:36:32 +0200"
+    },
+    {
+      "project": "maven",
+      "month": "2024-04",
+      "source_id": "<CAPoyBqSkuwpanAsOS_t5Vrq0MjnB5XyF55x0J=GN_TJuR7mVEg@mail.gmail.com>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/maven-2024-04.mbox.gz",
+      "block_number": "204",
+      "raw_sha256": "2c7f725bf73ddecb9769425d8602dbb3f3b451be283778331d1b78ea5fb3b42e",
+      "plain_body_sha256": "d8b4c9588672b1f85bb7267755f9d89e28a54ad4f174c834f55a60c33ea11f2c",
+      "date_header": "Sat, 27 Apr 2024 19:42:37 +1000"
+    },
+    {
+      "project": "tomcat",
+      "month": "2023-01",
+      "source_id": "<aa48b117-bc9e-3df0-0be0-9bd33dd617c4@apache.org>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/tomcat-2023-01.mbox.gz",
+      "block_number": "135",
+      "raw_sha256": "eb66183eab21d5414c1c0713cc520d26a37adc09214c1cc5321217c4032d0ba8",
+      "plain_body_sha256": "010d661630feb9ed89252ba8d2112077e979038c651b171e033fdf8d6b12cdad",
+      "date_header": "Mon, 09 Jan 2023 18:20:26 +0000"
+    },
+    {
+      "project": "tomcat",
+      "month": "2023-01",
+      "source_id": "<5883a2c2-e4ac-127d-b084-7ea450ef738c@apache.org>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/tomcat-2023-01.mbox.gz",
+      "block_number": "150",
+      "raw_sha256": "e43242fd15fca22eadafe9b4043b10248204342a7de02a3a522eb9f7df84836e",
+      "plain_body_sha256": "77dd98f4fe6cf2b20a4994f89d536ef335f56d6d3ce0429fc424d9c04ec414d3",
+      "date_header": "Tue, 10 Jan 2023 08:46:12 +0000"
+    },
+    {
+      "project": "tomcat",
+      "month": "2023-01",
+      "source_id": "<CANwj8Zq7t=tprC2pOwTetHPDS213Hy59Fv6R9iR0oAUgPZLDVg@mail.gmail.com>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/tomcat-2023-01.mbox.gz",
+      "block_number": "155",
+      "raw_sha256": "ec1408dfacfe72b3a06a4fe52ca142a98b57469ba23a5bc614c6410411bb90e6",
+      "plain_body_sha256": "0bf4cfd70a5848b10356130133d301882e37648d7934b841d2410135ef963839",
+      "date_header": "Tue, 10 Jan 2023 16:13:38 +0100"
+    },
+    {
+      "project": "tomcat",
+      "month": "2023-01",
+      "source_id": "<19B17A86-DB45-4B29-97B3-B6CAC6168C00@apache.org>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/tomcat-2023-01.mbox.gz",
+      "block_number": "168",
+      "raw_sha256": "6cb81d687a01b8dba3ab285cf6a28a60eaae02e770d1badfb8da9ce88fa0f9d3",
+      "plain_body_sha256": "a961843d86a5f0d16c1f65e50125685bff7fb09258d2e7576d558277d859a366",
+      "date_header": "Wed, 11 Jan 2023 09:49:47 +0800"
+    },
+    {
+      "project": "tomcat",
+      "month": "2023-01",
+      "source_id": "<a74230ec-3a34-0d3a-92fd-40a195a15795@kippdata.de>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/tomcat-2023-01.mbox.gz",
+      "block_number": "180",
+      "raw_sha256": "776be249a2b48a3f212b740a30ed771eaa51aff9e364d00babb2d7eacd81e495",
+      "plain_body_sha256": "1beea36f91646d9948924a90acbf4ebc60e5945eb5d1b09500de7faf20d71786",
+      "date_header": "Wed, 11 Jan 2023 14:40:12 +0100"
+    },
+    {
+      "project": "tomcat",
+      "month": "2023-01",
+      "source_id": "<18360f8e-82a7-d591-dfbc-fb718fd87006@apache.org>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/tomcat-2023-01.mbox.gz",
+      "block_number": "372",
+      "raw_sha256": "990b4e08d96deca3cb3adda7d31fcfc99e294cf6e70d6236cdea7d7bf32c1f7f",
+      "plain_body_sha256": "f62efa7ada1673eaf950bbf0849b2e64302a248c4115d84fc528068b08f2bb57",
+      "date_header": "Fri, 13 Jan 2023 13:48:05 +0000"
+    },
+    {
+      "project": "tomcat",
+      "month": "2023-01",
+      "source_id": "<CANwj8ZpfH_w_cBNdEeKWxheM-_6EKZzJH3xrVq5cXbu+Y1OddA@mail.gmail.com>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/tomcat-2023-01.mbox.gz",
+      "block_number": "403",
+      "raw_sha256": "4bcd64375a1c356810113258770b239a5bf858bda0378fa09101fcd7450b2539",
+      "plain_body_sha256": "d776eb5ea86c8b09be6f9f257d174551bfd82fac797c4637c0ce77d7af9f134a",
+      "date_header": "Mon, 16 Jan 2023 16:37:21 +0100"
+    },
+    {
+      "project": "tomcat",
+      "month": "2023-01",
+      "source_id": "<a189565c-be10-f25f-b9b8-081f74b3040f@apache.org>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/tomcat-2023-01.mbox.gz",
+      "block_number": "476",
+      "raw_sha256": "e0449ecbb9d8981127cd9f90ae897d381de732b254b1108b2d744687bb93012e",
+      "plain_body_sha256": "2614a7de1c9a1ed59db2c3e8a4e50e74465f4bd5c12b1b9bdeb05713716d4c73",
+      "date_header": "Thu, 19 Jan 2023 09:53:04 +0000"
+    },
+    {
+      "project": "tomcat",
+      "month": "2023-01",
+      "source_id": "<381588c7-4448-7d4f-cd4c-858da7e6a9de@apache.org>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/tomcat-2023-01.mbox.gz",
+      "block_number": "567",
+      "raw_sha256": "f681013d54a40e89a8010082e21753253319cd14eb4a2956313f39d749443b54",
+      "plain_body_sha256": "5a0cd08568fe02ffc288b4db2fbbb77b38467e6e45283645f20f4d1e2548b29b",
+      "date_header": "Mon, 23 Jan 2023 10:16:31 +0000"
+    },
+    {
+      "project": "tomcat",
+      "month": "2023-02",
+      "source_id": "<1cedf4be-7f3d-70da-3362-70e8fc1ef3ef@apache.org>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/tomcat-2023-02.mbox.gz",
+      "block_number": "449",
+      "raw_sha256": "f10655048e3facad457e7c58c0f0448d061851c5e4a9ab048ae8891ef43b9239",
+      "plain_body_sha256": "6f5fe9b67aa0a5c180ab3ae370bf67c668f15a27ec1ef33562a704c2a65ea5f9",
+      "date_header": "Fri, 17 Feb 2023 18:18:37 +0000"
+    },
+    {
+      "project": "tomcat",
+      "month": "2023-02",
+      "source_id": "<5AA89146-40A0-4FCD-A235-BF53377C9F9B@apache.org>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/tomcat-2023-02.mbox.gz",
+      "block_number": "484",
+      "raw_sha256": "6811c75f0a2e2cf655a4a1107d6f1e7c31c5068ecf3351defe10603e4e2202c0",
+      "plain_body_sha256": "440de6dc24da97d76d850ff29f1a4796d1629a4461a16b69c2a15b8b96d34b73",
+      "date_header": "Mon, 20 Feb 2023 10:05:26 +0800"
+    },
+    {
+      "project": "tomcat",
+      "month": "2023-02",
+      "source_id": "<CAGPiCjN9L+_0Ur5kbshwUD1MDYbPBUyH+0K4BNGCBwPM2XCVeg@mail.gmail.com>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/tomcat-2023-02.mbox.gz",
+      "block_number": "486",
+      "raw_sha256": "e998ce3895289c0434f6aaa93011976cfc9245b470baa93b1d73375661dc63d8",
+      "plain_body_sha256": "1008906437eb3484312950261b534359ab237b55167dd4464d9a1c1e314b8f00",
+      "date_header": "Sun, 19 Feb 2023 18:35:18 -0800"
+    },
+    {
+      "project": "tomcat",
+      "month": "2023-02",
+      "source_id": "<833e687a-7f0e-8126-f54d-932d9439a8ed@apache.org>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/tomcat-2023-02.mbox.gz",
+      "block_number": "491",
+      "raw_sha256": "6ef996783ff82a41e485a7f532ee7307ab7b91aaea11085ccb93b0aa6b7df8eb",
+      "plain_body_sha256": "21d6ef547155c22e486ce16726f12083f79631747a054534a4fea63a348ae170",
+      "date_header": "Mon, 20 Feb 2023 09:13:45 +0000"
+    },
+    {
+      "project": "tomcat",
+      "month": "2023-02",
+      "source_id": "<e5cb68d4-1c84-c41c-957f-dd13e3cd700c@internetallee.de>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/tomcat-2023-02.mbox.gz",
+      "block_number": "503",
+      "raw_sha256": "bf22d850f94f46de1d842621bd4d68306f86f74de8d0620f366b184928080b86",
+      "plain_body_sha256": "243283a3ec732e394adacebb8bf7d82a5ab7644e4a5b590ea56aaf505a1e60ef",
+      "date_header": "Mon, 20 Feb 2023 12:48:42 +0100"
+    },
+    {
+      "project": "tomcat",
+      "month": "2023-02",
+      "source_id": "<CANwj8Zq2kHkxfoO23GGKnYfQX98xpetSKcx+mm588+AgZSdO+Q@mail.gmail.com>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/tomcat-2023-02.mbox.gz",
+      "block_number": "510",
+      "raw_sha256": "3b8059a3e964d4f80ce73191406c8e0229390578e0a569a19d9f45be01b922f6",
+      "plain_body_sha256": "72bac622db22b8b5e4f000eef3248dd737c82ed8200e729dafa57939bb1c3da7",
+      "date_header": "Mon, 20 Feb 2023 15:32:54 +0100"
+    },
+    {
+      "project": "tomcat",
+      "month": "2023-02",
+      "source_id": "<CAG0-t3_rcta6Y63BWU+n_J=p+3QrNggxo3uCuJ7hfjiAWoBD-A@mail.gmail.com>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/tomcat-2023-02.mbox.gz",
+      "block_number": "529",
+      "raw_sha256": "9849361f0201b3c1a734c0f39d29614ccf32f60063d0a1d349eb9d6636727d39",
+      "plain_body_sha256": "008bfa909e072aa520cc2edac6e5c4f69aa12df0323d70b654cc25a007fe3886",
+      "date_header": "Wed, 22 Feb 2023 12:26:16 +0200"
+    },
+    {
+      "project": "tomcat",
+      "month": "2023-02",
+      "source_id": "<7996bd3b-7eb7-dcbc-2c60-dd18063f3494@apache.org>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/tomcat-2023-02.mbox.gz",
+      "block_number": "566",
+      "raw_sha256": "4d77a9facad915adae1aadede1b276a561addf83cca742127c18356c44a1483d",
+      "plain_body_sha256": "5bba40ce4335e37f1caca6b4d3f116e104448f88fe20871042dd1fc907fac38d",
+      "date_header": "Thu, 23 Feb 2023 10:22:17 +0000"
+    },
+    {
+      "project": "tomcat",
+      "month": "2023-07",
+      "source_id": "<CANwj8ZoLdW4ij1Rsax=yZxsHj8UbtYcsZA=j=S+BfjFfzs3etw@mail.gmail.com>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/tomcat-2023-07.mbox.gz",
+      "block_number": "29",
+      "raw_sha256": "9580e3555a82ebc0a296def847a7a2f37266a0e002ef5c440386f15309d4966c",
+      "plain_body_sha256": "a7ec00e3652b358ace39bea6dd04558a1a4a5ebb418cd115bb78e651a0d4a2d4",
+      "date_header": "Tue, 04 Jul 2023 11:28:45 +0200"
+    },
+    {
+      "project": "tomcat",
+      "month": "2023-07",
+      "source_id": "<168847557064.811293.11080385897456646099@gitbox2-he-fi.apache.org>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/tomcat-2023-07.mbox.gz",
+      "block_number": "59",
+      "raw_sha256": "34dcd753f518bc7f76f9928e2996163498c1f964c22e5b8491e6443474ae2566",
+      "plain_body_sha256": "e0f865b4dce507df6fc358e1ecbd86b04ece9e070ea392761c348cde9a4f8aaa",
+      "date_header": "Tue, 04 Jul 2023 12:59:30 +0000"
+    },
+    {
+      "project": "tomcat",
+      "month": "2023-07",
+      "source_id": "<CANwj8ZqU7MhCADkLEBW-JP2=FJ6fxDpTFGx1XApc_4EPhq=ywA@mail.gmail.com>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/tomcat-2023-07.mbox.gz",
+      "block_number": "66",
+      "raw_sha256": "844df695d4392ce389ddfbd647edadd1dc67ca9a8fb1da6d7447b6d888101ea9",
+      "plain_body_sha256": "4cde632fd93a8176dc0c4724953faa621cab68e75272c91e6ad95456527ccc04",
+      "date_header": "Tue, 04 Jul 2023 15:28:07 +0200"
+    },
+    {
+      "project": "tomcat",
+      "month": "2023-07",
+      "source_id": "<1dc1c4b1-877d-d694-86cd-ab9d0ab38414@apache.org>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/tomcat-2023-07.mbox.gz",
+      "block_number": "135",
+      "raw_sha256": "3e0b8dddd7c5b93d8ec56f3527f2efa53835318d81dabdacc725afb62e05835a",
+      "plain_body_sha256": "1477af970ad11d074a8d3eee61016d8989a48fcbc9d0d8e911d7c94fa153c3aa",
+      "date_header": "Wed, 05 Jul 2023 19:59:04 +0100"
+    },
+    {
+      "project": "tomcat",
+      "month": "2023-07",
+      "source_id": "<6F28A4DC-B69D-46BB-9637-00BE4415B99F@apache.org>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/tomcat-2023-07.mbox.gz",
+      "block_number": "137",
+      "raw_sha256": "b983dd52d74d94688e06104a6b54787fd6177456685e9a0e0f1c5b76259464af",
+      "plain_body_sha256": "df7af5165aa029c73ffbff918461d483ef62f73b46bd54ddf83f0cdb11db66dc",
+      "date_header": "Thu, 06 Jul 2023 09:42:51 +0800"
+    },
+    {
+      "project": "tomcat",
+      "month": "2023-07",
+      "source_id": "<4f5ce339-000c-0c95-29cb-1d8b03b4d62d@gmail.com>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/tomcat-2023-07.mbox.gz",
+      "block_number": "139",
+      "raw_sha256": "e03de7f9cd833c9cafb85f968443d0b1e016c3bad846433c939a65ef74fd584a",
+      "plain_body_sha256": "b3d873dfaedceb6fe4ac426dd79af332169d1452350eff6a85c546bf4964aea0",
+      "date_header": "Thu, 06 Jul 2023 10:04:00 +0200"
+    },
+    {
+      "project": "tomcat",
+      "month": "2023-07",
+      "source_id": "<CANSu_-8ozPh4yOPwRHdki1z=WMcr_mXf07LdF1PcDLitxAEgig@mail.gmail.com>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/tomcat-2023-07.mbox.gz",
+      "block_number": "140",
+      "raw_sha256": "aa32ba7f72250ea7d65235097514c22befa0683a7e24daf95b1a44548d7e9c8b",
+      "plain_body_sha256": "417ce2cae5b960f7fb739d2de82a6cf92ec01537924644ac91496ef990656261",
+      "date_header": "Thu, 06 Jul 2023 06:48:02 -0400"
+    },
+    {
+      "project": "tomcat",
+      "month": "2023-07",
+      "source_id": "<CANwj8Zp7fdn-OcMQyUigEiGUK3WMQD7jy4juo_ZiLZP2OcnUeA@mail.gmail.com>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/tomcat-2023-07.mbox.gz",
+      "block_number": "153",
+      "raw_sha256": "101dd83f5cdb0ee32abb628e445fc3d644f7799658d48048b425d1363e99ea09",
+      "plain_body_sha256": "1a5fe0376ea36e0d45141400760ee1a2b352a730645df494aa55f3b029b4b0f2",
+      "date_header": "Thu, 06 Jul 2023 16:20:47 +0200"
+    },
+    {
+      "project": "tomcat",
+      "month": "2025-04",
+      "source_id": "<CANwj8Zq1a08sqhWUGtC=_=c+jQ7Aj4pm1zigOW4UanTXoWB+6w@mail.gmail.com>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/tomcat-2025-04.mbox.gz",
+      "block_number": "68",
+      "raw_sha256": "7f6319b02906258276a670bd20bfcfc37bd85149972b64b1babac5a6c7a5d569",
+      "plain_body_sha256": "4a417afeecac480288745b21a3db721c0fdb6bad8ea2a802e30adf5f1bc299d7",
+      "date_header": "Tue, 01 Apr 2025 20:56:09 +0200"
+    },
+    {
+      "project": "tomcat",
+      "month": "2025-04",
+      "source_id": "<CANwj8Zp=hSQMnr8qGcQ2Cin=Zz=XN9eGASF0pSn8fD0b2cBr1Q@mail.gmail.com>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/tomcat-2025-04.mbox.gz",
+      "block_number": "74",
+      "raw_sha256": "6a63846b5fb5976675bb3610fcf23234bd71ce573b7e94b09912027cf269477f",
+      "plain_body_sha256": "2e899d4671f9c2faeecdbcd2cff898f361b13935c9cfa90bd0e528f57084fd1f",
+      "date_header": "Wed, 02 Apr 2025 11:58:53 +0200"
+    },
+    {
+      "project": "tomcat",
+      "month": "2025-04",
+      "source_id": "<CAG0-t3-jKxwnzGCSt4HsrwwUKg3Gt+_S5M6SiVyga7YSgABZ1w@mail.gmail.com>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/tomcat-2025-04.mbox.gz",
+      "block_number": "98",
+      "raw_sha256": "1084fad3be37ed46a9405f964cfb106fdd9c3cc6201560a720665359d81eea28",
+      "plain_body_sha256": "3630bb2b972bbcadcc8ea71fa4e4a7bf221b2a1e5320b0d47843273deef6c2dd",
+      "date_header": "Thu, 03 Apr 2025 15:29:15 +0300"
+    },
+    {
+      "project": "tomcat",
+      "month": "2025-04",
+      "source_id": "<a30ad9d1-f1e8-4ce2-81a1-c8f066c157e4@kippdata.de>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/tomcat-2025-04.mbox.gz",
+      "block_number": "99",
+      "raw_sha256": "9720d62801c04cb4fb08d4e0bfe16728b1d23c59ddae26b4b758bfc0d48b01ce",
+      "plain_body_sha256": "4795cf9864f04231e89963c36914fb2bbc3c2f593c75149426dbd7e2c5790995",
+      "date_header": "Thu, 03 Apr 2025 14:38:29 +0200"
+    },
+    {
+      "project": "tomcat",
+      "month": "2025-04",
+      "source_id": "<d03bba16-3c8f-43a0-a0fe-7e4b411b8822@christopherschultz.net>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/tomcat-2025-04.mbox.gz",
+      "block_number": "100",
+      "raw_sha256": "4d48219bd4e19f52417b5a96bcbe1c6ba8c98208460d5a7743aa9e881dcdc63b",
+      "plain_body_sha256": "1f8c8849d75b1ad7a93b0feb4c8c6a6def19fa08d8e969cda3248063ff1e7bc3",
+      "date_header": "Thu, 03 Apr 2025 08:53:53 -0400"
+    },
+    {
+      "project": "tomcat",
+      "month": "2025-04",
+      "source_id": "<CANwj8Zrj-n8AoZdRZCVSiqtuf2U3SW6Bnw1rv3PxfGCQKchb=A@mail.gmail.com>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/tomcat-2025-04.mbox.gz",
+      "block_number": "101",
+      "raw_sha256": "a1207abb3efd0791c21015a71a7de6bb15cfc58d2c526ce97fd674ead402db4e",
+      "plain_body_sha256": "bbf943332bea99f54dc32c26e2d1b02a541d9e7cd74d41f71140cfbf746e533e",
+      "date_header": "Thu, 03 Apr 2025 14:58:15 +0200"
+    },
+    {
+      "project": "tomcat",
+      "month": "2025-04",
+      "source_id": "<CANwj8ZpWaLbujndcKFk-jChGcsNcxxmQ86kn2yHVR5MCEK4hzg@mail.gmail.com>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/tomcat-2025-04.mbox.gz",
+      "block_number": "102",
+      "raw_sha256": "93d972d7e2a62a405c3b7005e5a2dfb618f13aeabeb82e0badcd3420ee998224",
+      "plain_body_sha256": "2055dd09d0dc8d932e8ce637d62be6721fb99690de013d87f4a36e67529c4b3e",
+      "date_header": "Thu, 03 Apr 2025 15:03:28 +0200"
+    },
+    {
+      "project": "tomcat",
+      "month": "2025-04",
+      "source_id": "<CANwj8Zq9sfxwtnPWWt0MvUccLUVEJr1eg9nDu867KkxqMpkasQ@mail.gmail.com>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/tomcat-2025-04.mbox.gz",
+      "block_number": "104",
+      "raw_sha256": "6a4e2b35431ff440d1020db09a80d1318f26b88e6a543ee5ddd095faa6da7754",
+      "plain_body_sha256": "244d34c66813029ce0941bc35e0f65fd1c849fd45b48653cde39c5bf875ec2c4",
+      "date_header": "Thu, 03 Apr 2025 15:23:03 +0200"
+    },
+    {
+      "project": "tomcat",
+      "month": "2025-04",
+      "source_id": "<CAG0-t3_Tn2j1Ke6sND7e3MUGZYgbqAk-iFCojJvGkCBTVKJv1A@mail.gmail.com>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/tomcat-2025-04.mbox.gz",
+      "block_number": "105",
+      "raw_sha256": "cdb5529dbb5fa51b5dfdfc9adf4514ff14cff27104eedbd27eecbfa337a45035",
+      "plain_body_sha256": "65b0a4b4f76a63ed84f0802b92d20cdef839419447d20808a8ff6680b10d3802",
+      "date_header": "Thu, 03 Apr 2025 16:39:38 +0300"
+    },
+    {
+      "project": "tomcat",
+      "month": "2025-04",
+      "source_id": "<CAG0-t3-moSi-0vo0tnE_tipL66gyvhkYGzK+1AOGbZ6QJvL+uw@mail.gmail.com>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/tomcat-2025-04.mbox.gz",
+      "block_number": "106",
+      "raw_sha256": "d812389dd6e15f32cf993433b0dee155017edc89262560f717251963062848f8",
+      "plain_body_sha256": "7aa8e388c531f66551e75d8aa684646ba3dcfc54919fc7a12bde222d486573d3",
+      "date_header": "Thu, 03 Apr 2025 16:44:04 +0300"
+    },
+    {
+      "project": "tomcat",
+      "month": "2025-04",
+      "source_id": "<CANwj8ZosHWasB-JC9Tm0K6bnkY1BxpEKtUhLhKkKZrxonGoOUg@mail.gmail.com>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/tomcat-2025-04.mbox.gz",
+      "block_number": "109",
+      "raw_sha256": "569ef13e8f449d3a3e0f4536e864199cb0d33c91c3c6846092b7df5bd3aaf5a4",
+      "plain_body_sha256": "72a04f5d8bdb9fbcdcbe338dbc5c3e06b4ee7e37f6a015cc4c1c13b370ff62c7",
+      "date_header": "Thu, 03 Apr 2025 16:22:23 +0200"
+    },
+    {
+      "project": "tomcat",
+      "month": "2025-04",
+      "source_id": "<dd3f35f1-7ee7-45ac-a5dc-d91badc9dedb@apache.org>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/tomcat-2025-04.mbox.gz",
+      "block_number": "123",
+      "raw_sha256": "8c2a96d38c2b6ef28833bec67f785cb008fb61f6d2313ed9327b46ee0cbf8072",
+      "plain_body_sha256": "1a143dff4a1b2cb392a07e4fe87b095841860af53fe5c8c2ee9753c32c98c65d",
+      "date_header": "Thu, 03 Apr 2025 18:38:44 +0100"
+    },
+    {
+      "project": "tomcat",
+      "month": "2025-04",
+      "source_id": "<5435eefa-36de-47b0-805e-81c4f3049b86@christopherschultz.net>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/tomcat-2025-04.mbox.gz",
+      "block_number": "126",
+      "raw_sha256": "83fe8e592a833d3f08f70f50d24a6af6fd069a40f9a8f539d473b6b726b39768",
+      "plain_body_sha256": "9dd774fd69ae3503e869089e46187bd7b3c7355381d0a63dda0ce239d368d938",
+      "date_header": "Thu, 03 Apr 2025 14:34:35 -0400"
+    },
+    {
+      "project": "tomcat",
+      "month": "2025-04",
+      "source_id": "<0fe7cf84-e296-418f-a082-5915805805e3@apache.org>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/tomcat-2025-04.mbox.gz",
+      "block_number": "127",
+      "raw_sha256": "b5ca05041afafbe95b08d28c03bb7c27a5d6d917e4214497d1df35a5e096bd4e",
+      "plain_body_sha256": "ffb79c3524042eefdb12288aac51275cc0c10ce3565e53d2f2be21200b648af0",
+      "date_header": "Thu, 03 Apr 2025 19:49:04 +0100"
+    },
+    {
+      "project": "tomcat",
+      "month": "2025-04",
+      "source_id": "<CANwj8ZrPQAh7hvaOUVFoUu44duk3ax4QUJUZX-rNvggbUyizqw@mail.gmail.com>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/tomcat-2025-04.mbox.gz",
+      "block_number": "129",
+      "raw_sha256": "f60e3d79d7980e3bcc614861aae3093e3289f89f7ed9e6b646cd9a95552f4e8a",
+      "plain_body_sha256": "d4f52fd2d44602f864330865bc5d9473f05733e896d48f7e7c658c96427c550f",
+      "date_header": "Thu, 03 Apr 2025 21:24:10 +0200"
+    },
+    {
+      "project": "tomcat",
+      "month": "2025-04",
+      "source_id": "<CANwj8ZorCumotPofiZs2X5ngWw5RKDNB+hz_qqq5O-97mi=VFg@mail.gmail.com>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/tomcat-2025-04.mbox.gz",
+      "block_number": "140",
+      "raw_sha256": "725b6c4dd2da2b0d78eb897185d20979d1c7f31c7fd430dedf8b74a1c6bd5988",
+      "plain_body_sha256": "81541afd04c46e527ba6c0f0a911358486253566ccb2a48fc692cf748faf47dd",
+      "date_header": "Fri, 04 Apr 2025 09:43:40 +0200"
+    },
+    {
+      "project": "tomcat",
+      "month": "2025-04",
+      "source_id": "<174375267180.39193.9091439161163669149@gitbox3-he-fi.apache.org>",
+      "export_path": "research/data/asf-access-2026-09-21/sources/tomcat-2025-04.mbox.gz",
+      "block_number": "141",
+      "raw_sha256": "ae7450a434fb9de875b892e928df80a396ea92f6eb3e7c6764e0272ab0d803e1",
+      "plain_body_sha256": "5fb24441aee0ef69b9ac1ea77ce2ed7b870be0b10ca1a36f841d70a43f4fad28",
+      "date_header": "Fri, 04 Apr 2025 07:44:31 +0000"
+    }
+  ]
+}
