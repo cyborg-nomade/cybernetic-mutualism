@@ -351,6 +351,36 @@ eligibility and dated-authority checks, selected-family outcomes, the
 cross-boundary census and component/shock/rival/contrast records remain
 unfinished. No first-pass lock or washout has begun.
 
+## October 20–21 Baseline and Dated Policy Review
+
+The [evidence-review record](../data/asf-evidence-review-2026-10-20/README.md)
+now retains independent findings for all 36 selected baseline families, their
+complete opening-topic body reviews and separately declared closure records.
+The source check re-extracts 458 original raw/plain-body variants. Three dates
+were corrected against the original result messages: GPG 3.2.8 passed on July
+2, Tomcat 10.1.6 on February 24, and Tomcat 9.0.109 on September 5. Their
+opening-quarter assignments are unchanged. An October 21 parser comparison
+found one reply with unintelligible trailing bytes in the reading-aid decoding;
+both decoded hashes and the unchanged raw hash are preserved. The explicit
+vote and its interpretation are unchanged, and the frozen parser is unmodified.
+
+The same record retains the pre-window ASF voting/release rules, all 16
+2023–2025 source changes to those documents, and 24 complete dated Infra policy
+versions. Thirteen independent interpretations distinguish substantive rules
+from link and metadata changes. The external-contributor GitHub Actions
+approval default appears in the February 3 2023 source; March 19 adds a
+conditional exception. The March project experience cannot supply its earliest
+onset. The 2025 expedited-release explanation requirement is not applied to
+2023/2024 votes. The erroneous July date on the first August 2024 home-hosting
+retirement notice remains visible alongside its correction. Repository source
+dates are kept separate from website deployment and receiver implementation.
+
+Explicit family-identity decisions merge shared circulars, separate independently
+requested deliverables within joint threads, and preserve pre-window origins.
+They do not yet certify all final act associations, component measurements or
+causal classifications. Source publication/authority completion, the full
+census, the deterministic audit supplement and registered locking remain open.
+
 ## Remaining Work and Review Boundary
 
 The owner accepted the September checkpoint as the beginning of item 3 under
@@ -367,7 +397,7 @@ larger item remains open. Required work remains:
 3. Complete the eligible cross-boundary and local-other census, including
    unsuccessful and withdrawn requests. Retain the completed ordered release
    frame and fixed project-quarter draw while completing its source checks
-   and selected-family evidence.
+   and incorporating the completed selected-family evidence review.
 4. Enter episodes and measurements before causal labels; complete shock
    searches, rival matrices, and contrasts before witness qualification. Track
    60-, 90-, and 180-day dispositions independently without forward-filling.

@@ -1,0 +1,20 @@
+{
+  "captured_at": "2026-10-21T07:07:45.843200+00:00",
+  "repository": "apache/www-site",
+  "ref": "abfe5eef1cc73921eae334c70b75fefed0ae9981",
+  "records": [
+    {
+      "file": "asf-voting-2022-base.md",
+      "path": "content/foundation/voting.md",
+      "sha256": "2a15504727664582cd3499a01dae049bf731ea33e35b3895ce325b9fa0bbd431",
+      "retrieval_completion_file_mtime": "2026-10-20T14:26:30.526664+00:00"
+    },
+    {
+      "file": "asf-release-policy-2022-base.md",
+      "path": "content/legal/release-policy.md",
+      "sha256": "f02a3a00a32d26ae00052541211c28d6480f3565f658d6fdd85f45dfb25fe8ec",
+      "retrieval_completion_file_mtime": "2026-10-20T14:25:59.345857+00:00"
+    }
+  ],
+  "limitation": "File modification time records retained local write completion, not a remote publication time. The initial unquoted voting-path shell attempt failed; only the successful nonempty response is retained."
+}

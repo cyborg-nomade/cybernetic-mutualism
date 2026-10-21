@@ -1,0 +1,571 @@
+VERSION infra-end_of_home-9b24463979f6c57e65e71c8b6e4b0da4f6410801.md 2024-08-13T19:14:05Z
+--- previous retained version
++++ infra-end_of_home-9b24463979f6c57e65e71c8b6e4b0da4f6410801.md
+@@ -0,0 +1,10 @@
++title: You can't go home again 
++date: '2024-07-22' 
++permalink: endofhome 
++layout: post
++
++25 years ago, it was somewhat difficult for people to put personal content onto the web, so the ASF provided that feature for our committers. It was first known as `people.apache.org` and later as `home.apache.org`. Many ASF committers have made use of the service, and it currently holds several hundred gigabytes of data.
++
++Today, there are so many options to host content that it no longer makes sense for the Foundation to perform that function, and we will be turning "home" off around Thursday, **September 12, 2024**. We ask that anyone with content on the service to log in via `sftp` and download the data they want to preserve.
++
++We also note that members of some projects have been using `home` as a way to share release candidates of project code. This was never the purpose of the `home` service. Please use one of the approved locations for sharing release candidates:  `dist.apache.org/dev/` or `nightlies.apache.org`. 
+
+VERSION infra-end_of_home-080ac3c95343d4d826d1ca3ed3099045f8022a5b.md 2024-08-14T13:49:57Z
+--- previous retained version
++++ infra-end_of_home-080ac3c95343d4d826d1ca3ed3099045f8022a5b.md
+@@ -1,5 +1,5 @@
+ title: You can't go home again 
+-date: '2024-07-22' 
++date: '2024-08-13' 
+ permalink: endofhome 
+ layout: post
+ 
+
+VERSION infra-github-actions-policy-44803bbe323fa47501269b779c3526b2aa7a2376.md 2021-07-24T12:54:15Z
+--- previous retained version
++++ infra-github-actions-policy-44803bbe323fa47501269b779c3526b2aa7a2376.md
+@@ -0,0 +1,26 @@
++Title: GitHub Actions Policy
++
++This page documents the policies for using [GitHub Actions](github-actions-secrets.html) at the Apache Software Foundation.
++
++For details on the use of requirement level terms, see the <a href="https://www.ietf.org/rfc/rfc2119.txt" target="_blank">requirements levels</a> standard.
++
++### Triggers: ###
++
++You **MUST NOT** use `pull_request_target` as a trigger on **ANY** action that exports **ANY** confidential credentials or tokens such as `GITHUB_TOKEN` or `NPM_TOKEN`.
++
++### External actions ###
++
++You **MAY** use all actions internal to the `apache/*`, `github/*` and `actions/*` namespaces without restrictions.
++
++You **MUST** pin all external actions to the specific git hash (SHA1) of the action that has been reviewed for use by the project. For instance, you **MUST** pin `foobar/baz-action@8843d7f92416211de9ebb963ff4ce28125932878`.
++
++### Using self-hosted runners with GitHub Actions
++
++See this guidance on <a href="https://cwiki.apache.org/confluence/display/INFRA/GitHub+-+self-hosted+runners" target="_blank">GitHub - self-hosted runners</a>.
++
++### Pushing commits to repositories###
++
++In general, only committers **MAY** push commits to repositories.
++
++Automated services such as GitHub Actions (and Jenkins, BuildBot, etc.) **MAY** work on website content and other non-released data such as documentation and convenience binaries.
++Automated services **MUST NOT** push data to a repository or branch that is subject to official release as a software package by the project, **unless** the project secures specific prior authorization of the workflow from Infrastructure.
+
+VERSION infra-github-actions-policy-b5c88b26ee6ce158126e37602ee46f23a40290a1.md 2023-02-02T19:49:46Z
+--- previous retained version
++++ infra-github-actions-policy-b5c88b26ee6ce158126e37602ee46f23a40290a1.md
+@@ -4,11 +4,11 @@
+ 
+ For details on the use of requirement level terms, see the <a href="https://www.ietf.org/rfc/rfc2119.txt" target="_blank">requirements levels</a> standard.
+ 
+-### Triggers: ###
++### Triggers
+ 
+ You **MUST NOT** use `pull_request_target` as a trigger on **ANY** action that exports **ANY** confidential credentials or tokens such as `GITHUB_TOKEN` or `NPM_TOKEN`.
+ 
+-### External actions ###
++### External actions
+ 
+ You **MAY** use all actions internal to the `apache/*`, `github/*` and `actions/*` namespaces without restrictions.
+ 
+@@ -18,7 +18,7 @@
+ 
+ See this guidance on <a href="https://cwiki.apache.org/confluence/display/INFRA/GitHub+-+self-hosted+runners" target="_blank">GitHub - self-hosted runners</a>.
+ 
+-### Pushing commits to repositories###
++### Pushing commits to repositories
+ 
+ In general, only committers **MAY** push commits to repositories.
+ 
+
+VERSION infra-github-actions-policy-86814a041028ee7077b686256fa6b0ad78630009.md 2023-02-03T13:56:49Z
+--- previous retained version
++++ infra-github-actions-policy-86814a041028ee7077b686256fa6b0ad78630009.md
+@@ -24,3 +24,11 @@
+ 
+ Automated services such as GitHub Actions (and Jenkins, BuildBot, etc.) **MAY** work on website content and other non-released data such as documentation and convenience binaries.
+ Automated services **MUST NOT** push data to a repository or branch that is subject to official release as a software package by the project, **unless** the project secures specific prior authorization of the workflow from Infrastructure.
++
++### Non-committer contributors and GitHub Actions
++
++GitHub provides an option to allow a non-committer contributor to use GitHub Actions if a previous pull request by that person has been approved. This raises security concerns, and could cause issues with overall use of GitHub Actions. 
++
++Infra is setting the default for this option to “always require approval for external contributors”.
++
++Projects that have a strong desire to use the “only need approval first time” option should communicate that, explaining their reasons, in a Jira ticket for Infra.
+
+VERSION infra-github-actions-policy-e20b07d9276f265802583d4bbf6d5d83e7b58d35.md 2023-03-19T16:52:37Z
+--- previous retained version
++++ infra-github-actions-policy-e20b07d9276f265802583d4bbf6d5d83e7b58d35.md
+@@ -31,4 +31,6 @@
+ 
+ Infra is setting the default for this option to “always require approval for external contributors”.
+ 
+-Projects that have a strong desire to use the “only need approval first time” option should communicate that, explaining their reasons, in a Jira ticket for Infra.
++Projects that have a strong desire to use the “only require approval first time” option should communicate that, explaining their reasons, in a Jira ticket for Infra.
++
++Projects will be allowed to continue using the "only require approval first time" feature provided they affirm that they will actively monitor their workflows for abuse and act accordingly. Failure to do so may result in the workflow settings being switched to "always require approval for external contributors".
+
+VERSION infra-github-actions-policy-09956ce73083a9526f0faa572e3da49b0029f7bc.md 2023-03-20T13:21:34Z
+--- previous retained version
++++ infra-github-actions-policy-09956ce73083a9526f0faa572e3da49b0029f7bc.md
+@@ -33,4 +33,4 @@
+ 
+ Projects that have a strong desire to use the “only require approval first time” option should communicate that, explaining their reasons, in a Jira ticket for Infra.
+ 
+-Projects will be allowed to continue using the "only require approval first time" feature provided they affirm that they will actively monitor their workflows for abuse and act accordingly. Failure to do so may result in the workflow settings being switched to "always require approval for external contributors".
++Projects will be allowed to continue using the "only require approval first time" feature, provided they affirm that they will actively monitor their workflows for abuse and act accordingly. Failure to do so may result in the workflow settings being switched back to "always require approval for external contributors".
+
+VERSION infra-github-actions-policy-ee6af28ba42c7051ae385ceb60f355504ebcd1f6.md 2023-03-20T17:04:04Z
+--- previous retained version
++++ infra-github-actions-policy-ee6af28ba42c7051ae385ceb60f355504ebcd1f6.md
+@@ -29,7 +29,7 @@
+ 
+ GitHub provides an option to allow a non-committer contributor to use GitHub Actions if a previous pull request by that person has been approved. This raises security concerns, and could cause issues with overall use of GitHub Actions. 
+ 
+-Infra is setting the default for this option to “always require approval for external contributors”.
++The default for this option is to “always require approval for external contributors”.
+ 
+ Projects that have a strong desire to use the “only require approval first time” option should communicate that, explaining their reasons, in a Jira ticket for Infra.
+ 
+
+VERSION infra-github-actions-policy-9c4e108a01e10d04629c77460b6f53c2c057ca72.md 2024-03-22T17:34:34Z
+--- previous retained version
++++ infra-github-actions-policy-9c4e108a01e10d04629c77460b6f53c2c057ca72.md
+@@ -3,6 +3,16 @@
+ This page documents the policies for using [GitHub Actions](github-actions-secrets.html) at the Apache Software Foundation.
+ 
+ For details on the use of requirement level terms, see the <a href="https://www.ietf.org/rfc/rfc2119.txt" target="_blank">requirements levels</a> standard.
++
++### Resource use
++Due to misconfigurations in their builds, some projects have been using unsupportable numbers of [GitHub Actions](github-actions-secrets.html). As part of fixing this situation, Infra has established a policy for GitHub Actions use. This section of the policy comes into effect on **April 20, 2024**:
++
++  - All workflows **MUST** have a job concurrency level less than or equal to 20. This means a workflow cannot have more than 20 jobs running at the same time across all matrices.
++  - All workflows **SHOULD** have a job concurrency level less than or equal to 15. Just because 20 is the max, doesn't mean you should strive for 20.
++  - The average number of minutes a project uses _per calendar week_ **MUST NOT** exceed the equivalent of 25 full-time runners (250,000 minutes, or 4,200 hours).
++  - The average number of minutes a project uses _in any consecutive five-day period_ **MUST NOT** exceed the equivalent of 30 full-time runners (216,000 minutes, or 3,600 hours).
++
++Projects whose builds consistently cross the maximum use limits will lose their access to GitHub Actions until they fix their build configurations.
+ 
+ ### Triggers
+ 
+
+VERSION infra-github-actions-policy-b7ca558975f03ae3e58a72ef5d29356020e67f37.md 2024-09-02T12:10:14Z
+--- previous retained version
++++ infra-github-actions-policy-b7ca558975f03ae3e58a72ef5d29356020e67f37.md
+@@ -1,4 +1,6 @@
+ Title: GitHub Actions Policy
++
++license: https://www.apache.org/licenses/LICENSE-2.0
+ 
+ This page documents the policies for using [GitHub Actions](github-actions-secrets.html) at the Apache Software Foundation.
+ 
+
+VERSION infra-github-actions-policy-82c306da319e944bbada263e9bf091247cc6ef1f.md 2024-09-04T11:48:14Z
+--- previous retained version
++++ infra-github-actions-policy-82c306da319e944bbada263e9bf091247cc6ef1f.md
+@@ -1,5 +1,4 @@
+ Title: GitHub Actions Policy
+-
+ license: https://www.apache.org/licenses/LICENSE-2.0
+ 
+ This page documents the policies for using [GitHub Actions](github-actions-secrets.html) at the Apache Software Foundation.
+
+VERSION infra-github-actions-policy-979753361cefa992811aa79d4a43d60adc425f6f.md 2024-10-03T09:58:18Z
+--- previous retained version
++++ infra-github-actions-policy-979753361cefa992811aa79d4a43d60adc425f6f.md
+@@ -4,6 +4,8 @@
+ This page documents the policies for using [GitHub Actions](github-actions-secrets.html) at the Apache Software Foundation.
+ 
+ For details on the use of requirement level terms, see the <a href="https://www.ietf.org/rfc/rfc2119.txt" target="_blank">requirements levels</a> standard.
++
++For additional advice on how to use this feature safely, see <a href="https://cwiki.apache.org/confluence/display/BUILDS/GitHub+Actions+Security" target="_blank">GitHub Actions Security</a>.
+ 
+ ### Resource use
+ Due to misconfigurations in their builds, some projects have been using unsupportable numbers of [GitHub Actions](github-actions-secrets.html). As part of fixing this situation, Infra has established a policy for GitHub Actions use. This section of the policy comes into effect on **April 20, 2024**:
+
+VERSION infra-github-actions-policy-b22c3553a8f6be9e840f7cdc73a22d8b80193ceb.md 2025-02-27T19:48:37Z
+--- previous retained version
++++ infra-github-actions-policy-b22c3553a8f6be9e840f7cdc73a22d8b80193ceb.md
+@@ -8,7 +8,7 @@
+ For additional advice on how to use this feature safely, see <a href="https://cwiki.apache.org/confluence/display/BUILDS/GitHub+Actions+Security" target="_blank">GitHub Actions Security</a>.
+ 
+ ### Resource use
+-Due to misconfigurations in their builds, some projects have been using unsupportable numbers of [GitHub Actions](github-actions-secrets.html). As part of fixing this situation, Infra has established a policy for GitHub Actions use. This section of the policy comes into effect on **April 20, 2024**:
++Due to misconfigurations in their builds, some projects have been using unsupportable numbers of [GitHub Actions](github-actions-secrets.html). As part of fixing this situation, Infra has established a policy for GitHub Actions use:
+ 
+   - All workflows **MUST** have a job concurrency level less than or equal to 20. This means a workflow cannot have more than 20 jobs running at the same time across all matrices.
+   - All workflows **SHOULD** have a job concurrency level less than or equal to 15. Just because 20 is the max, doesn't mean you should strive for 20.
+
+VERSION infra-github-actions-policy-ef31a66de04e5683231ee8625e013fa5274f1976.md 2025-03-06T15:16:42Z
+--- previous retained version
++++ infra-github-actions-policy-ef31a66de04e5683231ee8625e013fa5274f1976.md
+@@ -6,6 +6,9 @@
+ For details on the use of requirement level terms, see the <a href="https://www.ietf.org/rfc/rfc2119.txt" target="_blank">requirements levels</a> standard.
+ 
+ For additional advice on how to use this feature safely, see <a href="https://cwiki.apache.org/confluence/display/BUILDS/GitHub+Actions+Security" target="_blank">GitHub Actions Security</a>.
++
++### Dependabot
++All repositories using GitHub Actions **must** have dependabot enabled.
+ 
+ ### Resource use
+ Due to misconfigurations in their builds, some projects have been using unsupportable numbers of [GitHub Actions](github-actions-secrets.html). As part of fixing this situation, Infra has established a policy for GitHub Actions use:
+
+VERSION infra-github-actions-policy-e5697b5eb7ee872f586b3b911421a0671f154e22.md 2025-03-06T15:19:15Z
+--- previous retained version
++++ infra-github-actions-policy-e5697b5eb7ee872f586b3b911421a0671f154e22.md
+@@ -8,7 +8,7 @@
+ For additional advice on how to use this feature safely, see <a href="https://cwiki.apache.org/confluence/display/BUILDS/GitHub+Actions+Security" target="_blank">GitHub Actions Security</a>.
+ 
+ ### Dependabot
+-All repositories using GitHub Actions **must** have dependabot enabled.
++All repositories using GitHub Actions **must** have <a href="https://github.com/dependabot" target="_blank">Dependabot</a> enabled.
+ 
+ ### Resource use
+ Due to misconfigurations in their builds, some projects have been using unsupportable numbers of [GitHub Actions](github-actions-secrets.html). As part of fixing this situation, Infra has established a policy for GitHub Actions use:
+
+VERSION infra-code-signing-access-f7d57df4c6114ccd302ca4ae1941d42e42d08f7b.md 2024-10-23T10:56:43Z
+--- previous retained version
++++ infra-code-signing-access-f7d57df4c6114ccd302ca4ae1941d42e42d08f7b.md
+@@ -0,0 +1,21 @@
++Title: Requesting access to the code signing service
++license: https://www.apache.org/licenses/LICENSE-2.0
++
++The ASF currently uses <a href="https://www.ssl.com/" target="_blank">ssl.com</a>'s <a href="https://www.ssl.com/esigner/" target="_blank">eSigner</a> to sign JARs and Windows executables.
++
++To gain access to the service, create a <a href="https://issues.apache.org/jira/browse/INFRA" target="_blank"> Jira ticket</a> with the following information:
++
++  - Set the component to `code signing`
++  - The name of the PMC requesting the code signing service
++  - The Apache IDs of the committer(s) who will act as release managers
++
++The infra team will then request the account creation and (after a few e-mails and configuring a OTP token) you will have an account that lets you access the service. Each PMC member must have their own account to access the service.
++
++Release managers can then sign release artifacts via:
++
++  - the API using a tool such as <a href="https://ebourg.github.io/jsign/" target="_blank">Jsign<a/>
++  - the standard Windows tools (signtool.exe / certutil.exe) by installing the <a href="https://www.ssl.com/downloads/#cka" target="_blank">eSigner Cloud Key Adapter (CKA)</a>
++  - ssl.com's Java based <a href="https://www.ssl.com/guide/esigner-codesigntool-command-guide/" target="_blank">CodeSignTool</a>
++  - the eSigner <a href="https://app.esigner.com/" target="_blank">web interface</a>
++
++For the first three options, the code signing is performed locally (no need to upload large files, just the hashes are passed to the central signing service).
+
+VERSION infra-code-signing-use-f7d57df4c6114ccd302ca4ae1941d42e42d08f7b.md 2024-10-23T10:56:43Z
+--- previous retained version
++++ infra-code-signing-use-f7d57df4c6114ccd302ca4ae1941d42e42d08f7b.md
+@@ -0,0 +1,89 @@
++Title: Using the ssl.com eSigner code signing service
++license: https://www.apache.org/licenses/LICENSE-2.0
++
++## Transition to ssl.com
++The ASF used Symantec's Secure App Service to provide Windows and JAR code signing functionality from 2014 to 2019 and DigiCert ONE from 2019 to 2024.
++In 2024 the ASF moved to the ssl.com eSigner service.
++All new signing must be via the ssl.com eSigner service.
++
++If you require assistance migrating to the ssl.com eSigner service, please open an <a href="https://issues.apache.org/jira/browse/INFRA">INFRA Jira ticket</a> and select code signing as the component.
++
++## ssl.com eSigner
++ssl.com's eSigner service supports a range of signing tools and formats.
++For the full details see the [eSigner documentation](https://www.ssl.com/guide/remote-ev-code-signing-with-esigner). 
++Whichever signing option you choose, you will need to complete four steps:
++
++1. Obtain an ssl.com account
++1. Obtain credentials for code signing
++1. Install the OS integration for your chosen OS (Windows or Linux)
++1. Configure your chosen signing tool
++
++**Note**: The ASF has to pay for each signature using a signing certificate. Using Jenkins to build and sign **releases** using eSigner fine. Signing every single **CI build** is not necessary and can become expensive for the Foundation. Please make sure your build process only involves signing certificates for release candidates.
++
++### Step 1: Obtaining an ssl.com account
++
++Adding a new release manager needs to be performed by the infrastructure team. Please open an <a href="https://issues.apache.org/jira/browse/INFRA">INFRA Jira ticket</a> and select code signing as the component.
++
++When the infrastructure team creates your account you will receive TBD. Your username is your ASF email address.
++
++You should configure your account to use 2FA.
++Note: This 2FA is separate to the 2FA you will need to configure to perform code signing.
++
++### Step 2: Obtaining credentials for code signing
++
++Whatever you need to sign and however you choose to sign it, you need to create 2FA credentials.
++You create these via the ssl.com web interface.
++Depending on your chosen signing method, you will need either to configure 2FA using the QR code you create or make a note of the base 64 encoded secret code associated.
++
++1. Log on to [ssl.com](https://www.ssl.com/).
++1. TBD.
++
++### Step 3: Install the OS integration
++
++#### None
++
++If you use JSign 4.0, you can skip this step.
++
++#### Windows integration
++
++1. TBD.
++
++#### Linux integration
++
++1. TBD.
++
++#### MacOS
++
++1. TBD
++
++
++### Step 4: Configure your chosen signing tool
++
++#### Signing Windows binaries on Windows using signtool.exe
++
++TBD.
++
++#### Signing on Windows binaries on Windows or Linux with JSign 4.0+ Ant task
++
++1. Make the JSign JAR from [Maven Central](https://search.maven.org/artifact/net.jsign/jsign) available to Ant.
++1. The eSigner specific properties for the JSign task in Ant should be as follows:
++
++          storetype="ESIGNER"
++          alias="d97c5110-c66a-4c0c-ac0c-1cd6af812ee6"
++          storepass="<ssl.com user name>|<ssl.com password>"
++          keypass="<ssl.com eSigner TOTP secret>"
++          tsaurl="http://ts.ssl.com"
++          tsmode="RFC3161"
++          alg="SHA256"
++
++#### Signing Windows binaries on Linux with JSign 4.0+
++
++1. Download jsign `wget https://github.com/ebourg/jsign/releases/download/4.0/jsign_4.0_all.deb`.
++1. Install jsign `sudo dpkg --install jsign_4.0_all.deb`.
++1. You should then be able to sign with:
++
++        jsign --storetype ESIGNER --alias d97c5110-c66a-4c0c-ac0c-1cd6af812ee6 --storepass "<ssl.com user name>|<ssl.com password>" --keypass "<ssl.com eSigner TOTP secret>" --tsaurl="http://ts.ssl.com" --tsmode RFC3161 --alg SHA256 application.exe
++
++#### Other signing formats, tools and operating systems
++
++See the ssl.com eSigner on-line help.
+
+VERSION infra-code-signing-use-c8044d6d403c31233581a032f7b635e4b52bc109.md 2024-10-23T14:28:28Z
+--- previous retained version
++++ infra-code-signing-use-c8044d6d403c31233581a032f7b635e4b52bc109.md
+@@ -24,25 +24,33 @@
+ 
+ Adding a new release manager needs to be performed by the infrastructure team. Please open an <a href="https://issues.apache.org/jira/browse/INFRA">INFRA Jira ticket</a> and select code signing as the component.
+ 
+-When the infrastructure team creates your account you will receive TBD. Your username is your ASF email address.
++When the infrastructure team creates your account you will receive an email to your ASF email address.
++You will be asked for a user name and password.
++Use your ASF email address as the user name (if you enter anything else it should be ignored and your ASF email used anyway).
++Provide a secure password.
++It is recommended that you enabled 2FA for your account (Dashboard -> manage 2FA).
++Note: The 2FA you configure here for account access is not the same as the 2FA you are required to configure later in these instructions to use eSigner.
+ 
+-You should configure your account to use 2FA.
+-Note: This 2FA is separate to the 2FA you will need to configure to perform code signing.
++You may be prompted to verify your account. It is not necessary to do this.
++
++You will see a message saying you have been invited to enroll for eSigner for the given certificate.
++You should click yes to accept the invitation.
+ 
+ ### Step 2: Obtaining credentials for code signing
+ 
+-Whatever you need to sign and however you choose to sign it, you need to create 2FA credentials.
++Whatever you need to sign and however you choose to sign it, you need to create 2FA credentials for eSigner.
+ You create these via the ssl.com web interface.
+-Depending on your chosen signing method, you will need either to configure 2FA using the QR code you create or make a note of the base 64 encoded secret code associated.
++Depending on your chosen signing method, you will need either to configure 2FA using the QR code provided or make a note of the base 64 encoded secret code.
+ 
+ 1. Log on to [ssl.com](https://www.ssl.com/).
+-1. TBD.
++1. On your Dashboard, there should be a single certificate listed under esigner enrolled orders. Click on it to take you to the certificate page.
++1. On the right-hand side you will see a prompt to set up a pin. Provide a pin and click "create PIN". You should be shown a QR code and a secret code. Note that the warning that the QR code wll only be shown once is incorrect. You can always view the QR code and secret code by providing your pin on this page.
+ 
+ ### Step 3: Install the OS integration
+ 
+ #### None
+ 
+-If you use JSign 4.0, you can skip this step.
++If you use JSign, you can skip this step.
+ 
+ #### Windows integration
+ 
+@@ -59,22 +67,18 @@
+ 
+ ### Step 4: Configure your chosen signing tool
+ 
+-#### Signing Windows binaries on Windows using signtool.exe
+-
+-TBD.
+-
+ #### Signing on Windows binaries on Windows or Linux with JSign 4.0+ Ant task
+ 
+ 1. Make the JSign JAR from [Maven Central](https://search.maven.org/artifact/net.jsign/jsign) available to Ant.
+ 1. The eSigner specific properties for the JSign task in Ant should be as follows:
+ 
+-          storetype="ESIGNER"
+-          alias="d97c5110-c66a-4c0c-ac0c-1cd6af812ee6"
+-          storepass="<ssl.com user name>|<ssl.com password>"
+-          keypass="<ssl.com eSigner TOTP secret>"
+-          tsaurl="http://ts.ssl.com"
+-          tsmode="RFC3161"
+-          alg="SHA256"
++          storetype=ESIGNER
++          alias=d97c5110-c66a-4c0c-ac0c-1cd6af812ee6
++          storepass=<ssl.com user name>|<ssl.com password>
++          keypass=<ssl.com eSigner TOTP secret>
++          tsaurl=http://ts.ssl.com
++          tsmode=RFC3161
++          alg=SHA256
+ 
+ #### Signing Windows binaries on Linux with JSign 4.0+
+ 
+@@ -84,6 +88,10 @@
+ 
+         jsign --storetype ESIGNER --alias d97c5110-c66a-4c0c-ac0c-1cd6af812ee6 --storepass "<ssl.com user name>|<ssl.com password>" --keypass "<ssl.com eSigner TOTP secret>" --tsaurl="http://ts.ssl.com" --tsmode RFC3161 --alg SHA256 application.exe
+ 
++#### Signing Windows binaries on Windows using signtool.exe
++
++TBD.
++
+ #### Other signing formats, tools and operating systems
+ 
+ See the ssl.com eSigner on-line help.
+
+VERSION infra-code-signing-use-833cfa13ad99c5593e330670352b82b92e6240ba.md 2024-10-24T07:15:21Z
+--- previous retained version
++++ infra-code-signing-use-833cfa13ad99c5593e330670352b82b92e6240ba.md
+@@ -26,8 +26,8 @@
+ 
+ When the infrastructure team creates your account you will receive an email to your ASF email address.
+ You will be asked for a user name and password.
+-Use your ASF email address as the user name (if you enter anything else it should be ignored and your ASF email used anyway).
+-Provide a secure password.
++Use your ASF email address as the user name (if you enter anything else it should be ignored and your ASF email used anyway) and provide a secure password.
++
+ It is recommended that you enabled 2FA for your account (Dashboard -> manage 2FA).
+ Note: The 2FA you configure here for account access is not the same as the 2FA you are required to configure later in these instructions to use eSigner.
+ 
+@@ -54,7 +54,14 @@
+ 
+ #### Windows integration
+ 
+-1. TBD.
++To sign Windows binaries with the ASF code signing certificate using signtool.exe and/or view the ASF code signing certificate using certutil.exe you will need to install the eSigner Cloud Key Adapter (CKA).
++There are two configuration options for eSigner CKA: manual code signing and automated code signing.
++
++For manual code signing you must configure an authenticator app for 2FA for eSigner using the QR code and you will be required to provide your ssl.com username and password along with a OTP from your authenticator app every time you sign a file.
++For automated code signing you create a local file that contains you ssl.com username and password along with the 2FA secret code and code signing will not require any additional input when you sign a file. 
++
++The eSigner documentation provides step by step instructions on configuring both [manual code signing](https://www.ssl.com/how-to/automate-ev-code-signing-with-signtool-or-certutil-esigner/#manual-code-signing) and [automated code signing](https://www.ssl.com/how-to/automate-ev-code-signing-with-signtool-or-certutil-esigner/#automated-code-signing).
++
+ 
+ #### Linux integration
+ 
+@@ -90,7 +97,7 @@
+ 
+ #### Signing Windows binaries on Windows using signtool.exe
+ 
+-TBD.
++The eSigner documentation provides step by step instructions on configuring and using both [manual code signing](https://www.ssl.com/how-to/automate-ev-code-signing-with-signtool-or-certutil-esigner/#manual-code-signing) and [automated code signing](https://www.ssl.com/how-to/automate-ev-code-signing-with-signtool-or-certutil-esigner/#automated-code-signing).
+ 
+ #### Other signing formats, tools and operating systems
+ 
+
+VERSION infra-code-signing-use-ab841fe338d148ea292ba8a2e39f6575778851f0.md 2024-10-29T19:51:17Z
+--- previous retained version
++++ infra-code-signing-use-ab841fe338d148ea292ba8a2e39f6575778851f0.md
+@@ -58,7 +58,7 @@
+ There are two configuration options for eSigner CKA: manual code signing and automated code signing.
+ 
+ For manual code signing you must configure an authenticator app for 2FA for eSigner using the QR code and you will be required to provide your ssl.com username and password along with a OTP from your authenticator app every time you sign a file.
+-For automated code signing you create a local file that contains you ssl.com username and password along with the 2FA secret code and code signing will not require any additional input when you sign a file. 
++For automated code signing you create a local file that contains you ssl.com username and password along with the 2FA secret code (not the PIN) and code signing will not require any additional input when you sign a file. 
+ 
+ The eSigner documentation provides step by step instructions on configuring both [manual code signing](https://www.ssl.com/how-to/automate-ev-code-signing-with-signtool-or-certutil-esigner/#manual-code-signing) and [automated code signing](https://www.ssl.com/how-to/automate-ev-code-signing-with-signtool-or-certutil-esigner/#automated-code-signing).
+ 
+@@ -82,7 +82,7 @@
+           storetype=ESIGNER
+           alias=d97c5110-c66a-4c0c-ac0c-1cd6af812ee6
+           storepass=<ssl.com user name>|<ssl.com password>
+-          keypass=<ssl.com eSigner TOTP secret>
++          keypass=<ssl.com eSigner secret code (not the PIN)>
+           tsaurl=http://ts.ssl.com
+           tsmode=RFC3161
+           alg=SHA256
+@@ -93,12 +93,14 @@
+ 1. Install jsign `sudo dpkg --install jsign_4.0_all.deb`.
+ 1. You should then be able to sign with:
+ 
+-        jsign --storetype ESIGNER --alias d97c5110-c66a-4c0c-ac0c-1cd6af812ee6 --storepass "<ssl.com user name>|<ssl.com password>" --keypass "<ssl.com eSigner TOTP secret>" --tsaurl="http://ts.ssl.com" --tsmode RFC3161 --alg SHA256 application.exe
++        jsign --storetype ESIGNER --alias d97c5110-c66a-4c0c-ac0c-1cd6af812ee6 --storepass "<ssl.com user name>|<ssl.com password>" --keypass "<ssl.com eSigner secret code (not the PIN)>" --tsaurl="http://ts.ssl.com" --tsmode RFC3161 --alg SHA256 application.exe
+ 
+ #### Signing Windows binaries on Windows using signtool.exe
+ 
+ The eSigner documentation provides step by step instructions on configuring and using both [manual code signing](https://www.ssl.com/how-to/automate-ev-code-signing-with-signtool-or-certutil-esigner/#manual-code-signing) and [automated code signing](https://www.ssl.com/how-to/automate-ev-code-signing-with-signtool-or-certutil-esigner/#automated-code-signing).
+ 
++If you opt to use automated code signing it is recommended that you remove the Master Key File from you system when not being used either by deleting it and recreating it when required or by moving it to off-line storage (e.g. USB key) that is stored securely.
++
+ #### Other signing formats, tools and operating systems
+ 
+ See the ssl.com eSigner on-line help.
+
+VERSION infra-csp-e87db5a1c802474f34256e9e429e4af72f89b239.md 2025-01-13T13:44:32Z
+--- previous retained version
++++ infra-csp-e87db5a1c802474f34256e9e429e4af72f89b239.md
+@@ -0,0 +1,14 @@
++Title: Content Security Policy for project websites 
++license: https://www.apache.org/licenses/LICENSE-2.0
++
++This policy becomes effective **March 1, 2025**. 
++
++For your project's website:
++
++  - External trackers from 3rd party providers are **not allowed**. The ASF offers <a href="https://matomo.org/" taraget="_blank">Matomo</a> analytics for all project websites through <a href="https://analytics.apache.org" target="_blank">analytics.apache.org</a>.
++  - External resources, such as videos or PDFs, from providers with which we do not have a Data Processing Agreement (DPA) are **not allowed** to be embedded in the project's website. If you have a DPA request or inquiry, contact `privacy@apache.org`. They can also tell you if a provider whose content you want to embed in your website has already signed a DPA.
++  - Links to external resources **are allowed** if the site visitor has to make a choice to click the link in order to see or use the content.
++
++This policy brings project websites into alignment with the security and privacy parameters defined by the VP, Data Privacy and as requested by The ASF Security Committee. We ask that projects do not circumvent them without express permission from our VP, Data Privacy. 
++
++Review The ASF's project website policy <a href="https://privacy.apache.org/policies/website-policy.html" target="_blank">here</a>.
+
+VERSION infra-csp-a155150810244ef2cf0afc54e9370092a7b8e571.md 2025-01-13T14:08:57Z
+--- previous retained version
++++ infra-csp-a155150810244ef2cf0afc54e9370092a7b8e571.md
+@@ -7,7 +7,7 @@
+ 
+   - External trackers from 3rd party providers are **not allowed**. The ASF offers <a href="https://matomo.org/" taraget="_blank">Matomo</a> analytics for all project websites through <a href="https://analytics.apache.org" target="_blank">analytics.apache.org</a>.
+   - External resources, such as videos or PDFs, from providers with which we do not have a Data Processing Agreement (DPA) are **not allowed** to be embedded in the project's website. If you have a DPA request or inquiry, contact `privacy@apache.org`. They can also tell you if a provider whose content you want to embed in your website has already signed a DPA.
+-  - Links to external resources **are allowed** if the site visitor has to make a choice to click the link in order to see or use the content.
++  - Links to external resources **are allowed** if the site visitor must give explicit consent in order to see or use the content. This consent cannot be opt-out, and there must be a clear way for the visitor to retract consent at a later time.
+ 
+ This policy brings project websites into alignment with the security and privacy parameters defined by the VP, Data Privacy and as requested by The ASF Security Committee. We ask that projects do not circumvent them without express permission from our VP, Data Privacy. 
+ 
+
+VERSION infra-csp-79e34b48a86212a93874540ddbcd244a5a762296.md 2025-01-13T15:52:35Z
+--- previous retained version
++++ infra-csp-79e34b48a86212a93874540ddbcd244a5a762296.md
+@@ -5,7 +5,7 @@
+ 
+ For your project's website:
+ 
+-  - External trackers from 3rd party providers are **not allowed**. The ASF offers <a href="https://matomo.org/" taraget="_blank">Matomo</a> analytics for all project websites through <a href="https://analytics.apache.org" target="_blank">analytics.apache.org</a>.
++  - External trackers from 3rd party providers are **not allowed**. The ASF offers <a href="https://matomo.org/" target="_blank">Matomo</a> analytics for all project websites through <a href="https://analytics.apache.org" target="_blank">analytics.apache.org</a>.
+   - External resources, such as videos or PDFs, from providers with which we do not have a Data Processing Agreement (DPA) are **not allowed** to be embedded in the project's website. If you have a DPA request or inquiry, contact `privacy@apache.org`. They can also tell you if a provider whose content you want to embed in your website has already signed a DPA.
+   - Links to external resources **are allowed** if the site visitor must give explicit consent in order to see or use the content. This consent cannot be opt-out, and there must be a clear way for the visitor to retract consent at a later time.
+ 
+
+VERSION infra-csp-44b8fc4fb50b128b42542ca1b828e82376d5c752.md 2025-03-06T18:04:29Z
+--- previous retained version
++++ infra-csp-44b8fc4fb50b128b42542ca1b828e82376d5c752.md
+@@ -1,7 +1,7 @@
+ Title: Content Security Policy for project websites 
+ license: https://www.apache.org/licenses/LICENSE-2.0
+ 
+-This policy becomes effective **March 1, 2025**. 
++This policy became effective **March 1, 2025**. 
+ 
+ For your project's website:
+ 

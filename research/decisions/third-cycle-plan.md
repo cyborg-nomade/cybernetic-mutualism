@@ -11,7 +11,9 @@
   2026-10-04 continuation screens Ant subjects and extends body/family review.
   The 2026-10-20 release frame contains 647 families and a reproducible draw
   for 36 nonempty project-quarter strata. Coding and the first-pass lock
-  remain unfinished.
+  remain unfinished. The October 20–21 continuation completes the selected
+  opening-topic body reviews and retains dated policy versions and explicit
+  family-identity decisions before component coding.
 - **Accepted first-pass checkpoint:** `98561adb68ced781767ce4c4dc43143ebdc6a88a`,
   accepted through [PR #18](https://github.com/cyborg-nomade/cybernetic-mutualism/pull/18)
   and merged at `bec2d0787f7fd5772ca8aeae11ff4a7892b46a7a`. This is a staged

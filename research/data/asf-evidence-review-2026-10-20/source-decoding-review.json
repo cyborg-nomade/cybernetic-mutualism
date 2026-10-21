@@ -1,0 +1,9 @@
+{
+  "reviewed_on": "2026-10-21",
+  "source_id": "<8738c2d6-5e03-9453-37e4-b63041274a9f@apache.org>",
+  "raw_sha256": "c1c9a56467ab2d75d23dddf4ae65aaeb1157dea5097660c69921db139627c3e0",
+  "reading_aid_body_sha256": "16b683485a73a5fa807c22439c46913493f802cc30559cfcdf6e2c23921fce0c",
+  "frozen_parser_body_sha256": "07ab3881cd89822ddba4615653b66878fe8359f9e16c4c8aa4f871964f4a051d",
+  "finding": "The January 13, 2023 Resolver 1.9.4 reply contains a base64 text/plain body. The compatibility decoding used for the reading aid appends a NUL and undecodable trailing bytes after the final +1 and blank line; the default-policy parser used by the frozen source verifier stops there. The complete decoded bodies and their exact difference were inspected. The quoted opening and explicit +1 are identical, and the difference contains no additional intelligible vote or substantive prose.",
+  "treatment": "Preserve both decoded-body hashes, retain the unchanged raw-byte hash, and use the frozen parser's decoded hash for the source-verification association. Do not alter the frozen executable, original export, stored reading aid, or earlier database value. This correction does not change the release-family identity, fixed draw, or vote interpretation."
+}

@@ -1,0 +1,88 @@
+{
+  "retrieved_at": "2026-10-20T14:27:23.577309+00:00",
+  "repository": "apache/www-site",
+  "scope": "2023\u20132025 commits touching the voting and release-policy source paths, based on retained path histories",
+  "commits": [
+    {
+      "sha": "87348c9a0801f5f0c1943a370a1b26291a5bf941",
+      "committer_date": "2023-05-24T13:04:23Z",
+      "sha256": "97b848abdcd413bf3dbc204fde9fb85b71d134d9f94acb8b3e4360b8cd6201ac"
+    },
+    {
+      "sha": "e6e57381a7806809bfde06816a47063028aa2e8a",
+      "committer_date": "2023-05-29T16:47:51Z",
+      "sha256": "449dfdd98aa3cdeffb6c015241639cc175c24d0effa334d68e69e8657b300ae2"
+    },
+    {
+      "sha": "d3e5ecf60e417cfb3e16e66e76b0562eacca89b3",
+      "committer_date": "2023-07-14T13:25:49Z",
+      "sha256": "d6b08131a947e322829d6bf3381867cad7e8770affdbc7aedcd1fd4143740394"
+    },
+    {
+      "sha": "50938bcf72c2d6e00c18853bde8cce8aa3020ec5",
+      "committer_date": "2023-07-15T12:18:17Z",
+      "sha256": "ce8baf757b000a02624a88ab89fc463effba73d0bb23baa1a912388aaac3de53"
+    },
+    {
+      "sha": "df9debbe9141156fe277f4caf33cdf19d3a05db7",
+      "committer_date": "2023-08-07T16:06:56Z",
+      "sha256": "ea56529a8d4bc42266ca1b409b4f633e5ea87deed0ee54388970c52a273f2a18"
+    },
+    {
+      "sha": "ed101261ebd137c97ee6cd79816395a0618f090a",
+      "committer_date": "2023-08-11T22:41:38Z",
+      "sha256": "6b70837ae21204b498f8a3cd355564241c771cb5ba5b8660ab717c951baffd31"
+    },
+    {
+      "sha": "0d3e3b1d47974e6c5ea3dd679329953a9f4e16f4",
+      "committer_date": "2024-01-17T10:21:36Z",
+      "sha256": "617a6b6fb5e1bb7cfe1c4959a2231cb4cf88b4b17cdc0b206fd043c9303b5906"
+    },
+    {
+      "sha": "2b675cb202f6c39b0c19709eb484a3997eaa3fb5",
+      "committer_date": "2024-09-16T12:33:28Z",
+      "sha256": "601c5055cc2b107959e542112842b62a84af974b374739246aee6302c726f76c"
+    },
+    {
+      "sha": "1fc8db7733f2354036192bf8912c52f72769decf",
+      "committer_date": "2024-12-10T08:50:46Z",
+      "sha256": "4e2b4b28ae8ae87376f6b07b96c94a0b594b05382163a142178706e27d2025d9"
+    },
+    {
+      "sha": "052817a63d2c4d840bc389246b94f06ad2fbbd32",
+      "committer_date": "2025-03-04T13:25:43Z",
+      "sha256": "f5c2cc11f7685e9d61e957009b8dbd036e982509e28777435856dd720e2b7618"
+    },
+    {
+      "sha": "8867ab89e15c77f19d9397a4c45dc4b68bdf62de",
+      "committer_date": "2025-03-04T23:37:51Z",
+      "sha256": "ae999a40759db3e0bb68cf66855406ce3913ac699686c99fbc95fbe2515f6a2a"
+    },
+    {
+      "sha": "1e81a00a823e006854024e4eb64e6a2dfc851f68",
+      "committer_date": "2025-03-13T12:04:28Z",
+      "sha256": "cc8c9b76f6aed6b24c12ae62fad65d05dadc589e8689591af79cfad3751534b2"
+    },
+    {
+      "sha": "4d12b98f6a0bb28a684552a9a875d979b4d061e5",
+      "committer_date": "2025-04-11T17:30:19Z",
+      "sha256": "6b9dfdbfcddde9c13768d5242d6c1fce693955787c6fa9c8a214c7676f01c9d0"
+    },
+    {
+      "sha": "2be39afce9b28fa89da851afb788e6ede46ebefa",
+      "committer_date": "2025-08-24T19:46:32Z",
+      "sha256": "6fe7c3beec376c6714afd5480849fd45f3240eb7429f827abee47727d1594e51"
+    },
+    {
+      "sha": "10a97902ccf0a9481f8f87c659e5fd747e39a0d8",
+      "committer_date": "2025-09-11T13:56:32Z",
+      "sha256": "f394c1bd816cd5460fbec3ed0056b959003206285f243debd3f5823513ddce4b"
+    },
+    {
+      "sha": "bb9f955d8aaeda7c045f4d77b5b3ed8b48651a99",
+      "committer_date": "2025-11-25T19:20:06Z",
+      "sha256": "244b0ac9db2c991049928fd12459e6d1b0483c19c57aadc6ec10df050aacc8c7"
+    }
+  ],
+  "limitation": "Repository commit dates do not independently authenticate website deployment times."
+}

@@ -1,0 +1,203 @@
+{
+  "reviewed_on": "2026-10-20",
+  "scope": "Complete two 2022 ASF base documents, all 16 retained 2023\u20132025 voting/release-policy patches, and all 24 retained Infra versions (first complete version plus every exact diff). Repeated unchanged text is represented by the retained predecessor; full exact versions remain available.",
+  "source_version_limit": "Commit dates establish source-version history; they do not independently establish website deployment, PMC role of a sender, Legal approval timing, or absence of an earlier initiating notice.",
+  "non_substantive_changes": "Remaining retained changes are metadata, link/wording repairs, SHA-1 announcement-signature recommendation removal, and voting-mechanism terminology alignment; retained individually in the complete change aid. No policy opportunity assigned solely from a formatting/link change.",
+  "findings": [
+    {
+      "candidate_family_id": "asf-release-voting-standing-rule",
+      "dated_source_change": "2022-10-11",
+      "interpretation": "Standing release approval requires at least three positive binding PMC votes and more positive than negative binding votes; releases cannot be vetoed. Code-change veto rules differ. Voting duration is SHOULD 72 hours. Source-signature verification and test obligations, canonical distribution and PMC directory responsibility are stated. A valid local vote supports documented PMC binding authority; it does not establish an authority shift, absence of hidden influence, or publication.",
+      "files": [
+        {
+          "path": "asf-voting-2022-base.md",
+          "sha256": "2a15504727664582cd3499a01dae049bf731ea33e35b3895ce325b9fa0bbd431"
+        },
+        {
+          "path": "asf-release-policy-2022-base.md",
+          "sha256": "f02a3a00a32d26ae00052541211c28d6480f3565f658d6fdd85f45dfb25fe8ec"
+        }
+      ]
+    },
+    {
+      "candidate_family_id": "asf-automated-release-signing-2023",
+      "dated_source_change": "2023-07-14",
+      "interpretation": "LEGAL-647 source change permits either a release manager or automated release infrastructure to sign, subject to Security Team principles. This changes permitted signing implementation; it does not move the release-approval vote away from the PMC. The dated commit is not itself the Legal approval record or proof that any selected project used the option.",
+      "files": [
+        {
+          "path": "asf-policy-change-d3e5ecf60e417cfb3e16e66e76b0562eacca89b3.json",
+          "sha256": "d6b08131a947e322829d6bf3381867cad7e8770affdbc7aedcd1fd4143740394"
+        }
+      ]
+    },
+    {
+      "candidate_family_id": "asf-explicit-votes-clarification-2024",
+      "dated_source_change": "2024-01-17",
+      "interpretation": "Voting text explicitly says there is no implicit release-manager or other vote. This is a clarification of the published rule; do not silently treat an earlier absence of an explicit vote as a positive vote or presume the clarification changed which institution holds authority.",
+      "files": [
+        {
+          "path": "asf-policy-change-0d3e3b1d47974e6c5ea3dd679329953a9f4e16f4.json",
+          "sha256": "617a6b6fb5e1bb7cfe1c4959a2231cb4cf88b4b17cdc0b206fd043c9303b5906"
+        }
+      ]
+    },
+    {
+      "candidate_family_id": "asf-distribution-artifact-size-2024",
+      "dated_source_change": "2024-09-16",
+      "interpretation": "The prior advance-notice condition for more than 1GB becomes a refusal to host artifacts larger than 1GB, with a recommendation to keep artifacts below 100MB. Distinguish per-artifact wording from aggregate release size and retain this new service restriction as a shared candidate, with selected-project exposure still to be established.",
+      "files": [
+        {
+          "path": "asf-policy-change-2b675cb202f6c39b0c19709eb484a3997eaa3fb5.json",
+          "sha256": "601c5055cc2b107959e542112842b62a84af974b374739246aee6302c726f76c"
+        }
+      ]
+    },
+    {
+      "candidate_family_id": "asf-expedited-release-policy-2025",
+      "dated_source_change": "2025-03-13",
+      "interpretation": "New expedited section delegates exceptional-circumstance judgment to individual PMCs, requires a reason in shortened-vote emails, recommends notice, and reiterates Board deviation reporting. The older 72-hour SHOULD and general deviation-reporting rule already existed. Do not apply the new mandatory explanation clause retroactively to HTTPD July 2024 or Tomcat October 2023 votes.",
+      "files": [
+        {
+          "path": "asf-policy-change-1e81a00a823e006854024e4eb64e6a2dfc851f68.json",
+          "sha256": "cc8c9b76f6aed6b24c12ae62fad65d05dadc589e8689591af79cfad3751534b2"
+        }
+      ]
+    },
+    {
+      "candidate_family_id": "asf-release-clarifications-2025",
+      "dated_source_change": "2025-08-24",
+      "interpretation": "Clarifies ASCII-armored detached signatures, source sufficient to modify and build, and no licensing information about unbundled material. Do not interpret this wording alone as proof of a project defect, a new approval institution, or an executed sanction.",
+      "files": [
+        {
+          "path": "asf-policy-change-2be39afce9b28fa89da851afb788e6ede46ebefa.json",
+          "sha256": "6fe7c3beec376c6714afd5480849fd45f3240eb7429f827abee47727d1594e51"
+        }
+      ]
+    },
+    {
+      "candidate_family_id": "asf-project-download-pages-2025",
+      "dated_source_change": "2025-11-25",
+      "interpretation": "Adds explicit requirement to provide project download pages conforming to Infra policy and directs announcement links there. Earlier policy already required source download links and canonical distribution. This is a policy-source change with as-yet-unknown selected-project implementation, not evidence that older announcements violated this later wording.",
+      "files": [
+        {
+          "path": "asf-policy-change-bb9f955d8aaeda7c045f4d77b5b3ed8b48651a99.json",
+          "sha256": "244b0ac9db2c991049928fd12459e6d1b0483c19c57aadc6ec10df050aacc8c7"
+        }
+      ]
+    },
+    {
+      "candidate_family_id": "foundation-github-actions-approval-2023",
+      "dated_source_change": "2023-02-03",
+      "interpretation": "The explicit external-contributor always-approve default and Infra-ticket exception route enter the source on February 3. March 19 adds that projects may retain first-time-only approval if they affirm active workflow-abuse monitoring; March 20 adjusts wording. HTTPD March 19 experience is a later project observation, not the first rule-source date. Earlier automated-push authorization and external-action pinning already existed in 2021. Historical source deployment and earliest circular remain separate from the dated source changes.",
+      "files": [
+        {
+          "path": "infra-github-actions-policy-86814a041028ee7077b686256fa6b0ad78630009.md",
+          "sha256": "74912ef69800d8d6f8a4b5607da6c3ef02179b87fc32fbda612db8fe9eea8112"
+        },
+        {
+          "path": "infra-github-actions-policy-e20b07d9276f265802583d4bbf6d5d83e7b58d35.md",
+          "sha256": "11e90bf104c075344ef8c93cbe2483a67dceb567e264e9777181ec4a1e142ccb"
+        },
+        {
+          "path": "infra-github-actions-policy-44803bbe323fa47501269b779c3526b2aa7a2376.md",
+          "sha256": "19fbf7e09374f0585aedaecf4a63ffbd28bb8b14b5c0b1952eecd0da364ede73"
+        }
+      ]
+    },
+    {
+      "candidate_family_id": "foundation-github-actions-resource-limits-2024",
+      "dated_source_change": "2024-03-22",
+      "interpretation": "Published source announces April 20 effective date, max 20 concurrent jobs/workflow, weekly 25-runner-equivalent and five-day 30-runner-equivalent minute limits, with loss of access for persistent excess. This is a distinct shared service-allocation rule from contributor approvals. Removing the old effective-date sentence in February 2025 does not create a new 2025 onset. Equal cohort exposure, actual sanctions and compliance are not inferred.",
+      "files": [
+        {
+          "path": "infra-github-actions-policy-9c4e108a01e10d04629c77460b6f53c2c057ca72.md",
+          "sha256": "e2a4a4a5dc2ed3a3c71b1feaee7617eb4e2b8d16f8d5273db106afbb13a9ed92"
+        },
+        {
+          "path": "infra-github-actions-policy-b22c3553a8f6be9e840f7cdc73a22d8b80193ceb.md",
+          "sha256": "11f20e50f5ce6d5b496c4a9d1c0b061489f9cfd93605959c174eeafbca2de91f"
+        }
+      ]
+    },
+    {
+      "candidate_family_id": "foundation-github-actions-dependabot-2025",
+      "dated_source_change": "2025-03-06",
+      "interpretation": "Source adds mandatory Dependabot for repositories using GitHub Actions. This is a separate workflow requirement from runner quotas and contributor-approval exceptions. No selected-project refusal or implementation follows merely from the global rule text.",
+      "files": [
+        {
+          "path": "infra-github-actions-policy-ef31a66de04e5683231ee8625e013fa5274f1976.md",
+          "sha256": "fadb7e25a210dac6b468ca8f0c8e815d58a7c3d3a8e09fddd43806e85f21a264"
+        },
+        {
+          "path": "infra-github-actions-policy-e5697b5eb7ee872f586b3b911421a0671f154e22.md",
+          "sha256": "4810e61110686bb498d7714cee842cd8ad0229475439699ff30ffe268900da1f"
+        }
+      ]
+    },
+    {
+      "candidate_family_id": "foundation-people-hosting-retirement-2024",
+      "dated_source_change": "2024-08-13",
+      "interpretation": "Official Infra post announces turning home hosting off around September 12 and asks users to download retained content. It also tells projects to stage release candidates in approved locations. The August 13 first source mistakenly carried July 22 front-matter date, corrected August 14 to August 13. Retain both versions; do not use the erroneous July date as historical publication proof. Tomcat August 13 discussion and August 26 copying proposal remain separate receiver evidence.",
+      "files": [
+        {
+          "path": "infra-end_of_home-9b24463979f6c57e65e71c8b6e4b0da4f6410801.md",
+          "sha256": "c40eb6953a26ed35d3794dcee476630f0e933887b89359ca7adfa2d26c239030"
+        },
+        {
+          "path": "infra-end_of_home-080ac3c95343d4d826d1ca3ed3099045f8022a5b.md",
+          "sha256": "278bb64bc3b6fe42d80895ea19d94168cfe8ddd53746087eb79b52a18c2f29a7"
+        }
+      ]
+    },
+    {
+      "candidate_family_id": "foundation-code-signing-migration-2024",
+      "dated_source_change": "2024-10-23",
+      "interpretation": "Official instructions say ASF moved from DigiCert ONE to ssl.com eSigner in 2024 and require all new signing through eSigner. Access requests go to Infra, with individual accounts and signing credentials. October 23\u201329 revisions fill in onboarding and supported tool details. These documents corroborate the service migration and imposed provider path, but do not date the original migration decision, independently prove Tomcat signed output, or merge the November 2023 renewal into this new provider deliverable. The source dates, local commit dates and December Board retrospective must be kept distinct.",
+      "files": [
+        {
+          "path": "infra-code-signing-access-f7d57df4c6114ccd302ca4ae1941d42e42d08f7b.md",
+          "sha256": "68186dd936e91d769ac09489e0678ba440bd151a0a936262eabb16f84a4b5635"
+        },
+        {
+          "path": "infra-code-signing-use-f7d57df4c6114ccd302ca4ae1941d42e42d08f7b.md",
+          "sha256": "9b02428815dbdf028dc55ff0b165b164c4e3daae93cd35aacb32bbf19f5d2197"
+        },
+        {
+          "path": "infra-code-signing-use-c8044d6d403c31233581a032f7b635e4b52bc109.md",
+          "sha256": "158a8410c1935c9cfa4f2af6955e02eb7cbf220574fbd8389f76c76f0c2b3b48"
+        },
+        {
+          "path": "infra-code-signing-use-833cfa13ad99c5593e330670352b82b92e6240ba.md",
+          "sha256": "747e7bc3bea46bfbbf08997b304ec4ffa1b3740c3a3ef0ce9af09ac2db60f2dd"
+        },
+        {
+          "path": "infra-code-signing-use-ab841fe338d148ea292ba8a2e39f6575778851f0.md",
+          "sha256": "20cc5c0ba6c4095918d603609322bc22da5496b4de14c00960fb77c5c03f62cc"
+        }
+      ]
+    },
+    {
+      "candidate_family_id": "foundation-website-csp-enforcement",
+      "dated_source_change": "2025-01-13",
+      "interpretation": "Official Infra CSP text announces March 1 effective date, prohibits unauthorized trackers and embedded resources without provider DPAs, and identifies Privacy/Security authority with express permission required to circumvent. January 13 first wording merely allowed clicked links, but the second revision requires explicit non-opt-out consent and withdrawal. March 6 changes future to past tense without independently documenting each project deployment. Board January 2024 authorization and earlier Privacy history precede this notice: do not reset the shared enforcement family to January 2025 or conflate a proposed Maven exception with a granted one.",
+      "files": [
+        {
+          "path": "infra-csp-e87db5a1c802474f34256e9e429e4af72f89b239.md",
+          "sha256": "ecd1906e5227205d6f133b21d606b90372d9963dd03c9144341d8869c6a4f036"
+        },
+        {
+          "path": "infra-csp-a155150810244ef2cf0afc54e9370092a7b8e571.md",
+          "sha256": "b2e90acf0c3ed60b9df09e1871a59137fe89b796ab0c67aef935a3cc6d9991f3"
+        },
+        {
+          "path": "infra-csp-79e34b48a86212a93874540ddbcd244a5a762296.md",
+          "sha256": "897c8070f4a0ceaf30a9cc2a0d38585cfc46b26679d23b34462f693f1a7c9b92"
+        },
+        {
+          "path": "infra-csp-44b8fc4fb50b128b42542ca1b828e82376d5c752.md",
+          "sha256": "a7ff32267ab46c8b859cb5d7842488b7be393abd3fc8e32a160aec35a452e5af"
+        }
+      ]
+    }
+  ]
+}
