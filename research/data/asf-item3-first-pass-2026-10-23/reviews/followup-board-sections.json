@@ -1,0 +1,1192 @@
+[
+  {
+    "file": "board_minutes_2026_01_21.txt",
+    "title": "1. Call to order",
+    "start_line": 8,
+    "end_line": 20,
+    "sha256": "1633e6f172087a9adc971ad3cb1bbe9bf8abd89e2d6f8d6bf7b1c4411681c29a"
+  },
+  {
+    "file": "board_minutes_2026_01_21.txt",
+    "title": "2. Roll Call",
+    "start_line": 21,
+    "end_line": 64,
+    "sha256": "a66daedf1c5273829c6bb228a46b660c278e859124d688c79fe1fd5c921a7fac"
+  },
+  {
+    "file": "board_minutes_2026_01_21.txt",
+    "title": "3. Minutes from previous meetings",
+    "start_line": 65,
+    "end_line": 76,
+    "sha256": "f06a206bf6a0b70718a98e22d0b3c111c08577f55c6d7567fa21756ce000ceac"
+  },
+  {
+    "file": "board_minutes_2026_01_21.txt",
+    "title": "4. Executive Officer Reports",
+    "start_line": 77,
+    "end_line": 127,
+    "sha256": "6b35ce9a4a5a7ab1e6bcafc93cd8e32dbc6288670939025d0f914a0107c02612"
+  },
+  {
+    "file": "board_minutes_2026_01_21.txt",
+    "title": "5. Additional Officer Reports",
+    "start_line": 128,
+    "end_line": 143,
+    "sha256": "9857e21ba5deee5d0b1b01e8f2ea87af059009948d17626c24ec5a8dfcf1d94d"
+  },
+  {
+    "file": "board_minutes_2026_01_21.txt",
+    "title": "7. Special Orders",
+    "start_line": 532,
+    "end_line": 639,
+    "sha256": "e0064ad44898da52d9c84cacda7ddd886aec43d621a7de8a3e8527459456d9fe"
+  },
+  {
+    "file": "board_minutes_2026_01_21.txt",
+    "title": "8. Discussion Items",
+    "start_line": 640,
+    "end_line": 641,
+    "sha256": "f7af2fdc3d6df40b1be24db9cbbb2d1ef676839aacac93f546aeba5223194560"
+  },
+  {
+    "file": "board_minutes_2026_01_21.txt",
+    "title": "9. Review Outstanding Action Items",
+    "start_line": 642,
+    "end_line": 716,
+    "sha256": "9136cedc8344b8c68866bd0feb16a4239f6dd4913a6dd510a939d9a3ca2f31fb"
+  },
+  {
+    "file": "board_minutes_2026_01_21.txt",
+    "title": "10. Unfinished Business",
+    "start_line": 717,
+    "end_line": 718,
+    "sha256": "ca7674171721efbfa7aec0c4e85d68eb0af8b70da45fb9b5e6a06ba7e431f7d3"
+  },
+  {
+    "file": "board_minutes_2026_01_21.txt",
+    "title": "11. New Business",
+    "start_line": 719,
+    "end_line": 720,
+    "sha256": "5c6ad1387a02daf800b72c305520d3911e91a40ef946c4ce2b43c33d30f34069"
+  },
+  {
+    "file": "board_minutes_2026_01_21.txt",
+    "title": "12. Announcements",
+    "start_line": 721,
+    "end_line": 722,
+    "sha256": "babc90bfded16fb70ab6f49c32de45473a258e7ec3cb8104df818301fe3facf5"
+  },
+  {
+    "file": "board_minutes_2026_01_21.txt",
+    "title": "13. Adjournment",
+    "start_line": 723,
+    "end_line": 732,
+    "sha256": "d80844be51a5965991648294bcd9cef74cd333fb09580baa559d10d4ae2e6947"
+  },
+  {
+    "file": "board_minutes_2026_01_21.txt",
+    "title": "Attachment 1: Report from the VP of Brand Management  [Mark Thomas]",
+    "start_line": 733,
+    "end_line": 790,
+    "sha256": "130b16e1e110cc41ef6f23e32e29cdd78787223cfc2f34a49095436130db5eaa"
+  },
+  {
+    "file": "board_minutes_2026_01_21.txt",
+    "title": "Attachment 2: Report from the VP of Fundraising  [Bob Paulin]",
+    "start_line": 791,
+    "end_line": 853,
+    "sha256": "7e9a0478c919cd47cd51d78ce8cb4ddce653a090789d91bb6c2382084919d057"
+  },
+  {
+    "file": "board_minutes_2026_01_21.txt",
+    "title": "Attachment 3: Report from the VP of Marketing and Publicity  [Brian Proffitt]",
+    "start_line": 854,
+    "end_line": 920,
+    "sha256": "6a5ab791a48f9d5ae10890cc419f14e29b8d2faca9d3905816c14a1f7f15ad01"
+  },
+  {
+    "file": "board_minutes_2026_01_21.txt",
+    "title": "Attachment 4: Report from the VP of Infrastructure  [Danny Angus]",
+    "start_line": 921,
+    "end_line": 958,
+    "sha256": "df48aa528f902b65027379cec921b2edcb196a095ccd4869b8decc3abcb79532"
+  },
+  {
+    "file": "board_minutes_2026_01_21.txt",
+    "title": "Attachment 5: Report from the VP of Tooling  [Dave Fisher]",
+    "start_line": 959,
+    "end_line": 993,
+    "sha256": "a411757b9c706bb774c69b2b3a6c0e0ebe440fdc0485b8a41f9081095a851b0e"
+  },
+  {
+    "file": "board_minutes_2026_01_21.txt",
+    "title": "Attachment 6: Report from the VP of Conferences  [Brian Proffitt]",
+    "start_line": 994,
+    "end_line": 1010,
+    "sha256": "155be51c65f46c4af54ad78a069f87fa5da5ba3ea5d9d3cb0b0b547378974a8a"
+  },
+  {
+    "file": "board_minutes_2026_01_21.txt",
+    "title": "Attachment 7: Report from the Apache Travel Assistance Committee  [Gavin McDonald]",
+    "start_line": 1011,
+    "end_line": 1050,
+    "sha256": "5874135b384378102702b1cc50c3c54c5b4359dd04d1d0f24c3cb2845574b53c"
+  },
+  {
+    "file": "board_minutes_2026_01_21.txt",
+    "title": "Attachment 8: Report from the VP of Diversity and Inclusion  [Daniel Gruno]",
+    "start_line": 1051,
+    "end_line": 1081,
+    "sha256": "de592e2c94a488134489f894d7dd61409def1955bbc0c08439d5cb7d1a47ef0b"
+  },
+  {
+    "file": "board_minutes_2026_01_21.txt",
+    "title": "Attachment 9: Report from the VP of Data Privacy  [Christian Grobmeier]",
+    "start_line": 1082,
+    "end_line": 1163,
+    "sha256": "818d8afe8d76e89815645e427d77dc3c27d9a4d5be3620fa8c6a4906eeecb1f9"
+  },
+  {
+    "file": "board_minutes_2026_01_21.txt",
+    "title": "Attachment 10: Report from the VP of Public Affairs  [Dirk-Willem van Gulik]",
+    "start_line": 1164,
+    "end_line": 1200,
+    "sha256": "3a21550ba4ed9375b9e884799e598d93ba8972300d62d691910f4e615c2cf215"
+  },
+  {
+    "file": "board_minutes_2026_01_21.txt",
+    "title": "Attachment 11: Report from the VP of ECMA Relations  [Piotr Karwasz]",
+    "start_line": 1201,
+    "end_line": 1206,
+    "sha256": "536a6377ef326da2aaa567eabe96d6d51b639d0fab553b9da959f0df26cb8d6c"
+  },
+  {
+    "file": "board_minutes_2026_01_21.txt",
+    "title": "Attachment 12: Report from the VP of W3C Relations  [Andy Seaborne]",
+    "start_line": 1207,
+    "end_line": 1215,
+    "sha256": "214fa376c8458aa8d6835727ff854b3325c5d3afd61252d3907e45595fc7ff72"
+  },
+  {
+    "file": "board_minutes_2026_01_21.txt",
+    "title": "Attachment 13: Report from the Apache Legal Affairs Committee  [Roman Shaposhnik]",
+    "start_line": 1216,
+    "end_line": 1255,
+    "sha256": "f5e8ac5142624f1a202e0a1dc9cf223ff59a8dc5fe33318cf8ddf8f74a1a1daf"
+  },
+  {
+    "file": "board_minutes_2026_01_21.txt",
+    "title": "Attachment 14: Report from the Apache Security Team Project  [Mark J. Cox]",
+    "start_line": 1256,
+    "end_line": 1309,
+    "sha256": "ba882bb7bf09f2119b850f3fa7cac2d06f4ee4db764aadaabb66b01163972c44"
+  },
+  {
+    "file": "board_minutes_2026_01_21.txt",
+    "title": "Attachment K: Report from the Apache Attic Project  [Herv\u00e9 Boutemy]",
+    "start_line": 1674,
+    "end_line": 1717,
+    "sha256": "ec94efd215e49666386ca9174a1b13fdf9bf530b1c339c76055aee39c5a0c7a3"
+  },
+  {
+    "file": "board_minutes_2026_01_21.txt",
+    "title": "Attachment AU: Report from the Apache Maven Project  [Herv\u00e9 Boutemy]",
+    "start_line": 3644,
+    "end_line": 3700,
+    "sha256": "91116231314147247eb8820aab99c2dcd6eef287a39c821e41e70a963902d705"
+  },
+  {
+    "file": "board_minutes_2026_02_18.txt",
+    "title": "1. Call to order",
+    "start_line": 8,
+    "end_line": 20,
+    "sha256": "96a3493e83cd7abfa0be07d80209f0db86f54a1d089b5d18e120930e5cf1d499"
+  },
+  {
+    "file": "board_minutes_2026_02_18.txt",
+    "title": "2. Roll Call",
+    "start_line": 21,
+    "end_line": 63,
+    "sha256": "bd484e96d122ea19402038dec3826cc4ebc0bc2992cc1f6f9ec3e2fddcb17e64"
+  },
+  {
+    "file": "board_minutes_2026_02_18.txt",
+    "title": "3. Minutes from previous meetings",
+    "start_line": 64,
+    "end_line": 75,
+    "sha256": "07d2f8111d5007bef60b0016f1d315c4ead162305799676c6f4cc9bd1b453c78"
+  },
+  {
+    "file": "board_minutes_2026_02_18.txt",
+    "title": "4. Executive Officer Reports",
+    "start_line": 76,
+    "end_line": 142,
+    "sha256": "f79bfeec6203faefce68e35fe4e6e4b8a0c714803a0c29d7a0914fe2a3dcd407"
+  },
+  {
+    "file": "board_minutes_2026_02_18.txt",
+    "title": "5. Additional Officer Reports",
+    "start_line": 143,
+    "end_line": 158,
+    "sha256": "3648557ce801ffb40e87cf758e30aa3338c3a7d5502e6990bb483c4bef590da9"
+  },
+  {
+    "file": "board_minutes_2026_02_18.txt",
+    "title": "7. Special Orders",
+    "start_line": 579,
+    "end_line": 763,
+    "sha256": "c4f5566d6d5920f82a59361dd9d121871ebb54d7166204f70989f82f16a8ddde"
+  },
+  {
+    "file": "board_minutes_2026_02_18.txt",
+    "title": "8. Discussion Items",
+    "start_line": 764,
+    "end_line": 772,
+    "sha256": "e0f37e6b4ff8440b43baeb02766cfff73df69832edab34aa8f7ab53c7a116efe"
+  },
+  {
+    "file": "board_minutes_2026_02_18.txt",
+    "title": "9. Review Outstanding Action Items",
+    "start_line": 773,
+    "end_line": 860,
+    "sha256": "8c9cefcc4c4db5b9d289c0270161d4f74941eb756db22e1bfd21cf142bcd44a3"
+  },
+  {
+    "file": "board_minutes_2026_02_18.txt",
+    "title": "10. Unfinished Business",
+    "start_line": 861,
+    "end_line": 862,
+    "sha256": "ca7674171721efbfa7aec0c4e85d68eb0af8b70da45fb9b5e6a06ba7e431f7d3"
+  },
+  {
+    "file": "board_minutes_2026_02_18.txt",
+    "title": "11. New Business",
+    "start_line": 863,
+    "end_line": 864,
+    "sha256": "5c6ad1387a02daf800b72c305520d3911e91a40ef946c4ce2b43c33d30f34069"
+  },
+  {
+    "file": "board_minutes_2026_02_18.txt",
+    "title": "12. Announcements",
+    "start_line": 865,
+    "end_line": 866,
+    "sha256": "babc90bfded16fb70ab6f49c32de45473a258e7ec3cb8104df818301fe3facf5"
+  },
+  {
+    "file": "board_minutes_2026_02_18.txt",
+    "title": "13. Adjournment",
+    "start_line": 867,
+    "end_line": 876,
+    "sha256": "550b2c642b1bb8e0c31a0f5e7fc81573b8246909def3bd83bbe5436b4506d4f2"
+  },
+  {
+    "file": "board_minutes_2026_02_18.txt",
+    "title": "Attachment 1: Report from the VP of Brand Management  [Mark Thomas]",
+    "start_line": 877,
+    "end_line": 936,
+    "sha256": "87f1361aadd2878c4a7912c4d2ee06af63468565e02df41dc191264122f79b04"
+  },
+  {
+    "file": "board_minutes_2026_02_18.txt",
+    "title": "Attachment 2: Report from the VP of Fundraising  [Bob Paulin]",
+    "start_line": 937,
+    "end_line": 979,
+    "sha256": "aed0ce2532a6708b4c029819a91e93e8cebbd2b6c29daffdb4a51c1064f9a15e"
+  },
+  {
+    "file": "board_minutes_2026_02_18.txt",
+    "title": "Attachment 3: Report from the VP of Marketing and Publicity  [Brian Proffitt]",
+    "start_line": 980,
+    "end_line": 1054,
+    "sha256": "e60c9d6d8ac2b6228295295c0faacb7dab854d85093c9abe8fd275213e4b16af"
+  },
+  {
+    "file": "board_minutes_2026_02_18.txt",
+    "title": "Attachment 4: Report from the VP of Infrastructure  [Danny Angus]",
+    "start_line": 1055,
+    "end_line": 1113,
+    "sha256": "125c5c81769045fcbf2b890daa936396dba51f5b34a7cf5ef07f6fee562e9125"
+  },
+  {
+    "file": "board_minutes_2026_02_18.txt",
+    "title": "Attachment 5: Report from the VP of Tooling  [Dave Fisher]",
+    "start_line": 1114,
+    "end_line": 1168,
+    "sha256": "e2b9efddb1244d5ed7f949d2b39b79efa5bbea3c555f6fc921e91b1b0272a053"
+  },
+  {
+    "file": "board_minutes_2026_02_18.txt",
+    "title": "Attachment 6: Report from the VP of Conferences  [Brian Proffitt]",
+    "start_line": 1169,
+    "end_line": 1193,
+    "sha256": "f5f60cca7d3ec12f94a8fea8a9e124c6cc85aebb19dd4b983378804a93958aa9"
+  },
+  {
+    "file": "board_minutes_2026_02_18.txt",
+    "title": "Attachment 7: Report from the Apache Travel Assistance Committee  [Gavin McDonald]",
+    "start_line": 1194,
+    "end_line": 1239,
+    "sha256": "66b3d72c645979b9337016826232213fbd1183478242b97c006f50f01dc55e83"
+  },
+  {
+    "file": "board_minutes_2026_02_18.txt",
+    "title": "Attachment 8: Report from the VP of Diversity and Inclusion  [Daniel Gruno]",
+    "start_line": 1240,
+    "end_line": 1250,
+    "sha256": "2d26775c2608c6be06a341034dd9fe46d9c00f5600014229a670a3eb96a05650"
+  },
+  {
+    "file": "board_minutes_2026_02_18.txt",
+    "title": "Attachment 9: Report from the VP of Data Privacy  [Christian Grobmeier]",
+    "start_line": 1251,
+    "end_line": 1254,
+    "sha256": "bf33a6cc6f4536e51d4c613d67dabf762bbd4ca348bce809751efae6b1c47adc"
+  },
+  {
+    "file": "board_minutes_2026_02_18.txt",
+    "title": "Attachment 10: Report from the VP of Public Affairs  [Dirk-Willem van Gulik]",
+    "start_line": 1255,
+    "end_line": 1347,
+    "sha256": "e898d079452c5d1e7e915e5fcc56d567bf82420944415787e01df6803481a945"
+  },
+  {
+    "file": "board_minutes_2026_02_18.txt",
+    "title": "Attachment 11: Report from the VP of ECMA Relations  [Piotr Karwasz]",
+    "start_line": 1348,
+    "end_line": 1358,
+    "sha256": "77122d9cc125611c70f60c295987c90bc09ab4332beb02ee8cccd8f71da99261"
+  },
+  {
+    "file": "board_minutes_2026_02_18.txt",
+    "title": "Attachment 12: Report from the VP of W3C Relations  [Andy Seaborne]",
+    "start_line": 1359,
+    "end_line": 1370,
+    "sha256": "dfdb1a2a3eb4ad53934a4ac3f2edb4b4f2e745c1713549105b2c43f76e4d4735"
+  },
+  {
+    "file": "board_minutes_2026_02_18.txt",
+    "title": "Attachment 13: Report from the Apache Legal Affairs Committee  [Roman Shaposhnik]",
+    "start_line": 1371,
+    "end_line": 1382,
+    "sha256": "e25d51a375b1a9807dec4101384da665ad56a725adaf87383845cb91bb55bae5"
+  },
+  {
+    "file": "board_minutes_2026_02_18.txt",
+    "title": "Attachment 14: Report from the Apache Security Team Project  [Mark J. Cox]",
+    "start_line": 1383,
+    "end_line": 1442,
+    "sha256": "a81589f426855d21ec0b69eba085f04ea2f22105fa5b251d01e451cd06682e21"
+  },
+  {
+    "file": "board_minutes_2026_02_18.txt",
+    "title": "Attachment E: Report from the Apache Ant Project  [J Pai]",
+    "start_line": 1557,
+    "end_line": 1602,
+    "sha256": "17a1b702a3cbf443a8e6562adb3f6b9abd1fdee6c2daec5c331eda62e66af7f2"
+  },
+  {
+    "file": "board_minutes_2026_02_18.txt",
+    "title": "Attachment P: Report from the Apache Community Development Project  [Swapnil Mane]",
+    "start_line": 1974,
+    "end_line": 2058,
+    "sha256": "9f2e268d0fe7ab374f9004472138deee5ca21eb6e3f1d0146228324aa129ba81"
+  },
+  {
+    "file": "board_minutes_2026_02_18.txt",
+    "title": "Attachment AH: Report from the Apache HTTP Server Project  [Joe Orton]",
+    "start_line": 2659,
+    "end_line": 2702,
+    "sha256": "767f892aaf71e27516d41aab959b752913df6210ff29531712a0e99e08139e0a"
+  },
+  {
+    "file": "board_minutes_2026_03_18.txt",
+    "title": "1. Call to order",
+    "start_line": 8,
+    "end_line": 20,
+    "sha256": "5d202891f16c0197ca0c9962ca8cdf4642477ebb591e2f90bd5f7e005b61340e"
+  },
+  {
+    "file": "board_minutes_2026_03_18.txt",
+    "title": "2. Roll Call",
+    "start_line": 21,
+    "end_line": 68,
+    "sha256": "6a8f90f411cb2e63c20ff4867bdbb39320f2c3e505fb65df3804863a93eab2bb"
+  },
+  {
+    "file": "board_minutes_2026_03_18.txt",
+    "title": "3. Minutes from previous meetings",
+    "start_line": 69,
+    "end_line": 80,
+    "sha256": "10ca84217f055573f5a00bab0158245bb59cd31c7104ff1e9cddecd7477d1c23"
+  },
+  {
+    "file": "board_minutes_2026_03_18.txt",
+    "title": "4. Executive Officer Reports",
+    "start_line": 81,
+    "end_line": 236,
+    "sha256": "54383b62073d19b9475af09cf6db18651e3540ddf43b494de24441413555fce3"
+  },
+  {
+    "file": "board_minutes_2026_03_18.txt",
+    "title": "5. Additional Officer Reports",
+    "start_line": 237,
+    "end_line": 252,
+    "sha256": "b53e69d61c2348f0ec6b04064025f46533cfd588bd5ab73ea7fc2b19eca96520"
+  },
+  {
+    "file": "board_minutes_2026_03_18.txt",
+    "title": "7. Special Orders",
+    "start_line": 621,
+    "end_line": 669,
+    "sha256": "d4dfcee71145ea0c36b9026fa29e79a60308e0944b8f483bffd886e27a212c9b"
+  },
+  {
+    "file": "board_minutes_2026_03_18.txt",
+    "title": "8. Discussion Items",
+    "start_line": 670,
+    "end_line": 770,
+    "sha256": "53aff4fafb9590524a46f30189e3545ea8f25956053069a096dfb401fe71e8e2"
+  },
+  {
+    "file": "board_minutes_2026_03_18.txt",
+    "title": "9. Review Outstanding Action Items",
+    "start_line": 771,
+    "end_line": 839,
+    "sha256": "6829f2f2ee5d897ba89c0eb900689982420fd5194094769d3e5b13714484387b"
+  },
+  {
+    "file": "board_minutes_2026_03_18.txt",
+    "title": "10. Unfinished Business",
+    "start_line": 840,
+    "end_line": 841,
+    "sha256": "ca7674171721efbfa7aec0c4e85d68eb0af8b70da45fb9b5e6a06ba7e431f7d3"
+  },
+  {
+    "file": "board_minutes_2026_03_18.txt",
+    "title": "11. New Business",
+    "start_line": 842,
+    "end_line": 843,
+    "sha256": "5c6ad1387a02daf800b72c305520d3911e91a40ef946c4ce2b43c33d30f34069"
+  },
+  {
+    "file": "board_minutes_2026_03_18.txt",
+    "title": "12. Announcements",
+    "start_line": 844,
+    "end_line": 845,
+    "sha256": "babc90bfded16fb70ab6f49c32de45473a258e7ec3cb8104df818301fe3facf5"
+  },
+  {
+    "file": "board_minutes_2026_03_18.txt",
+    "title": "13. Adjournment",
+    "start_line": 846,
+    "end_line": 855,
+    "sha256": "50a63770189d2f570dd99a8e4b81efc5de2ece0cc67c42b202966c04d1b08daf"
+  },
+  {
+    "file": "board_minutes_2026_03_18.txt",
+    "title": "Attachment 1: Report from the VP of Brand Management  [Mark Thomas]",
+    "start_line": 856,
+    "end_line": 912,
+    "sha256": "566f34cb92d719d850abf10f37999c162bec6659ea2500ebce9e2ccb85934a9e"
+  },
+  {
+    "file": "board_minutes_2026_03_18.txt",
+    "title": "Attachment 2: Report from the VP of Fundraising  [Bob Paulin]",
+    "start_line": 913,
+    "end_line": 960,
+    "sha256": "5be7668007eb4a9c0c980b089032ad1343741a74c275f85a2a2c058f2b1a9712"
+  },
+  {
+    "file": "board_minutes_2026_03_18.txt",
+    "title": "Attachment 3: Report from the VP of Marketing and Publicity  [Brian Proffitt]",
+    "start_line": 961,
+    "end_line": 1026,
+    "sha256": "895e42f5d30242014c77c9b5414ce35f4bbe1d4076b4c7ace09fa5da7edbfa47"
+  },
+  {
+    "file": "board_minutes_2026_03_18.txt",
+    "title": "Attachment 4: Report from the VP of Infrastructure  [Danny Angus]",
+    "start_line": 1027,
+    "end_line": 1093,
+    "sha256": "322a2468ac7cf772f3e6338402ecb846312eb60d03037c1f823d6a27153481ad"
+  },
+  {
+    "file": "board_minutes_2026_03_18.txt",
+    "title": "Attachment 5: Report from the VP of Tooling  [Dave Fisher]",
+    "start_line": 1094,
+    "end_line": 1122,
+    "sha256": "1c2982d586523037ad7f9b4aa19ae7a74096b0a0b72be0951248e357219f6858"
+  },
+  {
+    "file": "board_minutes_2026_03_18.txt",
+    "title": "Attachment 6: Report from the VP of Conferences  [Brian Proffitt]",
+    "start_line": 1123,
+    "end_line": 1145,
+    "sha256": "a688b15cdd5ce7577d59b01c51e402f0433ee43b66c31bd38a7966255596d630"
+  },
+  {
+    "file": "board_minutes_2026_03_18.txt",
+    "title": "Attachment 7: Report from the Apache Travel Assistance Committee  [Gavin McDonald]",
+    "start_line": 1146,
+    "end_line": 1198,
+    "sha256": "49a1c1c747880dc356a472b31e16beaccc7faf6964da5e3e0b3da27b2a7d9ade"
+  },
+  {
+    "file": "board_minutes_2026_03_18.txt",
+    "title": "Attachment 8: Report from the VP of Diversity and Inclusion  [Daniel Gruno]",
+    "start_line": 1199,
+    "end_line": 1202,
+    "sha256": "65eb131d8bce9ef86ce8617b519cc42eb732f651c59a3d71a5711357b77b0b8c"
+  },
+  {
+    "file": "board_minutes_2026_03_18.txt",
+    "title": "Attachment 9: Report from the VP of Data Privacy  [Christian Grobmeier]",
+    "start_line": 1203,
+    "end_line": 1206,
+    "sha256": "bf33a6cc6f4536e51d4c613d67dabf762bbd4ca348bce809751efae6b1c47adc"
+  },
+  {
+    "file": "board_minutes_2026_03_18.txt",
+    "title": "Attachment 10: Report from the VP of Public Affairs  [Dirk-Willem van Gulik]",
+    "start_line": 1207,
+    "end_line": 1229,
+    "sha256": "9042748d66a6602b2d9122d0ef7a701622deb4fbdf2697fd1d2ca6b79ffe5696"
+  },
+  {
+    "file": "board_minutes_2026_03_18.txt",
+    "title": "Attachment 11: Report from the VP of ECMA Relations  [Piotr Karwasz]",
+    "start_line": 1230,
+    "end_line": 1270,
+    "sha256": "d2d60f2dda46eced82493816d3dcc50d72f6fa1f329431ee6a0f20ca36d25829"
+  },
+  {
+    "file": "board_minutes_2026_03_18.txt",
+    "title": "Attachment 12: Report from the VP of W3C Relations  [Andy Seaborne]",
+    "start_line": 1271,
+    "end_line": 1276,
+    "sha256": "1a4ba220183cb7006bdae028dc5e686fb6af4e11b39deefcb79e2229c54335bb"
+  },
+  {
+    "file": "board_minutes_2026_03_18.txt",
+    "title": "Attachment 13: Report from the Apache Legal Affairs Committee  [Roman Shaposhnik]",
+    "start_line": 1277,
+    "end_line": 1297,
+    "sha256": "9f94450d8f587243f153fd00cefe06ad674ae44636b9855bb00faa467ce0b70a"
+  },
+  {
+    "file": "board_minutes_2026_03_18.txt",
+    "title": "Attachment 14: Report from the Apache Security Team Project  [Mark J. Cox]",
+    "start_line": 1298,
+    "end_line": 1376,
+    "sha256": "2aeb39bca500710b853c9f2052743aee7d735a46514db138629f401cd06acbb0"
+  },
+  {
+    "file": "board_minutes_2026_03_18.txt",
+    "title": "Attachment BY: Report from the Apache Tomcat Project  [Christopher Schultz]",
+    "start_line": 5612,
+    "end_line": 5662,
+    "sha256": "b8fced71d88208a2de4637a88257a93c160cf987ac1d8b5ef16164d5059b0163"
+  },
+  {
+    "file": "board_minutes_2026_04_15.txt",
+    "title": "1. Call to order",
+    "start_line": 8,
+    "end_line": 20,
+    "sha256": "997ecc2c65cb35e77e27582100a5ace7d135e35aee915a6c284415af8d2bb3fb"
+  },
+  {
+    "file": "board_minutes_2026_04_15.txt",
+    "title": "2. Roll Call",
+    "start_line": 21,
+    "end_line": 68,
+    "sha256": "5d9c91969db1d6da271ab89bb9c47696b6eb2651e0922a6c9cd92f71cddb89d8"
+  },
+  {
+    "file": "board_minutes_2026_04_15.txt",
+    "title": "3. Minutes from previous meetings",
+    "start_line": 69,
+    "end_line": 80,
+    "sha256": "f06fdfdbdc9d6a56a3fbf87bfc54760520107460660388bd77ace4ea1de6a009"
+  },
+  {
+    "file": "board_minutes_2026_04_15.txt",
+    "title": "4. Executive Officer Reports",
+    "start_line": 81,
+    "end_line": 148,
+    "sha256": "806e0ef2c13f4861f1c93afbb6c3a99e8bbe131c2bcc513b97d5c48371880c9d"
+  },
+  {
+    "file": "board_minutes_2026_04_15.txt",
+    "title": "5. Additional Officer Reports",
+    "start_line": 149,
+    "end_line": 165,
+    "sha256": "d6828457471ead6d40f24a91ebab3960462c5518207ced656d6a16be57fea88a"
+  },
+  {
+    "file": "board_minutes_2026_04_15.txt",
+    "title": "7. Special Orders",
+    "start_line": 548,
+    "end_line": 624,
+    "sha256": "0c37267f6e1c882f412b62ead7fdcf143d123bb295823064cc3e18be653faeeb"
+  },
+  {
+    "file": "board_minutes_2026_04_15.txt",
+    "title": "8. Discussion Items",
+    "start_line": 625,
+    "end_line": 666,
+    "sha256": "e7faf36a3ab81ab1ff51305f2ee764113bbad49f2f644fa8d19efcb45829da15"
+  },
+  {
+    "file": "board_minutes_2026_04_15.txt",
+    "title": "9. Review Outstanding Action Items",
+    "start_line": 667,
+    "end_line": 749,
+    "sha256": "430b1439fd0999d2f92269552822b56cfaff19f4382b732f6948368adc2134ec"
+  },
+  {
+    "file": "board_minutes_2026_04_15.txt",
+    "title": "10. Unfinished Business",
+    "start_line": 750,
+    "end_line": 751,
+    "sha256": "ca7674171721efbfa7aec0c4e85d68eb0af8b70da45fb9b5e6a06ba7e431f7d3"
+  },
+  {
+    "file": "board_minutes_2026_04_15.txt",
+    "title": "11. New Business",
+    "start_line": 752,
+    "end_line": 755,
+    "sha256": "655b3ed3cd3fd3a47d8dbce52cfd2bfe6796a6f4a7114e0d083991a44090b1af"
+  },
+  {
+    "file": "board_minutes_2026_04_15.txt",
+    "title": "12. Announcements",
+    "start_line": 756,
+    "end_line": 757,
+    "sha256": "babc90bfded16fb70ab6f49c32de45473a258e7ec3cb8104df818301fe3facf5"
+  },
+  {
+    "file": "board_minutes_2026_04_15.txt",
+    "title": "13. Adjournment",
+    "start_line": 758,
+    "end_line": 767,
+    "sha256": "a76fc1c3014f7e27245049037c0674e0afb9f3c499ff4d43bfb27bb61ae1356b"
+  },
+  {
+    "file": "board_minutes_2026_04_15.txt",
+    "title": "Attachment 1: Report from the VP of Brand Management  [Mark Thomas]",
+    "start_line": 768,
+    "end_line": 824,
+    "sha256": "9f5002c24ebd81cdfe04995db3f90d654902a0af22ad0b032d1dff887e2f6b0e"
+  },
+  {
+    "file": "board_minutes_2026_04_15.txt",
+    "title": "Attachment 2: Report from the VP of Fundraising  [Bob Paulin]",
+    "start_line": 825,
+    "end_line": 867,
+    "sha256": "3b3d8a954b92ca26f9eb55910c9cad363f6f64c3de5523c7ce84dcf8288febfe"
+  },
+  {
+    "file": "board_minutes_2026_04_15.txt",
+    "title": "Attachment 3: Report from the VP of Marketing and Publicity  [Brian Proffitt]",
+    "start_line": 868,
+    "end_line": 938,
+    "sha256": "8af1db08a7575fbfc595df8c3c5e850ecbffe8c2c7865df5b5049233a0848cd1"
+  },
+  {
+    "file": "board_minutes_2026_04_15.txt",
+    "title": "Attachment 4: Report from the VP of Infrastructure  [Danny Angus]",
+    "start_line": 939,
+    "end_line": 988,
+    "sha256": "7d0b9556e4b1106e0a9ac793c0346c03c50818de6269734565a2716cd2ef5280"
+  },
+  {
+    "file": "board_minutes_2026_04_15.txt",
+    "title": "Attachment 5: Report from the VP of Tooling  [Dave Fisher]",
+    "start_line": 989,
+    "end_line": 1020,
+    "sha256": "c6510e7273e21846970a2a54cd11f658bc775b002ccc988661f6dc80c606984a"
+  },
+  {
+    "file": "board_minutes_2026_04_15.txt",
+    "title": "Attachment 6: Report from the VP of Conferences  [Brian Proffitt]",
+    "start_line": 1021,
+    "end_line": 1038,
+    "sha256": "c97fa757a7724e38329d3a87bad095c75caae39adfedf2fdbd6fdc3239896bc2"
+  },
+  {
+    "file": "board_minutes_2026_04_15.txt",
+    "title": "Attachment 7: Report from the Apache Travel Assistance Committee  [Gavin McDonald]",
+    "start_line": 1039,
+    "end_line": 1095,
+    "sha256": "8f295f4ee5ea297c723d20c1a31f9108a06a332072cdc6456b3b4b0d9cd83071"
+  },
+  {
+    "file": "board_minutes_2026_04_15.txt",
+    "title": "Attachment 8: Report from the VP of Diversity and Inclusion  [Daniel Gruno]",
+    "start_line": 1096,
+    "end_line": 1099,
+    "sha256": "65eb131d8bce9ef86ce8617b519cc42eb732f651c59a3d71a5711357b77b0b8c"
+  },
+  {
+    "file": "board_minutes_2026_04_15.txt",
+    "title": "Attachment 9: Report from the VP of Data Privacy  [Christian Grobmeier]",
+    "start_line": 1100,
+    "end_line": 1103,
+    "sha256": "bf33a6cc6f4536e51d4c613d67dabf762bbd4ca348bce809751efae6b1c47adc"
+  },
+  {
+    "file": "board_minutes_2026_04_15.txt",
+    "title": "Attachment 10: Report from the VP of Public Affairs  [Dirk-Willem van Gulik]",
+    "start_line": 1104,
+    "end_line": 1122,
+    "sha256": "d6815bdf2158cbad5ad21a8f00c7c6439793201dbc78813080a307c70c93edb3"
+  },
+  {
+    "file": "board_minutes_2026_04_15.txt",
+    "title": "Attachment 11: Report from the VP of ECMA Relations  [Piotr Karwasz]",
+    "start_line": 1123,
+    "end_line": 1128,
+    "sha256": "f2a47dbf4658fd2ada3dbb978bac1d1bba2bc49ab422db71de7a91a6dea63529"
+  },
+  {
+    "file": "board_minutes_2026_04_15.txt",
+    "title": "Attachment 12: Report from the VP of W3C Relations  [Andy Seaborne]",
+    "start_line": 1129,
+    "end_line": 1134,
+    "sha256": "1a4ba220183cb7006bdae028dc5e686fb6af4e11b39deefcb79e2229c54335bb"
+  },
+  {
+    "file": "board_minutes_2026_04_15.txt",
+    "title": "Attachment 13: Report from the Apache Legal Affairs Committee  [Roman Shaposhnik]",
+    "start_line": 1135,
+    "end_line": 1138,
+    "sha256": "d5da954f8a87be783a332f7f06220bd75f3e2cc1c582b24beb830f8630359a3a"
+  },
+  {
+    "file": "board_minutes_2026_04_15.txt",
+    "title": "Attachment 14: Report from the Apache Security Team Project  [Mark J. Cox]",
+    "start_line": 1139,
+    "end_line": 1206,
+    "sha256": "09e63401c38c69c741933e63ca3cdf945325051f4d61ca1e71f09af74185c940"
+  },
+  {
+    "file": "board_minutes_2026_04_15.txt",
+    "title": "Attachment I: Report from the Apache Attic Project  [Herv\u00e9 Boutemy]",
+    "start_line": 1601,
+    "end_line": 1636,
+    "sha256": "4057621b2f202356e4d4a063e45c292eb15d75dd04a7688c93595e158716dbe2"
+  },
+  {
+    "file": "board_minutes_2026_04_15.txt",
+    "title": "Attachment AX: Report from the Apache Maven Project  [Herv\u00e9 Boutemy]",
+    "start_line": 3894,
+    "end_line": 3897,
+    "sha256": "ded532f0363c6e98df27688f3a5e90d6a967ae3d20b599f1578ca2c600316657"
+  },
+  {
+    "file": "board_minutes_2026_05_20.txt",
+    "title": "1. Call to order",
+    "start_line": 8,
+    "end_line": 20,
+    "sha256": "90b21637e9d6d5603ced29e5b0aca819d9b3d567628163d3fb1b7bde70c77a97"
+  },
+  {
+    "file": "board_minutes_2026_05_20.txt",
+    "title": "2. Roll Call",
+    "start_line": 21,
+    "end_line": 66,
+    "sha256": "e05a606abd15753221263e5f06dad8c54054bedd0bb83d190081af0cace3869e"
+  },
+  {
+    "file": "board_minutes_2026_05_20.txt",
+    "title": "3. Minutes from previous meetings",
+    "start_line": 67,
+    "end_line": 84,
+    "sha256": "6d272c13db00d0828e198bc54731b1449a603b8c13ba43346d43c969cb2fffe2"
+  },
+  {
+    "file": "board_minutes_2026_05_20.txt",
+    "title": "4. Executive Officer Reports",
+    "start_line": 85,
+    "end_line": 136,
+    "sha256": "f286a55e6589cfd34b8a83a3c084f39c01a74017182077f5954fb01d28895685"
+  },
+  {
+    "file": "board_minutes_2026_05_20.txt",
+    "title": "5. Additional Officer Reports",
+    "start_line": 137,
+    "end_line": 152,
+    "sha256": "aa0e2cb01fbb3161d1ce2f5eda16a7695f2f649f1c82b8a077ae4a770e215f1e"
+  },
+  {
+    "file": "board_minutes_2026_05_20.txt",
+    "title": "7. Special Orders",
+    "start_line": 547,
+    "end_line": 701,
+    "sha256": "c9304248198d22ec5c299a97f022bdc4ba5b9a0d81f0229545eb56440d25dde9"
+  },
+  {
+    "file": "board_minutes_2026_05_20.txt",
+    "title": "8. Discussion Items",
+    "start_line": 702,
+    "end_line": 703,
+    "sha256": "f7af2fdc3d6df40b1be24db9cbbb2d1ef676839aacac93f546aeba5223194560"
+  },
+  {
+    "file": "board_minutes_2026_05_20.txt",
+    "title": "9. Review Outstanding Action Items",
+    "start_line": 704,
+    "end_line": 803,
+    "sha256": "61964d9f9724f811fc87adee1a10cbd4fbcde94d638aad8730cbb82eab535af8"
+  },
+  {
+    "file": "board_minutes_2026_05_20.txt",
+    "title": "10. Unfinished Business",
+    "start_line": 804,
+    "end_line": 805,
+    "sha256": "ca7674171721efbfa7aec0c4e85d68eb0af8b70da45fb9b5e6a06ba7e431f7d3"
+  },
+  {
+    "file": "board_minutes_2026_05_20.txt",
+    "title": "11. New Business",
+    "start_line": 806,
+    "end_line": 807,
+    "sha256": "5c6ad1387a02daf800b72c305520d3911e91a40ef946c4ce2b43c33d30f34069"
+  },
+  {
+    "file": "board_minutes_2026_05_20.txt",
+    "title": "12. Announcements",
+    "start_line": 808,
+    "end_line": 809,
+    "sha256": "babc90bfded16fb70ab6f49c32de45473a258e7ec3cb8104df818301fe3facf5"
+  },
+  {
+    "file": "board_minutes_2026_05_20.txt",
+    "title": "13. Adjournment",
+    "start_line": 810,
+    "end_line": 819,
+    "sha256": "28422a7c900720203d21ace7f3d1207e0739096d918f418733acbfcd91637c74"
+  },
+  {
+    "file": "board_minutes_2026_05_20.txt",
+    "title": "Attachment 1: Report from the VP of Brand Management  [Mark Thomas]",
+    "start_line": 820,
+    "end_line": 892,
+    "sha256": "90835594496c2e7dc8be23748b6fe44df3fcbf462e56653aff20f2c4e3498b07"
+  },
+  {
+    "file": "board_minutes_2026_05_20.txt",
+    "title": "Attachment 2: Report from the VP of Fundraising  [Bob Paulin]",
+    "start_line": 893,
+    "end_line": 951,
+    "sha256": "9571138ac985f1dbb48da7b687ad1e72ea115ae7756924d9dbf12ddbbafb2f4c"
+  },
+  {
+    "file": "board_minutes_2026_05_20.txt",
+    "title": "Attachment 3: Report from the VP of Marketing and Publicity  [Brian Proffitt]",
+    "start_line": 952,
+    "end_line": 1046,
+    "sha256": "691a1b8761d52c8d61c8afc8e3cd6485ef3b0c63449ec03c93c16f609569894b"
+  },
+  {
+    "file": "board_minutes_2026_05_20.txt",
+    "title": "Attachment 4: Report from the VP of Infrastructure  [Danny Angus]",
+    "start_line": 1047,
+    "end_line": 1099,
+    "sha256": "4f0744f361460b8f428a5cb3572b62c58c2867997424b74a89073c4fb5089134"
+  },
+  {
+    "file": "board_minutes_2026_05_20.txt",
+    "title": "Attachment 5: Report from the VP of Tooling  [Dave Fisher]",
+    "start_line": 1100,
+    "end_line": 1114,
+    "sha256": "94f4c2078df3e82c6c83467a2a8c6c8acfdf3ad06d059bac01d6af977e2fb7d3"
+  },
+  {
+    "file": "board_minutes_2026_05_20.txt",
+    "title": "Attachment 6: Report from the VP of Conferences  [Brian Proffitt]",
+    "start_line": 1115,
+    "end_line": 1132,
+    "sha256": "d2164c13188794c12c19d83f678c5aaca8fc8a8ba5f212be045e49c45ffc01f2"
+  },
+  {
+    "file": "board_minutes_2026_05_20.txt",
+    "title": "Attachment 7: Report from the Apache Travel Assistance Committee  [Gavin McDonald]",
+    "start_line": 1133,
+    "end_line": 1188,
+    "sha256": "a070a0dca45051bec9703368fb8e6378ae735e5cc6d90c56a7db913b1b372fa5"
+  },
+  {
+    "file": "board_minutes_2026_05_20.txt",
+    "title": "Attachment 8: Report from the VP of Diversity and Inclusion  [Daniel Gruno]",
+    "start_line": 1189,
+    "end_line": 1192,
+    "sha256": "65eb131d8bce9ef86ce8617b519cc42eb732f651c59a3d71a5711357b77b0b8c"
+  },
+  {
+    "file": "board_minutes_2026_05_20.txt",
+    "title": "Attachment 9: Report from the VP of Data Privacy  [Christian Grobmeier]",
+    "start_line": 1193,
+    "end_line": 1196,
+    "sha256": "bf33a6cc6f4536e51d4c613d67dabf762bbd4ca348bce809751efae6b1c47adc"
+  },
+  {
+    "file": "board_minutes_2026_05_20.txt",
+    "title": "Attachment 10: Report from the VP of Public Affairs  [Dirk-Willem van Gulik]",
+    "start_line": 1197,
+    "end_line": 1204,
+    "sha256": "12671947d102b1fee8b9ef78e38b2e52041d36782ae7b0d02acbd69276ac1be4"
+  },
+  {
+    "file": "board_minutes_2026_05_20.txt",
+    "title": "Attachment 11: Report from the VP of ECMA Relations  [Piotr Karwasz]",
+    "start_line": 1205,
+    "end_line": 1225,
+    "sha256": "a1466dfd3d730365cfe6c6670c5d9959fea4aa839146a0731408d0e42d12876a"
+  },
+  {
+    "file": "board_minutes_2026_05_20.txt",
+    "title": "Attachment 12: Report from the VP of W3C Relations  [Andy Seaborne]",
+    "start_line": 1226,
+    "end_line": 1231,
+    "sha256": "1a4ba220183cb7006bdae028dc5e686fb6af4e11b39deefcb79e2229c54335bb"
+  },
+  {
+    "file": "board_minutes_2026_05_20.txt",
+    "title": "Attachment 13: Report from the Apache Legal Affairs Committee  [Roman Shaposhnik]",
+    "start_line": 1232,
+    "end_line": 1243,
+    "sha256": "56ccca28ba7614fe987311ca0a93a2c8e0270dd9b385db5a6df4e3aa6dede194"
+  },
+  {
+    "file": "board_minutes_2026_05_20.txt",
+    "title": "Attachment 14: Report from the Apache Security Team Project  [Mark J. Cox]",
+    "start_line": 1244,
+    "end_line": 1312,
+    "sha256": "285ffffac141f4056fbff320115d0a67606c9aee908557e6b09465e768e48dc0"
+  },
+  {
+    "file": "board_minutes_2026_05_20.txt",
+    "title": "Attachment D: Report from the Apache Ant Project  [J Pai]",
+    "start_line": 1377,
+    "end_line": 1380,
+    "sha256": "448c83fa12541e313493b6b69f71aa7d42a14e3e8276a0ce0c4ce39e229af71d"
+  },
+  {
+    "file": "board_minutes_2026_05_20.txt",
+    "title": "Attachment M: Report from the Apache Community Development Project  [Swapnil Mane]",
+    "start_line": 1753,
+    "end_line": 1818,
+    "sha256": "2faf3b710beafa3355bf29d68e3e0ecb4e0fe4df1f50e5f2846d6c6c2e6230f2"
+  },
+  {
+    "file": "board_minutes_2026_05_20.txt",
+    "title": "Attachment AE: Report from the Apache HTTP Server Project  [Joe Orton]",
+    "start_line": 2385,
+    "end_line": 2451,
+    "sha256": "b94acc39db517da8969f1f4e4d28459f14dfa677a748aa2cec4c7c7cce2e7d12"
+  },
+  {
+    "file": "board_minutes_2026_05_20.txt",
+    "title": "Attachment AS: Report from the Apache Maven Project  [Herv\u00e9 Boutemy]",
+    "start_line": 4269,
+    "end_line": 4343,
+    "sha256": "3fa14e7d62decca408de01dc6c2bc1a1a3a49f3e07fb53fb536e707aa7ba8343"
+  },
+  {
+    "file": "board_minutes_2026_06_17.txt",
+    "title": "1. Call to order",
+    "start_line": 8,
+    "end_line": 20,
+    "sha256": "e077b1fc0e01d85dbfd22329775c8c4b757e6f4bac1f5cad41a560ce62a54b6d"
+  },
+  {
+    "file": "board_minutes_2026_06_17.txt",
+    "title": "2. Roll Call",
+    "start_line": 21,
+    "end_line": 68,
+    "sha256": "b8f65f93092c8b045fb3c9b6efc2bf81996e432f18b8d6a17f9dd461e98f2498"
+  },
+  {
+    "file": "board_minutes_2026_06_17.txt",
+    "title": "3. Minutes from previous meetings",
+    "start_line": 69,
+    "end_line": 86,
+    "sha256": "b3266d5b59441f266058dbeeda94214769029d2744018eba0304e3dc2204b9d7"
+  },
+  {
+    "file": "board_minutes_2026_06_17.txt",
+    "title": "4. Executive Officer Reports",
+    "start_line": 87,
+    "end_line": 141,
+    "sha256": "146bf2a23c8549398cb0b58b6d581352df6be4d391ad30feef738e7f18520f3f"
+  },
+  {
+    "file": "board_minutes_2026_06_17.txt",
+    "title": "5. Additional Officer Reports",
+    "start_line": 142,
+    "end_line": 157,
+    "sha256": "0e9780372c6f31d954fc98ded6a04b04efb57f574eedd04d3d4af42bd0ca008c"
+  },
+  {
+    "file": "board_minutes_2026_06_17.txt",
+    "title": "7. Special Orders",
+    "start_line": 516,
+    "end_line": 715,
+    "sha256": "85fd97ac693e7b24018befbcfbbd5802ec870f95df104c3b9c2c64ccde66096c"
+  },
+  {
+    "file": "board_minutes_2026_06_17.txt",
+    "title": "8. Discussion Items",
+    "start_line": 716,
+    "end_line": 717,
+    "sha256": "f7af2fdc3d6df40b1be24db9cbbb2d1ef676839aacac93f546aeba5223194560"
+  },
+  {
+    "file": "board_minutes_2026_06_17.txt",
+    "title": "9. Review Outstanding Action Items",
+    "start_line": 718,
+    "end_line": 817,
+    "sha256": "dd2ddcf47c26fbe25fc1b5b7ec0f7becc82204221ada01cb319982b21c28d6d8"
+  },
+  {
+    "file": "board_minutes_2026_06_17.txt",
+    "title": "10. Unfinished Business",
+    "start_line": 818,
+    "end_line": 819,
+    "sha256": "ca7674171721efbfa7aec0c4e85d68eb0af8b70da45fb9b5e6a06ba7e431f7d3"
+  },
+  {
+    "file": "board_minutes_2026_06_17.txt",
+    "title": "11. New Business",
+    "start_line": 820,
+    "end_line": 821,
+    "sha256": "5c6ad1387a02daf800b72c305520d3911e91a40ef946c4ce2b43c33d30f34069"
+  },
+  {
+    "file": "board_minutes_2026_06_17.txt",
+    "title": "12. Announcements",
+    "start_line": 822,
+    "end_line": 823,
+    "sha256": "babc90bfded16fb70ab6f49c32de45473a258e7ec3cb8104df818301fe3facf5"
+  },
+  {
+    "file": "board_minutes_2026_06_17.txt",
+    "title": "13. Adjournment",
+    "start_line": 824,
+    "end_line": 833,
+    "sha256": "3f278215308017e423f955e965e007f1ccf3ae70b8e51a2c403b5b9bc41f53f0"
+  },
+  {
+    "file": "board_minutes_2026_06_17.txt",
+    "title": "Attachment 1: Report from the VP of Brand Management  [Mark Thomas]",
+    "start_line": 834,
+    "end_line": 904,
+    "sha256": "b994d5491c7d27dfbf65fde343dc2c564a1e09bcc69b2877161b271cae333e1b"
+  },
+  {
+    "file": "board_minutes_2026_06_17.txt",
+    "title": "Attachment 2: Report from the VP of Fundraising  [Bob Paulin]",
+    "start_line": 905,
+    "end_line": 908,
+    "sha256": "9df9ed6e96a2a074bc79a7f48b1dc78a1a4438630ee253a71a4ff945fe0fa8cf"
+  },
+  {
+    "file": "board_minutes_2026_06_17.txt",
+    "title": "Attachment 3: Report from the VP of Marketing and Publicity  [Brian Proffitt]",
+    "start_line": 909,
+    "end_line": 976,
+    "sha256": "9b3fa35f5d63035dad57f85e5362ab36cd9f6b8ff7942fe9c87e13c742ea5c4e"
+  },
+  {
+    "file": "board_minutes_2026_06_17.txt",
+    "title": "Attachment 4: Report from the VP of Infrastructure  [Danny Angus]",
+    "start_line": 977,
+    "end_line": 1023,
+    "sha256": "57aa87d53ec8532963728c4dabe190ec451a86056ab60a235c299df0f9987d82"
+  },
+  {
+    "file": "board_minutes_2026_06_17.txt",
+    "title": "Attachment 5: Report from the VP of Tooling  [Dave Fisher]",
+    "start_line": 1024,
+    "end_line": 1071,
+    "sha256": "3737810079ae3268d2bab65f799b1f96390c331ebbaa5f8ea91b5411fad0633f"
+  },
+  {
+    "file": "board_minutes_2026_06_17.txt",
+    "title": "Attachment 6: Report from the VP of Conferences  [Brian Proffitt]",
+    "start_line": 1072,
+    "end_line": 1089,
+    "sha256": "ca94a626e4ee0db199fd0b8f8627172dae6899eb67108cb5c3c29069ea24c4b6"
+  },
+  {
+    "file": "board_minutes_2026_06_17.txt",
+    "title": "Attachment 7: Report from the Apache Travel Assistance Committee  [Gavin McDonald]",
+    "start_line": 1090,
+    "end_line": 1157,
+    "sha256": "f7deec13676fe0283b0228c8efe35c04e504b7901c297156fd974e393d55e4cd"
+  },
+  {
+    "file": "board_minutes_2026_06_17.txt",
+    "title": "Attachment 8: Report from the VP of Diversity and Inclusion  [Daniel Gruno]",
+    "start_line": 1158,
+    "end_line": 1161,
+    "sha256": "65eb131d8bce9ef86ce8617b519cc42eb732f651c59a3d71a5711357b77b0b8c"
+  },
+  {
+    "file": "board_minutes_2026_06_17.txt",
+    "title": "Attachment 9: Report from the VP of Data Privacy  [Christian Grobmeier]",
+    "start_line": 1162,
+    "end_line": 1195,
+    "sha256": "c6fef8dbf97241df686c3000f47646a1e048f2ccbefbdbf65a10a3cdd7baadba"
+  },
+  {
+    "file": "board_minutes_2026_06_17.txt",
+    "title": "Attachment 10: Report from the VP of Public Affairs  [Dirk-Willem van Gulik]",
+    "start_line": 1196,
+    "end_line": 1240,
+    "sha256": "f11aaa73218a3ab0c279ff2b8c6a59450b91cd013eab70c98ca8984c02a81b3b"
+  },
+  {
+    "file": "board_minutes_2026_06_17.txt",
+    "title": "Attachment 11: Report from the VP of ECMA Relations  [Piotr Karwasz]",
+    "start_line": 1241,
+    "end_line": 1246,
+    "sha256": "7f9ea38e274762e959eb65e8a910416d8ea26dad89067441e12ec16c5fe9056c"
+  },
+  {
+    "file": "board_minutes_2026_06_17.txt",
+    "title": "Attachment 12: Report from the VP of W3C Relations  [Andy Seaborne]",
+    "start_line": 1247,
+    "end_line": 1252,
+    "sha256": "a1521649c262f74b6a6ead19b475763c3f0d96c74e6db969e5392e3aecb029b3"
+  },
+  {
+    "file": "board_minutes_2026_06_17.txt",
+    "title": "Attachment 13: Report from the Apache Legal Affairs Committee  [Roman Shaposhnik]",
+    "start_line": 1253,
+    "end_line": 1256,
+    "sha256": "d5da954f8a87be783a332f7f06220bd75f3e2cc1c582b24beb830f8630359a3a"
+  },
+  {
+    "file": "board_minutes_2026_06_17.txt",
+    "title": "Attachment 14: Report from the Apache Security Team Project  [Mark J. Cox]",
+    "start_line": 1257,
+    "end_line": 1349,
+    "sha256": "f0c9500b1a46d503bdf8d5aabf9ef8fad7fbd61e640c9df8ad9ff766e7379062"
+  },
+  {
+    "file": "board_minutes_2026_06_17.txt",
+    "title": "Attachment D: Report from the Apache Ant Project  [J Pai]",
+    "start_line": 1396,
+    "end_line": 1447,
+    "sha256": "f0bac6961d06833aa18bdd17d32ed4c9b90309734f19e3abc7756e915e6c99fd"
+  },
+  {
+    "file": "board_minutes_2026_06_17.txt",
+    "title": "Attachment BU: Report from the Apache Tomcat Project  [Christopher Schultz]",
+    "start_line": 5361,
+    "end_line": 5419,
+    "sha256": "08a9944664a9f7736c0d5b74a02614c82999613023d1bead193a8dad5fe5cb4b"
+  }
+]

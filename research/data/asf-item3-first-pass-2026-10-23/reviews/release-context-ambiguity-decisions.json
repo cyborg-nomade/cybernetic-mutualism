@@ -1,0 +1,27 @@
+{
+  "review_date": "2026-10-22",
+  "decisions": [
+    {
+      "family_id": "httpd-release-announcement-moderation-query-2023",
+      "project": "httpd",
+      "onset_earliest": "2023-03-08",
+      "onset_latest": "2023-03-08",
+      "earliest_source_id": "<CALK=YjP2Db23iRmvPFEhzqN7xS=XipXWxHeMFDQ8HYSAzDCHcw@mail.gmail.com>",
+      "initiating_role": "pmc",
+      "action_class": "infrastructure_service",
+      "eligible": "unknown",
+      "kind": "ambiguous",
+      "sender_act": "Ask someone with moderation privileges to check an apparently missing release announcement",
+      "intended_receiver": "Unidentified moderators of announce@httpd.apache.org; institutional capacity unestablished",
+      "original_option": "Release vote passed; a reader says project announcement not received",
+      "requested_change": "Check project-list moderation or missing announcement",
+      "disposition_history": "March8SteveBushasksforannouncementtoannounce@httpd.apache.org. EricCovenerrepliesMaybeamoderationissueandasksproperhattohelpcheck. This is not announce@apache.org. Neither source identifies Foundation/Infrareceiveror an actual queue check/rejection. Latergenericlatency/lossreports do not confirm this specific request disposition.",
+      "eligibility_reason": "Requested moderation check is independently different from release authorization, so retain a separate service candidate rather than redraw the local-release baseline. Foundation\u2013project boundary cannot be resolved from the unnamed properhat on a project list; shared hosting alone does not establish a directed Foundation commitment. Retain unknown eligibility without inventing provider capacity or a refusal.",
+      "extra_source_ids": [
+        "<fc326efaa7c04481bda1ef43b7331020@3ds.com>"
+      ],
+      "source_scope": "Both exact original bodies reread in full; quoted release result is context, not a second moderation act."
+    }
+  ],
+  "review_scope": "All36baseline histories and17specificprospective interpretations rechecked. Other test/build/signature/advice events remain ordinary local release work absent an explicit new Foundation request; this one moderation query preserves the unresolved boundary."
+}

@@ -5,15 +5,12 @@
 - **Entry state:** Accepted [second-cycle synthesis](second-cycle-synthesis.md);
   PR #15 merged at `360fa99903a12315446b10766c7d88af11b20979`.
 - **Scope:** The registered ASF comparison, beginning with executable tooling.
-- **Current state:** Item 1 accepted and frozen on 2026-09-19; item 2 accepted
-  on 2026-09-22, with G1 passing. Item 3 started on 2026-09-22 and remains
-  incomplete; its first review checkpoint was accepted on 2026-09-23. The
-  2026-10-04 continuation screens Ant subjects and extends body/family review.
-  The 2026-10-20 release frame contains 647 families and a reproducible draw
-  for 36 nonempty project-quarter strata. Coding and the first-pass lock
-  remain unfinished. The October 20–21 continuation completes the selected
-  opening-topic body reviews and retains dated policy versions and explicit
-  family-identity decisions before component coding.
+- **Current state:** Items 1 and 2 are accepted. Item 3 is complete for owner
+  review in [PR #19](https://github.com/cyborg-nomade/cybernetic-mutualism/pull/19)
+  on 2026-10-23. Its [completion package](../data/asf-item3-first-pass-2026-10-23/README.md)
+  retains 2,946 required records, scoped completeness attestations, exact source
+  bytes and the simultaneous first-pass/frame/blank-recode lock. G2/G3 and
+  aggregate claim decisions remain uncalculated; all claims remain C1.
 - **Accepted first-pass checkpoint:** `98561adb68ced781767ce4c4dc43143ebdc6a88a`,
   accepted through [PR #18](https://github.com/cyborg-nomade/cybernetic-mutualism/pull/18)
   and merged at `bec2d0787f7fd5772ca8aeae11ff4a7892b46a7a`. This is a staged
@@ -66,9 +63,9 @@ complete. The owner then authorized item 3. Its
 preserves the initial screening checkpoint, evidence exposure, and outstanding
 work. On 2026-09-23 the owner approved PR #18 and authorized its merge after
 all three review findings were resolved and both CI runs passed. Acceptance
-applies to this bounded checkpoint. The complete census, baseline draw, coding,
-and first-pass lock remain unfinished. Further item 3 work continues from the
-accepted checkpoint under the same registration. Publication, the deferred
+applies to this bounded checkpoint. That acceptance did not complete the census, baseline draw, coding or lock.
+The October 23 completion now supplies those item 3 requirements in PR #19
+under the same registration, for owner review. Publication, the deferred
 print/Reformation collection, and scheduled work remain outside this item.
 
 ## Completion and Decision Criteria
@@ -109,12 +106,19 @@ other claims outside the registered ASF decisions remain unchanged.
 
 ## Conclusions and Next Steps
 
-The owner has accepted and frozen the executable audit, including its disclosed
-implementation clarification and review corrections. This makes the registered
-decisions reproducible before outcome exposure. The separately authorized
-access audit now supplies a dated G1 pass and retains the public source corpus
-used to verify it. It supplies no causal finding, and all claims remain C1.
-Item 2 is accepted. Item 3 is underway, with its initial review checkpoint
-accepted on 2026-09-23 and the full first pass explicitly incomplete.
-Completing the census and registered first pass remains the next discriminator.
-No empirical first-pass lock or washout has begun.
+The accepted executable and access audit now have a completed first-pass
+input for review: the fixed census/baseline, independent horizon measurements,
+explicit unresolved evidence, source-qualified rival/search records and
+simultaneous audit lock. The exact receipt and reconstruction instructions
+are in the completion package. Completion changes the programme's readiness
+for registered evaluation; it supplies no aggregate causal result or claim
+confidence increase. All claims remain C1.
+
+Owner review of item 3 precedes item 4. Its delayed blinded recode may start
+only after the receipt's earliest date and an attestation of no intervening
+ASF evidence work; the 14 complete UTC days begin at the actual lock, not at
+preregistration or a prior checkpoint. Review corrections involving evidence
+require a new valid boundary. Item 4 is research and writing using the frozen
+code, with G1–G3 applied in order and subsequent causal comparison stopped at
+any registered gate failure. Item 5 is writing: the synthesis and claim-level
+disposition for the path actually reached, including a registered stop.

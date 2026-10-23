@@ -1,0 +1,35 @@
+{
+  "review_date": "2026-10-22",
+  "status": "complete_source_reading_for_current_role_bound_not_audit_frame",
+  "selection_receipt_sha256": "a25ed55837ae8a3265c731b6cbe1653f03659bd0de77ccba18909dc5e1a117fd",
+  "additional_families": [
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-pdf-plugin-1.6.2",
+      "initiating_role": "unknown",
+      "opening_topic_ids": [
+        "topic-a20bdf88a7075410"
+      ],
+      "hash": "adc907a149616b7efc46fa9859e1368713e45df1a9d4208ae1de2022526a30cb"
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-javadoc-plugin-3.6.0",
+      "initiating_role": "unknown",
+      "opening_topic_ids": [
+        "topic-6762f7637c3ac808"
+      ],
+      "hash": "e9d9c935dea427292b77e9bb9c744ae080695d9c907c10aecb16172c556a5774"
+    }
+  ],
+  "reading_aid_sha256": "4e3b68aff586acbfed58984434a6c1e6cdce5d04e6c4eabce79a83c9cd69333c",
+  "repetition_ledger_sha256": "8f68c6c69189d680d1c8b1435e68840c66c49571d631f897f230e6186c10be77",
+  "scope": "All146novel-aidlinesreaduntruncated:15newvariants/4reusedcompletevariants; unchanged originalopening/closurereview reused byexacthash. Otherprojectsrequiredzeroextra families. Bound151releasefamilies,149alreadywithinprevious182reviewedset; unionadds2for184totalalreadyreadprospectivefamilies. This is not actual registered audit membership.",
+  "findings": {
+    "maven-release-maven-javadoc-plugin-3.6.0": "Staging initiallyopen/unexposedbecausekeyvalidationfailed; managercloses/fixesandupdatesJiraclassification. SKS/key publicationisexistingverificationworkflow, not newFoundationserviceact. ThirdpartyITjarpreventsfullreproducibility; reviewerexplicitlysaysnotreleaseblocking. HenningPMCatlaterOctoberstartcannotbeassumedforSeptemberopening.",
+    "maven-release-maven-pdf-plugin-1.6.2": "Positivevotesandreproduciblebuilds; suggestiontomergePR67beforefinalmaintenanceversionislocalreview,notFoundationact. ReleaseisdistinctfromearlierJuly2024retirementproposal/familyonset."
+  },
+  "limits": [
+    "Actual audit_frame requires completed measurement opportunity flags and final source/bundle verification. No component values, opportunity flags, witness classifications or lock supplied."
+  ]
+}

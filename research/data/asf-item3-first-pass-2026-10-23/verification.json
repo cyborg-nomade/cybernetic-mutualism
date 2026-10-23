@@ -1,0 +1,18 @@
+{
+  "aggregate_or_claim_calculation": false,
+  "all_registered_source_bytes_match": true,
+  "blank_recode_whitelist_pass": true,
+  "blank_source_locators_neutral": true,
+  "frozen_integrity_pass": true,
+  "frozen_lock_verification_pass": true,
+  "integrity_errors_at_lock": [],
+  "lock_sha256": "2c5bf03e56aeb8cea66879f82acef46a6ecef05511e23d74a24451da712a4cb7",
+  "native_reconstruction_pass": true,
+  "repository_check": {
+    "both_model_reproductions": "pass",
+    "coverage_percent": "90.59",
+    "lint_and_format": "pass",
+    "strict_production_typing": "pass",
+    "tests_passed": 209
+  }
+}

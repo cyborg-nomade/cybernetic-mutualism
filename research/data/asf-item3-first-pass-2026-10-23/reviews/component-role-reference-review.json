@@ -1,0 +1,32 @@
+{
+  "review_date": "2026-10-22",
+  "decisions": [],
+  "existing_family_context_links": [
+    {
+      "family_id": "httpd-libapreq-release-account-2023",
+      "project": "httpd",
+      "source_ids": [
+        "committee-info-20230328",
+        "committee-info-20240227"
+      ]
+    }
+  ],
+  "role_checks": [
+    {
+      "source_id": "committee-info-20230328",
+      "locator": "JSON $.officers.infrastructureadministrator.roster.gstein",
+      "observation": "Greg Stein is the named Infrastructure Administrator in both dated snapshots. The reviewed reply reports a central LDAP/committer-group edit, within that service capacity; his separate HTTPD membership is not the authority proof.",
+      "sha256": "a4fa11458001d841dc213f626c2fd5ede7c9588f8273ba70109203a4e8a7ddb5"
+    },
+    {
+      "source_id": "committee-info-20240227",
+      "locator": "JSON $.officers.infrastructureadministrator.roster.gstein",
+      "observation": "Greg Stein is the named Infrastructure Administrator in both dated snapshots. The reviewed reply reports a central LDAP/committer-group edit, within that service capacity; his separate HTTPD membership is not the authority proof.",
+      "sha256": "b0faca605f426a2920b2a2267e7958e499b3b3402363a47a8ff44a83987292ea"
+    }
+  ],
+  "limits": [
+    "This extends the earlier four-roster reading scope only to the named service actor already in the episode. No employer/private roster or unrelated outcome is added.",
+    "Snapshots bracket the August2023act; no exact hidden appointment or termination date is reconstructed."
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "review_date": "2026-10-22",
+  "decisions": [
+    {
+      "family_id": "tomcat-securitymanager-removal-2023",
+      "project": "tomcat",
+      "eligible": "no",
+      "kind": "excluded",
+      "earliest_source_id": "<0b106c24-4116-4729-136d-f5c32aeafb5d@apache.org>",
+      "onset_earliest": "2022-09-28",
+      "onset_latest": "2022-09-28",
+      "initiating_role": "pmc",
+      "action_class": "technical_direction",
+      "sender_act": "Propose DropSecurityManagersupportin10.1or11",
+      "intended_receiver": "Tomcat project maintainers",
+      "original_option": "SecurityManagersupport exists",
+      "requested_change": "DropSecurityManagersupportin10.1or11",
+      "disposition_history": "September28,2022original proposes removal beforeJDKremoval; Octoberreplies and January11,2023implementation continue it. Exact public receiving hop authenticates the original. Januaryimplementation is not a new2023request.",
+      "eligibility_reason": "Knownprewindowunderlyingcomponent direction. Exclude from primary onset frame while retaining later execution and follow-up as context.",
+      "prewindow": true
+    },
+    {
+      "family_id": "tomcat-nio2-removal-2025",
+      "project": "tomcat",
+      "eligible": "yes",
+      "kind": "local_other",
+      "earliest_source_id": "<bug-69631-78-nHIKjod27k@https.bz.apache.org/bugzilla/>",
+      "onset_earliest": "2025-04-24",
+      "onset_latest": "2025-04-24",
+      "initiating_role": "pmc",
+      "action_class": "technical_direction",
+      "sender_act": "Propose RemoveNIO2fromTomcat12whilepreservingendpointabstraction",
+      "intended_receiver": "Tomcat project maintainers",
+      "original_option": "NIO2connector supported; particularvirtual-thread/SSLfailureunderdiscussion",
+      "requested_change": "RemoveNIO2fromTomcat12whilepreservingendpointabstraction",
+      "disposition_history": "March26bug is ordinary failure report. April24comment19first proposesNIO2removal. May13\u201315devthread advances it and maintainer saysbeingremoved. May15commit21f0936metadata/files confirm removal structure but exact public push time is unverified. August30cleanup follows alreadyremovedNIO2. WholeBIO/VTarchitecture replacement proposedOctober2024is independently wider and not assumedimplemented.",
+      "eligibility_reason": "Narrow component-retirement deliverable, distinct from both initial bug repair and replacingallNIOwithBIO. Earlier actual original controls onset; notMay13orAugust30.",
+      "extra_source_ids": [
+        "tomcat-nio2-removal-21f0936"
+      ]
+    },
+    {
+      "family_id": "tomcat-markmail-link-retirement-2023",
+      "project": "tomcat",
+      "eligible": "no",
+      "kind": "excluded",
+      "earliest_source_id": "<be5c6138-19ba-4826-d732-03166a3dc44b@hibox.tv>",
+      "onset_earliest": "2023-08-21",
+      "onset_latest": "2023-08-21",
+      "initiating_role": "pmc",
+      "action_class": "technical_direction",
+      "sender_act": "Propose HidebrokenMarkMaillinksandaskvendoraboutRSS",
+      "intended_receiver": "Tomcat project maintainers",
+      "original_option": "Third-partyRSS/archivelinksarebroken",
+      "requested_change": "HidebrokenMarkMaillinksandaskvendoraboutRSS",
+      "disposition_history": "August21ordinarybrokenlinkreportandsitecleanup; September5reportsnoreplyandsecondaryclosureclaim. No new binding archive standard, Foundation service obligation or actual provider shutdown record shown.",
+      "eligibility_reason": "Ordinary user-support/linkmaintenance in response to a third-party outage. No independently specified binding project direction or ASFservice request is present; provider silence is not a Foundation refusal."
+    }
+  ],
+  "earlier_originals": [
+    {
+      "source_id": "<0b106c24-4116-4729-136d-f5c32aeafb5d@apache.org>",
+      "sha256": "b3fbb2e8cdb055e4cd9e9e3f8645b925e35808baf82e9d55948d1a8a4c103df7",
+      "publication_upper_bound": "2022-09-28T15:06:06+00:00",
+      "publication_header": 1,
+      "body_sha256": "83903182aaaa5de920c565d0f3b9d777253b8a34d8ab7c0dcd58491d7e9c2000"
+    },
+    {
+      "source_id": "<5159e0c2-3e07-cc06-3a6e-bcb5a92946de@gmx.de>",
+      "sha256": "1a8676c3f83831bb9892eab0acabb2962a8c49e6aebaf03252ca4c54b55fb982",
+      "publication_upper_bound": "2022-07-19T16:24:59+00:00",
+      "publication_header": 1,
+      "body_sha256": "b68e1510510ed43f6dcb9d40e6ab524aa5148c9847e5c8c7154be04387534333"
+    }
+  ],
+  "limits": [
+    "Priorpublicationunknown placeholders for two exact originals resolved by their own retained public archive receiving headers; earlier review preserved.",
+    "NIO2publiccommitmetadata is corroboration with publicationunknown, not decisive historical publication evidence.",
+    "No opportunity, causal or aggregate decision supplied."
+  ]
+}

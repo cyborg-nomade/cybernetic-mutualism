@@ -1,0 +1,41 @@
+{
+  "classes": [
+    {
+      "sender": "mxout1-ec2-va.apache.org",
+      "receiver": "mx-eu-03.ponee.io",
+      "count": 22020
+    },
+    {
+      "sender": "mxout1-ec2-va.tail5cffe7.ts.net",
+      "receiver": "mx-eu-03.ponee.io",
+      "count": 5
+    },
+    {
+      "sender": "mxout1-he-de.apache.org",
+      "receiver": "mx-eu-03.ponee.io",
+      "count": 22008
+    },
+    {
+      "sender": "mxout2-ec2-ie.apache.org",
+      "receiver": "mx-eu-03.ponee.io",
+      "count": 491
+    },
+    {
+      "sender": "mxout2-ec2-or.apache.org",
+      "receiver": "mx-eu-03.ponee.io",
+      "count": 531
+    },
+    {
+      "sender": "mxout2-ec2-se.apache.org",
+      "receiver": "mx-eu-03.ponee.io",
+      "count": 545
+    },
+    {
+      "sender": "mxout2-ec2-sy.apache.org",
+      "receiver": "mx-eu-03.ponee.io",
+      "count": 502
+    }
+  ],
+  "earliest": "2022-10-01T11:03:37+00:00",
+  "latest": "2026-06-30T22:57:58+00:00"
+}

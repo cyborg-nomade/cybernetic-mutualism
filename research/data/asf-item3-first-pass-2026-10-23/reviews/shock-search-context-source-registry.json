@@ -1,0 +1,582 @@
+{
+  "review_date": "2026-10-22",
+  "records": [
+    {
+      "source_id": "context-index-ant-2022-10",
+      "project": "ant",
+      "month": "2022-10",
+      "kind": "index",
+      "sha256": "77f5956761ee1e2302a0d5eb61dcc8627ca512c716decb388a26443ca722af1d",
+      "retrieved_at": "2026-10-05T07:46:15.449Z"
+    },
+    {
+      "source_id": "context-mailbox-ant-2022-10",
+      "project": "ant",
+      "month": "2022-10",
+      "kind": "mailbox",
+      "sha256": "098c8f1d8127fe4e43895d55d28acfd03cd036bf2632b9bed15b49f2a5afdd08",
+      "retrieved_at": "2026-10-05T07:46:15.519Z"
+    },
+    {
+      "source_id": "context-index-ant-2022-11",
+      "project": "ant",
+      "month": "2022-11",
+      "kind": "index",
+      "sha256": "d8d4a4aea10fb65945798336ec24f309a7a94e87abce26bc629583765a2717f0",
+      "retrieved_at": "2026-10-05T07:46:15.479Z"
+    },
+    {
+      "source_id": "context-mailbox-ant-2022-11",
+      "project": "ant",
+      "month": "2022-11",
+      "kind": "mailbox",
+      "sha256": "8aba66b2491967453a00204ac6335319d9ee10de57bb4e1c0affe46ba95631a9",
+      "retrieved_at": "2026-10-05T07:46:15.546Z"
+    },
+    {
+      "source_id": "context-index-ant-2022-12",
+      "project": "ant",
+      "month": "2022-12",
+      "kind": "index",
+      "sha256": "d4e6505227bed6b87c8a7207823aed1832314e707756e8c8a7633796cbc0b371",
+      "retrieved_at": "2026-10-05T07:46:40.253Z"
+    },
+    {
+      "source_id": "context-mailbox-ant-2022-12",
+      "project": "ant",
+      "month": "2022-12",
+      "kind": "mailbox",
+      "sha256": "b328463edd2b493588a824502aff5fb05c53946dc3b0662e3ac9697823a1dd6c",
+      "retrieved_at": "2026-10-05T07:46:40.401Z"
+    },
+    {
+      "source_id": "context-index-ant-2026-01",
+      "project": "ant",
+      "month": "2026-01",
+      "kind": "index",
+      "sha256": "35504ba49654e2d5c7c792bb0df0c1c253060e7cf842b6a42eacae266e13ec9d",
+      "retrieved_at": "2026-10-05T07:46:40.196Z"
+    },
+    {
+      "source_id": "context-mailbox-ant-2026-01",
+      "project": "ant",
+      "month": "2026-01",
+      "kind": "mailbox",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-10-05T07:46:40.188Z"
+    },
+    {
+      "source_id": "context-index-ant-2026-02",
+      "project": "ant",
+      "month": "2026-02",
+      "kind": "index",
+      "sha256": "981b5b5e0c22e4b36a4a4786ba83750deaaf6cd21a9e719f30483b57324e0016",
+      "retrieved_at": "2026-10-05T07:46:40.748Z"
+    },
+    {
+      "source_id": "context-mailbox-ant-2026-02",
+      "project": "ant",
+      "month": "2026-02",
+      "kind": "mailbox",
+      "sha256": "54542f4f8547ab7b77110e7ae318ede6aa335e68e52df3bd47f16f57973214d2",
+      "retrieved_at": "2026-10-05T07:46:40.812Z"
+    },
+    {
+      "source_id": "context-index-ant-2026-03",
+      "project": "ant",
+      "month": "2026-03",
+      "kind": "index",
+      "sha256": "18d6ac916d4519d1ac8e4fd928d1702307486e2d35357f9446aaee9b435b6dd0",
+      "retrieved_at": "2026-10-05T07:46:40.676Z"
+    },
+    {
+      "source_id": "context-mailbox-ant-2026-03",
+      "project": "ant",
+      "month": "2026-03",
+      "kind": "mailbox",
+      "sha256": "76b29075c903cf13590fbb719e4719e7262fa2d2720e7cbeafd9e5b4c06123e3",
+      "retrieved_at": "2026-10-05T07:46:40.675Z"
+    },
+    {
+      "source_id": "context-index-ant-2026-04",
+      "project": "ant",
+      "month": "2026-04",
+      "kind": "index",
+      "sha256": "ba4e1b4b29436c7494bfa4300f0f4248a37aa3f5612b676e8c0973a9914cbe1a",
+      "retrieved_at": "2026-10-05T07:46:41.135Z"
+    },
+    {
+      "source_id": "context-mailbox-ant-2026-04",
+      "project": "ant",
+      "month": "2026-04",
+      "kind": "mailbox",
+      "sha256": "e3d29525a20b7fd911cee8c86eaf06ff3be5ca72f6719077a29d8cbddc966c13",
+      "retrieved_at": "2026-10-05T07:46:41.252Z"
+    },
+    {
+      "source_id": "context-index-ant-2026-05",
+      "project": "ant",
+      "month": "2026-05",
+      "kind": "index",
+      "sha256": "cec8b76da18ce4eb740ba38433b56d59aa60e2786dcac015f3ad100a3475e7de",
+      "retrieved_at": "2026-10-05T07:46:41.129Z"
+    },
+    {
+      "source_id": "context-mailbox-ant-2026-05",
+      "project": "ant",
+      "month": "2026-05",
+      "kind": "mailbox",
+      "sha256": "2d0e5c6aa5645f844481512b4c69d3fd921509f6b2c522970659f2a59f1c71fe",
+      "retrieved_at": "2026-10-05T07:46:41.260Z"
+    },
+    {
+      "source_id": "context-index-ant-2026-06",
+      "project": "ant",
+      "month": "2026-06",
+      "kind": "index",
+      "sha256": "d4f1a957ff9079d324302f6f76d85df94881d87f9682224322b84698710cc36b",
+      "retrieved_at": "2026-10-05T07:46:41.649Z"
+    },
+    {
+      "source_id": "context-mailbox-ant-2026-06",
+      "project": "ant",
+      "month": "2026-06",
+      "kind": "mailbox",
+      "sha256": "064d95441aad8dfd5a48a63b21f68820e6a7199301f86fd863370ee41d72a289",
+      "retrieved_at": "2026-10-05T07:46:42.067Z"
+    },
+    {
+      "source_id": "context-index-httpd-2022-10",
+      "project": "httpd",
+      "month": "2022-10",
+      "kind": "index",
+      "sha256": "62ea9c558b5236c8a45d7ad1a45ebe6b2a9e973bef364e14e58271e7c33e56dd",
+      "retrieved_at": "2026-10-05T07:46:41.639Z"
+    },
+    {
+      "source_id": "context-mailbox-httpd-2022-10",
+      "project": "httpd",
+      "month": "2022-10",
+      "kind": "mailbox",
+      "sha256": "cb58fbedbedc89a408a1849c7b8a098d0e7671eb1fcfe62ad3f011e608cdc334",
+      "retrieved_at": "2026-10-05T07:46:41.952Z"
+    },
+    {
+      "source_id": "context-index-httpd-2022-11",
+      "project": "httpd",
+      "month": "2022-11",
+      "kind": "index",
+      "sha256": "0b50dc794ae70bcb28be990ab78b294787d1aa268c62257da7db7878d3554e41",
+      "retrieved_at": "2026-10-05T07:46:42.389Z"
+    },
+    {
+      "source_id": "context-mailbox-httpd-2022-11",
+      "project": "httpd",
+      "month": "2022-11",
+      "kind": "mailbox",
+      "sha256": "7688a1dc88b4a1b33ca9a07510292454bea90d2f4f78c2e04fffd45244ae0599",
+      "retrieved_at": "2026-10-05T07:46:42.557Z"
+    },
+    {
+      "source_id": "context-index-httpd-2022-12",
+      "project": "httpd",
+      "month": "2022-12",
+      "kind": "index",
+      "sha256": "7d41babcc7c110b0a2047befa52a4319db7172717507d0a67c1376726edaefad",
+      "retrieved_at": "2026-10-05T07:46:42.340Z"
+    },
+    {
+      "source_id": "context-mailbox-httpd-2022-12",
+      "project": "httpd",
+      "month": "2022-12",
+      "kind": "mailbox",
+      "sha256": "20b8a37d0c0576008c48c166ed1cc422d1052a3f6905afa4a82bdadee3c3925d",
+      "retrieved_at": "2026-10-05T07:46:42.506Z"
+    },
+    {
+      "source_id": "context-index-httpd-2026-01",
+      "project": "httpd",
+      "month": "2026-01",
+      "kind": "index",
+      "sha256": "a467cad817d66d77ed6b324192a75665d78d5df346bba2bf13eb4bfbdde25eb8",
+      "retrieved_at": "2026-10-05T07:46:42.783Z"
+    },
+    {
+      "source_id": "context-mailbox-httpd-2026-01",
+      "project": "httpd",
+      "month": "2026-01",
+      "kind": "mailbox",
+      "sha256": "be02379eaa98b00b7f9b927cb0352df42a6bbed40900c4bddd23a91d1b6f8c83",
+      "retrieved_at": "2026-10-05T07:46:42.825Z"
+    },
+    {
+      "source_id": "context-index-httpd-2026-02",
+      "project": "httpd",
+      "month": "2026-02",
+      "kind": "index",
+      "sha256": "a3b5a04310fa81063e0e20510186a6c16fdd1fe5677f0e3d77dfe87cf6468d1f",
+      "retrieved_at": "2026-10-05T07:46:42.824Z"
+    },
+    {
+      "source_id": "context-mailbox-httpd-2026-02",
+      "project": "httpd",
+      "month": "2026-02",
+      "kind": "mailbox",
+      "sha256": "ec0eacbf8e9d78fa3576e5b8e548f2ce6822d48152ce17611f712ad32e80bc86",
+      "retrieved_at": "2026-10-05T07:46:42.895Z"
+    },
+    {
+      "source_id": "context-index-httpd-2026-03",
+      "project": "httpd",
+      "month": "2026-03",
+      "kind": "index",
+      "sha256": "ec1a9b846971bd0231cf63a12305062730b5aa020963dae7289a61f89dc358b3",
+      "retrieved_at": "2026-10-05T07:46:43.178Z"
+    },
+    {
+      "source_id": "context-mailbox-httpd-2026-03",
+      "project": "httpd",
+      "month": "2026-03",
+      "kind": "mailbox",
+      "sha256": "0f091d78ae5217efa513c2b6b824b73ee546abaae1446b840ae90be86a0e2b40",
+      "retrieved_at": "2026-10-05T07:46:43.206Z"
+    },
+    {
+      "source_id": "context-index-httpd-2026-04",
+      "project": "httpd",
+      "month": "2026-04",
+      "kind": "index",
+      "sha256": "b555ad035e317356a85896f91178b6071ec2e0fd273b8e3efb5560408b5e0fe3",
+      "retrieved_at": "2026-10-05T07:46:43.324Z"
+    },
+    {
+      "source_id": "context-mailbox-httpd-2026-04",
+      "project": "httpd",
+      "month": "2026-04",
+      "kind": "mailbox",
+      "sha256": "d2172dbd671652ccec718308e8b500d9a31ab42f556a11a4abc579440917af66",
+      "retrieved_at": "2026-10-05T07:46:43.474Z"
+    },
+    {
+      "source_id": "context-index-httpd-2026-05",
+      "project": "httpd",
+      "month": "2026-05",
+      "kind": "index",
+      "sha256": "b60cbe84a2733039987aecd63af7e7ea917ebee7fd79b6e656f05e8ac67f25c8",
+      "retrieved_at": "2026-10-05T07:46:43.795Z"
+    },
+    {
+      "source_id": "context-mailbox-httpd-2026-05",
+      "project": "httpd",
+      "month": "2026-05",
+      "kind": "mailbox",
+      "sha256": "64900d4fd02b97d2bc40a904a3eac819c04fc646f52ba8c39a435c8d0a3a7d40",
+      "retrieved_at": "2026-10-05T07:46:44.509Z"
+    },
+    {
+      "source_id": "context-index-httpd-2026-06",
+      "project": "httpd",
+      "month": "2026-06",
+      "kind": "index",
+      "sha256": "058e0f02b9a3bd8164e9e77d8be8af4a37a658f025bc3efa6597e9c405aa1a97",
+      "retrieved_at": "2026-10-05T07:46:43.797Z"
+    },
+    {
+      "source_id": "context-mailbox-httpd-2026-06",
+      "project": "httpd",
+      "month": "2026-06",
+      "kind": "mailbox",
+      "sha256": "f6438657785f04ebfd4fca178706be74db49538f45a47a6403bb2dd045be8baf",
+      "retrieved_at": "2026-10-05T07:46:44.104Z"
+    },
+    {
+      "source_id": "context-index-maven-2022-10",
+      "project": "maven",
+      "month": "2022-10",
+      "kind": "index",
+      "sha256": "6ba14ce01a5bae90b8c388143cca7013be08a307728a0f1f3fd847301a1d1d91",
+      "retrieved_at": "2026-10-05T07:47:09.027Z"
+    },
+    {
+      "source_id": "context-mailbox-maven-2022-10",
+      "project": "maven",
+      "month": "2022-10",
+      "kind": "mailbox",
+      "sha256": "4911d0a1b88b5bf20c2f54b005eba5878b7bfe89eec4a85a1c37f644a518388b",
+      "retrieved_at": "2026-10-05T07:47:31.168Z"
+    },
+    {
+      "source_id": "context-index-maven-2022-11",
+      "project": "maven",
+      "month": "2022-11",
+      "kind": "index",
+      "sha256": "d3d75907833361e8e7cb971b2cb0f43ea555978fd7277a447572c56103acc62e",
+      "retrieved_at": "2026-10-05T07:47:09.099Z"
+    },
+    {
+      "source_id": "context-mailbox-maven-2022-11",
+      "project": "maven",
+      "month": "2022-11",
+      "kind": "mailbox",
+      "sha256": "c97c3ea1dacd92fbbfa3362ea7c2a2b670df2dd51b381fa65dceec0d9c997bd5",
+      "retrieved_at": "2026-10-05T07:47:31.168Z"
+    },
+    {
+      "source_id": "context-index-maven-2022-12",
+      "project": "maven",
+      "month": "2022-12",
+      "kind": "index",
+      "sha256": "15dec834fa5e0c45d249daa4b97e4697e43cae8670a2c328f9d53b77e9764e0d",
+      "retrieved_at": "2026-10-05T07:47:10.223Z"
+    },
+    {
+      "source_id": "context-mailbox-maven-2022-12",
+      "project": "maven",
+      "month": "2022-12",
+      "kind": "mailbox",
+      "sha256": "d3d42948f1b9658e0ed67b92597dac140bb8032ee1c32dfc113f0da2813e8330",
+      "retrieved_at": "2026-10-05T07:47:10.631Z"
+    },
+    {
+      "source_id": "context-index-maven-2026-01",
+      "project": "maven",
+      "month": "2026-01",
+      "kind": "index",
+      "sha256": "19bff18db9cd5317aebf371b7661674391293c339ec8116b7ff3202fff6c7793",
+      "retrieved_at": "2026-10-05T07:47:10.148Z"
+    },
+    {
+      "source_id": "context-mailbox-maven-2026-01",
+      "project": "maven",
+      "month": "2026-01",
+      "kind": "mailbox",
+      "sha256": "85d0cc1a72af2ebeddbb9b0af023e759247c1d9e86577fd68444e91de026c47a",
+      "retrieved_at": "2026-10-05T07:47:10.462Z"
+    },
+    {
+      "source_id": "context-index-maven-2026-02",
+      "project": "maven",
+      "month": "2026-02",
+      "kind": "index",
+      "sha256": "5279887246bc047e239868fd6875921dcff5a507052e1d00a2a6ccc9cf0b4c24",
+      "retrieved_at": "2026-10-05T07:47:11.082Z"
+    },
+    {
+      "source_id": "context-mailbox-maven-2026-02",
+      "project": "maven",
+      "month": "2026-02",
+      "kind": "mailbox",
+      "sha256": "44bd14218b90ef266cc37e041aa5345593e40e86fe206d5570ceb4b818d123e5",
+      "retrieved_at": "2026-10-05T07:47:11.543Z"
+    },
+    {
+      "source_id": "context-index-maven-2026-03",
+      "project": "maven",
+      "month": "2026-03",
+      "kind": "index",
+      "sha256": "85dddf5cd4ea10f1037250d436290e4080d6ac17249d6c64c2afbec6c29d0a9a",
+      "retrieved_at": "2026-10-05T07:47:11.071Z"
+    },
+    {
+      "source_id": "context-mailbox-maven-2026-03",
+      "project": "maven",
+      "month": "2026-03",
+      "kind": "mailbox",
+      "sha256": "d7695f155913f7e6f6792d8b356db8af378f786587bacb1dc7c163efe3f2bd16",
+      "retrieved_at": "2026-10-05T07:47:11.711Z"
+    },
+    {
+      "source_id": "context-index-maven-2026-04",
+      "project": "maven",
+      "month": "2026-04",
+      "kind": "index",
+      "sha256": "27fa9e5f6202185af90723f70735c8a074779b084f519421992ec99d90def1cc",
+      "retrieved_at": "2026-10-05T07:47:12.104Z"
+    },
+    {
+      "source_id": "context-mailbox-maven-2026-04",
+      "project": "maven",
+      "month": "2026-04",
+      "kind": "mailbox",
+      "sha256": "afffebb6601e8be57e2043016ed01a65ba0cab95267521fddbc61d3b5e4646f0",
+      "retrieved_at": "2026-10-05T07:47:12.670Z"
+    },
+    {
+      "source_id": "context-index-maven-2026-05",
+      "project": "maven",
+      "month": "2026-05",
+      "kind": "index",
+      "sha256": "96c8e97e185035e06906df98dd391ae77ad278456e3e2f889652412a86d2e881",
+      "retrieved_at": "2026-10-05T07:47:12.130Z"
+    },
+    {
+      "source_id": "context-mailbox-maven-2026-05",
+      "project": "maven",
+      "month": "2026-05",
+      "kind": "mailbox",
+      "sha256": "d205e2338c847c83e386e4ea5a6d52c97d28ad1933ad22d88bd49fcecfbd6c22",
+      "retrieved_at": "2026-10-05T07:47:31.167Z"
+    },
+    {
+      "source_id": "context-index-maven-2026-06",
+      "project": "maven",
+      "month": "2026-06",
+      "kind": "index",
+      "sha256": "c6c809d35e8d6035a8e4a97b564b48841304a260ed37975bfab28c0b5b94ee10",
+      "retrieved_at": "2026-10-05T07:47:13.259Z"
+    },
+    {
+      "source_id": "context-mailbox-maven-2026-06",
+      "project": "maven",
+      "month": "2026-06",
+      "kind": "mailbox",
+      "sha256": "13f5a73e19e69823da22ced80f77dd166ed3f6b83b42fdeb9cdf444509e3751b",
+      "retrieved_at": "2026-10-05T07:47:13.737Z"
+    },
+    {
+      "source_id": "context-index-tomcat-2022-10",
+      "project": "tomcat",
+      "month": "2022-10",
+      "kind": "index",
+      "sha256": "06a932ac202489113e64badab280d761c4eda5aa6fe06bff671f552a8762a79a",
+      "retrieved_at": "2026-10-05T07:47:13.502Z"
+    },
+    {
+      "source_id": "context-mailbox-tomcat-2022-10",
+      "project": "tomcat",
+      "month": "2022-10",
+      "kind": "mailbox",
+      "sha256": "4d66b6a199ab78c6b2396dcf5b819f447d8855d6b1e84a5b65a318103c8b5fd9",
+      "retrieved_at": "2026-10-05T07:47:31.168Z"
+    },
+    {
+      "source_id": "context-index-tomcat-2022-11",
+      "project": "tomcat",
+      "month": "2022-11",
+      "kind": "index",
+      "sha256": "1ed17bbdf8db0f358b760d577cb424c2b371669145dc92e3275a2c80984114e2",
+      "retrieved_at": "2026-10-05T07:47:14.665Z"
+    },
+    {
+      "source_id": "context-mailbox-tomcat-2022-11",
+      "project": "tomcat",
+      "month": "2022-11",
+      "kind": "mailbox",
+      "sha256": "51d19e398c0770e024982a35ff8b0c507c728c9ae9611e4741b60f7400346cb4",
+      "retrieved_at": "2026-10-05T07:47:31.169Z"
+    },
+    {
+      "source_id": "context-index-tomcat-2022-12",
+      "project": "tomcat",
+      "month": "2022-12",
+      "kind": "index",
+      "sha256": "16799eb5a2154ae285f80ec3e66c2124c93c2f9e503e2c6886da38b8d391e76e",
+      "retrieved_at": "2026-10-05T07:47:14.516Z"
+    },
+    {
+      "source_id": "context-mailbox-tomcat-2022-12",
+      "project": "tomcat",
+      "month": "2022-12",
+      "kind": "mailbox",
+      "sha256": "5f54ff1104736ec5378f609094c53a55819f8795a5153587a7232b4959f6d5e2",
+      "retrieved_at": "2026-10-05T07:47:31.169Z"
+    },
+    {
+      "source_id": "context-index-tomcat-2026-01",
+      "project": "tomcat",
+      "month": "2026-01",
+      "kind": "index",
+      "sha256": "3a46cb1e563af499304a0905e8c1f4901e61a49ac7556e7a1a1051e44ec197f7",
+      "retrieved_at": "2026-10-05T07:47:16.057Z"
+    },
+    {
+      "source_id": "context-mailbox-tomcat-2026-01",
+      "project": "tomcat",
+      "month": "2026-01",
+      "kind": "mailbox",
+      "sha256": "9f6f507600de66250bb0bd92207a63abcf77ccd7a6e33af8fbfd14a32b9b7d10",
+      "retrieved_at": "2026-10-05T07:47:31.170Z"
+    },
+    {
+      "source_id": "context-index-tomcat-2026-02",
+      "project": "tomcat",
+      "month": "2026-02",
+      "kind": "index",
+      "sha256": "45e0ab839138eb83c817f17e9eef75f0de0769a9122c584c348ad4f037adfd2f",
+      "retrieved_at": "2026-10-05T07:47:15.791Z"
+    },
+    {
+      "source_id": "context-mailbox-tomcat-2026-02",
+      "project": "tomcat",
+      "month": "2026-02",
+      "kind": "mailbox",
+      "sha256": "9fcd515678045ff39f3a08a36cefa00e139284152465f3f9d037e3fdc75309a6",
+      "retrieved_at": "2026-10-05T07:47:31.170Z"
+    },
+    {
+      "source_id": "context-index-tomcat-2026-03",
+      "project": "tomcat",
+      "month": "2026-03",
+      "kind": "index",
+      "sha256": "26d8f67e46610ec190375feb838bb6553c28b8806b8e6af52409c71d773ba1ad",
+      "retrieved_at": "2026-10-05T07:47:17.284Z"
+    },
+    {
+      "source_id": "context-mailbox-tomcat-2026-03",
+      "project": "tomcat",
+      "month": "2026-03",
+      "kind": "mailbox",
+      "sha256": "e2d27a686ad38a99a41cacff75fa14b5c67327e5f1c88848cd580b6d525707da",
+      "retrieved_at": "2026-10-05T07:47:31.171Z"
+    },
+    {
+      "source_id": "context-index-tomcat-2026-04",
+      "project": "tomcat",
+      "month": "2026-04",
+      "kind": "index",
+      "sha256": "ae3e10bfe05cf6f29682cff04dcba52b4c29447b0daec9be1d560c11448e492d",
+      "retrieved_at": "2026-10-05T07:47:17.398Z"
+    },
+    {
+      "source_id": "context-mailbox-tomcat-2026-04",
+      "project": "tomcat",
+      "month": "2026-04",
+      "kind": "mailbox",
+      "sha256": "2589b9d9d94e6308cb6dc7514e011636b99a26853a8047b0a46485c2ab8edbf2",
+      "retrieved_at": "2026-10-05T07:47:31.171Z"
+    },
+    {
+      "source_id": "context-index-tomcat-2026-05",
+      "project": "tomcat",
+      "month": "2026-05",
+      "kind": "index",
+      "sha256": "18fce0f76fd45992604d1a7807f53ece8684d30f16f57c47ec1e5e3b3df56184",
+      "retrieved_at": "2026-10-05T07:47:31.171Z"
+    },
+    {
+      "source_id": "context-mailbox-tomcat-2026-05",
+      "project": "tomcat",
+      "month": "2026-05",
+      "kind": "mailbox",
+      "sha256": "a5e013a7a5456b99cdf3138a6d7eba86133dcbf8d13a7af888665a9e6fc9af72",
+      "retrieved_at": "2026-10-05T07:47:31.172Z"
+    },
+    {
+      "source_id": "context-index-tomcat-2026-06",
+      "project": "tomcat",
+      "month": "2026-06",
+      "kind": "index",
+      "sha256": "935d77e53d6a3f183bf912079608a27a0259168b28eea2cf87713b92339c37c7",
+      "retrieved_at": "2026-10-05T07:47:31.172Z"
+    },
+    {
+      "source_id": "context-mailbox-tomcat-2026-06",
+      "project": "tomcat",
+      "month": "2026-06",
+      "kind": "mailbox",
+      "sha256": "d397eccef84276b9ce2a69712bc17c455457568bb5efaef20b1ea09a123ffe08",
+      "retrieved_at": "2026-10-05T07:47:31.173Z"
+    }
+  ],
+  "scope": "Only accepted baseline and bounded follow-up monthly exports; no new outcome frame or publication dating. Used for source-linked lookback/horizon searches."
+}

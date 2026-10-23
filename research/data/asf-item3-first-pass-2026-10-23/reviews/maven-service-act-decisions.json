@@ -1,0 +1,221 @@
+{
+  "review_date": "2026-10-22",
+  "status": "independent_service_act_selections_before_component_and_causal_coding",
+  "decisions": [
+    {
+      "family_id": "maven-central-outage-2023",
+      "project": "maven",
+      "eligible": "yes",
+      "kind": "cross_boundary",
+      "earliest_source_id": "<CAM-R0_p+x5nn4Pqe=hh+_ctsS+K9cuNsEYpqFbxCU2WB0_3RZQ@mail.gmail.com>",
+      "onset_earliest": "2023-04-19",
+      "onset_latest": "2023-04-20",
+      "initiating_role": "external",
+      "action_class": "infrastructure_service",
+      "sender_act": "Report MavenCentral unavailable and seek operator awareness",
+      "intended_receiver": "Earlier quoted users@infra recipient; Maven public list receives forward",
+      "original_option": "Repository normally usable; outage is reported, not independently diagnosed",
+      "requested_change": "Restore/clarify service availability",
+      "disposition_history": "Original forwarded message has DateApril19,20:01atUTC-5, therefore April20UTC. Embedded earlier report saysApril19,20:00without offset. April21UTCreply says resolved within3/4hours, without identifying provider action or exact recovery time.",
+      "eligibility_reason": "Retain service restoration candidate with reported initiating-day interval, not a fabricated April19UTCpoint. Secondary uptime site and an intermediary resolution report are not independent primary shock/provider-execution evidence.",
+      "onset_limit": "Quoted initiating report lacks offset; retained forwarding source bounds it no later thanApril20UTC. Preserve April19\u201320inclusive uncertainty."
+    },
+    {
+      "family_id": "maven-gpg-ci-repair-2023",
+      "project": "maven",
+      "eligible": "no",
+      "kind": "excluded",
+      "earliest_source_id": "<CAGhczrpdHgjkjk0R9WukB_pL1SUH+8tdQN90ycHsWCwCLeQ70Q@mail.gmail.com>",
+      "onset_earliest": "2023-05-21",
+      "onset_latest": "2023-05-21",
+      "initiating_role": "pmc",
+      "action_class": "infrastructure_service",
+      "sender_act": "Ask a permission holder to inspect Windows/JDK8GPGtests",
+      "intended_receiver": "MavenGPGplugin maintainers",
+      "original_option": "Existing tests fail/missing signatures and pinentry",
+      "requested_change": "Diagnose and fix plugin CItests",
+      "disposition_history": "Referenced PR51is a harmless javadoc test probe; its sole comment reports GPGintegration-test assertions/missingpinentry. It eventually mergesAugust11. No request to Infra or provider access/approval denial is identified.",
+      "eligibility_reason": "Original PRconfirms ordinary local test/environment debugging. A generic request to someone with permissions does not establish a changed shared Foundation service commitment."
+    },
+    {
+      "family_id": "maven-jenkins-jdk-update-2024",
+      "project": "maven",
+      "eligible": "yes",
+      "kind": "cross_boundary",
+      "earliest_source_id": "<CAFF4x5JDfHYxyH8CjO-N1sP+hvkgKzdYo+WiPuFJvj_D-=uQeg@mail.gmail.com>",
+      "onset_earliest": "unknown",
+      "onset_latest": "unknown",
+      "initiating_role": "pmc",
+      "action_class": "infrastructure_service",
+      "sender_act": "Seek updated Java17on shared Jenkins nodes",
+      "intended_receiver": "ASFInfrastructure",
+      "original_option": "Reported JenkinsJava17.0.7cannot accept-proc:full introduced17.0.11",
+      "requested_change": "Update installed JDKso MavenCIcanbuild",
+      "disposition_history": "September24asks a permission holder to update; Guillaume says INFRA26146was raised a few days earlier. October3MNG8284original independently corroborates requester-side report that Java update was already resolved while jobs were now disabled. Anonymous Infra26146redirects to login.",
+      "eligibility_reason": "Same shared JDKprovisioning/repair request starts before first retained September24message, dateunknown. Reported Java repair and subsequently disabled CIjobs are separate deliverables. No directly inspected provider execution.",
+      "observed_acts": [
+        {
+          "source_id": "<CAA66Tppj8+YiJvuY0EHkE4VbgMFR71CYfbZ-B8MS2dehsF1UBA@mail.gmail.com>",
+          "date": "2024-09-24",
+          "act": "Reports earlier INFRA26146submission"
+        },
+        {
+          "source_id": "<JIRA.13594149.1727944843000.94736.1727944860004@Atlassian.JIRA>",
+          "date": "2024-10-03",
+          "act": "Original new CIreenablement request says prior Java repair resolved; requester report, not provider action"
+        }
+      ],
+      "extra_source_ids": [
+        "<JIRA.13594149.1727944843000.94736.1727944860004@Atlassian.JIRA>"
+      ]
+    },
+    {
+      "family_id": "maven-jira-bot-comments-2024",
+      "project": "maven",
+      "eligible": "yes",
+      "kind": "ambiguous",
+      "earliest_source_id": "<9FD82C99-8479-44F5-B52D-6F7E5D6F9BCC@apache.org>",
+      "onset_earliest": "2024-08-28",
+      "onset_latest": "2024-08-28",
+      "initiating_role": "pmc",
+      "action_class": "infrastructure_service",
+      "sender_act": "Propose disabling automatic Jira copies of GitHubPRcomments",
+      "intended_receiver": "Maven maintainers using shared ASFnotification configuration",
+      "original_option": "PRcomments automatically copied into Jira with poor formatting",
+      "requested_change": "Set jira_options tolink,labelwithoutcomment",
+      "disposition_history": "August28proposes exact.asf.yamlchange; August29two supports. Existing option examples link earlier project commits; no applied configuration or provider activation observed in topic.",
+      "eligibility_reason": "A shared notification-service configuration candidate is retained; self-service local choice is not automatically a Foundation receiver act or a new corporate communication policy."
+    },
+    {
+      "family_id": "maven-jira-login-repair-2025",
+      "project": "maven",
+      "eligible": "yes",
+      "kind": "cross_boundary",
+      "earliest_source_id": "<CALBNtw69YmWAzmgn9R8nKbH3rTUHbNEyY+ANKbQ2p_MgEhGYWA@mail.gmail.com>",
+      "onset_earliest": "unknown",
+      "onset_latest": "unknown",
+      "initiating_role": "external",
+      "action_class": "infrastructure_service",
+      "sender_act": "Seek help with existing Jiraaccount login/reactivation",
+      "intended_receiver": "Maven intermediary and ASFInfrastructure",
+      "original_option": "Existing account login fails; self-submit conflicts with username; prior reactivation attempt unresponsive",
+      "requested_change": "Restore usable account for issues/patches",
+      "disposition_history": "March30reports earlier failed reactivation. April5UTCintermediary promises Infrarelay; April6relays that Infra logs show successfullogin and asks whether resolved. No requester confirmation or directly inspected provider reply.",
+      "eligibility_reason": "Retain account restoration request with unknown earlier self-service application date. Do not convert log-success relay or a question into confirmed repair, grant or unchanged service disposition.",
+      "observed_acts": [
+        {
+          "source_id": "<CAKZnr+xVmbdFJrrLiikLt1FzJOoY4RGypniw1CnWcAf5_a6npQ@mail.gmail.com>",
+          "date": "2025-04-05",
+          "act": "Intermediary promises to alert Infra"
+        },
+        {
+          "source_id": "<CAKZnr+yhEFVTs5AESXqiZ=rCpAN6PtjTWOTF=nWroSwOtrATmQ@mail.gmail.com>",
+          "date": "2025-04-06",
+          "act": "Relays successfullogin logs and asks if resolved; no direct provider/requester confirmation"
+        }
+      ]
+    },
+    {
+      "family_id": "maven-jira-move-issue-permission-2024",
+      "project": "maven",
+      "eligible": "yes",
+      "kind": "ambiguous",
+      "earliest_source_id": "<CAGhczrr9XZ=n+tVPVLW2BGpRbAbERCgs8O-hGHNaRq=9DJ=bpw@mail.gmail.com>",
+      "onset_earliest": "2024-10-15",
+      "onset_latest": "2024-10-15",
+      "initiating_role": "pmc",
+      "action_class": "infrastructure_service",
+      "sender_act": "Ask an administrator to grant issue-moving permission to committers",
+      "intended_receiver": "MavenJiraadministrators; exact local/Infrajurisdiction unresolved",
+      "original_option": "Mavenpermissionscheme currently gives move permission toPMCmembers",
+      "requested_change": "Allow ordinary committers to move issues between projects",
+      "disposition_history": "October15request; Guillaume confirms current PMCpermission, is willing to change it, but cannot find scheme editing. No actual grant or Foundation response follows.",
+      "eligibility_reason": "A distinct requested permission/option change, separate from tracker migration. Willingness is not execution, and existing PMCpermission does not prove Foundation-wide coordination authority."
+    },
+    {
+      "family_id": "maven-jlink-import-repair-2025",
+      "project": "maven",
+      "eligible": "yes",
+      "kind": "ambiguous",
+      "earliest_source_id": "<CAGhczroSaktYLovd0GcWzCmH5scVUyqUCwWPoBgey8a2YR6e7Q@mail.gmail.com>",
+      "onset_earliest": "2025-02-04",
+      "onset_latest": "2025-02-04",
+      "initiating_role": "pmc",
+      "action_class": "infrastructure_service",
+      "sender_act": "Request investigation/repair of duplicate JLINKissue imports",
+      "intended_receiver": "Mavenmigration operators and GitHubsupport; separate Infra notification options referenced",
+      "original_option": "Repeated issue imports/duplicates after migration tooling",
+      "requested_change": "Correct imports and remove duplicates without losing legitimate material",
+      "disposition_history": "February4duplicate report; February5Benjamin says GitHubsupport contacted; February6provider willingness relayed. February10deletion/retry plan. February15reports issues imported/duplicates deleted but similarly titledPRs/comments also deleted; GitHubsupport restoration requested, resultunknown.",
+      "eligibility_reason": "Independently different repair deliverable from general migration authorization. Directly observed requester reports are retained, but relayed external-provider actions are not an independently inspected Foundation receiver act. Unintended content loss is not automatically an authority restriction.",
+      "observed_acts": [
+        {
+          "source_id": "<CAKZnr+x7GitvFOWXeBx7OYSomBS3GjNNMroTSxz8=Me2zUxEAg@mail.gmail.com>",
+          "date": "2025-02-05",
+          "act": "Reports contacting GitHubsupport"
+        },
+        {
+          "source_id": "<CAKZnr+wsi57veKdVQi+jYsdZD-jeK4-y1Cb2VU0Y29Oi6Fkpjw@mail.gmail.com>",
+          "date": "2025-02-15",
+          "act": "Reports import/deletion and unintendedPR/commentloss; restoration still sought"
+        }
+      ]
+    },
+    {
+      "family_id": "maven-list-unsubscribe-2023",
+      "project": "maven",
+      "eligible": "yes",
+      "kind": "cross_boundary",
+      "earliest_source_id": "<CA+Mb9vc9weFBQG_hoDAAGXUnd5bdRKejyGC0NjDq+YYbsHXKPg@mail.gmail.com>",
+      "onset_earliest": "unknown",
+      "onset_latest": "unknown",
+      "initiating_role": "external",
+      "action_class": "infrastructure_service",
+      "sender_act": "Ask mailing-list administrator to check failed unsubscribe",
+      "intended_receiver": "Shared dev-list administration",
+      "original_option": "Repeated same-address unsubscribe attempts did not stop mail; dev-help works",
+      "requested_change": "Restore/execute unsubscribe process",
+      "disposition_history": "November11reports multiple earlier attempts and explicitly asks an administrator to check. No reply or service disposition in retained topic.",
+      "eligibility_reason": "Shared-list service request is retained with unknown earlier initiating attempt dates. An absent reply is unknown receiver conduct, not refusal or proof of no effect."
+    },
+    {
+      "family_id": "maven-sonarqube-onboarding-2025",
+      "project": "maven",
+      "eligible": "yes",
+      "kind": "cross_boundary",
+      "earliest_source_id": "<B212E3B0-D1FD-4C1F-80A4-F651753DBAC2@apache.org>",
+      "onset_earliest": "2025-01-02",
+      "onset_latest": "2025-01-02",
+      "initiating_role": "pmc",
+      "action_class": "infrastructure_service",
+      "sender_act": "Propose enabling SonarQubeCloud for MavenCore through Infraonboarding",
+      "intended_receiver": "MavenPMC and prospective ASFInfrastructure onboarding",
+      "original_option": "Core not shown enrolled in proposed new setup",
+      "requested_change": "Choose service and seek required per-repository onboarding",
+      "disposition_history": "January2proposal identifies need for Infraonboardingticket; supports/objections and trial on external support-and-carefork follow. January6workflow_runsecurity concerns. No submitted ticket, authorized allocation or executed ASFproject enrollment shown.",
+      "eligibility_reason": "An explicit prospective shared-service commitment candidate, not an observed grant. External fork trial and interest do not establish an exercised PMCrequest to Foundation or official service implementation."
+    },
+    {
+      "family_id": "maven-stage-credential-repair-2023",
+      "project": "maven",
+      "eligible": "yes",
+      "kind": "ambiguous",
+      "earliest_source_id": "<CAGhczrragTjQp8AG24bx680Jpz5z9OFM2CYoxwpSW+bTnfUOhA@mail.gmail.com>",
+      "onset_earliest": "2023-03-30",
+      "onset_latest": "2023-03-30",
+      "initiating_role": "pmc",
+      "action_class": "infrastructure_service",
+      "sender_act": "Ask for help diagnosing StageJenkins/GitHubapp credential warnings/failures",
+      "intended_receiver": "MavenCImaintainers; Foundationservice receiver not identified",
+      "original_option": "Reported failing matrix jobs include missingGitHubappcredentials log",
+      "requested_change": "Find and correct CIconfiguration if responsible",
+      "disposition_history": "March30request includes GitHubChecks/no suitablepublisher logs; reply guesses SSHkeychange. March31shifts to a distinct retirement proposal. No verified credential repair or independent causal diagnosis appears.",
+      "eligibility_reason": "Retain ambiguous shared-service repair candidate. Error text and a speculative SSHkeycause do not prove a Foundation denial, actual credential loss as the failure cause, or service execution."
+    }
+  ],
+  "limits": [
+    "November2024s390xCI/GHAreplacement candidate is routed to the single continuing runner family in s390x-reference-review.json.",
+    "Exact UTCdates are retained; undated prior applications/tickets remain unknown.",
+    "No opportunity/witness/aggregate/lock inferred."
+  ]
+}

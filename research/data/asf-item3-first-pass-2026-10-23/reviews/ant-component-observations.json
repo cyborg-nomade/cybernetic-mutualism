@@ -1,0 +1,563 @@
+{
+  "review_date": "2026-10-22",
+  "status": "Component measurements recorded before opportunity, channel, temporal/witness or rival classification; native measurement grid not yet assembled.",
+  "records": [
+    {
+      "family_id": "ant-ivy-gitbox-sync-repair-2025",
+      "project": "ant",
+      "component_review_complete": true,
+      "earliest_source_id": "<CAHgmaKqMFu5ot4hR-e5_WOFkFdP8hgEb83C6m8JnxOF2syOnmA@mail.gmail.com>",
+      "onset_earliest": "2025-03-26",
+      "onset_latest": "2025-03-26",
+      "local_origin_reason": "A project maintainer pursues a public request to repair the Ivy build/repository route; the local workaround is explicitly reported in that process.",
+      "observed_component_facts": [
+        {
+          "source_id": "<73fbd6cf-9ef8-4cf7-8bd9-bc5d2157ab68@apache.org>",
+          "date": "2025-03-26",
+          "fact": "Jaikiran changes the job remote to GitHub and triggers a build that fetches the latest commit. This is a local workaround, not a reported Foundation repair."
+        },
+        {
+          "source_id": "<b04795c4-3ff8-47e7-9ee7-8dda8cb19aac@apache.org>",
+          "date": "2025-04-01",
+          "fact": "Gitbox is reported up to date; actor and repair mechanism are unidentified."
+        }
+      ],
+      "horizon_components": {
+        "60": {
+          "local_origin": "pmc",
+          "local_disposition": "revised",
+          "decision_right": "unknown",
+          "before_authority": "unknown",
+          "after_authority": "unknown",
+          "decision_authority_shift": "unknown",
+          "autonomy_change": "unknown",
+          "newly_feasible_action_executed": "unknown",
+          "commitment_mode": "unknown",
+          "shared_commitment_named": "unknown",
+          "coordination_disposition": "unknown",
+          "coordination_burden_change": "unknown",
+          "viability_event": "unknown",
+          "local_disposition_source_ids": [
+            "<73fbd6cf-9ef8-4cf7-8bd9-bc5d2157ab68@apache.org>"
+          ],
+          "horizon_limit": "Records the explicitly observed local decision or revision inside this horizon, not an assertion about unobserved end-of-horizon status or Foundation conduct."
+        },
+        "90": {
+          "local_origin": "pmc",
+          "local_disposition": "revised",
+          "decision_right": "unknown",
+          "before_authority": "unknown",
+          "after_authority": "unknown",
+          "decision_authority_shift": "unknown",
+          "autonomy_change": "unknown",
+          "newly_feasible_action_executed": "unknown",
+          "commitment_mode": "unknown",
+          "shared_commitment_named": "unknown",
+          "coordination_disposition": "unknown",
+          "coordination_burden_change": "unknown",
+          "viability_event": "unknown",
+          "local_disposition_source_ids": [
+            "<73fbd6cf-9ef8-4cf7-8bd9-bc5d2157ab68@apache.org>"
+          ],
+          "horizon_limit": "Records the explicitly observed local decision or revision inside this horizon, not an assertion about unobserved end-of-horizon status or Foundation conduct."
+        },
+        "180": {
+          "local_origin": "pmc",
+          "local_disposition": "revised",
+          "decision_right": "unknown",
+          "before_authority": "unknown",
+          "after_authority": "unknown",
+          "decision_authority_shift": "unknown",
+          "autonomy_change": "unknown",
+          "newly_feasible_action_executed": "unknown",
+          "commitment_mode": "unknown",
+          "shared_commitment_named": "unknown",
+          "coordination_disposition": "unknown",
+          "coordination_burden_change": "unknown",
+          "viability_event": "unknown",
+          "local_disposition_source_ids": [
+            "<73fbd6cf-9ef8-4cf7-8bd9-bc5d2157ab68@apache.org>"
+          ],
+          "horizon_limit": "Records the explicitly observed local decision or revision inside this horizon, not an assertion about unobserved end-of-horizon status or Foundation conduct."
+        }
+      },
+      "unresolved_component_reason": "A changed job route demonstrates a local revision. It does not establish a before/after allocation of binding authority, a new Foundation commitment, or a coordination change that caused restoration.",
+      "field_scope": "Binding authority is distinct from operating a job, approving an account or reporting a repaired service. Account access for an outside contributor is not automatically expanded PMC decision discretion. Sender-only repair reports do not supply an independently documented Foundation receiving act."
+    },
+    {
+      "family_id": "ant-ivy-retirement",
+      "project": "ant",
+      "component_review_complete": true,
+      "earliest_source_id": "<87cyzfukuf.fsf@v45346.1blu.de>",
+      "onset_earliest": "2023-08-22",
+      "onset_latest": "2023-08-22",
+      "local_origin_reason": "The retirement proposal is pursued through the public Ant project process, independently of the individual initiator-role field.",
+      "observed_component_facts": [
+        {
+          "source_id": "<87cyzfukuf.fsf@v45346.1blu.de>",
+          "date": "2023-08-22",
+          "fact": "Proposes ending unmaintained Ivy development unless maintenance resumes."
+        },
+        {
+          "source_id": "<9795f2a3-2acf-42dd-b2b1-e19fe7036fe7@apache.org>",
+          "date": "2024-11-17",
+          "fact": "Explicitly confirms abandonment of Ivy retirement after renewed maintenance, outside all three horizons."
+        }
+      ],
+      "horizon_components": {
+        "60": {
+          "local_origin": "pmc",
+          "local_disposition": "unknown",
+          "decision_right": "unknown",
+          "before_authority": "unknown",
+          "after_authority": "unknown",
+          "decision_authority_shift": "unknown",
+          "autonomy_change": "unknown",
+          "newly_feasible_action_executed": "unknown",
+          "commitment_mode": "unknown",
+          "shared_commitment_named": "unknown",
+          "coordination_disposition": "unknown",
+          "coordination_burden_change": "unknown",
+          "viability_event": "unknown",
+          "local_disposition_source_ids": [],
+          "horizon_limit": "Unknown initiation prevents a bounded response lag. Otherwise only explicitly observed disposition events inside this horizon are recorded; pending proposals and later withdrawals are not backfilled."
+        },
+        "90": {
+          "local_origin": "pmc",
+          "local_disposition": "unknown",
+          "decision_right": "unknown",
+          "before_authority": "unknown",
+          "after_authority": "unknown",
+          "decision_authority_shift": "unknown",
+          "autonomy_change": "unknown",
+          "newly_feasible_action_executed": "unknown",
+          "commitment_mode": "unknown",
+          "shared_commitment_named": "unknown",
+          "coordination_disposition": "unknown",
+          "coordination_burden_change": "unknown",
+          "viability_event": "unknown",
+          "local_disposition_source_ids": [],
+          "horizon_limit": "Unknown initiation prevents a bounded response lag. Otherwise only explicitly observed disposition events inside this horizon are recorded; pending proposals and later withdrawals are not backfilled."
+        },
+        "180": {
+          "local_origin": "pmc",
+          "local_disposition": "unknown",
+          "decision_right": "unknown",
+          "before_authority": "unknown",
+          "after_authority": "unknown",
+          "decision_authority_shift": "unknown",
+          "autonomy_change": "unknown",
+          "newly_feasible_action_executed": "unknown",
+          "commitment_mode": "unknown",
+          "shared_commitment_named": "unknown",
+          "coordination_disposition": "unknown",
+          "coordination_burden_change": "unknown",
+          "viability_event": "unknown",
+          "local_disposition_source_ids": [],
+          "horizon_limit": "Unknown initiation prevents a bounded response lag. Otherwise only explicitly observed disposition events inside this horizon are recorded; pending proposals and later withdrawals are not backfilled."
+        }
+      },
+      "unresolved_component_reason": "No terminal local decision is documented inside 60, 90 or 180 days. The later withdrawal cannot establish an earlier pending, withdrawn or unchanged outcome. No Foundation-directed commitment is established by the local retirement discussion.",
+      "field_scope": "Binding authority is distinct from operating a job, approving an account or reporting a repaired service. Account access for an outside contributor is not automatically expanded PMC decision discretion. Sender-only repair reports do not supply an independently documented Foundation receiving act."
+    },
+    {
+      "family_id": "ant-jenkins-build-permission-repair-2024",
+      "project": "ant",
+      "component_review_complete": true,
+      "earliest_source_id": "<8d6ca10f-9a8f-418b-944c-5fb31e8a1673@apache.org>",
+      "onset_earliest": "unknown",
+      "onset_latest": "unknown",
+      "local_origin_reason": "The reported local build-permission problem and attempted service request are pursued publicly for Ant work; the original earlier request date and actor capacity at that first act remain unobserved.",
+      "observed_component_facts": [
+        {
+          "source_id": "<b626c55b-dca0-4fad-a7c7-6a6146727f72@apache.org>",
+          "date": "2024-06-13",
+          "fact": "The same requester says Infra addressed the issue and reports being able to trigger jobs. This is a firsthand local test plus attribution, not the provider reply or an independently observed provider mechanism."
+        }
+      ],
+      "horizon_components": {
+        "60": {
+          "local_origin": "pmc",
+          "local_disposition": "unknown",
+          "decision_right": "unknown",
+          "before_authority": "unknown",
+          "after_authority": "unknown",
+          "decision_authority_shift": "unknown",
+          "autonomy_change": "unknown",
+          "newly_feasible_action_executed": "unknown",
+          "commitment_mode": "unknown",
+          "shared_commitment_named": "unknown",
+          "coordination_disposition": "unknown",
+          "coordination_burden_change": "unknown",
+          "viability_event": "unknown",
+          "local_disposition_source_ids": [],
+          "horizon_limit": "Unknown initiation prevents a bounded response lag. Otherwise only explicitly observed disposition events inside this horizon are recorded; pending proposals and later withdrawals are not backfilled."
+        },
+        "90": {
+          "local_origin": "pmc",
+          "local_disposition": "unknown",
+          "decision_right": "unknown",
+          "before_authority": "unknown",
+          "after_authority": "unknown",
+          "decision_authority_shift": "unknown",
+          "autonomy_change": "unknown",
+          "newly_feasible_action_executed": "unknown",
+          "commitment_mode": "unknown",
+          "shared_commitment_named": "unknown",
+          "coordination_disposition": "unknown",
+          "coordination_burden_change": "unknown",
+          "viability_event": "unknown",
+          "local_disposition_source_ids": [],
+          "horizon_limit": "Unknown initiation prevents a bounded response lag. Otherwise only explicitly observed disposition events inside this horizon are recorded; pending proposals and later withdrawals are not backfilled."
+        },
+        "180": {
+          "local_origin": "pmc",
+          "local_disposition": "unknown",
+          "decision_right": "unknown",
+          "before_authority": "unknown",
+          "after_authority": "unknown",
+          "decision_authority_shift": "unknown",
+          "autonomy_change": "unknown",
+          "newly_feasible_action_executed": "unknown",
+          "commitment_mode": "unknown",
+          "shared_commitment_named": "unknown",
+          "coordination_disposition": "unknown",
+          "coordination_burden_change": "unknown",
+          "viability_event": "unknown",
+          "local_disposition_source_ids": [],
+          "horizon_limit": "Unknown initiation prevents a bounded response lag. Otherwise only explicitly observed disposition events inside this horizon are recorded; pending proposals and later withdrawals are not backfilled."
+        }
+      },
+      "unresolved_component_reason": "Original request and provider reply are unavailable. Unknown initiation prevents horizon-specific adoption/restoration coding; reported functional access is retained as a fact without equating it with changed binding PMC authority or a qualified Foundation response.",
+      "field_scope": "Binding authority is distinct from operating a job, approving an account or reporting a repaired service. Account access for an outside contributor is not automatically expanded PMC decision discretion. Sender-only repair reports do not supply an independently documented Foundation receiving act."
+    },
+    {
+      "family_id": "ant-jira-account-approval-2024-11",
+      "project": "ant",
+      "component_review_complete": true,
+      "earliest_source_id": "<Zy6yD_7CJlVASLe5@michel-fedora-PC198L6J>",
+      "onset_earliest": "unknown",
+      "onset_latest": "unknown",
+      "local_origin_reason": "An outside contributor seeks an account; a project approver later responds. This is not an exercised PMC proposal merely because it occurs on the development list.",
+      "observed_component_facts": [
+        {
+          "source_id": "<0f288916-27a7-4e21-bf82-ca403ed68e4a@apache.org>",
+          "date": "2024-11-09",
+          "fact": "Jaikiran explicitly approves the account and invites the contributor to file an issue."
+        },
+        {
+          "source_id": "<Zy7aSUSwpM2Pnxva@borges>",
+          "date": "2024-11-09",
+          "fact": "The requester reports filing IVY-1652, demonstrating actual use of the account."
+        }
+      ],
+      "horizon_components": {
+        "60": {
+          "local_origin": "external",
+          "local_disposition": "unknown",
+          "decision_right": "unknown",
+          "before_authority": "unknown",
+          "after_authority": "unknown",
+          "decision_authority_shift": "unknown",
+          "autonomy_change": "unknown",
+          "newly_feasible_action_executed": "unknown",
+          "commitment_mode": "unknown",
+          "shared_commitment_named": "unknown",
+          "coordination_disposition": "unknown",
+          "coordination_burden_change": "unknown",
+          "viability_event": "unknown",
+          "local_disposition_source_ids": [],
+          "horizon_limit": "Unknown initiation prevents a bounded response lag. Otherwise only explicitly observed disposition events inside this horizon are recorded; pending proposals and later withdrawals are not backfilled."
+        },
+        "90": {
+          "local_origin": "external",
+          "local_disposition": "unknown",
+          "decision_right": "unknown",
+          "before_authority": "unknown",
+          "after_authority": "unknown",
+          "decision_authority_shift": "unknown",
+          "autonomy_change": "unknown",
+          "newly_feasible_action_executed": "unknown",
+          "commitment_mode": "unknown",
+          "shared_commitment_named": "unknown",
+          "coordination_disposition": "unknown",
+          "coordination_burden_change": "unknown",
+          "viability_event": "unknown",
+          "local_disposition_source_ids": [],
+          "horizon_limit": "Unknown initiation prevents a bounded response lag. Otherwise only explicitly observed disposition events inside this horizon are recorded; pending proposals and later withdrawals are not backfilled."
+        },
+        "180": {
+          "local_origin": "external",
+          "local_disposition": "unknown",
+          "decision_right": "unknown",
+          "before_authority": "unknown",
+          "after_authority": "unknown",
+          "decision_authority_shift": "unknown",
+          "autonomy_change": "unknown",
+          "newly_feasible_action_executed": "unknown",
+          "commitment_mode": "unknown",
+          "shared_commitment_named": "unknown",
+          "coordination_disposition": "unknown",
+          "coordination_burden_change": "unknown",
+          "viability_event": "unknown",
+          "local_disposition_source_ids": [],
+          "horizon_limit": "Unknown initiation prevents a bounded response lag. Otherwise only explicitly observed disposition events inside this horizon are recorded; pending proposals and later withdrawals are not backfilled."
+        }
+      },
+      "unresolved_component_reason": "The public report follows an already-pending application, so its initiation is undated. The account approval and filed issue are observable, but cannot be placed inside a registered response horizon or reinterpreted as a change in PMC decision discretion. A project approver is not automatically a Foundation actor.",
+      "field_scope": "Binding authority is distinct from operating a job, approving an account or reporting a repaired service. Account access for an outside contributor is not automatically expanded PMC decision discretion. Sender-only repair reports do not supply an independently documented Foundation receiving act."
+    },
+    {
+      "family_id": "ant-jira-account-repair-2024-02",
+      "project": "ant",
+      "component_review_complete": true,
+      "earliest_source_id": "<MW5PR16MB4848CC2A236D2F8842D72F1A91412@MW5PR16MB4848.namprd16.prod.outlook.com>",
+      "onset_earliest": "2024-02-03",
+      "onset_latest": "2024-02-03",
+      "local_origin_reason": "The initiating report concerns an outside contributor account. Stefan offers project help and a possible Infra escalation; that does not convert the original application into a PMC collective choice.",
+      "observed_component_facts": [
+        {
+          "source_id": "<87fry9wuvw.fsf@v45346.1blu.de>",
+          "date": "2024-02-03",
+          "fact": "Stefan says he will file an Infra bug; an intention is not evidence the ticket was sent."
+        },
+        {
+          "source_id": "<878r3yokvl.fsf@v45346.1blu.de>",
+          "date": "2024-02-05",
+          "fact": "Relays that self-service should now work, without a directly inspected provider act."
+        },
+        {
+          "source_id": "<MW5PR16MB4848E945EB86729CE26AA5F3914D2@MW5PR16MB4848.namprd16.prod.outlook.com>",
+          "date": "2024-02-15",
+          "fact": "The requester reapplies."
+        },
+        {
+          "source_id": "<87o7chlkkv.fsf@v45346.1blu.de>",
+          "date": "2024-02-15",
+          "fact": "Stefan explicitly approves the application; successful account use is not reported in these messages."
+        }
+      ],
+      "horizon_components": {
+        "60": {
+          "local_origin": "external",
+          "local_disposition": "adopted",
+          "decision_right": "unknown",
+          "before_authority": "unknown",
+          "after_authority": "unknown",
+          "decision_authority_shift": "unknown",
+          "autonomy_change": "unknown",
+          "newly_feasible_action_executed": "unknown",
+          "commitment_mode": "unknown",
+          "shared_commitment_named": "unknown",
+          "coordination_disposition": "unknown",
+          "coordination_burden_change": "unknown",
+          "viability_event": "unknown",
+          "local_disposition_source_ids": [
+            "<87o7chlkkv.fsf@v45346.1blu.de>"
+          ],
+          "horizon_limit": "Records the explicitly observed local decision or revision inside this horizon, not an assertion about unobserved end-of-horizon status or Foundation conduct."
+        },
+        "90": {
+          "local_origin": "external",
+          "local_disposition": "adopted",
+          "decision_right": "unknown",
+          "before_authority": "unknown",
+          "after_authority": "unknown",
+          "decision_authority_shift": "unknown",
+          "autonomy_change": "unknown",
+          "newly_feasible_action_executed": "unknown",
+          "commitment_mode": "unknown",
+          "shared_commitment_named": "unknown",
+          "coordination_disposition": "unknown",
+          "coordination_burden_change": "unknown",
+          "viability_event": "unknown",
+          "local_disposition_source_ids": [
+            "<87o7chlkkv.fsf@v45346.1blu.de>"
+          ],
+          "horizon_limit": "Records the explicitly observed local decision or revision inside this horizon, not an assertion about unobserved end-of-horizon status or Foundation conduct."
+        },
+        "180": {
+          "local_origin": "external",
+          "local_disposition": "adopted",
+          "decision_right": "unknown",
+          "before_authority": "unknown",
+          "after_authority": "unknown",
+          "decision_authority_shift": "unknown",
+          "autonomy_change": "unknown",
+          "newly_feasible_action_executed": "unknown",
+          "commitment_mode": "unknown",
+          "shared_commitment_named": "unknown",
+          "coordination_disposition": "unknown",
+          "coordination_burden_change": "unknown",
+          "viability_event": "unknown",
+          "local_disposition_source_ids": [
+            "<87o7chlkkv.fsf@v45346.1blu.de>"
+          ],
+          "horizon_limit": "Records the explicitly observed local decision or revision inside this horizon, not an assertion about unobserved end-of-horizon status or Foundation conduct."
+        }
+      },
+      "unresolved_component_reason": "The project approval event is within all horizons. Actual Foundation routing repair, final provisioning/use, a change in binding authorization allocation and an expanded PMC option set are not independently established.",
+      "field_scope": "Binding authority is distinct from operating a job, approving an account or reporting a repaired service. Account access for an outside contributor is not automatically expanded PMC decision discretion. Sender-only repair reports do not supply an independently documented Foundation receiving act."
+    },
+    {
+      "family_id": "ant-sbom-direction-2025",
+      "project": "ant",
+      "component_review_complete": true,
+      "earliest_source_id": "<87seelnn5l.fsf@v45346.1blu.de>",
+      "onset_earliest": "2025-11-11",
+      "onset_latest": "2025-11-11",
+      "local_origin_reason": "The SBOM/tooling proposal and follow-up are pursued through the public Ant project process; participant legal assertions are not an independent Foundation mandate.",
+      "observed_component_facts": [
+        {
+          "source_id": "<878qa9fowm.fsf@v45346.1blu.de>",
+          "date": "2026-04-26",
+          "fact": "Reports an early CycloneDX Antlib repository/sandbox and a dependency plan; this is inside 180 days, beyond 60 and 90."
+        },
+        {
+          "source_id": "<87a4uhhq5d.fsf@v45346.1blu.de>",
+          "date": "2026-05-02",
+          "fact": "Proposes promotion and release, with a proper release vote still required; no ready production Ant SBOM or adopted legal policy is demonstrated."
+        },
+        {
+          "source_id": "board-2026-06-17",
+          "date": "2026-06-17",
+          "fact": "Ant reports CycloneDXAntlib0.1released and prospective Ant/IvyreleaseSBOMuse. This is not documented productionSBOMexecution by May10."
+        }
+      ],
+      "horizon_components": {
+        "60": {
+          "local_origin": "pmc",
+          "local_disposition": "unknown",
+          "decision_right": "unknown",
+          "before_authority": "unknown",
+          "after_authority": "unknown",
+          "decision_authority_shift": "unknown",
+          "autonomy_change": "unknown",
+          "newly_feasible_action_executed": "unknown",
+          "commitment_mode": "unknown",
+          "shared_commitment_named": "unknown",
+          "coordination_disposition": "unknown",
+          "coordination_burden_change": "unknown",
+          "viability_event": "unknown",
+          "local_disposition_source_ids": [],
+          "horizon_limit": "Unknown initiation prevents a bounded response lag. Otherwise only explicitly observed disposition events inside this horizon are recorded; pending proposals and later withdrawals are not backfilled."
+        },
+        "90": {
+          "local_origin": "pmc",
+          "local_disposition": "unknown",
+          "decision_right": "unknown",
+          "before_authority": "unknown",
+          "after_authority": "unknown",
+          "decision_authority_shift": "unknown",
+          "autonomy_change": "unknown",
+          "newly_feasible_action_executed": "unknown",
+          "commitment_mode": "unknown",
+          "shared_commitment_named": "unknown",
+          "coordination_disposition": "unknown",
+          "coordination_burden_change": "unknown",
+          "viability_event": "unknown",
+          "local_disposition_source_ids": [],
+          "horizon_limit": "Unknown initiation prevents a bounded response lag. Otherwise only explicitly observed disposition events inside this horizon are recorded; pending proposals and later withdrawals are not backfilled."
+        },
+        "180": {
+          "local_origin": "pmc",
+          "local_disposition": "unknown",
+          "decision_right": "unknown",
+          "before_authority": "unknown",
+          "after_authority": "unknown",
+          "decision_authority_shift": "unknown",
+          "autonomy_change": "unknown",
+          "newly_feasible_action_executed": "unknown",
+          "commitment_mode": "unknown",
+          "shared_commitment_named": "unknown",
+          "coordination_disposition": "unknown",
+          "coordination_burden_change": "unknown",
+          "viability_event": "unknown",
+          "local_disposition_source_ids": [],
+          "horizon_limit": "Unknown initiation prevents a bounded response lag. Otherwise only explicitly observed disposition events inside this horizon are recorded; pending proposals and later withdrawals are not backfilled."
+        }
+      },
+      "unresolved_component_reason": "Retain late development stages without calling them adopted production behavior. A pending promotion eight days before the 180-day endpoint does not establish a terminal disposition at that endpoint; May17 work is outside it. No binding Foundation rule or receiver act is documented.",
+      "field_scope": "Binding authority is distinct from operating a job, approving an account or reporting a repaired service. Account access for an outside contributor is not automatically expanded PMC decision discretion. Sender-only repair reports do not supply an independently documented Foundation receiving act."
+    },
+    {
+      "family_id": "ant-chair-succession-2025",
+      "project": "ant",
+      "component_review_complete": true,
+      "earliest_source_id": "board-2025-08-20",
+      "onset_earliest": "unknown",
+      "onset_latest": "unknown",
+      "local_origin_reason": "The Board resolution explicitly follows a PMC recommendation/vote and a resignation; this establishes a collective project origin without reconstructing private timing.",
+      "observed_component_facts": [
+        {
+          "source_id": "board-2025-07-16",
+          "date": "2025-07-16",
+          "fact": "Ant reports the chair stepping down and successor choice in progress."
+        },
+        {
+          "source_id": "board-2025-08-20",
+          "date": "2025-08-20",
+          "fact": "The Board unanimously appoints Jaikiran Pai after the PMC vote and resignation. This is a corporate office appointment, not a transfer of technical decision rights."
+        }
+      ],
+      "horizon_components": {
+        "60": {
+          "local_origin": "pmc",
+          "local_disposition": "unknown",
+          "decision_right": "unknown",
+          "before_authority": "unknown",
+          "after_authority": "unknown",
+          "decision_authority_shift": "unknown",
+          "autonomy_change": "unknown",
+          "newly_feasible_action_executed": "unknown",
+          "commitment_mode": "unknown",
+          "shared_commitment_named": "unknown",
+          "coordination_disposition": "unknown",
+          "coordination_burden_change": "unknown",
+          "viability_event": "unknown",
+          "local_disposition_source_ids": [],
+          "horizon_limit": "Unknown nomination/vote date prevents placing the appointment inside the response horizon."
+        },
+        "90": {
+          "local_origin": "pmc",
+          "local_disposition": "unknown",
+          "decision_right": "unknown",
+          "before_authority": "unknown",
+          "after_authority": "unknown",
+          "decision_authority_shift": "unknown",
+          "autonomy_change": "unknown",
+          "newly_feasible_action_executed": "unknown",
+          "commitment_mode": "unknown",
+          "shared_commitment_named": "unknown",
+          "coordination_disposition": "unknown",
+          "coordination_burden_change": "unknown",
+          "viability_event": "unknown",
+          "local_disposition_source_ids": [],
+          "horizon_limit": "Unknown nomination/vote date prevents placing the appointment inside the response horizon."
+        },
+        "180": {
+          "local_origin": "pmc",
+          "local_disposition": "unknown",
+          "decision_right": "unknown",
+          "before_authority": "unknown",
+          "after_authority": "unknown",
+          "decision_authority_shift": "unknown",
+          "autonomy_change": "unknown",
+          "newly_feasible_action_executed": "unknown",
+          "commitment_mode": "unknown",
+          "shared_commitment_named": "unknown",
+          "coordination_disposition": "unknown",
+          "coordination_burden_change": "unknown",
+          "viability_event": "unknown",
+          "local_disposition_source_ids": [],
+          "horizon_limit": "Unknown nomination/vote date prevents placing the appointment inside the response horizon."
+        }
+      },
+      "unresolved_component_reason": "Bylaws and the Board act support case-specific corporate appointment authority at the known appointment date. They do not establish an earlier and later allocation for the same decision class within an unknown response period, nor an outcome caused by a shift."
+    }
+  ],
+  "limits": [
+    "Observed facts and timing limits are retained even where the horizon component is unknown.",
+    "No unknown is converted to no effect, no response, unchanged autonomy, or failure. No witness flags or aggregate results supplied."
+  ]
+}

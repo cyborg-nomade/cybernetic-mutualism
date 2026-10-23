@@ -1,0 +1,82 @@
+{
+  "review_date": "2026-10-22",
+  "scope": "January\u2013June2026follow-up of2023\u201325episodes and horizon shock searches; no fresh2026episodeinclusion.",
+  "sources": [
+    {
+      "source_id": "board-2026-01-21",
+      "revision": "1931929",
+      "sha256": "5a63357111c31f535a01534ffa963b9f98de90af37b77d0d070438039342761d",
+      "publication_upper_bound": "2026-02-18T23:17:47+00:00",
+      "retrieved_at": "2026-10-22T18:29:37+00:00",
+      "headers_sha256": "c8d6c4418e3836a5a02ac77bc7a3ccb59ae2d2bd2cb12053b4296cc9566ab9de",
+      "immutable_revision_bytes_equal": true
+    },
+    {
+      "source_id": "board-2026-02-18",
+      "revision": "1932376",
+      "sha256": "d8352cceed721497656409e078add59f4234324b37c5648b983fc4c8b989684a",
+      "publication_upper_bound": "2026-03-18T23:30:14+00:00",
+      "retrieved_at": "2026-10-22T18:29:38+00:00",
+      "headers_sha256": "3e33035c8cff932935774389a92b37723aba79dc68d7d84a3ca7e84a54f4a22d",
+      "immutable_revision_bytes_equal": true
+    },
+    {
+      "source_id": "board-2026-03-18",
+      "revision": "1935480",
+      "sha256": "940fa5f873d60b4eb6e779566a19884873a362cc28041eea3ae91d98ee5eedcb",
+      "publication_upper_bound": "2026-06-18T18:11:15+00:00",
+      "retrieved_at": "2026-10-22T18:29:38+00:00",
+      "headers_sha256": "8acd973f9d1b01b9283fdff55b77f91262a2ed978b1fcba4066c7d6fa102aa18",
+      "immutable_revision_bytes_equal": true
+    },
+    {
+      "source_id": "board-2026-04-15",
+      "revision": "1934479",
+      "sha256": "34cd7f121a3626c67c3d160ef15934d0fd9306af7bba87c5a296a3593cbd185b",
+      "publication_upper_bound": "2026-05-21T14:29:29+00:00",
+      "retrieved_at": "2026-10-22T18:29:38+00:00",
+      "headers_sha256": "0f6831f48e062e01861a41d8d551ed51f54ee601b7700b3293e9d684955f8f89",
+      "immutable_revision_bytes_equal": true
+    },
+    {
+      "source_id": "board-2026-05-20",
+      "revision": "1935479",
+      "sha256": "cd3d92129e8d3404dacf622e0e61ac85eb264901b4bda9a7ec238b991ea7f751",
+      "publication_upper_bound": "2026-06-18T18:11:08+00:00",
+      "retrieved_at": "2026-10-22T18:29:38+00:00",
+      "headers_sha256": "03a4ce63e402a18b41a2c61984fbc0e2e857bfbafc1b937a6a5634c58a780a6a",
+      "immutable_revision_bytes_equal": true
+    },
+    {
+      "source_id": "board-2026-06-17",
+      "revision": "1936178",
+      "sha256": "713d92a6f9a2a0fe08c75b2553156eb3682006bedc8a2ce7e05dee9f33443c8e",
+      "publication_upper_bound": "2026-07-15T22:23:24+00:00",
+      "retrieved_at": "2026-10-22T18:29:38+00:00",
+      "headers_sha256": "699925bdbf7f72c65bacd37f95c38ce00c5310591fe7c3b31489648e7271148a",
+      "immutable_revision_bytes_equal": true
+    }
+  ],
+  "sections": 170,
+  "aid_sha256": "3bbb8b3ee9e20777f69049310645c065f0aff5aa0b8a7751b82c0b44d148a4ab",
+  "repetition_ledger_sha256": "16bf955954f4faa102687ad31c59c7191497455f95b7a618f83bb02786ba32d3",
+  "findings": [
+    "All170retainedmain,officer,andselectedcohort/Comdev/Atticsectionsreviewed. Whole2026documentsretained; unrelatedPMCattachmentbodiesareoutsidefollowupscope. No inventedprojectreportscheduleorhealthoutcomefromblankreports.",
+    "Read novel aid1\u20135400in six untruncated900linecalls. Tail5401\u20136532initiallytruncated; repaired5900\u20136110coversallJuneBrand/Fundraising/Marketingmaterialomittedfromthatoutput. Exactparagraphrepetitionsmappedtoreadretainedsections; noneomittedsemantically.",
+    "TomcatMarch18andJune17reportHeroDevsgrantsecuredasdirecteddonationtoASF; actualreceipt/spendnotshown. Thisupdatesearlierpotentialgrant/applicationhistorywithoutresettingunknownearlieronset.",
+    "HTTPDMay20reportsPMCvote toretirelibapreq2; thiscontinuesthealreadyolderunknown-onsetretirementfamily,notnew2026censusonset.",
+    "MavenMay20reportsoptionalATRvotestepusebyrelease managerssinceFebruary, explicitlyunchangedoverallreleaseprocedure, plusjointTooling-owned/Maven-maintaineduploadpluginpreparation. JuneToolinglistsactualATRreleasesandjointpluginwork. No universal mandatory ATRpolicy or newly transferredreleaseauthority inferred.",
+    "MavenMay20reportsprojectlogochangefornewASFbrand; priornewFoundationlogo and oldfeather-policyfamilyidentity/scopemustbereconciledbeforelock. UnknownadoptiondaydoesnotbecomeMay20.",
+    "AntJune17reportsCycloneDXAntlib0.1releasedandprospectiveAnt/IvySBOMuse. Sourcepostdatesthe180dayendpointofNovember11proposal; earlyApril/MaydevelopmentdoesnotproveproductionSBOMexecutionbyMay10.",
+    "JanuaryPrivacyconfirmsNovember2025MatomooperatinghandovertoInfra, distinctfromoldPrivacyownershipdiscussion; no newselectedPMCanalyticschoiceorpolicychangeisidentified bybackendoperationchangealone.",
+    "MFArolloutcontinuesfrom2025work: Januaryacceptancegaps, FebruaryLDAPtechnicaldebt, Marchpause/soft-launchplan, Aprilsoft-launchedApril2, May/Juneongoing. AtlassianCloudmigration2026reportsreferexplicitlyto2025testprojectcall. Reconcileoldercentralproposalexclusions; nonadoptionalone is not an eligibility exclusion.",
+    "FollowupBrandJanuaryreportsMAVENinfringementadvicecoveringDecember2025, withoutrecipientidentity; assesscontinuityoruncertainindependentact,notautomaticallymergebysharedmark.",
+    "TrivyMarchandAxiosAprilthird-partybreachesarepubliclyreportedexternalprecursorcandidates. Exactindependentprimaryincidentrecords/exposurearenot suppliedbytheASFresponseitself. IncreasingAIreportvolumeisreceiver workload,notindependentcauseproof.",
+    "ReviewBoardretirement,ResponsibleAI,security-featurePRauto-mergesJune15,CAP,and2026newgovernanceproposalsdonotenterasfresh2026onsets. Retainascontextorclosinghistoryonlyifindependentlylinkedtoinwindowdeliverables. No specificcohortmandatorysecurityruleisbackdated."
+  ],
+  "pending": [
+    "Resolvebounded2025MFA/Atlassiancloudproposalcoverageandlogo/genericmarkidentityquestionsbeforefinalframe.",
+    "Integrateactualfollowupactsintofamilybags/componentanddirectionrecordswithoutdatingunderlyingonsetfromscheduledreports.",
+    "CheckTrivy/Axiosprimaryprecursorswherewithinhorizon; no newcleancommon-shockcomparisonisdeclared."
+  ]
+}

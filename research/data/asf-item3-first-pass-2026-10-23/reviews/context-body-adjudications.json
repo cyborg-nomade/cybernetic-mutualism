@@ -1,0 +1,975 @@
+{
+  "topic-0958b5efb36f58c0": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "October6,2022 single ASAN/LeakSanitizer Travis setup failure is ordinary technical troubleshooting; no service retirement rule or allocation request/outcome shown.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "baseline_context"
+  },
+  "topic-5aaf6f1bfd028b8d": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "October25,2022 Stefan says PR193 appears intended for wrong repository; ordinary misplaced patch review, no contributor discipline or rights change.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "baseline_context"
+  },
+  "topic-b285b9427d095bd7": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "October25,2022 PR193 closed after wrong-repository explanation; one local patch disposition, not an access ban or binding contribution policy.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "baseline_context"
+  },
+  "topic-af3273a96eed874d": {
+    "kind": "context",
+    "family": "ant-github-contribution-route",
+    "reason": "November7,2022 Keith asks whether GitHub is only mirror and Gitbox account needed. Stefan explains GitHub two-way mirror and supported PRs/old-fashioned patches; requester already used correct route, no new grant/refusal. Historical local procedure context, not new2023\u201325 onset.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "baseline_context"
+  },
+  "topic-6aad37296020be27": {
+    "kind": "context",
+    "family": "httpd-emmanuel-committer-2022",
+    "reason": "November8,2022 Joe announces PMC invitation accepted by Emmanuel. November9 Emmanuel reports first commitr1905170. Dated committer context, not PMC/Board role or a new in-window appointment; original private invitation date unknown.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "baseline_context"
+  },
+  "topic-0cd035add6681f1c": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "November9,2022 question whether OpenSSL3 works is answered already supported in2.4.54. User support/known compatibility, no new dependency mandate.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "baseline_context"
+  },
+  "topic-3ac2f31c2c701e4d": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "November9,2022 external-prefixed reply asks about Jackson vulnerability; responder asks correct Apache project. Off-topic user support, no institutional act; security assertions are not independent shock evidence.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "baseline_context"
+  },
+  "topic-be82642938257f30": {
+    "kind": "context",
+    "family": "httpd-openssl-support-history",
+    "reason": "November22,2022 asks whether provider1.1.1 EOL forces HTTPD3.0 support/minimum. Ruediger says1.1.1/3.0 already work and no plan to require3.0; HTTPD does not deliver OpenSSL. Preserve support-versus-minimum distinction and no adopted new rule; provider EOL remains unverified separately.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "baseline_context"
+  },
+  "topic-eae65ede393fb282": {
+    "kind": "context",
+    "family": "ant-1.10.13-release",
+    "reason": "November16\u2013December18,2022 release planning and fixes/tests are precursor context to January2023 formal opening. No formal candidate vote here: plus-one on releasing soonish is not release approval or sampling onset. SecurityManager allow workaround and tar regression are ordinary technical repair.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "baseline_context"
+  },
+  "topic-8ef4bc8abb42be68": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "November17/December11,2022 follow-up on SecurityManager allow workaround resumes February8 discussion and implements82c70f3202d5aec4d99fa3b6314ba4a6c338cd94. Technical launcher compatibility repair, not governance security/access change or new minimum.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "baseline_context"
+  },
+  "topic-20ee97fd75d4f792": {
+    "kind": "context",
+    "family": "foundation-jira-account-approval-2022",
+    "reason": "December10,2022 asks IvyDE Jira voting/comment account. Stefan moderates mail and points to Infra closed public signup and private Ant request route, asks needed information; no account grant/refusal observed. Corroborates pre-window central rule already in baseline Board reports; exact directive/version and private outcome remain unknown.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "baseline_context"
+  },
+  "topic-ca53aefe5b3a9020": {
+    "kind": "context",
+    "family": "httpd-mod-wasm-donation-2022",
+    "reason": "November14\u2013December20,2022 explicit donation/maintainership request precedes in-window follow-up. December12 license/header fixes, December13 mistaken special-permission question answered fork/PR route and PR335 opened, December20 contributor reports successful Travis/Windows tests. No completed donation or ASF acceptance proved. Technical test self-reports/attachments not independent receiver evidence; source-thread quoted earlier internal forwarding does not establish earlier public onset.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "baseline_context"
+  },
+  "topic-d7922a0ee1e10491": {
+    "kind": "context",
+    "family": "maven-api-compatibility-history",
+    "reason": "October4\u201313,2022 plugin/extension migration reports lead to restored compatibility acknowledged October13. Maven2 compatibility already removed, Maven3 transition retained. Technical public-API context before window, no project rights or external refusal.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "baseline_context"
+  },
+  "topic-746d41c75036f857": {
+    "kind": "context",
+    "family": "maven-format-enforcement-2022",
+    "reason": "October12\u2013November22,2022 central formatter resources and build checking/reformatting profiles proposed. October14 first resource/site PRs merged, core/resolver pending; November22 parent38 uptake separately reported. No inference that all repositories changed; later patch-format discussion is not automatically a new episode.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "baseline_context"
+  },
+  "topic-2c287bac370849e1": {
+    "kind": "context",
+    "family": "maven-format-enforcement-2022",
+    "reason": "October12\u201320,2022 style choices and mandatory automation debated alongside formatter proposal. Google/Palantir alternatives, objections and git-blame preservation retained; common parent38 direction later. Mere extra spaces are not contribution rights.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "baseline_context"
+  },
+  "topic-57c3635bd38ce4d1": {
+    "kind": "context",
+    "family": "maven-parent-java8-2022",
+    "reason": "October22\u201323,2022 raise Maven parent minimum to Java8 with support. Herve explicitly distinguishes Maven parent from ASF parent; does not reset April2023 ASF-parent build minimum or November2023 plugin build11 onset.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "baseline_context"
+  },
+  "topic-02db1ab61d200eba": {
+    "kind": "context",
+    "family": "maven-release-restart-policy-2022",
+    "reason": "October30\u2013November2,2022 conflicting same-version/tag deletion versus next-version procedures. Guillaume reports rejected tag deletion but role/provider not established. Slawomir finally accepts established next-version approach and promises PR; promised documentation not proven implementation. Preserve before later vote retry grouping.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "baseline_context"
+  },
+  "topic-002e949af2bddc13": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "November7\u20138,2022 release-note convenience/good-practices discussion explicitly not strict procedure. Log4j Jira migration is other project; GitHub trade restrictions raised, not Maven migration adoption or verified provider rule.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "baseline_context"
+  },
+  "topic-abf2a8f1b0cf2362": {
+    "kind": "context",
+    "family": "maven-branch-support-direction-2022",
+    "reason": "November11\u201312,2022 proposed3.8 freeze/3.9/master protected quorum-only changes and shift focus4.0. Olivier proposes6month transition and security exception. Proposed policy, not verified access enforcement or later LTS direction adoption.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "baseline_context"
+  },
+  "topic-b69df1bea79350cd": {
+    "kind": "context",
+    "family": "maven-api-compatibility-history",
+    "reason": "November16\u201323,2022 plugin-developer draft, November23 explicitly confirms retaining maven-compat during Maven4 transition after backlash. Wiki current body not historic proof; not a new later removal or exclusion.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "baseline_context"
+  },
+  "topic-f019e5b174ca823d": {
+    "kind": "context",
+    "family": "maven-api-compatibility-history",
+    "reason": "November16\u201318,2022 API compatibility/deprecation, JPMS/OSGi alternatives, shared-component removal and JApiCmp PR874. Discussion does not adopt OSGi, removal timing or full binding architecture. Earlier precursor to later module/API proposals, not contributor discipline.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "baseline_context"
+  },
+  "topic-61b60fb5b04fc9ab": {
+    "kind": "context",
+    "family": "maven-site-architecture-2022",
+    "reason": "November16\u201327,2022 brainstorming, disputed wholesale replacement and explicit user-discretion generator choice. Reporting pivot-format proof-of-concept PR13 November27; production adoption/retirement not established. ASF svnpubsub delay claims require provider evidence.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "baseline_context"
+  },
+  "topic-1d3f0775611dbb4f": {
+    "kind": "context",
+    "family": "maven-release-vote-duration-2022",
+    "reason": "November18\u201323,2022 proposal to close on quorum/max72hours opposed on participation and majority rules. Tamas November23 explicitly withdraws shortening and retains72hours. ASF interpretation assertions not verified Board refusal; no private Slack reconstruction.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "baseline_context"
+  },
+  "topic-c86c5bf529bda11f": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "November18,2022 automated security hardening patch to project-utils PR5. Sponsorship is external; proposed CLA opt-out and generic archive suggestion are no actual membership/access change or ASF grant.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "baseline_context"
+  },
+  "topic-fe971c849bd69c9a": {
+    "kind": "context",
+    "family": "maven-automated-contribution-treatment-2022",
+    "reason": "November20\u201322,2022 researcher acknowledges no project-specific triage, asks preferred automated route, offers to respect PMC choice, promises recipe changes. No access ban, adopted Maven-wide robot prohibition or legal decision shown. Commons treatment remains other-project context.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "baseline_context"
+  },
+  "topic-078105818a573b17": {
+    "kind": "context",
+    "family": "maven-automated-contribution-treatment-2022",
+    "reason": "November20\u201321,2022 Elliotte rejects patch as non-security issue and criticizes false-positive automation; patch-specific disposition is not contributor revocation or general enforced ban.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "baseline_context"
+  },
+  "topic-7f4d7397aec37562": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "November20,2022 project-utils PR5 closed as explained false positive. Ordinary patch closure, no role/access change.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "baseline_context"
+  },
+  "topic-377184b6f7af79e1": {
+    "kind": "context",
+    "family": "maven-automated-contribution-treatment-2022",
+    "reason": "November20\u201321,2022 Gary reports his robot-exclude files in Apache Commons and objects to public security filing; no Maven policy implementation or independently confirmed Commons authority.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "baseline_context"
+  },
+  "topic-fd1ac89b493444d9": {
+    "kind": "context",
+    "family": "maven-automated-contribution-treatment-2022",
+    "reason": "November20,2022 Slawomir asks researcher to exclude Maven bot PRs while welcoming proper security/other contributions. Request not proven adopted access restriction.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "baseline_context"
+  },
+  "topic-85c792cd9bbce20e": {
+    "kind": "context",
+    "family": "maven-automated-contribution-treatment-2022",
+    "reason": "November20\u201321,2022 Michael proposes robot-exclude then comments on debate. Proposal no completed repository change or discipline.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "baseline_context"
+  },
+  "topic-da3470e7506f02a8": {
+    "kind": "context",
+    "family": "maven-automated-contribution-treatment-2022",
+    "reason": "November20,2022 Benjamin distinguishes Maven from Commons and requests responsible security reporting, says refusal of contributions needs PMC attention. No PMC refusal proven; security.txt proposal distinct publication deliverable.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "baseline_context"
+  },
+  "topic-0b68f3583aba1a64": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "November22,2022 popcorn emoji on PR5 debate carries no decision, request or rights change.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "baseline_context"
+  },
+  "topic-5e12df5854eff18c": {
+    "kind": "context",
+    "family": "maven-security-reporting-publication-2022",
+    "reason": "November20,2022 proposes security.txt linking existing ASF reporting policy; Romain initially questions draft then supports after RFC9116 cited. No publication commit in bodies and no new vulnerability shock established.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "baseline_context"
+  },
+  "topic-065798cb4948414d": {
+    "kind": "context",
+    "family": "maven-project-utils-notification-route-2022",
+    "reason": "November22,2022 requests PR6 redirecting overwhelming project-utils notifications away from dev; content delivery change not contributor prohibition. Merge same date retained separately; service activation not independently established.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "baseline_context"
+  },
+  "topic-eb4f5eee30f38705": {
+    "kind": "context",
+    "family": "maven-project-utils-notification-route-2022",
+    "reason": "November22,2022 GitBox reports Olivier merged PR6 redirecting notifications. Human merge evidence via machine routing retained; no independently proved recipient activation.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "baseline_context"
+  },
+  "topic-0db7aef679a37e09": {
+    "kind": "context",
+    "family": "maven-format-enforcement-2022",
+    "reason": "November22,2022 Guillaume reports master parent38 upgrade enforcing new style, reformat opt-in and Java8 minimum. Git-blame correction noted; Java8 parent decision separately scoped. Does not establish all components adoption.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "baseline_context"
+  },
+  "topic-e030ebd6a5895a1a": {
+    "kind": "context",
+    "family": "maven-api-compatibility-history",
+    "reason": "November25,2022 asks removal of deprecated methods for4.0 with concrete shared-utils example. No adoption in single opening; pre-window technical precursor.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "baseline_context"
+  },
+  "topic-64d4660f319e5c9b": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "November28,2022 external plugin asks Wagon future. Michael explicitly says not deprecated, plans future HttpClient5 work; requester chooses Wagon. User support and tentative roadmap, no retirement adoption.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "baseline_context"
+  },
+  "topic-c7f05ec34b850a71": {
+    "kind": "context",
+    "family": "maven-external-pr-jenkins-procedure-history",
+    "reason": "November29\u201330,2022 external PR845 CI procedure question. Maarten says prior proposed process lacked consensus and describes personal patch/branch/Jenkins workflow; no adopted mandatory PR gate or central authorization request.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "baseline_context"
+  },
+  "topic-c8c9d590667e7359": {
+    "kind": "context",
+    "family": "foundation-jira-account-approval-2022",
+    "reason": "December6,2022 contributor cannot self-create Jira account; Slawomir directs private Maven request with identity fields. Corroborates prior central signup rule, no observed account grant/refusal or new in-window onset.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "baseline_context"
+  },
+  "topic-549b8e60171549c3": {
+    "kind": "context",
+    "family": "maven-resolver-signing-direction-2022",
+    "reason": "December7,2022 Tamas reports agreed FileTransformer replacement/signature SPI direction with review PR226/227/core904, GNU-GPG equivalent initial target. Debate user-accessible signing versus deploy-only; no completed production implementation or institutional signing-key allocation.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "baseline_context"
+  },
+  "topic-40ef0c9c868a5555": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "December14\u201315,2022 request to review ordinary Surefire PRs blocked by test-path colon/upload and JDK18 CI failures. Repo-privileges remark is technical repair, not grant/refusal.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "baseline_context"
+  },
+  "topic-dd05f2bb6e196b1a": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "December20,2022 thanks for merged fixes and renews Surefire568 bug review. Ordinary patch/test repair with checks green, not access direction.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "baseline_context"
+  },
+  "topic-382c566de55551d0": {
+    "kind": "context",
+    "family": "maven-mvnd-distribution-direction-2022",
+    "reason": "December31,2022 proposes bundling/downloading mvnd with Maven4 for consistent user experience; opposition on size/need. January1 local-time reply is December31UTC and not a2023 onset. No adopted packaging policy in bodies.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "baseline_context"
+  },
+  "topic-63cb4edf6412e546": {
+    "kind": "context",
+    "family": "tomcat-security-manager-removal-history",
+    "reason": "October1\u20132,2022 replies quote September28 Emmanuel proposal to remove SecurityManager support before JDK removal, possibly10.1/11. Backport and Loom considerations remain unsettled. Earlier original public opening must be traced; January2023 implementation is not automatically a new onset.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-0c5ed169c80708b1": {
+    "kind": "context",
+    "family": "foundation-github-token-permissions-history",
+    "reason": "October5,2022 PR554 proposes minimum workflow token permissions. Mark replies organization-level permissions already cover them and closes patch as unnecessary. No new access grant or enforced rule shown; original organization rule/date requires provider evidence.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-b8b7ead16342da9e": {
+    "kind": "context",
+    "family": "foundation-github-token-permissions-history",
+    "reason": "October5,2022 PR554 proposes minimum workflow token permissions. Mark replies organization-level permissions already cover them and closes patch as unnecessary. No new access grant or enforced rule shown; original organization rule/date requires provider evidence.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-fce7a5c1935e2c8c": {
+    "kind": "context",
+    "family": "foundation-github-token-permissions-history",
+    "reason": "October5,2022 PR554 proposes minimum workflow token permissions. Mark replies organization-level permissions already cover them and closes patch as unnecessary. No new access grant or enforced rule shown; original organization rule/date requires provider evidence.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-49e1f99977b06239": {
+    "kind": "context",
+    "family": "tomcat85-eol-2022",
+    "reason": "October7,2022 Mark proposes March31,2024 support end, with alternative September tied to EE11. October20\u201325 replies support March31 and early announcement. Public announcement/website commitment follows December13; do not reset onset to2023/2024 cleanup.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-908018e738b35461": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "October8,2022 PR523 comment says merge manually. Ordinary patch workflow, with no actual merge or institutional access change established.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-7e86e6ce252ef8dc": {
+    "kind": "context",
+    "family": "tomcat-ffm-development-history",
+    "reason": "October8,2022 TOMCAT-NEXT commit476affb15f describes conditional Panama Java21 release-build and QUIC direction. Prospective roadmap is earlier context, not completed adoption or runtime minimum; later API/version decisions require independently scoped deliverables.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-7beac12295125891": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "October10,2022 commits reformat two Java files to120columns across branches. Ordinary style repair, not adoption of a new project-wide contribution restriction; November guide update retained separately.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-f801bf6b1a3f823d": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "October10,2022 commits reformat two Java files to120columns across branches. Ordinary style repair, not adoption of a new project-wide contribution restriction; November guide update retained separately.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-7e5494b12df396fd": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "October10,2022 commits reformat two Java files to120columns across branches. Ordinary style repair, not adoption of a new project-wide contribution restriction; November guide update retained separately.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-b4700264bd4916f1": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "October10,2022 import-order changes are ordinary Checkstyle repair across branches, not changed contribution rights or a new institutional rule.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-6d98b006a00ab4c8": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "October10,2022 import-order changes are ordinary Checkstyle repair across branches, not changed contribution rights or a new institutional rule.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-f24c06830ac198bf": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "October10,2022 import-order changes are ordinary Checkstyle repair across branches, not changed contribution rights or a new institutional rule.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-f13cdea88dd3de8b": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "October10,2022 import-order changes are ordinary Checkstyle repair across branches, not changed contribution rights or a new institutional rule.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-726e4440a30532f3": {
+    "kind": "context",
+    "family": "tomcat11-development-direction-2022",
+    "reason": "October11,2022 TOMCAT-NEXT adds conditional SecurityManager removal, possibleJava17 if EE11 and optional Loom BIO. Prospective direction only; not executed minimum/support changes or three independently adopted policies.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-d7b375c6a5e56401": {
+    "kind": "context",
+    "family": "tomcat-ffm-development-history",
+    "reason": "October14,2022 commit8026305010000ac0a5c7c840b703f05272dea053 removes unsupported Panama modules from10.1; future backport conditional on11 integration. Export itself suppresses11286diff lines.46 complete exported Java deletions were structurally inventoried; all retained prose, licensing, build/docs/nondeletion changes read. This establishes removal context, not full repository-code inspection or a general runtime change.",
+    "review_scope": "complete_exported_human_and_configuration_text_plus_structural_inventory_of_46_complete_java_deletions_source_omission_preserved",
+    "phase": "baseline_context"
+  },
+  "topic-8065065dd49b116e": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "October14,2022 README corrects duplicated Tomcat11 documentation links by restoring10.1 links. Ordinary documentation repair, not new support policy.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-d4c5125c8236545b": {
+    "kind": "context",
+    "family": "tomcat11-spec-direction-2022",
+    "reason": "October19,2022 commits update next JSP4.0/EL6.0 versions, API/build/docs, with specification schema pending. Pre-window Tomcat11 technical direction, not institutional allocation or proven external standard adoption date.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-8e0bd6b582a10f9c": {
+    "kind": "context",
+    "family": "tomcat11-spec-direction-2022",
+    "reason": "October19,2022 commits update next JSP4.0/EL6.0 versions, API/build/docs, with specification schema pending. Pre-window Tomcat11 technical direction, not institutional allocation or proven external standard adoption date.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-fc75fb02cbc1321c": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "October20,2022 RUNNING minimum-Java text becomes a build-populated template for existing8/7 values. No raised build/runtime minimum; ordinary documentation consistency repair.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-6ed85040c8dcabfa": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "October20,2022 RUNNING minimum-Java text becomes a build-populated template for existing8/7 values. No raised build/runtime minimum; ordinary documentation consistency repair.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-ee7286ba8d064c01": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "October20,2022 RUNNING minimum-Java text becomes a build-populated template for existing8/7 values. No raised build/runtime minimum; ordinary documentation consistency repair.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-6a721634ee633035": {
+    "kind": "context",
+    "family": "tomcat10-eol-2022",
+    "reason": "October24 superseded-version notice, October26 follow-up quoting September26\u201327 discussion, and October31 r1904954 EOL publication belong to earlier10.0 support decision. Security-only exceptions and ability to release any branch with quorum retained; January31,2023 download/doc cleanup is anticipated follow-through, not a new onset. Earlier original opening remains bounded reference.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-88bc6bcc05692eb1": {
+    "kind": "context",
+    "family": "tomcat10-eol-2022",
+    "reason": "October24 superseded-version notice, October26 follow-up quoting September26\u201327 discussion, and October31 r1904954 EOL publication belong to earlier10.0 support decision. Security-only exceptions and ability to release any branch with quorum retained; January31,2023 download/doc cleanup is anticipated follow-through, not a new onset. Earlier original opening remains bounded reference.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-6516f3be28cf506b": {
+    "kind": "context",
+    "family": "tomcat10-eol-2022",
+    "reason": "October24 superseded-version notice, October26 follow-up quoting September26\u201327 discussion, and October31 r1904954 EOL publication belong to earlier10.0 support decision. Security-only exceptions and ability to release any branch with quorum retained; January31,2023 download/doc cleanup is anticipated follow-through, not a new onset. Earlier original opening remains bounded reference.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-e0ff7260ff06e2c1": {
+    "kind": "context",
+    "family": "foundation-travis-migration-2022",
+    "reason": "October25,2022 Mark reports Infrastructure instruction to migrate from Travis, recommends GHA and notes loss of ARM/s390/ppc coverage. Remy supports not replacing architectures. Requester relay is not independent provider directive; no new hardware allocation request/outcome here.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-98c3066d80d01add": {
+    "kind": "context",
+    "family": "foundation-travis-migration-2022",
+    "reason": "October28,2022 five branch commits remove Travis configuration; main GHA matrix adds10.1/9/8.5. Local configuration uptake of one shared earlier directive, not five independent governance opportunities or proof of successful service runs.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-06cee522857817a5": {
+    "kind": "context",
+    "family": "foundation-travis-migration-2022",
+    "reason": "October28,2022 five branch commits remove Travis configuration; main GHA matrix adds10.1/9/8.5. Local configuration uptake of one shared earlier directive, not five independent governance opportunities or proof of successful service runs.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-1c7babea6ef8cce8": {
+    "kind": "context",
+    "family": "foundation-travis-migration-2022",
+    "reason": "October28,2022 five branch commits remove Travis configuration; main GHA matrix adds10.1/9/8.5. Local configuration uptake of one shared earlier directive, not five independent governance opportunities or proof of successful service runs.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-507f980f89a65efb": {
+    "kind": "context",
+    "family": "foundation-travis-migration-2022",
+    "reason": "October28,2022 five branch commits remove Travis configuration; main GHA matrix adds10.1/9/8.5. Local configuration uptake of one shared earlier directive, not five independent governance opportunities or proof of successful service runs.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-063f43aa47f12420": {
+    "kind": "context",
+    "family": "foundation-travis-migration-2022",
+    "reason": "October28,2022 five branch commits remove Travis configuration; main GHA matrix adds10.1/9/8.5. Local configuration uptake of one shared earlier directive, not five independent governance opportunities or proof of successful service runs.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-e80bd1a3d5d90027": {
+    "kind": "context",
+    "family": "foundation-travis-migration-2022",
+    "reason": "October28,2022 five branch commits remove Travis configuration; main GHA matrix adds10.1/9/8.5. Local configuration uptake of one shared earlier directive, not five independent governance opportunities or proof of successful service runs.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-8e31deb58e10aeb0": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "October28,2022 redundant GHA workflow removed from10.1 because main controls builds. Ordinary CI routing repair, no external refusal or rights change.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-ed0da32bd8a6661a": {
+    "kind": "context",
+    "family": "tomcat-javadoc-build-policy-history",
+    "reason": "November2\u201311,2022 asks about post17 Javadoc warnings, proposes parameterized documentation JDK and reports19/20 testing. Warnings remain nonfatal and no final changed default is adopted here. Context for later release-build/Javadoc choices, not core runtime minimum.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-940d61e2d6cff832": {
+    "kind": "context",
+    "family": "tomcat-code-style-2022",
+    "reason": "November3,2022 r1905034 publishes120-column loosely followed Java guideline instead of100. Earlier code formatting commits do not themselves establish first policy adoption; no contribution access restriction shown.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-1045a8fa773ded8d": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "November3,2022 Jakarta migration-tool Javadoc18+ constructor/comment fixes are ordinary API documentation repair. No Tomcat-wide minimum change or binding new direction.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-ff088326bed9f7e2": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "November12,2022 single subscribe request contains no moderation decision or account grant.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-bc559918edc1fcd8": {
+    "kind": "context",
+    "family": "tomcat-code-signing-renewal-2022",
+    "reason": "November13 certificate expiry on16th and renewal in hand; November14 Mark reports new certificate in place. Requester self-report is not independent issuance evidence. Annual renewal later requires its own deliverable/onset check.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-bcc06e095d0dc33a": {
+    "kind": "context",
+    "family": "tomcat-code-signing-renewal-2022",
+    "reason": "November14,2022 four branches switch DigiCert alias2021-11 to2022-11 while code-signing remains opt-in. Configuration selection supports one renewal uptake, not four grants or proof of actual signing execution.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-ce58e11f86c42513": {
+    "kind": "context",
+    "family": "tomcat-code-signing-renewal-2022",
+    "reason": "November14,2022 four branches switch DigiCert alias2021-11 to2022-11 while code-signing remains opt-in. Configuration selection supports one renewal uptake, not four grants or proof of actual signing execution.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-a35f73262e46c78f": {
+    "kind": "context",
+    "family": "tomcat-code-signing-renewal-2022",
+    "reason": "November14,2022 four branches switch DigiCert alias2021-11 to2022-11 while code-signing remains opt-in. Configuration selection supports one renewal uptake, not four grants or proof of actual signing execution.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-ebb3afa05dfc93cd": {
+    "kind": "context",
+    "family": "tomcat-code-signing-renewal-2022",
+    "reason": "November14,2022 four branches switch DigiCert alias2021-11 to2022-11 while code-signing remains opt-in. Configuration selection supports one renewal uptake, not four grants or proof of actual signing execution.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-f4b88624eeec0dc9": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "November14 PR567 and November17 Dockerfile chmod-conf commits fix filesystem permission denial. Ordinary container repair, not contributor rights or institutional access.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-8ff53238af05731f": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "November14 PR567 and November17 Dockerfile chmod-conf commits fix filesystem permission denial. Ordinary container repair, not contributor rights or institutional access.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-ca05cadf8446523c": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "November14 PR567 and November17 Dockerfile chmod-conf commits fix filesystem permission denial. Ordinary container repair, not contributor rights or institutional access.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-29fad783bbfc2695": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "November14,2022 PR568 described just for test is closed. Ordinary patch disposition, no disciplinary or access action.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-5b1681a904278c2a": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "November14,2022 PR568 described just for test is closed. Ordinary patch disposition, no disciplinary or access action.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-55bdf6f032dbfd22": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "November18,2022 accidental paused-HTTP503 code deletion reverted in three branches. Ordinary bug repair, not a new overall support/access direction.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-00f80c6d948ee096": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "November18,2022 accidental paused-HTTP503 code deletion reverted in three branches. Ordinary bug repair, not a new overall support/access direction.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-a8f581f2b50e7486": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "November18,2022 accidental paused-HTTP503 code deletion reverted in three branches. Ordinary bug repair, not a new overall support/access direction.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-14192667094551d3": {
+    "kind": "context",
+    "family": "tomcat11-spec-direction-2022",
+    "reason": "November18 Servlet6.1 snapshot build change and November21 documentation update continue Tomcat11 specification direction. No independent institutional allocation or new in-window onset.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-a0db35d2ed511b05": {
+    "kind": "context",
+    "family": "tomcat11-spec-direction-2022",
+    "reason": "November18 Servlet6.1 snapshot build change and November21 documentation update continue Tomcat11 specification direction. No independent institutional allocation or new in-window onset.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-990ae44fb93a3036": {
+    "kind": "context",
+    "family": "tomcat11-milestone-release-planning-2022",
+    "reason": "November18,2022 plans first Tomcat11 milestone next month. Planning is not a formal release-vote opening or sampling onset.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-5c97a1e7cc170f8e": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "November22,2022 OpenSSL3 user support answered as already working with Native; follow-up redirected to users list. No contributor ban, new dependency mandate or independently verified provider EOL.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-4cf02c8624deb0d9": {
+    "kind": "context",
+    "family": "tomcat-fuzz-report-routing-2022",
+    "reason": "November24,2022 proposes private fuzz-testing list plus security CC only when warranted; Remy and Jean-Frederic support. November29 Mark reports all in place. Reported setup is not independent provider creation evidence; private list not reconstructed.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-40c933dacdf075f3": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "November30,2022 application-development guide replaces CVS with generic source-control language, allowing Git/SVN/user choice. Four documentation backports are not Tomcat repository migration or binding tool restriction.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-724d56fe797ee9da": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "November30,2022 application-development guide replaces CVS with generic source-control language, allowing Git/SVN/user choice. Four documentation backports are not Tomcat repository migration or binding tool restriction.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-c8b5a004882231c8": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "November30,2022 application-development guide replaces CVS with generic source-control language, allowing Git/SVN/user choice. Four documentation backports are not Tomcat repository migration or binding tool restriction.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-2e55d97a012a56c8": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "November30,2022 application-development guide replaces CVS with generic source-control language, allowing Git/SVN/user choice. Four documentation backports are not Tomcat repository migration or binding tool restriction.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-dec3e52414fedcd1": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "December5,2022 r1905770 adds Tomcat11 website documentation build targets. Ordinary site configuration, not changed core build minimum or rights.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-ddd4b33a56abdd95": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "December5,2022 migration guide replaces already10.1 cookie changes with current unchanged behavior/byte-conversion notes. Ordinary documentation repair, not a newly adopted compatibility direction.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-dcfcc8f573717ffc": {
+    "kind": "context",
+    "family": "tomcat-ffm-development-history",
+    "reason": "December8,2022 commit66a4bcab40 adapts experimental module to Java20 JEP434, replacing MemorySession with SegmentScope/Arena APIs. Explicit module-only Java requirement and Tomcat9+ support remain distinct from core runtime/release minima. Earlier FFM development context, not blanket Java20 mandate.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-6bde9ad8499bbe12": {
+    "kind": "context",
+    "family": "tomcat-irc-routing-history",
+    "reason": "December8,2022 Bug66381 asks to correct broken Freenode webchat/channel links and considers Libera channel. Public routing request predates2023 page changes; no completed migration or account action here.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-8c200d18f8b16b96": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "December9,2022 removes nonexistent org/apache/jk include from build paths in four branches. Ordinary obsolete-path cleanup, not new module retirement or institutional gate.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-12c80a708ceccc18": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "December9,2022 removes nonexistent org/apache/jk include from build paths in four branches. Ordinary obsolete-path cleanup, not new module retirement or institutional gate.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-57c935442fa8b661": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "December9,2022 removes nonexistent org/apache/jk include from build paths in four branches. Ordinary obsolete-path cleanup, not new module retirement or institutional gate.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-9b39db7ae4c809be": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "December9,2022 removes nonexistent org/apache/jk include from build paths in four branches. Ordinary obsolete-path cleanup, not new module retirement or institutional gate.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-0354061979888cbf": {
+    "kind": "context",
+    "family": "tomcat85-eol-2022",
+    "reason": "December13,2022 r1905967 publishes March31,2024 end of support and planned postJune30 read-only branch/Bugzilla and download/doc removal. October proposal remains original onset; publication does not prove later planned restrictions executed.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-0404f128e3f8ad16": {
+    "kind": "context",
+    "family": "tomcat85-eol-2022",
+    "reason": "December13,2022 Mark announces March31,2024 support end; second message corrects final-release2021 typo to2024. Preserve both original Message-IDs and correction, not two decisions; future branch/Bugzilla enforcement remains unobserved here.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-caeadf800ec00010": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "December28,2022 PR574 changes upload size50to250, lacks prior discussion/justification and removes explanatory comment/indent consistency. Mark explains and closes this patch. Ordinary patch-quality disposition, not contributor discipline or new project-wide restriction.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-b9d13e058cbaaaa9": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "December28,2022 PR574 changes upload size50to250, lacks prior discussion/justification and removes explanatory comment/indent consistency. Mark explains and closes this patch. Ordinary patch-quality disposition, not contributor discipline or new project-wide restriction.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-9803fa8bfece87f0": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "December28,2022 PR574 changes upload size50to250, lacks prior discussion/justification and removes explanatory comment/indent consistency. Mark explains and closes this patch. Ordinary patch-quality disposition, not contributor discipline or new project-wide restriction.",
+    "review_scope": "full_exported_plain_bodies_with_exact_repetition_references",
+    "phase": "baseline_context"
+  },
+  "topic-42623887cef35723": {
+    "kind": "context",
+    "family": "tomcat-native-1.3.2-release",
+    "reason": "January5,2026 formally cancels December17,2025 Native1.3.2 vote. Quoted ballot has1.3.1 typo; subject/artifact/tag identify1.3.2. Follow-up is same intended release, not new2026 opportunity.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "bounded_followup"
+  },
+  "topic-18ba371dc9c39577": {
+    "kind": "context",
+    "family": "tomcat-native-1.3.2-release",
+    "reason": "January6\u20137,2026 replacement1.3.3 vote discovers missing Windows DLL, repeated zip rebuilds then TLS1.3 logic error; RM requests re-tag and formally cancels. Technical repair/retry of December deliverable, not permission refusal or contributor discipline.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "bounded_followup"
+  },
+  "topic-8a5f45cc69355653": {
+    "kind": "context",
+    "family": "tomcat-native-1.3.2-release",
+    "reason": "January6\u20137,2026 replacement1.3.3 vote discovers missing Windows DLL, repeated zip rebuilds then TLS1.3 logic error; RM requests re-tag and formally cancels. Technical repair/retry of December deliverable, not permission refusal or contributor discipline.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "bounded_followup"
+  },
+  "topic-db949fb35a47f59c": {
+    "kind": "context",
+    "family": "tomcat-native-1.3.2-release",
+    "reason": "January7,2026 replacement1.3.4 formal vote passes January12 with three reported binding plus-ones and announcement same day. Actual vote/announcement dates retained, binding roles separately checked. Group-write permission concern is filesystem packaging, not contributor rights. This completes earlier intended release; future1.3.5 regression fix is separate after successful completion.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "bounded_followup"
+  },
+  "topic-8e793d967f62861e": {
+    "kind": "context",
+    "family": "tomcat-native-1.3.2-release",
+    "reason": "January7,2026 replacement1.3.4 formal vote passes January12 with three reported binding plus-ones and announcement same day. Actual vote/announcement dates retained, binding roles separately checked. Group-write permission concern is filesystem packaging, not contributor rights. This completes earlier intended release; future1.3.5 regression fix is separate after successful completion.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "bounded_followup"
+  },
+  "topic-d274ded22eff835c": {
+    "kind": "context",
+    "family": "tomcat-native-2.0.10-release",
+    "reason": "January5,2026 formally cancels December17,2025 Native2.0.11 vote, itself retry after2.0.10. Same intended release family; original first formal opening must control sampling.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "bounded_followup"
+  },
+  "topic-fc6294f6507444b1": {
+    "kind": "context",
+    "family": "tomcat-native-2.0.10-release",
+    "reason": "January6,2026 replacement2.0.12 formal vote; January12 result reports four binding plus-ones and announcement follows. Test/deprecation warnings and group-write tar concern do not show institutional rejection. Preserve one retry family with December first formal opening, not2026 new onset.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "bounded_followup"
+  },
+  "topic-f39e61e600f405f8": {
+    "kind": "context",
+    "family": "tomcat-native-2.0.10-release",
+    "reason": "January6,2026 replacement2.0.12 formal vote; January12 result reports four binding plus-ones and announcement follows. Test/deprecation warnings and group-write tar concern do not show institutional rejection. Preserve one retry family with December first formal opening, not2026 new onset.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "bounded_followup"
+  },
+  "topic-a9e87c7de48c176f": {
+    "kind": "context",
+    "family": "tomcat-native-2.0.10-release",
+    "reason": "January6,2026 replacement2.0.12 formal vote; January12 result reports four binding plus-ones and announcement follows. Test/deprecation warnings and group-write tar concern do not show institutional rejection. Preserve one retry family with December first formal opening, not2026 new onset.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "bounded_followup"
+  },
+  "topic-cc0f260df41da293": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "January14\u2013February12,2026 proposes explicit Native1.2 support-end announcement; references older1.1 announcement and2024 technical1.3 transition. This new2026 support-policy proposal is not an outcome within180days of February2024 direction. Historical provider/support assertions need original evidence, not Google Gemini attribution.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "bounded_followup"
+  },
+  "topic-32838debb5f099b7": {
+    "kind": "excluded",
+    "family": "",
+    "reason": "January14\u201315,2026 ordinary January release preparation/OCSP regression fixes, prospective1.3.5 after successful1.3.4, and speculative Native retirement once EE13 Java high enough. No earlier allocation outcome or new in-window onset; attachments not semantically inspected.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "bounded_followup"
+  },
+  "topic-9863ca2ea6b9db6d": {
+    "kind": "context",
+    "family": "maven-jdeps-3.2.0-release",
+    "reason": "January2\u20133,2026 replies and result continue December28,2025 JDeps3.2.0 formal opening. Four named plus-ones, reported PMC quorum/pass; promotion promised rather than proved. Keep December first source ID for frame, not January result as onset.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "bounded_followup"
+  },
+  "topic-67f37e733f21938d": {
+    "kind": "context",
+    "family": "maven-jdeps-3.2.0-release",
+    "reason": "January2\u20133,2026 replies and result continue December28,2025 JDeps3.2.0 formal opening. Four named plus-ones, reported PMC quorum/pass; promotion promised rather than proved. Keep December first source ID for frame, not January result as onset.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "bounded_followup"
+  },
+  "topic-95cb26f5874487c8": {
+    "kind": "context",
+    "family": "maven-alternate-pom-syntax-direction",
+    "reason": "January5\u20139,2026 replies explain existing ModelParser SPI and maveniverse/mason, then oppose extensible first-class syntax and propose one modern syntax. Continues December2025 question; not adopted official syntax or new role/access action. Earlier SPI design/public opening remains bounded reference.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "bounded_followup"
+  },
+  "topic-25ec9a12d91a55a9": {
+    "kind": "context",
+    "family": "foundation-ibm-gha-architectures-2025",
+    "reason": "February3\u201316,2026 HTTPD/Maven follow up December10 provider runner offer. HTTPD says low investment and asks contact; Maven March12 reports INFRA27728 created, app install/IBM ID and runner enablement still needed. Same external service proposal across projects; Kafka tickets26198/26431 are other-project pointers, not cohort grants. Original provider and institutional receiver acts remain unconfirmed.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "bounded_followup"
+  },
+  "topic-307a54321bcfc2bf": {
+    "kind": "context",
+    "family": "foundation-ibm-gha-architectures-2025",
+    "reason": "February3\u201316,2026 HTTPD/Maven follow up December10 provider runner offer. HTTPD says low investment and asks contact; Maven March12 reports INFRA27728 created, app install/IBM ID and runner enablement still needed. Same external service proposal across projects; Kafka tickets26198/26431 are other-project pointers, not cohort grants. Original provider and institutional receiver acts remain unconfirmed.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "bounded_followup"
+  },
+  "topic-8205b7b4cad1ab99": {
+    "kind": "context",
+    "family": "maven-atr-voting-trial",
+    "reason": "February21\u201322,2026 Herve trials ATR for ResourceBundles1.8, explicitly permits unauthenticated email votes and retains manual SVN distribution/staging/Central publication. Trial self-report not provider allocation or restriction on non-ASF votes. Linkage/onset and exact horizon relative to2025 direction require original evidence.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "bounded_followup"
+  },
+  "topic-69ac2001fe160b21": {
+    "kind": "context",
+    "family": "ant-sbom-direction-2025",
+    "reason": "April26,2026 Stefan reports CycloneDX Antlib repository/sandbox created, removes unused sandbox entries and describes manual dependency SBOM plan. Possibly follows November2025 SBOM/legal direction; exact date determines180-day eligibility,60/90days must not inherit later work. No institutional legal approval or ready production SBOM yet. Original proposal independently traced toNovember11,2025 <87seelnn5l.fsf@v45346.1blu.de>; inclusive60/90/180-day endpointsJanuary10/February9/May10,2026. April26andMay2mayclose180-day observations; May17andlater excluded from all registered horizons.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "bounded_followup"
+  },
+  "topic-28ef146bd232a4a5": {
+    "kind": "context",
+    "family": "ant-sbom-direction-2025",
+    "reason": "May2,2026 proposes promoting sandbox Antlib and release0.1 with nonresponse interval, while proper release vote remains required. Library tests reported, not completed promotion/ASF mandate. Preserve exact180-day boundary before counting implementation. Original proposal independently traced toNovember11,2025 <87seelnn5l.fsf@v45346.1blu.de>; inclusive60/90/180-day endpointsJanuary10/February9/May10,2026. April26andMay2mayclose180-day observations; May17andlater excluded from all registered horizons.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "bounded_followup"
+  },
+  "topic-32d019fe44623b8d": {
+    "kind": "context",
+    "family": "ant-sbom-direction-2025",
+    "reason": "May17,2026 functionally complete library/manual reported but release hook and Ant branch still next steps. New Antlib deliverable may be distinct from November direction and beyond180days; no retrospective completion at60/90. Original proposal independently traced toNovember11,2025 <87seelnn5l.fsf@v45346.1blu.de>; inclusive60/90/180-day endpointsJanuary10/February9/May10,2026. April26andMay2mayclose180-day observations; May17andlater excluded from all registered horizons.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "bounded_followup"
+  },
+  "topic-87921d44f519c491": {
+    "kind": "context",
+    "family": "ant-sbom-direction-2025",
+    "reason": "May23,2026 reports staging/release-process experiments and future Ant branch. Staging repository scheduled for deletion is not a completed Ant release or institutional grant; exact onset/horizon remains independently bounded. Original proposal independently traced toNovember11,2025 <87seelnn5l.fsf@v45346.1blu.de>; inclusive60/90/180-day endpointsJanuary10/February9/May10,2026. April26andMay2mayclose180-day observations; May17andlater excluded from all registered horizons.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "bounded_followup"
+  },
+  "topic-70028d6a19fd2478": {
+    "kind": "context",
+    "family": "ant-sbom-direction-2025",
+    "reason": "May24,2026 PR233 opens; June7 review questions metadata links and author says underlying Antlib now released, with links not mandatory. Ordinary local implementation/review is later than plausible November180-day horizon and cannot be forward-filled; no merged Ant PR or original legal ruling proved. Original proposal independently traced toNovember11,2025 <87seelnn5l.fsf@v45346.1blu.de>; inclusive60/90/180-day endpointsJanuary10/February9/May10,2026. April26andMay2mayclose180-day observations; May17andlater excluded from all registered horizons.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "bounded_followup"
+  },
+  "topic-43401f302b4479ee": {
+    "kind": "context",
+    "family": "ant-sbom-direction-2025",
+    "reason": "May24\u201326,2026 examples/staging SBOM and legal supplier/manufacturer questions remain unresolved; Stefan plans consult ASF and release vote. CRA/NTIA/BSI interpretation is participant claim, not independently verified legal mandate or ASF decision. Outside earlier horizons even if same direction. Original proposal independently traced toNovember11,2025 <87seelnn5l.fsf@v45346.1blu.de>; inclusive60/90/180-day endpointsJanuary10/February9/May10,2026. April26andMay2mayclose180-day observations; May17andlater excluded from all registered horizons.",
+    "review_scope": "full_exported_plain_bodies",
+    "phase": "bounded_followup"
+  }
+}
