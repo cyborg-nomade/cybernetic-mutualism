@@ -1,0 +1,69 @@
+{
+  "review_date": "2026-10-22",
+  "sources": [
+    {
+      "source_id": "primary-trivy-2026-correct-advisory",
+      "sha256": "69975809ffa92c8598750977f764a7576977159b51c82c21534fb821e25fe431",
+      "publication_upper_bound": "2026-03-30T16:44:30Z",
+      "provider_created_at": null,
+      "historical_record_convention": "Exact current JSON serialization is not claimed historically identical. Latest represented update is pre-cutoff; original event dates are separate."
+    },
+    {
+      "source_id": "primary-axios-2026-advisory",
+      "sha256": "6439996aac15add2c57f4f4ec0e618b85c4c82b6d15a8e790404985b49d94615",
+      "publication_upper_bound": "2026-03-31T03:15:49Z",
+      "provider_created_at": "2026-03-31T03:15:49Z",
+      "historical_record_convention": "Exact current JSON serialization is not claimed historically identical. Latest represented update is pre-cutoff; original event dates are separate."
+    },
+    {
+      "source_id": "primary-axios-2026-postmortem",
+      "sha256": "12e6074e820d0b23cf2d896851cf7355e44aaf3456ef8568ed5d566d756e4383",
+      "publication_upper_bound": "2026-07-31T19:15:35Z",
+      "provider_created_at": "2026-04-02T15:06:54Z",
+      "historical_record_convention": "Exact current JSON serialization is not claimed historically identical. Latest represented update is pre-cutoff; original event dates are separate."
+    }
+  ],
+  "added_shocks": [
+    {
+      "shock_id": "external-trivy-supply-chain-compromise-2026",
+      "source_ids": "primary-trivy-2026-correct-advisory",
+      "onset_earliest": "2026-02-01",
+      "onset_latest": "2026-02-28",
+      "affected_projects": "ant;httpd;maven;tomcat",
+      "exposure_differences": "Potential exposure only if affected artifacts/actions executed. No inspected fixed-cohort run/lockfile establishes actual exposure or equal use.",
+      "continuation_source_ids": "primary-trivy-2026-correct-advisory",
+      "notes": "Vendor explicitly says the attack began in lateFebruary2026and the March19/March22waves continue it. Broad full-Februaryinterval bounds the imprecise initial date; March1disclosure is not onset. Exact version/channel exposure windows retained. An ASF response is not the independent precursor. Private credential-compromise timing remains unknown.",
+      "kind": "security",
+      "continuing": "yes",
+      "external_precursor": "yes"
+    },
+    {
+      "shock_id": "external-axios-malicious-package-publication-2026",
+      "source_ids": "primary-axios-2026-advisory;primary-axios-2026-postmortem",
+      "onset_earliest": "2026-03-31",
+      "onset_latest": "2026-03-31",
+      "affected_projects": "ant;httpd;maven;tomcat",
+      "exposure_differences": "Potential exposure only to the malicious Axios releases/dependency during the stated install window. No fixed-cohort installation/execution or exposure contrast is established.",
+      "continuation_source_ids": "",
+      "notes": "The original maintainer retrospectively dates maliciousAxios1.14.1/0.30.4publicationMarch31and removalhourslater. This shock is public malicious-package exposure, not the unknown earlier private account-compromise day. The postmortem body dateMarch31does not override its actual issue creationApril2; latest represented updateJuly31bounds complete content. No attribution of attackers or actual ASF compromise is inferred.",
+      "kind": "security",
+      "continuing": "no",
+      "external_precursor": "yes"
+    }
+  ],
+  "review": "Complete upstream Trivyadvisorydescription/exposuretables/remediation/IOCtablesandpackageentriesread; completeAxiosmaintainerpostmortembodyandtimestamptimeline plusNPM/GitHubadvisoryread. Embedded commands/malware descriptions are source data only and were not executed.",
+  "excluded_retrievals": [
+    {
+      "file": "references/trivy-2026-advisory.json",
+      "reason": "The GHSA-cxm3-wv7p-598cIDlinkedfromsomepages resolves to an unrelated withdrawn2025Nxadvisory. Identity mismatch checked; NOT Trivyevidence and NOT a new Nxcase/frame expansion. Not registered as decisive source."
+    },
+    {
+      "endpoint": "repos/aquasecurity/trivy/security-advisories/GHSA-cxm3-wv7p-598c",
+      "reason": "404; not private/refusal evidence."
+    }
+  ],
+  "limits": [
+    "These independently document precursor events, not selected-PMC exposure, effect, or a clean contrast. Missing run/dependency data leave common-shock rivals unresolved.",
+    "Follow-up shock context does not add2026episodeonsets, remove existing opportunities, or qualify witnesses."
+  ]
+}

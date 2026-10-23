@@ -1,0 +1,296 @@
+{
+  "review_date": "2026-10-22",
+  "updates": [
+    {
+      "family_id": "httpd-release-httpd-2.4.56",
+      "project": "httpd",
+      "previous_before_authority": "unknown",
+      "before_authority": "pmc_binding",
+      "previous_decision_authority_shift": "unknown",
+      "decision_authority_shift": "unchanged"
+    },
+    {
+      "family_id": "httpd-release-httpd-2.4.57",
+      "project": "httpd",
+      "previous_before_authority": "unknown",
+      "before_authority": "pmc_binding",
+      "previous_decision_authority_shift": "unknown",
+      "decision_authority_shift": "unchanged"
+    },
+    {
+      "family_id": "httpd-release-httpd-2.4.58",
+      "project": "httpd",
+      "previous_before_authority": "unknown",
+      "before_authority": "pmc_binding",
+      "previous_decision_authority_shift": "unknown",
+      "decision_authority_shift": "unchanged"
+    },
+    {
+      "family_id": "httpd-release-httpd-2.4.60",
+      "project": "httpd",
+      "previous_before_authority": "unknown",
+      "before_authority": "pmc_binding",
+      "previous_decision_authority_shift": "unknown",
+      "decision_authority_shift": "unchanged"
+    },
+    {
+      "family_id": "httpd-release-httpd-2.4.61",
+      "project": "httpd",
+      "previous_before_authority": "unknown",
+      "before_authority": "pmc_binding",
+      "previous_decision_authority_shift": "unknown",
+      "decision_authority_shift": "unchanged"
+    },
+    {
+      "family_id": "httpd-release-httpd-2.4.63",
+      "project": "httpd",
+      "previous_before_authority": "unknown",
+      "before_authority": "pmc_binding",
+      "previous_decision_authority_shift": "unknown",
+      "decision_authority_shift": "unchanged"
+    },
+    {
+      "family_id": "httpd-release-httpd-2.4.64",
+      "project": "httpd",
+      "previous_before_authority": "unknown",
+      "before_authority": "pmc_binding",
+      "previous_decision_authority_shift": "unknown",
+      "decision_authority_shift": "unchanged"
+    },
+    {
+      "family_id": "httpd-release-httpd-2.4.66",
+      "project": "httpd",
+      "previous_before_authority": "unknown",
+      "before_authority": "pmc_binding",
+      "previous_decision_authority_shift": "unknown",
+      "decision_authority_shift": "unchanged"
+    },
+    {
+      "family_id": "tomcat-release-tomcat-10.1.6",
+      "project": "tomcat",
+      "previous_before_authority": "unknown",
+      "before_authority": "pmc_binding",
+      "previous_decision_authority_shift": "unknown",
+      "decision_authority_shift": "unchanged"
+    },
+    {
+      "family_id": "tomcat-release-tomcat-9.0.76",
+      "project": "tomcat",
+      "previous_before_authority": "unknown",
+      "before_authority": "pmc_binding",
+      "previous_decision_authority_shift": "unknown",
+      "decision_authority_shift": "unchanged"
+    },
+    {
+      "family_id": "tomcat-release-tomcat-10.1.13",
+      "project": "tomcat",
+      "previous_before_authority": "unknown",
+      "before_authority": "pmc_binding",
+      "previous_decision_authority_shift": "unknown",
+      "decision_authority_shift": "unchanged"
+    },
+    {
+      "family_id": "tomcat-release-tomcat-10.1.14",
+      "project": "tomcat",
+      "previous_before_authority": "unknown",
+      "before_authority": "pmc_binding",
+      "previous_decision_authority_shift": "unknown",
+      "decision_authority_shift": "unchanged"
+    },
+    {
+      "family_id": "tomcat-release-tomcat-9.0.86",
+      "project": "tomcat",
+      "previous_before_authority": "unknown",
+      "before_authority": "pmc_binding",
+      "previous_decision_authority_shift": "unknown",
+      "decision_authority_shift": "unchanged"
+    },
+    {
+      "family_id": "tomcat-release-tomcat-11.0.0-m20",
+      "project": "tomcat",
+      "previous_before_authority": "unknown",
+      "before_authority": "pmc_binding",
+      "previous_decision_authority_shift": "unknown",
+      "decision_authority_shift": "unchanged"
+    },
+    {
+      "family_id": "tomcat-release-tomcat-10.1.30",
+      "project": "tomcat",
+      "previous_before_authority": "unknown",
+      "before_authority": "pmc_binding",
+      "previous_decision_authority_shift": "unknown",
+      "decision_authority_shift": "unchanged"
+    },
+    {
+      "family_id": "tomcat-release-tomcat-10.1.32",
+      "project": "tomcat",
+      "previous_before_authority": "unknown",
+      "before_authority": "pmc_binding",
+      "previous_decision_authority_shift": "unknown",
+      "decision_authority_shift": "unchanged"
+    },
+    {
+      "family_id": "tomcat-release-tomcat-9.0.100",
+      "project": "tomcat",
+      "previous_before_authority": "unknown",
+      "before_authority": "pmc_binding",
+      "previous_decision_authority_shift": "unknown",
+      "decision_authority_shift": "unchanged"
+    },
+    {
+      "family_id": "tomcat-release-tomcat-10.1.40",
+      "project": "tomcat",
+      "previous_before_authority": "unknown",
+      "before_authority": "pmc_binding",
+      "previous_decision_authority_shift": "unknown",
+      "decision_authority_shift": "unchanged"
+    },
+    {
+      "family_id": "tomcat-release-tomcat-9.0.109",
+      "project": "tomcat",
+      "previous_before_authority": "unknown",
+      "before_authority": "pmc_binding",
+      "previous_decision_authority_shift": "unknown",
+      "decision_authority_shift": "unchanged"
+    },
+    {
+      "family_id": "tomcat-release-tomcat-10.1.50",
+      "project": "tomcat",
+      "previous_before_authority": "unknown",
+      "before_authority": "pmc_binding",
+      "previous_decision_authority_shift": "unknown",
+      "decision_authority_shift": "unchanged"
+    },
+    {
+      "family_id": "maven-release-maven-resolver-1.9.3",
+      "project": "maven",
+      "previous_before_authority": "unknown",
+      "before_authority": "pmc_binding",
+      "previous_decision_authority_shift": "unknown",
+      "decision_authority_shift": "unchanged"
+    },
+    {
+      "family_id": "maven-release-maven-shared-utils-3.4.2",
+      "project": "maven",
+      "previous_before_authority": "unknown",
+      "before_authority": "pmc_binding",
+      "previous_decision_authority_shift": "unknown",
+      "decision_authority_shift": "unchanged"
+    },
+    {
+      "family_id": "maven-release-maven-doxia-sitetools-2.0.0-m11",
+      "project": "maven",
+      "previous_before_authority": "unknown",
+      "before_authority": "pmc_binding",
+      "previous_decision_authority_shift": "unknown",
+      "decision_authority_shift": "unchanged"
+    },
+    {
+      "family_id": "maven-release-maven-compiler-plugin-3.12.0",
+      "project": "maven",
+      "previous_before_authority": "unknown",
+      "before_authority": "pmc_binding",
+      "previous_decision_authority_shift": "unknown",
+      "decision_authority_shift": "unchanged"
+    },
+    {
+      "family_id": "maven-release-maven-filtering-3.3.2",
+      "project": "maven",
+      "previous_before_authority": "unknown",
+      "before_authority": "pmc_binding",
+      "previous_decision_authority_shift": "unknown",
+      "decision_authority_shift": "unchanged"
+    },
+    {
+      "family_id": "maven-release-maven-plugin-tools-3.13.0",
+      "project": "maven",
+      "previous_before_authority": "unknown",
+      "before_authority": "pmc_binding",
+      "previous_decision_authority_shift": "unknown",
+      "decision_authority_shift": "unchanged"
+    },
+    {
+      "family_id": "maven-release-maven-gpg-plugin-3.2.6",
+      "project": "maven",
+      "previous_before_authority": "unknown",
+      "before_authority": "pmc_binding",
+      "previous_decision_authority_shift": "unknown",
+      "decision_authority_shift": "unchanged"
+    },
+    {
+      "family_id": "maven-release-maven-resolver-2.0.2",
+      "project": "maven",
+      "previous_before_authority": "unknown",
+      "before_authority": "pmc_binding",
+      "previous_decision_authority_shift": "unknown",
+      "decision_authority_shift": "unchanged"
+    },
+    {
+      "family_id": "maven-release-maven-compiler-plugin-3.14.0",
+      "project": "maven",
+      "previous_before_authority": "unknown",
+      "before_authority": "pmc_binding",
+      "previous_decision_authority_shift": "unknown",
+      "decision_authority_shift": "unchanged"
+    },
+    {
+      "family_id": "maven-release-maven-gpg-plugin-3.2.8",
+      "project": "maven",
+      "previous_before_authority": "unknown",
+      "before_authority": "pmc_binding",
+      "previous_decision_authority_shift": "unknown",
+      "decision_authority_shift": "unchanged"
+    },
+    {
+      "family_id": "maven-release-maven-enforcer-3.6.2",
+      "project": "maven",
+      "previous_before_authority": "unknown",
+      "before_authority": "pmc_binding",
+      "previous_decision_authority_shift": "unknown",
+      "decision_authority_shift": "unchanged"
+    },
+    {
+      "family_id": "maven-release-maven-assembly-plugin-3.8.0",
+      "project": "maven",
+      "previous_before_authority": "unknown",
+      "before_authority": "pmc_binding",
+      "previous_decision_authority_shift": "unknown",
+      "decision_authority_shift": "unchanged"
+    },
+    {
+      "family_id": "ant-release-ant-1.10.13",
+      "project": "ant",
+      "previous_before_authority": "unknown",
+      "before_authority": "pmc_binding",
+      "previous_decision_authority_shift": "unknown",
+      "decision_authority_shift": "unchanged"
+    },
+    {
+      "family_id": "ant-release-ivy-2.5.2",
+      "project": "ant",
+      "previous_before_authority": "unknown",
+      "before_authority": "pmc_binding",
+      "previous_decision_authority_shift": "unknown",
+      "decision_authority_shift": "unchanged"
+    },
+    {
+      "family_id": "ant-release-ant-1.10.15",
+      "project": "ant",
+      "previous_before_authority": "unknown",
+      "before_authority": "pmc_binding",
+      "previous_decision_authority_shift": "unknown",
+      "decision_authority_shift": "unchanged"
+    },
+    {
+      "family_id": "ant-release-ivy-2.5.3",
+      "project": "ant",
+      "previous_before_authority": "unknown",
+      "before_authority": "pmc_binding",
+      "previous_decision_authority_shift": "unknown",
+      "decision_authority_shift": "unchanged"
+    }
+  ],
+  "prior_source_file": "baseline-component-observations-2026-10-21-before-public-policy-dating.json",
+  "prior_source_sha256": "e582916047b3ed6ac79b47ee9143977f40f84c4130bf753d80af6252870becbd",
+  "status": "Noncausal component update before the first-pass lock; no opportunity or witness labels."
+}

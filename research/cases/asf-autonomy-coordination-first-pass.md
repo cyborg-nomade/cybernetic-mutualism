@@ -3,9 +3,12 @@
 ## Status and Authority
 
 - **Started:** 2026-09-22, on the owner's instruction to start third-cycle item 3.
-- **Status:** Incomplete; initial review checkpoint only. No first-pass lock,
-  baseline selection, blinded recode bundle, washout, G2/G3 result, or claim
-  decision exists.
+- **Status:** Item 3 complete for owner review in
+  [PR #19](https://github.com/cyborg-nomade/cybernetic-mutualism/pull/19).
+  The finalized corpus, native tables, audit frame and blank recode bundle
+  are locked together; see the [completion package](../data/asf-item3-first-pass-2026-10-23/README.md)
+  and its exact lock receipt. G2/G3 and aggregate claim decisions have not
+  been calculated. All claims remain C1.
 - **Checkpoint acceptance:** The owner approved the initial checkpoint through
   [PR #18](https://github.com/cyborg-nomade/cybernetic-mutualism/pull/18) on
   2026-09-23. Reviewed head `98561adb68ced781767ce4c4dc43143ebdc6a88a` was merged
@@ -23,12 +26,16 @@
 The [preregistration](asf-autonomy-coordination-preregistration.md),
 [codebook](asf-autonomy-coordination-codebook.md), and
 [third-cycle plan](../decisions/third-cycle-plan.md) control the work. This
-checkpoint records exposure and descriptive interpretation. It changes no
+record retains exposure, descriptive interpretation and the completed first pass. It changes no
 registered window, sampling rule, threshold, or causal criterion. The primary
 onset window remains 2023–2025; context and follow-up remain bounded by the
 registration, including the 2026-08-31 source-publication cutoff.
 
-## Corpus and Actual Review Progress
+The dated progress sections below preserve earlier incomplete states. The
+October 23 completion section supersedes their outstanding-work lists; it does
+not retrospectively turn an accepted checkpoint into a completed first pass.
+
+## Accepted September Corpus and Review Progress
 
 The [working data directory](../data/asf-first-pass-2026-09-22/README.md)
 contains every primary-window index occurrence, provisional navigation queues,
@@ -218,41 +225,267 @@ saved verification report with recomputation. The updated checkpoint verifier,
 all 200 tests, the full `just check` run, and both CI runs passed at the accepted
 head. Evidence values and progress counts did not change during this review.
 
-## Remaining Work and Review Boundary
+## October 4 Ant Continuation
 
-The owner accepted this checkpoint as the beginning of item 3 under the
-staged-review provision. The larger item remains open. Required work remains:
+On the owner's instruction to resume item 3, the
+[additive Ant continuation](../data/asf-ant-screening-2026-10-04/README.md)
+screens all 651 Ant subject-index occurrences and preserves the accepted
+September data unchanged. It adds 37 complete plain-text topic reads covering
+105 messages, bringing cumulative body review to 58 Ant navigation groups and
+194 messages. Subject-only exclusions and pending ambiguous bodies remain
+separate from full body review and final eligibility coding.
 
-1. Finish the complete subject-index screen for all four projects, including
-   mechanical notification routes and all ambiguous replies. Review complete
-   board/officer records and special meetings; preserve explicit omissions.
-2. Follow referenced public sources and resolve historically applicable roles,
-   rules, publication eligibility, event intervals, original-message variants,
-   and issue-family splits/merges. Keep unavailable/private channels explicit.
-3. Build the complete eligible census, including unsuccessful and withdrawn
-   requests and all eligible local release openings. Only then compute the
-   registered project-quarter sample and preserve its full ordered frame.
-4. Enter episodes and measurements before causal labels; complete shock
-   searches, rival matrices, and contrasts before witness qualification. Track
-   60-, 90-, and 180-day dispositions independently without forward-filling.
-5. Run the frozen validators on a complete first pass; lock the required
-   sources and tables, audit frame, and blank recode bundle together before
-   any aggregate causal result. The 14-complete-day washout starts there.
+Five provisional release families preserve seven candidate-vote openings,
+including the cancelled/rebuilt Ivy 2.5.2 and Ant 1.10.15 candidates. The
+December 2024 Ivy 2.5.3 vote retains its January 2025 announcement as follow-up;
+the announcement does not create a new baseline opening. No sample is drawn.
+The classifier and Pack200 threads reveal account-access candidates that
+would be missed by excluding all technical-looking subjects. Public Infra
+receiver records and dated account-approval authority remain unresolved.
 
-No automation, external contact, private access, publication work, or change to
-the registered research design was performed. Source/reference discovery and
-the observations above are new exposure recorded on 2026-09-22. Helper scripts
-prepare/check metadata; they cannot attest substantive completeness or supply
-a second interpretation.
+Six bounded Ant agenda entries now resolve the September empty-attachment
+question: all explicitly state that no report was submitted. This establishes
+non-submission, not a due-date schedule, cause, duration, or institutional
+inability. The full Board/officer census is still pending. The continuation
+records exact source locators, hashes, read scope, and remaining work without
+qualifying witnesses or changing G1, claims, or the registered design.
+
+## Corpus Continuation Within PR #19
+
+The owner authorizes continued work in PR #19 until item 3 is complete,
+followed by review. The [working corpus continuation](../data/asf-item3-screening-2026-10-04/README.md)
+retains independent provisional judgments on 539 HTTP Server, Maven and Tomcat topics after
+reading their complete exported plain-text bodies. Title inspection covers all
+6,015 entries in the discussion-topic queue and 12,184 mechanically routed
+topics across all four projects (18,199 distinct topic IDs). Tomcat's 5,969
+exact payload groups preserve 11,992 original title variants; generic, policy
+and service-related payloads have received original-body checks for all 235
+topics in the original candidate queue. New bounded references remain open.
+Baseline and follow-up subject screening is still incomplete.
+Its 2,473 export variants
+preserve original Message-IDs, exact raw/body hashes and monthly block
+locators. Duplicate index deliveries do not multiply message variants.
+
+The continuation also retains 1,166 exact section locators from October
+2022 through December 2025 Board proceedings, including the August 2025
+special meeting, foundation officer reports, selected
+PMC reports, and relevant Attic/Community Development context. The March
+Infrastructure report directly documents the shared GitHub Actions approval
+rule and project opt-outs. The April report dates the committer-only INFRA
+Jira restriction. A ticket login response therefore bounds public evidence;
+it does not establish rejection of the underlying request.
+
+The August 24 2025 logo resolution is retained separately as a visually read
+action without meeting, with the exact image hash. Baseline records date Jira
+account approval, Matomo transition, Travis withdrawal notice and Tomcat 8.5
+EOL before the study window. Later reports do not automatically reset onset.
+Bounded references, historical roles and the calendar attestation remain open.
+
+The September HTTP Server report explicitly says the Git migration vote passed
+but had not been implemented. Ant's December report dates IvyDE archiving to
+November 26, while remaining a requester self-report. The January 2024 Board
+supports technical enforcement of website-tracking policy, and Privacy still
+lists the implementation ticket as open in February. Authorization, reported
+implementation and independent receiver evidence remain distinct.
+
+Later Git migration proposals continue the earlier HTTP Server request rather
+than resetting onset. In-window mod_wasm replies continue a 2022 proposal and
+remain baseline context. The local chair's list ban and a subsequent Board
+PMC removal are distinct governance acts; causal linkage remains unestablished.
+Maven follow-ups also preserve the October 2024 inactive-access proposal,
+separate Jira/GitHub/wiki/test-project boundaries, and GitHub support cleanup
+that reportedly removed JLINK PR comments as well as duplicated issues. These
+are provisional candidates requiring original receiver and authority evidence.
+
+Provisional family labels, exclusions and file-level search notes are retained
+separately from final episode measurements and witness qualification.
+
+The Java-minimum discussion explicitly resumes a July 2022 Maven proposal;
+its later runtime vote cannot automatically reset onset. June 2024 Support &
+Care letters describe a German-government funding submission, with no award
+or ASF approval established. Current linked issue representations include
+post-cutoff edits and closures and serve only as reference navigation.
+
+At the initial October 5 continuation, further collection retained all 36 baseline/follow-up monthly
+index/export pairs locally, with 72 retrieval receipts and 10,392 indexed
+occurrences. Every Message-ID multiset matched. Baseline Ant, HTTP Server and
+Maven titles have been inspected; Tomcat and follow-up title screening remain
+open. Twelve Ant/HTTP Server baseline topics have separately retained body
+judgments. These contextual reads do not increase the in-window screening
+count or create new eligible onsets. Packaging these new sources and metadata
+for the final first-pass lock remains unfinished.
+
+Current index timestamps, original Date headers and historical public delivery
+headers remain distinct. The latter may supply a publication bound only after
+explicit provenance checks. The source exports are unchanged, and this
+continuation republishes no correspondence bodies. Its verifier checks exact
+membership and locators while refusing to assert a sample or lock. Remaining
+subject/body review, references, coding and registered locking were still open
+at that snapshot.
+
+## October 20 Release Frame and Baseline
+
+All baseline and bounded-follow-up subject titles have now been inspected.
+The local context ledger retains 139 independent topic judgments; packaging
+the context evidence for the final first-pass dataset remains required.
+Earlier SecurityManager and Maven Java 17 originals establish pre-window
+proposals, while Ant's November 11 2025 SBOM proposal sets its 60/90/180-day
+endpoints to January 10, February 9 and May 10 2026. Later implementation
+cannot silently enter an earlier horizon.
+
+The [release frame and draw](../data/asf-release-frame-2026-10-20/README.md)
+retain 724 independently screened original candidates, of which 698 are formal
+opening messages. Exact duplicates, corrected ballots, canceled candidates
+and version-changing retries reduce to 647 independently scoped release
+families. Joint ballots split independently releasable components while
+preserving their shared original source ID. The unchanged frozen sampler
+selects one family in each of 36 nonempty project-quarter blocks; all 48
+blocks, including 12 empty ones, retain counts and ordered hash keys. Selected
+IDs will not be replaced because of an inconvenient or missing outcome.
+
+Identity review includes 806 closure candidates, a 40-message supplement and
+13 reply/nonstandard opening checks. It preserves failed votes, expedited
+successful votes followed by corrective releases, and approval without
+confirmed publication. The frame record explicitly documents the interpretive
+M2/M3 and Sitetools M17/M18 family boundaries. Its verifier re-extracts source
+variants from accepted export bytes and reproduces the draw; it does not
+affirm historical publication, actor authority, causal effects or completeness
+of the larger first pass.
+
+The draw is now fixed for the ensuing baseline evidence work. Source
+eligibility and dated-authority checks, selected-family outcomes, the
+cross-boundary census and component/shock/rival/contrast records remain
+unfinished. No first-pass lock or washout has begun.
+
+## October 20–21 Baseline and Dated Policy Review
+
+The [evidence-review record](../data/asf-evidence-review-2026-10-20/README.md)
+now retains independent findings for all 36 selected baseline families, their
+complete opening-topic body reviews and separately declared closure records.
+The source check re-extracts 458 original raw/plain-body variants. Three dates
+were corrected against the original result messages: GPG 3.2.8 passed on July
+2, Tomcat 10.1.6 on February 24, and Tomcat 9.0.109 on September 5. Their
+opening-quarter assignments are unchanged. An October 21 parser comparison
+found one reply with unintelligible trailing bytes in the reading-aid decoding;
+both decoded hashes and the unchanged raw hash are preserved. The explicit
+vote and its interpretation are unchanged, and the frozen parser is unmodified.
+
+The same record retains the pre-window ASF voting/release rules, all 16
+2023–2025 source changes to those documents, and 24 complete dated Infra policy
+versions. Thirteen independent interpretations distinguish substantive rules
+from link and metadata changes. The external-contributor GitHub Actions
+approval default appears in the February 3 2023 source; March 19 adds a
+conditional exception. The March project experience cannot supply its earliest
+onset. The 2025 expedited-release explanation requirement is not applied to
+2023/2024 votes. The erroneous July date on the first August 2024 home-hosting
+retirement notice remains visible alongside its correction. Repository source
+dates are kept separate from website deployment and receiver implementation.
+
+Explicit family-identity decisions merge shared circulars, separate independently
+requested deliverables within joint threads, and preserve pre-window origins.
+They do not yet certify all final act associations, component measurements or
+causal classifications. Source publication/authority completion, the full
+census, the deterministic audit supplement and registered locking remain open.
+
+## October 23 Completion and Review Boundary
+
+The [finalized data package](../data/asf-item3-first-pass-2026-10-23/README.md)
+contains the exact native ledgers, source catalogue, versioned original bytes,
+individual interpretations and simultaneous lock receipt. All 18,199 primary
+subject-topic IDs were screened, including mechanical notification routes;
+541 selected primary topic bodies and 139 baseline/follow-up topic bodies
+have independent retained judgments. Subject screening does not mean every
+unrelated correspondence body was read. The native screening table records
+act/family associations rather than enumerating every ordinary excluded title.
+
+The review covers 1,166 main, officer, fixed-cohort, Community Development and
+Attic section locators through December 2025, plus 170 January–June 2026
+follow-up sections. The August 24 written consent and August 25 special
+meeting remain distinct. Approved minutes retain independently bounded public
+SVN versions. Unknown earlier initiation is not replaced by a meeting date or
+later report. New 2026 proposals do not enter as new primary-window onsets.
+
+The final required union contains 491 family/project pairs: 368 analysis pairs,
+including the fixed 36-release baseline, and 123 additional audit-only release
+pairs. Each has both directions and three independently coded horizons,
+giving 2,946 native measurement records. Audit-only releases do not enter the
+primary baseline or causal threshold counts. The selected audit release
+families fall within the prospectively reviewed source-reading superset.
+Their complete opening/retry bodies and closure records are retained.
+
+Each documented directional opportunity has a five-rival matrix, a project
+and Foundation search record covering the registered lookback/horizon where
+its dates are known, and the frozen deterministic contrast choice. Undated
+initiation prevents certifying an exact search window, even when the broad
+retained context has been searched. Unknown exposure is never an untreated
+control; an absent eligible comparator is recorded explicitly. Missing provider
+acts, timing, individual capacity and exposure remain unknown. Completion of
+coding does not imply that the registered identifiability gate will pass.
+
+The shock ledger distinguishes independently documented external precursors,
+unverified contextual candidates and internal own-history explanations. Two
+2026 upstream precursors were independently checked during follow-up before
+final rival/witness adjudication. Earlier mutable `qualified_witness = no`
+values were incomplete scaffold placeholders, not locked classifications.
+This sequence is disclosed in the scoped completeness attestation. No
+aggregate causal calculation preceded the final lock.
+
+Several decisions materially bound the first pass:
+
+- Pre-window release/voting rules and observed project decisions establish
+  unchanged formal PMC release jurisdiction. They do not establish unchanged
+  autonomy, validity of every individual ballot, or absence of private pressure.
+- Sixty-five retry/repetition associations were incorrectly transferred as
+  independently eligible release openings in the mutable native screening
+  table. The repair preserves the 647-family universe and exactly reproduces
+  all 48 recorded strata and the original 36 selected openings. Prior erroneous
+  bytes and repair hashes remain available; there was no outcome-based redraw.
+- Maven's October 2024 deletion of an inaccurate process description is distinct
+  from its February 2025 required-review proposal. Old founder-guidance
+  relocation is distinct from the new two-year Marketing approval condition.
+  MFA has positive pre-window history; the continuing Atlassian Cloud migration
+  has an unknown earlier onset. Nonadoption alone excludes none of these.
+- The shared 2025 logo act has consistent four-project scope, with Tomcat
+  source uptake recorded separately. No equal receipt or response is copied
+  to the other projects. Late Ant SBOM, HTTPD retirement and Maven ATR evidence
+  updates the continuing history without restarting its original horizon.
+- Two mislabelled release-result subjects are retained unchanged. Exact-version
+  announcements independently support the corresponding local outcomes; the
+  mismatched results are not silently repaired or treated as decisive links.
+- Ordinary appointment processing, entitlement repair, repository maintenance
+  and dormant-service cleanup remain available rival explanations. A known
+  contact or actual local edit does not by itself discriminate a cross-effect.
+
+All required original variants have separate exact hashes. Alternative raw
+representations remain versions of the same Message-ID rather than new acts.
+The conservative publication bound applies across all required versions;
+unknown historical availability cannot supply decisive support. Raw transport
+proofs travel with the corresponding sources. The blank recode contains only
+the frozen whitelist, neutral whole-original source locators and blank coding
+fields. First-pass notes, source eligibility judgments and prior specific
+interpretive locators remain outside that bundle.
+
+The frozen validator passes without errors. The repository checks pass 209
+tests with 90.59% coverage, lint/format, strict production typing and both model
+reproduction checks. The completion verifier reconstructs native CSV and
+source bytes from accepted repository originals and the additional compressed
+source store. No registered executable, threshold, window or sampling rule was
+changed. The owner reviews this complete item in PR #19; it is not merged by
+this work.
 
 ## Conclusions and Next Steps
 
-The accepted checkpoint's inspected records warrant preserving distinct
-retirement and continuation outcomes, a documented chair appointment,
-timing-based false positives, and
-unresolved service/policy candidates. They also show why message counts,
-proposal titles, self-reports, and current login responses cannot substitute
-for source-qualified cross-boundary episodes. The wider programme and all
-claim confidence levels remain unchanged at C1. Complete the remaining census
-and source/authority checks before drawing the local baseline or assessing
-identifiability; no first-pass lock or washout has begun.
+This first pass now warrants a complete, source-qualified and reproducible
+input to the registered later decision path. Explicit unknowns bound what the
+public record can identify; they are not observations of no effect. The wider
+programme and every claim remain at C1. The simultaneous lock begins the
+washout recorded in the package receipt, subject to no further ASF evidence
+work. Any renewed evidence work requires a fresh valid washout boundary.
+
+After owner review and the required 14 complete UTC days, item 4 is a
+**research and writing task using the frozen code**: delayed blinded recoding,
+initial agreement, reconciliation and the registered gate/claim report. A
+registered gate failure stops subsequent causal comparison. Item 5 is a
+**writing task** applying the reached result or registered stop to the cycle
+synthesis and next discriminator. No favorable finding or new code is needed
+for either item to produce a valid research result.

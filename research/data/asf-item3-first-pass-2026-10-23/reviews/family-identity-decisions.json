@@ -1,0 +1,184 @@
+{
+  "reviewed_on": "2026-10-20",
+  "status": "identity_decisions_before_component_coding",
+  "merges": [
+    {
+      "family_id": "foundation-pmc-oversight-reminder-2023",
+      "aliases": [
+        "foundation-pmc-equal-voice-2023"
+      ],
+      "reason": "The March 29 Board circular has the same literal original Message-ID across recipient lists. Equal voice, chair limits, subscriptions and collective oversight form one circular, with project-specific exposure/response records."
+    },
+    {
+      "family_id": "foundation-github-mail-threading-2023",
+      "aliases": [
+        "foundation-github-threading-default-2023"
+      ],
+      "reason": "August 17 same-original-ID circular changes the October 1 default with per-repository opt-out. Recipient copies do not create independent directives."
+    },
+    {
+      "family_id": "foundation-travis-retirement-2022",
+      "aliases": [
+        "foundation-travis-migration-2022"
+      ],
+      "reason": "Baseline October/November 2022 project records already describe the same announced Foundation withdrawal and local transition. January 2023 configuration cleanup and later contract expiration do not reset the project-choice onset."
+    },
+    {
+      "family_id": "maven-pdf-retirement",
+      "aliases": [
+        "maven-pdf-retirement-2025"
+      ],
+      "reason": "February 22 vote explicitly follows the February 12 proposal; result and promised archive are stages of the same retirement."
+    },
+    {
+      "family_id": "tomcat-nio2-removal-2025",
+      "aliases": [
+        "tomcat12-nio2-removal-2025"
+      ],
+      "reason": "April 24 Bugzilla proposal, May 13 discussion and May 15 main-branch removal concern the same NIO2 connector removal. Do not reset the onset or count repeated component-removal commits separately."
+    },
+    {
+      "family_id": "foundation-ibm-gha-runners-2025",
+      "aliases": [
+        "maven-ibm-gha-runners-2025"
+      ],
+      "reason": "December 10 common provider offer is one initiative with HTTPD and Maven responses; app/Infra requests and implementation need their own dated acts. The 2024 Jenkins JDK repair is different."
+    }
+  ],
+  "splits": [
+    {
+      "navigation_family": "maven-stage-and-verifier-retirement",
+      "deliverable_families": [
+        "maven-stage-retirement",
+        "maven-verifier-retirement"
+      ],
+      "reason": "Stage and Verifier are independently archivable repositories named in the joint November ballot. Stage already has an earlier March retirement proposal; the joint ballot cannot reset that onset."
+    },
+    {
+      "navigation_family": "maven-three-repository-retirement-proposals-2025",
+      "deliverable_families": [
+        "maven-linkcheck-retirement",
+        "maven-doxia-linkcheck-retirement",
+        "maven-doxia-book-renderer-retirement"
+      ],
+      "reason": "August 3 names three independently archivable repositories. Each joins its own later September proposal/result; one joint source can support three requested deliverables without multiplying messages."
+    },
+    {
+      "navigation_family": "maven-stage-retirement",
+      "deliverable_families": [
+        "maven-stage-credential-repair-2023",
+        "maven-stage-retirement"
+      ],
+      "reason": "The March thread first asks to fix an app/credential failure, then proposes retiring Stage. Repair and archival are separately executable requested actions; neither observed silence nor the later retirement vote proves provider repair."
+    },
+    {
+      "navigation_family": "httpd-libapreq-retirement-2024",
+      "deliverable_families": [
+        "httpd-libapreq-retirement-2024",
+        "httpd-list-posting-restriction-2024"
+      ],
+      "reason": "Product maintenance/retirement and February 16 dev-list posting exclusion change different options and have different intended recipients. February 21 Board PMC-membership termination is a separate corporate act, not automatically caused by the earlier local exclusion."
+    },
+    {
+      "navigation_family": "tomcat-bugzilla-spam-and-github-migration-2024",
+      "deliverable_families": [
+        "tomcat-bugzilla-antispam-request-2024",
+        "tomcat-issue-tracker-migration"
+      ],
+      "reason": "A shared-service antispam request and a proposed replacement issue tracker are separately actionable. The older tracker proposal determines the latter onset; do not set it from a June reminder. Weekly-mail configuration and contributor moderation remain separate deliverables."
+    },
+    {
+      "navigation_family": "tomcat-contributor-status-and-posting-restriction-2024",
+      "deliverable_families": [
+        "tomcat-committer-status-request",
+        "tomcat-contributor-recognition-request-2024",
+        "tomcat-list-posting-restriction-2024"
+      ],
+      "reason": "An invitation/committer-rights request, employment-related confirmation, and conditional/actual posting exclusion affect different rights and requested outputs. Earlier ICLA/Secretary and warning records must be attached to the appropriate acts, not treated as one successful rights grant."
+    },
+    {
+      "navigation_family": "maven-jira-github-migration",
+      "deliverable_families": [
+        "maven-jira-github-migration",
+        "maven-wiki-edit-access-2025",
+        "maven-migration-test-project-access-2025",
+        "maven-github-discussion-lobby"
+      ],
+      "reason": "General migration authorization/rollout, Sandra wiki-edit permission, a test Jira project, and a common discussion lobby are different requested outputs. Extract exact initiating acts within shared threads. Specific repository tracker migrations may additionally require separate service-request families; this split alone does not resolve those boundaries."
+    },
+    {
+      "navigation_family": "maven-parent-process-2023",
+      "deliverable_families": [
+        "maven-parent-squash-merge-policy-2023",
+        "maven-parent-dependency-update-tracking-2023",
+        "maven-asf-parent-minimum-build-2023"
+      ],
+      "reason": "Squash-only workflow, eliminating Jira records for dependency updates, and common build minimum are independently actionable policies. Parent release planning is not itself a new formal release opening; the separately scoped minimum-build proposal shares the matching family."
+    },
+    {
+      "navigation_family": "tomcat-java-and-native-direction-2023",
+      "deliverable_families": [
+        "tomcat11-runtime17-2023",
+        "tomcat11-runtime21-2023",
+        "tomcat11-runtime17-restoration-2024",
+        "tomcat-main-build-default-direction",
+        "tomcat-openssl-ffm-direction-2023"
+      ],
+      "reason": "The broad navigation label conflates runtime support, build defaults and FFM/Native plans. January 2023 executed runtime17, May executed runtime21, and February 2024 restoration are distinct completed-policy changes rather than candidate retries. Final exact source associations and pre-window history remain necessary; documentation alignment alone is not a new proposal."
+    },
+    {
+      "navigation_family": "tomcat-12-panel-directions-2024",
+      "deliverable_families": [
+        "tomcat-jakarta-compatibility-registration",
+        "tomcat-quic-direction",
+        "tomcat-ajp-support-direction",
+        "tomcat-virtual-thread-connector-direction",
+        "tomcat-ffm-native-replacement-direction"
+      ],
+      "reason": "Panel notes bundle separately actionable suggestions, many expressly reserved for later public discussion. Splitting navigation does not make brainstorming an adopted or eligible binding direction. Preserve earlier certification, HTTP2, FFM and Native histories; do not infer Google Summer of Code allocation."
+    }
+  ],
+  "prewindow_findings": [
+    {
+      "family_id": "foundation-travis-retirement-2022",
+      "reason": "October 25 Tomcat relay and November 2022 HTTPD Board report establish an onset no later than baseline 2022, even without the original provider notice. The actual cutoff is later follow-through; no primary onset is invented."
+    },
+    {
+      "family_id": "foundation-jira-account-approval-2022",
+      "reason": "December 2022 Ant and Maven requests already describe closed public signup and private approval route. Later access requests or tracker migration have their own deliverables; repeated inconvenience does not reset the standing rule."
+    },
+    {
+      "family_id": "httpd-mod-wasm-donation-2022",
+      "reason": "November 14\u2013December 2022 donation/maintainership request precedes the primary window. In-window follow-up does not create a fresh donation."
+    },
+    {
+      "family_id": "tomcat10-eol-2022",
+      "reason": "October baseline notice and published EOL change already concern the earlier September support decision. January cleanup follows it."
+    },
+    {
+      "family_id": "tomcat11-spec-direction-2022",
+      "reason": "November 2022 Servlet 6.1/Tomcat 11 documentation supplies a pre-window upper bound for the product/specification direction; the August 2023 documentation update is not a new onset."
+    },
+    {
+      "family_id": "tomcat-securitymanager-removal-2023",
+      "reason": "The separately retrieved September 28, 2022 original proposal establishes pre-window onset. Later implementation does not move the family into 2023."
+    },
+    {
+      "family_id": "maven-core-java17-direction",
+      "reason": "The separately retrieved July 19, 2022 original proposal precedes May 2023 continuation and February 2024 vote. Maven runtime21 proposal in April 2025 requests a different target after that adoption."
+    },
+    {
+      "family_id": "ant-1.9-eol",
+      "reason": "The in-window discussion explicitly resumes the 2020 EOL proposal/votes. Final onset adjudication must preserve this pre-window history; the 2024 result is not a first opening."
+    },
+    {
+      "family_id": "foundation-matomo-service-responsibility",
+      "reason": "Baseline Board reports already describe the 2022 Privacy/Infra hosting and management transition. December 2025 operational transfer does not create a new primary-window ownership-request onset."
+    }
+  ],
+  "limits": [
+    "This record does not certify final per-message associations, source usability, actor roles, onset dates, component measurements, or a complete census.",
+    "Shared source topics can contain several acts; exact original initiating source IDs must be selected from the bodies before episodes are dated.",
+    "The fixed release-family identity judgments and 36-family baseline remain in the separately retained release-frame record."
+  ]
+}

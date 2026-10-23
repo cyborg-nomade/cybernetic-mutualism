@@ -1,0 +1,1168 @@
+[
+  {
+    "scope": "primary",
+    "project": "httpd",
+    "source_id": "<f61629b0-eafa-0628-e6fe-1dcab70196ff@apache.org>",
+    "raw_sha256": "fcd758c12c06012508ab2f117a1f5fae55ff8362816536974d0a55c68fb1ce07",
+    "plain_body_sha256": "d841de8eea18324d273db14ce53e89b1e6b245d13468fce753de3a5a5672c60a",
+    "date_header": "Wed, 7 Aug 2024 08:28:11 +0200",
+    "list_ids": [
+      "<dev.httpd.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@httpd.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "httpd",
+    "source_id": "<3b4a0b83-795e-3299-5f6d-96866d2b0511@apache.org>",
+    "raw_sha256": "37f91432a39ece34dabf1f132d471e2d417101a9071184ff2c88bd1ffa82ccea",
+    "plain_body_sha256": "135a8418f45e8afd4d4dca372376cf3f882c332210e69e183d2b41dcf2a3ed1d",
+    "date_header": "Wed, 7 Aug 2024 14:09:54 +0200",
+    "list_ids": [
+      "<dev.httpd.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@httpd.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "httpd",
+    "source_id": "<pony-5c804ec3-4843-4b65-966b-323657dbaebc-dev@httpd.apache.org>",
+    "raw_sha256": "8ac7ade1e0ec8a5fbd5c69fcd877f36007d6cb5b7dc7a1119a6ae9ecee7bb870",
+    "plain_body_sha256": "c8561c349254a5642b00a43933108e4ef1c488d0a36fb3e822e9aa4f8c59d09b",
+    "date_header": "Wed, 07 Aug 2024 12:22:01 -0000",
+    "list_ids": [
+      "<dev.httpd.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@httpd.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "httpd",
+    "source_id": "<87a453bb-854c-f63c-0229-3148ba128a73@apache.org>",
+    "raw_sha256": "664b9d80195ed9bed886aade8e920b04babf691069b2d9c919b772f24577d6e5",
+    "plain_body_sha256": "55fbb939e44060a21ceec2d0b53754783f54139827871992b62e1a7af042f6cc",
+    "date_header": "Wed, 7 Aug 2024 14:37:43 +0200",
+    "list_ids": [
+      "<dev.httpd.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@httpd.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "maven",
+    "source_id": "<CA269590-8873-41FD-88CA-BBE7E3E89EDF@apache.org>",
+    "raw_sha256": "5f2bc4d919e564d41163f742b81047d236b9579498f056250f0727f636771c35",
+    "plain_body_sha256": "2c858e5b3f1e9cddcd00a81965af2d609f07525e2b2bd1d707181c72e54ba67b",
+    "date_header": "Wed, 7 Aug 2024 09:04:28 +0200",
+    "list_ids": [
+      "\"Maven Developers List\" <dev.maven.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@maven.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "maven",
+    "source_id": "<CAGjJkv0sFWybHgaROTnDc=ZHZ6p4Mvf7MtaR=HexqQ+d4Y6cpg@mail.gmail.com>",
+    "raw_sha256": "6e4b98290622eeddf21a7524a787213a7e10afaa3b8ebf3fafc83c141197242a",
+    "plain_body_sha256": "aefdf6e9bbdc7bbdadfd8d57b9b8c4e77b8fdb9c234fe26c2fdeeaf84cc8688f",
+    "date_header": "Wed, 7 Aug 2024 10:17:03 +0200",
+    "list_ids": [
+      "\"Maven Developers List\" <dev.maven.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@maven.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "maven",
+    "source_id": "<CAGjJkv1=Lt5VXnL_wuBC7vAY-MZOh8ZLn_s=y36MgM8ASdkR=g@mail.gmail.com>",
+    "raw_sha256": "7c477b620c94c78ecad9829aadb30d02436a841d258d7b0c933867a29657c2c6",
+    "plain_body_sha256": "675dfe622e3e8034f31c21381b2ba622b148b62d509ee68ed0cfeedf146993ca",
+    "date_header": "Wed, 7 Aug 2024 10:17:35 +0200",
+    "list_ids": [
+      "\"Maven Developers List\" <dev.maven.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@maven.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "maven",
+    "source_id": "<CAA66Tpr4Dw87hRPFp+gmTvYSPybZ5ggB=TfN0OyBwGByHV5L6g@mail.gmail.com>",
+    "raw_sha256": "03554029da3a0832aa72120b6a5b2d13b8d12a77cda65ac385f7e5a45ee7b9bd",
+    "plain_body_sha256": "e6e9e5dbd2f704c6b39b0337e8a9382e51722179a6b9ce95049617f4ac0e28e5",
+    "date_header": "Wed, 7 Aug 2024 14:21:26 +0200",
+    "list_ids": [
+      "\"Maven Developers List\" <dev.maven.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@maven.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "maven",
+    "source_id": "<CAA66TpobjBpbEShnuWSuRKDGKJXtfXd=y+UwOpedYiW=qj+a6g@mail.gmail.com>",
+    "raw_sha256": "6a367fac167f674c577680030b08a87a5968401cf8128b083a5422060adaa1a2",
+    "plain_body_sha256": "fbc2a5f00f3842ad9d485729db8e1b853c37da570fd95b3771940e249c063cb4",
+    "date_header": "Wed, 7 Aug 2024 14:22:44 +0200",
+    "list_ids": [
+      "\"Maven Developers List\" <dev.maven.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@maven.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "maven",
+    "source_id": "<dba6d190-fb47-4020-af9a-a3d4eb115fb0@geomatys.com>",
+    "raw_sha256": "2fdeb06f5d17899c9e141b01ccf7b3f5d95df10a7294fa2f8345b6b379eb544b",
+    "plain_body_sha256": "68fe2e4c9e3a96a465ce97b8d06860f90a27e0334a99d97a6dae578ae8150f73",
+    "date_header": "Wed, 7 Aug 2024 14:25:54 +0200",
+    "list_ids": [
+      "\"Maven Developers List\" <dev.maven.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@maven.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "maven",
+    "source_id": "<CAA66TprKiFHQsN4DGhKn5Gw_dzZPW_CWuEsshuJeHM4Yc6hWAA@mail.gmail.com>",
+    "raw_sha256": "954f2cabb142f8beff77b45e70085c928bb6b958d09341b0f850f002428dd5cb",
+    "plain_body_sha256": "7ed334b0722337f92c8336332e6a6078709987458e2e759ba206d76881ebfbab",
+    "date_header": "Wed, 7 Aug 2024 14:26:19 +0200",
+    "list_ids": [
+      "\"Maven Developers List\" <dev.maven.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@maven.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "maven",
+    "source_id": "<CACZkXPzKoXyJekDJo-dhZBuaw51Fz+A7ZthHDOm1fCrV+__CLw@mail.gmail.com>",
+    "raw_sha256": "c3bf9f0834391503dc9b08088e40755be131de1425f49e1cd8123f0abbbc27b8",
+    "plain_body_sha256": "9362265293b6d9bd4a4f2727008e22bd92d3c6818ae21e15719da10d1a963643",
+    "date_header": "Wed, 7 Aug 2024 08:28:59 -0400",
+    "list_ids": [
+      "\"Maven Developers List\" <dev.maven.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@maven.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "maven",
+    "source_id": "<06ba1ce3-7538-41c0-a533-d0ea3a64f8e6@geomatys.com>",
+    "raw_sha256": "43fd0a4d5d32960cfed19ad6487c4ee27d7a146d05d4712da5017d9052c6a66c",
+    "plain_body_sha256": "950c860ce147c2c5347337b7aba66172b12abb737c158f03bb4d6568c43b867a",
+    "date_header": "Wed, 7 Aug 2024 14:48:38 +0200",
+    "list_ids": [
+      "\"Maven Developers List\" <dev.maven.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@maven.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "maven",
+    "source_id": "<1b970c9d-479c-4c3e-9779-bed34cb78c28@geomatys.com>",
+    "raw_sha256": "aeacbd1f42869f2eda5162553077941e1c7fde5e5c8eb1a21a251563e26d2f28",
+    "plain_body_sha256": "b0fc9402d8d502b24ea3c5462484b3e79c6a9ece578294aeeb6995e54fceeebb",
+    "date_header": "Wed, 7 Aug 2024 15:29:50 +0200",
+    "list_ids": [
+      "\"Maven Developers List\" <dev.maven.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@maven.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "maven",
+    "source_id": "<CAA66Tpp7j0fgkd7=MTq3XjhYwPKyd-s_SOMWDFEmYm2Kf0rFTA@mail.gmail.com>",
+    "raw_sha256": "315ee78d0b368df888eb73060ae94bc95cb60619d79eb03b18a4726ec3dfceab",
+    "plain_body_sha256": "37876047a72724bbac915d692f5996a150ae377c440964dd1288f27c02f0049e",
+    "date_header": "Wed, 7 Aug 2024 17:38:36 +0200",
+    "list_ids": [
+      "\"Maven Developers List\" <dev.maven.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@maven.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "maven",
+    "source_id": "<b709859e-b2e4-40ef-9d2b-9af0dae10fd1@geomatys.com>",
+    "raw_sha256": "5116d58e294880fc53ac76a4173bcdc7dbc706fbc317c040accb999aa100fc24",
+    "plain_body_sha256": "38225a50f1741d603afeb782555d3588ba725162640babc70ba7d36ed0a19489",
+    "date_header": "Wed, 7 Aug 2024 18:16:36 +0200",
+    "list_ids": [
+      "\"Maven Developers List\" <dev.maven.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@maven.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "maven",
+    "source_id": "<CAA66Tprs+yF25Cq5x5EEoEnwjKZqAjpRs-HHRVf5mNFC+1OzSw@mail.gmail.com>",
+    "raw_sha256": "db95cdcce930c6cec97be76b2721e3fbc84ab09a7fa758f26324f2cda8afe13c",
+    "plain_body_sha256": "c55a0ed9fb5c68f3bf4a1111e9b5ae49149109fc5c552de38d18bad8a10a6c08",
+    "date_header": "Wed, 7 Aug 2024 18:25:47 +0200",
+    "list_ids": [
+      "\"Maven Developers List\" <dev.maven.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@maven.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "maven",
+    "source_id": "<db70bb9a-165c-4a99-9a0b-d06a0b8fc190@geomatys.com>",
+    "raw_sha256": "67f29ae7f46c11cb928a994e34431428c11a77703909f00bbbce481e541ebfe1",
+    "plain_body_sha256": "46607e27bc22ab67a467c6c23ecd1a7cef14299cbb86f8b10376832305e41919",
+    "date_header": "Wed, 7 Aug 2024 18:38:09 +0200",
+    "list_ids": [
+      "\"Maven Developers List\" <dev.maven.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@maven.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "maven",
+    "source_id": "<CAA66TprbSp19HZweeGahwZGLuWnC5M_+GiUZS4ibCzK_XnAjrQ@mail.gmail.com>",
+    "raw_sha256": "4e3bd5bb2f2cdcecd148eeaf4772ddf19f0d8ef3f82cf79315564f80da66a49d",
+    "plain_body_sha256": "60d3ccf679d65c6bd158bb3a1421d50094eb98ee2596786a5d0077dc4b845047",
+    "date_header": "Wed, 7 Aug 2024 22:23:00 +0200",
+    "list_ids": [
+      "\"Maven Developers List\" <dev.maven.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@maven.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "tomcat",
+    "source_id": "<bug-69245-78-8N8krxbRr6@https.bz.apache.org/bugzilla/>",
+    "raw_sha256": "d5e5884a8807140c82762ff1bac4eabd654e8dd983ef5bd578b088cffbec7e6b",
+    "plain_body_sha256": "6b73ee173953bd50e0360fb09f29d55b1af44eff4e285cc105ed5bd3517ccf90",
+    "date_header": "Tue, 06 Aug 2024 18:46:21 +0000",
+    "list_ids": [
+      "<dev.tomcat.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@tomcat.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "tomcat",
+    "source_id": "<PR_kwDOAAy0pc53ggO_-00793db2-36d3-4940-88c3-bb1585619896@gitbox.apache.org>",
+    "raw_sha256": "4c0032128e29ab2ee3dfcafc3f4223f31e10aa900c8d51a15f5bc7f5eef2642f",
+    "plain_body_sha256": "ad2aaddae9fc8d112bf4e39c692643b7e0e32a4143dccf600917c479c2670b04",
+    "date_header": "Wed, 07 Aug 2024 01:34:18 -0000",
+    "list_ids": [
+      "<dev.tomcat.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@tomcat.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "tomcat",
+    "source_id": "<bug-69247-78@https.bz.apache.org/bugzilla/>",
+    "raw_sha256": "06511815f7c239966e81bbf12a1023c3ad613d86848b20d950b2751e653e209f",
+    "plain_body_sha256": "09673b5fa3c244af3c055370ee0f8e48d9fed38863a396be894ffc8062977c28",
+    "date_header": "Wed, 07 Aug 2024 08:13:43 +0000",
+    "list_ids": [
+      "<dev.tomcat.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@tomcat.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "tomcat",
+    "source_id": "<bug-69248-78@https.bz.apache.org/bugzilla/>",
+    "raw_sha256": "c04dbf70dc915ed9de425c581595fd36e25e5e66bbf2e0767761dbb351a89a30",
+    "plain_body_sha256": "f28c72a82f3873990f52f4cf2ecc22ea61cf9913f50623d5a4d2ce3c708fa1a5",
+    "date_header": "Wed, 07 Aug 2024 08:21:11 +0000",
+    "list_ids": [
+      "<dev.tomcat.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@tomcat.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "tomcat",
+    "source_id": "<bug-69245-78-IQBAlKtVVm@https.bz.apache.org/bugzilla/>",
+    "raw_sha256": "d823e56c906e1b571bd5eeec3e9215cd39401575d80a1cfa2a6b56539ad51e58",
+    "plain_body_sha256": "28c90135819abb3636ec390b3c9eb62d549c86ccc42c4f0ed2692d48fb22d72f",
+    "date_header": "Wed, 07 Aug 2024 12:51:22 +0000",
+    "list_ids": [
+      "<dev.tomcat.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@tomcat.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "tomcat",
+    "source_id": "<172303741695.3418526.2548919301957001591@gitbox2-he-fi.apache.org>",
+    "raw_sha256": "e078d4d00e9652dc89b616983da61004863a31301f331d433873b28e2bc5631f",
+    "plain_body_sha256": "1cdb6e2b5f9537064508187e94a9abe952e38ff92675014a14ed3c10532e8274",
+    "date_header": "Wed, 07 Aug 2024 13:30:16 +0000",
+    "list_ids": [
+      "<dev.tomcat.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@tomcat.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "tomcat",
+    "source_id": "<bug-68720-78-9DenR86Sow@https.bz.apache.org/bugzilla/>",
+    "raw_sha256": "fd63b5fe87f0ef44cd00c4ca08afff51842efbcf6f7b3447034109c097b3906d",
+    "plain_body_sha256": "530e4b7795c38bbbb4050ec01112b709929a4c40bbf648e062d53ac779648001",
+    "date_header": "Wed, 07 Aug 2024 13:34:06 +0000",
+    "list_ids": [
+      "<dev.tomcat.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@tomcat.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "tomcat",
+    "source_id": "<bug-68720-78-Og2OiqzN8E@https.bz.apache.org/bugzilla/>",
+    "raw_sha256": "8b3cab3e39ba36dbb35cfe64fd8f82bdc8caeda6d9294c949918d0d437b5dbe9",
+    "plain_body_sha256": "c6e54fc0ade81cf1ae8a5bbc970a0536157d99b585f1e211ff409b28b0f3bdd6",
+    "date_header": "Wed, 07 Aug 2024 13:34:19 +0000",
+    "list_ids": [
+      "<dev.tomcat.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@tomcat.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "tomcat",
+    "source_id": "<bug-65488-78-N01eG4UBhA@https.bz.apache.org/bugzilla/>",
+    "raw_sha256": "1a5ae69549dcce475648ee19730aaff4eafeca5ab67bde6060de78dc51896899",
+    "plain_body_sha256": "8f401ffbb2cf6d61418024a86cd5eab2fd861e6b11fd8feb7b308346958dfbc4",
+    "date_header": "Wed, 07 Aug 2024 13:35:09 +0000",
+    "list_ids": [
+      "<dev.tomcat.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@tomcat.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "tomcat",
+    "source_id": "<bug-64775-78-NvUocsEsxe@https.bz.apache.org/bugzilla/>",
+    "raw_sha256": "95eff8861fcac1b66d8bc62030bf8576cb5ce71d24fdddcdfb56998d0615a8c6",
+    "plain_body_sha256": "cd05a87c9c6f973dcbdc6d29ea817ff6a5bb5214542af20888d2785268ab952d",
+    "date_header": "Wed, 07 Aug 2024 13:37:53 +0000",
+    "list_ids": [
+      "<dev.tomcat.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@tomcat.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "tomcat",
+    "source_id": "<bug-57402-78-GpKll4LMAz@https.bz.apache.org/bugzilla/>",
+    "raw_sha256": "cdcf971c6bd78d3ebd27d001ea5aec9304050d0f2add4d9a6bbac4c0d221ee5d",
+    "plain_body_sha256": "b6008b25bf91b263cab81413f6f2092f451c4031173f7d9faf97078c7312cd19",
+    "date_header": "Wed, 07 Aug 2024 13:40:07 +0000",
+    "list_ids": [
+      "<dev.tomcat.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@tomcat.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "tomcat",
+    "source_id": "<bug-63808-78-dmmKJz4DhE@https.bz.apache.org/bugzilla/>",
+    "raw_sha256": "7dd9b789a4aac0541ff826c46c73e7324efa252c06982a802d15f67e1f51686a",
+    "plain_body_sha256": "2e692a3466f4ce017f19c7dc2da8824dc912c780959e19f90d5d9ec507b4992d",
+    "date_header": "Wed, 07 Aug 2024 13:44:57 +0000",
+    "list_ids": [
+      "<dev.tomcat.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@tomcat.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "tomcat",
+    "source_id": "<172303923656.3483513.897306261639686925@gitbox2-he-fi.apache.org>",
+    "raw_sha256": "3b45c15858c21d7fe6a833b7f0fd5be379a2921a2bc6558fe6b45f3bc5fadd0a",
+    "plain_body_sha256": "beec7b729adb25f8e412b4b9c34ed023f837adbad504723d70e31c095be46118",
+    "date_header": "Wed, 07 Aug 2024 14:00:36 +0000",
+    "list_ids": [
+      "<dev.tomcat.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@tomcat.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "tomcat",
+    "source_id": "<PR_kwDOAAy0pc5k4rUI-5487f04a-5c21-4ed5-a275-b44ef83dde46@gitbox.apache.org>",
+    "raw_sha256": "b32145b51e01875018ab6b0e223bf7639697509d1691a8d016b4054ab832b292",
+    "plain_body_sha256": "cd74a1697e5670eb0fe31633a7c87f94fe99a0541ddef72b3407ba950b145189",
+    "date_header": "Wed, 07 Aug 2024 14:01:40 -0000",
+    "list_ids": [
+      "<dev.tomcat.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@tomcat.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "tomcat",
+    "source_id": "<172303930216.3486097.2755777940085472137@gitbox2-he-fi.apache.org>",
+    "raw_sha256": "d482f7c9461de9648d2dce09344a9f1c0930f7999f22c2d596a34343eaa43ef7",
+    "plain_body_sha256": "1d01defbb4855c6d8788ae12752f63a5a9acab7dcf7ba41397a5b8dee66d8edd",
+    "date_header": "Wed, 07 Aug 2024 14:01:42 +0000",
+    "list_ids": [
+      "<dev.tomcat.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@tomcat.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "tomcat",
+    "source_id": "<20240807140142.4BDE24410E4@gitbox2-he-fi.apache.org>",
+    "raw_sha256": "3de39e9be66cc26c46b4e8d1779108292fac9ccc13af3d69354e4a9f6e043c6e",
+    "plain_body_sha256": "1278ab2ba3a1f8127cb12d495731a8d4cc3b3482a34d83d3ba8005589aae1380",
+    "date_header": "Wed, 07 Aug 2024 14:01:43 +0000",
+    "list_ids": [
+      "<dev.tomcat.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@tomcat.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "tomcat",
+    "source_id": "<PR_kwDOAAy0pc5k4rUI-e24b39f4-a8a2-4f79-84de-b99a285e6ca7@gitbox.apache.org>",
+    "raw_sha256": "08dead6dfaf5b17cfa7d53de2e1617c577df470955521c7af18865d7be5633d0",
+    "plain_body_sha256": "e237cd81e0f30085d4957827c4b87d46c84b842c3343b11fea9f566a0655a3b3",
+    "date_header": "Wed, 07 Aug 2024 14:02:31 -0000",
+    "list_ids": [
+      "<dev.tomcat.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@tomcat.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "tomcat",
+    "source_id": "<bug-69245-78-I1IeIakTqq@https.bz.apache.org/bugzilla/>",
+    "raw_sha256": "566448951537a5db2d2012f698c2086610f709cfc16bac44dd71f401c058f5a7",
+    "plain_body_sha256": "580ad6be9d35e0f7be2b71c2e562af86cdbf5f886a341bbe919e6945a768126b",
+    "date_header": "Wed, 07 Aug 2024 14:32:44 +0000",
+    "list_ids": [
+      "<dev.tomcat.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@tomcat.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "tomcat",
+    "source_id": "<172304383344.3651548.12672332943623713473@gitbox2-he-fi.apache.org>",
+    "raw_sha256": "75f66bacc2daab54766c4141d23070603b79d8d060fabf25a3a850e6486f8920",
+    "plain_body_sha256": "f375126a02c6221bb67771ffcf51e609a0c81d3689032a2ac38162cea1d62fbb",
+    "date_header": "Wed, 07 Aug 2024 15:17:13 +0000",
+    "list_ids": [
+      "<dev.tomcat.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@tomcat.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "tomcat",
+    "source_id": "<172304414848.3661038.4773582619616159270@gitbox2-he-fi.apache.org>",
+    "raw_sha256": "04c95dc3c784b132519a33a5b28a2d81d63350346d6f54bb6d8478065cadd2a8",
+    "plain_body_sha256": "36ad42c64ae8feaba7105267d0bdedd101b334ed9cb731122d20066980c38224",
+    "date_header": "Wed, 07 Aug 2024 15:22:28 +0000",
+    "list_ids": [
+      "<dev.tomcat.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@tomcat.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "tomcat",
+    "source_id": "<172304457148.3674435.5313405213791034713@gitbox2-he-fi.apache.org>",
+    "raw_sha256": "63c3c395bc3576e701226f2f195440cc6786794fc30dee886355f8a05e8bbb55",
+    "plain_body_sha256": "df68b6220c3fcab69c06eb22b79f55b4f68f3d681110fdb1ee6b80040289100d",
+    "date_header": "Wed, 07 Aug 2024 15:29:31 +0000",
+    "list_ids": [
+      "<dev.tomcat.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@tomcat.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "tomcat",
+    "source_id": "<172304781900.3788545.13295125046027346251@gitbox2-he-fi.apache.org>",
+    "raw_sha256": "441d486797b576beb10b9150a35a401bdb53c2698eb24ca0d3df56e72254fd33",
+    "plain_body_sha256": "efabd3c95e3eba9f622720e5cab42b9968007df47c91ffd4a9d34b6bc2136a89",
+    "date_header": "Wed, 07 Aug 2024 16:23:39 +0000",
+    "list_ids": [
+      "<dev.tomcat.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@tomcat.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "tomcat",
+    "source_id": "<20240807162339.375474410EC@gitbox2-he-fi.apache.org>",
+    "raw_sha256": "0a4480906be6256da5830fe9fddcc14f039a45e6ba7df83c9c6214ee4e9db4d2",
+    "plain_body_sha256": "05d23f2207091dc172bd228590f41a8cada46b9754590b1038be796aceac2d56",
+    "date_header": "Wed, 07 Aug 2024 16:23:40 +0000",
+    "list_ids": [
+      "<dev.tomcat.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@tomcat.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "tomcat",
+    "source_id": "<20240807162339.452594410ED@gitbox2-he-fi.apache.org>",
+    "raw_sha256": "4781810f7e0556b501cdff95c39d3d03fc0b35756ae5cb48011eee39086cd0b9",
+    "plain_body_sha256": "e96c8a33ab850237b08b4745221098a0c9ede7a33b53910a42efc9a3b5d357be",
+    "date_header": "Wed, 07 Aug 2024 16:23:41 +0000",
+    "list_ids": [
+      "<dev.tomcat.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@tomcat.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "tomcat",
+    "source_id": "<20240807162339.522804410EE@gitbox2-he-fi.apache.org>",
+    "raw_sha256": "af3fbdca2e0310bfa304ac8a4cc4674643ef0eb5e795700a83fd671656c56e3d",
+    "plain_body_sha256": "c7206619962b82037ae56ace427c70bfcd12d1bd5c6bd762378dd9b835d8d058",
+    "date_header": "Wed, 07 Aug 2024 16:23:42 +0000",
+    "list_ids": [
+      "<dev.tomcat.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@tomcat.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "tomcat",
+    "source_id": "<172305567340.4056067.17298899145034620727@gitbox2-he-fi.apache.org>",
+    "raw_sha256": "41c155ee80f6ef60d407df2f87d836a03f7e4311e44f30574e1e63b4434a598a",
+    "plain_body_sha256": "4a386f9b40418b96ecf192c0e71e2c35e3c4531193946f0fe0529706ad903a7c",
+    "date_header": "Wed, 07 Aug 2024 18:34:33 +0000",
+    "list_ids": [
+      "<dev.tomcat.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@tomcat.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "tomcat",
+    "source_id": "<20240807183433.973FB4410EC@gitbox2-he-fi.apache.org>",
+    "raw_sha256": "b2a79fcaf5e7ca05f26c2c8876e685901da529b3ed038bea8ddbd0df992774b8",
+    "plain_body_sha256": "1af8bd8a7cd4b2495bb677ef442b5649e76a3304ce7cd70b588a1336a9361836",
+    "date_header": "Wed, 07 Aug 2024 18:34:34 +0000",
+    "list_ids": [
+      "<dev.tomcat.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@tomcat.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "tomcat",
+    "source_id": "<20240807183433.A469F4410ED@gitbox2-he-fi.apache.org>",
+    "raw_sha256": "11284e20b04c1a8420ee301a3feb1429a5aae70e0b24e5418c34dc8c8f73a4c9",
+    "plain_body_sha256": "3be6e79eddc486ce9c48fcc23e27c6012f9ea669ba69cda9951b8c7a55e2f96a",
+    "date_header": "Wed, 07 Aug 2024 18:34:35 +0000",
+    "list_ids": [
+      "<dev.tomcat.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@tomcat.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "tomcat",
+    "source_id": "<20240807183433.B1BFB4410EE@gitbox2-he-fi.apache.org>",
+    "raw_sha256": "99105fa6277b710a9e21d91d6148301a333502f0bb82b689c43c0225659969ab",
+    "plain_body_sha256": "376fa259dc4bc17f7308054f975a873adbcac6245d9f7d13a407d8ce6883c54e",
+    "date_header": "Wed, 07 Aug 2024 18:34:36 +0000",
+    "list_ids": [
+      "<dev.tomcat.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@tomcat.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "tomcat",
+    "source_id": "<172305572171.4057997.8401700355281018217@gitbox2-he-fi.apache.org>",
+    "raw_sha256": "d04c6ebaa88916262c5c8e8a265abd4e7919fd183f20aabaa399b3abaf19dadf",
+    "plain_body_sha256": "4c25b6295a9d1b7e01f10a92c62aef96e736b4d3b43393fbc325900c39ff6b7a",
+    "date_header": "Wed, 07 Aug 2024 18:35:21 +0000",
+    "list_ids": [
+      "<dev.tomcat.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@tomcat.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "tomcat",
+    "source_id": "<20240807183521.E17634410EC@gitbox2-he-fi.apache.org>",
+    "raw_sha256": "cc30c2ed03199761ea31414592414ca152ffaa1de221144c309c0279a6d59256",
+    "plain_body_sha256": "18049362511208060cb1c21f4a76182201971298e0fd523497eaaaf8dc11d716",
+    "date_header": "Wed, 07 Aug 2024 18:35:22 +0000",
+    "list_ids": [
+      "<dev.tomcat.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@tomcat.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "tomcat",
+    "source_id": "<20240807183521.F16BA4410ED@gitbox2-he-fi.apache.org>",
+    "raw_sha256": "4bc53bb352117ec59989ef356dfd37b57a601c71b001ce53bc88cb8615ab50f6",
+    "plain_body_sha256": "f38a34f9883228a33f970eed6d9bb80baa8aa5df46b34454c270589fb92e427a",
+    "date_header": "Wed, 07 Aug 2024 18:35:23 +0000",
+    "list_ids": [
+      "<dev.tomcat.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@tomcat.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "tomcat",
+    "source_id": "<20240807183522.0DB3B4410EE@gitbox2-he-fi.apache.org>",
+    "raw_sha256": "1a6ab5f8fbf047e6d82a12d772136635d173d15744fab10e21444625cf7ffa9a",
+    "plain_body_sha256": "356e49c4f5561a0300dfcbc85d0f5f935e45ffbe4881d91ebe6ba56b4cb7b618",
+    "date_header": "Wed, 07 Aug 2024 18:35:24 +0000",
+    "list_ids": [
+      "<dev.tomcat.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@tomcat.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  },
+  {
+    "scope": "primary",
+    "project": "tomcat",
+    "source_id": "<e92222b2-f548-49de-a74b-77237edee40a@apache.org>",
+    "raw_sha256": "81661090141ece05e3e3969f304e6d45a250e825d4cfc6fa172decd5e44ee83c",
+    "plain_body_sha256": "8664fbddee1404bde5492e63ffa065dc78894c72f76bcdd625356b76074be312",
+    "date_header": "Wed, 7 Aug 2024 19:36:37 +0100",
+    "list_ids": [
+      "<dev.tomcat.apache.org>"
+    ],
+    "delivered_to": [
+      "archiver@mbox-vm.apache.org",
+      "mailing list dev@tomcat.apache.org"
+    ],
+    "public_archive_hops": [],
+    "candidate_public_distribution_upper_bound": "unknown",
+    "flags": [
+      "public_archive_delivered_to_absent",
+      "explicit_public_archive_received_hop_absent",
+      "no_parseable_public_archive_hop_time"
+    ]
+  }
+]

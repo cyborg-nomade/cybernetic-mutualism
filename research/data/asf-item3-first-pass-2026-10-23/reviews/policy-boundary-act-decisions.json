@@ -1,0 +1,532 @@
+{
+  "review_date": "2026-10-22",
+  "decisions": [
+    {
+      "family_id": "foundation-gitbox-protection-synchronization-2025",
+      "project": "ant",
+      "onset_earliest": "unknown",
+      "onset_latest": "unknown",
+      "earliest_source_id": "<2fea35ab-a99e-4433-b857-e4e12ca1ad97@mailing.copernik.eu>",
+      "initiating_role": "foundation",
+      "action_class": "infrastructure_service",
+      "eligible": "yes",
+      "kind": "ambiguous",
+      "sender_act": "Announce synchronization of Gitbox branch protection settings",
+      "intended_receiver": "ASF Gitbox/GitHub maintainers",
+      "original_option": "Repository protection settings may differ from generated configuration",
+      "requested_change": "Synchronize configured protection settings",
+      "disposition_history": "May2025 notice fgbr2y0r8yn9dj8myd8csk85ybf3mm48 is referenced in August Maven discussion. Current anonymous thread.json and source.json endpoints return404. The August1Mavenrelay explicitly says GitHub protections now propagate to Gitbox and prevent direct pushes on protected branches. Exact original notice body/onset and selected applied changes remain unobserved.",
+      "eligibility_reason": "August1Mavenoriginal explicitly reports a shared service change: GitHub protections now propagate to Gitbox and block direct pushes. That is sufficient to retain the service-action candidate; unavailable original notice and unknown project-level application limit timing/response, not the existence of a directed service change. Independent from2024default-reviewproposal and local force-push/deletionvote.",
+      "extra_source_ids": [
+        "board-2025-08-20"
+      ],
+      "source_scope": "Identified policy/Board act only. All four project rows describe the scope of one shared act; project exposure and responses are assessed separately. No effect follows from being in the cohort."
+    },
+    {
+      "family_id": "foundation-gitbox-protection-synchronization-2025",
+      "project": "httpd",
+      "onset_earliest": "unknown",
+      "onset_latest": "unknown",
+      "earliest_source_id": "<2fea35ab-a99e-4433-b857-e4e12ca1ad97@mailing.copernik.eu>",
+      "initiating_role": "foundation",
+      "action_class": "infrastructure_service",
+      "eligible": "yes",
+      "kind": "ambiguous",
+      "sender_act": "Announce synchronization of Gitbox branch protection settings",
+      "intended_receiver": "ASF Gitbox/GitHub maintainers",
+      "original_option": "Repository protection settings may differ from generated configuration",
+      "requested_change": "Synchronize configured protection settings",
+      "disposition_history": "May2025 notice fgbr2y0r8yn9dj8myd8csk85ybf3mm48 is referenced in August Maven discussion. Current anonymous thread.json and source.json endpoints return404. The August1Mavenrelay explicitly says GitHub protections now propagate to Gitbox and prevent direct pushes on protected branches. Exact original notice body/onset and selected applied changes remain unobserved.",
+      "eligibility_reason": "August1Mavenoriginal explicitly reports a shared service change: GitHub protections now propagate to Gitbox and block direct pushes. That is sufficient to retain the service-action candidate; unavailable original notice and unknown project-level application limit timing/response, not the existence of a directed service change. Independent from2024default-reviewproposal and local force-push/deletionvote.",
+      "extra_source_ids": [
+        "board-2025-08-20"
+      ],
+      "source_scope": "Identified policy/Board act only. All four project rows describe the scope of one shared act; project exposure and responses are assessed separately. No effect follows from being in the cohort."
+    },
+    {
+      "family_id": "foundation-gitbox-protection-synchronization-2025",
+      "project": "maven",
+      "onset_earliest": "unknown",
+      "onset_latest": "unknown",
+      "earliest_source_id": "<2fea35ab-a99e-4433-b857-e4e12ca1ad97@mailing.copernik.eu>",
+      "initiating_role": "foundation",
+      "action_class": "infrastructure_service",
+      "eligible": "yes",
+      "kind": "ambiguous",
+      "sender_act": "Announce synchronization of Gitbox branch protection settings",
+      "intended_receiver": "ASF Gitbox/GitHub maintainers",
+      "original_option": "Repository protection settings may differ from generated configuration",
+      "requested_change": "Synchronize configured protection settings",
+      "disposition_history": "May2025 notice fgbr2y0r8yn9dj8myd8csk85ybf3mm48 is referenced in August Maven discussion. Current anonymous thread.json and source.json endpoints return404. The August1Mavenrelay explicitly says GitHub protections now propagate to Gitbox and prevent direct pushes on protected branches. Exact original notice body/onset and selected applied changes remain unobserved.",
+      "eligibility_reason": "August1Mavenoriginal explicitly reports a shared service change: GitHub protections now propagate to Gitbox and block direct pushes. That is sufficient to retain the service-action candidate; unavailable original notice and unknown project-level application limit timing/response, not the existence of a directed service change. Independent from2024default-reviewproposal and local force-push/deletionvote.",
+      "extra_source_ids": [
+        "board-2025-08-20"
+      ],
+      "source_scope": "Identified policy/Board act only. All four project rows describe the scope of one shared act; project exposure and responses are assessed separately. No effect follows from being in the cohort."
+    },
+    {
+      "family_id": "foundation-gitbox-protection-synchronization-2025",
+      "project": "tomcat",
+      "onset_earliest": "unknown",
+      "onset_latest": "unknown",
+      "earliest_source_id": "<2fea35ab-a99e-4433-b857-e4e12ca1ad97@mailing.copernik.eu>",
+      "initiating_role": "foundation",
+      "action_class": "infrastructure_service",
+      "eligible": "yes",
+      "kind": "ambiguous",
+      "sender_act": "Announce synchronization of Gitbox branch protection settings",
+      "intended_receiver": "ASF Gitbox/GitHub maintainers",
+      "original_option": "Repository protection settings may differ from generated configuration",
+      "requested_change": "Synchronize configured protection settings",
+      "disposition_history": "May2025 notice fgbr2y0r8yn9dj8myd8csk85ybf3mm48 is referenced in August Maven discussion. Current anonymous thread.json and source.json endpoints return404. The August1Mavenrelay explicitly says GitHub protections now propagate to Gitbox and prevent direct pushes on protected branches. Exact original notice body/onset and selected applied changes remain unobserved.",
+      "eligibility_reason": "August1Mavenoriginal explicitly reports a shared service change: GitHub protections now propagate to Gitbox and block direct pushes. That is sufficient to retain the service-action candidate; unavailable original notice and unknown project-level application limit timing/response, not the existence of a directed service change. Independent from2024default-reviewproposal and local force-push/deletionvote.",
+      "extra_source_ids": [
+        "board-2025-08-20"
+      ],
+      "source_scope": "Identified policy/Board act only. All four project rows describe the scope of one shared act; project exposure and responses are assessed separately. No effect follows from being in the cohort."
+    },
+    {
+      "family_id": "foundation-downstream-distribution-policy-2024",
+      "project": "ant",
+      "onset_earliest": "unknown",
+      "onset_latest": "unknown",
+      "earliest_source_id": "board-2023-12-20",
+      "initiating_role": "foundation",
+      "action_class": "policy_compliance",
+      "eligible": "yes",
+      "kind": "ambiguous",
+      "sender_act": "Develop and publish downstream distribution policy",
+      "intended_receiver": "ASF projects and downstream distributors",
+      "original_option": "Existing trademark/licensing policy; proposed treatment of unsupported-branch backports",
+      "requested_change": "Clarify downstream distribution and branding conditions",
+      "disposition_history": "December2023 policy work in progress, January2024 draft and expected publication, April17Brand says published. Exact initial proposal/publication day and historical full wording not retained. Do not attribute detailed license/legal conditions from draft mentions or infer Tomcat support rights changed. CompleteMarch22immutableVersion1.0source read: permits specifiedchangesunderoriginalname subjecttonotification/nonrejection/compatibledependencies andproject-specificrequirements; projectscanmodifydefaults,distributorsmustcheck. ItsownversionsectionstatesMarch2024publication; AprilBrandreportindependentlysayspublished. SourceversiondoesnotproveeveryselectedPMCusednewexceptionauthority.",
+      "eligibility_reason": "Explicit shared policy deliverable retained with unknown underlying onset and project effects. Board publication report establishes an act, not the missing full rule text.",
+      "extra_source_ids": [
+        "board-2024-01-17",
+        "board-2024-04-17",
+        "version-downstream-policy-20240322",
+        "version-brand-faq-change-d79764714da10010b58d1b14e6d1d547d9e43465"
+      ],
+      "source_scope": "Identified policy/Board act only. All four project rows describe the scope of one shared act; project exposure and responses are assessed separately. No effect follows from being in the cohort."
+    },
+    {
+      "family_id": "foundation-downstream-distribution-policy-2024",
+      "project": "httpd",
+      "onset_earliest": "unknown",
+      "onset_latest": "unknown",
+      "earliest_source_id": "board-2023-12-20",
+      "initiating_role": "foundation",
+      "action_class": "policy_compliance",
+      "eligible": "yes",
+      "kind": "ambiguous",
+      "sender_act": "Develop and publish downstream distribution policy",
+      "intended_receiver": "ASF projects and downstream distributors",
+      "original_option": "Existing trademark/licensing policy; proposed treatment of unsupported-branch backports",
+      "requested_change": "Clarify downstream distribution and branding conditions",
+      "disposition_history": "December2023 policy work in progress, January2024 draft and expected publication, April17Brand says published. Exact initial proposal/publication day and historical full wording not retained. Do not attribute detailed license/legal conditions from draft mentions or infer Tomcat support rights changed. CompleteMarch22immutableVersion1.0source read: permits specifiedchangesunderoriginalname subjecttonotification/nonrejection/compatibledependencies andproject-specificrequirements; projectscanmodifydefaults,distributorsmustcheck. ItsownversionsectionstatesMarch2024publication; AprilBrandreportindependentlysayspublished. SourceversiondoesnotproveeveryselectedPMCusednewexceptionauthority.",
+      "eligibility_reason": "Explicit shared policy deliverable retained with unknown underlying onset and project effects. Board publication report establishes an act, not the missing full rule text.",
+      "extra_source_ids": [
+        "board-2024-01-17",
+        "board-2024-04-17",
+        "version-downstream-policy-20240322",
+        "version-brand-faq-change-d79764714da10010b58d1b14e6d1d547d9e43465"
+      ],
+      "source_scope": "Identified policy/Board act only. All four project rows describe the scope of one shared act; project exposure and responses are assessed separately. No effect follows from being in the cohort."
+    },
+    {
+      "family_id": "foundation-downstream-distribution-policy-2024",
+      "project": "maven",
+      "onset_earliest": "unknown",
+      "onset_latest": "unknown",
+      "earliest_source_id": "board-2023-12-20",
+      "initiating_role": "foundation",
+      "action_class": "policy_compliance",
+      "eligible": "yes",
+      "kind": "ambiguous",
+      "sender_act": "Develop and publish downstream distribution policy",
+      "intended_receiver": "ASF projects and downstream distributors",
+      "original_option": "Existing trademark/licensing policy; proposed treatment of unsupported-branch backports",
+      "requested_change": "Clarify downstream distribution and branding conditions",
+      "disposition_history": "December2023 policy work in progress, January2024 draft and expected publication, April17Brand says published. Exact initial proposal/publication day and historical full wording not retained. Do not attribute detailed license/legal conditions from draft mentions or infer Tomcat support rights changed. CompleteMarch22immutableVersion1.0source read: permits specifiedchangesunderoriginalname subjecttonotification/nonrejection/compatibledependencies andproject-specificrequirements; projectscanmodifydefaults,distributorsmustcheck. ItsownversionsectionstatesMarch2024publication; AprilBrandreportindependentlysayspublished. SourceversiondoesnotproveeveryselectedPMCusednewexceptionauthority.",
+      "eligibility_reason": "Explicit shared policy deliverable retained with unknown underlying onset and project effects. Board publication report establishes an act, not the missing full rule text.",
+      "extra_source_ids": [
+        "board-2024-01-17",
+        "board-2024-04-17",
+        "version-downstream-policy-20240322",
+        "version-brand-faq-change-d79764714da10010b58d1b14e6d1d547d9e43465"
+      ],
+      "source_scope": "Identified policy/Board act only. All four project rows describe the scope of one shared act; project exposure and responses are assessed separately. No effect follows from being in the cohort."
+    },
+    {
+      "family_id": "foundation-downstream-distribution-policy-2024",
+      "project": "tomcat",
+      "onset_earliest": "unknown",
+      "onset_latest": "unknown",
+      "earliest_source_id": "board-2023-12-20",
+      "initiating_role": "foundation",
+      "action_class": "policy_compliance",
+      "eligible": "yes",
+      "kind": "ambiguous",
+      "sender_act": "Develop and publish downstream distribution policy",
+      "intended_receiver": "ASF projects and downstream distributors",
+      "original_option": "Existing trademark/licensing policy; proposed treatment of unsupported-branch backports",
+      "requested_change": "Clarify downstream distribution and branding conditions",
+      "disposition_history": "December2023 policy work in progress, January2024 draft and expected publication, April17Brand says published. Exact initial proposal/publication day and historical full wording not retained. Do not attribute detailed license/legal conditions from draft mentions or infer Tomcat support rights changed. CompleteMarch22immutableVersion1.0source read: permits specifiedchangesunderoriginalname subjecttonotification/nonrejection/compatibledependencies andproject-specificrequirements; projectscanmodifydefaults,distributorsmustcheck. ItsownversionsectionstatesMarch2024publication; AprilBrandreportindependentlysayspublished. SourceversiondoesnotproveeveryselectedPMCusednewexceptionauthority.",
+      "eligibility_reason": "Explicit shared policy deliverable retained with unknown underlying onset and project effects. Board publication report establishes an act, not the missing full rule text.",
+      "extra_source_ids": [
+        "board-2024-01-17",
+        "board-2024-04-17",
+        "version-downstream-policy-20240322",
+        "version-brand-faq-change-d79764714da10010b58d1b14e6d1d547d9e43465"
+      ],
+      "source_scope": "Identified policy/Board act only. All four project rows describe the scope of one shared act; project exposure and responses are assessed separately. No effect follows from being in the cohort."
+    },
+    {
+      "family_id": "foundation-founder-creator-guidance",
+      "project": "ant",
+      "onset_earliest": "unknown",
+      "onset_latest": "unknown",
+      "earliest_source_id": "brand-creator-pr390",
+      "initiating_role": "unknown",
+      "action_class": "governance",
+      "eligible": "yes",
+      "kind": "cross_boundary",
+      "sender_act": "Provide and revise Foundation guidance on founder/creator claims and marketing approval",
+      "intended_receiver": "ASF communities",
+      "original_option": "Earlier creator guidance already on Newsroom page; exact first publication unknown",
+      "requested_change": "Discourage founder claims, distinguish historical attribution, and limit Marketing approval of creator terms after two years as a TLP",
+      "disposition_history": "July18,2024PR390explicitlyrelocatesanexistingNewsroomrule; July20\u201330commentsreviewwordingandJuly30merge. February17,2025Comdevoriginaladvocateshistorypagesandexplicitlyreferencesearlierdebates. March27sourceaddsnewtwo-yearMarketingapprovalconditions, independentlypublicbyApril9archive; January15archivehasnoagecondition. September17duplicatesguidanceintoBrandFAQ; OctoberBoardreportisnotfirstonset. EarlierNewsroomguidance/historymakesunderlyingonsetunknown.",
+      "eligibility_reason": "One continuing creator-label/permission guidance family with a substantive2025approval-conditionrevision. Moving/duplicatingguidanceandlaterBoardmentiondo notresetonset. Unknownfirstinitiatorandselectedprojectresponsearepreserved; a currentlynewlyreadolderoriginalisnotitselfafreshfamily.",
+      "extra_source_ids": [
+        "board-2025-10-15",
+        "brand-creator-pr390-comments",
+        "<CALL9TYJ_9A3VksrG2T4UrgKHpdQXphU+EANzcrbZZEL3zkhsxQ@mail.gmail.com>",
+        "wayback-foundation-faq-20250115",
+        "wayback-foundation-faq-20250409",
+        "version-foundation-faq-change-d1071d77843632ba496c8c2ff8197f8c2066db55",
+        "version-foundation-faq-change-74ad7f3f9d9c1be29b02b31fdc010a6b61a06861",
+        "version-brand-faq-change-3fd752bbad03d897c7822e94a4d3634360225055"
+      ],
+      "source_scope": "Identified policy/Board act only. All four project rows describe the scope of one shared act; project exposure and responses are assessed separately. No effect follows from being in the cohort."
+    },
+    {
+      "family_id": "foundation-founder-creator-guidance",
+      "project": "httpd",
+      "onset_earliest": "unknown",
+      "onset_latest": "unknown",
+      "earliest_source_id": "brand-creator-pr390",
+      "initiating_role": "unknown",
+      "action_class": "governance",
+      "eligible": "yes",
+      "kind": "cross_boundary",
+      "sender_act": "Provide and revise Foundation guidance on founder/creator claims and marketing approval",
+      "intended_receiver": "ASF communities",
+      "original_option": "Earlier creator guidance already on Newsroom page; exact first publication unknown",
+      "requested_change": "Discourage founder claims, distinguish historical attribution, and limit Marketing approval of creator terms after two years as a TLP",
+      "disposition_history": "July18,2024PR390explicitlyrelocatesanexistingNewsroomrule; July20\u201330commentsreviewwordingandJuly30merge. February17,2025Comdevoriginaladvocateshistorypagesandexplicitlyreferencesearlierdebates. March27sourceaddsnewtwo-yearMarketingapprovalconditions, independentlypublicbyApril9archive; January15archivehasnoagecondition. September17duplicatesguidanceintoBrandFAQ; OctoberBoardreportisnotfirstonset. EarlierNewsroomguidance/historymakesunderlyingonsetunknown.",
+      "eligibility_reason": "One continuing creator-label/permission guidance family with a substantive2025approval-conditionrevision. Moving/duplicatingguidanceandlaterBoardmentiondo notresetonset. Unknownfirstinitiatorandselectedprojectresponsearepreserved; a currentlynewlyreadolderoriginalisnotitselfafreshfamily.",
+      "extra_source_ids": [
+        "board-2025-10-15",
+        "brand-creator-pr390-comments",
+        "<CALL9TYJ_9A3VksrG2T4UrgKHpdQXphU+EANzcrbZZEL3zkhsxQ@mail.gmail.com>",
+        "wayback-foundation-faq-20250115",
+        "wayback-foundation-faq-20250409",
+        "version-foundation-faq-change-d1071d77843632ba496c8c2ff8197f8c2066db55",
+        "version-foundation-faq-change-74ad7f3f9d9c1be29b02b31fdc010a6b61a06861",
+        "version-brand-faq-change-3fd752bbad03d897c7822e94a4d3634360225055"
+      ],
+      "source_scope": "Identified policy/Board act only. All four project rows describe the scope of one shared act; project exposure and responses are assessed separately. No effect follows from being in the cohort."
+    },
+    {
+      "family_id": "foundation-founder-creator-guidance",
+      "project": "maven",
+      "onset_earliest": "unknown",
+      "onset_latest": "unknown",
+      "earliest_source_id": "brand-creator-pr390",
+      "initiating_role": "unknown",
+      "action_class": "governance",
+      "eligible": "yes",
+      "kind": "cross_boundary",
+      "sender_act": "Provide and revise Foundation guidance on founder/creator claims and marketing approval",
+      "intended_receiver": "ASF communities",
+      "original_option": "Earlier creator guidance already on Newsroom page; exact first publication unknown",
+      "requested_change": "Discourage founder claims, distinguish historical attribution, and limit Marketing approval of creator terms after two years as a TLP",
+      "disposition_history": "July18,2024PR390explicitlyrelocatesanexistingNewsroomrule; July20\u201330commentsreviewwordingandJuly30merge. February17,2025Comdevoriginaladvocateshistorypagesandexplicitlyreferencesearlierdebates. March27sourceaddsnewtwo-yearMarketingapprovalconditions, independentlypublicbyApril9archive; January15archivehasnoagecondition. September17duplicatesguidanceintoBrandFAQ; OctoberBoardreportisnotfirstonset. EarlierNewsroomguidance/historymakesunderlyingonsetunknown.",
+      "eligibility_reason": "One continuing creator-label/permission guidance family with a substantive2025approval-conditionrevision. Moving/duplicatingguidanceandlaterBoardmentiondo notresetonset. Unknownfirstinitiatorandselectedprojectresponsearepreserved; a currentlynewlyreadolderoriginalisnotitselfafreshfamily.",
+      "extra_source_ids": [
+        "board-2025-10-15",
+        "brand-creator-pr390-comments",
+        "<CALL9TYJ_9A3VksrG2T4UrgKHpdQXphU+EANzcrbZZEL3zkhsxQ@mail.gmail.com>",
+        "wayback-foundation-faq-20250115",
+        "wayback-foundation-faq-20250409",
+        "version-foundation-faq-change-d1071d77843632ba496c8c2ff8197f8c2066db55",
+        "version-foundation-faq-change-74ad7f3f9d9c1be29b02b31fdc010a6b61a06861",
+        "version-brand-faq-change-3fd752bbad03d897c7822e94a4d3634360225055"
+      ],
+      "source_scope": "Identified policy/Board act only. All four project rows describe the scope of one shared act; project exposure and responses are assessed separately. No effect follows from being in the cohort."
+    },
+    {
+      "family_id": "foundation-founder-creator-guidance",
+      "project": "tomcat",
+      "onset_earliest": "unknown",
+      "onset_latest": "unknown",
+      "earliest_source_id": "brand-creator-pr390",
+      "initiating_role": "unknown",
+      "action_class": "governance",
+      "eligible": "yes",
+      "kind": "cross_boundary",
+      "sender_act": "Provide and revise Foundation guidance on founder/creator claims and marketing approval",
+      "intended_receiver": "ASF communities",
+      "original_option": "Earlier creator guidance already on Newsroom page; exact first publication unknown",
+      "requested_change": "Discourage founder claims, distinguish historical attribution, and limit Marketing approval of creator terms after two years as a TLP",
+      "disposition_history": "July18,2024PR390explicitlyrelocatesanexistingNewsroomrule; July20\u201330commentsreviewwordingandJuly30merge. February17,2025Comdevoriginaladvocateshistorypagesandexplicitlyreferencesearlierdebates. March27sourceaddsnewtwo-yearMarketingapprovalconditions, independentlypublicbyApril9archive; January15archivehasnoagecondition. September17duplicatesguidanceintoBrandFAQ; OctoberBoardreportisnotfirstonset. EarlierNewsroomguidance/historymakesunderlyingonsetunknown.",
+      "eligibility_reason": "One continuing creator-label/permission guidance family with a substantive2025approval-conditionrevision. Moving/duplicatingguidanceandlaterBoardmentiondo notresetonset. Unknownfirstinitiatorandselectedprojectresponsearepreserved; a currentlynewlyreadolderoriginalisnotitselfafreshfamily.",
+      "extra_source_ids": [
+        "board-2025-10-15",
+        "brand-creator-pr390-comments",
+        "<CALL9TYJ_9A3VksrG2T4UrgKHpdQXphU+EANzcrbZZEL3zkhsxQ@mail.gmail.com>",
+        "wayback-foundation-faq-20250115",
+        "wayback-foundation-faq-20250409",
+        "version-foundation-faq-change-d1071d77843632ba496c8c2ff8197f8c2066db55",
+        "version-foundation-faq-change-74ad7f3f9d9c1be29b02b31fdc010a6b61a06861",
+        "version-brand-faq-change-3fd752bbad03d897c7822e94a4d3634360225055"
+      ],
+      "source_scope": "Identified policy/Board act only. All four project rows describe the scope of one shared act; project exposure and responses are assessed separately. No effect follows from being in the cohort."
+    },
+    {
+      "family_id": "foundation-release-ascii-signature-2025",
+      "project": "ant",
+      "onset_earliest": "2025-08-24",
+      "onset_latest": "2025-08-24",
+      "earliest_source_id": "version-asf-policy-change-2be39afce9b28fa89da851afb788e6ede46ebefa",
+      "initiating_role": "foundation",
+      "action_class": "policy_compliance",
+      "eligible": "no",
+      "kind": "excluded",
+      "sender_act": "Specify ASCII-armored detached release signatures",
+      "intended_receiver": "ASF releasing PMCs",
+      "original_option": "Detached signature already mandatory; earlier text does not explicitly say ASCII-armored",
+      "requested_change": "Use ASCII-armored detached signatures",
+      "disposition_history": "April19,2022archivedReleaseDistributionPolicyalreadyexplicitlyrequiresOpenPGP-compatibleASCII-armoreddetachedsignaturesandprohibitsbinary.sigfiles. June11,2022SigningGuideconfirmspracticebutlabelsitselfinformative,notpolicy; useDistributionPolicyfornormativeauthority. August2025release-policywordingthereforerestatesanexistingformatobligation.",
+      "eligibility_reason": "Exclude newly introduced format-constraint interpretation: independently dated prewindow normative distribution policy establishes the same obligation. No new service request or binding overall direction is observed in the2025clarification.",
+      "extra_source_ids": [
+        "wayback-release-20221219",
+        "wayback-release-20250924",
+        "wayback-release-signing-20220611",
+        "wayback-release-distribution-20220419"
+      ],
+      "source_scope": "Identified policy/Board act only. All four project rows describe the scope of one shared act; project exposure and responses are assessed separately. No effect follows from being in the cohort."
+    },
+    {
+      "family_id": "foundation-release-ascii-signature-2025",
+      "project": "httpd",
+      "onset_earliest": "2025-08-24",
+      "onset_latest": "2025-08-24",
+      "earliest_source_id": "version-asf-policy-change-2be39afce9b28fa89da851afb788e6ede46ebefa",
+      "initiating_role": "foundation",
+      "action_class": "policy_compliance",
+      "eligible": "no",
+      "kind": "excluded",
+      "sender_act": "Specify ASCII-armored detached release signatures",
+      "intended_receiver": "ASF releasing PMCs",
+      "original_option": "Detached signature already mandatory; earlier text does not explicitly say ASCII-armored",
+      "requested_change": "Use ASCII-armored detached signatures",
+      "disposition_history": "April19,2022archivedReleaseDistributionPolicyalreadyexplicitlyrequiresOpenPGP-compatibleASCII-armoreddetachedsignaturesandprohibitsbinary.sigfiles. June11,2022SigningGuideconfirmspracticebutlabelsitselfinformative,notpolicy; useDistributionPolicyfornormativeauthority. August2025release-policywordingthereforerestatesanexistingformatobligation.",
+      "eligibility_reason": "Exclude newly introduced format-constraint interpretation: independently dated prewindow normative distribution policy establishes the same obligation. No new service request or binding overall direction is observed in the2025clarification.",
+      "extra_source_ids": [
+        "wayback-release-20221219",
+        "wayback-release-20250924",
+        "wayback-release-signing-20220611",
+        "wayback-release-distribution-20220419"
+      ],
+      "source_scope": "Identified policy/Board act only. All four project rows describe the scope of one shared act; project exposure and responses are assessed separately. No effect follows from being in the cohort."
+    },
+    {
+      "family_id": "foundation-release-ascii-signature-2025",
+      "project": "maven",
+      "onset_earliest": "2025-08-24",
+      "onset_latest": "2025-08-24",
+      "earliest_source_id": "version-asf-policy-change-2be39afce9b28fa89da851afb788e6ede46ebefa",
+      "initiating_role": "foundation",
+      "action_class": "policy_compliance",
+      "eligible": "no",
+      "kind": "excluded",
+      "sender_act": "Specify ASCII-armored detached release signatures",
+      "intended_receiver": "ASF releasing PMCs",
+      "original_option": "Detached signature already mandatory; earlier text does not explicitly say ASCII-armored",
+      "requested_change": "Use ASCII-armored detached signatures",
+      "disposition_history": "April19,2022archivedReleaseDistributionPolicyalreadyexplicitlyrequiresOpenPGP-compatibleASCII-armoreddetachedsignaturesandprohibitsbinary.sigfiles. June11,2022SigningGuideconfirmspracticebutlabelsitselfinformative,notpolicy; useDistributionPolicyfornormativeauthority. August2025release-policywordingthereforerestatesanexistingformatobligation.",
+      "eligibility_reason": "Exclude newly introduced format-constraint interpretation: independently dated prewindow normative distribution policy establishes the same obligation. No new service request or binding overall direction is observed in the2025clarification.",
+      "extra_source_ids": [
+        "wayback-release-20221219",
+        "wayback-release-20250924",
+        "wayback-release-signing-20220611",
+        "wayback-release-distribution-20220419"
+      ],
+      "source_scope": "Identified policy/Board act only. All four project rows describe the scope of one shared act; project exposure and responses are assessed separately. No effect follows from being in the cohort."
+    },
+    {
+      "family_id": "foundation-release-ascii-signature-2025",
+      "project": "tomcat",
+      "onset_earliest": "2025-08-24",
+      "onset_latest": "2025-08-24",
+      "earliest_source_id": "version-asf-policy-change-2be39afce9b28fa89da851afb788e6ede46ebefa",
+      "initiating_role": "foundation",
+      "action_class": "policy_compliance",
+      "eligible": "no",
+      "kind": "excluded",
+      "sender_act": "Specify ASCII-armored detached release signatures",
+      "intended_receiver": "ASF releasing PMCs",
+      "original_option": "Detached signature already mandatory; earlier text does not explicitly say ASCII-armored",
+      "requested_change": "Use ASCII-armored detached signatures",
+      "disposition_history": "April19,2022archivedReleaseDistributionPolicyalreadyexplicitlyrequiresOpenPGP-compatibleASCII-armoreddetachedsignaturesandprohibitsbinary.sigfiles. June11,2022SigningGuideconfirmspracticebutlabelsitselfinformative,notpolicy; useDistributionPolicyfornormativeauthority. August2025release-policywordingthereforerestatesanexistingformatobligation.",
+      "eligibility_reason": "Exclude newly introduced format-constraint interpretation: independently dated prewindow normative distribution policy establishes the same obligation. No new service request or binding overall direction is observed in the2025clarification.",
+      "extra_source_ids": [
+        "wayback-release-20221219",
+        "wayback-release-20250924",
+        "wayback-release-signing-20220611",
+        "wayback-release-distribution-20220419"
+      ],
+      "source_scope": "Identified policy/Board act only. All four project rows describe the scope of one shared act; project exposure and responses are assessed separately. No effect follows from being in the cohort."
+    },
+    {
+      "family_id": "foundation-trademark-attribution",
+      "project": "tomcat",
+      "eligible": "no",
+      "kind": "excluded",
+      "earliest_source_id": "<170384583389.289180.15728891187813292784@gitbox2-he-fi.apache.org>",
+      "onset_earliest": "unknown",
+      "onset_latest": "unknown",
+      "initiating_role": "unknown",
+      "action_class": "policy_compliance",
+      "sender_act": "Add standard ASF trademark attribution in generated docs/Javadoc footers",
+      "intended_receiver": "Tomcat documentation builders",
+      "original_option": "Prior generated footer lacks the added attribution",
+      "requested_change": "Include ASF trademark attribution",
+      "disposition_history": "December29,2023 four-branch commits add attribution and registered-symbol wording. No fresh central request, dated prior rule/onset or direct receipt is identified in these notifications.",
+      "eligibility_reason": "Fully reviewed December2023notifications show ordinary local footer attribution edits, without a new Foundation coordination act, request or binding overall technical direction. Exclude that observed patch as a new episode; this does not assert that no unseen central communication existed or date the older trademark rule.",
+      "extra_source_ids": [],
+      "source_scope": "One attribution deliverable across docs/Javadoc and branches, not separate interventions for each generated format."
+    }
+  ],
+  "existing_family_context_links": [
+    {
+      "family_id": "tomcat-author-attribution-removal-2025",
+      "project": "tomcat",
+      "source_ids": [
+        "brand-creator-pr390",
+        "brand-creator-pr390-comments"
+      ]
+    }
+  ],
+  "renames": [
+    {
+      "previous_family_id": "foundation-founder-creator-guidance-2025",
+      "family_id": "foundation-founder-creator-guidance",
+      "reason": "Older2024FAQrelocationandpreexistingNewsroomguidancefound; samecontinuingfamily, notnew2025onset."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "wayback-release-signing-20220611",
+      "sha256": "e74b1c6716fe19cd9fa37c56cefbcfc9c3c6c8cfbc39d6fdd15888ece26e7b19",
+      "event_date": "2022-06-11",
+      "publication_upper_bound": "2022-06-11T03:56:42+00:00",
+      "wire_sha256": "5adc5cbf085c72efe2ea2b060da16aaa9384c7b2bee76c8b8b7ac451ba1b2d9d",
+      "headers_sha256": "990bc19f1b01bc283118fe3931fd703753ab96fa5fcdf76bb079bf9283d075c5"
+    },
+    {
+      "source_id": "wayback-release-distribution-20220419",
+      "sha256": "6a6faddb9f4ad597b55ef2e014b81e6d9f7bf38e09e1252d796503e117fa1838",
+      "event_date": "2022-04-19",
+      "publication_upper_bound": "2022-04-19T13:43:55+00:00",
+      "wire_sha256": "6a6faddb9f4ad597b55ef2e014b81e6d9f7bf38e09e1252d796503e117fa1838",
+      "headers_sha256": "4d7ebd8ec89a2a7a4c79fe058ea5d55a0a75803ae5520b91c95253c23b7b749e"
+    },
+    {
+      "source_id": "wayback-foundation-faq-20250115",
+      "sha256": "bd6f0c120eaca1ae9fb144e1000ebd2cddcce9f0f8e35b1c5c54ae95f30ac467",
+      "event_date": "2025-01-15",
+      "publication_upper_bound": "2025-01-15T02:22:17+00:00",
+      "wire_sha256": "35871454e9a0269ac412c3b263dc7417303313c98f6ce60c2175b6b1f8b64849",
+      "headers_sha256": "a7d9a4fc9cf4944a6eb3fe1c8ca155c19ef30080b59bee8479a01f0000613727"
+    },
+    {
+      "source_id": "wayback-foundation-faq-20250409",
+      "sha256": "88de32871d8273e96993f15ec6d05973310f52484f0107cc46c86c7c24699292",
+      "event_date": "2025-04-09",
+      "publication_upper_bound": "2025-04-09T12:07:17+00:00",
+      "wire_sha256": "88de32871d8273e96993f15ec6d05973310f52484f0107cc46c86c7c24699292",
+      "headers_sha256": "b30178923c7fc06c9fe5514e530e1f0adb9063df8385e2d2f8b55ee15833bc75"
+    },
+    {
+      "source_id": "version-brand-faq-change-3fd752bbad03d897c7822e94a4d3634360225055",
+      "sha256": "0048a06237c9147ea33f8c703bb140e20e26ecfcb1ce25278e4a8c26d70b7cac",
+      "event_date": "2025-09-17",
+      "publication_upper_bound": "unknown"
+    },
+    {
+      "source_id": "version-brand-faq-change-4308772614981fccdc846122262eaa88412a0589",
+      "sha256": "764307ceac6ac6bc22cead1c883efe3b995acbae115d683bd4c806838e9ef56a",
+      "event_date": "2025-09-11",
+      "publication_upper_bound": "unknown"
+    },
+    {
+      "source_id": "version-brand-faq-change-d79764714da10010b58d1b14e6d1d547d9e43465",
+      "sha256": "5d2341a6ffaa21dfea1713be70f72d0db621e9d3c77cfaae4ddaa0654c8bd6e3",
+      "event_date": "2024-03-22",
+      "publication_upper_bound": "unknown"
+    },
+    {
+      "source_id": "version-foundation-faq-change-d1071d77843632ba496c8c2ff8197f8c2066db55",
+      "sha256": "f6491099de5868addfe91708c4ba9f3c2f324099f232bb2510813a1b94296cf9",
+      "event_date": "2024-07-30",
+      "publication_upper_bound": "unknown"
+    },
+    {
+      "source_id": "version-foundation-faq-change-74ad7f3f9d9c1be29b02b31fdc010a6b61a06861",
+      "sha256": "086f1322b97d6ecfcbd153e91237efd159ecc396ba4fc2d3a43eb8bff857cdd8",
+      "event_date": "2025-03-27",
+      "publication_upper_bound": "unknown"
+    },
+    {
+      "source_id": "brand-creator-pr390",
+      "sha256": "0a9b4cc16d56077916197e21580820fa2cafe7dac718dda567bfb3572990fd46",
+      "event_date": "2024-07-18",
+      "publication_upper_bound": "2024-07-30T23:24:50Z",
+      "convention": "Public provider historical-record convention: latest edited records predate cutoff; current JSON serialization is not claimed historically identical."
+    },
+    {
+      "source_id": "brand-creator-pr390-comments",
+      "sha256": "f3a1039c8c4e6285750172da1c81c57b9e09bc74f5f18f81bc0dc826860ec0b0",
+      "event_date": "2024-07-18",
+      "publication_upper_bound": "2024-07-30T23:24:50Z",
+      "convention": "Public provider historical-record convention: latest edited records predate cutoff; current JSON serialization is not claimed historically identical."
+    },
+    {
+      "source_id": "version-downstream-policy-20240322",
+      "sha256": "c243db30006c063932847a16d7cb40bbb44ddb65a9f339fac1143cdf1bfb78dc",
+      "event_date": "2024-03-22",
+      "publication_upper_bound": "unknown"
+    },
+    {
+      "source_id": "<CALL9TYJ_9A3VksrG2T4UrgKHpdQXphU+EANzcrbZZEL3zkhsxQ@mail.gmail.com>",
+      "sha256": "52d3dafd72675749608ea3029b225f7f4fad60aa5fcc14d66394d15c7ee04088",
+      "event_date": "2025-02-17",
+      "publication_upper_bound": "2025-02-17T00:22:05+00:00",
+      "scope": "Full body and allnineReceivedheadersplusDate/From/Subject/Message-IDread; decodedrawbody exactly equals reviewed thread body."
+    }
+  ],
+  "findings": [
+    "All419visible-textSigningGuidelineslinesread in boundedthreecalls, includinginformative-not-policycaveat. Entire115lineDistributionPolicyread; it is explicitlyrequiredforallprojectsandVPInfraapproveschanges. ASCII-armoring is prewindow normative, not merely common practice.",
+    "BothJanuary15FAQcompletebody andeveryApril9added/deletedline read through exactsequentialdiff, hashes retained. April9independentlyestablishespublictwo-yearMarketingapprovalcondition; websitecaptureisnotselectedprojectcompliance.",
+    "PR390description/all13comments andallfiveFAQcommitpatchesread; Septemberduplicationisnotnewnorm. July2024Tomcat@authordiscussioniscontextforalreadyunknown-onsetlocalremovalhistory, notFoundationcommandtodeleteauthornames.",
+    "OriginalFebruary17Comdevhistory-pageproposal is neither May2025original nor a bindingcentralorder. No employer/personalhistoricalclaimsfromout-of-cohortCurator are addedasstudyepisodes.",
+    "DownstreamVersion1.0completebodyread; preserve conditionalpermissions/projectoverrides, not a blanket ban on modifieddistributions or a demonstrated selected-project authority shift."
+  ],
+  "limits": [
+    "CurrentpublicAPIserialization is not backdated. Exactimmutablewebsiteversions remain publicationunknown unless independently captured.",
+    "ViceChaircircular body remains404frombothcurrentpublicendpoints; unspecifiedpre-Apachevulnerability-reportingscope remainsunknowncohorteligibility. These are retainedmissingness, not inferred private refusals.",
+    "No component/opportunity/witness calculations or lock supplied."
+  ]
+}

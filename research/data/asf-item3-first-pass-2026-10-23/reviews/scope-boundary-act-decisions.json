@@ -1,0 +1,35 @@
+{
+  "review_date": "2026-10-22",
+  "decisions": [
+    {
+      "family_id": "httpd-security-team-membership-removal-2025",
+      "project": "httpd",
+      "onset_earliest": "2025-04-16",
+      "onset_latest": "2025-04-16",
+      "earliest_source_id": "board-2025-04-16",
+      "initiating_role": "foundation",
+      "action_class": "governance",
+      "eligible": "no",
+      "kind": "excluded",
+      "sender_act": "Remove JoeOrton from ASF SecurityTeam",
+      "intended_receiver": "Named individual in central SecurityTeamcapacity",
+      "original_option": "JoeOrton is a central SecurityTeammember",
+      "requested_change": "End central SecurityTeammembership",
+      "disposition_history": "April16,2025BoardSpecialOrder7A unanimously removesJoeOrtonfromSecurityTeam. Reason unstated. This is notJoeSchaefer,notHTTPDPMCremoval,andnotrevocationofHTTPDcommitterrights.",
+      "eligibility_reason": "The April16resolution removes Joe Orton from the central Security Team. It does not name HTTPD as a recipient or alter HTTPD PMC, committer or chair rights. His separate HTTPD affiliation alone is insufficient under the registered actor-capacity rule. Retain the formal central-role event as context; exclude it as a selected PMC\u2013Foundation episode. This is a different person from Joe Schaefer.",
+      "extra_source_ids": [
+        "asf-bylaws-1887743"
+      ],
+      "source_scope": "Only the identified Board resolution/officer/cohort report establishes the stated act. Other content in the complete retained minutes is context, not an independent confirmation."
+    }
+  ],
+  "context_exclusions": [
+    {
+      "candidate": "routine_project_membership_data_in_board_reports",
+      "reason": "Dated names/counts support historical actor-role checks. A project report of a private routine admission or departure does not itself expose a public proposal for binding overall governance change or a Foundation act naming that project. Do not turn the authority-roster source into a new outcome frame. Formal Board appointments/removals naming selected PMCs and public shared-service requests are separately retained."
+    }
+  ],
+  "limits": [
+    "Observed institutional capacity, rather than personal cross-affiliation, controls inclusion. No private membership process or hidden project intervention reconstructed."
+  ]
+}

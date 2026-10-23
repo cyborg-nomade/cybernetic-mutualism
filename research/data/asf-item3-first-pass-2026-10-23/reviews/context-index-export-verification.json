@@ -1,0 +1,260 @@
+{
+  "months": [
+    {
+      "project": "ant",
+      "month": "2022-10",
+      "indexed_messages": 12,
+      "exported_messages": 12,
+      "message_id_multisets_match": true
+    },
+    {
+      "project": "ant",
+      "month": "2022-11",
+      "indexed_messages": 37,
+      "exported_messages": 37,
+      "message_id_multisets_match": true
+    },
+    {
+      "project": "ant",
+      "month": "2022-12",
+      "indexed_messages": 15,
+      "exported_messages": 15,
+      "message_id_multisets_match": true
+    },
+    {
+      "project": "ant",
+      "month": "2026-01",
+      "indexed_messages": 0,
+      "exported_messages": 0,
+      "message_id_multisets_match": true
+    },
+    {
+      "project": "ant",
+      "month": "2026-02",
+      "indexed_messages": 58,
+      "exported_messages": 58,
+      "message_id_multisets_match": true
+    },
+    {
+      "project": "ant",
+      "month": "2026-03",
+      "indexed_messages": 13,
+      "exported_messages": 13,
+      "message_id_multisets_match": true
+    },
+    {
+      "project": "ant",
+      "month": "2026-04",
+      "indexed_messages": 47,
+      "exported_messages": 47,
+      "message_id_multisets_match": true
+    },
+    {
+      "project": "ant",
+      "month": "2026-05",
+      "indexed_messages": 54,
+      "exported_messages": 54,
+      "message_id_multisets_match": true
+    },
+    {
+      "project": "ant",
+      "month": "2026-06",
+      "indexed_messages": 138,
+      "exported_messages": 138,
+      "message_id_multisets_match": true
+    },
+    {
+      "project": "httpd",
+      "month": "2022-10",
+      "indexed_messages": 98,
+      "exported_messages": 98,
+      "message_id_multisets_match": true
+    },
+    {
+      "project": "httpd",
+      "month": "2022-11",
+      "indexed_messages": 49,
+      "exported_messages": 49,
+      "message_id_multisets_match": true
+    },
+    {
+      "project": "httpd",
+      "month": "2022-12",
+      "indexed_messages": 20,
+      "exported_messages": 20,
+      "message_id_multisets_match": true
+    },
+    {
+      "project": "httpd",
+      "month": "2026-01",
+      "indexed_messages": 4,
+      "exported_messages": 4,
+      "message_id_multisets_match": true
+    },
+    {
+      "project": "httpd",
+      "month": "2026-02",
+      "indexed_messages": 16,
+      "exported_messages": 16,
+      "message_id_multisets_match": true
+    },
+    {
+      "project": "httpd",
+      "month": "2026-03",
+      "indexed_messages": 14,
+      "exported_messages": 14,
+      "message_id_multisets_match": true
+    },
+    {
+      "project": "httpd",
+      "month": "2026-04",
+      "indexed_messages": 85,
+      "exported_messages": 85,
+      "message_id_multisets_match": true
+    },
+    {
+      "project": "httpd",
+      "month": "2026-05",
+      "indexed_messages": 91,
+      "exported_messages": 91,
+      "message_id_multisets_match": true
+    },
+    {
+      "project": "httpd",
+      "month": "2026-06",
+      "indexed_messages": 86,
+      "exported_messages": 86,
+      "message_id_multisets_match": true
+    },
+    {
+      "project": "maven",
+      "month": "2022-10",
+      "indexed_messages": 199,
+      "exported_messages": 199,
+      "message_id_multisets_match": true
+    },
+    {
+      "project": "maven",
+      "month": "2022-11",
+      "indexed_messages": 340,
+      "exported_messages": 340,
+      "message_id_multisets_match": true
+    },
+    {
+      "project": "maven",
+      "month": "2022-12",
+      "indexed_messages": 138,
+      "exported_messages": 138,
+      "message_id_multisets_match": true
+    },
+    {
+      "project": "maven",
+      "month": "2026-01",
+      "indexed_messages": 110,
+      "exported_messages": 110,
+      "message_id_multisets_match": true
+    },
+    {
+      "project": "maven",
+      "month": "2026-02",
+      "indexed_messages": 167,
+      "exported_messages": 167,
+      "message_id_multisets_match": true
+    },
+    {
+      "project": "maven",
+      "month": "2026-03",
+      "indexed_messages": 201,
+      "exported_messages": 201,
+      "message_id_multisets_match": true
+    },
+    {
+      "project": "maven",
+      "month": "2026-04",
+      "indexed_messages": 136,
+      "exported_messages": 136,
+      "message_id_multisets_match": true
+    },
+    {
+      "project": "maven",
+      "month": "2026-05",
+      "indexed_messages": 186,
+      "exported_messages": 186,
+      "message_id_multisets_match": true
+    },
+    {
+      "project": "maven",
+      "month": "2026-06",
+      "indexed_messages": 129,
+      "exported_messages": 129,
+      "message_id_multisets_match": true
+    },
+    {
+      "project": "tomcat",
+      "month": "2022-10",
+      "indexed_messages": 542,
+      "exported_messages": 542,
+      "message_id_multisets_match": true
+    },
+    {
+      "project": "tomcat",
+      "month": "2022-11",
+      "indexed_messages": 575,
+      "exported_messages": 575,
+      "message_id_multisets_match": true
+    },
+    {
+      "project": "tomcat",
+      "month": "2022-12",
+      "indexed_messages": 288,
+      "exported_messages": 288,
+      "message_id_multisets_match": true
+    },
+    {
+      "project": "tomcat",
+      "month": "2026-01",
+      "indexed_messages": 1330,
+      "exported_messages": 1330,
+      "message_id_multisets_match": true
+    },
+    {
+      "project": "tomcat",
+      "month": "2026-02",
+      "indexed_messages": 507,
+      "exported_messages": 507,
+      "message_id_multisets_match": true
+    },
+    {
+      "project": "tomcat",
+      "month": "2026-03",
+      "indexed_messages": 875,
+      "exported_messages": 875,
+      "message_id_multisets_match": true
+    },
+    {
+      "project": "tomcat",
+      "month": "2026-04",
+      "indexed_messages": 815,
+      "exported_messages": 815,
+      "message_id_multisets_match": true
+    },
+    {
+      "project": "tomcat",
+      "month": "2026-05",
+      "indexed_messages": 1350,
+      "exported_messages": 1350,
+      "message_id_multisets_match": true
+    },
+    {
+      "project": "tomcat",
+      "month": "2026-06",
+      "indexed_messages": 1667,
+      "exported_messages": 1667,
+      "message_id_multisets_match": true
+    }
+  ],
+  "receipts": 72,
+  "indexed_occurrences": 10392,
+  "screening_complete": false,
+  "coding_complete": false
+}

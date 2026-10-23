@@ -1,0 +1,72 @@
+{
+  "retrieved_at": "2026-10-20T14:32:56.579737+00:00",
+  "records": [
+    {
+      "endpoint": "repos/apache/infrastructure-website/commits?path=content%2Fblog%2Fend_of_home.md&until=2025-12-31T23:59:59Z&per_page=100",
+      "file": "infra-end_of_home-history-through-2025.json",
+      "sha256": "8dd1dd70a043d64a0a7d009b7c02db0a9cf59abe31de8893382abca2b68a43ec",
+      "count": 2
+    },
+    {
+      "endpoint": "repos/apache/infrastructure-website/contents/content/blog/end_of_home.md?ref=080ac3c95343d4d826d1ca3ed3099045f8022a5b",
+      "file": "infra-end_of_home-last-through-2025.md",
+      "sha256": "278bb64bc3b6fe42d80895ea19d94168cfe8ddd53746087eb79b52a18c2f29a7",
+      "commit": "080ac3c95343d4d826d1ca3ed3099045f8022a5b"
+    },
+    {
+      "endpoint": "repos/apache/infrastructure-website/commits?path=content%2Fpages%2Fgithub-actions-policy.md&until=2025-12-31T23:59:59Z&per_page=100",
+      "file": "infra-github-actions-policy-history-through-2025.json",
+      "sha256": "cda71c3ea556916b07cb912c4ad83eec0acffcd54ebf21bf6c9d87d3d224fb5a",
+      "count": 15
+    },
+    {
+      "endpoint": "repos/apache/infrastructure-website/contents/content/pages/github-actions-policy.md?ref=e5697b5eb7ee872f586b3b911421a0671f154e22",
+      "file": "infra-github-actions-policy-last-through-2025.md",
+      "sha256": "4810e61110686bb498d7714cee842cd8ad0229475439699ff30ffe268900da1f",
+      "commit": "e5697b5eb7ee872f586b3b911421a0671f154e22"
+    },
+    {
+      "endpoint": "repos/apache/infrastructure-website/commits?path=content%2Fpages%2Fretired.md&until=2025-12-31T23:59:59Z&per_page=100",
+      "file": "infra-retired-history-through-2025.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "count": 0
+    },
+    {
+      "endpoint": "repos/apache/infrastructure-website/commits?path=content%2Fpages%2Fcode-signing-access.md&until=2025-12-31T23:59:59Z&per_page=100",
+      "file": "infra-code-signing-access-history-through-2025.json",
+      "sha256": "95122d0eb7b6b5d18e47248f61baeade39965f02a7267339521a5ea0105e1e4b",
+      "count": 1
+    },
+    {
+      "endpoint": "repos/apache/infrastructure-website/contents/content/pages/code-signing-access.md?ref=f7d57df4c6114ccd302ca4ae1941d42e42d08f7b",
+      "file": "infra-code-signing-access-last-through-2025.md",
+      "sha256": "68186dd936e91d769ac09489e0678ba440bd151a0a936262eabb16f84a4b5635",
+      "commit": "f7d57df4c6114ccd302ca4ae1941d42e42d08f7b"
+    },
+    {
+      "endpoint": "repos/apache/infrastructure-website/commits?path=content%2Fpages%2Fcode-signing-use.md&until=2025-12-31T23:59:59Z&per_page=100",
+      "file": "infra-code-signing-use-history-through-2025.json",
+      "sha256": "65803c4fda0b52b482fa9d6a359172b99eccac4607af2157552f866c69547e6e",
+      "count": 4
+    },
+    {
+      "endpoint": "repos/apache/infrastructure-website/contents/content/pages/code-signing-use.md?ref=ab841fe338d148ea292ba8a2e39f6575778851f0",
+      "file": "infra-code-signing-use-last-through-2025.md",
+      "sha256": "20cc5c0ba6c4095918d603609322bc22da5496b4de14c00960fb77c5c03f62cc",
+      "commit": "ab841fe338d148ea292ba8a2e39f6575778851f0"
+    },
+    {
+      "endpoint": "repos/apache/infrastructure-website/commits?path=content%2Fpages%2Fcsp.md&until=2025-12-31T23:59:59Z&per_page=100",
+      "file": "infra-csp-history-through-2025.json",
+      "sha256": "d5e97521d5ad8019b2b71021224278d83e7f19739feabb5d206c079479acf241",
+      "count": 4
+    },
+    {
+      "endpoint": "repos/apache/infrastructure-website/contents/content/pages/csp.md?ref=44b8fc4fb50b128b42542ca1b828e82376d5c752",
+      "file": "infra-csp-last-through-2025.md",
+      "sha256": "a7ff32267ab46c8b859cb5d7842488b7be393abd3fc8e32a160aec35a452e5af",
+      "commit": "44b8fc4fb50b128b42542ca1b828e82376d5c752"
+    }
+  ],
+  "limitation": "Commit times establish source-version history, not independent deployment timestamps. No policy applicability or onset decision is assigned by this retrieval helper."
+}

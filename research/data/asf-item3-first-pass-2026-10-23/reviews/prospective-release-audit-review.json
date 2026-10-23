@@ -1,0 +1,2245 @@
+{
+  "review_date": "2026-10-21",
+  "status": "source_reading_complete_for_prospective_superset_not_first_pass_complete",
+  "selection_receipt_sha256": "a1b02cde780e11e90877fb001a15c0afdc8caf192758c390e20e69d4a690dabe",
+  "reading_aids": {
+    "ant-prospective-audit-novel-prose.txt": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "ant-prospective-audit-novel-prose.ledger.json": "6dfedf29781dc06c383435bbb1a2ec76e3a1346f0ad1d34e36982e039cf88531",
+    "httpd-prospective-audit-novel-prose.txt": "0b9c506f78378f25924f229d4025bae9c38c1bf22d8cc40b60e16b63bde37ade",
+    "httpd-prospective-audit-novel-prose.ledger.json": "a44d1222279df6b44bb89f5b0a3866aebddd88dc62125eee6940af911df7b6c4",
+    "maven-prospective-audit-novel-prose.txt": "998a5f255fb29d27e043079ffd62a6964edb8c998fa2a296da8190002ba39a82",
+    "maven-prospective-audit-novel-prose.ledger.json": "93a6a9c9a4af23f1a461afed51c22ff1c8d305d57b7505921927da76facf5e10",
+    "tomcat-prospective-audit-novel-prose.txt": "775d24b3450f68906794c30a0d213eeb521df9b6e37066c0dc25828d547daa5c",
+    "tomcat-prospective-audit-novel-prose.ledger.json": "d2caa5cec1eeb95ea652b47d27caf1f04e8f2567b5ee96bda19acf5d7220412d"
+  },
+  "reviewed_families": [
+    {
+      "project": "ant",
+      "family_id": "ant-release-ant-1.10.13",
+      "source_id": "<21ec25ec-8817-f25e-f2f7-dbd1fa1c4938@apache.org>",
+      "already_in_baseline": true,
+      "opening_topic_ids": [
+        "topic-122569a1583cf6ea"
+      ],
+      "hash": "2b71daa03dcaab9672bf78e57883666bbf8649a9889578511f018aa893bb6fc3",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "ant",
+      "family_id": "ant-release-ant-1.10.15",
+      "source_id": "<b8b34f99-65b8-4173-b89f-a9c6de2fa46e@apache.org>",
+      "already_in_baseline": true,
+      "opening_topic_ids": [
+        "topic-0de0d9c9d8fa5930",
+        "topic-e2d514033678f75f"
+      ],
+      "hash": "6d71982c0efaad1447f1f97eda9028c98058bcae08de006d1425d1589456af13",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "ant",
+      "family_id": "ant-release-ivy-2.5.2",
+      "source_id": "<877cpumgq3.fsf@v45346.1blu.de>",
+      "already_in_baseline": true,
+      "opening_topic_ids": [
+        "topic-77e133d97c97552a",
+        "topic-9a0060f4c5765d09"
+      ],
+      "hash": "747bb124455b73c0b03daf59efe5da500c16aa0953a32a76b3f69d93888b1d52",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "ant",
+      "family_id": "ant-release-ant-1.10.14",
+      "source_id": "<36e5f4f5-3ce5-fbb3-3486-5223dcae3430@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-26fe7d8896cec63a"
+      ],
+      "hash": "a38c100e8473a7e1ef08569aa3f6c368e8a22ea90ee486c18087d9667b657e4b",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "ant",
+      "family_id": "ant-release-ivy-2.5.3",
+      "source_id": "<CAHgmaKobDJsaawGEnOGCD0wYAqKjz_heNyUy8T3hXp77M-cBJw@mail.gmail.com>",
+      "already_in_baseline": true,
+      "opening_topic_ids": [
+        "topic-a1bdfa98df29126e"
+      ],
+      "hash": "b17b89d98422fe42bdaa5c40635be4d3acc7da0db7d6e4e71baee5588f28d4a1",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "httpd",
+      "family_id": "httpd-release-httpd-2.4.56",
+      "source_id": "<CALK=YjPeTxuFAV_V0=-UiAbqtBa0zDaB4Kpz1SHWu7dTOHc=nA@mail.gmail.com>",
+      "already_in_baseline": true,
+      "opening_topic_ids": [
+        "topic-c18d38296fb2cd4c"
+      ],
+      "hash": "16d6b818deb0a83701f4ec3c71eadcc394517f6bf37b52e8778a7194c550aa75",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "httpd",
+      "family_id": "httpd-release-httpd-2.4.55",
+      "source_id": "<CALK=YjM6Xp64KmyM5Ft2zY=+N2pz932fLZkwgp=0UGiTM09jqQ@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-6fa09548e8ef531d"
+      ],
+      "hash": "1be1c16f41cc09e6d9ff9820c96d1ae617a6a2481e5e299910b99e9927e66884",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "OpenSSL 3 deprecation warnings with -Werror and bundled APR configure regression were discussed. The proxy test concern was qualified by process/reuse behavior. These reports do not by themselves establish a Foundation-directed change."
+    },
+    {
+      "project": "httpd",
+      "family_id": "httpd-release-httpd-2.4.66",
+      "source_id": "<CALK=YjNKz-oO6sL8yx6KfUz1cVrr1qc83C4ObAZzxAjepEL_7w@mail.gmail.com>",
+      "already_in_baseline": true,
+      "opening_topic_ids": [
+        "topic-8244834bc11a7eda"
+      ],
+      "hash": "1d778e49eb5aee37402129647756f1e761d8f6aecdd92af1a3fdd0e9a4b64933",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "httpd",
+      "family_id": "httpd-release-httpd-2.4.57",
+      "source_id": "<CALK=YjNtwwu43ui6=6+bD7DCy7HUwq9aadviQtGofPPibY2yyQ@mail.gmail.com>",
+      "already_in_baseline": true,
+      "opening_topic_ids": [
+        "topic-eea346253c139df2"
+      ],
+      "hash": "218fe6d798a0f5277057405f4c0cbb4bb4f5f47dcdde5c6b1ed19711cad4ff70",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "httpd",
+      "family_id": "httpd-release-httpd-2.4.63",
+      "source_id": "<4C492BDE-DFBF-43D6-8780-A91A922BC8C9@jagunet.com>",
+      "already_in_baseline": true,
+      "opening_topic_ids": [
+        "topic-a040f57707f5550e"
+      ],
+      "hash": "25af7f020426dfb0debe96b8574bc16c73a5c0eee152f3cedffefb26e3ac1345",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "httpd",
+      "family_id": "httpd-release-httpd-2.4.60",
+      "source_id": "<CALK=YjOUZUQ9SUvAB+VjFESM5cQ0kkihXt9HGsZ8oaMy27tDXg@mail.gmail.com>",
+      "already_in_baseline": true,
+      "opening_topic_ids": [
+        "topic-5592b6e55b477b67",
+        "topic-befc9b280fde8bbb",
+        "topic-d86bf5292e0940ae"
+      ],
+      "hash": "6a19db740dac4fe12d4a0d19ec6c98006f41ceacf7bc57cc8b44a4220d0ca89a",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "httpd",
+      "family_id": "httpd-release-httpd-2.4.62",
+      "source_id": "<CALK=YjPfc81m5NiLkNyecCaV6LHL=k8pd0k9dzcZse08Nz3dFg@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-4c195fe76c40bd40"
+      ],
+      "hash": "73982a5bfdbbdbfb50ee6d57e51c5022aee5e6a02c22300d6ac8a7d6d1170a34",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "A shutdown pytest failure was attributed to the test fixture/framework, with a tester working on its repair. Preserve that explanation rather than treating the failure as a service refusal."
+    },
+    {
+      "project": "httpd",
+      "family_id": "httpd-release-httpd-2.4.64",
+      "source_id": "<CALK=YjN=o4RtoZwtTtZWxCK-tqjy87yv1FsujArYtpP8K7K2mw@mail.gmail.com>",
+      "already_in_baseline": true,
+      "opening_topic_ids": [
+        "topic-0f7c1d8a4e2f98d8",
+        "topic-5d8ed116411500b1"
+      ],
+      "hash": "94b0ed76f9f0879691c03c7f79a5c4114e853d31db3df65e4d2759bc0c0ac9cf",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "httpd",
+      "family_id": "httpd-release-httpd-2.4.61",
+      "source_id": "<CALK=YjOQSCcVu58NDg0yvjfXWaSOG3OzB5bi0bxPzdJaf_W0aA@mail.gmail.com>",
+      "already_in_baseline": true,
+      "opening_topic_ids": [
+        "topic-684d03690df1cda1"
+      ],
+      "hash": "c7233f9a5fcc6f93f2fee3699b43dbe70a8c4eb0e78aa83e2866af3ae1e34da2",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "httpd",
+      "family_id": "httpd-release-httpd-2.4.58",
+      "source_id": "<D53BA9E1-9044-4A52-8377-B173A59C6763@eissing.org>",
+      "already_in_baseline": true,
+      "opening_topic_ids": [
+        "topic-48ab356a5baa347c",
+        "topic-a222facb8dc49ca9",
+        "topic-b0f29356f092fd5d"
+      ],
+      "hash": "c7f8ad6181fd3e57a56ddd9c4f0a36a653799440b93e5133aa8e2ee7f3c0f189",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-release-3.0.0",
+      "source_id": "<0b8321c0-bc29-76f7-7077-6a0aa2fd2bc9@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-15a595020237bb94"
+      ],
+      "hash": "004080832791ce7d89ad0499c83ac68b572fe4eedf9221d97d0960f2b707e020",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-doxia-2.0.0-m12",
+      "source_id": "<6faa0565-b2ba-482d-ac7b-cdecd80f609e@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-e1d847472b75238b"
+      ],
+      "hash": "00600c47ffc09522d64789d2e20ac37ae56e10f5e6283ffb556a6cbfc49e62cf",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-archiver-3.6.1",
+      "source_id": "<CAGjJkv0FJXyTK2_dyFycq-rCT4Otvb5SRbrsVk6AcaW28q=hyA@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-c332029b7be47f84"
+      ],
+      "hash": "0113097c87c9d5b12296ab63e7196b4ac22ee1945476f3a76db994fec5858e63",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-poms-41",
+      "source_id": "<CAGjJkv2mak7RkC0Na+3mH8n7-FZUBuHA7Bx4AYCKOOqcohcssQ@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-da63b1a4d4d566b5"
+      ],
+      "hash": "0114a75113b3630c6062ccc012a2b1309aa5cf9f11717a326b9440f9056f5cff",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-acr-plugin-3.2.0",
+      "source_id": "<CAJG7DX31JtihFL3VbCG+yEN9HkBmqvHr6+624yBE80W8Mxmp7Q@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-437e338fffe3afe4"
+      ],
+      "hash": "0124e4fec04779f4f275dad137fd925a9db00253bdd326587f2811f4df19b813",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-reporting-exec-2.0.0",
+      "source_id": "<10f6fbe0-ccb3-40c1-af40-7e98b48fb2df@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-0be60956c520664b"
+      ],
+      "hash": "01518bb2c3903f6b06687ecd01059f57e8e19c8b12e31dfb6301e1414738a8e8",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-doxia-1.12.0",
+      "source_id": "<4800455.31r3eYUQgx@orchid>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-3ef6d2493c535e0f"
+      ],
+      "hash": "0188cfd8c8dbdacdcc0aee3372df4d6e64adb7107ca77cf547ba182986f76d1d",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-reporting-api-4.0.0",
+      "source_id": "<869755fc-b045-4e9f-8c81-4f019a453e1c@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-9d7327cc55c78e04"
+      ],
+      "hash": "01c4c84289d65ec5f6837e1ad4d33515388ccefd5a77a06b469e7f7166911ca0",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-archetype-3.3.1",
+      "source_id": "<CAGjJkv1UOmKEaAXV=r521r=TCyoUxBJpa7tgC461f_jxWyRoVQ@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-39f43cc724523b72"
+      ],
+      "hash": "01e98fed7b79dcaa8eab43ec9e3231779fb2a4d52c36b92575747983ebc21789",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-surefire-3.1.1",
+      "source_id": "<a4cccd05-1da3-46b4-ea51-6dc24c5dc827@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-51016f4955ab66eb",
+        "topic-7e5f305484b74fd7"
+      ],
+      "hash": "0344d220f6b094e0a17b4ccba3f71bbb2613576b8f5546c8bb6fcd88eecf084d",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-source-plugin-3.3.1",
+      "source_id": "<12431224.O9o76ZdvQC@orchid>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-47f21ec9616ad45b"
+      ],
+      "hash": "03d440402d138c6ca550e773f7276c9a5517fe34261bd7ad61c6828f81698ef5",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-scm-2.0.1",
+      "source_id": "<CAPLpRQLswBU3AiZ_hFs_mj12OU=thir0XcMMj=EV44y0SA9Crg@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-3599d4c15867400b"
+      ],
+      "hash": "04ec6dd7fc9ab2a7059b75b72372588e71614a1e657e18388272a02060fb32fd",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-reporting-exec-2.0.0-m11",
+      "source_id": "<5e320e80-5868-4e30-b73d-ea4db872464c@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-59b62f52241d4086"
+      ],
+      "hash": "050d3154784e29c5aeb1fb362918994050766b25a4bf39883586d611308b17c3",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-reporting-exec-2.0.0-m10",
+      "source_id": "<910e55c2-bf5e-4ec5-8ca0-4c405dc2d28a@gmx.de>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-1ad053fffa1c3117"
+      ],
+      "hash": "05bea97dcda0a8c560a0567d917bac8089b31182c680ffca636e0b43809583ea",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-javadoc-plugin-3.11.0",
+      "source_id": "<d8630af0-82a0-40d8-bb96-93f3b64ae51a@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-1ec44cfe11cf4694",
+        "topic-ffe3410d08cf3c36"
+      ],
+      "hash": "067a665a43194b3634dd8ba2427af5a98d8e88b9f37d1dc32cc9f067e2bfef68",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-assembly-plugin-3.6.0",
+      "source_id": "<CAGjJkv3VYLntHBP265y6YfPQC+WgkcU373NVt9jv3cjVi72o9w@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-aca99e5e70afe72a"
+      ],
+      "hash": "068472663d40c7a63dd3658b6a016dc280adacc5e0e6df233aa12958f4c00a18",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-docck-plugin-1.2",
+      "source_id": "<CAGjJkv2oUFU_Mu21LWUSpW-suXF4sq3_M10LuJSUmeSZYB4UYQ@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-471f56d5517a0fb2"
+      ],
+      "hash": "069e4de7cc56b9aa651e43e8431a8207307daa6aad2d34b027477d3e2b89e6f6",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-daemon-0.9.0",
+      "source_id": "<CAA66TpqOTyNNxbsvXJAEtenG1sCEN_N1zjLBvV0kVKiujrbntQ@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-49c4e8dd480f11ac"
+      ],
+      "hash": "06e028db555c8cd6d4eb55de693254b3fafd08792ff391db74a6eaedcf2125b2",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-reporting-impl-4.0.0-m6",
+      "source_id": "<a650c26e-9a40-223b-30ee-4abf840557e7@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-20ecc0bf62219c48"
+      ],
+      "hash": "0819d8e5503b6ed7f1d5bbd87575c8ec4a17b5f5307580cfabdb8093ae445a2b",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-reporting-exec-2.0.0-m9",
+      "source_id": "<f9466933-aa7a-3948-f33c-661fde22a163@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-317f0af2458e2014"
+      ],
+      "hash": "08583f6587ff468144422c6f2b05ff9ddd83ea662b55a441992c3f76281d46f8",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-doxia-2.0.0-m11",
+      "source_id": "<db77a3c0-d129-4f9a-b2be-e1e7d9aad231@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-abf8317392872b85"
+      ],
+      "hash": "089fede062edd59f95ec020d01fdf2bf48cbd4982d418284d5eda711ab367582",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-reporting-api-4.0.0-m6",
+      "source_id": "<aefef40e-edeb-99cd-7fda-1ee4084f98aa@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-edeb215efb0f61d8"
+      ],
+      "hash": "08fda8e8e359e68f932a0682a01a4f89594c50aa0dea46d00ef0a753fa9062ed",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-doap-plugin-3.0.0-m1",
+      "source_id": "<CAJG7DX0RbvRV5ujMoqssLnTS9paF48N3cpHJU3xS2TTTZ-M13Q@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-f49bd32c0303aeb3"
+      ],
+      "hash": "0993e95f7ee9aa59363aeba46bacaf877ad0c5d7f720542f0c49145d89645b21",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "The manager confirms ongoing maintenance for now and plans later usefulness feedback. Herv\u00e9 links prospective DOAP usefulness to ongoing ATR work; this is not evidence that Tooling requested or delivered a new service in this release."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-fluido-skin-1.11.2",
+      "source_id": "<50d77832-18ee-b489-dfce-6db29631b8bd@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-740e0f43e8b731f9"
+      ],
+      "hash": "09b5e488615e5967232c7cb2211970ef60993485444c89965b47cc84fca92ee7",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-resolver-1.9.24",
+      "source_id": "<CAGjJkv2KZmneFWrkvEqm-5hy0FCNZRXYZ203mHu33+ur4Rrr3A@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-b112e7c6b4fac760"
+      ],
+      "hash": "09ffccf7a720549b74dce6a5e6e2ad1375771dbdfc929ecba3329efcb652e112",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-enforcer-3.4.1",
+      "source_id": "<CAGjJkv1WVx9DsWLHEYF2j6fwCYKsSEs6hiX91yu8x25rXT9Lkg@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-8aca563f136610d9"
+      ],
+      "hash": "0a2e6397df62fb5a2e7303f2811f5f79d2f0209c93bfc6f069af420f5bfec205",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-surefire-3.0.0-m8",
+      "source_id": "<edcd5280-2291-059d-7c41-82a68c384760@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-6a57e72e447eede1"
+      ],
+      "hash": "0a6b2400399d57d7caeafa0b8aaa9ce3b945590076c2910c0aaa55f630e4f442",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-resolver-2.0.2",
+      "source_id": "<CAPLpRQJ0eeeMqFAd1hD6jfr4jr_ssDiHQA=sESPnegJ4rHVd5g@mail.gmail.com>",
+      "already_in_baseline": true,
+      "opening_topic_ids": [
+        "topic-4b2d7756baff4ad6"
+      ],
+      "hash": "0a8cbedf26799395e0096ee7a188b7817f2a1023cd979f74c2d325fa8c6423c3",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-plugin-testing-4.0.0-beta-3",
+      "source_id": "<CAA66Tpq5ruoMF3geqXZc-Cffj-eU++3YBQGU0Qy9CDBFiBg=SA@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-f6af502bcdf9309c"
+      ],
+      "hash": "0ae73a62e20a7f5d17e4a3799ae4a2e4679afcc0b588372270a41d1ec62116f8",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Public thread notes that a draft GitHub release is not public and requests a milestones link. New issues are GitHub-only; old Jira issues can be migrated/copied/resolved. Matthias later explicitly identifies votes as nonbinding. The permission role and migration service require their separate family evidence."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-doxia-2.0.0-m10",
+      "source_id": "<ba7ab8fe-509b-4f68-afb3-9ba39d56bf2a@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-13b0ec84e49974a1"
+      ],
+      "hash": "0b4c5101c9f1d9191114fff52f0247975a2f10fd488d981f7bfecd8d9566a5e8",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-project-info-reports-plugin-3.4.5",
+      "source_id": "<81e4bae7-9061-3a97-20e4-7a68cf9e80d8@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-473715772d3d0bb6"
+      ],
+      "hash": "0b9989ea6345e31f4d6c4ad460e45efee08a70f64a3d636755151f4466b26903",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-3.9.1",
+      "source_id": "<CAPLpRQ+GWH9Hcms-AXfwNeBk=6W_bHu7cMLwKBVBD4aMwCaNDw@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-8499327a57d24c2a"
+      ],
+      "hash": "0c1d35b135981cc4cc8920a7143ca7b6274d68fa3d192600941e0ae72e26fd52",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-shared-resources-6",
+      "source_id": "<CAGjJkv3pyo--ZcPL3eDabw=vMJMHzQ-DSoS_nUZOOC-O9sVOmw@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-e9074a62513d8832"
+      ],
+      "hash": "0c770f469518fccdd2946b1bbaf6c46ddf51e82c725044ed2b3ed719734a8e60",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-toolchains-plugin-3.2.0",
+      "source_id": "<CAPoyBqS96TpG=N-urTF3VrA93KbnMV7hJqkyeJwKYEegue11ew@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-4e53fb5c15faa25b"
+      ],
+      "hash": "0c85d9542df72f1f7a49ab2be15ea2f8e4e6f7e4c74e6d1ba036cdcaed8ca79c",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-indexer-7.0.4",
+      "source_id": "<CAPLpRQJHZHY1PaZ7FcfGPEs+U_LeWR_xB+t0aWReUfuB72oPwg@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-94bfe24a670fcc82"
+      ],
+      "hash": "0cd377b0e765c57569833596cbd528a7d9ba69a79672eaefa6b5c6accb125bba",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-scm-publish-plugin-3.2.1",
+      "source_id": "<cdb87459-3d9c-8a2f-6434-8b18c600118b@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-56ccb9df07e1a1db"
+      ],
+      "hash": "0d1b68ec989cb97a1dc21cdda9faa500c6ffca55aa91d6ffbf8f53fa17558b17",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-shared-jarsigner-3.1.0",
+      "source_id": "<CAGjJkv2vf0SMmVVkFuQxDVwZfXHekqUrtkhPZx-+uyEmszGafw@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-9342a670551595ab"
+      ],
+      "hash": "0e7166d264650991ec9853b9be38f913df13d13f7d06342ce9abcd34d244e964",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-project-info-reports-plugin-3.4.4",
+      "source_id": "<7adaac7e-32d9-de0e-982c-bb0217840d42@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-6f538bb27a4af5de"
+      ],
+      "hash": "0f7102c22dd6f49b7c4ebf70f22426c363e6ce0d21ed44afd5f5743cada40459",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-reporting-impl-4.0.0-m8",
+      "source_id": "<9492d320-f806-6475-2bc5-afd25c2aabcd@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-769555e6332affe2"
+      ],
+      "hash": "0f82b9424ece7e8e8644b55fceca8327ef005d1c30075e36bb2a63bdef653cd6",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-artifact-plugin-3.4.1",
+      "source_id": "<40ca315a-4450-1c21-f372-28bbfae6cfa0@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-ff3f45a2f5e49acc"
+      ],
+      "hash": "0fe088ed433cbfa5dd7e52d5f0ed24d0ece06bce51c042f31127ff26e0eefc13",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-site-plugin-4.0.0-m16",
+      "source_id": "<02f91922-4a31-4a55-8997-c06442c804b7@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-a81a0173b9c0e92c"
+      ],
+      "hash": "11220a2b976674bab232795b97435347a64094849a5339070411226d61ad9f9e",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-fluido-skin-2.0.0-m1",
+      "source_id": "<495439f8-675e-cef9-fa22-b7774c8f29bb@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-0944e9cc980e9595",
+        "topic-7e0e11e28a27df3d"
+      ],
+      "hash": "12be7f714354e483b644261495282d3e08c51b568c9ce8373481afc603423505",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-release-3.1.0",
+      "source_id": "<85aa0528-0226-4c60-8926-7ab5ee97066c@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-b3536117ff78ec1c"
+      ],
+      "hash": "12de20a1ba7ab5b2b51f34f2e360e1ae25bcf838cb63a1790697d5384ea507f9",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-resolver-1.9.15",
+      "source_id": "<CAPLpRQKAbMfi46m6MiXFn5O4D--F0L1hZx3X3HBAU0V-tRW80A@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-2f321b5f9a76ba85"
+      ],
+      "hash": "134f4a1f8501e89d44e5a801eb76fdb1ddaeb7cedf2e9ac9bcc493623d2e32b7",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-reporting-exec-2.0.0-m8",
+      "source_id": "<31e16ccd-d7fe-332b-6315-403ef860f632@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-2147b65f04e5bccf"
+      ],
+      "hash": "138b5888e36dfec37cd721a338ade1440c116f73be7221530b93c7d7bebca32f",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-plugin-tools-3.9.0",
+      "source_id": "<c076da43-4e3f-e2fa-f6b4-b4ce5ee56561@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-8fd59d14e73d302e"
+      ],
+      "hash": "180eda6cf345c5226ad688d3ee45bc7932b555b57ba155848b016b5933896265",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-project-info-reports-plugin-3.6.2",
+      "source_id": "<cf1bfd52-e4a8-42bd-8fdb-7e9f92e3faca@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-23c7aeda155e7e4f"
+      ],
+      "hash": "183895e01c056a34b3ea82e1cc640b429f6eca98e9ac1463a50b168847e04bb3",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-surefire-3.2.2",
+      "source_id": "<CAGjJkv1UEou8LDemYQgaTJ1ybeQNwuqn+rPffUaMEMvgVJnDXg@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-dbe60290b5dd8bdb"
+      ],
+      "hash": "1868e4e1eaab1d39aa4cbd3d530e438011547a526c55ae27a8bd78d81c8cf22b",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-fluido-skin-2.0.0-m8",
+      "source_id": "<bccc8216-4f78-465e-9452-8efd33e5ff3c@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-8e3a95dbd7453af5"
+      ],
+      "hash": "1a25f2c671181cad4e6d7ed2d7f7dc17ff5a486724f61df2ab381ea07e388d64",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-archiver-4.0.0-beta-1",
+      "source_id": "<CAA66Tpocy1VFVQHzTei9CHewbnDEp3X0P2kfLP9en=g7QDdJmA@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-b0c75f99f5e90291"
+      ],
+      "hash": "1a7a4d645808270917296f310eb4516d76522c25a2151fff0fccfca2cc97a9fc",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-install-plugin-4.0.0-beta-1",
+      "source_id": "<CAA66Tpocy1VFVQHzTei9CHewbnDEp3X0P2kfLP9en=g7QDdJmA@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-b0c75f99f5e90291"
+      ],
+      "hash": "1a7f844b044a646ac575bf79a33a7b1b6764eb39172661c5151959019926b8a0",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-pmd-plugin-3.22.0",
+      "source_id": "<26213131-1cbc-430a-b540-871ea3b54318@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-5b69a14ab472f14a"
+      ],
+      "hash": "1b43ba839a2fd0353aaec9c925b6eb72dbf52a388f387d02ced94f1315027010",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-source-plugin-4.0.0-beta-1",
+      "source_id": "<CAA66Tpocy1VFVQHzTei9CHewbnDEp3X0P2kfLP9en=g7QDdJmA@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-b0c75f99f5e90291"
+      ],
+      "hash": "1b830a33fe513803c75c3c5ddd41f27f1c3849100185622a0b4fd05aec9cf40d",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-deploy-plugin-4.0.0-beta-1",
+      "source_id": "<CAA66Tpocy1VFVQHzTei9CHewbnDEp3X0P2kfLP9en=g7QDdJmA@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-b0c75f99f5e90291"
+      ],
+      "hash": "1bf48a0ab414683c7594c7db19626cd03b263c2323cf3dd9f47021379ddea019",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-resolver-2.0.12",
+      "source_id": "<CAPLpRQ+t5q+E6PLNfY=6vTODiPcT38c9kAhSECWkuG=vmqJwiA@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-47efce45b236f131",
+        "topic-8fa50b44e5ecdc14"
+      ],
+      "hash": "1bf71764e00087b918eafcf4cd6d0a3fcd6810cf8be1511c041bb3346183fd58",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-resolver-1.9.8",
+      "source_id": "<CAPLpRQJZ5aWUkc8kPONH5puOjU3BiypdDGSdgt_qbKhL6g_Bsg@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-e91f2f59b7247130"
+      ],
+      "hash": "1c0432b7a561fdb651ff96c947e1d7f3982947d84c159d1da38aa3ef76b1e44c",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-dependency-plugin-3.5.0",
+      "source_id": "<fe332089-92f3-4be2-d9ee-d9662fa4b551@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-6f1ded8379dd0386"
+      ],
+      "hash": "1c6bcd5011ccc3207094a393ca29a402be07f88293c7e4a41511d622fe871991",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-pmd-plugin-3.21.1",
+      "source_id": "<990da937-940b-4d30-a12a-d9a8e95eee46@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-5c75f79dab39b9a0",
+        "topic-6d115f5d3e80e2f9"
+      ],
+      "hash": "1c830e8076b0272ad8d79103b3dfc48b24c14371cad19773b5bb537542434e42",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-daemon-1.0-m6",
+      "source_id": "<CAA66TpreFTaT5iMfoTnAm8m3oX9bGAC=M=Y8kY1=v5xKqON-TA@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-41daf545d3f24ade"
+      ],
+      "hash": "1c96b77fb7ee1f7f7e3cf4550d8a84bd448b71e7b74c0bdbd9c7aab7faf12506",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-daemon-1.0.0-m2",
+      "source_id": "<CAA66TpqwJZ0Fu_w+W=ivR8bO73sQbXTM1HSVYU5wmCcW=Gaicg@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-2061c431007a42f2",
+        "topic-53ad3a93db3341e8"
+      ],
+      "hash": "1d5f032f34737125e591ae662332bb49c29bb71513675d0b71dbca180ee9abc7",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-reporting-exec-2.0.0-m4",
+      "source_id": "<a2274994-e7d9-ddb7-dae4-d3821d7a5466@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-ac9ece87142b5d8c"
+      ],
+      "hash": "1d85c223a974dfabd1a4dbe6a50ca431bdac0da513df3b51177f64369c2686ad",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-pmd-plugin-3.20.0",
+      "source_id": "<5fd79a4d-bf7b-f0d7-7085-fc99f3900ec2@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-21771ce5974cbb03"
+      ],
+      "hash": "1dbfbad8e792269ae17524c5574e414eeede25f8de5b43feb65b145bab71020f",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-fluido-skin-2.0.0-m3",
+      "source_id": "<2bf9bc0b-2fad-8183-fcec-4e1fce64eb84@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-4b4e78ca9edf3c82"
+      ],
+      "hash": "1eab9f323fe3aa8c0e4d2ccccc5fdd08fb1cbfee59c4fa51578b7713e4206cd6",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-dependency-plugin-3.8.1",
+      "source_id": "<bd779b26-0618-4c8c-baf1-2cba5db0bd9c@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-2910f2d6c754b3c7"
+      ],
+      "hash": "1ec9c7ff1d1c540c4170889fb4833466e1395777301f852301c63d634831bb9b",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-plugin-tools-3.13.1",
+      "source_id": "<a84c742b-d6e3-457e-8897-d6c8b68d9081@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-5c244e7684da0cf2"
+      ],
+      "hash": "1eca542206eb3bdceed133bd077f990176ac016eb1cf52aa77256ca63c1195b5",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-project-info-reports-plugin-3.6.1",
+      "source_id": "<909611c7-84a6-4f43-a16a-3d3104ee7644@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-50d77371d4a279ac"
+      ],
+      "hash": "1f27686192a4a7345470ed031e414499bb007cf76f370c0f4826822faecec354",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-invoker-plugin-3.5.0",
+      "source_id": "<092ab95f-3c9e-749c-206d-71972acac2cb@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-534953efd4874a99"
+      ],
+      "hash": "1fcbb5b50b697c247ba43b20b7b0bb6dd4ed6556f0673ad2c0ee9f581b725028",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-software-foundation-parent-pom-34",
+      "source_id": "<CAGjJkv3doLgZhASyj6fhBB9WoN65_tEKi46enAoizePB0KkpBw@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-2d9271bb1d4be87f"
+      ],
+      "hash": "20b7991d090358e8effba69d3f09dc3692a2f9299aec05fed8896d759b3d4b48",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-resolver-1.9.21",
+      "source_id": "<CAPLpRQKgygdzT+Pp==b_TO6f+3nRK2QsddtLNVmBXpXCAMAtdA@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-056d1e4c821f67f1"
+      ],
+      "hash": "22db17643b1c68fdb938cf73a7ddd9f4d2972680ce1c880210a584348e26a6ed",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-fluido-skin-2.0.1",
+      "source_id": "<C8C811DB-2C6C-4412-AB7F-637B46131110@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-b02bf136a73706d8"
+      ],
+      "hash": "23494a7a38abc413afad35f8b845d9043462d651104b66d7659636f131e793b8",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-mvnd-1.0.2",
+      "source_id": "<CAPLpRQKtjWhRHCAi8f73YzOd6D-JRxxMAbEVFK9iDs6tM38zjw@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-7980647645de9164"
+      ],
+      "hash": "23e784e166e4f5c7e0afdfa382b2c5a3bb35ed33b3dede615854e6556a48de03",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-plugin-testing-4.0.0-beta-2",
+      "source_id": "<CAA66Tpoq2x7TZxQOJDqpS+rN2tdSYEJuySwuRQNqA-_NB4M+xQ@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-ec9fb9457dd43651"
+      ],
+      "hash": "2423b121a3a318bdeab83743f468c8deb79522bafdf9606db76104d75b30c611",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-doxia-2.0.0-m7",
+      "source_id": "<a6257e6e-d18e-7a93-a346-13dcb6a9696c@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-c441054db5c9ab02"
+      ],
+      "hash": "2445b3ca6fbedb7a53d324dc0fabb83f200899ab1c2fee0362e84135dafb4637",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-plugin-tools-3.10.2",
+      "source_id": "<CAGjJkv2Gc+5cuDdoXsdDQvJJ6nGViGMNroi-WmhbxBLrGWjkLg@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-6adf572c9b0ad838"
+      ],
+      "hash": "2445bcaa71220a12d2e1afb82dd14d1e93054b9a670cd193df8955f3df385fe6",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-jarsigner-plugin-3.1.0",
+      "source_id": "<CAGjJkv1Rzv-51gAhy7H6Ec4Fy0y=4yJ_3yVBaB1mX-wPfQWV6w@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-47ee80550038ec1c"
+      ],
+      "hash": "245f9341b71261959ce48861c9793769ee18423806dcfa8422248e7767e6ebe5",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-remote-resources-plugin-3.1.0",
+      "source_id": "<CAGjJkv2=8=a613z6FTrJ9h-vZottpbL55N3iUzdY0cLfFxYBKg@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-d7cb668cd46c9277"
+      ],
+      "hash": "24c4303340846c8c2e6a548564709647b3644b2f81601ea806b509891001d520",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-install-plugin-3.1.1",
+      "source_id": "<CAPLpRQKVS_5CbqCzkmLoiUGArUqo0gKUhNnwGwR=L8n+M1PFcg@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-d2b82c38756de95b"
+      ],
+      "hash": "25c4678d7261bd5bcd8fdc26762950e1c0741c1dd77caf87e906765b8de539bc",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-changes-plugin-3.0.0-m2",
+      "source_id": "<CAGjJkv3m4ZY_2ZDftbdR_CooJWR+fRyXO2Q6NN329mozkmhW2g@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-886196b8717a04c9"
+      ],
+      "hash": "25c62adc48ef00c2db477962a9d65340df2b783d1e39fe042a6e214082f204d1",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-deploy-plugin-3.1.4",
+      "source_id": "<CAGjJkv3zcy5DS6Wh9+Bp8e_ZfLtMGEmO-FAUOsAEybDu+gpuGA@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-f8d160e7e116b530"
+      ],
+      "hash": "270d11a87819ea3c9dc7bb7931790fe6ee86195720e15628ff1a1f4268bd6832",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-shared-jar-3.2.0",
+      "source_id": "<CAGjJkv2vYigRG42KxHd6GHAmFHHWByrPVKW_GS74XW++YShJBw@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-ad2529c360218073"
+      ],
+      "hash": "274842c3ab53d3e5446c958316fe37291a07cc031f75f0e022aa8e2e49f1cfad",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-dependency-plugin-3.9.0",
+      "source_id": "<CAGjJkv3Xti2K1uWUPgL5nB=5qef9t5y9kO9_jvpNjL==Q=ekGw@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-add61e5c7fb449d8"
+      ],
+      "hash": "28a52429e7cc8f4c2ae724a7d9f4db26148a3767b99d3879b08515fcfed023e9",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Members dispute hardcoded exclusions versus general dependency analysis and false positives; manager asks to keep the vote thread focused. No Foundation receiver act is established by this technical disagreement."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-jar-plugin-3.4.2",
+      "source_id": "<CAGjJkv366Nj_6PwEsxUFO7hgd6G3aFfOGooraGF2R6XfDxjciQ@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-aa81fd49a4b63149"
+      ],
+      "hash": "28c9a5bbbf59ed03f09b07cca4400145d9ee8ddaa2c6ee7742364e27024a537d",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-wrapper-3.3.3",
+      "source_id": "<CAGjJkv1W9eMDGd05re4X8wHS9rLFcir49xyu3w87uNhq6tWQ1A@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-32e749eac84855a2"
+      ],
+      "hash": "296d89b0d973ad750daebd773afca3c479614c160e89092175407437e20846a0",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-site-plugin-3.20.0",
+      "source_id": "<725df599-5d48-4da0-99d1-d58f2706bed4@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-61edab06663a451f"
+      ],
+      "hash": "29bdb4199837228267b56b7fe14a03723ff12f1df4850126c1a0e0ae9f075c19",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-gpg-plugin-3.2.8",
+      "source_id": "<CAGjJkv397KWXPnZpX7XrK_MzqRimgozy8C9fpxGQS8fO=95g5w@mail.gmail.com>",
+      "already_in_baseline": true,
+      "opening_topic_ids": [
+        "topic-7fb28506a71f5d90"
+      ],
+      "hash": "29e146d205ea68b152ffd47166392a3e3979b6e77f86f506d90e475c24207e73",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-jar-plugin-3.4.1",
+      "source_id": "<CAGjJkv0V3jyjVh41qpEffLR+yh580a0Hc6bBobVSi7+t0RkGBQ@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-ed75ab1e737b35fa"
+      ],
+      "hash": "2b3b9235e57f6640c645988a95aa3e0ef12aaa9598bfbe6e3823522d8af868a8",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-resolver-2.0.11",
+      "source_id": "<CAPLpRQ+YY2=WNp4sGPMjiQoq_E7wybgDnqemMAYZso_+AAjtRA@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-d7af84c6510944a5"
+      ],
+      "hash": "2b954ecf748bc31bf145aa9cff54aacd6a99c6445a8642f23410e67951ba5cb8",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-install-plugin-3.1.3",
+      "source_id": "<CAPLpRQK2LM4rp-p-dwFs80dVWKuir1wJT6yJwEVCbp41jArtSg@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-18f105c0a7c2d9e2"
+      ],
+      "hash": "2bbf71e3ced24d9f44eb71e37a9ed1fa7bee2079c433109ea0e914dd797b0a00",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-resolver-1.9.23",
+      "source_id": "<CAGjJkv3u6aD8=F2ceoSQtvyK7nSnVNzGx0JW6acEPoYYRSNncw@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-eefb87e2fe3560c1"
+      ],
+      "hash": "2bc6a877b8017cd6f51e171fae63f1bcb24c29c2cab85bc780bc0c76dda8ffba",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-resolver-2.0.0-alpha-8",
+      "source_id": "<CAPLpRQJ8qqg4-kd0tZPXCUOKGn5zLFwO-QtC2vsjFZak6bOv+w@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-08a58eaea54abce5"
+      ],
+      "hash": "2e6d5b8105ac958d6047102c1fb3f72fe146594e661591f95d3ae68585b851b5",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-resolver-2.0.0-alpha-10",
+      "source_id": "<CAPLpRQL8CzYFgMMb28WBV=U5=H3K6Dp7Hzciv_Si_4eg_kOS5g@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-eb2bb9b671af4a64"
+      ],
+      "hash": "2fca7dde2867c02f1dfd3c8f9ab147992912c1dadb1cdba418b1a45f3158ddf2",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-compiler-plugin-3.14.1",
+      "source_id": "<CAPoyBqSu8ZrtQ=j010jCCtgsO_G_2nTX0Ez7271NPSe-6VKKVg@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-c407811d56c5e165"
+      ],
+      "hash": "2fd84e797b6770346218c73b1587be79ebb883d92cc0d4fc1fde1ffdc4a184c1",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-plugin-testing-4.0.0-beta-1",
+      "source_id": "<CAA66Tpocy1VFVQHzTei9CHewbnDEp3X0P2kfLP9en=g7QDdJmA@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-b0c75f99f5e90291"
+      ],
+      "hash": "2fe152a953990e807ca0ea1981d11279a6418ae845fdc8cb55dcbf911ef4a611",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-4.0.0-rc-4",
+      "source_id": "<CAA66TprgMmSGPakSbw-8iWseGumr+M6o+RRrTb1Q0JpYqGSpZQ@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-6c104efdfbfabd2e"
+      ],
+      "hash": "306102e1f416240b433372630992400eb7b4dffe133136342d60b582b99f83e0",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-4.0.0-alpha-5",
+      "source_id": "<CAA66Tppq42ksvxbZ_ZkRM1jA5sZ9wJo5jFpm688-AJ=xponX+A@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-b07740dcb80f3419"
+      ],
+      "hash": "30c703a633ff26fb7a053c9abb388bb4a4b569103e45400525ec3f562bc1c332",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-doxia-sitetools-2.0.0-m5",
+      "source_id": "<9faddcd6-55fe-0a15-d82c-75c8abe56c60@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-590790905d83fb3b"
+      ],
+      "hash": "32176f4dfb23e1a853d84b9821c610dc24bc8ee5dc94cdc0bc04b99644ea9ecd",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-jar-plugin-3.4.0",
+      "source_id": "<CAGjJkv1+eUiOMLcohR6C+iG_MbxWaEEg=UfLKADmDPkrz0QvEA@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-a3adaaeee847c168"
+      ],
+      "hash": "340203594232e39657673aeacf0471230037a82dd6989f016d30c9049e1bdaba",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-surefire-3.5.3",
+      "source_id": "<CAPoyBqRMM+PJzzremg64AhQPQNoiwGgVf5_X+j_3eOi=8rZZsw@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-34255c23d99b1598",
+        "topic-98e65fb07e012862"
+      ],
+      "hash": "34b37d9e4207850c3ea5b786e742c9594e252951680e2b02465ec15c740133b5",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-wrapper-plugin-3.2.0",
+      "source_id": "<CAGjJkv3iBAxkxTd6bbJddjjeBYh7Qgqe3+hLtK+au5zA+1fFMQ@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-05527f0615a280c3"
+      ],
+      "hash": "350135548a95925fead25c57c8889abbb5760b5d1aec2298127fce54d41096bc",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-4.0.0-alpha-4-release",
+      "source_id": "<CAA66Tpr5_AChTrxE=5nYqFfe3NiYDeF9L2aysM1h6DRProuogg@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-181427a2ea905f00"
+      ],
+      "hash": "3516334a7983ae22c59da40b504dd1e7085579e705056e813d6f0c3a8074d505",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-site-plugin-4.0.0-m7",
+      "source_id": "<26fe32ac-4b27-1053-e0a1-466d419de169@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-7b7d2acbe607c437"
+      ],
+      "hash": "3757e964721206e522cd59430b967e3fbc238bc6621b1bd43812f4fbafe69a90",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-pmd-plugin-3.28.0",
+      "source_id": "<CAGjJkv0691=k36ZRcExnem_PnuxQU7XebVZNSaO9msz-Tcej7Q@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-e1c97aa90efac337"
+      ],
+      "hash": "38342c4bf106d06a6535265c51630d93cf7d9ade422485797b905bb7ba2a3e50",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-resolver-1.9.18",
+      "source_id": "<CAPLpRQKSchdpdQSRLYwno1QZ1r7R9W=eAJLMb1w7VPPAi0qDRw@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-bede06759c774380"
+      ],
+      "hash": "38b88ff7aa058a1df2eb7b428d449f5ca467b3c926f4349a06a0c1123812106d",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-shade-plugin-3.5.1",
+      "source_id": "<CAGjJkv2sETM4L4r2m3CgpQ+X3brq6BwOiTNe+egsBAZfk62aKg@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-25fd79ad76de82de"
+      ],
+      "hash": "393daf8282418a38c040363bef432bfdc187deb9685e0b992cd1aeaeae80edb5",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-install-plugin-4.0.0-beta-2",
+      "source_id": "<CAGjJkv2wAw-0WNbMAE7DbjnyzLUZq5KwL0OLN717B36yQogPOA@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-0655ca82cb250693"
+      ],
+      "hash": "39ca230a5ebe0be4ebbe185a8fe3edb17a7ed8c404fb20bab60929f7ed6792ef",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-3.9.9",
+      "source_id": "<CAPLpRQK8C3Yb-z+U1-h4LOZgagELd-Fw6F5wR44p5riOk7kbWQ@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-a6d03ea925c27dd1",
+        "topic-aa39da0fd832271f"
+      ],
+      "hash": "3a4db208acc8cf0f2f1b2f5587d0eea114abc53bd5553b273b5634af29a29a1a",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Initial candidate had a POSIX shell == regression, followed by a respin. Preserve the same release family and technical reason; this does not establish a Foundation service intervention."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-checkstyle-plugin-3.3.0",
+      "source_id": "<b766218d-585b-1e7e-120e-260f6d73f450@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-99acfa2edc0b6b07"
+      ],
+      "hash": "3adb6bcd8bdfee4c0ab62e66dbada43c711bd81a99f26860212aa38c7386c0ce",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Gary Gregory explicitly cast a nonbinding -1 under a misunderstanding about excluding test sources; subsequent clarification concerns generated sources and was acknowledged. Do not count that first statement as a binding PMC veto or a Foundation act."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-resolver-ant-tasks-1.5.1",
+      "source_id": "<CAPLpRQKPi7dfCv7wgX+2toh49xEwqwr-5g1KB2HzXowf3NbQ1Q@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-a9dce290611414eb"
+      ],
+      "hash": "3b23796f341224db8fc8bb91200946b624758cc44795ef354207ba107be96b5b",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-gpg-plugin-3.2.3",
+      "source_id": "<CAPLpRQJx3ycHm_xtZhvE03c=Dtnb3vygFu2OgQGM9exn7kvFFg@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-88d46631653a877a"
+      ],
+      "hash": "3b510758cfb6ddf4011d927d9e943ddfaf30ad52a1a03b9cf804e00bb7b2b833",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-shade-plugin-3.5.3",
+      "source_id": "<5800424.DvuYhMxLoT@orchid>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-a35372df7c7523f2"
+      ],
+      "hash": "3b74220b99f1fc8432237144e2388e1ea60df1f683ff976623e435b798207e00",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-invoker-plugin-3.8.0",
+      "source_id": "<daf96492-de18-4390-be56-d2b0ef5930e0@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-3667027c9d0ccd98"
+      ],
+      "hash": "3c1e957870cfb680ca421baf49472ef0e77318cd693de8044661b9bfc566d3f7",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-fluido-skin-2.1.0",
+      "source_id": "<CAGjJkv1GCadoH6iN4NzyT71dU7rD3w8SWMtj6Xi_+UXggtUV=Q@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-2464ff943b6aa313"
+      ],
+      "hash": "3de365a02200fd0b09afb757283666bcb2e85df27ca43e04188d979b45d06b1a",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-clean-plugin-3.5.0",
+      "source_id": "<CAGjJkv2QnpdFHq6dArxpcrDb-SCE=vqO-cN2Jw5=CWKTEbkraA@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-8af2f962837f1a38"
+      ],
+      "hash": "3e08b5c5fbf34eddee83037b9c5eb3829fcbfc13c70fddf2991dc3fb929f7d77",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "A tester reported failures while using the 4.x branch, then corrected the report after checking 3.x. Keep the correction; no release failure follows from that initial report."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-gpg-plugin-3.2.5",
+      "source_id": "<CAPLpRQK0sReNEdx5guSnf7dhc=3F0=1NR_G63_S7ubHwGxJRrQ@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-e5e838dc03c356b5"
+      ],
+      "hash": "3ee624890ebe1cd78750e0900aa14ee99495e209310845f09d8470f716ef8822",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-artifact-plugin-3.5.1",
+      "source_id": "<6029771.lOV4Wx5bFT@orchid>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-3b87bf7f4deb1045"
+      ],
+      "hash": "3fdf5d7292894065755b60db0d6e7e8b7f4221938c50c1b13f222bf92a3f3a52",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-checkstyle-plugin-3.2.1",
+      "source_id": "<2aacf6fc-d6bc-b3e6-2415-85f528f53780@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-7fe2cae10004c44c"
+      ],
+      "hash": "410838d4dd89bb7252b3ec0429ccb8b046ce06f0cb88ea62eb78175b5c967cf5",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "maven",
+      "family_id": "maven-release-maven-artifact-plugin-3.5.0",
+      "source_id": "<5715765.DvuYhMxLoT@orchid>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-9ef5c09c48779f4d"
+      ],
+      "hash": "41dd3ca04a070da076b5e7db647d18d48c0180f1a6d75ae209f10f8457609faf",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "tomcat",
+      "family_id": "tomcat-release-tomcat-9.0.112",
+      "source_id": "<CANwj8ZraqSwUTTtudzNpdx5fSL1sPBn28VVXkLNtarUwfh_9EA@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-fbc0c406ed976c4b"
+      ],
+      "hash": "0073113e670e577bb17464e453867ac229860170eae97fba304d8c79bad771e2",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "tomcat",
+      "family_id": "tomcat-release-tomcat-10.1.18",
+      "source_id": "<728b340e-08f9-4c0b-8dc4-95151a78199e@christopherschultz.net>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-b4c30d5f970b94c8"
+      ],
+      "hash": "00f1da034b871e61d2f586eaf71dabc95351f07eb645041e54519c243e85b77b",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "tomcat",
+      "family_id": "tomcat-release-tomcat-11.0.14",
+      "source_id": "<9d5ba1ea-40e3-4289-b1dd-82136af29695@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-734908571c013811"
+      ],
+      "hash": "01d606b28cb129496e7cd052594785875b938796b4c9c36abb52b4e15de8f26b",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Verification script checked an absent x86 artifact and embedded a machine-specific gpg path. Developers identified local script/configuration repairs. Actual Windows signature was independently verified; public GPG and central Windows signing are distinct mechanisms."
+    },
+    {
+      "project": "tomcat",
+      "family_id": "tomcat-release-tomcat-10.1.44",
+      "source_id": "<b5d1f521-997c-4a74-908c-55fc8ecf2679@christopherschultz.net>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-93d4877362a28033"
+      ],
+      "hash": "03dfcc202b61b70382b7366d656ae3ccf3a21cbf66124cff9477f13a25d59f56",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "tomcat",
+      "family_id": "tomcat-release-tomcat-10.1.8",
+      "source_id": "<55f3a702-d3d0-cdfc-1134-95f3e474c7f0@christopherschultz.net>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-e27822ffd2744295"
+      ],
+      "hash": "04b27642dce901d6e3ab7bd979f49728d2e12924e5ce5192e655357dfaa4a2d7",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "tomcat",
+      "family_id": "tomcat-release-tomcat-11.0.7",
+      "source_id": "<82ae5451-60a6-454e-9207-bc1321c15336@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-dce3b0822e87dab5"
+      ],
+      "hash": "0611cdca298faf4b778ae3ca162c2f7484bfca329cc34fc36fa855b077ec5f5a",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "tomcat",
+      "family_id": "tomcat-release-tomcat-9.0.94",
+      "source_id": "<CANwj8Zrdjs6_HO3x-i2t6iUbudDxYt0Q9qcfa_9DObsmBJq3bw@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-3488d05e1b3cc146"
+      ],
+      "hash": "0651c82533cc4af9d30a487dc8616938e395df8f58f5d732bff81e6aba83809d",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "tomcat",
+      "family_id": "tomcat-release-tomcat-native-1.3.0",
+      "source_id": "<387efb0f-5caf-4fbe-b64c-d98707be72f8@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-ad2f6805669090f8"
+      ],
+      "hash": "070913d315779caa235d7415ef87b4be9ff14f59addc3810b287f4cba82dc817",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "tomcat",
+      "family_id": "tomcat-release-tomcat-11.0.15",
+      "source_id": "<057c74da-4d4e-4afe-abb3-3d553f63f920@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-427d73dd088d8e0c"
+      ],
+      "hash": "07a09d3e7643da4a8afc16b42ec56d68901abc4128a0bdc3e0d09926d811fdd4",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "tomcat",
+      "family_id": "tomcat-release-tomcat-9.0.82",
+      "source_id": "<CANwj8ZpCfo0C95x4H1CoMHwmyPd9t2pyxb5inmvqcQ13=OeU-Q@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-e9d74c7b69a52ae1"
+      ],
+      "hash": "0bde35eb2666cedeaa036e28b68a585f0b1862d23af6bbf33a23e3afffcd8fc4",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "tomcat",
+      "family_id": "tomcat-release-tomcat-10.1.14",
+      "source_id": "<a4a12dc3-1078-463c-83e9-e93a1f122cbb@christopherschultz.net>",
+      "already_in_baseline": true,
+      "opening_topic_ids": [
+        "topic-9bfa3f6f01f1f60c"
+      ],
+      "hash": "0d92b0f230779d2eb433ce4465bdef0da40e2c6ebd7a5ca3c8123774f92e9401",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "tomcat",
+      "family_id": "tomcat-release-tomcat-10.1.37",
+      "source_id": "<eeb38667-e954-4d4e-9881-b688f4d348f0@christopherschultz.net>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-50858a209457607a",
+        "topic-59c7b8bb70cb536c",
+        "topic-70261d1353063d44"
+      ],
+      "hash": "0e83c62d90863d8922af113b9b0e43aa9aa3f80404fbbb294caa17259f502706",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Suspected absent GPG key was clarified as an already-included signing subkey; reporter accepted the explanation. A distinct Windows signing check still failed. Neither fact alone establishes a new Foundation restriction."
+    },
+    {
+      "project": "tomcat",
+      "family_id": "tomcat-release-tomcat-9.0.74",
+      "source_id": "<CANwj8Zo86ag_Zbjk19H9hcpQUzMV=s=vfsaW=R+=LXkVer6G5w@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-40afe86431dc1c15"
+      ],
+      "hash": "0ea878f322ea6541cf2b88a9c17cbb5caf4d91d444cbcb9f7b598bb83f05e7d1",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "tomcat",
+      "family_id": "tomcat-release-tomcat-9.0.99",
+      "source_id": "<CANwj8ZqZUG1cXTRCGr+yvz9GFXU5SBUxSDNtQYWf+rLbbTJVBA@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-e334de6443b3df8d"
+      ],
+      "hash": "128f9a189ebbdff6c0385aa958cf0cdab716d25a8f54ca26bab08b1ae0e91223",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "OOME followed a newly configured 256MB unit-test heap; 512MB rerun was successful. No shared infrastructure resource reduction is established by this local build setting."
+    },
+    {
+      "project": "tomcat",
+      "family_id": "tomcat-release-tomcat-11.0.5",
+      "source_id": "<09679368-f457-42e3-9c96-a77a11b50895@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-ee7c133613f58c98"
+      ],
+      "hash": "1339c95cd0c1ea85a997f4b3934b2a94c338758fd3dbca867b618e0b44c9aaae",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "tomcat",
+      "family_id": "tomcat-release-tomcat-migration-tool-for-jakarta-ee-1.0.8",
+      "source_id": "<8431d638-cde5-4c78-894d-9ae5cecc8162@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-d6ded562472e96c0"
+      ],
+      "hash": "148826820108ee36011a81c5325e91a09d4945ef8fecf6ce539cc037169d0ebf",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "tomcat",
+      "family_id": "tomcat-release-tomcat-9.0.75",
+      "source_id": "<CANwj8ZoPHtLh68dqkFhHLdmz-RL4TAj8gSN4DcjgXb8zhc2FQQ@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-dbce85dafe0855e1"
+      ],
+      "hash": "195998c34f5f03dde149d74184306e427a0083c74fe7c9e657ce6ad298f34b31",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "tomcat",
+      "family_id": "tomcat-release-tomcat-10.1.12",
+      "source_id": "<f4c6b4dc-8fa9-37f6-1a5e-a00c56fa11b8@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-2379969d68f9eb1e"
+      ],
+      "hash": "1a22046c6ea337bc11f1d9007b622258384d6455f22ca7805aa716fe74f9e2dd",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "tomcat",
+      "family_id": "tomcat-release-tomcat-10.1.40",
+      "source_id": "<e65b7764-6f7a-4b0c-b76a-e2d8dd34ae83@christopherschultz.net>",
+      "already_in_baseline": true,
+      "opening_topic_ids": [
+        "topic-8bceab4ee35b8cc8"
+      ],
+      "hash": "1b63efaf7ee277275eaf2b967b7e090a94b5690d1debfd325d6f4b010edcdf2d",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "tomcat",
+      "family_id": "tomcat-release-tomcat-9.0.95",
+      "source_id": "<CANwj8Zoeodr6pVO3wBQUMZw6byA51nrwi-rv5YTyxZ+zA+f8yg@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-624a39fbf90a3b54"
+      ],
+      "hash": "1c0d8276994b38aa27cba48d056d96a46090d95ebdb9233d58b9763b89d33835",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "tomcat",
+      "family_id": "tomcat-release-tomcat-connectors-jk-1.2.50",
+      "source_id": "<7c5884d2-aa68-4f4d-9e01-2c4041553652@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-46ae8f253814dd02"
+      ],
+      "hash": "26c777ae5e8e7c522ddab9919094a2bbd2e0745af9ac82a4de2846828ca40fd5",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "tomcat",
+      "family_id": "tomcat-release-tomcat-11.0.4",
+      "source_id": "<2a0b044a-f7ad-45aa-b1d0-8bb99426f98c@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-0417c39e4fb95e6c"
+      ],
+      "hash": "27b043f65b91fc785023f393c709a3106bf115412eaf0a45dfb19c1b26afe57d",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "tomcat",
+      "family_id": "tomcat-release-tomcat-9.0.113",
+      "source_id": "<CANwj8ZqBJgTzaMFNpQuBWbgzdKAEE03NWxZntJRq1x-iW3vdhg@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-b4efc1ba3ef90ff3"
+      ],
+      "hash": "27cc9f18248d682577e7c5a1d64f7a85eb829d158b386f14b5d7073b5587140f",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "tomcat",
+      "family_id": "tomcat-release-tomcat-11.0.0-m15",
+      "source_id": "<312e1521-54c0-4c26-aa17-92fd7b13b0d5@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-7d055287f34a4c90"
+      ],
+      "hash": "29765b453c1247fb6ce789e2ecc82077d3957c8ed0cfdd8369bda994458c3b40",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Christopher changed +0 while investigating verification differences to +1 after builds/tests; do not forward-fill the earlier uncertainty. Full reproduction later documented, including fulldocs on Windows."
+    },
+    {
+      "project": "tomcat",
+      "family_id": "tomcat-release-tomcat-native-2.0.3",
+      "source_id": "<c978ad23-be11-0e38-7893-a1598557e7c4@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-b36f88bbdf930704"
+      ],
+      "hash": "2a220413f8a35bfe485900b9eeb2c900e9bccba148253ae9c40230a8b780e5f4",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "MacOS build problem was traced to the selected APR build-tree configuration; installed APR path built successfully. Deprecation warnings were known. The compile-only and later fuller tests must remain distinct."
+    },
+    {
+      "project": "tomcat",
+      "family_id": "tomcat-release-tomcat-9.0.79",
+      "source_id": "<CANwj8ZpEcTKZtF-uQfRxVd7LXwv09xegSzUb-gwB08RtzW8aJg@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-653de46e88d120e2"
+      ],
+      "hash": "2d3890fc9349c72ce7b26fb059fdf73725e5eebd539dca0750fa20444ba9a207",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "tomcat",
+      "family_id": "tomcat-release-tomcat-9.0.91",
+      "source_id": "<CANwj8Zrm_c+djQqDow74B-6vXbM2Qerx=LBHZBVi6YC53-G3hw@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-a6ed4cdf881b7035"
+      ],
+      "hash": "2edf2b4736d6890130f12bd6af56f93f8c6ef84561940cae6be34bac9da97452",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "tomcat",
+      "family_id": "tomcat-release-tomcat-10.1.17",
+      "source_id": "<d270cf9b-fd20-400b-af60-1b752a9b7fd3@christopherschultz.net>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-8724bd84c69a58d6"
+      ],
+      "hash": "33eff69de258e508117480abcd7ed7b1d10e4bfc76bf47691d301db8050c0fbe",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "An extra building marker in the tagged source was explained by the release manager as a local Windows VM workaround, not a build-script bug. Mark suggested the existing ASF-committer MSDN subscription; this is advice about an existing resource, not a new grant or evidence of uptake."
+    },
+    {
+      "project": "tomcat",
+      "family_id": "tomcat-release-tomcat-10.1.50",
+      "source_id": "<9a66661c-8f5a-40d8-a1b1-e6b764fc388f@christopherschultz.net>",
+      "already_in_baseline": true,
+      "opening_topic_ids": [
+        "topic-e25eef899f76faea"
+      ],
+      "hash": "38fade6730127e9643d0f7fda1df08624d63802a28db3260e70bb89e0d376641",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "tomcat",
+      "family_id": "tomcat-release-tomcat-10.1.31",
+      "source_id": "<74ab2794-e534-40f3-adaa-da59e5aa9e21@christopherschultz.net>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-58948e2c0cb206b4"
+      ],
+      "hash": "39db4eff52a9a1bfaef04e5f3bf22d862d6eb7564d86a709babd32f855145a5f",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "tomcat",
+      "family_id": "tomcat-release-tomcat-10.1.16",
+      "source_id": "<cc450a90-c3a7-41c4-a8a5-5959b709b737@christopherschultz.net>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-d537358af35caef1"
+      ],
+      "hash": "3ab550f423414084eb6b5ed93bf55ccafb86e3646b8b2d290bdcc610b6850c4c",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "tomcat",
+      "family_id": "tomcat-release-tomcat-10.1.32",
+      "source_id": "<5aa927d0-1927-4d88-92f6-04d7465a81be@christopherschultz.net>",
+      "already_in_baseline": true,
+      "opening_topic_ids": [
+        "topic-29c0312b104927e7",
+        "topic-33f23c11c2da15fb"
+      ],
+      "hash": "3bab6c93f0fad03bf93a6edbc9558e78c61e96bf43b76618341828b67d292ebb",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "tomcat",
+      "family_id": "tomcat-release-tomcat-11.0.0-m21",
+      "source_id": "<f387fd44-efe2-446d-bfbb-e13514e5a673@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-f379d63f3090c9be"
+      ],
+      "hash": "3bb3287866bfdcb1fd121874ffd8f00b4a37dbbccfc5a98207c914c9e988862e",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "tomcat",
+      "family_id": "tomcat-release-tomcat-11.0.8",
+      "source_id": "<dc1327d3-c7c5-4ab1-af02-9e0a45b0ef20@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-5aea3dc9cb283c9c"
+      ],
+      "hash": "3c35ee85b3e76639a040bf8279cd690d6aef7ae6f4908a8a71228d994fdc008a",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "tomcat",
+      "family_id": "tomcat-release-tomcat-11.0.0-m11",
+      "source_id": "<136d7162-be4f-4c1b-fc10-96eb64aceee5@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-9ec8f5e01d53cede"
+      ],
+      "hash": "3c930acde4ab449fa1fd9f4053920cd5001c2a94a6edb47894833d92a7540946",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "tomcat",
+      "family_id": "tomcat-release-tomcat-9.0.72",
+      "source_id": "<CANwj8ZrupRzdNmGS-hTdijn8f0SDsdfNb3kohx_Wy3No_8xv4g@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-8c7a5ebe84c4298c"
+      ],
+      "hash": "3dea6f92aef285e0c8f096b25e87251a3ac0aee50b0056e2239263e530200241",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "tomcat",
+      "family_id": "tomcat-release-tomcat-8.5.88",
+      "source_id": "<b6ac8929-4d65-2af2-305d-1e02797570e8@christopherschultz.net>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-a63d54c3bf6319d5"
+      ],
+      "hash": "3fac44f1b0cb3c8c6bb5a1116ddd6bebcf57fb08ed3ce77f64251e8590e09f3b",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Cross-platform bytecode difference was traced to Java 11 targeting Java 7; the reporter offered low-priority JDK bug reporting through existing access. No Foundation service act or actual new JDK report is established."
+    },
+    {
+      "project": "tomcat",
+      "family_id": "tomcat-release-tomcat-native-1.2.36",
+      "source_id": "<1c2c831e-3268-73d7-abcd-fbce0f229056@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-ced106fe665f1bfe"
+      ],
+      "hash": "43c9be42e7da0f74ccb47291f564cd3325c0294b33569eefcef1b40e351ba330",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "tomcat",
+      "family_id": "tomcat-release-tomcat-native-1.3.2",
+      "source_id": "<ca3d6fa3-db5c-4cf0-b33e-7826ad6901cd@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-c5526e32d735b5dc"
+      ],
+      "hash": "451c63cdb0a1ced25c8b7e7559d83f146744e109352ad12cc28cec8c34d27302",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "tomcat",
+      "family_id": "tomcat-release-tomcat-11.0.0-m23",
+      "source_id": "<182117ca-714b-416f-bafb-47106b739eef@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-9d3a184655ebe622",
+        "topic-e55c9d041361d891"
+      ],
+      "hash": "46b3bcb7e7387b6fb49134c12c3df33c65b4e50696195e89f3e20b66fdb3c9cc",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Maven staging repository was initially not closed and manager fixed that. Mark later changed +1 to -1 for HTTP/2 recycling regressions. The superseding M24 belongs to the same registered retry family; earlier testing approval does not establish final publication."
+    },
+    {
+      "project": "tomcat",
+      "family_id": "tomcat-release-tomcat-9.0.108",
+      "source_id": "<CANwj8Zq6jnXShWy0P1ZitJYkJiadMM-XzdHLTaAZMvKkAKp9AQ@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-0bf5b3be96a07c70"
+      ],
+      "hash": "473e1f9bb101997214d77276cef604414c77d84d70680bcd3c2e4c9ad205b0a1",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "tomcat",
+      "family_id": "tomcat-release-tomcat-9.0.89",
+      "source_id": "<CANwj8ZqfG+TzFFxsD3Zs8D5dfH3m22CjyHZMqmxYVBf1upib1g@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-2a8ed931a6a5fe8c"
+      ],
+      "hash": "47d79e45951a5f5ff831f0e05c8a2add4da4f61f90ed97e5c4f6539bc2e033b2",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "tomcat",
+      "family_id": "tomcat-release-tomcat-10.1.43",
+      "source_id": "<f84b2d35-ec26-49e9-a1a7-000589989712@christopherschultz.net>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-1238b6414722931d"
+      ],
+      "hash": "480f05d055fca41d50ba58f0451ffc229a4172c9f5f36d67dfd2b44038aaf22d",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "tomcat",
+      "family_id": "tomcat-release-tomcat-10.1.46",
+      "source_id": "<bbe2eedf-6805-478c-a70b-1d033d0e3cf2@christopherschultz.net>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-09bcbe4c633d18b9"
+      ],
+      "hash": "4888d4430f8948483e4c412045df5846432992073f27bb546420a6a802291a04",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "tomcat",
+      "family_id": "tomcat-release-tomcat-9.0.109",
+      "source_id": "<CANwj8Zqd_54yoWU6HEN+F8mA36sJxnL+3b03Zg_uuY7P_7iQ1g@mail.gmail.com>",
+      "already_in_baseline": true,
+      "opening_topic_ids": [
+        "topic-7315469385802282"
+      ],
+      "hash": "4916a71cc71680ba83ca229062eef3fae8b98ac72f22ecc084630235b229ce50",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "tomcat",
+      "family_id": "tomcat-release-tomcat-9.0.103",
+      "source_id": "<CANwj8Zq1a08sqhWUGtC=_=c+jQ7Aj4pm1zigOW4UanTXoWB+6w@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-9bfb3f1ab109a885",
+        "topic-b607e31b9a645fd6"
+      ],
+      "hash": "4e4937face239cb21e8a1b7b6cece803902e3f36298d4b50cc0eaf337e76e9de",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Reproduction -1 was recast +1 after setting java-ffm.home. A separate invalid Windows installer signature was confirmed; manager describes a possible stale detached signature during rebuild, explicitly uncertain. Keep this technical explanation separate from the central signing-service migration."
+    },
+    {
+      "project": "tomcat",
+      "family_id": "tomcat-release-tomcat-11.0.0-m19",
+      "source_id": "<CANwj8ZpXx0Pi-tVGyVD==Jv8xFkxwF6hZJwMYnytkEYYimjSeQ@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-01f22e37fb51d3cb"
+      ],
+      "hash": "4f67cf61f861d25f80613a9f2c69c50cf6287ef1aef81ea31283a78a164c7f4e",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "tomcat",
+      "family_id": "tomcat-release-tomcat-9.0.84",
+      "source_id": "<CANwj8ZpR4GYndYkiL4ef7F-SD+ndrR196jan2z4f3HtiOKxKxA@mail.gmail.com>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-311edf4456b3d60c"
+      ],
+      "hash": "5090c38e96fe0ae0cf65aeebe7060d22563d381b4524f8a6cc5fedd251bbc124",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "tomcat",
+      "family_id": "tomcat-release-tomcat-10.1.5",
+      "source_id": "<8aed9856-59bb-bc62-6e46-32cfed0904fb@apache.org>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-4ae124ed1bd5f646"
+      ],
+      "hash": "50ddfe5b0a2be1b3380f121ab74bf2d8a45973be6cdcf0a314ef23ecc45cfdd1",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    },
+    {
+      "project": "tomcat",
+      "family_id": "tomcat-release-tomcat-8.5.100",
+      "source_id": "<94d9e36d-d531-4b13-9e2e-1f7c584215a7@christopherschultz.net>",
+      "already_in_baseline": false,
+      "opening_topic_ids": [
+        "topic-462169759e4b4c16"
+      ],
+      "hash": "529e8bbbf1a9722a8cfd7a2438af60efad256a607ee8452d085744791932924e",
+      "reading_review": "Complete opening-topic variants reviewed, with previously reviewed exact raw variants reused by hash. Prior closure review remains separately retained.",
+      "interpretation": "Retain original ballots, explicit binding/nonbinding qualifications, reported tests, and any corrections. Routine project release approval is not by itself a directed Foundation commitment. Final horizon components and authority still require explicit source-level assignment."
+    }
+  ],
+  "specific_interpretations": {
+    "httpd-release-httpd-2.4.55": "OpenSSL 3 deprecation warnings with -Werror and bundled APR configure regression were discussed. The proxy test concern was qualified by process/reuse behavior. These reports do not by themselves establish a Foundation-directed change.",
+    "httpd-release-httpd-2.4.62": "A shutdown pytest failure was attributed to the test fixture/framework, with a tester working on its repair. Preserve that explanation rather than treating the failure as a service refusal.",
+    "maven-release-maven-checkstyle-plugin-3.3.0": "Gary Gregory explicitly cast a nonbinding -1 under a misunderstanding about excluding test sources; subsequent clarification concerns generated sources and was acknowledged. Do not count that first statement as a binding PMC veto or a Foundation act.",
+    "maven-release-maven-3.9.9": "Initial candidate had a POSIX shell == regression, followed by a respin. Preserve the same release family and technical reason; this does not establish a Foundation service intervention.",
+    "maven-release-maven-plugin-testing-4.0.0-beta-3": "Public thread notes that a draft GitHub release is not public and requests a milestones link. New issues are GitHub-only; old Jira issues can be migrated/copied/resolved. Matthias later explicitly identifies votes as nonbinding. The permission role and migration service require their separate family evidence.",
+    "maven-release-maven-clean-plugin-3.5.0": "A tester reported failures while using the 4.x branch, then corrected the report after checking 3.x. Keep the correction; no release failure follows from that initial report.",
+    "maven-release-maven-doap-plugin-3.0.0-m1": "The manager confirms ongoing maintenance for now and plans later usefulness feedback. Herv\u00e9 links prospective DOAP usefulness to ongoing ATR work; this is not evidence that Tooling requested or delivered a new service in this release.",
+    "maven-release-maven-dependency-plugin-3.9.0": "Members dispute hardcoded exclusions versus general dependency analysis and false positives; manager asks to keep the vote thread focused. No Foundation receiver act is established by this technical disagreement.",
+    "tomcat-release-tomcat-native-2.0.3": "MacOS build problem was traced to the selected APR build-tree configuration; installed APR path built successfully. Deprecation warnings were known. The compile-only and later fuller tests must remain distinct.",
+    "tomcat-release-tomcat-11.0.0-m23": "Maven staging repository was initially not closed and manager fixed that. Mark later changed +1 to -1 for HTTP/2 recycling regressions. The superseding M24 belongs to the same registered retry family; earlier testing approval does not establish final publication.",
+    "tomcat-release-tomcat-11.0.0-m15": "Christopher changed +0 while investigating verification differences to +1 after builds/tests; do not forward-fill the earlier uncertainty. Full reproduction later documented, including fulldocs on Windows.",
+    "tomcat-release-tomcat-10.1.17": "An extra building marker in the tagged source was explained by the release manager as a local Windows VM workaround, not a build-script bug. Mark suggested the existing ASF-committer MSDN subscription; this is advice about an existing resource, not a new grant or evidence of uptake.",
+    "tomcat-release-tomcat-10.1.37": "Suspected absent GPG key was clarified as an already-included signing subkey; reporter accepted the explanation. A distinct Windows signing check still failed. Neither fact alone establishes a new Foundation restriction.",
+    "tomcat-release-tomcat-9.0.103": "Reproduction -1 was recast +1 after setting java-ffm.home. A separate invalid Windows installer signature was confirmed; manager describes a possible stale detached signature during rebuild, explicitly uncertain. Keep this technical explanation separate from the central signing-service migration.",
+    "tomcat-release-tomcat-11.0.14": "Verification script checked an absent x86 artifact and embedded a machine-specific gpg path. Developers identified local script/configuration repairs. Actual Windows signature was independently verified; public GPG and central Windows signing are distinct mechanisms.",
+    "tomcat-release-tomcat-9.0.99": "OOME followed a newly configured 256MB unit-test heap; 512MB rerun was successful. No shared infrastructure resource reduction is established by this local build setting.",
+    "tomcat-release-tomcat-8.5.88": "Cross-platform bytecode difference was traced to Java 11 targeting Java 7; the reporter offered low-priority JDK bug reporting through existing access. No Foundation service act or actual new JDK report is established."
+  },
+  "limits": [
+    "The actual audit frame must be generated from completed first-pass measurements and checked against this source-reading superset.",
+    "No measurement, opportunity flag, claim decision, or washout is created by this record.",
+    "Date-header display order is navigation only; temporal order requires separately dated acts."
+  ]
+}

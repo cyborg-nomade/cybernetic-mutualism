@@ -1,0 +1,338 @@
+{
+  "review_date": "2026-10-22",
+  "error": "The mutable prepare_releases helper transferred all712opening/familyassociations as eligible independent sampling entries instead of the647earliestfamilyopenings used by the reviewed frozen-sampler draw.",
+  "resolution": "Sixty-five retry/repetition associations remain screened and bundled as nonindependent continuations. The647eligibleunderlyingfamilies, exactopeningIDs, dates, and dispositions are unchanged. Frozen analysis code was not edited.",
+  "before_screening_sha256": "fecd3be78d66f0f3f2337d73a3da4d65c8cb53c1116cea3694d0c1cd6f29091b",
+  "corrected_screening_sha256": "baac3aa7501fa7f0997cfbe89a62adbf2a16624fc3b62fa1b523e0ab2f2880b3",
+  "registered_draw_sha256": "cc20852506cdab0d88f596e3d83724729555fa50f08dfe3cf8dd6c0b803644a8",
+  "comparison": "Frozen local_baseline output exactly equals all48previouslyrecordedstrata including36selectedopenings, counts, sourceIDs, familyIDs and hashes. The erroneous transfer alone had added retry candidates that displaced Maven2025Q4 and Tomcat2025Q4; those intermediate outputs are not adopted as a new draw.",
+  "associations": [
+    {
+      "project": "ant",
+      "source_id": "<87jzttk3w1.fsf@v45346.1blu.de>",
+      "family_id": "ant-release-ivy-2.5.2"
+    },
+    {
+      "project": "ant",
+      "source_id": "<9eec4d2e-8992-4c97-8079-f79b40eb4796@apache.org>",
+      "family_id": "ant-release-ant-1.10.15"
+    },
+    {
+      "project": "httpd",
+      "source_id": "<0E41EA7A-3921-46B3-9589-7DFD24F9F042@eissing.org>",
+      "family_id": "httpd-release-httpd-2.4.58"
+    },
+    {
+      "project": "httpd",
+      "source_id": "<87A424B3-AD81-4F2F-9C9B-C3FD7D29609C@eissing.org>",
+      "family_id": "httpd-release-httpd-2.4.58"
+    },
+    {
+      "project": "httpd",
+      "source_id": "<CALK=YjMMgzOmNktCGbRea7Z7LpA-yT4C2TVbfmQPMg9ysaq=Bw@mail.gmail.com>",
+      "family_id": "httpd-release-httpd-2.4.60"
+    },
+    {
+      "project": "httpd",
+      "source_id": "<CALK=YjPtYYfYxN9Vy0gkaKgHnszMjE3pHd3VcRwCSBpevpEf6g@mail.gmail.com>",
+      "family_id": "httpd-release-httpd-2.4.60"
+    },
+    {
+      "project": "httpd",
+      "source_id": "<CALK=YjNKhhH_t_4cZCeMXcjQEW-yvTYqkFZcv+9oCgGcNER21w@mail.gmail.com>",
+      "family_id": "httpd-release-httpd-2.4.64"
+    },
+    {
+      "project": "httpd",
+      "source_id": "<CALK=YjPOCr=CbpZaBfeMrwadKyiD1xuWfpmgEn-bUyLA86zejQ@mail.gmail.com>",
+      "family_id": "httpd-release-httpd-2.4.65"
+    },
+    {
+      "project": "maven",
+      "source_id": "<82c90763-d263-dd15-10e8-2562eb46f3c5@apache.org>",
+      "family_id": "maven-release-maven-fluido-skin-2.0.0-m1"
+    },
+    {
+      "project": "maven",
+      "source_id": "<CAPLpRQJVk=MYxCt=+KMMqD0OSmeSAt9_zD7yk+_7tZ+LrTxDTg@mail.gmail.com>",
+      "family_id": "maven-release-maven-resolver-1.9.3"
+    },
+    {
+      "project": "maven",
+      "source_id": "<CAGjJkv2MwWbEhKu0wC8CnEs1MVbjJ2_RVvAhht5vRudOQ7zACg@mail.gmail.com>",
+      "family_id": "maven-release-maven-enforcer-3.2.0"
+    },
+    {
+      "project": "maven",
+      "source_id": "<CAA66TpphRs4yQj6ZgK_Q=p-hBt3pFD+jEp+VdJ=0mzDE-C89-g@mail.gmail.com>",
+      "family_id": "maven-release-maven-daemon-1.0.0-m2"
+    },
+    {
+      "project": "maven",
+      "source_id": "<CAA66TprfuY+MD2eb80j2uF8x50J_fijhaXFouJtNp0fF6XfmuQ@mail.gmail.com>",
+      "family_id": "maven-release-maven-plugin-tools-3.8.0"
+    },
+    {
+      "project": "maven",
+      "source_id": "<5bf53283-4905-5aa9-7a78-26768110f8b9@apache.org>",
+      "family_id": "maven-release-maven-fluido-skin-2.0.0-m4"
+    },
+    {
+      "project": "maven",
+      "source_id": "<CAPLpRQ+DhqCLNdSSvoSLMEE53vQM1oFkipk=Dq2W_DOh76rHcw@mail.gmail.com>",
+      "family_id": "maven-release-maven-resolver-1.9.9"
+    },
+    {
+      "project": "maven",
+      "source_id": "<edd805e5-9d51-6e51-ab3c-5332c6f0e438@apache.org>",
+      "family_id": "maven-release-maven-doxia-sitetools-2.0.0-m9"
+    },
+    {
+      "project": "maven",
+      "source_id": "<CAGjJkv3FMLDNUFeHoBrfAMZMgiFm7tGE3-rr3LeUkX-zdRvBFg@mail.gmail.com>",
+      "family_id": "maven-release-maven-shared-utils-3.4.0"
+    },
+    {
+      "project": "maven",
+      "source_id": "<CAPLpRQLiv=FiDhjCE5yj-Q_67a2FcBOeDH8KwToapj+HuKwFyA@mail.gmail.com>",
+      "family_id": "maven-release-maven-3.9.2"
+    },
+    {
+      "project": "maven",
+      "source_id": "<CAGjJkv08G7i08FSymM79VZsK_5ovFda=PwrKP-2Q_LythynmNQ@mail.gmail.com>",
+      "family_id": "maven-release-maven-remote-resources-plugin-3.1.0"
+    },
+    {
+      "project": "maven",
+      "source_id": "<a31d883b-5196-bbb7-cbd0-b5bb83623a89@apache.org>",
+      "family_id": "maven-release-maven-surefire-3.1.1"
+    },
+    {
+      "project": "maven",
+      "source_id": "<CAA66TpoY+N2Me5zzT045QqH-Ap6NMDc=6j7xVnYVb6EXgSGQrg@mail.gmail.com>",
+      "family_id": "maven-release-maven-4.0.0-alpha-6"
+    },
+    {
+      "project": "maven",
+      "source_id": "<CAPLpRQ+D0Pk8zwJ1GHb5TNZx-6T9C517rhmw1VCGJmODwW22zg@mail.gmail.com>",
+      "family_id": "maven-release-maven-3.9.4"
+    },
+    {
+      "project": "maven",
+      "source_id": "<2c0450a6-378c-4bab-92ff-2d040f0f5d2b@apache.org>",
+      "family_id": "maven-release-maven-surefire-3.2.0"
+    },
+    {
+      "project": "maven",
+      "source_id": "<7540c18f-1409-439f-aecd-3ac804a88020@apache.org>",
+      "family_id": "maven-release-maven-pmd-plugin-3.21.1"
+    },
+    {
+      "project": "maven",
+      "source_id": "<dcdf0f99-ed99-4ce8-a4d5-c0058965e94d@apache.org>",
+      "family_id": "maven-release-maven-doxia-sitetools-2.0.0-m14"
+    },
+    {
+      "project": "maven",
+      "source_id": "<8bfb28c4-bd83-4f72-94ca-a566bf003c2f@apache.org>",
+      "family_id": "maven-release-maven-doxia-sitetools-2.0.0-m14"
+    },
+    {
+      "project": "maven",
+      "source_id": "<CAPLpRQLmOr8hq7D6HrirzEj=PCrxH4CR_-w64Q23hR8Mew=12g@mail.gmail.com>",
+      "family_id": "maven-release-maven-resolver-2.0.0-alpha-4"
+    },
+    {
+      "project": "maven",
+      "source_id": "<685057de-fcae-471d-93ef-084d58ac28e3@apache.org>",
+      "family_id": "maven-release-maven-surefire-3.2.4"
+    },
+    {
+      "project": "maven",
+      "source_id": "<6fae609e-0676-4988-abef-bdd4a6b3d9dd@apache.org>",
+      "family_id": "maven-release-maven-surefire-3.2.4"
+    },
+    {
+      "project": "maven",
+      "source_id": "<80f612c8-9819-40d0-a603-fd73fa50cac4@apache.org>",
+      "family_id": "maven-release-maven-doxia-sitetools-2.0.0-m17"
+    },
+    {
+      "project": "maven",
+      "source_id": "<CAA66Tprt5YME419QuSrqkMMmP2XyV3TDbx7sM_0EZ+31n9OwFA@mail.gmail.com>",
+      "family_id": "maven-release-maven-4.0.0-beta-1"
+    },
+    {
+      "project": "maven",
+      "source_id": "<CAA66Tpp3y2gpEQVHBx99GhJwa9ubOMSARdq1d0vdvpQPmJ2fbw@mail.gmail.com>",
+      "family_id": "maven-release-maven-4.0.0-beta-1"
+    },
+    {
+      "project": "maven",
+      "source_id": "<CAPLpRQLdaDtEFiV45xy-Pk_YyKH-5XRV+7WT=yhi+cqWwhovTQ@mail.gmail.com>",
+      "family_id": "maven-release-maven-mvnd-2.0.0-beta-1"
+    },
+    {
+      "project": "maven",
+      "source_id": "<B85FC623-6787-4E75-8789-14093CB77012@apache.org>",
+      "family_id": "maven-release-resource-bundles-1.6"
+    },
+    {
+      "project": "maven",
+      "source_id": "<CAPLpRQLzchvN2=CimJd5mieW0FhDOx3PZvRveazuu2SAxfqtSA@mail.gmail.com>",
+      "family_id": "maven-release-maven-3.9.9"
+    },
+    {
+      "project": "maven",
+      "source_id": "<CAPLpRQJqfx-_wFY01-paLosPK4A9bbRpRKJCVGvQ8HXffsfhDw@mail.gmail.com>",
+      "family_id": "maven-release-maven-gpg-plugin-3.2.6"
+    },
+    {
+      "project": "maven",
+      "source_id": "<6ea41d3c-8a44-4192-8a30-c93089a22712@apache.org>",
+      "family_id": "maven-release-maven-javadoc-plugin-3.10.1"
+    },
+    {
+      "project": "maven",
+      "source_id": "<CAPLpRQK6PUAHcCDCpa5tRqyVSbNxziF7XJV=Eh4TcxRN0_v5Bw@mail.gmail.com>",
+      "family_id": "maven-release-maven-4.0.0-beta-5"
+    },
+    {
+      "project": "maven",
+      "source_id": "<CAPLpRQ+DO0saTreV-iUA6GBZiE+ayCtDxEzL15BwFg=a-phY3g@mail.gmail.com>",
+      "family_id": "maven-release-maven-resolver-2.0.3"
+    },
+    {
+      "project": "maven",
+      "source_id": "<83bcbb7c-2efc-4216-8cb2-f006cdb6a76f@apache.org>",
+      "family_id": "maven-release-maven-javadoc-plugin-3.11.0"
+    },
+    {
+      "project": "maven",
+      "source_id": "<CAA66TpoVUJBM2JVLZS817PfMWWwFaS4uocvHqOK9dhoJwWds1Q@mail.gmail.com>",
+      "family_id": "maven-release-maven-archiver-4.0.0-beta-2"
+    },
+    {
+      "project": "maven",
+      "source_id": "<CAPoyBqRfEAk5Nf5ay6ezDBtpqi-wDsmzaREbwxXRFssidb-tvQ@mail.gmail.com>",
+      "family_id": "maven-release-maven-surefire-3.5.3"
+    },
+    {
+      "project": "maven",
+      "source_id": "<CAGjJkv33A2GG3wjPiYi8TKP4dgXhO-dGCExtCBiYOD7X0QyTqQ@mail.gmail.com>",
+      "family_id": "maven-release-maven-project-parent-poms-45"
+    },
+    {
+      "project": "maven",
+      "source_id": "<91BF55F6-C03C-4521-8DDF-60AD3169FEA5@apache.org>",
+      "family_id": "maven-release-maven-scm-2.2.0"
+    },
+    {
+      "project": "maven",
+      "source_id": "<CAPLpRQJd73WsyHaLq0r4CwcbnFCbNzFyYS1cHxJ0gh4woZnF5Q@mail.gmail.com>",
+      "family_id": "maven-release-maven-resolver-2.0.12"
+    },
+    {
+      "project": "maven",
+      "source_id": "<CAGjJkv1S7BbjdKuTvVj1sWgfaouiX=Z8QypSFe2+uFPPxxRQEQ@mail.gmail.com>",
+      "family_id": "maven-release-maven-release-plugin-3.3.0"
+    },
+    {
+      "project": "tomcat",
+      "source_id": "<46de366e-c3e8-06e2-a851-1ec480ff6c49@christopherschultz.net>",
+      "family_id": "tomcat-release-tomcat-8.5.85"
+    },
+    {
+      "project": "tomcat",
+      "source_id": "<726504e8-1161-acf1-e969-327897086fe9@apache.org>",
+      "family_id": "tomcat-release-tomcat-11.0.0-m8"
+    },
+    {
+      "project": "tomcat",
+      "source_id": "<CANwj8ZqU7MhCADkLEBW-JP2=FJ6fxDpTFGx1XApc_4EPhq=ywA@mail.gmail.com>",
+      "family_id": "tomcat-release-tomcat-9.0.77"
+    },
+    {
+      "project": "tomcat",
+      "source_id": "<662397c0-4e53-48c3-b1ef-db563147aa04@christopherschultz.net>",
+      "family_id": "tomcat-release-tomcat-8.5.95"
+    },
+    {
+      "project": "tomcat",
+      "source_id": "<404ac1ea-313a-4583-960c-02b4bbe440df@christopherschultz.net>",
+      "family_id": "tomcat-release-tomcat-8.5.96"
+    },
+    {
+      "project": "tomcat",
+      "source_id": "<290dec25-3608-44a7-9d41-291f0bb7ca1a@christopherschultz.net>",
+      "family_id": "tomcat-release-tomcat-8.5.98"
+    },
+    {
+      "project": "tomcat",
+      "source_id": "<125c5fa6-b09d-4566-8de8-df9fb0380d7a@christopherschultz.net>",
+      "family_id": "tomcat-release-tomcat-10.1.21"
+    },
+    {
+      "project": "tomcat",
+      "source_id": "<92c119a3-393b-435d-b745-188312191ee7@christopherschultz.net>",
+      "family_id": "tomcat-release-tomcat-10.1.21"
+    },
+    {
+      "project": "tomcat",
+      "source_id": "<93fea28c-91dc-4c3b-b3a4-50908ab51cad@apache.org>",
+      "family_id": "tomcat-release-tomcat-11.0.0-m23"
+    },
+    {
+      "project": "tomcat",
+      "source_id": "<CANwj8ZrXMzXMWXzQqmHb2h-0-gCi-RXdads6==rMVkz2M7rgXQ@mail.gmail.com>",
+      "family_id": "tomcat-release-tomcat-9.0.92"
+    },
+    {
+      "project": "tomcat",
+      "source_id": "<274deea8-03a1-4d8c-ba27-029ff5992cfc@christopherschultz.net>",
+      "family_id": "tomcat-release-tomcat-10.1.27"
+    },
+    {
+      "project": "tomcat",
+      "source_id": "<ee054d00-a35f-4186-9214-7f6db9c6d68a@christopherschultz.net>",
+      "family_id": "tomcat-release-tomcat-10.1.32"
+    },
+    {
+      "project": "tomcat",
+      "source_id": "<8153a4c2-806e-48b0-8ed8-eafa27abea4e@christopherschultz.net>",
+      "family_id": "tomcat-release-tomcat-10.1.37"
+    },
+    {
+      "project": "tomcat",
+      "source_id": "<d609a99b-930b-4530-8cc6-c50e692971b0@christopherschultz.net>",
+      "family_id": "tomcat-release-tomcat-10.1.37"
+    },
+    {
+      "project": "tomcat",
+      "source_id": "<CANwj8ZpB01MjqCUh7==tNha019ByZP5Bg9tN07Zx2fJNv23FXg@mail.gmail.com>",
+      "family_id": "tomcat-release-tomcat-9.0.101"
+    },
+    {
+      "project": "tomcat",
+      "source_id": "<CANwj8ZqouoCmZ_Ve2U9bqavf=P3LJEw-XDiw0QvWkkCcoQVD1Q@mail.gmail.com>",
+      "family_id": "tomcat-release-tomcat-9.0.103"
+    },
+    {
+      "project": "tomcat",
+      "source_id": "<15c6ec23-f124-4250-9c52-a2f7a651ed71@christopherschultz.net>",
+      "family_id": "tomcat-release-tomcat-10.1.48"
+    },
+    {
+      "project": "tomcat",
+      "source_id": "<a0a2bd14-82b5-4022-96f4-8382ce05f44f@christopherschultz.net>",
+      "family_id": "tomcat-release-tomcat-10.1.48"
+    },
+    {
+      "project": "tomcat",
+      "source_id": "<00f319db-d398-44c3-97d1-307ac5110c8f@apache.org>",
+      "family_id": "tomcat-release-tomcat-native-2.0.10"
+    }
+  ],
+  "eligible_family_pairs_unchanged": true,
+  "selected_frame_unchanged": true
+}
