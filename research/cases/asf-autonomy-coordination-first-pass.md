@@ -3,12 +3,14 @@
 ## Status and Authority
 
 - **Started:** 2026-09-22, on the owner's instruction to start third-cycle item 3.
-- **Status:** Item 3 complete for owner review in
-  [PR #19](https://github.com/cyborg-nomade/cybernetic-mutualism/pull/19).
-  The finalized corpus, native tables, audit frame and blank recode bundle
-  are locked together; see the [completion package](../data/asf-item3-first-pass-2026-10-23/README.md)
-  and its exact lock receipt. G2/G3 and aggregate claim decisions have not
-  been calculated. All claims remain C1.
+- **Status:** Item 3 accepted by the owner on 2026-10-26. Both validation
+  runs passed and [PR #19](https://github.com/cyborg-nomade/cybernetic-mutualism/pull/19)
+  was merged at `c592e40a24184ee979e76dbd2950a8f8599cc600`, preserving approved
+  head `46d08fe31b33f5b2ad1709a422719bd501ed3bb2`. The
+  [completion package](../data/asf-item3-first-pass-2026-10-23/README.md)
+  and simultaneous source/first-pass/frame/blank-recode lock are unchanged.
+  Item 4 is authorized; its waiting period and blinded audit remain pending.
+  G2/G3 and aggregate claim decisions are uncalculated. All claims remain C1.
 - **Checkpoint acceptance:** The owner approved the initial checkpoint through
   [PR #18](https://github.com/cyborg-nomade/cybernetic-mutualism/pull/18) on
   2026-09-23. Reviewed head `98561adb68ced781767ce4c4dc43143ebdc6a88a` was merged
@@ -470,8 +472,11 @@ tests with 90.59% coverage, lint/format, strict production typing and both model
 reproduction checks. The completion verifier reconstructs native CSV and
 source bytes from accepted repository originals and the additional compressed
 source store. No registered executable, threshold, window or sampling rule was
-changed. The owner reviews this complete item in PR #19; it is not merged by
-this work.
+changed. The owner accepted the complete item on October 26 and authorized the
+merge. Both GitHub validation runs passed, and PR #19 was merged at
+`c592e40a24184ee979e76dbd2950a8f8599cc600`. The separate
+[audit execution record](asf-autonomy-coordination-audit.md) carries item 4;
+this administrative closeout does not reopen or alter the locked evidence.
 
 ## Conclusions and Next Steps
 
@@ -482,7 +487,7 @@ programme and every claim remain at C1. The simultaneous lock begins the
 washout recorded in the package receipt, subject to no further ASF evidence
 work. Any renewed evidence work requires a fresh valid washout boundary.
 
-After owner review and the required 14 complete UTC days, item 4 is a
+Owner review is complete. After the required 14 complete UTC days, item 4 is a
 **research and writing task using the frozen code**: delayed blinded recoding,
 initial agreement, reconciliation and the registered gate/claim report. A
 registered gate failure stops subsequent causal comparison. Item 5 is a
