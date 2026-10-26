@@ -1,0 +1,20 @@
+{
+  "decisions": [],
+  "existing_family_context_links": [
+    {
+      "family_id": "maven-artifact-transfer-retirement",
+      "project": "maven",
+      "source_ids": [
+        "maven-artifact-transfer-pr93"
+      ]
+    }
+  ],
+  "review_date": "2026-10-22",
+  "sources": [
+    {
+      "source_id": "maven-artifact-transfer-pr93",
+      "sha256": "ec37022ada764d39e4ed0457f0a11d872f6fb9b76c252da66d1f7b7da4caccea",
+      "convention": "Current JSON serialization is not backdated; provider historical fields and pre-cutoff last edit corroborate the already reviewed original opening."
+    }
+  ]
+}

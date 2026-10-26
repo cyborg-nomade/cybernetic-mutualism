@@ -1,0 +1,673 @@
+{
+  "review_date": "2026-10-22",
+  "decisions": [
+    {
+      "family_id": "foundation-mfa-authentication-service",
+      "project": "ant",
+      "onset_earliest": "unknown",
+      "onset_latest": "unknown",
+      "earliest_source_id": "board-2025-02-19",
+      "initiating_role": "foundation",
+      "action_class": "infrastructure_service",
+      "eligible": "no",
+      "kind": "excluded",
+      "prewindow": true,
+      "sender_act": "Develop shared MFA/identity-provider and reset workflows",
+      "intended_receiver": "ASF users and service administrators",
+      "original_option": "The existing pilot was already halted in December2022pending reset policy",
+      "requested_change": "Provide an integrated MFAservice and workable credential/reset flow",
+      "disposition_history": "December21,2022SecretaryexplicitlysayspilotMFAalreadyhaltedpendingpolicy/implementation; InfrarecordsongoingKeycloaktesting. January/May2023workcontinues. February2025Boarddiscussesunresolvedresetworkflow. LaterKeycloak/Zitadel/Authentikplatformchoicescontinue thesame authenticationdeliverable. April2026soft-launchdoesnotresetprewindowonset.",
+      "eligibility_reason": "Positive prewindow same-deliverable pilot/reset evidence, not lack of adoption, excludes this underlying authentication program as a new2023\u201325episode. New implementation vendors are revisions, not independently different receiving choices. Existing GitHubBoxer2FA is separately scoped.",
+      "extra_source_ids": [
+        "board-2022-11-16",
+        "board-2022-12-21",
+        "board-2023-01-18",
+        "board-2023-05-17",
+        "board-2023-06-21",
+        "board-2023-12-20",
+        "board-2024-05-15",
+        "board-2025-06-18",
+        "board-2025-09-24",
+        "board-2025-11-19",
+        "board-2025-12-17",
+        "board-2026-01-21",
+        "board-2026-02-18",
+        "board-2026-03-18",
+        "board-2026-04-15",
+        "board-2026-05-20",
+        "board-2026-06-17"
+      ]
+    },
+    {
+      "family_id": "foundation-mfa-authentication-service",
+      "project": "httpd",
+      "onset_earliest": "unknown",
+      "onset_latest": "unknown",
+      "earliest_source_id": "board-2025-02-19",
+      "initiating_role": "foundation",
+      "action_class": "infrastructure_service",
+      "eligible": "no",
+      "kind": "excluded",
+      "prewindow": true,
+      "sender_act": "Develop shared MFA/identity-provider and reset workflows",
+      "intended_receiver": "ASF users and service administrators",
+      "original_option": "The existing pilot was already halted in December2022pending reset policy",
+      "requested_change": "Provide an integrated MFAservice and workable credential/reset flow",
+      "disposition_history": "December21,2022SecretaryexplicitlysayspilotMFAalreadyhaltedpendingpolicy/implementation; InfrarecordsongoingKeycloaktesting. January/May2023workcontinues. February2025Boarddiscussesunresolvedresetworkflow. LaterKeycloak/Zitadel/Authentikplatformchoicescontinue thesame authenticationdeliverable. April2026soft-launchdoesnotresetprewindowonset.",
+      "eligibility_reason": "Positive prewindow same-deliverable pilot/reset evidence, not lack of adoption, excludes this underlying authentication program as a new2023\u201325episode. New implementation vendors are revisions, not independently different receiving choices. Existing GitHubBoxer2FA is separately scoped.",
+      "extra_source_ids": [
+        "board-2022-11-16",
+        "board-2022-12-21",
+        "board-2023-01-18",
+        "board-2023-05-17",
+        "board-2023-06-21",
+        "board-2023-12-20",
+        "board-2024-05-15",
+        "board-2025-06-18",
+        "board-2025-09-24",
+        "board-2025-11-19",
+        "board-2025-12-17",
+        "board-2026-01-21",
+        "board-2026-02-18",
+        "board-2026-03-18",
+        "board-2026-04-15",
+        "board-2026-05-20",
+        "board-2026-06-17"
+      ]
+    },
+    {
+      "family_id": "foundation-mfa-authentication-service",
+      "project": "maven",
+      "onset_earliest": "unknown",
+      "onset_latest": "unknown",
+      "earliest_source_id": "board-2025-02-19",
+      "initiating_role": "foundation",
+      "action_class": "infrastructure_service",
+      "eligible": "no",
+      "kind": "excluded",
+      "prewindow": true,
+      "sender_act": "Develop shared MFA/identity-provider and reset workflows",
+      "intended_receiver": "ASF users and service administrators",
+      "original_option": "The existing pilot was already halted in December2022pending reset policy",
+      "requested_change": "Provide an integrated MFAservice and workable credential/reset flow",
+      "disposition_history": "December21,2022SecretaryexplicitlysayspilotMFAalreadyhaltedpendingpolicy/implementation; InfrarecordsongoingKeycloaktesting. January/May2023workcontinues. February2025Boarddiscussesunresolvedresetworkflow. LaterKeycloak/Zitadel/Authentikplatformchoicescontinue thesame authenticationdeliverable. April2026soft-launchdoesnotresetprewindowonset.",
+      "eligibility_reason": "Positive prewindow same-deliverable pilot/reset evidence, not lack of adoption, excludes this underlying authentication program as a new2023\u201325episode. New implementation vendors are revisions, not independently different receiving choices. Existing GitHubBoxer2FA is separately scoped.",
+      "extra_source_ids": [
+        "board-2022-11-16",
+        "board-2022-12-21",
+        "board-2023-01-18",
+        "board-2023-05-17",
+        "board-2023-06-21",
+        "board-2023-12-20",
+        "board-2024-05-15",
+        "board-2025-06-18",
+        "board-2025-09-24",
+        "board-2025-11-19",
+        "board-2025-12-17",
+        "board-2026-01-21",
+        "board-2026-02-18",
+        "board-2026-03-18",
+        "board-2026-04-15",
+        "board-2026-05-20",
+        "board-2026-06-17"
+      ]
+    },
+    {
+      "family_id": "foundation-mfa-authentication-service",
+      "project": "tomcat",
+      "onset_earliest": "unknown",
+      "onset_latest": "unknown",
+      "earliest_source_id": "board-2025-02-19",
+      "initiating_role": "foundation",
+      "action_class": "infrastructure_service",
+      "eligible": "no",
+      "kind": "excluded",
+      "prewindow": true,
+      "sender_act": "Develop shared MFA/identity-provider and reset workflows",
+      "intended_receiver": "ASF users and service administrators",
+      "original_option": "The existing pilot was already halted in December2022pending reset policy",
+      "requested_change": "Provide an integrated MFAservice and workable credential/reset flow",
+      "disposition_history": "December21,2022SecretaryexplicitlysayspilotMFAalreadyhaltedpendingpolicy/implementation; InfrarecordsongoingKeycloaktesting. January/May2023workcontinues. February2025Boarddiscussesunresolvedresetworkflow. LaterKeycloak/Zitadel/Authentikplatformchoicescontinue thesame authenticationdeliverable. April2026soft-launchdoesnotresetprewindowonset.",
+      "eligibility_reason": "Positive prewindow same-deliverable pilot/reset evidence, not lack of adoption, excludes this underlying authentication program as a new2023\u201325episode. New implementation vendors are revisions, not independently different receiving choices. Existing GitHubBoxer2FA is separately scoped.",
+      "extra_source_ids": [
+        "board-2022-11-16",
+        "board-2022-12-21",
+        "board-2023-01-18",
+        "board-2023-05-17",
+        "board-2023-06-21",
+        "board-2023-12-20",
+        "board-2024-05-15",
+        "board-2025-06-18",
+        "board-2025-09-24",
+        "board-2025-11-19",
+        "board-2025-12-17",
+        "board-2026-01-21",
+        "board-2026-02-18",
+        "board-2026-03-18",
+        "board-2026-04-15",
+        "board-2026-05-20",
+        "board-2026-06-17"
+      ]
+    },
+    {
+      "family_id": "foundation-atlassian-cloud-migration",
+      "project": "ant",
+      "onset_earliest": "unknown",
+      "onset_latest": "unknown",
+      "earliest_source_id": "board-2023-02-15",
+      "initiating_role": "foundation",
+      "action_class": "infrastructure_service",
+      "eligible": "yes",
+      "kind": "cross_boundary",
+      "sender_act": "Propose and prepare migration of shared Jira/Confluence services to Atlassian Cloud",
+      "intended_receiver": "ASF projects/users of shared Jira and Confluence services",
+      "original_option": "Self-hosted Jira/Confluence; earlier migration work already waiting on provider input",
+      "requested_change": "Move shared issue/wiki services to hosted Cloud with migrated accounts/data",
+      "disposition_history": "February2023alreadyreportsongoingworkheldupforproviderinput. May2023user-countlimitsandOctober/Novemberidentityintegrationobstaclesfollow. 2025testingandcallforprojecttesterscontinue; September2025vendoredEOLclaimisnotfirstmigrationonset. 2026testing/blockersandplannedmigrationcontinuethesame servicechange. No fixedcohortcutover, data-loss outcome, newmandatory2026rule or successfulhorizon execution is inferred.",
+      "eligibility_reason": "Include the explicitly pursued shared service migration as a candidate regardless of unfinished implementation. Earlier plans make first onset unknown; no prewindow exact same requested migration is established in reviewed baseline sources. Separate from Maven's own Jira-to-GitHub issue migration and from donated cloud-node acceptance.",
+      "extra_source_ids": [
+        "board-2023-05-17",
+        "board-2023-10-18",
+        "board-2023-11-15",
+        "board-2023-12-20",
+        "board-2024-01-17",
+        "board-2024-04-17",
+        "board-2024-05-15",
+        "board-2024-06-19",
+        "board-2025-01-15",
+        "board-2025-02-19",
+        "board-2025-06-18",
+        "board-2025-09-24",
+        "board-2025-11-19",
+        "board-2026-02-18",
+        "board-2026-03-18",
+        "board-2026-04-15",
+        "board-2026-05-20",
+        "board-2026-06-17"
+      ]
+    },
+    {
+      "family_id": "foundation-atlassian-cloud-migration",
+      "project": "httpd",
+      "onset_earliest": "unknown",
+      "onset_latest": "unknown",
+      "earliest_source_id": "board-2023-02-15",
+      "initiating_role": "foundation",
+      "action_class": "infrastructure_service",
+      "eligible": "yes",
+      "kind": "cross_boundary",
+      "sender_act": "Propose and prepare migration of shared Jira/Confluence services to Atlassian Cloud",
+      "intended_receiver": "ASF projects/users of shared Jira and Confluence services",
+      "original_option": "Self-hosted Jira/Confluence; earlier migration work already waiting on provider input",
+      "requested_change": "Move shared issue/wiki services to hosted Cloud with migrated accounts/data",
+      "disposition_history": "February2023alreadyreportsongoingworkheldupforproviderinput. May2023user-countlimitsandOctober/Novemberidentityintegrationobstaclesfollow. 2025testingandcallforprojecttesterscontinue; September2025vendoredEOLclaimisnotfirstmigrationonset. 2026testing/blockersandplannedmigrationcontinuethesame servicechange. No fixedcohortcutover, data-loss outcome, newmandatory2026rule or successfulhorizon execution is inferred.",
+      "eligibility_reason": "Include the explicitly pursued shared service migration as a candidate regardless of unfinished implementation. Earlier plans make first onset unknown; no prewindow exact same requested migration is established in reviewed baseline sources. Separate from Maven's own Jira-to-GitHub issue migration and from donated cloud-node acceptance.",
+      "extra_source_ids": [
+        "board-2023-05-17",
+        "board-2023-10-18",
+        "board-2023-11-15",
+        "board-2023-12-20",
+        "board-2024-01-17",
+        "board-2024-04-17",
+        "board-2024-05-15",
+        "board-2024-06-19",
+        "board-2025-01-15",
+        "board-2025-02-19",
+        "board-2025-06-18",
+        "board-2025-09-24",
+        "board-2025-11-19",
+        "board-2026-02-18",
+        "board-2026-03-18",
+        "board-2026-04-15",
+        "board-2026-05-20",
+        "board-2026-06-17"
+      ]
+    },
+    {
+      "family_id": "foundation-atlassian-cloud-migration",
+      "project": "maven",
+      "onset_earliest": "unknown",
+      "onset_latest": "unknown",
+      "earliest_source_id": "board-2023-02-15",
+      "initiating_role": "foundation",
+      "action_class": "infrastructure_service",
+      "eligible": "yes",
+      "kind": "cross_boundary",
+      "sender_act": "Propose and prepare migration of shared Jira/Confluence services to Atlassian Cloud",
+      "intended_receiver": "ASF projects/users of shared Jira and Confluence services",
+      "original_option": "Self-hosted Jira/Confluence; earlier migration work already waiting on provider input",
+      "requested_change": "Move shared issue/wiki services to hosted Cloud with migrated accounts/data",
+      "disposition_history": "February2023alreadyreportsongoingworkheldupforproviderinput. May2023user-countlimitsandOctober/Novemberidentityintegrationobstaclesfollow. 2025testingandcallforprojecttesterscontinue; September2025vendoredEOLclaimisnotfirstmigrationonset. 2026testing/blockersandplannedmigrationcontinuethesame servicechange. No fixedcohortcutover, data-loss outcome, newmandatory2026rule or successfulhorizon execution is inferred.",
+      "eligibility_reason": "Include the explicitly pursued shared service migration as a candidate regardless of unfinished implementation. Earlier plans make first onset unknown; no prewindow exact same requested migration is established in reviewed baseline sources. Separate from Maven's own Jira-to-GitHub issue migration and from donated cloud-node acceptance.",
+      "extra_source_ids": [
+        "board-2023-05-17",
+        "board-2023-10-18",
+        "board-2023-11-15",
+        "board-2023-12-20",
+        "board-2024-01-17",
+        "board-2024-04-17",
+        "board-2024-05-15",
+        "board-2024-06-19",
+        "board-2025-01-15",
+        "board-2025-02-19",
+        "board-2025-06-18",
+        "board-2025-09-24",
+        "board-2025-11-19",
+        "board-2026-02-18",
+        "board-2026-03-18",
+        "board-2026-04-15",
+        "board-2026-05-20",
+        "board-2026-06-17"
+      ]
+    },
+    {
+      "family_id": "foundation-atlassian-cloud-migration",
+      "project": "tomcat",
+      "onset_earliest": "unknown",
+      "onset_latest": "unknown",
+      "earliest_source_id": "board-2023-02-15",
+      "initiating_role": "foundation",
+      "action_class": "infrastructure_service",
+      "eligible": "yes",
+      "kind": "cross_boundary",
+      "sender_act": "Propose and prepare migration of shared Jira/Confluence services to Atlassian Cloud",
+      "intended_receiver": "ASF projects/users of shared Jira and Confluence services",
+      "original_option": "Self-hosted Jira/Confluence; earlier migration work already waiting on provider input",
+      "requested_change": "Move shared issue/wiki services to hosted Cloud with migrated accounts/data",
+      "disposition_history": "February2023alreadyreportsongoingworkheldupforproviderinput. May2023user-countlimitsandOctober/Novemberidentityintegrationobstaclesfollow. 2025testingandcallforprojecttesterscontinue; September2025vendoredEOLclaimisnotfirstmigrationonset. 2026testing/blockersandplannedmigrationcontinuethesame servicechange. No fixedcohortcutover, data-loss outcome, newmandatory2026rule or successfulhorizon execution is inferred.",
+      "eligibility_reason": "Include the explicitly pursued shared service migration as a candidate regardless of unfinished implementation. Earlier plans make first onset unknown; no prewindow exact same requested migration is established in reviewed baseline sources. Separate from Maven's own Jira-to-GitHub issue migration and from donated cloud-node acceptance.",
+      "extra_source_ids": [
+        "board-2023-05-17",
+        "board-2023-10-18",
+        "board-2023-11-15",
+        "board-2023-12-20",
+        "board-2024-01-17",
+        "board-2024-04-17",
+        "board-2024-05-15",
+        "board-2024-06-19",
+        "board-2025-01-15",
+        "board-2025-02-19",
+        "board-2025-06-18",
+        "board-2025-09-24",
+        "board-2025-11-19",
+        "board-2026-02-18",
+        "board-2026-03-18",
+        "board-2026-04-15",
+        "board-2026-05-20",
+        "board-2026-06-17"
+      ]
+    },
+    {
+      "family_id": "foundation-logo-2025",
+      "project": "ant",
+      "eligible": "yes",
+      "kind": "cross_boundary",
+      "earliest_source_id": "board-2025-08-24",
+      "onset_earliest": "2025-08-24",
+      "onset_latest": "2025-08-24",
+      "initiating_role": "foundation",
+      "action_class": "policy_compliance",
+      "sender_act": "Board adopts new ASF logo and President instructs application across ASF properties",
+      "intended_receiver": "Tomcat project properties",
+      "original_option": "Previously used ASF feather/logo assets",
+      "requested_change": "Use the newly adopted ASF logo",
+      "disposition_history": "August24 special Board record supplies the corporate act. September14 plugin wording and September17 main/11.0/10.1/9.0/Native asset commits document local repository uptake. September17\u201318 discussion identifies removed license headers and RAT trouble. November27 Native1.3 push uses a September17 author date; push and author dates are distinct. Release/site deployment and exact direct receipt are not assumed. January2026Marketingreportsnewleafuseguidelines. May2026Mavenreportsitsownlogoupdated; exactdayandcausalrelationto2024featherguidanceversus2025brandchangeareuncertain. Othercohortuptakeisunknown; no shared-act duplication or equal exposure inferred. January2026Marketingreportsnewleafuseguidelines. May2026Mavenreportsitsownlogoupdated; exactdayandcausalrelationto2024featherguidanceversus2025brandchangeareuncertain. Othercohortuptakeisunknown; no shared-act duplication or equal exposure inferred.",
+      "eligibility_reason": "One Foundation-wide corporate branding/asset change with four fixed-cohort receiving rows. Earlier transfer limited scope to Tomcat because its repository uptake was observed; scope now follows the shared sender act, independently of whether a receiver is observed. This is not a command to all projects to change their own logo or a technical-rights transfer.",
+      "extra_source_ids": [
+        "<175788418229.2480284.6648819765895285325@gitbox3-he-fi.apache.org>",
+        "<175811925131.2947864.16207746645876004858@gitbox3-he-fi.apache.org>",
+        "<175811925531.2948013.11209186426651754603@gitbox3-he-fi.apache.org>",
+        "<175811935543.2952656.2774145251309843821@gitbox3-he-fi.apache.org>",
+        "<175811938706.2953677.12893236301374342756@gitbox3-he-fi.apache.org>",
+        "<175811980223.2968287.7436555734129621760@gitbox3-he-fi.apache.org>",
+        "<176425226266.2424305.11474709036661166554@gitbox3-he-fi.apache.org>",
+        "<5555cc0a-c61b-4bcd-afd0-b2fabda028ad@apache.org>",
+        "<78654103-585c-49e2-9eab-cd4f860bc193@christopherschultz.net>",
+        "asf-bylaws-1887743",
+        "board-2025-08-24",
+        "board-2026-01-21",
+        "board-2026-05-20"
+      ],
+      "source_scope": "Shared initiating deliverable; preserve project-specific occurrences and responses without treating recipient copies as independent families."
+    },
+    {
+      "family_id": "foundation-logo-2025",
+      "project": "httpd",
+      "eligible": "yes",
+      "kind": "cross_boundary",
+      "earliest_source_id": "board-2025-08-24",
+      "onset_earliest": "2025-08-24",
+      "onset_latest": "2025-08-24",
+      "initiating_role": "foundation",
+      "action_class": "policy_compliance",
+      "sender_act": "Board adopts new ASF logo and President instructs application across ASF properties",
+      "intended_receiver": "Tomcat project properties",
+      "original_option": "Previously used ASF feather/logo assets",
+      "requested_change": "Use the newly adopted ASF logo",
+      "disposition_history": "August24 special Board record supplies the corporate act. September14 plugin wording and September17 main/11.0/10.1/9.0/Native asset commits document local repository uptake. September17\u201318 discussion identifies removed license headers and RAT trouble. November27 Native1.3 push uses a September17 author date; push and author dates are distinct. Release/site deployment and exact direct receipt are not assumed. January2026Marketingreportsnewleafuseguidelines. May2026Mavenreportsitsownlogoupdated; exactdayandcausalrelationto2024featherguidanceversus2025brandchangeareuncertain. Othercohortuptakeisunknown; no shared-act duplication or equal exposure inferred. January2026Marketingreportsnewleafuseguidelines. May2026Mavenreportsitsownlogoupdated; exactdayandcausalrelationto2024featherguidanceversus2025brandchangeareuncertain. Othercohortuptakeisunknown; no shared-act duplication or equal exposure inferred.",
+      "eligibility_reason": "One Foundation-wide corporate branding/asset change with four fixed-cohort receiving rows. Earlier transfer limited scope to Tomcat because its repository uptake was observed; scope now follows the shared sender act, independently of whether a receiver is observed. This is not a command to all projects to change their own logo or a technical-rights transfer.",
+      "extra_source_ids": [
+        "<175788418229.2480284.6648819765895285325@gitbox3-he-fi.apache.org>",
+        "<175811925131.2947864.16207746645876004858@gitbox3-he-fi.apache.org>",
+        "<175811925531.2948013.11209186426651754603@gitbox3-he-fi.apache.org>",
+        "<175811935543.2952656.2774145251309843821@gitbox3-he-fi.apache.org>",
+        "<175811938706.2953677.12893236301374342756@gitbox3-he-fi.apache.org>",
+        "<175811980223.2968287.7436555734129621760@gitbox3-he-fi.apache.org>",
+        "<176425226266.2424305.11474709036661166554@gitbox3-he-fi.apache.org>",
+        "<5555cc0a-c61b-4bcd-afd0-b2fabda028ad@apache.org>",
+        "<78654103-585c-49e2-9eab-cd4f860bc193@christopherschultz.net>",
+        "asf-bylaws-1887743",
+        "board-2025-08-24",
+        "board-2026-01-21",
+        "board-2026-05-20"
+      ],
+      "source_scope": "Shared initiating deliverable; preserve project-specific occurrences and responses without treating recipient copies as independent families."
+    },
+    {
+      "family_id": "foundation-logo-2025",
+      "project": "maven",
+      "eligible": "yes",
+      "kind": "cross_boundary",
+      "earliest_source_id": "board-2025-08-24",
+      "onset_earliest": "2025-08-24",
+      "onset_latest": "2025-08-24",
+      "initiating_role": "foundation",
+      "action_class": "policy_compliance",
+      "sender_act": "Board adopts new ASF logo and President instructs application across ASF properties",
+      "intended_receiver": "Tomcat project properties",
+      "original_option": "Previously used ASF feather/logo assets",
+      "requested_change": "Use the newly adopted ASF logo",
+      "disposition_history": "August24 special Board record supplies the corporate act. September14 plugin wording and September17 main/11.0/10.1/9.0/Native asset commits document local repository uptake. September17\u201318 discussion identifies removed license headers and RAT trouble. November27 Native1.3 push uses a September17 author date; push and author dates are distinct. Release/site deployment and exact direct receipt are not assumed. January2026Marketingreportsnewleafuseguidelines. May2026Mavenreportsitsownlogoupdated; exactdayandcausalrelationto2024featherguidanceversus2025brandchangeareuncertain. Othercohortuptakeisunknown; no shared-act duplication or equal exposure inferred. January2026Marketingreportsnewleafuseguidelines. May2026Mavenreportsitsownlogoupdated; exactdayandcausalrelationto2024featherguidanceversus2025brandchangeareuncertain. Othercohortuptakeisunknown; no shared-act duplication or equal exposure inferred.",
+      "eligibility_reason": "One Foundation-wide corporate branding/asset change with four fixed-cohort receiving rows. Earlier transfer limited scope to Tomcat because its repository uptake was observed; scope now follows the shared sender act, independently of whether a receiver is observed. This is not a command to all projects to change their own logo or a technical-rights transfer.",
+      "extra_source_ids": [
+        "<175788418229.2480284.6648819765895285325@gitbox3-he-fi.apache.org>",
+        "<175811925131.2947864.16207746645876004858@gitbox3-he-fi.apache.org>",
+        "<175811925531.2948013.11209186426651754603@gitbox3-he-fi.apache.org>",
+        "<175811935543.2952656.2774145251309843821@gitbox3-he-fi.apache.org>",
+        "<175811938706.2953677.12893236301374342756@gitbox3-he-fi.apache.org>",
+        "<175811980223.2968287.7436555734129621760@gitbox3-he-fi.apache.org>",
+        "<176425226266.2424305.11474709036661166554@gitbox3-he-fi.apache.org>",
+        "<5555cc0a-c61b-4bcd-afd0-b2fabda028ad@apache.org>",
+        "<78654103-585c-49e2-9eab-cd4f860bc193@christopherschultz.net>",
+        "asf-bylaws-1887743",
+        "board-2025-08-24",
+        "board-2026-01-21",
+        "board-2026-05-20"
+      ],
+      "source_scope": "Shared initiating deliverable; preserve project-specific occurrences and responses without treating recipient copies as independent families."
+    },
+    {
+      "family_id": "foundation-logo-2025",
+      "project": "tomcat",
+      "eligible": "yes",
+      "kind": "cross_boundary",
+      "earliest_source_id": "board-2025-08-24",
+      "onset_earliest": "2025-08-24",
+      "onset_latest": "2025-08-24",
+      "initiating_role": "foundation",
+      "action_class": "policy_compliance",
+      "sender_act": "Board adopts new ASF logo and President instructs application across ASF properties",
+      "intended_receiver": "Tomcat project properties",
+      "original_option": "Previously used ASF feather/logo assets",
+      "requested_change": "Use the newly adopted ASF logo",
+      "disposition_history": "August24 special Board record supplies the corporate act. September14 plugin wording and September17 main/11.0/10.1/9.0/Native asset commits document local repository uptake. September17\u201318 discussion identifies removed license headers and RAT trouble. November27 Native1.3 push uses a September17 author date; push and author dates are distinct. Release/site deployment and exact direct receipt are not assumed. January2026Marketingreportsnewleafuseguidelines. May2026Mavenreportsitsownlogoupdated; exactdayandcausalrelationto2024featherguidanceversus2025brandchangeareuncertain. Othercohortuptakeisunknown; no shared-act duplication or equal exposure inferred. January2026Marketingreportsnewleafuseguidelines. May2026Mavenreportsitsownlogoupdated; exactdayandcausalrelationto2024featherguidanceversus2025brandchangeareuncertain. Othercohortuptakeisunknown; no shared-act duplication or equal exposure inferred.",
+      "eligibility_reason": "One Foundation-wide corporate branding/asset change with four fixed-cohort receiving rows. Earlier transfer limited scope to Tomcat because its repository uptake was observed; scope now follows the shared sender act, independently of whether a receiver is observed. This is not a command to all projects to change their own logo or a technical-rights transfer.",
+      "extra_source_ids": [
+        "<175788418229.2480284.6648819765895285325@gitbox3-he-fi.apache.org>",
+        "<175811925131.2947864.16207746645876004858@gitbox3-he-fi.apache.org>",
+        "<175811925531.2948013.11209186426651754603@gitbox3-he-fi.apache.org>",
+        "<175811935543.2952656.2774145251309843821@gitbox3-he-fi.apache.org>",
+        "<175811938706.2953677.12893236301374342756@gitbox3-he-fi.apache.org>",
+        "<175811980223.2968287.7436555734129621760@gitbox3-he-fi.apache.org>",
+        "<176425226266.2424305.11474709036661166554@gitbox3-he-fi.apache.org>",
+        "<5555cc0a-c61b-4bcd-afd0-b2fabda028ad@apache.org>",
+        "<78654103-585c-49e2-9eab-cd4f860bc193@christopherschultz.net>",
+        "asf-bylaws-1887743",
+        "board-2025-08-24",
+        "board-2026-01-21",
+        "board-2026-05-20"
+      ],
+      "source_scope": "Shared initiating deliverable; preserve project-specific occurrences and responses without treating recipient copies as independent families."
+    },
+    {
+      "family_id": "tomcat-herodevs-meetup-grant-2025",
+      "project": "tomcat",
+      "onset_earliest": "unknown",
+      "onset_latest": "unknown",
+      "earliest_source_id": "board-2025-09-24",
+      "initiating_role": "pmc",
+      "action_class": "infrastructure_service",
+      "eligible": "yes",
+      "kind": "ambiguous",
+      "sender_act": "Explore/apply for meetup funding",
+      "intended_receiver": "HeroDevs external grantprovider; exact ASF administration unresolved",
+      "original_option": "Futuremeetupfundingpotential,notreceived",
+      "requested_change": "Obtain support for future Tomcatmeetups",
+      "disposition_history": "September2025potentialfundingandDecember2025submittedsupportingdocumentationcontinueonegrantapplication. March18,2026TomcatreportnowstatesgrantsecuredasdirecteddonationtoASF; June17repeatsitwithplannedGlasgowSecurityDayuse. The earlier no-award-observed statement is superseded descriptively. Actualrequestday,Foundationacceptance/fundsreceiptandspendarenotshown; unknownonsetpreventsplacinggrantinsideahorizon.",
+      "eligibility_reason": "Onecontinuinggrantapplicationcandidate,notconfirmedallocation. Decemberdocumentationdoesnotresetearlieronsetorproveproviderresponse.",
+      "extra_source_ids": [
+        "board-2025-12-17",
+        "board-2026-03-18",
+        "board-2026-06-17"
+      ],
+      "source_scope": "Only the identified Board resolution/officer/cohort report establishes the stated act. Other content in the complete retained minutes is context, not an independent confirmation."
+    },
+    {
+      "family_id": "httpd-libapreq-retirement-2024",
+      "project": "httpd",
+      "eligible": "yes",
+      "kind": "local_other",
+      "earliest_source_id": "<CAFQGv+aVs=QY72UOn+2NM5+mogULgvinw7HMMUXxbQjC3udTCw@mail.gmail.com>",
+      "onset_earliest": "unknown",
+      "onset_latest": "unknown",
+      "initiating_role": "pmc",
+      "action_class": "technical_direction",
+      "sender_act": "Resume whether to release libapreq and end future maintenance",
+      "intended_receiver": "HTTPD PMC/community",
+      "original_option": "Libapreq remains a subproject with limited release capacity",
+      "requested_change": "Make a terminal release or find an active successor community",
+      "disposition_history": "Earlierprivate2023historyleavesoriginalretirementonsetunknown. May20,2026HTTPDreportnowstatesPMCvotedtoarchive/retirelibapreq2. This supersedes the earlier descriptive absence of an adopted retirement, without dating the vote from the report or treating it as a new2026onset. Actual provider archival and disposition inside original60/90/180days remain unestablished.",
+      "eligibility_reason": "Publicly pursued collective support decision; explicitly earlier private2023 history leaves initiating date unknown. Do not substitute February14 for that earlier act. Keep retirement separate from posting restriction and Board PMC removal.",
+      "onset_limit": "Earlier private2023 discussion is explicitly referenced; its exact date and requested scope are unavailable.",
+      "extra_source_ids": [
+        "board-2026-05-20"
+      ]
+    },
+    {
+      "family_id": "ant-sbom-direction-2025",
+      "project": "ant",
+      "eligible": "yes",
+      "kind": "ambiguous",
+      "earliest_source_id": "<87seelnn5l.fsf@v45346.1blu.de>",
+      "onset_earliest": "2025-11-11",
+      "onset_latest": "2025-11-11",
+      "initiating_role": "pmc",
+      "action_class": "policy_compliance",
+      "sender_act": "Propose SBOM production for Ant and discuss policy/tooling uncertainty",
+      "intended_receiver": "Ant PMC/community; possible later ASF legal consultation",
+      "original_option": "No completed Ant SBOM workflow is shown",
+      "requested_change": "Choose and implement a maintainable SBOM approach",
+      "disposition_history": "November11,2025proposal; April26earlyAntlibrepository, May2promotion/releaseproposal. June17AntreportstatesCycloneDXAntlib0.1releasedandAnt/IvywilluseitforreleaseSBOMs. A library release is not actual productionSBOMexecution in either project, and the June report does not establish adoption by the May10,180dayendpoint. Later reports do not reset the November onset.",
+      "eligibility_reason": "Policy-compliance/technical direction candidate pursued publicly. Participant descriptions of CRA/CISA requirements are not independent legal shock evidence or an ASF direction. Keep 60/90/180-day histories distinct; no later legal consultation is backdated into an earlier opportunity.",
+      "observed_acts": [
+        {
+          "source_id": "<878qa9fowm.fsf@v45346.1blu.de>",
+          "date": "2026-04-26",
+          "act": "Reports early CycloneDX Antlib repository/sandbox and plan"
+        },
+        {
+          "source_id": "<87a4uhhq5d.fsf@v45346.1blu.de>",
+          "date": "2026-05-02",
+          "act": "Proposes promotion and release, with proper release vote still required"
+        }
+      ],
+      "extra_source_ids": [
+        "board-2026-06-17"
+      ]
+    },
+    {
+      "family_id": "foundation-atr-alpha-service-2025",
+      "project": "maven",
+      "onset_earliest": "unknown",
+      "onset_latest": "unknown",
+      "earliest_source_id": "board-2025-06-18",
+      "initiating_role": "foundation",
+      "action_class": "infrastructure_service",
+      "eligible": "yes",
+      "kind": "cross_boundary",
+      "sender_act": "Make ATR internal alpha available and handle pilot feedback",
+      "intended_receiver": "Named Maven/Tomcatpilot PMCs and ASFTooling",
+      "original_option": "Releaseplatformunderdevelopment;actualpriorpilotaccessnotdated",
+      "requested_change": "Trial shared release tooling and feed back findings",
+      "disposition_history": "June2025namedalphapilot,Octoberalpha2andNovembertestingcontinueoneunknown-onsetonboarding/servicefamily. May20,2026MavenreportstatesmostmanagersuseATRforoptional72hourvotestepfromFebruary, expresslywithoutchangingoverallreleaseprocess. June17ToolinglistsMayMavenreleasesandjointpluginwork. These actual later uses do not demonstrate compulsory policy or change of PMC release jurisdiction and are beyond180days from the firstJune2025pilotreport.",
+      "eligibility_reason": "Onesharedplatformpilotfamilywithproject-specificresponses,notonefamilypernamedPMC/report. Availability/feedbackisnotbindingadoptionorchangedreleaserights.",
+      "extra_source_ids": [
+        "board-2025-10-15",
+        "board-2025-11-19",
+        "board-2026-01-21",
+        "board-2026-02-18",
+        "board-2026-03-18",
+        "board-2026-04-15",
+        "board-2026-05-20",
+        "board-2026-06-17"
+      ],
+      "source_scope": "Only the identified Board resolution/officer/cohort report establishes the stated act. Other content in the complete retained minutes is context, not an independent confirmation."
+    },
+    {
+      "family_id": "foundation-atr-alpha-service-2025",
+      "project": "tomcat",
+      "onset_earliest": "unknown",
+      "onset_latest": "unknown",
+      "earliest_source_id": "board-2025-06-18",
+      "initiating_role": "foundation",
+      "action_class": "infrastructure_service",
+      "eligible": "yes",
+      "kind": "cross_boundary",
+      "sender_act": "Make ATR internal alpha available and handle pilot feedback",
+      "intended_receiver": "Named Maven/Tomcatpilot PMCs and ASFTooling",
+      "original_option": "Releaseplatformunderdevelopment;actualpriorpilotaccessnotdated",
+      "requested_change": "Trial shared release tooling and feed back findings",
+      "disposition_history": "June2025namedalphapilotandOctoberlocalpackaging/headercheckscontinueoneunknown-onsetservicefamily. 2026Toolingreportsserviceworkandotherprojectreleases,withoutestablishingspecificTomcatproductionuseoruniversalmandatoryrollout. Do not copy Maven uptake to Tomcat.",
+      "eligibility_reason": "Onesharedplatformpilotfamilywithproject-specificresponses,notonefamilypernamedPMC/report. Availability/feedbackisnotbindingadoptionorchangedreleaserights.",
+      "extra_source_ids": [
+        "board-2025-10-15",
+        "board-2025-11-19",
+        "board-2026-01-21",
+        "board-2026-02-18",
+        "board-2026-03-18",
+        "board-2026-04-15",
+        "board-2026-05-20",
+        "board-2026-06-17"
+      ],
+      "source_scope": "Only the identified Board resolution/officer/cohort report establishes the stated act. Other content in the complete retained minutes is context, not an independent confirmation."
+    }
+  ],
+  "existing_family_context_links": [
+    {
+      "family_id": "maven-project-utils-retirement",
+      "project": "maven",
+      "source_ids": [
+        "mshared-1477"
+      ]
+    },
+    {
+      "family_id": "maven-artifact-transfer-retirement",
+      "project": "maven",
+      "source_ids": [
+        "mshared-1478"
+      ]
+    },
+    {
+      "family_id": "tomcat-herodevs-meetup-grant-2025",
+      "project": "tomcat",
+      "source_ids": [
+        "board-2026-03-18",
+        "board-2026-06-17"
+      ]
+    },
+    {
+      "family_id": "httpd-libapreq-retirement-2024",
+      "project": "httpd",
+      "source_ids": [
+        "board-2026-05-20"
+      ]
+    },
+    {
+      "family_id": "foundation-atr-alpha-service-2025",
+      "project": "maven",
+      "source_ids": [
+        "board-2026-01-21",
+        "board-2026-02-18",
+        "board-2026-03-18",
+        "board-2026-04-15",
+        "board-2026-05-20",
+        "board-2026-06-17"
+      ]
+    },
+    {
+      "family_id": "foundation-atr-alpha-service-2025",
+      "project": "tomcat",
+      "source_ids": [
+        "board-2026-01-21",
+        "board-2026-02-18",
+        "board-2026-03-18",
+        "board-2026-04-15",
+        "board-2026-05-20",
+        "board-2026-06-17"
+      ]
+    },
+    {
+      "family_id": "ant-sbom-direction-2025",
+      "project": "ant",
+      "source_ids": [
+        "board-2026-06-17"
+      ]
+    },
+    {
+      "family_id": "foundation-website-csp-enforcement",
+      "project": "ant",
+      "source_ids": [
+        "board-2026-01-21"
+      ]
+    },
+    {
+      "family_id": "foundation-website-csp-enforcement",
+      "project": "httpd",
+      "source_ids": [
+        "board-2026-01-21"
+      ]
+    },
+    {
+      "family_id": "foundation-website-csp-enforcement",
+      "project": "maven",
+      "source_ids": [
+        "board-2026-01-21"
+      ]
+    },
+    {
+      "family_id": "foundation-website-csp-enforcement",
+      "project": "tomcat",
+      "source_ids": [
+        "board-2026-01-21"
+      ]
+    }
+  ],
+  "source_registry": "Six approved follow-up minutes verified against pre-cutoff public SVN revisions in followup-board-review.json; two complete public issue histories use the previously disclosed historical-record convention.",
+  "unassigned_context": [
+    {
+      "source_id": "board-2026-01-21",
+      "locator": "Brand report coveringDecember2025, potentialMAVENinfringementadvice",
+      "decision": "No distinct initial request, target, or independently different deliverable is identified. Retain unassigned identity ambiguity; do not count a new family or use it as confirmation of the unresolved2024case."
+    },
+    {
+      "source_id": "board-2026-01-21",
+      "locator": "Privacy report, November2025Matomohandover",
+      "decision": "Backend operator handover does not itself document changed selected-PMC analytics choices or a new binding rule; context rather than new selected relationship episode."
+    }
+  ],
+  "limits": [
+    "No fresh2026episodeisadded. Followupcloses/qualifiesinwindowfamiliesonly.",
+    "Newsharedlogo rows correct scope before any aggregate calculation; the same source and sender remain one family. Tomcat uptake must never be copied as another project's receiving action.",
+    "No revised onset or fabricated exact underlying application/decision date. Grant secured, funds received, funds spent, and newly enabled event execution remain different observations."
+  ]
+}

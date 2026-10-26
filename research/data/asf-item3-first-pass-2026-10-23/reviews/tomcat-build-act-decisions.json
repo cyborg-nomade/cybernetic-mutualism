@@ -1,0 +1,277 @@
+{
+  "review_date": "2026-10-21",
+  "status": "independent_build_runtime_act_selections_before_component_and_causal_coding",
+  "decisions": [
+    {
+      "family_id": "tomcat11-runtime17-2023",
+      "navigation_family": "tomcat11-runtime17-2023",
+      "project": "tomcat",
+      "eligible": "yes",
+      "kind": "local_other",
+      "earliest_source_id": "<dd4877e3-721a-bfdb-2d5c-1d6298b2bdd7@apache.org>",
+      "onset_earliest": "2023-01-11",
+      "onset_latest": "2023-01-11",
+      "initiating_role": "pmc",
+      "action_class": "technical_direction",
+      "sender_act": "Ask whether Tomcat11 should use Java17 as minimum runtime",
+      "intended_receiver": "Tomcat PMC/community and affected builders/users",
+      "original_option": "Existing main runtime minimum11; future Jakarta direction21 under discussion",
+      "requested_change": "Raise Tomcat11 minimum runtime to17",
+      "disposition_history": "January1111:44Mark explicitly asks17-versus21minimum after root message mainly proposes build-JRE17 and deferring21. January19plan chooses17 while reserving later21decision; same-day7eec47raisesmain runtime/compile/build to17.",
+      "eligibility_reason": "A public project runtime-support decision, separate from all-branch CI/default-build choices. The17policy completes inJanuary; later21andrestoration requests target different minima after completed allocation of support, not retries of a failed candidate.",
+      "extra_source_ids": [
+        "<bab09f41-79a2-bd1c-772d-0273b6932d96@apache.org>"
+      ],
+      "observed_acts": [
+        {
+          "source_id": "<d9e5b07d-8377-efec-2215-f38249e47ac8@apache.org>",
+          "date": "2023-01-19",
+          "act": "Explicitly selects runtime17 and reserves any later21decision"
+        },
+        {
+          "source_id": "<167412183192.2431034.11261770463224187189@gitbox2-he-fi.apache.org>",
+          "date": "2023-01-19",
+          "act": "Public push enforces main minimum17"
+        }
+      ]
+    },
+    {
+      "family_id": "tomcat11-runtime21-2023",
+      "navigation_family": "tomcat11-runtime21-2023",
+      "project": "tomcat",
+      "eligible": "yes",
+      "kind": "local_other",
+      "earliest_source_id": "<168382051725.2103485.8306387305971985694@gitbox2-he-fi.apache.org>",
+      "onset_earliest": "unknown",
+      "onset_latest": "unknown",
+      "initiating_role": "pmc",
+      "action_class": "technical_direction",
+      "sender_act": "Raise Tomcat11 runtime minimum from17to21",
+      "intended_receiver": "Tomcat PMC/community and affected builders/users",
+      "original_option": "January2023completed minimum17, later21decision explicitly reserved",
+      "requested_change": "Require21for Tomcat11 runtime",
+      "disposition_history": "May11dbd9fcae enforces minimum21; May12discussion says upgrade already made. Januaryfuture21option is context after a completed17choice, not a known date for the subsequent executed21decision. Earlier intervening decision/request is not retained.",
+      "eligibility_reason": "Retain actual changed minimum and unknown initiating date; do not set onset from the later May12acknowledgement or reuse January11discussion as proof of the intervening decision. No ASF receiver allocation follows.",
+      "onset_limit": "First observed executed changeMay11; actual intervening proposal/decision date unknown. January19explicitly defers this decision."
+    },
+    {
+      "family_id": "tomcat11-runtime17-restoration-2024",
+      "navigation_family": "tomcat11-runtime17-restoration-2024",
+      "project": "tomcat",
+      "eligible": "yes",
+      "kind": "local_other",
+      "earliest_source_id": "<CAHeF--hDe0Myq5v+BJJxxTh8ysK8-NQbhNVxU9foyhcL23vWDw@mail.gmail.com>",
+      "onset_earliest": "2024-01-19",
+      "onset_latest": "2024-01-19",
+      "initiating_role": "pmc",
+      "action_class": "technical_direction",
+      "sender_act": "Request Java17-compatible EL binaries for OpenLiberty/Jakarta11",
+      "intended_receiver": "Tomcat PMC/community and affected builders/users",
+      "original_option": "Tomcat11currently requires21",
+      "requested_change": "Restore17compatibility without losing later-Java features",
+      "disposition_history": "January16reports possible external Jakarta change but does not yet propose supporting it; January19Mark leans retaining21absent user demand; Volodymyr explicitly asks17-compatible EL and describes workarounds. February20Mark proposes main17restoration, February21agreement and actual d9def061push. Release Java22 remains separate.",
+      "eligibility_reason": "Contributor request pursued through Tomcat public decision process. First local request is January19, not January16external-plan observation or February20final merge proposal. Eclipse/another ASF project affiliation is not central Foundation authority.",
+      "observed_acts": [
+        {
+          "source_id": "<5ce0cd72-2db7-47e4-894a-6529f9ef9199@apache.org>",
+          "date": "2024-02-20",
+          "act": "Proposes merging prepared Java17restoration branch"
+        },
+        {
+          "source_id": "<170851538761.3747935.3302986352188914830@gitbox2-he-fi.apache.org>",
+          "date": "2024-02-21",
+          "act": "Push restores compile/runtime/user-build17 while retaining release22; January19AuthorDate is not push date"
+        }
+      ]
+    },
+    {
+      "family_id": "tomcat-main-build-default-direction",
+      "navigation_family": "tomcat-main-build-default-direction",
+      "project": "tomcat",
+      "eligible": "yes",
+      "kind": "local_other",
+      "earliest_source_id": "<bab09f41-79a2-bd1c-772d-0273b6932d96@apache.org>",
+      "onset_earliest": "2023-01-11",
+      "onset_latest": "2023-01-11",
+      "initiating_role": "pmc",
+      "action_class": "technical_direction",
+      "sender_act": "Propose Java17as default build JRE across Tomcat branches",
+      "intended_receiver": "Tomcat PMC/community and affected builders/users",
+      "original_option": "Older/default release-build environments; runtime minima vary by branch",
+      "requested_change": "Use a single newer default build JRE while retaining suitable targets",
+      "disposition_history": "January11root proposes default build17 and defers21because8.5target7. January19selects CI17except8.5Buildbot and leaves older branches minimum-build11. Main runtime/build17is separately executed. All-branch default-release-build execution is not established by that main-only commit.",
+      "eligibility_reason": "Default/release build choice is distinct from runtime requirement, user-build minimum and CI matrix. Do not turn January19CIplan into proof every release manager changed build JRE."
+    },
+    {
+      "family_id": "tomcat-ci-java17-direction-2023",
+      "navigation_family": "tomcat-ci-java17-direction-2023",
+      "project": "tomcat",
+      "eligible": "yes",
+      "kind": "local_other",
+      "earliest_source_id": "<81b597b7-b436-f654-2019-6e8df1bd02bf@apache.org>",
+      "onset_earliest": "2023-01-11",
+      "onset_latest": "2023-01-12",
+      "initiating_role": "pmc",
+      "action_class": "technical_direction",
+      "sender_act": "Attempt CI17then propose repair of Javadoc-warning behavior",
+      "intended_receiver": "Tomcat PMC/community and affected builders/users",
+      "original_option": "CIpreviously uses11; failonwarning true",
+      "requested_change": "Choose working CI17configuration and warning handling",
+      "disposition_history": "January12report explicitly says switching last night failed9.0/8.5builds and will revert to11pending discussion. January19selects17except8.5Buildbot; same-day b5d5ab removes11frommain matrix and changes Windows test17.",
+      "eligibility_reason": "Actual local CI experiment is dated to the preceding night interval; no exact hour/day is fabricated. It changes project CI configuration without a documented Infra request/allocation. Jan11runtime/build discussion remains context.",
+      "extra_source_ids": [
+        "<d9e5b07d-8377-efec-2215-f38249e47ac8@apache.org>"
+      ],
+      "observed_acts": [
+        {
+          "source_id": "<167415715822.3603261.6809850280524460204@gitbox2-he-fi.apache.org>",
+          "date": "2023-01-19",
+          "act": "Public main CI matrix change to17"
+        }
+      ]
+    },
+    {
+      "family_id": "tomcat-build-jdk17-bnd-2023",
+      "navigation_family": "tomcat-build-jdk17-bnd-2023",
+      "project": "tomcat",
+      "eligible": "yes",
+      "kind": "local_other",
+      "earliest_source_id": "<ba446242-310d-4a28-ab56-e5ab68e4cb02@apache.org>",
+      "onset_earliest": "2023-11-02",
+      "onset_latest": "2023-11-02",
+      "initiating_role": "pmc",
+      "action_class": "technical_direction",
+      "sender_act": "Ask whether to require buildJDK17or revert BND7",
+      "intended_receiver": "Tomcat PMC/community and affected builders/users",
+      "original_option": "BND6.4.1/older builder environments and unchanged runtimes",
+      "requested_change": "Use BND7and require build17for9.0/10.1",
+      "disposition_history": "November2morning BND dependency updates precede15:20explicit choice; support/objections follow;17:55/17:59public commits enforce build17. February2024build-minimum discussion and documentation correction resume same direction. Runtime11/8remains.",
+      "eligibility_reason": "A public branch-wide build-support direction, with original dependency update as own-history precursor. Do not confuse enforced builder requirement with runtime or central allocation. Within-day causal order requires textual sequence, not mail clock alone.",
+      "observed_acts": [
+        {
+          "source_id": "<169894772081.115318.6827458730336063794@gitbox2-he-fi.apache.org>",
+          "date": "2023-11-02",
+          "act": "10.1public push enforces build17"
+        },
+        {
+          "source_id": "<169894796199.123879.16102244121810235803@gitbox2-he-fi.apache.org>",
+          "date": "2023-11-02",
+          "act": "9.0public push enforces build17"
+        }
+      ]
+    },
+    {
+      "family_id": "tomcat12-branch-direction-2024",
+      "navigation_family": "tomcat12-branch-direction-2024",
+      "project": "tomcat",
+      "eligible": "yes",
+      "kind": "local_other",
+      "earliest_source_id": "<10a27c84-c82b-44a4-92c9-0a09e5bb0cd4@apache.org>",
+      "onset_earliest": "2024-08-12",
+      "onset_latest": "2024-08-12",
+      "initiating_role": "pmc",
+      "action_class": "technical_direction",
+      "sender_act": "Propose branching11.0and making main12.0for new Jakarta12features",
+      "intended_receiver": "Tomcat PMC/community and affected builders/users",
+      "original_option": "Mainstill represents11.0development",
+      "requested_change": "Create11.0.xbranch and move main to12.0",
+      "disposition_history": "August12explicit public proposal, August13support, August15public branch-creation notice; snapshots/CIchanges proposed and no immediate12release promised.",
+      "eligibility_reason": "Distinct completed branch/product workflow direction; a new branch is not a Foundation repository-provisioning request or an actual release. Earlier EL feature work is context, not an earlier request for this branching arrangement.",
+      "observed_acts": [
+        {
+          "source_id": "<172372036349.879311.18120789923100771949@gitbox2-he-fi.apache.org>",
+          "date": "2024-08-15",
+          "act": "Public11.0.xbranch creation notice"
+        }
+      ]
+    },
+    {
+      "family_id": "tomcat-12-java-minimum-2024",
+      "navigation_family": "tomcat-12-java-minimum-2024",
+      "project": "tomcat",
+      "eligible": "yes",
+      "kind": "local_other",
+      "earliest_source_id": "<20241010195945.782234412FD@gitbox2-he-fi.apache.org>",
+      "onset_earliest": "unknown",
+      "onset_latest": "unknown",
+      "initiating_role": "pmc",
+      "action_class": "technical_direction",
+      "sender_act": "Enforce Java21minimum for Tomcat12",
+      "intended_receiver": "Tomcat PMC/community and affected builders/users",
+      "original_option": "Tomcat12main initially inherits17user-build/runtime settings",
+      "requested_change": "Require21for Tomcat12runtime/compile/userbuild",
+      "disposition_history": "October10public commit0b84147raises17to21, citing Jakarta12platform; release-build22stays. November28TCKconfig removes17. EarlierOctoberpanel discusses several directions but does not itself establish this exact minimum decision.",
+      "eligibility_reason": "Executed product-wide minimum is retained with unknown earlier initiating decision. Do not date from later TCKuptake or equate configuration with successful TCKexecution. Independent Jakarta specification policy is external context pending primary verification.",
+      "onset_limit": "First observed exact enforcementOctober10; earlier local decision date and independent specification effective rule remain unresolved."
+    },
+    {
+      "family_id": "tomcat9-extended-support",
+      "navigation_family": "tomcat9-extended-support",
+      "project": "tomcat",
+      "eligible": "yes",
+      "kind": "local_other",
+      "earliest_source_id": "<e0d3fd00-c5ab-4f67-81d2-9f8eebc16a38@apache.org>",
+      "onset_earliest": "unknown",
+      "onset_latest": "unknown",
+      "initiating_role": "pmc",
+      "action_class": "technical_direction",
+      "sender_act": "Resume discussion of extended Tomcat9support options",
+      "intended_receiver": "Tomcat PMC/community and affected builders/users",
+      "original_option": "Earlier plans already envisage extended9support",
+      "requested_change": "Choose supported features, runtime/branch strategy and support scope",
+      "disposition_history": "January30,2025explicitly resumes several earlier discussions and considers cancel/continue9, Java8/APR,9.1andbackportscope. Replies retain8anddebateAPR; no final adopted whole support plan in retained bodies.",
+      "eligibility_reason": "Underlying ongoing9support deliverable has explicit earlier history; first retained2025message is not substituted for onset. Runtime/provider support claims are participant reports, not independent shock evidence.",
+      "onset_limit": "Earlier repeated public discussions explicitly referenced; exact first request not established."
+    },
+    {
+      "family_id": "tomcat-openssl-ffm-direction-2023",
+      "navigation_family": "tomcat-openssl-ffm-direction-2023",
+      "project": "tomcat",
+      "eligible": "no",
+      "kind": "excluded",
+      "earliest_source_id": "<166524681413.326025.10054709889677132346@gitbox2-he-fi.apache.org>",
+      "onset_earliest": "unknown",
+      "onset_latest": "unknown",
+      "initiating_role": "pmc",
+      "action_class": "technical_direction",
+      "sender_act": "Plan integrating Panama OpenSSL module into Tomcat11core",
+      "intended_receiver": "Tomcat PMC/community and affected builders/users",
+      "original_option": "Experimental FFMmodule exists separately",
+      "requested_change": "Integrate into main and adjust release compilation when APIready",
+      "disposition_history": "October8,2022original476affb15f explicitly plans integrating Panama OpenSSL module whenJava21available and release builds21. January/May2023andOctober2023plans refine preview/final APItiming; January2024reports integration. Repeated plans retain same core integration deliverable.",
+      "eligibility_reason": "Exact retained prewindow public roadmap requests the same core integration subsequently pursued through public project decisions. No fresh2023onset. Native retirement/replacement and existing-branch backports are separately actionable deliverables.",
+      "prewindow": true,
+      "extra_source_ids": [
+        "<166524681413.326025.10054709889677132346@gitbox2-he-fi.apache.org>",
+        "<166573746415.2764665.8389464816377909909@gitbox2-he-fi.apache.org>",
+        "<167051069663.133750.18343234689570764109@gitbox2-he-fi.apache.org>"
+      ]
+    },
+    {
+      "family_id": "tomcat-ffm-native-replacement-direction",
+      "navigation_family": "tomcat-ffm-native-replacement-direction",
+      "project": "tomcat",
+      "eligible": "yes",
+      "kind": "local_other",
+      "earliest_source_id": "<CANwj8ZqaptJDUXEGzH7SH3tEQr_CaympSLxh4m9psrW9NhM1rw@mail.gmail.com>",
+      "onset_earliest": "2023-01-11",
+      "onset_latest": "2023-01-11",
+      "initiating_role": "pmc",
+      "action_class": "technical_direction",
+      "sender_act": "Propose dropping Tomcat Native from11and replacing it with Panama",
+      "intended_receiver": "Tomcat PMC/community and affected builders/users",
+      "original_option": "NativeandexperimentalPanama coexist; integrationalone does not retireNative",
+      "requested_change": "RetireNativeas supported path when Panama is suitable",
+      "disposition_history": "January11R\u00e9my explicitly proposes dropping Native if Panama nonpreview21. May12contrasts waiting/retainingNativewith fullreplacement, favors waiting; May23revises plan to keeppreviewmodulesunofficial. October2024panel again considersreplacement, not a new onset or final Native retirement.",
+      "eligibility_reason": "Dropping Native is independently different from adding FFMto main. Preserve January11first explicit replacement proposal, public procedural pursuit and conditional/changed history; do not infer actual Native withdrawal or independent Foundation action.",
+      "extra_source_ids": [
+        "<CANwj8ZptaoO5LWz0GW8KM+o82GuTw9F9dSzEmioT7+LGVQBApA@mail.gmail.com>"
+      ]
+    }
+  ],
+  "limits": [
+    "Runtime, user-build, release-build and CIsettings are different option sets.",
+    "Unknown earlier decisions and specification/provider records are not filled with commit/acknowledgment dates.",
+    "No Foundation role, opportunity, causal witness, lock or completed firstpass inferred."
+  ]
+}

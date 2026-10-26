@@ -1,0 +1,288 @@
+{
+  "review_date": "2026-10-21",
+  "status": "explicit_act_and_eligibility_decisions_before_component_and_causal_coding",
+  "decisions": [
+    {
+      "family_id": "ant-1.9-eol",
+      "project": "ant",
+      "eligible": "no",
+      "kind": "excluded",
+      "earliest_source_id": "<bd0057f8-b0bb-49bb-b8cf-ec4536d6e44b@apache.org>",
+      "onset_earliest": "unknown",
+      "onset_latest": "unknown",
+      "initiating_role": "pmc",
+      "action_class": "governance",
+      "sender_act": "Resume ending Ant 1.9.x support",
+      "intended_receiver": "Ant PMC",
+      "original_option": "Existing supported 1.9.x series",
+      "requested_change": "End the release series",
+      "disposition_history": "2024 June proposal and approved result explicitly resume the 2020 proposal/votes.",
+      "eligibility_reason": "Same underlying support-termination deliverable has documented pre-window history. Preserve the in-window observation and exclusion; do not treat the June 2024 result as a fresh onset.",
+      "prewindow": true
+    },
+    {
+      "family_id": "ant-github-contribution-route",
+      "project": "ant",
+      "eligible": "no",
+      "kind": "excluded",
+      "earliest_source_id": "<DM6PR15MB3484F132CCF955AD5D3F88B5E73C9@DM6PR15MB3484.namprd15.prod.outlook.com>",
+      "onset_earliest": "unknown",
+      "onset_latest": "unknown",
+      "initiating_role": "external",
+      "action_class": "infrastructure_service",
+      "sender_act": "Ask how to submit an Ivy contribution",
+      "intended_receiver": "Ant developers",
+      "original_option": "Existing two-way GitHub mirror and patch submission routes",
+      "requested_change": "Clarify existing procedure",
+      "disposition_history": "November 7, 2022 explanation says requester already used the right route; no new grant/refusal.",
+      "eligibility_reason": "Pre-window procedure clarification, without a new 2023\u20132025 requested deliverable.",
+      "prewindow": true
+    },
+    {
+      "family_id": "ant-ant-gitbox-sync-repair-2025",
+      "project": "ant",
+      "eligible": "no",
+      "kind": "excluded",
+      "earliest_source_id": "<87cyboon5w.fsf@v45346.1blu.de>",
+      "onset_earliest": "2025-05-31",
+      "onset_latest": "2025-05-31",
+      "initiating_role": "pmc",
+      "action_class": "infrastructure_service",
+      "sender_act": "Report a merged Ant PR not appearing in Gitbox and propose waiting",
+      "intended_receiver": "Ant developers",
+      "original_option": "GitHub-to-Gitbox synchronization expected",
+      "requested_change": "No directed change request in the original message",
+      "disposition_history": "Single report says the author will give it more time and recalls Ivy trouble.",
+      "eligibility_reason": "An incident mention alone does not establish a shared-service request, binding direction, or exercised request to change a Foundation commitment. Preserve as excluded incident context; keep distinct from the earlier Ivy repository problem."
+    },
+    {
+      "family_id": "ant-ivy-gitbox-sync-repair-2025",
+      "project": "ant",
+      "eligible": "yes",
+      "kind": "ambiguous",
+      "earliest_source_id": "<CAHgmaKqMFu5ot4hR-e5_WOFkFdP8hgEb83C6m8JnxOF2syOnmA@mail.gmail.com>",
+      "onset_earliest": "2025-03-26",
+      "onset_latest": "2025-03-26",
+      "initiating_role": "pmc",
+      "action_class": "infrastructure_service",
+      "sender_act": "Seek help restoring Ivy CI fetching the latest pushed commit",
+      "intended_receiver": "Project git experts; Foundation service receiver is not identified",
+      "original_option": "CI uses Gitbox but misses the latest GitHub commit",
+      "requested_change": "Restore the shared repository/CI route",
+      "disposition_history": "March 26 Jaikiran switches CI to GitHub and triggers a build fetching the latest commit. April 1 he reports Gitbox up to date; April 21 requester thanks him.",
+      "eligibility_reason": "Eligible service candidate with local workaround and later observed service state. The provider act causing synchronization recovery is absent; neither the workaround nor the later state identifies Foundation intervention.",
+      "observed_acts": [
+        {
+          "source_id": "<73fbd6cf-9ef8-4cf7-8bd9-bc5d2157ab68@apache.org>",
+          "date": "2025-03-26",
+          "act": "Project-side workaround switches job remote and triggers build; latest commit fetched"
+        },
+        {
+          "source_id": "<b04795c4-3ff8-47e7-9ee7-8dda8cb19aac@apache.org>",
+          "date": "2025-04-01",
+          "act": "Reports Gitbox repository is now up to date; restoration actor/mechanism unknown"
+        }
+      ]
+    },
+    {
+      "family_id": "ant-ivy-retirement",
+      "project": "ant",
+      "eligible": "yes",
+      "kind": "local_other",
+      "earliest_source_id": "<87cyzfukuf.fsf@v45346.1blu.de>",
+      "onset_earliest": "2023-08-22",
+      "onset_latest": "2023-08-22",
+      "initiating_role": "pmc",
+      "action_class": "governance",
+      "sender_act": "Propose ending unmaintained Ivy development alongside IvyDE",
+      "intended_receiver": "Ant PMC/community",
+      "original_option": "Ivy remains an Ant subproject with limited active maintenance",
+      "requested_change": "Retire Ivy unless maintenance resumes",
+      "disposition_history": "August 22, 2023 personal proposal enters public PMC discussion; no withdrawal or final collective disposition is observed inside 60, 90, or 180 days. October 8, 2024 asks about a possible November retirement vote. November 17, 2024 Maarten offers continued maintenance and Jaikiran explicitly says the plan to retire Ivy has been abandoned. These acts are outside all three horizons and must not be backdated to August 2023.",
+      "eligibility_reason": "Collective support/retirement proposal pursued through the public PMC process. No directed Foundation commitment follows from the retained Ivy proposal. Keep it distinct from IvyDE and retain the late withdrawal without forward-filling it into the registered horizons.",
+      "source_scope": "Ivy-related acts in shared Future of Ivy and IvyDE topics, not the separate IvyDE ballots",
+      "observed_acts": [
+        {
+          "source_id": "<457381523.1903503.1731840000859@mail.yahoo.com>",
+          "date": "2024-11-17",
+          "act": "Maarten offers continued maintenance; outside all registered horizons"
+        },
+        {
+          "source_id": "<9795f2a3-2acf-42dd-b2b1-e19fe7036fe7@apache.org>",
+          "date": "2024-11-17",
+          "act": "Jaikiran explicitly confirms abandonment of Ivy retirement; outside all registered horizons"
+        }
+      ]
+    },
+    {
+      "family_id": "ant-ivyde-retirement",
+      "project": "ant",
+      "eligible": "no",
+      "kind": "excluded",
+      "earliest_source_id": "<001301d24ec5$e0040790$a00c16b0$@de>",
+      "onset_earliest": "2016-12-05",
+      "onset_latest": "2016-12-05",
+      "initiating_role": "pmc",
+      "action_class": "governance",
+      "sender_act": "Propose ending unmaintained IvyDE development",
+      "intended_receiver": "Ant PMC; initially proposed Apache Attic; later Infra archival services",
+      "original_option": "IvyDE is an active Ant subproject",
+      "requested_change": "Retire IvyDE and arrange repository/service archival",
+      "disposition_history": "December 5, 2016 original retirement ballot; December 8 cancellation/postponement requests; December 13 result says vote failed and IvyDE remains alive. August\u2013September 2023 reopens the same retirement deliverable. November 19 Attic ballot, November 23 procedural correction and replacement local ballot, November 26 retirement result and reported archival tickets are retained follow-up, outside the original onset window. IvyDE is an Ant component, not the Ant PMC itself.",
+      "eligibility_reason": "December 5, 2016 original public vote seeks the same IvyDE retirement deliverable; December 13 result declares failure after cancellation requests. September 5, 2023 Nicolas explicitly describes resuming that earlier attempt. Under the registered rule, reopened votes retain the underlying family, so the 2023 vote/archival continuation is pre-window, rather than a fresh in-window family. Failed withdrawal does not erase the initiating act.",
+      "observed_acts": [
+        {
+          "source_id": "<87zfz5q6px.fsf@v45346.1blu.de>",
+          "date": "2023-11-23",
+          "act": "Proposer corrects Attic procedure and requires a new local vote"
+        },
+        {
+          "source_id": "<87jzq4y210.fsf@v45346.1blu.de>",
+          "date": "2023-11-26",
+          "act": "Local retirement ballot result"
+        },
+        {
+          "source_id": "<87fs0sy08o.fsf@v45346.1blu.de>",
+          "date": "2023-11-26",
+          "act": "Reports archival tickets; ticket creation does not prove provider execution"
+        }
+      ],
+      "source_scope": "IvyDE-specific retirement/archival acts; shared discussion supplies precursor and distinction from Ivy",
+      "prewindow": true,
+      "extra_source_ids": [
+        "<000a01d25511$f4177a30$dc466e90$@de>",
+        "<2E959BA8-CCBE-4C24-B0A9-831655AD8E9D@hibnet.org>",
+        "<002701d2518d$e827b280$b8771780$@de>",
+        "<35913106-012F-4768-9336-6AB44EEB0818@hibnet.org>"
+      ]
+    },
+    {
+      "family_id": "ant-jenkins-build-permission-repair-2024",
+      "project": "ant",
+      "eligible": "yes",
+      "kind": "cross_boundary",
+      "earliest_source_id": "<8d6ca10f-9a8f-418b-944c-5fb31e8a1673@apache.org>",
+      "onset_earliest": "unknown",
+      "onset_latest": "unknown",
+      "initiating_role": "pmc",
+      "action_class": "infrastructure_service",
+      "sender_act": "Report inability to trigger Ant jobs and an earlier unanswered Infra question",
+      "intended_receiver": "ASF Infrastructure",
+      "original_option": "Previously could trigger Jenkins jobs while authenticated",
+      "requested_change": "Restore job-trigger permission",
+      "disposition_history": "June 12 reports missing Build link and earlier Infra question. June 13 same requester reports Infra addressed the issue and he can trigger jobs. Original service request and provider reply are not public in this thread.",
+      "eligibility_reason": "Explicit shared-service restoration request and reported recovery are retained. Initiating request predates first retained message; its date is unknown, not silently set to June 12. Public requester observation supports usable job permission, not an independently observed provider mechanism.",
+      "observed_acts": [
+        {
+          "source_id": "<b626c55b-dca0-4fad-a7c7-6a6146727f72@apache.org>",
+          "date": "2024-06-13",
+          "act": "Requester reports Infra addressed issue and job triggering works"
+        }
+      ]
+    },
+    {
+      "family_id": "ant-jira-account-approval-2024-11",
+      "project": "ant",
+      "eligible": "yes",
+      "kind": "cross_boundary",
+      "earliest_source_id": "<Zy6yD_7CJlVASLe5@michel-fedora-PC198L6J>",
+      "onset_earliest": "unknown",
+      "onset_latest": "unknown",
+      "initiating_role": "external",
+      "action_class": "infrastructure_service",
+      "sender_act": "Report pending Jira account application while asking about Ivy packaging",
+      "intended_receiver": "Ant project account approver",
+      "original_option": "Cannot yet file the intended Ivy issue pending account approval",
+      "requested_change": "Approve account so an issue can be filed",
+      "disposition_history": "November 9 00:51 UTC requester says application is pending; 01:39 Jaikiran explicitly approves and invites filing; 03:43 requester reports IVY-1652 filed. The preceding private/application submission time is not observed.",
+      "eligibility_reason": "A distinct shared-service account grant, separable from Pack200 troubleshooting and from the February account workflow repair. External requester is not a PMC local choice and project approver is not automatically a Foundation-wide coordination actor.",
+      "observed_acts": [
+        {
+          "source_id": "<0f288916-27a7-4e21-bf82-ca403ed68e4a@apache.org>",
+          "date": "2024-11-09",
+          "act": "Project approver explicitly approves account"
+        },
+        {
+          "source_id": "<Zy7aSUSwpM2Pnxva@borges>",
+          "date": "2024-11-09",
+          "act": "Requester confirms IVY-1652 filed"
+        }
+      ],
+      "onset_limit": "November 9 public message reports an already-pending application. The actual initiating application date is unknown; the first retained report is not substituted for it."
+    },
+    {
+      "family_id": "ant-jira-account-repair-2024-02",
+      "project": "ant",
+      "eligible": "yes",
+      "kind": "cross_boundary",
+      "earliest_source_id": "<MW5PR16MB4848CC2A236D2F8842D72F1A91412@MW5PR16MB4848.namprd16.prod.outlook.com>",
+      "onset_earliest": "2024-02-03",
+      "onset_latest": "2024-02-03",
+      "initiating_role": "external",
+      "action_class": "infrastructure_service",
+      "sender_act": "Report that self-service incorrectly rejects Ant/Ivy Jira account creation",
+      "intended_receiver": "Ant developers and proposed Infra repair route",
+      "original_option": "Ivy contributor needs an account; self-service says selected project does not use Jira",
+      "requested_change": "Repair the routing and approve the account",
+      "disposition_history": "February 3 contributor reports exact self-service rejection; Stefan says he will file an Infra bug. February 5 Stefan relays that it should work. February 15 requester says he applied again and Stefan approves. The actual Infra request/repair record is unavailable.",
+      "eligibility_reason": "Separate account/workflow deliverable begins February 3, not in the November 2023 ordinary patch discussion. Intent to escalate is not evidence that the service ticket was actually sent. The later account approval is directly reported by its actor; Foundation repair attribution remains bounded.",
+      "observed_acts": [
+        {
+          "source_id": "<87fry9wuvw.fsf@v45346.1blu.de>",
+          "date": "2024-02-03",
+          "act": "Stefan proposes filing Infra bug"
+        },
+        {
+          "source_id": "<878r3yokvl.fsf@v45346.1blu.de>",
+          "date": "2024-02-05",
+          "act": "Relays that self-service should now work; provider not identified"
+        },
+        {
+          "source_id": "<MW5PR16MB4848E945EB86729CE26AA5F3914D2@MW5PR16MB4848.namprd16.prod.outlook.com>",
+          "date": "2024-02-15",
+          "act": "Requester reapplies"
+        },
+        {
+          "source_id": "<87o7chlkkv.fsf@v45346.1blu.de>",
+          "date": "2024-02-15",
+          "act": "Project approver explicitly approves request"
+        }
+      ],
+      "source_scope": "Only February 2024 account/routing acts; November 2023 patch/review discussion remains precursor context"
+    },
+    {
+      "family_id": "ant-sbom-direction-2025",
+      "project": "ant",
+      "eligible": "yes",
+      "kind": "ambiguous",
+      "earliest_source_id": "<87seelnn5l.fsf@v45346.1blu.de>",
+      "onset_earliest": "2025-11-11",
+      "onset_latest": "2025-11-11",
+      "initiating_role": "pmc",
+      "action_class": "policy_compliance",
+      "sender_act": "Propose SBOM production for Ant and discuss policy/tooling uncertainty",
+      "intended_receiver": "Ant PMC/community; possible later ASF legal consultation",
+      "original_option": "No completed Ant SBOM workflow is shown",
+      "requested_change": "Choose and implement a maintainable SBOM approach",
+      "disposition_history": "November 2025 discussion; April 26, 2026 CycloneDX Antlib repository/sandbox and dependency plan reported; May 2 promotion/release proposed. May 17 and later work falls outside 180 days from November 11. No ready production Ant SBOM, legal approval, or binding ASF mandate is proved inside the retained horizon.",
+      "eligibility_reason": "Policy-compliance/technical direction candidate pursued publicly. Participant descriptions of CRA/CISA requirements are not independent legal shock evidence or an ASF direction. Keep 60/90/180-day histories distinct; no later legal consultation is backdated into an earlier opportunity.",
+      "observed_acts": [
+        {
+          "source_id": "<878qa9fowm.fsf@v45346.1blu.de>",
+          "date": "2026-04-26",
+          "act": "Reports early CycloneDX Antlib repository/sandbox and plan"
+        },
+        {
+          "source_id": "<87a4uhhq5d.fsf@v45346.1blu.de>",
+          "date": "2026-05-02",
+          "act": "Proposes promotion and release, with proper release vote still required"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Sources already reviewed completely; this record selects exact acts rather than assigning first thread dates automatically.",
+    "Formal release families remain in the separately accepted fixed frame.",
+    "No authority shift, opportunity flag, qualified witness or completed first pass is implied by inclusion."
+  ]
+}

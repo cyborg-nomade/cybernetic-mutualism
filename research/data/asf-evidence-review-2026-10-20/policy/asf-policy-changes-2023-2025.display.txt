@@ -1,0 +1,336 @@
+COMMIT 87348c9a0801f5f0c1943a370a1b26291a5bf941 2023-05-24T13:04:23Z Fixing a dangling link
+content/legal/release-policy.md
+@@ -495,7 +495,7 @@ Releases</a>.
+ ### Release licensing questions  {#license}
+ 
+ Please read [Applying the Apache License, Version
+-2.0](apply-license) and check the [Apache Licenses](/licenses/) and 
++2.0](https://infra.apache.org/apply-license.html) and check the [Apache Licenses](/licenses/) and 
+ [Apache Legal](/legal/) pages for current information.
+ 
+ #### Which files must contain an ASF license text?  {#which-files-contain-license}
+COMMIT e6e57381a7806809bfde06816a47063028aa2e8a 2023-05-29T16:47:51Z Moving release-policy.md under /legal/ as per LEGAL-644
+content/legal/release-policy.md
+@@ -495,7 +495,7 @@ Releases</a>.
+ ### Release licensing questions  {#license}
+ 
+ Please read [Applying the Apache License, Version
+-2.0](https://infra.apache.org/apply-license.html) and check the [Apache Licenses](/licenses/) and 
++2.0](/legal/apply-license.html) and check the [Apache Licenses](/licenses/) and 
+ [Apache Legal](/legal/) pages for current information.
+ 
+ #### Which files must contain an ASF license text?  {#which-files-contain-license}
+COMMIT d3e5ecf60e417cfb3e16e66e76b0562eacca89b3 2023-07-14T13:25:49Z Updating policy as per LEGAL-647
+content/legal/release-policy.md
+@@ -72,9 +72,12 @@ contain compiled code.
+ 
+ #### Release signing  {#release-signing}
+ 
+-All supplied packages MUST be cryptographically signed by the Release
+-Manager with a detached signature.  Folks who vote +1
+-for release MAY offer their own cryptographic signature to be concatenated
++All supplied packages MUST be cryptographically signed with a detached signature.
++It MUST be signed by either the Release Manager or the automated release
++infrastructure, where the underlying implementation MUST follow the principles
++[outlined](/dev/release-signing.html#automated-release-signing) by the Apache
++Security Team. All supplied packages MUST use a detached signature. Those who
++vote +1 for release MAY offer their own cryptographic signature to be concatenated
+ with the detached signature file (at the Release Manager's discretion)
+ prior to release.
+ 
+COMMIT 50938bcf72c2d6e00c18853bde8cce8aa3020ec5 2023-07-15T12:18:17Z OF: drop blank lines in metadata headers
+content/foundation/voting.md
+@@ -1,5 +1,4 @@
+ Title: Apache Voting Process
+-
+ license: https://www.apache.org/licenses/LICENSE-2.0
+ 
+ # {{title}}
+content/legal/release-policy.md
+@@ -1,5 +1,4 @@
+ Title: Release Policy
+-
+ license: https://www.apache.org/licenses/LICENSE-2.0
+ 
+ # {{title}}
+COMMIT df9debbe9141156fe277f4caf33cdf19d3a05db7 2023-08-07T16:06:56Z Use site-relative links
+content/legal/release-policy.md
+@@ -538,7 +538,7 @@ Yes! The NOTICE file must contain the standard ASF attribution, given
+ below:
+ 
+     This product includes software developed at
+-    The Apache Software Foundation (http://www.apache.org/).
++    The Apache Software Foundation (/).
+ 
+ N.B. Unfortunately versions of this document prior to 2013-01-30 (r1440650) were incorrect, as they used the phrase:
+ "developed by" instead of "developed at". 
+COMMIT ed101261ebd137c97ee6cd79816395a0618f090a 2023-08-11T22:41:38Z OF: broken relative link
+content/legal/release-policy.md
+@@ -3,7 +3,7 @@ license: https://www.apache.org/licenses/LICENSE-2.0
+ 
+ # {{title}}
+ 
+-This page documents the ASF policy on software releases. This document is for ASF release managers and [PMC](glossary#PMC) members.
++This page documents the ASF policy on software releases. This document is for ASF release managers and [PMC](/foundation/glossary#PMC) members.
+ Information [for end-users](https://infra.apache.org/release-download-pages.html#best_practice) is also available.
+ 
+ This document summarizes the <a href="https://infra.apache.org/release-publishing.html">release process</a>.
+COMMIT 0d3e3b1d47974e6c5ea3dd679329953a9f4e16f4 2024-01-17T10:21:36Z Mention that there is no implicit +1 in votes (#338)
+content/foundation/voting.md
+@@ -45,7 +45,6 @@ Who can vote is, to some extent, a community-specific thing.
+ PMC members have formally binding votes, but in general communities encourage all their members to vote,
+ even if their votes are only advisory.
+ 
+-
+ ## Implications of voting
+ 
+ In some cases and communities, the exercise of a vote carries some
+@@ -121,6 +120,11 @@ lies with the individual serving as release manager. The
+ specifics of the process may vary from project to project, but the 'minimum
+ quorum of three +1 votes' rule is universal.
+ 
++Note that there is no implicit +1 from the release manager,
++or from anyone in any ASF vote. Only explicit votes are valid.
++The release manager is encouraged to vote on releases,
++like any reviewer would do.
++
+ ## Vetoes  {#Veto}
+ 
+ A -1 vote by a qualified voter stops a code-modification proposal in its tracks. This constitutes a veto, and it cannot be overruled
+COMMIT 2b675cb202f6c39b0c19709eb484a3997eaa3fb5 2024-09-16T12:33:28Z Update release-policy.md clarified Infra position on max size of release artifacts
+content/legal/release-policy.md
+@@ -469,7 +469,7 @@ Commit mails to the `dist/` repository go to your normal project mailing lists.
+ Most projects can just distribute a release as described in the previous two
+ questions.  However, releases that are likely to strain content distribution resources **must** be coordinated with infrastructure.
+ 
+-Releases of more than 1GB of artifacts require a heads-up to Infrastructure in advance.
++**Note** Infra recommends keeping the size of your release artifacts below 100MB. The ASF will **not** host release artifacts larger than 1GB.
+ 
+ Specific exemptions from other dist policies (such as what may or must or must
+ not be distributed via the content distribution system) also need to be coordinated with Infrastructure.
+COMMIT 1fc8db7733f2354036192bf8912c52f72769decf 2024-12-10T08:50:46Z Update release-policy.md, fix link to download stats
+content/legal/release-policy.md
+@@ -580,4 +580,4 @@ releases be primarily based on a signed source package.
+ 
+ #### Is there any way to measure how many times XYZ has been downloaded?  {#downloads}
+ 
+-Visit <a href="https://logging1-he-de.apache.org/stats/" target="_blank">the download stats page</a>.
++Visit <a href="https://logs.apache.org/stats/" target="_blank">the download stats page</a>.
+COMMIT 052817a63d2c4d840bc389246b94f06ad2fbbd32 2025-03-04T13:25:43Z SHA-1 is deprecated (#452)
+content/legal/release-policy.md
+@@ -335,7 +335,7 @@ using an "apache.org" mail address. Also, please make sure that you
+ have put a 3-5 lines blurb for the project (because most of the subscribers
+ to announce.AT.apache.DOT.org list may not know what XX-Project is).
+ 
+-It is recommended that an SHA-1 OpenPGP compatible signature is added to
++It is recommended that an OpenPGP compatible signature is added to
+ the announcement mail. Please ensure that your public key has been already
+ uploaded to famous pgp sites (e.g. http://pgp.mit.edu/). This key should
+ either be the one used to sign the release or one that is cross-signed by
+COMMIT 8867ab89e15c77f19d9397a4c45dc4b68bdf62de 2025-03-04T23:37:51Z Improve reference to voting rules from the voting process page (#441)
+content/foundation/voting.md
+@@ -15,27 +15,29 @@ There are essentially three types of vote:
+ 
+ 1. Package releases
+ 
+-Votes on **procedural issues** follow the common format of majority rule unless
+-otherwise stated. That is, if there are more favourable votes than
+-unfavourable ones, the issue is considered to have passed -- regardless of
++Votes on **procedural issues** follow [simple majority](glossary.html#SimpleMajority)
++unless otherwise stated. That is, if there are more +1 votes than
++-1 ones, the issue is considered to have passed -- regardless of
+ the number of votes in each category. (If the number of votes seems too
+ small to be representative of a community consensus, the issue is typically
+ not pursued. However, see the description of [lazy
+ consensus](#LazyConsensus) for a modifying factor.)
+ 
+-Votes on **code modifications** follow a different model. In this scenario, a
+-negative vote constitutes a [veto](#Veto) , which the voting group (generally the PMC of a project) cannot override.
++Votes on **code modifications** follow [consensus approval](glossary.html#ConsensusApproval).
++In this scenario, a negative vote constitutes a [veto](#Veto),
++which the voting group (generally the PMC of a project) cannot override.
+ Again, this model may be modified by a [lazy consensus](#LazyConsensus)
+ declaration when the request for a vote is raised, but the full-stop nature
+ of a negative vote does not change. Under normal (non-lazy consensus)
+-conditions, the proposal requires three positive votes and no negative votes
++conditions, the proposal requires three +1 votes and no -1 votes
+ in order to pass; if it fails to garner the requisite amount of support, it
+ doesn't. Then the proposer either withdraws the proposal or modifies the code and resubmits it,
+ or the proposal simply languishes as an open issue until someone gets around to removing it.
+ 
+-Votes on whether a **package** is ready to release use yet a
+-different mechanism: are there are least three binding votes in favour of
+-the release? See the [release policy](../legal/release-policy.html#release-approval) 
++Votes on whether a **package** is ready to release use [majority approval](glossary.html#MajorityApproval),
++i.e., are there at least three binding +1 vote,
++and are there more positive than negative binding votes?
++See the [release policy](../legal/release-policy.html#release-approval) 
+ for more information on voting and requirements for binding votes.
+ 
+ ## Binding votes
+@@ -58,7 +60,7 @@ However, **in no case** may someone's vote be considered
+ invalid if it does not appear to meet the implied commitment: a vote is a
+ formal expression of opinion, *not* of commitment.
+ 
+-If the [R-T-C](#ReviewThenCommit) policy is in effect, a positive vote
++If the [R-T-C](glossary.html#ReviewThenCommit) policy is in effect, a positive vote
+ carries the very strong implied message, 'I have tested this patch myself,
+ and found it good.' Similarly, a negative vote usually means that that the voter tested
+ the patch and found it to be *not* good, although the veto (for such it is
+@@ -108,10 +110,10 @@ expressing is Boolean: 'I approve/do not approve of this change.'
+ 
+ ### Votes on package releases  {#ReleaseVotes}
+ 
+-Votes on whether a package is ready to release use 
+-[majority approval](glossary.html#MajorityApproval) -- 
+-i.e. at least three PMC members must vote affirmatively
+-for release, and there must be more positive than negative votes.
++Votes on whether a package is ready to release use
++[majority approval](glossary.html#MajorityApproval),
++i.e., at least three PMC members must vote affirmatively
++for release, and there must be more positive than negative binding votes.
+ **Releases may not be vetoed.** 
+ Generally the community
+ will cancel the release vote if anyone identifies serious problems, but
+@@ -157,4 +159,3 @@ People tend to avoid conflict and thrash around looking for something to
+ substitute - somebody in charge, a rule, a process, stagnation. None of
+ these tend to be very good substitutes for doing the hard work of resolving
+ the conflict.
+-
+COMMIT 1e81a00a823e006854024e4eb64e6a2dfc851f68 2025-03-13T12:04:28Z Add a section on "Expedited Releases" to the Release Policy (#457)
+content/legal/release-policy.md
+@@ -44,7 +44,36 @@ requirements of ASF policy on releases as described below, validate all
+ cryptographic signatures, compile as provided, and test the result on their
+ own platform.
+ 
+-Release votes SHOULD remain open for at least 72 hours.
++Release votes SHOULD remain open for at least 72 hours. See the next
++[Expedited Releases](#expedited-releases) section when considering a reduced
++voting period.
++
++#### Expedited Releases {#expedited-releases}
++As stated above, the normal policy for releases is to allow 72 hours for
++release reviews and votes, however the review/voting period for a release
++can be reduced in exceptional circumstances.
++
++ASF projects are made up of distributed teams, in multiple time zones and volunteers
++with lives and jobs and the rationale behind 72 hours is to try and give all
++members of a project the opportunity to take part in the decision to release.
++
++The most obvious example of an exceptional circumstance would be for a fix for a
++publicly known or critical, easily exploitable security issue. Everyone will probably have a different definition
++of what an exceptional circumstance is, but ultimately it is down to individual
++PMCs to decide for their project. 
++
++Projects SHOULD give as much notice as possible for an expedited release in
++order to give project members a chance to make time to participate in the
++decision.
++
++Emails calling for a Release Vote that run for less than 72 hours MUST include
++an explanation of why the release is being expedited.
++
++This policy already states that deviations from normal policy MUST be reported to
++the Board, but it is worth emphasising this here specifically for release votes
++with a reduced voting time. Unless there are pressing reasons to inform the Board
++earlier, reporting can be done in the project's next scheduled board report.
++
+ 
+ ### Publication  {#publication}
+ 
+COMMIT 4d12b98f6a0bb28a684552a9a875d979b4d061e5 2025-04-11T17:30:19Z Update release-policy.md
+content/legal/release-policy.md
+@@ -411,7 +411,7 @@ or the staging features of repository.apache.org
+ to host release candidates posted for developer testing/voting (prior to being,
+ potentially, formally blessed as a GA release).
+ 
+-Nightly Builds that are not release candidates can be hosted at [ci.apache.org projects area](https://ci.apache.org/projects),
++Nightly Builds that are not release candidates can be hosted at [nightlies.apache.org projects area](https://nightlies.apache.org),
+ just file an INFRA ticket.
+ 
+ #### Where can we host public (GA) releases?  {#host-GA}
+@@ -507,7 +507,7 @@ not be distributed via the content distribution system) also need to be coordina
+ 
+ | Type             | Location                 |
+ |------------------|--------------------------|
+-| Nightly Builds   | ci.apache.org/projects |
++| Nightly Builds   | nightlies.apache.org |
+ | Current Releases | downloads.apache.org     |
+ | Older Releases   | archive.apache.org/dist  | 
+ 
+COMMIT 2be39afce9b28fa89da851afb788e6ede46ebefa 2025-08-24T19:46:32Z Clarifications (#334)
+content/legal/release-policy.md
+@@ -100,19 +100,19 @@ contain compiled code.
+ 
+ #### Release signing  {#release-signing}
+ 
+-All supplied packages MUST be cryptographically signed with a detached signature.
+-It MUST be signed by either the Release Manager or the automated release
++All supplied packages MUST be cryptographically signed with an ASCII-armored detached signature.
++They MUST be signed by either the Release Manager or the automated release
+ infrastructure, where the underlying implementation MUST follow the principles
+ [outlined](/dev/release-signing.html#automated-release-signing) by the Apache
+-Security Team. All supplied packages MUST use a detached signature. Those who
++Security Team. Those who
+ vote +1 for release MAY offer their own cryptographic signature to be concatenated
+ with the detached signature file (at the Release Manager's discretion)
+ prior to release.
+ 
+ #### Compiled packages  {#compiled-packages}
+ 
+ The Apache Software Foundation produces open source software. All releases
+-are in the form of the source materials needed to make changes to the
++are in the form of the source materials needed to modify and build the
+ software being released.
+ 
+ As a convenience to users that might not have the appropriate tools to build a
+@@ -134,7 +134,7 @@ Policy](/legal/resolved).
+ 
+ Each package MUST provide a `LICENSE` file and a `NOTICE` file which account
+ for the package's exact content.  `LICENSE` and `NOTICE` MUST NOT provide
+-unnecessary information about materials which are not bundled in the package,
++information about materials which are not bundled in the package,
+ such as separately downloaded dependencies.
+ 
+ For source packages, `LICENSE` and `NOTICE` MUST be located at the root of the
+COMMIT 10a97902ccf0a9481f8f87c659e5fd747e39a0d8 2025-09-11T13:56:32Z Preview/paulau2025 (#542)
+content/foundation/voting.md
+@@ -1,7 +1,7 @@
+ Title: Apache Voting Process
+ license: https://www.apache.org/licenses/LICENSE-2.0
+ 
+-# {{title}}
++
+ 
+ Because one of the fundamental aspects of accomplishing things within the
+ Apache framework is doing so by consensus, we need a
+content/legal/release-policy.md
+@@ -1,7 +1,7 @@
+ Title: Release Policy
+ license: https://www.apache.org/licenses/LICENSE-2.0
+ 
+-# {{title}}
++
+ 
+ This page documents the ASF policy on software releases. This document is for ASF release managers and [PMC](/foundation/glossary#PMC) members.
+ Information [for end-users](https://infra.apache.org/release-download-pages.html#best_practice) is also available.
+COMMIT bb9f955d8aaeda7c045f4d77b5b3ed8b48651a99 2025-11-25T19:20:06Z Update release-policy.md (#591)
+content/legal/release-policy.md
+@@ -79,6 +79,9 @@ earlier, reporting can be done in the project's next scheduled board report.
+ 
+ Projects SHALL publish official releases and SHALL NOT publish unreleased
+ materials outside the development community.
++Projects SHALL provide one or more Project Download Pages as part of their web site.
++All Project Download Pages must conform to Infra policy on 
++[Release Download Pages](https://infra.apache.org/release-download-pages.html).
+ 
+ During the process of developing software and preparing a release, various
+ packages are made available to the development community for testing
+@@ -352,7 +355,7 @@ Please ensure that you wait at least one hour after uploading a new release
+ before updating the project download page and sending the announcement email(s). 
+ 
+ It is important to inform people about the availability of new
+-releases. Announcements must contain a link to the relevant download page for the source.
++releases. Announcements must contain a link to the Project Download Page for the source.
+ At the very least, emails should be sent out announcing this to
+ all appropriate mailing lists. Many top level projects have announcement
+ lists for this purpose. There is also an

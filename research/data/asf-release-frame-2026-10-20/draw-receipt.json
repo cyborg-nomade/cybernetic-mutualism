@@ -1,0 +1,20 @@
+{
+  "status": "frame_draw_only_not_first_pass_lock",
+  "executable_freeze": "18b13ff18500c33d8812459eda72ad6c11640f1a",
+  "method": "Frozen scripts.asf_audit.sampling.local_baseline, unchanged",
+  "inputs": {
+    "opening-candidates.json": "94898d92d7096e37f78713f6c38bae75ed456478e21fba7e878e8f7d14cb6f36",
+    "opening-review.json": "ba348c2eba9ff62b60dffff8924c50f8a2d1fdc2827a80b65d325f9230516c2e",
+    "identity-review.json": "25a89d33b3c549cabb9fdd410f2158ed63c64019a9a767a2bb116ff5e2787aa0"
+  },
+  "outputs": {
+    "release-family-frame.csv": "2a8992a8aef5c72d68a16bb76857365fae996b6827b2de1ebf74d76b357063a0",
+    "opening-family-associations.csv": "6ae15e2dda503421e94c17d11b6c8e5187ca0bc4c070f50d246af53f1dd3e252",
+    "local-baseline.csv": "cc20852506cdab0d88f596e3d83724729555fa50f08dfe3cf8dd6c0b803644a8"
+  },
+  "formal_opening_messages": 698,
+  "release_families": 647,
+  "strata": 48,
+  "selected_nonempty_strata": 36,
+  "scope": "No outcome-based replacements; full publication/role provenance, horizon measurement and corpus lock remain separate required work."
+}

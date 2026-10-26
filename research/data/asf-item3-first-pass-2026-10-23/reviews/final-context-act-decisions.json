@@ -1,0 +1,147 @@
+{
+  "review_date": "2026-10-22",
+  "decisions": [
+    {
+      "family_id": "maven-subproject-terminology-2024",
+      "project": "maven",
+      "onset_earliest": "2024-08-05",
+      "onset_latest": "2024-08-05",
+      "earliest_source_id": "<b6d05284-2574-422f-b37a-eb8f536e373c@geomatys.com>",
+      "initiating_role": "unknown",
+      "action_class": "technical_direction",
+      "eligible": "yes",
+      "kind": "local_other",
+      "sender_act": "Propose Prefer Maven sub-project in common documentation and terminology",
+      "intended_receiver": "Maven public technical decision process",
+      "original_option": "Documentation uses Maven module alongside Java module",
+      "requested_change": "Prefer Maven sub-project in common documentation and terminology",
+      "disposition_history": "August5original proposals; August5\u201319publicdebate contains support and objections, no formal final result. October16MavenBoardreport says Model4.1term Sub-Project replacing Module agreed. Report bounds adoption no later thanOctober16, not exact change day or independently inspected productioncode. The adoption-date interval straddles60days but fits90/180fromAugust5.",
+      "eligibility_reason": "Shared normative terminology across product documentation is retained as overall-direction candidate; initial request expressly leaves XML unchanged. It is independently deliverable from changing POM vocabulary.",
+      "extra_source_ids": [
+        "<22f757c5-6a83-4aa3-8e5a-255d37895146@geomatys.com>",
+        "<25160122-83D1-4F13-96AF-B0B06D226D4A@apache.org>",
+        "<3745D838-7B42-4244-8C7D-CCF28A43D966@ls-it-solutions.de>",
+        "<3f9a8635-35b0-4910-885f-4eb03932df4e@laeubi-soft.de>",
+        "<5050424b-0b55-416a-82aa-1345f8cd95e2@web.de>",
+        "<55f2cec0-45cd-4753-9cd7-80b5ed32b392@web.de>",
+        "<82f2bb4e-1a08-4be4-9d48-b58fb99b2611@geomatys.com>",
+        "<940E950C-B8AD-4C82-BB48-F3C9A41C879F@apache.org>",
+        "<CA+cVU8NMW=ARJvPEppq08qp-8ZxmC5EwzeGZrU3KvvTiEZ-gDA@mail.gmail.com>",
+        "<CAA66Tpo8K5ga+usSrOy2qFa4dssMmk3YX42oTxYbw=fyX-_Kfg@mail.gmail.com>",
+        "<CAA66TponLnmB6Rriw=YS31ma0AF=eLY_L+bEwdxvZnw33623KA@mail.gmail.com>",
+        "<CAA66TppO-US4zSYVc2_pkFncBj70-byKCc6fkZAw3zAnC1ReDA@mail.gmail.com>",
+        "<CAA66Tpp_U9HChao0HvXVZQHXwUSVCCrgwYKSm37rwVNbmEmrsQ@mail.gmail.com>",
+        "<CAA66TpqyXSOkkryCcx_a3ME-c428wbqW8A1rq8rFTU54Rfyopw@mail.gmail.com>",
+        "<CAA66TprzbQBvemiPwS_=iyWpQKez=knrxrBU9dFuOwZiiQk-RQ@mail.gmail.com>",
+        "<CACLE=7NpzZGfoFtaHcx+N_yuaxocfXvDFTTb4tJyihE5+8bZtA@mail.gmail.com>",
+        "<CACZkXPwQGiJemXM34OiNW0wr5cgBzQ6H1t1GhYf6bXt=L-PkNQ@mail.gmail.com>",
+        "<CACZkXPwc-RJ4B1T-Y+fwduQzjDDFxqAAFiPYk7vXP_JhyNKSBg@mail.gmail.com>",
+        "<CAGhczrr=Oy6MXKaC9yeeO-vKfFiS+1Ftr+vFpXAbvLw0yk91_w@mail.gmail.com>",
+        "<CAGhczrrU55F-Rjg1owV9E9mt3kdMwZLbWRzXfQ2tyHcNOse90w@mail.gmail.com>",
+        "<CAKDUN1t5OgUYhv=VATic_8vhnKvmYw0Qyt8GvzRsx4p=JKuuiw@mail.gmail.com>",
+        "<CAKumxByN3iAqfifudyH4HiWP98Ucg9vkvL_RoqL4FO_oywb=2g@mail.gmail.com>",
+        "<CAO2uShwZk+PejtOjLTRa3saHzM5MRS=oKCG7Q-CKHqOpYPkUXA@mail.gmail.com>",
+        "<CAPLpRQKj4GN+keBGB_nEg7RAnaz5kqG5UwCsHQiKEqh2KQbOHg@mail.gmail.com>",
+        "<CAPLpRQL1BXq8w9kkm5krv1Y-w3Sezvg=-xaC2X74qc0n6Jyr_g@mail.gmail.com>",
+        "<a04fd04c-f59d-4237-963c-9d5f1d9d1f61@buildingblobs.com>",
+        "<b0c6e0d5-b183-45f1-9867-4c8c04be4e21@swe-blog.net>",
+        "<b6d05284-2574-422f-b37a-eb8f536e373c@geomatys.com>",
+        "<e2728c09-e923-4bc5-b19c-c761b26ffa0e@buildingblobs.com>",
+        "<ef19399d-552a-48a6-b37e-8e22615f354d@geomatys.com>",
+        "board-2024-10-16"
+      ],
+      "source_scope": "Thirty exact original messages in two Board-linked threads; all novel lines read through lossless exact quote/indent-normalized repetition ledger, original bodies and identity retained."
+    },
+    {
+      "family_id": "maven-pom-subproject-vocabulary-2024",
+      "project": "maven",
+      "onset_earliest": "2024-08-05",
+      "onset_latest": "2024-08-05",
+      "earliest_source_id": "<CAA66TponLnmB6Rriw=YS31ma0AF=eLY_L+bEwdxvZnw33623KA@mail.gmail.com>",
+      "initiating_role": "unknown",
+      "action_class": "technical_direction",
+      "eligible": "yes",
+      "kind": "local_other",
+      "sender_act": "Propose Use projects/subprojects vocabulary in POM4.1while retaining4.0compatibility",
+      "intended_receiver": "Maven public technical decision process",
+      "original_option": "POM4.0usesmodules/module",
+      "requested_change": "Use projects/subprojects vocabulary in POM4.1while retaining4.0compatibility",
+      "disposition_history": "August5original proposals; August5\u201319publicdebate contains support and objections, no formal final result. October16MavenBoardreport says Model4.1term Sub-Project replacing Module agreed. Report bounds adoption no later thanOctober16, not exact change day or independently inspected productioncode. The adoption-date interval straddles60days but fits90/180fromAugust5.",
+      "eligibility_reason": "Model-format compatibility/terminology choice is independently different from an initial documentation-only rename; one could be accepted without the other. Both remain local technical decisions, not Foundation dictates.",
+      "extra_source_ids": [
+        "<22f757c5-6a83-4aa3-8e5a-255d37895146@geomatys.com>",
+        "<25160122-83D1-4F13-96AF-B0B06D226D4A@apache.org>",
+        "<3745D838-7B42-4244-8C7D-CCF28A43D966@ls-it-solutions.de>",
+        "<3f9a8635-35b0-4910-885f-4eb03932df4e@laeubi-soft.de>",
+        "<5050424b-0b55-416a-82aa-1345f8cd95e2@web.de>",
+        "<55f2cec0-45cd-4753-9cd7-80b5ed32b392@web.de>",
+        "<82f2bb4e-1a08-4be4-9d48-b58fb99b2611@geomatys.com>",
+        "<940E950C-B8AD-4C82-BB48-F3C9A41C879F@apache.org>",
+        "<CA+cVU8NMW=ARJvPEppq08qp-8ZxmC5EwzeGZrU3KvvTiEZ-gDA@mail.gmail.com>",
+        "<CAA66Tpo8K5ga+usSrOy2qFa4dssMmk3YX42oTxYbw=fyX-_Kfg@mail.gmail.com>",
+        "<CAA66TponLnmB6Rriw=YS31ma0AF=eLY_L+bEwdxvZnw33623KA@mail.gmail.com>",
+        "<CAA66TppO-US4zSYVc2_pkFncBj70-byKCc6fkZAw3zAnC1ReDA@mail.gmail.com>",
+        "<CAA66Tpp_U9HChao0HvXVZQHXwUSVCCrgwYKSm37rwVNbmEmrsQ@mail.gmail.com>",
+        "<CAA66TpqyXSOkkryCcx_a3ME-c428wbqW8A1rq8rFTU54Rfyopw@mail.gmail.com>",
+        "<CAA66TprzbQBvemiPwS_=iyWpQKez=knrxrBU9dFuOwZiiQk-RQ@mail.gmail.com>",
+        "<CACLE=7NpzZGfoFtaHcx+N_yuaxocfXvDFTTb4tJyihE5+8bZtA@mail.gmail.com>",
+        "<CACZkXPwQGiJemXM34OiNW0wr5cgBzQ6H1t1GhYf6bXt=L-PkNQ@mail.gmail.com>",
+        "<CACZkXPwc-RJ4B1T-Y+fwduQzjDDFxqAAFiPYk7vXP_JhyNKSBg@mail.gmail.com>",
+        "<CAGhczrr=Oy6MXKaC9yeeO-vKfFiS+1Ftr+vFpXAbvLw0yk91_w@mail.gmail.com>",
+        "<CAGhczrrU55F-Rjg1owV9E9mt3kdMwZLbWRzXfQ2tyHcNOse90w@mail.gmail.com>",
+        "<CAKDUN1t5OgUYhv=VATic_8vhnKvmYw0Qyt8GvzRsx4p=JKuuiw@mail.gmail.com>",
+        "<CAKumxByN3iAqfifudyH4HiWP98Ucg9vkvL_RoqL4FO_oywb=2g@mail.gmail.com>",
+        "<CAO2uShwZk+PejtOjLTRa3saHzM5MRS=oKCG7Q-CKHqOpYPkUXA@mail.gmail.com>",
+        "<CAPLpRQKj4GN+keBGB_nEg7RAnaz5kqG5UwCsHQiKEqh2KQbOHg@mail.gmail.com>",
+        "<CAPLpRQL1BXq8w9kkm5krv1Y-w3Sezvg=-xaC2X74qc0n6Jyr_g@mail.gmail.com>",
+        "<a04fd04c-f59d-4237-963c-9d5f1d9d1f61@buildingblobs.com>",
+        "<b0c6e0d5-b183-45f1-9867-4c8c04be4e21@swe-blog.net>",
+        "<b6d05284-2574-422f-b37a-eb8f536e373c@geomatys.com>",
+        "<e2728c09-e923-4bc5-b19c-c761b26ffa0e@buildingblobs.com>",
+        "<ef19399d-552a-48a6-b37e-8e22615f354d@geomatys.com>",
+        "board-2024-10-16"
+      ],
+      "source_scope": "Thirty exact original messages in two Board-linked threads; all novel lines read through lossless exact quote/indent-normalized repetition ledger, original bodies and identity retained."
+    }
+  ],
+  "existing_family_context_links": [
+    {
+      "family_id": "foundation-website-csp-enforcement",
+      "project": "maven",
+      "source_ids": [
+        "maven-site-issue660",
+        "maven-site-issue660-comments"
+      ]
+    },
+    {
+      "family_id": "foundation-atr-alpha-service-2025",
+      "project": "maven",
+      "source_ids": [
+        "<12047099.CDJkKcVGEf@orchid>",
+        "<7d18589c-1823-4ede-b5d6-782406966c44@apache.org>",
+        "<pony-2ba8a592-b776-46bb-a1e2-65cb4f5d4262-dev@maven.apache.org>"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "source_id": "maven-site-issue660",
+      "sha256": "a4fe61ca1b7d558abb788c52a5c7f59a3addefe5cc6fe61a8c2a8c03ee4bd6a5"
+    },
+    {
+      "source_id": "maven-site-issue660-comments",
+      "sha256": "cc941deabaf058e5f77d3c297fb1da591275a960e5b7f2822cb09f60785cbcf7"
+    }
+  ],
+  "findings": [
+    "Issue660 is an issue, not a pull request. Original pulls endpoint404 retained only as access/navigation observation. Full description and all17comments read; current edited description is not backdated to February2. February6correction explicitly says original website checkout was incomplete and increases estimate to52,000+; do not report that as the original February2count.",
+    "February2cleanupoffer, February4partialcompletion, February6remainingissues, February18reportedcompletion, February19independentrescan with16remainingpages, March11fixes/PR229, March13closure, July10reintroduction and July12manualfix are one continuing website cleanup/application history. Julyrecurrence is not a new CSPpolicy onset.",
+    "Konrad February7asks whether CSPblocking alone suffices; that is a question, not a granted exception. March13says other PRwork dropped after parallel work; identify actual duplicate work without turning it into an authority shift or assuming measured latency is burden.",
+    "Thirty terminology originals were followed as bounded references from October2024MavenBoardreport. They were not part of the earlier541selectedtopic-bodycount; source scope expansion is disclosed rather than claiming they were already read.",
+    "TomcatJanuary30,2025extended-support original reread: APR/Native1.x, runtime and branch questions are explicitly integrated options of the same9supportdeliverable, not an independently initiated retirement. May9.1plan stays in existing unknown-onset supportfamily; no extra family from one component alone.",
+    "2026ATRtrial originals linked to earlier shared platform family; late trial does not reset onset or establish early pilot implementation."
+  ],
+  "limits": [
+    "Provider public-history convention follows earlier reference review; exact retrieved serialization is not represented as historically identical. No measurement, opportunity flag or lock supplied."
+  ]
+}

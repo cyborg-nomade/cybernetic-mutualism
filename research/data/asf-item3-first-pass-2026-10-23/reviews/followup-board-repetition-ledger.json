@@ -1,0 +1,1700 @@
+{
+  "method": "Exact whole-paragraph whitespace normalization; no fuzzy/semantic/keyword deletion. Prior references only to documented read retained sections; novel within-aid repetitions refer to first displayed paragraph.",
+  "reused": [
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_01_21.txt",
+        "start_line": 644,
+        "end_line": 647,
+        "sha256": "d04ac795ded9423a5acab8eb5692e0494b1f066def311d37e7167ea5835ee8d7"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board-2025-12-svn.txt",
+        "start_line": 249,
+        "end_line": 252,
+        "sha256": "d04ac795ded9423a5acab8eb5692e0494b1f066def311d37e7167ea5835ee8d7"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_01_21.txt",
+        "start_line": 661,
+        "end_line": 663,
+        "sha256": "0d05fc025839749b3dbac8fbf09a5970856759fae33235ac5f3eb2571d2a3888"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board-2025-12-svn.txt",
+        "start_line": 266,
+        "end_line": 268,
+        "sha256": "0d05fc025839749b3dbac8fbf09a5970856759fae33235ac5f3eb2571d2a3888"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_01_21.txt",
+        "start_line": 776,
+        "end_line": 777,
+        "sha256": "50cebb7ec90efcdd3bd2ef7c1979501244d3e01e7f659d9da1946ef13f0968d9"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board-2025-12-svn.txt",
+        "start_line": 378,
+        "end_line": 379,
+        "sha256": "50cebb7ec90efcdd3bd2ef7c1979501244d3e01e7f659d9da1946ef13f0968d9"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_01_21.txt",
+        "start_line": 1036,
+        "end_line": 1037,
+        "sha256": "9929fe984aa6e3966525b4b73d21a0c7f98767b243bbe6d33c71f228c7eddcac"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board_minutes_2025_10_15.txt",
+        "start_line": 535,
+        "end_line": 536,
+        "sha256": "de66aac60002c30b8d4cce69767f2a38ee8e4eb79779ba69e1a1e3cb4538a185"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_01_21.txt",
+        "start_line": 1093,
+        "end_line": 1094,
+        "sha256": "5d52ad87bb7c5d09f1ecf83b46bedfb662309e4ae6d7b344accc3fd8790fca77"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board_minutes_2025_07_16.txt",
+        "start_line": 787,
+        "end_line": 788,
+        "sha256": "5d52ad87bb7c5d09f1ecf83b46bedfb662309e4ae6d7b344accc3fd8790fca77"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_01_21.txt",
+        "start_line": 1106,
+        "end_line": 1107,
+        "sha256": "0e61da3ebc7f933e8240c764278287696361a48d307c892e354ba011590bc69f"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board_minutes_2025_07_16.txt",
+        "start_line": 801,
+        "end_line": 802,
+        "sha256": "0e34f9fe00f8c92e59908923898f42338329882c3ad58d053aec50c25c5eb9fa"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_01_21.txt",
+        "start_line": 1121,
+        "end_line": 1122,
+        "sha256": "8c8abe7c5237b75f71ad8d8a5bd5f93b6f4bb2e78664cb3ca3247c2856894785"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board_minutes_2025_03_19.txt",
+        "start_line": 834,
+        "end_line": 835,
+        "sha256": "8c8abe7c5237b75f71ad8d8a5bd5f93b6f4bb2e78664cb3ca3247c2856894785"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_01_21.txt",
+        "start_line": 1302,
+        "end_line": 1303,
+        "sha256": "4013a06643ed5ec6b7afacb5ac71e362b391c90ae07d590796d3e51e67d316d6"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board-2025-12-svn.txt",
+        "start_line": 781,
+        "end_line": 782,
+        "sha256": "4013a06643ed5ec6b7afacb5ac71e362b391c90ae07d590796d3e51e67d316d6"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_01_21.txt",
+        "start_line": 1676,
+        "end_line": 1678,
+        "sha256": "908ffc2e5c0c79fc6851eae5520b1de606d6648b53ac2e43481aac804d3525f3"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board_minutes_2023_02_15.txt",
+        "start_line": 853,
+        "end_line": 855,
+        "sha256": "908ffc2e5c0c79fc6851eae5520b1de606d6648b53ac2e43481aac804d3525f3"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_01_21.txt",
+        "start_line": 1684,
+        "end_line": 1687,
+        "sha256": "44c5e8e16ea39e93c6f9f8620b9cec8b78229f67c534b13f29daad2a43dac5cb"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board_minutes_2025_07_16.txt",
+        "start_line": 1091,
+        "end_line": 1094,
+        "sha256": "44c5e8e16ea39e93c6f9f8620b9cec8b78229f67c534b13f29daad2a43dac5cb"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_01_21.txt",
+        "start_line": 1689,
+        "end_line": 1691,
+        "sha256": "54044acd4a64828e427b0a17c85233b07e0e5fbba6a53298f31568cbc7a0d941"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board_minutes_2025_07_16.txt",
+        "start_line": 1096,
+        "end_line": 1098,
+        "sha256": "54044acd4a64828e427b0a17c85233b07e0e5fbba6a53298f31568cbc7a0d941"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_01_21.txt",
+        "start_line": 3646,
+        "end_line": 3648,
+        "sha256": "cc2dd3a25fd96ba3ff9cb3395e3c7f64d55b5c478863dff382b07f279e01f3f9"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board_minutes_2022_11_16.txt",
+        "start_line": 941,
+        "end_line": 943,
+        "sha256": "f1231f55900ccdb6bb8e910c411438a39a3b0a7953e0c98bcf43c5d8ad9c01a2"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_01_21.txt",
+        "start_line": 3650,
+        "end_line": 3652,
+        "sha256": "20e6ba8136678ef2593873bbf9e8aca0ed23507ae69e71c14705ebc6401686bd"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board_minutes_2025_04_16.txt",
+        "start_line": 902,
+        "end_line": 904,
+        "sha256": "20e6ba8136678ef2593873bbf9e8aca0ed23507ae69e71c14705ebc6401686bd"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_01_21.txt",
+        "start_line": 3654,
+        "end_line": 3657,
+        "sha256": "d4068bce4c7002a47d62e14fefbef7bbe43ad58e74d0275c6022a72c1bbe3aa5"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board_minutes_2025_11_19.txt",
+        "start_line": 1056,
+        "end_line": 1059,
+        "sha256": "d4068bce4c7002a47d62e14fefbef7bbe43ad58e74d0275c6022a72c1bbe3aa5"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_01_21.txt",
+        "start_line": 3659,
+        "end_line": 3661,
+        "sha256": "5b0c8da80ff09a72f3b0e5fa42edfbb39aaa275965bd7f55bddd158d5fc7a5aa"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board_minutes_2025_11_19.txt",
+        "start_line": 1061,
+        "end_line": 1063,
+        "sha256": "5b0c8da80ff09a72f3b0e5fa42edfbb39aaa275965bd7f55bddd158d5fc7a5aa"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_02_18.txt",
+        "start_line": 10,
+        "end_line": 12,
+        "sha256": "e56e630a4311a6941ce2fa2947884ea299d94764242e4187e75e28212a501715"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board_minutes_2022_10_19.txt",
+        "start_line": 4,
+        "end_line": 6,
+        "sha256": "e56e630a4311a6941ce2fa2947884ea299d94764242e4187e75e28212a501715"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_02_18.txt",
+        "start_line": 775,
+        "end_line": 778,
+        "sha256": "d04ac795ded9423a5acab8eb5692e0494b1f066def311d37e7167ea5835ee8d7"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board-2025-12-svn.txt",
+        "start_line": 249,
+        "end_line": 252,
+        "sha256": "d04ac795ded9423a5acab8eb5692e0494b1f066def311d37e7167ea5835ee8d7"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_02_18.txt",
+        "start_line": 786,
+        "end_line": 788,
+        "sha256": "0d05fc025839749b3dbac8fbf09a5970856759fae33235ac5f3eb2571d2a3888"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board-2025-12-svn.txt",
+        "start_line": 266,
+        "end_line": 268,
+        "sha256": "0d05fc025839749b3dbac8fbf09a5970856759fae33235ac5f3eb2571d2a3888"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_02_18.txt",
+        "start_line": 800,
+        "end_line": 802,
+        "sha256": "48073aeb763664573750875b4412ea5b613e6bedbf81f71c3c1d9fed3c40855e"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_01_21.txt",
+        "start_line": 677,
+        "end_line": 679,
+        "sha256": "48073aeb763664573750875b4412ea5b613e6bedbf81f71c3c1d9fed3c40855e"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_02_18.txt",
+        "start_line": 804,
+        "end_line": 806,
+        "sha256": "4acb9488d63cb0752e6d8ea11a0d15fa625380d0adaa6a1ff15198b192d5f25e"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_01_21.txt",
+        "start_line": 685,
+        "end_line": 687,
+        "sha256": "4acb9488d63cb0752e6d8ea11a0d15fa625380d0adaa6a1ff15198b192d5f25e"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_02_18.txt",
+        "start_line": 808,
+        "end_line": 810,
+        "sha256": "2f6aec6c0ab8fbf32e067708efa2ed1f27ca8dcf0e2705b9d191df841b005cc2"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_01_21.txt",
+        "start_line": 689,
+        "end_line": 691,
+        "sha256": "2f6aec6c0ab8fbf32e067708efa2ed1f27ca8dcf0e2705b9d191df841b005cc2"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_02_18.txt",
+        "start_line": 1391,
+        "end_line": 1392,
+        "sha256": "701d864ba8b731fad5654dc650fdc3460ff4dcf5df2e3b13de0e2c3762595eb6"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_01_21.txt",
+        "start_line": 1264,
+        "end_line": 1265,
+        "sha256": "701d864ba8b731fad5654dc650fdc3460ff4dcf5df2e3b13de0e2c3762595eb6"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_02_18.txt",
+        "start_line": 1426,
+        "end_line": 1428,
+        "sha256": "0b1be45e06ba506ce4f3412de317a9ee68756fe74435cabc31dd9cf0838336b2"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_01_21.txt",
+        "start_line": 1293,
+        "end_line": 1295,
+        "sha256": "0b1be45e06ba506ce4f3412de317a9ee68756fe74435cabc31dd9cf0838336b2"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_02_18.txt",
+        "start_line": 1435,
+        "end_line": 1436,
+        "sha256": "4013a06643ed5ec6b7afacb5ac71e362b391c90ae07d590796d3e51e67d316d6"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board-2025-12-svn.txt",
+        "start_line": 781,
+        "end_line": 782,
+        "sha256": "4013a06643ed5ec6b7afacb5ac71e362b391c90ae07d590796d3e51e67d316d6"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_02_18.txt",
+        "start_line": 1559,
+        "end_line": 1561,
+        "sha256": "cf3bd13e47bb2c973d579f35acc8310a110b5f2cf62b2826d810e63a174eb3c7"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board_minutes_2023_08_16.txt",
+        "start_line": 917,
+        "end_line": 919,
+        "sha256": "84455be1b9eb89c5b3b6559c81c2ffef993b1050274ed628ee2602e399fdd345"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_02_18.txt",
+        "start_line": 1568,
+        "end_line": 1570,
+        "sha256": "92f1b72d28b3c166539c189a22230613c1f03e1f71bdaebd9b6e241e4494d1e2"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board_minutes_2023_08_16.txt",
+        "start_line": 929,
+        "end_line": 931,
+        "sha256": "92f1b72d28b3c166539c189a22230613c1f03e1f71bdaebd9b6e241e4494d1e2"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_02_18.txt",
+        "start_line": 1572,
+        "end_line": 1575,
+        "sha256": "2300835303f618a28cb0fc40cf0047c90a28efc10dcfa7784d42f372f5e9f35e"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board_minutes_2024_08_21.txt",
+        "start_line": 940,
+        "end_line": 943,
+        "sha256": "6409dd833b565e83c624c2a8b5ed79d0b5fe6befc060fcb2e9e0fba787d0c060"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_02_18.txt",
+        "start_line": 1577,
+        "end_line": 1579,
+        "sha256": "26c9079b2619b0e00e205958511a70829ab6a868d38474f5a64ae177d71f0367"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board_minutes_2023_08_16.txt",
+        "start_line": 938,
+        "end_line": 940,
+        "sha256": "26c9079b2619b0e00e205958511a70829ab6a868d38474f5a64ae177d71f0367"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_02_18.txt",
+        "start_line": 1594,
+        "end_line": 1599,
+        "sha256": "1fc4185a8caa2a9d3b64ffda74e1e71a3d7fa00dd8b7704757849e88a7c7be24"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board_minutes_2025_07_16.txt",
+        "start_line": 1072,
+        "end_line": 1077,
+        "sha256": "1fc4185a8caa2a9d3b64ffda74e1e71a3d7fa00dd8b7704757849e88a7c7be24"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_02_18.txt",
+        "start_line": 1976,
+        "end_line": 1979,
+        "sha256": "ef909d5d969d2f43c38e93769646610985ba8f0adf9d042fb75d55a8a4429054"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board_minutes_2022_11_16.txt",
+        "start_line": 811,
+        "end_line": 814,
+        "sha256": "ef909d5d969d2f43c38e93769646610985ba8f0adf9d042fb75d55a8a4429054"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_02_18.txt",
+        "start_line": 1981,
+        "end_line": 1983,
+        "sha256": "e9fd3094c7785e5e91211d19d9a98c9f7878e79f88da5a5ee3da38d70b67fd56"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board_minutes_2025_05_21.txt",
+        "start_line": 1075,
+        "end_line": 1077,
+        "sha256": "e9fd3094c7785e5e91211d19d9a98c9f7878e79f88da5a5ee3da38d70b67fd56"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_02_18.txt",
+        "start_line": 1985,
+        "end_line": 1988,
+        "sha256": "2ccfdee5e1f959bb9aee53f605d4a1afe8c0226e761b8a24141586582d8f3824"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board_minutes_2025_05_21.txt",
+        "start_line": 1079,
+        "end_line": 1082,
+        "sha256": "2ccfdee5e1f959bb9aee53f605d4a1afe8c0226e761b8a24141586582d8f3824"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_02_18.txt",
+        "start_line": 1990,
+        "end_line": 1992,
+        "sha256": "7ca04b13bcf5582263cda33d18e40b8f98d0e1975bbe26df8e7917580d3d785d"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board_minutes_2025_08_20.txt",
+        "start_line": 1207,
+        "end_line": 1209,
+        "sha256": "7ca04b13bcf5582263cda33d18e40b8f98d0e1975bbe26df8e7917580d3d785d"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_02_18.txt",
+        "start_line": 2661,
+        "end_line": 2663,
+        "sha256": "c31ec2f6cd1c077a049d6e8f5894a4073f0fb9991d94b944d3081996c3f48d71"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board_minutes_2022_11_16.txt",
+        "start_line": 903,
+        "end_line": 905,
+        "sha256": "c31ec2f6cd1c077a049d6e8f5894a4073f0fb9991d94b944d3081996c3f48d71"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_02_18.txt",
+        "start_line": 2669,
+        "end_line": 2672,
+        "sha256": "5ed18659f0d7157d74f245cfa2132241b826b049e7bcdf38f13528965479a706"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board_minutes_2025_11_19.txt",
+        "start_line": 1009,
+        "end_line": 1012,
+        "sha256": "5ed18659f0d7157d74f245cfa2132241b826b049e7bcdf38f13528965479a706"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_02_18.txt",
+        "start_line": 2674,
+        "end_line": 2676,
+        "sha256": "01533174dc0c2738224adc4b380766f5c754a4191fc35993df7c98fdde665cf6"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board_minutes_2023_02_15.txt",
+        "start_line": 968,
+        "end_line": 970,
+        "sha256": "01533174dc0c2738224adc4b380766f5c754a4191fc35993df7c98fdde665cf6"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 10,
+        "end_line": 12,
+        "sha256": "82f8c0270411a04ef3b01b97a2c46240c9b7a9322e8cf9343b7fb8c0cc9d9440"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board-2022-12-21.txt",
+        "start_line": 4,
+        "end_line": 6,
+        "sha256": "82f8c0270411a04ef3b01b97a2c46240c9b7a9322e8cf9343b7fb8c0cc9d9440"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 709,
+        "end_line": 713,
+        "sha256": "961f45604ccb0f167a8018faeaecc4e1a415242820d0e4d79a5b3429d9244ea7"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 173,
+        "end_line": 177,
+        "sha256": "961f45604ccb0f167a8018faeaecc4e1a415242820d0e4d79a5b3429d9244ea7"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 715,
+        "end_line": 717,
+        "sha256": "96662659ac244e60b876d3c68ee2ab816858db6eb463ccbfd5ef597bec1eddb0"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 179,
+        "end_line": 181,
+        "sha256": "96662659ac244e60b876d3c68ee2ab816858db6eb463ccbfd5ef597bec1eddb0"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 719,
+        "end_line": 720,
+        "sha256": "7f023a5dcc55e10bdbaf537541637a02fc1482225fd208c59ff75a25cb26c2f2"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 183,
+        "end_line": 184,
+        "sha256": "7f023a5dcc55e10bdbaf537541637a02fc1482225fd208c59ff75a25cb26c2f2"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 724,
+        "end_line": 725,
+        "sha256": "36586a393136efd5fd97656d68f7e676005b0f29dbdaddf59f67b9cc2704ab1c"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 188,
+        "end_line": 189,
+        "sha256": "36586a393136efd5fd97656d68f7e676005b0f29dbdaddf59f67b9cc2704ab1c"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 727,
+        "end_line": 728,
+        "sha256": "f6757a87c5aa51764b00659da1a2c30644224426c7ed51c13f049a0048abf9cf"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 191,
+        "end_line": 192,
+        "sha256": "f6757a87c5aa51764b00659da1a2c30644224426c7ed51c13f049a0048abf9cf"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 734,
+        "end_line": 735,
+        "sha256": "80b14ac94c30d57f05da350c72f3a113a9ac5093a25532f0f21edf6ab0ea8807"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board_minutes_2023_03_22.txt",
+        "start_line": 537,
+        "end_line": 538,
+        "sha256": "4a694304f1d70315a982c95209c483fbbad0def487deaee0c0531bfc1f6b56a0"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 1180,
+        "end_line": 1182,
+        "sha256": "139fd115958286e5d20255bbb617fc623ca6f242e30a8d0a7682e97ab930e23f"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_02_18.txt",
+        "start_line": 1220,
+        "end_line": 1222,
+        "sha256": "139fd115958286e5d20255bbb617fc623ca6f242e30a8d0a7682e97ab930e23f"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 1310,
+        "end_line": 1311,
+        "sha256": "701d864ba8b731fad5654dc650fdc3460ff4dcf5df2e3b13de0e2c3762595eb6"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_01_21.txt",
+        "start_line": 1264,
+        "end_line": 1265,
+        "sha256": "701d864ba8b731fad5654dc650fdc3460ff4dcf5df2e3b13de0e2c3762595eb6"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 1356,
+        "end_line": 1358,
+        "sha256": "0b1be45e06ba506ce4f3412de317a9ee68756fe74435cabc31dd9cf0838336b2"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_01_21.txt",
+        "start_line": 1293,
+        "end_line": 1295,
+        "sha256": "0b1be45e06ba506ce4f3412de317a9ee68756fe74435cabc31dd9cf0838336b2"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 1360,
+        "end_line": 1363,
+        "sha256": "a4e0c71570465a439ec487b6a8c63ba5ecd82c6bdc3eaa32a23f40dbe7e47326"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_02_18.txt",
+        "start_line": 1430,
+        "end_line": 1433,
+        "sha256": "a4e0c71570465a439ec487b6a8c63ba5ecd82c6bdc3eaa32a23f40dbe7e47326"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 1372,
+        "end_line": 1373,
+        "sha256": "e38b809fe81d2f86f91f60de432848923ab95ed0f246cd85f074e58f6c4b3fd7"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_02_18.txt",
+        "start_line": 1438,
+        "end_line": 1439,
+        "sha256": "e38b809fe81d2f86f91f60de432848923ab95ed0f246cd85f074e58f6c4b3fd7"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 5614,
+        "end_line": 5618,
+        "sha256": "5081bfb2d2a6756a6dd711cdce1a9b151faf7c8243890ae91b454bb7722b5b16"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board-2025-12-svn.txt",
+        "start_line": 789,
+        "end_line": 793,
+        "sha256": "5081bfb2d2a6756a6dd711cdce1a9b151faf7c8243890ae91b454bb7722b5b16"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 5620,
+        "end_line": 5622,
+        "sha256": "471708a0015428d35a0ca53ad9bb74d35913f5b5a92c86158cb209e194511c3f"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board-2025-12-svn.txt",
+        "start_line": 795,
+        "end_line": 797,
+        "sha256": "471708a0015428d35a0ca53ad9bb74d35913f5b5a92c86158cb209e194511c3f"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 5632,
+        "end_line": 5635,
+        "sha256": "09184fde31aa728e2e4995db06598569dcc32f90b8bf2ea681457bbe602ece67"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board-2025-12-svn.txt",
+        "start_line": 807,
+        "end_line": 810,
+        "sha256": "09184fde31aa728e2e4995db06598569dcc32f90b8bf2ea681457bbe602ece67"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 5637,
+        "end_line": 5639,
+        "sha256": "b6ab60ed8808db84b1e124c295bc4716924e136089ae977fe3e4ee4c70abf109"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board-2025-12-svn.txt",
+        "start_line": 812,
+        "end_line": 814,
+        "sha256": "b6ab60ed8808db84b1e124c295bc4716924e136089ae977fe3e4ee4c70abf109"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_04_15.txt",
+        "start_line": 10,
+        "end_line": 12,
+        "sha256": "54c3c65d1d9910f298c9ed82bf2b7285deb63a1412265cb82e6ebd17b31e44ac"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board_minutes_2023_11_15.txt",
+        "start_line": 4,
+        "end_line": 6,
+        "sha256": "54c3c65d1d9910f298c9ed82bf2b7285deb63a1412265cb82e6ebd17b31e44ac"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_04_15.txt",
+        "start_line": 669,
+        "end_line": 671,
+        "sha256": "6acf792b8b180bf0ba4dbe93c44a6c451719cfbc34c38237eb6debd221b6d54b"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 782,
+        "end_line": 784,
+        "sha256": "6acf792b8b180bf0ba4dbe93c44a6c451719cfbc34c38237eb6debd221b6d54b"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_04_15.txt",
+        "start_line": 673,
+        "end_line": 675,
+        "sha256": "796088cbdb9feeeff82086701da1be40f5c37a31a3401bf49a55c48fc3689cf6"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 786,
+        "end_line": 788,
+        "sha256": "796088cbdb9feeeff82086701da1be40f5c37a31a3401bf49a55c48fc3689cf6"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_04_15.txt",
+        "start_line": 677,
+        "end_line": 679,
+        "sha256": "bcd5430bd82a6d2dc70d7531f4fe99f82165f7cc62740bc4d7a311caa7656b21"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 790,
+        "end_line": 792,
+        "sha256": "bcd5430bd82a6d2dc70d7531f4fe99f82165f7cc62740bc4d7a311caa7656b21"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_04_15.txt",
+        "start_line": 681,
+        "end_line": 683,
+        "sha256": "fbc7973b40c904989744dc37ebf0e6d53c236d932edb0c0473bd4e6aeef750c8"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 794,
+        "end_line": 796,
+        "sha256": "fbc7973b40c904989744dc37ebf0e6d53c236d932edb0c0473bd4e6aeef750c8"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_04_15.txt",
+        "start_line": 685,
+        "end_line": 687,
+        "sha256": "46c0d6035a1a7b4bd4d0ee64bddcc4fa5b828b15daaea171904d9a5a8d192bcb"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 798,
+        "end_line": 800,
+        "sha256": "46c0d6035a1a7b4bd4d0ee64bddcc4fa5b828b15daaea171904d9a5a8d192bcb"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_04_15.txt",
+        "start_line": 689,
+        "end_line": 691,
+        "sha256": "35b98827a2b65d409614b0dada87e647580b862f7cc8cea1ea0badb75b4656d3"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 802,
+        "end_line": 804,
+        "sha256": "35b98827a2b65d409614b0dada87e647580b862f7cc8cea1ea0badb75b4656d3"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_04_15.txt",
+        "start_line": 697,
+        "end_line": 699,
+        "sha256": "fd32c0995eaa37364caf425fa8701bc5d2405f905f21abbe3c780b283f8ca8c0"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 810,
+        "end_line": 812,
+        "sha256": "fd32c0995eaa37364caf425fa8701bc5d2405f905f21abbe3c780b283f8ca8c0"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_04_15.txt",
+        "start_line": 707,
+        "end_line": 709,
+        "sha256": "40251ca4ee2e91879db92b41384ea8baa71fe6ce8bd094aa37b0fd4380ba24ce"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 820,
+        "end_line": 822,
+        "sha256": "40251ca4ee2e91879db92b41384ea8baa71fe6ce8bd094aa37b0fd4380ba24ce"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_04_15.txt",
+        "start_line": 711,
+        "end_line": 713,
+        "sha256": "57389aeee4c6b0a722bc2b7202b2548fb6bf5bcd306da3a3f2dd0a4e30137ba6"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 824,
+        "end_line": 826,
+        "sha256": "57389aeee4c6b0a722bc2b7202b2548fb6bf5bcd306da3a3f2dd0a4e30137ba6"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_04_15.txt",
+        "start_line": 803,
+        "end_line": 804,
+        "sha256": "b25edb8f7878739857759b45b0ca49e5fb797506334f73e825d44282da05f580"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 908,
+        "end_line": 909,
+        "sha256": "b25edb8f7878739857759b45b0ca49e5fb797506334f73e825d44282da05f580"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_04_15.txt",
+        "start_line": 813,
+        "end_line": 814,
+        "sha256": "3d1aea030dc126658ccc699470b18628dd4890aa763f6e81129858f7b90f3412"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 895,
+        "end_line": 896,
+        "sha256": "3d1aea030dc126658ccc699470b18628dd4890aa763f6e81129858f7b90f3412"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_04_15.txt",
+        "start_line": 816,
+        "end_line": 817,
+        "sha256": "3bcbb4b0ab481f6134424b62079b2f41fc1b8c1df1f0e6e6aebf709ea2656187"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 898,
+        "end_line": 899,
+        "sha256": "3bcbb4b0ab481f6134424b62079b2f41fc1b8c1df1f0e6e6aebf709ea2656187"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_04_15.txt",
+        "start_line": 983,
+        "end_line": 985,
+        "sha256": "59d62244c09386d6c0eca96d089ca49e3dad8ee9a0e3fe420f24edea9114a78d"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 1088,
+        "end_line": 1090,
+        "sha256": "59d62244c09386d6c0eca96d089ca49e3dad8ee9a0e3fe420f24edea9114a78d"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_04_15.txt",
+        "start_line": 1076,
+        "end_line": 1078,
+        "sha256": "139fd115958286e5d20255bbb617fc623ca6f242e30a8d0a7682e97ab930e23f"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_02_18.txt",
+        "start_line": 1220,
+        "end_line": 1222,
+        "sha256": "139fd115958286e5d20255bbb617fc623ca6f242e30a8d0a7682e97ab930e23f"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_04_15.txt",
+        "start_line": 1191,
+        "end_line": 1193,
+        "sha256": "0b1be45e06ba506ce4f3412de317a9ee68756fe74435cabc31dd9cf0838336b2"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_01_21.txt",
+        "start_line": 1293,
+        "end_line": 1295,
+        "sha256": "0b1be45e06ba506ce4f3412de317a9ee68756fe74435cabc31dd9cf0838336b2"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_04_15.txt",
+        "start_line": 1198,
+        "end_line": 1200,
+        "sha256": "b453bc8dfcb565c3769ccf5962e9fcdfe67f314f604ee502ebc659377af0e11d"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 1368,
+        "end_line": 1370,
+        "sha256": "b453bc8dfcb565c3769ccf5962e9fcdfe67f314f604ee502ebc659377af0e11d"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_04_15.txt",
+        "start_line": 1202,
+        "end_line": 1203,
+        "sha256": "e38b809fe81d2f86f91f60de432848923ab95ed0f246cd85f074e58f6c4b3fd7"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_02_18.txt",
+        "start_line": 1438,
+        "end_line": 1439,
+        "sha256": "e38b809fe81d2f86f91f60de432848923ab95ed0f246cd85f074e58f6c4b3fd7"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_04_15.txt",
+        "start_line": 1603,
+        "end_line": 1605,
+        "sha256": "908ffc2e5c0c79fc6851eae5520b1de606d6648b53ac2e43481aac804d3525f3"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board_minutes_2023_02_15.txt",
+        "start_line": 853,
+        "end_line": 855,
+        "sha256": "908ffc2e5c0c79fc6851eae5520b1de606d6648b53ac2e43481aac804d3525f3"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_04_15.txt",
+        "start_line": 1611,
+        "end_line": 1614,
+        "sha256": "44c5e8e16ea39e93c6f9f8620b9cec8b78229f67c534b13f29daad2a43dac5cb"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board_minutes_2025_07_16.txt",
+        "start_line": 1091,
+        "end_line": 1094,
+        "sha256": "44c5e8e16ea39e93c6f9f8620b9cec8b78229f67c534b13f29daad2a43dac5cb"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_04_15.txt",
+        "start_line": 1616,
+        "end_line": 1618,
+        "sha256": "54044acd4a64828e427b0a17c85233b07e0e5fbba6a53298f31568cbc7a0d941"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board_minutes_2025_07_16.txt",
+        "start_line": 1096,
+        "end_line": 1098,
+        "sha256": "54044acd4a64828e427b0a17c85233b07e0e5fbba6a53298f31568cbc7a0d941"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_04_15.txt",
+        "start_line": 1630,
+        "end_line": 1633,
+        "sha256": "2c6de03cbb0621f1e44146abc1747a1de987629a83dfe426f36d0ff1015abb43"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_01_21.txt",
+        "start_line": 1711,
+        "end_line": 1714,
+        "sha256": "2c6de03cbb0621f1e44146abc1747a1de987629a83dfe426f36d0ff1015abb43"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_05_20.txt",
+        "start_line": 10,
+        "end_line": 12,
+        "sha256": "d277b7433fa1c97f079242c34887674a396bf503992753bc0cbe46f488dbb85e"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board_minutes_2023_09_20.txt",
+        "start_line": 4,
+        "end_line": 6,
+        "sha256": "d277b7433fa1c97f079242c34887674a396bf503992753bc0cbe46f488dbb85e"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_05_20.txt",
+        "start_line": 25,
+        "end_line": 33,
+        "sha256": "a99eb73935eca79279f751f159359cccc60fdd58eadb0bd878e9c143e3d59e92"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 25,
+        "end_line": 33,
+        "sha256": "a99eb73935eca79279f751f159359cccc60fdd58eadb0bd878e9c143e3d59e92"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_05_20.txt",
+        "start_line": 706,
+        "end_line": 708,
+        "sha256": "6acf792b8b180bf0ba4dbe93c44a6c451719cfbc34c38237eb6debd221b6d54b"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 782,
+        "end_line": 784,
+        "sha256": "6acf792b8b180bf0ba4dbe93c44a6c451719cfbc34c38237eb6debd221b6d54b"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_05_20.txt",
+        "start_line": 710,
+        "end_line": 712,
+        "sha256": "796088cbdb9feeeff82086701da1be40f5c37a31a3401bf49a55c48fc3689cf6"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 786,
+        "end_line": 788,
+        "sha256": "796088cbdb9feeeff82086701da1be40f5c37a31a3401bf49a55c48fc3689cf6"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_05_20.txt",
+        "start_line": 714,
+        "end_line": 716,
+        "sha256": "bcd5430bd82a6d2dc70d7531f4fe99f82165f7cc62740bc4d7a311caa7656b21"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 790,
+        "end_line": 792,
+        "sha256": "bcd5430bd82a6d2dc70d7531f4fe99f82165f7cc62740bc4d7a311caa7656b21"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_05_20.txt",
+        "start_line": 718,
+        "end_line": 720,
+        "sha256": "fbc7973b40c904989744dc37ebf0e6d53c236d932edb0c0473bd4e6aeef750c8"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 794,
+        "end_line": 796,
+        "sha256": "fbc7973b40c904989744dc37ebf0e6d53c236d932edb0c0473bd4e6aeef750c8"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_05_20.txt",
+        "start_line": 722,
+        "end_line": 724,
+        "sha256": "fd32c0995eaa37364caf425fa8701bc5d2405f905f21abbe3c780b283f8ca8c0"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 810,
+        "end_line": 812,
+        "sha256": "fd32c0995eaa37364caf425fa8701bc5d2405f905f21abbe3c780b283f8ca8c0"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_05_20.txt",
+        "start_line": 728,
+        "end_line": 730,
+        "sha256": "40251ca4ee2e91879db92b41384ea8baa71fe6ce8bd094aa37b0fd4380ba24ce"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 820,
+        "end_line": 822,
+        "sha256": "40251ca4ee2e91879db92b41384ea8baa71fe6ce8bd094aa37b0fd4380ba24ce"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_05_20.txt",
+        "start_line": 740,
+        "end_line": 742,
+        "sha256": "b2e18d01d561321e44014f5316d8b6284517d193572b5bfec761698861fd3c7d"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_04_15.txt",
+        "start_line": 737,
+        "end_line": 739,
+        "sha256": "b2e18d01d561321e44014f5316d8b6284517d193572b5bfec761698861fd3c7d"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_05_20.txt",
+        "start_line": 875,
+        "end_line": 876,
+        "sha256": "b25edb8f7878739857759b45b0ca49e5fb797506334f73e825d44282da05f580"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 908,
+        "end_line": 909,
+        "sha256": "b25edb8f7878739857759b45b0ca49e5fb797506334f73e825d44282da05f580"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_05_20.txt",
+        "start_line": 883,
+        "end_line": 884,
+        "sha256": "3d1aea030dc126658ccc699470b18628dd4890aa763f6e81129858f7b90f3412"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 895,
+        "end_line": 896,
+        "sha256": "3d1aea030dc126658ccc699470b18628dd4890aa763f6e81129858f7b90f3412"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_05_20.txt",
+        "start_line": 886,
+        "end_line": 887,
+        "sha256": "3bcbb4b0ab481f6134424b62079b2f41fc1b8c1df1f0e6e6aebf709ea2656187"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 898,
+        "end_line": 899,
+        "sha256": "3bcbb4b0ab481f6134424b62079b2f41fc1b8c1df1f0e6e6aebf709ea2656187"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_05_20.txt",
+        "start_line": 1014,
+        "end_line": 1014,
+        "sha256": "30d2e3c333290c4e8882a2e5ae8f2109e5119d7510a1d62c755c04e6addd9218"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_05_20.txt",
+        "start_line": 1009,
+        "end_line": 1010,
+        "sha256": "2064c18a50aaba22f9d0edbd0b993f9e9110f4dfa1e03d3e8fbf1e88f2f03e38"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_05_20.txt",
+        "start_line": 1029,
+        "end_line": 1032,
+        "sha256": "965c868867a279038561faa80db6bfaf9a49c650fe2c9970c7d2e0bd38d2ed51"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_04_15.txt",
+        "start_line": 921,
+        "end_line": 924,
+        "sha256": "965c868867a279038561faa80db6bfaf9a49c650fe2c9970c7d2e0bd38d2ed51"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_05_20.txt",
+        "start_line": 1169,
+        "end_line": 1171,
+        "sha256": "139fd115958286e5d20255bbb617fc623ca6f242e30a8d0a7682e97ab930e23f"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_02_18.txt",
+        "start_line": 1220,
+        "end_line": 1222,
+        "sha256": "139fd115958286e5d20255bbb617fc623ca6f242e30a8d0a7682e97ab930e23f"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_05_20.txt",
+        "start_line": 1307,
+        "end_line": 1309,
+        "sha256": "b453bc8dfcb565c3769ccf5962e9fcdfe67f314f604ee502ebc659377af0e11d"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 1368,
+        "end_line": 1370,
+        "sha256": "b453bc8dfcb565c3769ccf5962e9fcdfe67f314f604ee502ebc659377af0e11d"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_05_20.txt",
+        "start_line": 2387,
+        "end_line": 2389,
+        "sha256": "c31ec2f6cd1c077a049d6e8f5894a4073f0fb9991d94b944d3081996c3f48d71"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board_minutes_2022_11_16.txt",
+        "start_line": 903,
+        "end_line": 905,
+        "sha256": "c31ec2f6cd1c077a049d6e8f5894a4073f0fb9991d94b944d3081996c3f48d71"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_05_20.txt",
+        "start_line": 4271,
+        "end_line": 4273,
+        "sha256": "cc2dd3a25fd96ba3ff9cb3395e3c7f64d55b5c478863dff382b07f279e01f3f9"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board_minutes_2022_11_16.txt",
+        "start_line": 941,
+        "end_line": 943,
+        "sha256": "f1231f55900ccdb6bb8e910c411438a39a3b0a7953e0c98bcf43c5d8ad9c01a2"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_05_20.txt",
+        "start_line": 4275,
+        "end_line": 4277,
+        "sha256": "20e6ba8136678ef2593873bbf9e8aca0ed23507ae69e71c14705ebc6401686bd"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board_minutes_2025_04_16.txt",
+        "start_line": 902,
+        "end_line": 904,
+        "sha256": "20e6ba8136678ef2593873bbf9e8aca0ed23507ae69e71c14705ebc6401686bd"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_05_20.txt",
+        "start_line": 4279,
+        "end_line": 4282,
+        "sha256": "d4068bce4c7002a47d62e14fefbef7bbe43ad58e74d0275c6022a72c1bbe3aa5"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board_minutes_2025_11_19.txt",
+        "start_line": 1056,
+        "end_line": 1059,
+        "sha256": "d4068bce4c7002a47d62e14fefbef7bbe43ad58e74d0275c6022a72c1bbe3aa5"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_06_17.txt",
+        "start_line": 10,
+        "end_line": 12,
+        "sha256": "54c3c65d1d9910f298c9ed82bf2b7285deb63a1412265cb82e6ebd17b31e44ac"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board_minutes_2023_11_15.txt",
+        "start_line": 4,
+        "end_line": 6,
+        "sha256": "54c3c65d1d9910f298c9ed82bf2b7285deb63a1412265cb82e6ebd17b31e44ac"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_06_17.txt",
+        "start_line": 25,
+        "end_line": 33,
+        "sha256": "a99eb73935eca79279f751f159359cccc60fdd58eadb0bd878e9c143e3d59e92"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 25,
+        "end_line": 33,
+        "sha256": "a99eb73935eca79279f751f159359cccc60fdd58eadb0bd878e9c143e3d59e92"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_06_17.txt",
+        "start_line": 536,
+        "end_line": 537,
+        "sha256": "b754623408044a7d854d9fbfdcdc6a41b5a185cb4d5f4d93b89a71ca697cee6e"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board_minutes_2024_10_16.txt",
+        "start_line": 252,
+        "end_line": 253,
+        "sha256": "b754623408044a7d854d9fbfdcdc6a41b5a185cb4d5f4d93b89a71ca697cee6e"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_06_17.txt",
+        "start_line": 596,
+        "end_line": 606,
+        "sha256": "9823ec733843f2dd560601baf78c311aa87a7811c126c6c0214ee61cbd9974a7"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_05_20.txt",
+        "start_line": 551,
+        "end_line": 558,
+        "sha256": "609b9efab1247da4f7f5135a579d512d2cde3945a5c7b98bad53bce58a254d6e"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_06_17.txt",
+        "start_line": 608,
+        "end_line": 611,
+        "sha256": "286f68a9558a0374f1c72c4f8ccee01b947c899842f310dd1175750102dd71ea"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_05_20.txt",
+        "start_line": 560,
+        "end_line": 562,
+        "sha256": "c0efb1b5c4499d6132d557b6f9470e9841a4bf061cc9611dc6f940f594c440b0"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_06_17.txt",
+        "start_line": 622,
+        "end_line": 627,
+        "sha256": "ea4075056494dfd0d3af6a1123edd12a571186645ec3fa06c88f49b47169b702"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_05_20.txt",
+        "start_line": 571,
+        "end_line": 575,
+        "sha256": "d64684289b90b62af5262d16d7e4a45a357fe65b1e73addb375514cc5a03830d"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_06_17.txt",
+        "start_line": 629,
+        "end_line": 631,
+        "sha256": "382cf42b8653de7fd45dd89fcf6f4a81a22443f48abb070cd1e05ede4066651c"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_05_20.txt",
+        "start_line": 577,
+        "end_line": 578,
+        "sha256": "e9fe0284f89c641d92ec53c1335d36bfbc1623dfcfcf77cf649aa5cfdbe8f508"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_06_17.txt",
+        "start_line": 656,
+        "end_line": 661,
+        "sha256": "aff811c2c7557229fa0a40851ca07df2eac4c815e5e8d7a8de9e18b87e4de814"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_05_20.txt",
+        "start_line": 600,
+        "end_line": 604,
+        "sha256": "4706427e73619e8ce3ccdf3b800b0a54082dd603753304753d6376f7dcac4124"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_06_17.txt",
+        "start_line": 732,
+        "end_line": 734,
+        "sha256": "487cb19080752e6438c51e0b5541178851c7bf411d85f2d5d4f2b447b731fb45"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_05_20.txt",
+        "start_line": 732,
+        "end_line": 734,
+        "sha256": "487cb19080752e6438c51e0b5541178851c7bf411d85f2d5d4f2b447b731fb45"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_06_17.txt",
+        "start_line": 752,
+        "end_line": 754,
+        "sha256": "5f23ff87fe5028f7fb6f9143df114fcc7cf6fbc42c7b0326b3591da4d81a4496"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_05_20.txt",
+        "start_line": 780,
+        "end_line": 782,
+        "sha256": "5f23ff87fe5028f7fb6f9143df114fcc7cf6fbc42c7b0326b3591da4d81a4496"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_06_17.txt",
+        "start_line": 887,
+        "end_line": 888,
+        "sha256": "b25edb8f7878739857759b45b0ca49e5fb797506334f73e825d44282da05f580"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 908,
+        "end_line": 909,
+        "sha256": "b25edb8f7878739857759b45b0ca49e5fb797506334f73e825d44282da05f580"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_06_17.txt",
+        "start_line": 895,
+        "end_line": 896,
+        "sha256": "3d1aea030dc126658ccc699470b18628dd4890aa763f6e81129858f7b90f3412"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 895,
+        "end_line": 896,
+        "sha256": "3d1aea030dc126658ccc699470b18628dd4890aa763f6e81129858f7b90f3412"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_06_17.txt",
+        "start_line": 898,
+        "end_line": 899,
+        "sha256": "3bcbb4b0ab481f6134424b62079b2f41fc1b8c1df1f0e6e6aebf709ea2656187"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 898,
+        "end_line": 899,
+        "sha256": "3bcbb4b0ab481f6134424b62079b2f41fc1b8c1df1f0e6e6aebf709ea2656187"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_06_17.txt",
+        "start_line": 958,
+        "end_line": 961,
+        "sha256": "2a952f3017330e593352947864596158e0903a33bd1cfde13ee97e16bc4a5ecf"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_04_15.txt",
+        "start_line": 921,
+        "end_line": 924,
+        "sha256": "965c868867a279038561faa80db6bfaf9a49c650fe2c9970c7d2e0bd38d2ed51"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_06_17.txt",
+        "start_line": 1332,
+        "end_line": 1334,
+        "sha256": "6402527c3e20b517d6119fac55592ec253f20c620da55ddce7e8f35ca7205b6f"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_05_20.txt",
+        "start_line": 1295,
+        "end_line": 1297,
+        "sha256": "6402527c3e20b517d6119fac55592ec253f20c620da55ddce7e8f35ca7205b6f"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_06_17.txt",
+        "start_line": 1336,
+        "end_line": 1339,
+        "sha256": "38e77a1ec6c0d24229dc991f76ad5ae084e439dbe046380dbd8db3882b7a280b"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_05_20.txt",
+        "start_line": 1299,
+        "end_line": 1302,
+        "sha256": "38e77a1ec6c0d24229dc991f76ad5ae084e439dbe046380dbd8db3882b7a280b"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_06_17.txt",
+        "start_line": 1341,
+        "end_line": 1342,
+        "sha256": "93eb907a3677b8c17bf58bc3b2e8d438aedeccb6b81a0e6e5ed2e8a19a498ca5"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_05_20.txt",
+        "start_line": 1304,
+        "end_line": 1305,
+        "sha256": "93eb907a3677b8c17bf58bc3b2e8d438aedeccb6b81a0e6e5ed2e8a19a498ca5"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_06_17.txt",
+        "start_line": 1344,
+        "end_line": 1346,
+        "sha256": "b453bc8dfcb565c3769ccf5962e9fcdfe67f314f604ee502ebc659377af0e11d"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 1368,
+        "end_line": 1370,
+        "sha256": "b453bc8dfcb565c3769ccf5962e9fcdfe67f314f604ee502ebc659377af0e11d"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_06_17.txt",
+        "start_line": 1398,
+        "end_line": 1400,
+        "sha256": "cf3bd13e47bb2c973d579f35acc8310a110b5f2cf62b2826d810e63a174eb3c7"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board_minutes_2023_08_16.txt",
+        "start_line": 917,
+        "end_line": 919,
+        "sha256": "84455be1b9eb89c5b3b6559c81c2ffef993b1050274ed628ee2602e399fdd345"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_06_17.txt",
+        "start_line": 1407,
+        "end_line": 1409,
+        "sha256": "92f1b72d28b3c166539c189a22230613c1f03e1f71bdaebd9b6e241e4494d1e2"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board_minutes_2023_08_16.txt",
+        "start_line": 929,
+        "end_line": 931,
+        "sha256": "92f1b72d28b3c166539c189a22230613c1f03e1f71bdaebd9b6e241e4494d1e2"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_06_17.txt",
+        "start_line": 1416,
+        "end_line": 1418,
+        "sha256": "26c9079b2619b0e00e205958511a70829ab6a868d38474f5a64ae177d71f0367"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board_minutes_2023_08_16.txt",
+        "start_line": 938,
+        "end_line": 940,
+        "sha256": "26c9079b2619b0e00e205958511a70829ab6a868d38474f5a64ae177d71f0367"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_06_17.txt",
+        "start_line": 5363,
+        "end_line": 5367,
+        "sha256": "5081bfb2d2a6756a6dd711cdce1a9b151faf7c8243890ae91b454bb7722b5b16"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board-2025-12-svn.txt",
+        "start_line": 789,
+        "end_line": 793,
+        "sha256": "5081bfb2d2a6756a6dd711cdce1a9b151faf7c8243890ae91b454bb7722b5b16"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_06_17.txt",
+        "start_line": 5369,
+        "end_line": 5371,
+        "sha256": "471708a0015428d35a0ca53ad9bb74d35913f5b5a92c86158cb209e194511c3f"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board-2025-12-svn.txt",
+        "start_line": 795,
+        "end_line": 797,
+        "sha256": "471708a0015428d35a0ca53ad9bb74d35913f5b5a92c86158cb209e194511c3f"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_06_17.txt",
+        "start_line": 5373,
+        "end_line": 5377,
+        "sha256": "69ba5a4508e7cb70f12b029d3aac1ca5fad729b3c3e5eb8811f04c8b20925014"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "references/board_minutes_2026_03_18.txt",
+        "start_line": 5624,
+        "end_line": 5628,
+        "sha256": "69ba5a4508e7cb70f12b029d3aac1ca5fad729b3c3e5eb8811f04c8b20925014"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_06_17.txt",
+        "start_line": 5381,
+        "end_line": 5384,
+        "sha256": "09184fde31aa728e2e4995db06598569dcc32f90b8bf2ea681457bbe602ece67"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board-2025-12-svn.txt",
+        "start_line": 807,
+        "end_line": 810,
+        "sha256": "09184fde31aa728e2e4995db06598569dcc32f90b8bf2ea681457bbe602ece67"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_06_17.txt",
+        "start_line": 5386,
+        "end_line": 5388,
+        "sha256": "b6ab60ed8808db84b1e124c295bc4716924e136089ae977fe3e4ee4c70abf109"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board-2025-12-svn.txt",
+        "start_line": 812,
+        "end_line": 814,
+        "sha256": "b6ab60ed8808db84b1e124c295bc4716924e136089ae977fe3e4ee4c70abf109"
+      }
+    },
+    {
+      "occurrence": {
+        "file": "references/board_minutes_2026_06_17.txt",
+        "start_line": 5414,
+        "end_line": 5416,
+        "sha256": "dfbe83c0311ebec63317831e9802ae55a25159c8dc9831ad3912dbaf7247dc80"
+      },
+      "exact_whitespace_normalized_repeat_of": {
+        "file": "board/board-2025-12-svn.txt",
+        "start_line": 839,
+        "end_line": 841,
+        "sha256": "dfbe83c0311ebec63317831e9802ae55a25159c8dc9831ad3912dbaf7247dc80"
+      }
+    }
+  ],
+  "section_manifest_sha256": "253bb1cb2dfece8f303e4d16c507679ece06fa4b27902acfeeae343097df0580"
+}

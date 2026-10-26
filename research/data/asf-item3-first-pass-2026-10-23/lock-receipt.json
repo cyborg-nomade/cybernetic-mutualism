@@ -1,0 +1,10 @@
+{
+  "audit_frame_sha256": "d41d1d8e66334ef5d13a52da66428748f449fa706d4c87e6e9cc16736f2b624e",
+  "first_pass_sha256": "f805f859f5cf3d88e06d87a16902ef9940072ffa1f68b3c34f511069104fd94c",
+  "integrity_errors": [],
+  "local_lock_directory": ".local/asf-first-pass-2026-09-22/item3/locked-first-pass-2026-10-23",
+  "lock_sha256": "2c5bf03e56aeb8cea66879f82acef46a6ecef05511e23d74a24451da712a4cb7",
+  "locked_at": "2026-10-23T07:14:24.068077+00:00",
+  "recode_not_before": "2026-11-07T00:00:00+00:00",
+  "washout_scope": "14 complete UTC days without ASF evidence work; administrative hash/package/PR operations do not recode or reopen evidence. Evidence corrections require a new valid boundary."
+}

@@ -1,0 +1,303 @@
+{
+  "review_date": "2026-10-22",
+  "status": "independent_workflow_and_service_deliverables_before_component_coding",
+  "decisions": [
+    {
+      "family_id": "maven-project-sbom-support-care-2024",
+      "navigation_family": "maven-project-sbom-support-care-2024",
+      "project": "maven",
+      "earliest_source_id": "D_kwDOL29jrM4AZMUm",
+      "onset_earliest": "2024-05-04",
+      "onset_latest": "2024-05-04",
+      "initiating_role": "external",
+      "action_class": "technical_direction",
+      "eligible": "yes",
+      "kind": "local_other",
+      "sender_act": "Propose creation and publication of SBOMs for Maven core/plugin releases",
+      "intended_receiver": "Maven project maintainers and prospective funded contributors",
+      "original_option": "No general new SBOM-release obligation shown adopted",
+      "requested_change": "Define and implement release SBOM workflow across important Maven projects",
+      "disposition_history": "May4 original; May12 explicitly separates project release SBOMs from application developer SBOM feature. June18 letter continues it. January2026 administrative epic conversion is outside180 days and is not execution.",
+      "eligibility_reason": "Common release-workflow direction rather than an ordinary plugin patch or funding award. Proposal is external; local pursuit/adoption requires separate component evidence.",
+      "extra_source_ids": [
+        "<6510F87E-72A4-4ACD-B413-19A389525D46@open-elements.de>",
+        "D_kwDOL29jrM4AZMUm"
+      ]
+    },
+    {
+      "family_id": "maven-dependency-checker-support-care-2024",
+      "navigation_family": "maven-dependency-checker-support-care-2024",
+      "project": "maven",
+      "earliest_source_id": "D_kwDOL29jrM4AZMUx",
+      "onset_earliest": "2024-05-04",
+      "onset_latest": "2024-05-04",
+      "initiating_role": "external",
+      "action_class": "technical_direction",
+      "eligible": "yes",
+      "kind": "local_other",
+      "sender_act": "Propose common dependency security-audit workflow",
+      "intended_receiver": "Maven maintainers and prospective funded contributors",
+      "original_option": "Existing dependency checks are reported but completeness is disputed",
+      "requested_change": "Document and implement a dependency checking workflow for important Maven projects",
+      "disposition_history": "May4 original; May18 threshold/exceptions suggested; May19\u201320 existing release-manager checks and ossindex alternative noted. No new binding mandate or Foundation service allocation shown. January2026 closure is outside180 days.",
+      "eligibility_reason": "Common prospective development/release direction. Claims that no scans existed are contradicted by participant own-history; current issue tracking is not implementation.",
+      "extra_source_ids": [
+        "<C7C99EE7-0533-4416-B71D-1CC85FBF253E@open-elements.de>",
+        "D_kwDOL29jrM4AZMUx"
+      ]
+    },
+    {
+      "family_id": "maven-project-reproducibility-support-care-2024",
+      "navigation_family": "maven-project-reproducibility-support-care-2024",
+      "project": "maven",
+      "earliest_source_id": "D_kwDOL29jrM4AZMU4",
+      "onset_earliest": "2024-05-04",
+      "onset_latest": "2024-05-04",
+      "initiating_role": "external",
+      "action_class": "technical_direction",
+      "eligible": "yes",
+      "kind": "ambiguous",
+      "sender_act": "Propose project-wide reproducible-build workflow and automatic release checks",
+      "intended_receiver": "Maven maintainers and prospective funded contributors",
+      "original_option": "Maintainer reports Maven release rebuild checks already performed for years",
+      "requested_change": "Extend/automate reproducibility coverage where needed",
+      "disposition_history": "May4 asks checking/refactoring and automatic release steps. May12 Herve describes existing checks and prior four-year preparation; May22 connects automation to discussion27. No newly adopted general mandate is shown. June18 duplicate letters repeat one deliverable.",
+      "eligibility_reason": "Retain an ambiguous proposed general workflow revision, bounded by existing practice. It is not proof reproducibility was absent, newly instituted, or caused by funding.",
+      "extra_source_ids": [
+        "<88F1F4E2-E6BC-48CD-8270-C45FA1EBCA60@open-elements.de>",
+        "<DE97319A-DBA1-4539-AFFE-A8D221799DF9@open-elements.de>",
+        "D_kwDOL29jrM4AZMU4"
+      ]
+    },
+    {
+      "family_id": "maven-openssf-scorecards-support-care-2024",
+      "navigation_family": "maven-openssf-scorecards-support-care-2024",
+      "project": "maven",
+      "earliest_source_id": "D_kwDOL29jrM4AZMU6",
+      "onset_earliest": "2024-05-04",
+      "onset_latest": "2024-05-04",
+      "initiating_role": "external",
+      "action_class": "technical_direction",
+      "eligible": "yes",
+      "kind": "local_other",
+      "sender_act": "Propose OpenSSF scorecards and a minimum score across important repositories",
+      "intended_receiver": "Maven maintainers and prospective funded contributors",
+      "original_option": "No uniform minimum score shown adopted",
+      "requested_change": "Add scorecards and define minimum acceptable project score",
+      "disposition_history": "May4 original explicitly requests minimum score; May13 naming clarification. June18 repeats proposal. January2026 epic conversion is not execution and is outside180 days. Specific force/deletion protections proposed July2025 are independently actionable rules, not the same metric deliverable.",
+      "eligibility_reason": "Common threshold/workflow proposal, distinct from later individual protection rules. No adopted score floor or service grant is established.",
+      "extra_source_ids": [
+        "<9146724E-2D8E-4379-AC93-D02837F6819E@open-elements.de>",
+        "D_kwDOL29jrM4AZMU6"
+      ]
+    },
+    {
+      "family_id": "maven3-lts-support-care-2024",
+      "navigation_family": "maven3-lts-support-care-2024",
+      "project": "maven",
+      "earliest_source_id": "D_kwDOL29jrM4AZWx_",
+      "onset_earliest": "unknown",
+      "onset_latest": "unknown",
+      "initiating_role": "external",
+      "action_class": "technical_direction",
+      "eligible": "yes",
+      "kind": "ambiguous",
+      "sender_act": "Propose funded Maven3 maintenance after Maven4GA",
+      "intended_receiver": "Maven community and prospective external funder",
+      "original_option": "Voluntary maintenance remains possible without a collective guarantee",
+      "requested_change": "Fund maintenance releases and establish an LTS continuation plan",
+      "disposition_history": "May11 discussion proposes3.x maintenance; May12 questions one-year funding scope; May15 says earlier community discussions left work voluntary without engagement. Earlier specific dev-list proposals are retained elsewhere; no new ASF contract or fixed support guarantee is adopted here.",
+      "eligibility_reason": "Continuation of earlier support-policy debate explicitly reported by participants. Actual first request date remains unknown; May11/June18 cannot reset it. Funded implementation and collective commitment are different propositions.",
+      "extra_source_ids": [
+        "<10E49F25-D1F6-49EF-98E6-3FDEC2AD2FF4@open-elements.de>",
+        "D_kwDOL29jrM4AZWx_"
+      ],
+      "onset_limit": "Original May11 body last edited May11,2024; earlier repeated community discussions make this first observed public reference an upper bound, not a fresh onset."
+    },
+    {
+      "family_id": "maven-recurring-issue-governance-2024",
+      "navigation_family": "maven-recurring-issue-governance-2024",
+      "project": "maven",
+      "earliest_source_id": "D_kwDOL29jrM4AZc5r",
+      "onset_earliest": "2024-05-15",
+      "onset_latest": "2024-05-15",
+      "initiating_role": "external",
+      "action_class": "governance",
+      "eligible": "yes",
+      "kind": "local_other",
+      "sender_act": "Propose backlog grooming and issue-priority decisions",
+      "intended_receiver": "Maven issue maintainers and prospective funded contributors",
+      "original_option": "Many unresolved issues; common periodic decision routine not shown adopted",
+      "requested_change": "Review backlog and document closure/fix decisions, later proposed as recurring meetings",
+      "disposition_history": "May15 original offers grooming/closure/fixes. June8 issue43 records recurring documented decisions; June18 letter continues that proposed workflow. Epic-capability request is a separate service deliverable. No adopted schedule or actual meeting decision shown.",
+      "eligibility_reason": "One continuing issue-decision workflow proposal; periodic form is a revision of the backlog plan, not a separate independent confirmation.",
+      "extra_source_ids": [
+        "<1EBB7EB7-1910-4481-998B-157E985EF129@open-elements.de>",
+        "D_kwDOL29jrM4AZc5r",
+        "msc-issue-43"
+      ],
+      "extra_workflow_source": "msc-issue-43"
+    },
+    {
+      "family_id": "maven-jira-epic-capability-2024",
+      "navigation_family": "maven-recurring-issue-governance-2024",
+      "project": "maven",
+      "earliest_source_id": "DC_kwDOL29jrM4AkcLe",
+      "onset_earliest": "unknown",
+      "onset_latest": "unknown",
+      "initiating_role": "pmc",
+      "action_class": "infrastructure_service",
+      "eligible": "yes",
+      "kind": "cross_boundary",
+      "sender_act": "Ask ASFInfrastructure to add Jira Epic capability",
+      "intended_receiver": "ASFInfrastructure Jira service",
+      "original_option": "Participants cannot see Epic functionality in Maven Jira",
+      "requested_change": "Provision capability to create Epic issue types for work tracking",
+      "disposition_history": "May21 conditional offer to ask; May22 requester accepts MNG scope; May25 Olivier reports creating INFRA25822. Anonymous ticket access requires login. No directly inspected provider response or applied capability is observed.",
+      "eligibility_reason": "Independently provisionable Foundation service request within the grooming discussion. Ticket creation predates its report but exact public request timestamp is unavailable; do not equate absence of public provider record with refusal.",
+      "extra_source_ids": [
+        "<1EBB7EB7-1910-4481-998B-157E985EF129@open-elements.de>",
+        "DC_kwDOL29jrM4AkcLe"
+      ],
+      "onset_limit": "Unknown exact initiating ticket time; May25,2024 public report is an upper bound. May21 is a conditional offer, not a confirmed submitted request."
+    },
+    {
+      "family_id": "maven-issue-workflow-support-care-2024",
+      "navigation_family": "maven-issue-workflow-support-care-2024",
+      "project": "maven",
+      "earliest_source_id": "msc-issue-45",
+      "onset_earliest": "2024-06-08",
+      "onset_latest": "2024-06-18",
+      "initiating_role": "unknown",
+      "action_class": "governance",
+      "eligible": "yes",
+      "kind": "ambiguous",
+      "sender_act": "Propose common issue-triage prerequisites and feedback workflow",
+      "intended_receiver": "Maven issue maintainers",
+      "original_option": "Many trackers and no single standardized new workflow established",
+      "requested_change": "Define/document triage and feedback rules, considering optional bots",
+      "disposition_history": "Issue45 created June8 and linked on public list June18. Current body includes reproducer, association, feedback and automation questions; later edits cannot be backdated. No adopted participation rule or bot deployment is shown.",
+      "eligibility_reason": "Independently scoped triage/intake direction, separate from backlog decisions and Jira migration. Initiation bounded between record creation and dated public circulation; exact initial body not authenticated.",
+      "extra_source_ids": [
+        "<36D4AEB1-362C-4C5D-AE18-8B4ADE5E52E8@open-elements.de>",
+        "msc-issue-45"
+      ],
+      "onset_limit": "June8 record creation establishes earliest possible issue existence; June18 public letter establishes circulating proposal. Current issue body updated April8,2025 is not treated as exact June8 wording."
+    },
+    {
+      "family_id": "maven-release-automation-support-care-2024",
+      "navigation_family": "maven-release-automation-support-care-2024",
+      "project": "maven",
+      "earliest_source_id": "D_kwDOL29jrM4AZdWQ",
+      "onset_earliest": "2024-05-15",
+      "onset_latest": "2024-05-15",
+      "initiating_role": "external",
+      "action_class": "technical_direction",
+      "eligible": "yes",
+      "kind": "local_other",
+      "sender_act": "Propose automating manual release/staging work",
+      "intended_receiver": "Maven maintainers and prospective funded contributors",
+      "original_option": "Existing release procedure has manual tasks",
+      "requested_change": "Automate artifact/site staging and related release tasks",
+      "disposition_history": "May15 original; May22 suggests signing and an optional vote service while asking about ASF compliance. June6 points to artifacts.apache.org without experience. No allocated shared key, adopted vote method or deployed automation is shown. January2026 conversion is outside180 days.",
+      "eligibility_reason": "General release-workflow direction. A possible voting service is an independently proposed service design; it is retained separately below rather than treated as an executed Foundation obligation.",
+      "extra_source_ids": [
+        "<C232024E-3EC7-4701-9059-52D0442B5625@open-elements.de>",
+        "D_kwDOL29jrM4AZdWQ"
+      ]
+    },
+    {
+      "family_id": "maven-release-voting-service-proposal-2024",
+      "navigation_family": "maven-release-automation-support-care-2024",
+      "project": "maven",
+      "earliest_source_id": "DC_kwDOL29jrM4AkVXA",
+      "onset_earliest": "2024-05-22",
+      "onset_latest": "2024-05-22",
+      "initiating_role": "unknown",
+      "action_class": "infrastructure_service",
+      "eligible": "yes",
+      "kind": "ambiguous",
+      "sender_act": "Propose a web voting service and ask whether ASF rules permit it",
+      "intended_receiver": "Maven maintainers and possible ASF rule/service authorities",
+      "original_option": "Public-mail release voting is the referenced existing procedure",
+      "requested_change": "Design an optional voting service with PMC login and public participation",
+      "disposition_history": "May22 Karl explicitly suggests the service and flags compliance question. June6 points to existing ASF artifact tooling but no actual service application or formal compliance request is shown.",
+      "eligibility_reason": "Distinct prospective service deliverable from release scripting; ambiguous boundary retained. Suggestion and compliance question are not provisioned access or a new authorized voting rule.",
+      "extra_source_ids": [
+        "<C232024E-3EC7-4701-9059-52D0442B5625@open-elements.de>",
+        "D_kwDOL29jrM4AZdWQ",
+        "DC_kwDOL29jrM4AkVXA"
+      ]
+    },
+    {
+      "family_id": "maven-plexus-migration-support-care-2024",
+      "navigation_family": "maven-plexus-migration-support-care-2024",
+      "project": "maven",
+      "earliest_source_id": "D_kwDOL29jrM4AZeUn",
+      "onset_earliest": "unknown",
+      "onset_latest": "unknown",
+      "initiating_role": "external",
+      "action_class": "technical_direction",
+      "eligible": "yes",
+      "kind": "ambiguous",
+      "sender_act": "Propose completing removal of old Plexus dependencies and improving migration guidance",
+      "intended_receiver": "Maven core/plugin maintainers",
+      "original_option": "Original explicitly describes a migration started long ago; newer Maven4DI work already underway",
+      "requested_change": "Complete migration using a suitable supported API",
+      "disposition_history": "May16 proposes completing prior migration; replies distinguish Sisu/JSR330 from Maven4publicDIAPI. June4 Guillaume favors existing Maven4DIAPI. January2025 implementation promise and tracking are beyond180 days from first retained proposal; no collective new Sisu mandate is shown.",
+      "eligibility_reason": "Explicit continuation of earlier migration with revised implementation alternatives. Actual first underlying request date remains unknown, so May16 cannot silently become a new onset.",
+      "extra_source_ids": [
+        "<CC9FFE4E-82E9-4B26-A756-E98A80357051@open-elements.de>",
+        "D_kwDOL29jrM4AZeUn"
+      ]
+    },
+    {
+      "family_id": "maven-test-platform-support-care-2024",
+      "navigation_family": "maven-test-platform-support-care-2024",
+      "project": "maven",
+      "earliest_source_id": "D_kwDOL29jrM4AZm9W",
+      "onset_earliest": "2024-05-22",
+      "onset_latest": "2024-05-22",
+      "initiating_role": "unknown",
+      "action_class": "technical_direction",
+      "eligible": "yes",
+      "kind": "local_other",
+      "sender_act": "Propose replacing Surefire/Failsafe framework-provider architecture with JUnitPlatform",
+      "intended_receiver": "Maven test-plugin maintainers",
+      "original_option": "Surefire/Failsafe maintain multiple framework providers",
+      "requested_change": "Make platform architecture common rather than parallel providers",
+      "disposition_history": "May22 original and one support; June18 continues it. No adopted replacement, removal of plugin support, or Foundation allocation shown. January2026 epic conversion is not execution.",
+      "eligibility_reason": "General test-platform architecture direction, distinct from ordinary per-test patches or retiring Surefire/Failsafe themselves.",
+      "extra_source_ids": [
+        "<1FA12D56-2C20-4A89-B052-59423DF60003@open-elements.de>",
+        "D_kwDOL29jrM4AZm9W"
+      ]
+    },
+    {
+      "family_id": "maven-support-care-funding-2024",
+      "navigation_family": "maven-support-care-funding-2024",
+      "project": "maven",
+      "earliest_source_id": "<456D2751-6A31-4023-90E4-BAE6EEA83F7E@open-elements.de>",
+      "onset_earliest": "unknown",
+      "onset_latest": "unknown",
+      "initiating_role": "external",
+      "action_class": "infrastructure_service",
+      "eligible": "no",
+      "kind": "excluded",
+      "sender_act": "Announce submission of external public-funding application",
+      "intended_receiver": "German government and potential paid contributors",
+      "original_option": "External initiative seeks funding; no ASF funding authority invoked in this message",
+      "requested_change": "Pay contributors to work on29epics if application succeeds",
+      "disposition_history": "June18 reports application already submitted and earlier private/public discussion. Full submission is promised if allowed after a decision. No ASF grant, contract, adopted work mandate or Foundation\u2013PMC commitment is requested in this overview.",
+      "eligibility_reason": "Funding-news context, not itself a new binding ASF project/service proposal. Separately specified local directions and shared-service requests are retained individually; private PMC discussion is unavailable.",
+      "extra_source_ids": [
+        "<456D2751-6A31-4023-90E4-BAE6EEA83F7E@open-elements.de>"
+      ]
+    }
+  ],
+  "limits": [
+    "Institutional pursuit and sender authority remain distinct from proposal content.",
+    "Unknown earlier onsets are not reset to dated later epics.",
+    "Current issues with post-cutoff updates are not used; selected43/45 objects are lossless excerpts with original wire-response hash retained in the reference review."
+  ]
+}

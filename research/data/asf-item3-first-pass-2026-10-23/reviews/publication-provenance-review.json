@@ -1,0 +1,22 @@
+{
+  "status": "explicit_public_distribution_provenance_review",
+  "scope": "Historical distribution upper bounds for retained original message variants; not exact archive webpage publication times, actor authority, or component/outcome coding.",
+  "reviewed_records": 46155,
+  "accepted_standard_variants": 46102,
+  "unknown_variants": 53,
+  "input_sha256": "43677de21a06801e9e40a7fdef37dab8801b87faf79905b29fb7ccfc076e6593",
+  "transport_classes_sha256": "92997d5468513df750bc60d575606fcface84458b3742273e75ee833d85f7bac",
+  "standard_judgment": "For an original variant in the accepted public development-list export, matching List-ID, Delivered-To mailing-list identity, explicit archive-asf-public recipient, and a parseable Receiving-hop stamp by mx-eu-03.ponee.io jointly establish public distribution no later than that receiving stamp. The receiving timestamp, not the earlier outgoing ASF queue timestamp, supplies the bound. Original Date/index epochs are not substituted. Source hashes and original header locators must accompany any decisive use.",
+  "human_checks": [
+    "Representative original headers for all four project lists inspected.",
+    "All seven observed receiving-hop transport classes inspected, preserving literal recipient/receiver and parsed dates.",
+    "Five Tailscale-HELO variants checked individually: receiver stamp still names mxout1-ec2-va.apache.org peer3.227.148.255 and underlying ASF mail relay; no organizational role inferred from a hostname.",
+    "All53fallback original Date/List-ID/first receiving headers independently inspected after an oversized initial output was truncated. Full53replacement display read without truncation."
+  ],
+  "unknown_judgment": "The53fallback variants carry archiver@mbox-vm.apache.org receiving stamps rather than explicit archive-asf-public/Ponee delivery. They establish transport/archiver receipt, but historical public availability remains unknown without separate corroboration. Do not infer missing public availability, exclusion, late publication, or refusal from this route difference.",
+  "limits": "This provenance judgment relies on the integrity of the accepted official public archive and retained transport headers; it is not independent cryptographic timestamp authentication. It does not certify historical webpage versions, absent private pressure or an individual role. Current GitHub/Jira representations remain separately bounded.",
+  "variant_rules": "Keep allraw/body variants. For a source ID with multiple required variants, every decisive variant must have a qualifying bound; never use the earliest old variant to authenticate a later body.",
+  "latest_standard_upper_bound": "2026-06-30T22:57:58+00:00",
+  "publication_cutoff": "2026-08-31",
+  "first_pass_lock": null
+}

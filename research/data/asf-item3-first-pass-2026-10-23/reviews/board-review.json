@@ -1,0 +1,481 @@
+{
+  "board_minutes_2023_01_18.txt": {
+    "review_scope": "All retained main, officer, cohort, Attic and Community Development sections read in full; other PMC attachment titles remain outside the fixed cohort.",
+    "findings": [
+      "Privacy policy ratified; officer says new try at ratification, action dates to June 2022. Check earliest onset before eligibility.",
+      "Infra reports planned Travis shift, LDAP/JDK/Gradle/platform work. No project effect assigned from this alone.",
+      "Maven and Attic reports explicitly absent.",
+      "Other routine resource/role changes are context; no zero cross-effect inferred."
+    ]
+  },
+  "board_minutes_2023_02_15.txt": {
+    "review_scope": "All retained main, officer, cohort, Attic and Community Development sections read in full; other PMC attachment titles remain outside the fixed cohort.",
+    "findings": [
+      "Infra says Travis open-source program ended earlier, ASF contract bridging, projects moving to GHA; HTTPD says foundation support drops in February. Treat earlier provider act as continuing precursor and foundation withdrawal as separately dated service act.",
+      "Legal invites participation in contributor AI guidance at LEGAL-631.",
+      "Security says Maven published a security-model page in January. Follow only if linked eligible request.",
+      "President CRA concern and Fundraising sponsor cancellation/layoff context; selected PMC exposure still unknown.",
+      "Ant release-vote capacity limitations are PMC self-report, not independent external staffing evidence."
+    ]
+  },
+  "board_minutes_2023_03_22.txt": {
+    "review_scope": "All retained main, officer and Tomcat sections read in full; other PMC attachment titles remain outside the fixed cohort.",
+    "findings": [
+      "Infra directly reports implemented GHA outside-contributor approval policy, default every PR with project first-approval opt-outs. Historical Myrle Krantz VP Infrastructure role is explicit. Shared directive family, not four independent requests.",
+      "Infra reports Travis turned off and contract nonrenewal; LDAP/Atlassian migration still context.",
+      "Board discusses vendor neutrality and plans PMC-chair guidance; follow March 29 message, unnamed chair cannot be assigned to a cohort PMC.",
+      "March 7? Logo process continues January/February binding request; March resolution and marketing proposal include project-image audits but selected project application unknown.",
+      "Treasurer reports no direct ASF bank exposure to SVB failure; indirect vendor impacts and unknown community exposure. Independently verify primary shock if relevant.",
+      "Tomcat report explicitly absent; silence is not zero."
+    ]
+  },
+  "board_minutes_2023_04_19.txt": {
+    "review_scope": "All retained main, officer, cohort and Attic sections read in full; other PMC attachment titles remain outside the fixed cohort.",
+    "findings": [
+      "Infra states INFRA Jira workspace made committer-only for safety/security, and anonymous LDAP access disabled. This dates a foundation access restriction and explains anonymous referenced-ticket missingness without interpreting login as request rejection.",
+      "Board discusses off-list synchronous decisions and GitHub notification flooding; Rich tasked with communication-tool advice. This is evidence about public-record limits, not evidence of a particular hidden decision.",
+      "Funding reports China sponsor attrition and layoffs, without selected PMC exposure; CRA attention continues.",
+      "Maven reports additions and routine releases; Tomcat reports EOL date as March 31 2024 despite past-tense wording in April 2023 record. Keep intended future date distinct from report date; consult original EOL decision.",
+      "Privacy plans vendor-addition/brand consultation process; no named selected-project request here."
+    ]
+  },
+  "board_minutes_2023_05_17.txt": {
+    "review_scope": "All retained main, officer, cohort and Community Development sections read in full; other PMC attachment titles remain outside the fixed cohort.",
+    "findings": [
+      "Board requires project-state reporting, with New/Ongoing/Dormant/At Risk/Considering Attic categories; shared foundation directive. Check earliest formal request and later selected-PMC responses separately.",
+      "Infra reports gitweb disabled and GitHub redirects; distinguish this service withdrawal from repository migration. Atlassian Cloud user-count limits and runner/LDAP work remain contextual until selected exposure is documented.",
+      "Marketing audits project names/logos; selected-project application unknown. Legal continues contributor AI guidance and coordination.",
+      "HTTPD report says Git vote likely passes despite earlier actual tally; report-writing time is distinct from Board meeting and receiver act. Completed Travis-to-GHA shift is requester self-report.",
+      "Ant report explicitly absent. GSoC budget explanation is speculative and cannot establish an independent provider-budget shock."
+    ]
+  },
+  "board_minutes_2023_06_21.txt": {
+    "review_scope": "All retained main, officer and cohort sections read in full; other PMC attachment titles remain outside the fixed cohort.",
+    "findings": [
+      "Board creates VP Public Policy and appoints Dirk-Willem van Gulik under President, with Board-sanctioned positions and engagement; historical authority source, no selected-project intervention inferred.",
+      "May reporting-state wizard action completed; Ant now explicitly reports Dormant. Reporting acknowledgment is distinct from sender-first operational adaptation.",
+      "Infra reports blogs.apache.org read-only/self-service migration, revised Jira account workflow with reactivation and Azure ephemeral GHA runners. Shared service changes require dated onset and selected-project response sources.",
+      "Security reports CISA KEV listing of older Tomcat CVE-2016-8735; independently retrieve primary shock if relevant. Security-model publication collaboration continues; Legal AI guidance remains draft.",
+      "Ant release-vote capacity limitation is repeated requester self-report. Tomcat identifies Mladen Turk chair and EOL as future March 31 2024, resolving April past-tense ambiguity.",
+      "Privacy mailing subscription notice request INFRA-23011 explicitly dates March 18 2022; retain pre-window continuing precursor. ICLA access restriction remains work in progress."
+    ]
+  },
+  "board_minutes_2023_07_19.txt": {
+    "review_scope": "All retained main, officer, cohort, Attic and Community Development sections read in full; other PMC attachment titles remain outside the fixed cohort.",
+    "findings": [
+      "Infrastructure reports Gitbox file-diff feature specifically for Tomcat to replace disabled gitweb. Direct foundation-side service report; project request and earlier disabling onset still need tracing.",
+      "Infrastructure reports Jira reactivation workflow complete, Gradle Enterprise installation ready for rollout, PubSub payload defect fixed, and LastPass to BitWarden wrap-up. These shared service changes require selected-project exposure evidence, not inferred effects.",
+      "Legal reports generative AI code-assist guidance reviewed and ready for publication. Distinguish approval/readiness from actual publication and earlier LEGAL-631 onset; later project proposals may cite it.",
+      "Main new business changes Public Policy officer title to Public Affairs by 7-1 vote. Earlier establishment remains same office history, not an in-cohort rights shift.",
+      "Public Policy describes CRA strategy, declines disruptive Maven/npm options, and seeks permission for OFE/OPA/transparency register steps. No adopted in-cohort disruption inferred; external legal assertions require primary dated evidence.",
+      "Maven PMC self-report says Jira activity decrease may relate to GitHub issue usage; consistent with earlier general migration discussion but not independent execution evidence. No Ant, HTTPD or Tomcat PMC report scheduled in retained agenda.",
+      "Attic retirement and Brand approvals name out-of-cohort projects; no new selected-project family inferred. Security report counts are context and do not code effects."
+    ]
+  },
+  "board_minutes_2023_08_16.txt": {
+    "review_scope": "All retained main, officer, cohort, Attic and Community Development sections read in full; other PMC attachment titles remain outside the fixed cohort.",
+    "findings": [
+      "Brand VP Mark Thomas reports approving external-product use of MAVEN logo and requesting Maven PMC feedback on a possible infringement. Retain distinct in-cohort trademark opportunities despite no public project request details; roles explicit, onset and disposition beyond approval require bounded references.",
+      "Comdev reports Christofer Dutz proposal for GitHub email defaults and collaboration with Infra, citing s.apache.org/5zzmp. This supplies shared-family precursor and collaboration context before August 17 cohort notice; not final implementation evidence.",
+      "Legal and Marketing report generative tooling guidance and legal-responsibilities FAQ published and promoted. Marketing supplies direct public announcement URL; differs from July ready-to-publish report. Follow historical guidance versions and selected-project exposure.",
+      "Ant report records SecurityManager behavior reverted and newer-runtime compatibility approach after January release problems. Ordinary local implementation history, not inferred foundation intervention or independent vendor shock.",
+      "HTTPD scheduled report explicitly absent; Infra attachment empty. Preserve missingness instead of zero service activity or project effect.",
+      "Board allocates Security speaker travel, Legal, rebranding and Governmental Affairs budgets; no selected-project allocation established by those amounts. Public Affairs OFE/OSI requests and legal demarcation continue earlier foundation history.",
+      "Samza chair change appears twice in Special Orders 7E and 7G; duplicate resolution text is one out-of-cohort deliverable, not two governance interventions. Treasurer access review following resignation concerns treasury accounts, no selected-project rights change identified."
+    ]
+  },
+  "board_minutes_2023_09_20.txt": {
+    "review_scope": "All retained main, officer, cohort, Attic and Community Development sections read in full; other PMC attachment titles remain outside the fixed cohort.",
+    "findings": [
+      "Brand officer reports Maven PMC agrees earlier identified issue is infringement and plans to address it in September. Same earlier Maven infringement family; separate PMC response from actual enforcement and distinguish external-logo approval.",
+      "HTTPD PMC report explicitly says May SVN-to-Git vote passed but migration not yet put into action. Directly bounds execution despite authorization; PMC report repeated in Board record is not independent foundation receiver evidence.",
+      "Board closes April communication-tooling action, describing Comdev October 1 rollout as future. Preserve earlier onset and implementation pending; do not count closure of Board agenda item as implementation of shared mail defaults.",
+      "Tomcat report dates Han Li PMC addition March 6, 2023 and last committer addition August 23, 2022; records Mladen Turk chair. Dated report can establish role context, not automatic changes to project decision rights.",
+      "Security supplies CISA advisory aa23-215a naming HTTP Server vulnerabilities, potential independent shock source pending direct capture. Report vulnerability counts alone do not measure project effect.",
+      "Public Affairs says disruptive CRA preview week lacks consensus and would require Board approval beyond officer remit; no actual Maven/npm disruption or changed central governance authority is inferred. OSI and OFE affiliation permissions are adopted centrally but no selected-project effects established.",
+      "Infra attachment empty; no zero activity or services effect inferred. Secretary pen-name discretion and conference visa/sponsor constraints are foundation context requiring selected-project exposure if relevant."
+    ]
+  },
+  "board_minutes_2023_10_18.txt": {
+    "review_scope": "All retained main, officer, cohort, Attic and Community Development sections read in full; other PMC attachment titles remain outside the fixed cohort.",
+    "findings": [
+      "Infra directly reports Azure ephemeral GitHub Action runners enabled, account-creation workflow rebuilt with Secretary process unchanged, and LastPass migration complete. Later project allocation requests require their own execution evidence; shared availability alone is not selected-project effect.",
+      "Infra names ongoing Jira/Confluence Cloud authentication and Subversion-server migration blocked by svn-mailer replacement. Distinguish these foundation platform projects from HTTPD request to change canonical repository.",
+      "Privacy receives proposed monthly Google Analytics reports and recommends migration, while reporting ongoing Matomo adoption. Retain possible shared analytics-guidance family and trace earlier 2022 privacy onset before eligibility; no named cohort implementation in this report.",
+      "Maven report identifies new PMC members Benjamin Marwell, Henning Schmiedehausen and Konrad Windszus during quarter, without exact addition dates. Role evidence interval may establish membership by report date; do not assume role at earlier votes without dates.",
+      "Attic scheduled report absent. VP Jakarta reports lack of time and willingness to hand off role, correspondence snipped; no actual officer replacement or project rights change yet.",
+      "Marketing links Gradle targeted-sponsor announcement; direct third-party source may help provider/service context. CRA legal review and preview-week discussion remain undecided; no adopted release disruption or project allocation inferred.",
+      "Brand and general Board actions name out-of-cohort projects, or unspecified projects. No new selected-project denial inferred from silence about earlier Maven infringement."
+    ]
+  },
+  "board_minutes_2023_11_15.txt": {
+    "review_scope": "All retained main, officer, cohort, Attic and Community Development sections read in full; other PMC attachment titles remain outside the fixed cohort.",
+    "findings": [
+      "Brand officer says contacted GitHub user on Maven PMC behalf seeking project name/logo changes, promptly completed. Potential upward influence has receiver-side report and stated result, but unnamed project and month-only timing still bound coding; trace original request and external changes. Do not count repeated reports as independent acts.",
+      "Brand officer approved screenshot of HTTPD documentation in a book. Retain selected-project permission episode for eligibility check; no public requester detail or date yet.",
+      "Infra says monthly Data Privacy cron reviews TLP websites for non-approved trackers, Matomo supported. This is actual setup after October proposal; shared analytics family and earlier 2022 policy context require onset/exposure checks.",
+      "Infra reports emergency Confluence critical-CVE upgrade, Jenkins Yahoo-node upgrades, security-notification forwarding work and ongoing Keycloak/Okta obstacles. Independently verify vulnerability/provider acts before shock coding and establish project exposure rather than infer effects from platform scope.",
+      "Board rejects proposed Conferences-role dissolution 5-1; President instead appoints Brian Proffitt VP Conferences. Attachment still says responsibility now under Marketing. Preserve adopted main disposition and distinct appointment; do not interpret proposed transfer or attachment as dissolution.",
+      "Ant report explicitly absent. Attic reports MXNet and Giraph retirements, neither selected PMC; no inference that an Ant subproject was transferred.",
+      "HTTPD release report links Rapid Reset author write-up and reports three fixes, but no new overall binding technical direction or central intervention established. Comdev describes ongoing DOAP-category discussion, possible precursor to later Ant DOAP context.",
+      "ONCD security RFI response submitted with confirmation but not yet publicly posted at report submission; distinguish event and publication. OSI affiliation confirmed after September Board authorization; no selected-project governance-rights shift inferred."
+    ]
+  },
+  "board_minutes_2023_12_20.txt": {
+    "review_scope": "All retained main, officer and cohort sections read in full; other PMC attachment titles remain outside the fixed cohort.",
+    "findings": [
+      "Ant reports IvyDE archive vote passed and project archived November 26, 2023. Same earlier retirement family; explicit implementation date is PMC self-report, not independent Infra receiver evidence. Trace archive act separately from vote authorization.",
+      "Infra reports MarkT collaboration on new code-signing workflow, dev/test next, expected future access for all projects. Retain related selected-project code-signing opportunities, without treating planned universal access as executed allocation.",
+      "Infra will stop auto-subscribing third-party archives to newly created lists on impartiality grounds; a shared mail-service policy distinct from prior GitHub threading changes. Trace dated public directive and selected exposure; plan wording does not establish implemented date.",
+      "Infra reports OAuth changed to Keycloak, GitHub account/group sync GraphQL issue fixed, ongoing Okta integration and Azure/AWS VM work. Foundation-side service reports require selected-project requests or effects, not automatic allocation inference.",
+      "Privacy asks Board whether and how to enforce website policy; this is proposed enforcement, not adopted rights shift. Reports subscriber information now on every list, continuing March 2022 INFRA-23011 precursor; RingCentral/Hopin DPA continuity is reported context pending independent provider source.",
+      "Main new business security reporting to Board remains deferred to Security Team; no new adopted reporting requirement. President confirms distinct VP Conferences appointment after November rejected role merger. Staff retirement contribution decision is outside selected PMC rights.",
+      "Brand downstream distribution policy remains work in progress; Fundraising vendor layoffs/reductions have unnamed selected exposure. Public Affairs legal forecasts lack final text and need primary dated sources before shock coding.",
+      "Tomcat reports Han Li membership dates and future March 31, 2024 Tomcat 8.5 EOL. Releases and Ant runtime maintenance are ordinary project history unless linked to eligible action. Security experimental SBOM platform has no named cohort exposure here."
+    ]
+  },
+  "board_minutes_2024_01_17.txt": {
+    "review_scope": "All retained main, officer, cohort and Attic sections read in full; other PMC attachment titles remain outside the fixed cohort.",
+    "findings": [
+      "Board unanimously supports technical enforcement blocking unauthorized third-party website tracking, responding to December Privacy request. Separate Board authorization from actual Infrastructure CSP implementation; trace earlier website-policy onset and selected-project effects.",
+      "Board trusts Brand VP to express trademark attribution enforcement; current policy cited, not newly rewritten rule. Downstream distribution policy still draft and expected January publication, including proposed unsupported-branch backports for vendors.",
+      "Security reports Tomcat onboarded to HackerOne Internet Bug Bounty program. Retain selected-project resource/access opportunity and trace original request, external program act, publication and historical roles before witness coding.",
+      "Infrastructure reports Whimsy RCE shutdown December 31, 2023 and restoration January 4, 2024, independently of Secretary repeating report. Both are same foundation incident, not independent vendor shock; unnamed volunteer stays unknown. Board reporting reminders planned for next month; avoid inferring causes for individual report absences.",
+      "Infra reports ant/maven/jdk matrix and Jenkins deployments, ongoing LDAP/Atlassian integration and Ubuntu upgrades; no specific selected-PMC request disposition from generic work alone.",
+      "Maven dates Romain Manni-Bucau PMC membership October 16, 2023 and Aleksandr Ashitkin committer April 6, 2023. Lists Docck retired 1.2 release October 22; same earlier retirement family and PMC self-report, not independent archive act. Minimum Maven 3.6.3 favored, current plugin minimum 3.2.5; baseline for binding policy history.",
+      "Attic says no project to retire this quarter despite Ant IvyDE archiving, consistent with subproject archival distinct from TLP transfer. Other new TLP and chair actions are outside fixed cohort; no selected governance shift inferred.",
+      "Public Affairs proposes questionnaire and US-centric successor, neither implemented here. Fundraising proposes ways to support externally funded contributors, while transactions remain outside ASF sponsorship; named selected-project exposure absent."
+    ]
+  },
+  "board_minutes_2024_02_21.txt": {
+    "review_scope": "All retained main, officer, cohort and Community Development sections read in full; other PMC attachment titles remain outside the fixed cohort.",
+    "findings": [
+      "Board unanimously removes Joe Schaefer from HTTP Server PMC. This is distinct from earlier local chair ban and libapreq retirement discussion; public resolution states no cause, so causal linkage not inferred. HTTPD report still lists no new PMC members; membership additions do not measure removals.",
+      "Board terminates VP Jakarta EE Relations office at officer recommendation. Retain central liaison-role change as context for later Tomcat TCK/logo discussion; do not assume Tomcat PMC rights changed or all Eclipse relations ended.",
+      "Privacy still lists unauthorized-tracker enforcement INFRA-25518 as open follow-up after January Board authorization. Matomo VM responsibility disputed between late-2022 correspondence and INFRA-25432; onset and actual responsibility require originals. Counts of project usage do not identify cohort effects.",
+      "Infra reports LDAP/Keycloak to Atlassian working but months of testing before Jira/Confluence Cloud switch. Reports moving asf.yaml to more available repository, custom SVN accounts reduction, system hardening and Bugzilla upgrade work; distinguish actual platform work from future selected-project migrations.",
+      "Board Chair reports automated reporting reminders triggered this month, following January future plan; descriptive early submissions do not establish effect on specific Ant report absence. Ant report explicitly not submitted.",
+      "Brand officer now checks websites upon trademark queries and requests changes where needed, with no selected PMC named. Unnamed book-logo and event-booth approvals stay unknown selected exposure; downstream policy publication not confirmed here.",
+      "HTTPD PMC self-report says GitHub PRs used by committers and newcomers; this does not prove canonical Git migration or institutional allocation. Community Development booth recognition of HTTP Server and new working groups are context, not resource requests from the PMC.",
+      "Security experimental SBOM platform access expanded to all ASF volunteers using experimental OIDC 2FA; selected-project uptake unknown. Public Affairs regulatory forecasts differ from January; primary adoption dates and exposure remain required before shock coding."
+    ]
+  },
+  "board_minutes_2024_03_20.txt": {
+    "review_scope": "All retained main, officer and cohort sections read in full; other PMC attachment titles remain outside the fixed cohort.",
+    "findings": [
+      "Infrastructure adds monitoring of shared GitHub Actions usage; no new quota or named project refusal here. Existing service availability is not a measured selected-PMC effect.",
+      "Security provides input to Infra on Apache-wide Content-Security-Policy INFRA-25518. Privacy still lists enforcement and Matomo responsibility as open; collaboration/input does not establish deployed technical enforcement.",
+      "Security investigates Cc/Reply-To defect causing Gmail nondelivery, including security reports. Potential shared mail-delivery service family distinct from GitHub threading; trace original notice and cohort exposure. Routine patches and vulnerability counts alone are excluded from governance directions.",
+      "Board appoints Shane Curcuru Chair and Justin Mclean Vice Chair, welcomes new directors Jeff Jirsa and Jean-Baptiste Onofre. Dated authority context; main says executive session 19:51-20:19 despite 21:01 call to order, preserve inconsistency rather than silently repair chronology.",
+      "Public Affairs links March 12 CRA parliamentary vote primary records and March 13 AI/interoperability votes; prior predictions not adoption dates. Actual legal force dates and project exposure require primary sources. President CISA exercise request is tentative, selected projects unnamed.",
+      "Ant and Tomcat report ordinary runtime maintenance/releases and unchanged membership; Tomcat March 31 2024 EOL still future. Ant planned 1.10.15 in weeks is not formal release-vote onset.",
+      "Brand changes event-date notification policy by removing Comdev requirement; selected-project application unknown. Proposed sponsor support names no cohort; Board follow-ups name other PMCs and do not alter fixed cohort."
+    ]
+  },
+  "board_minutes_2024_04_17.txt": {
+    "review_scope": "All retained main, officer, cohort and Attic sections read in full; other PMC attachment titles remain outside the fixed cohort.",
+    "findings": [
+      "Privacy says embedding-resource questions arose after blocking third-party dependencies, yet still lists INFRA-25518 enforcement as open. Preserve both; this suggests some blocking happened but deployment scope/date cannot be inferred without original service record. New DPA requests reviewed on privacy list; authorized Board member signing discretion stated, existing process preferred.",
+      "Brand reports downstream distribution policy published after earlier drafts. Retain shared policy family and capture dated historical version for onset, authority, selected exposure and later extended-support discussions. Other named trademark actions are out of cohort; unnamed logo approval remains unknown exposure.",
+      "Infra reports preparing GitHub Actions PMC usage policy and scanner/dashboard for limited shared capacity. Separate April proposed allocation rule from March monitoring and March 2023 outside-contributor approval policy.",
+      "Infra says paste.a.o deprecated and notice sent, planned shutdown end of April. Shared service withdrawal candidate requires public notice, execution and selected-project exposure; plan is not proof of shutdown.",
+      "Infra/Security report xz CVE-2024-3094 triage and notifications to potentially vulnerable PMCs within 24 hours; selected PMCs unspecified. Primary external backdoor disclosure needed before shock coding. Security reporter-credit blog link duplicates xz URL and should not be silently assumed correct; industry HTTP/2 coordination is nonspecific.",
+      "Maven reports voted JDK17 minimum implemented in alpha13, same earlier core Java17 family; self-report is not independent receiver evidence. Dated Zhongming Hua committer January 28, 2024. Jira account creation hurdle and unavailable GitHub issues are PMC causal speculation, not measured independent platform effects; Slack explanation also speculative.",
+      "Attic scheduled report absent. Board follow-ups and chair/new TLP orders name other projects. CRA specification collaboration has announcement URL but no adopted new in-cohort governance rule here; do not recode generic foundation diplomacy as project rights shift."
+    ]
+  },
+  "board_minutes_2024_05_15.txt": {
+    "review_scope": "All retained main, officer, cohort, Attic and Community Development sections read in full; other PMC attachment titles remain outside the fixed cohort.",
+    "findings": [
+      "HTTPD explicitly reports Joe Schaefer removed as committer and PMC member February 24 after PMC vote for list conduct, thanks Board resolution, and reports posting ban. Distinguish February 21 Board PMC removal authorization, reported February 24 implementation, committer rights and list posting acts. Existing libapreq retirement debate is not established cause. Membership spelling Joe Schafer differs from narrative Schaefer; preserve provenance and verify identity.",
+      "Brand reports potential MAVEN infringement resolved in April. Unnamed target may continue 2023 family or be new; do not automatically merge merely same mark. Trace request, correspondence and external act; November earlier resolved report does not identify this target.",
+      "Infra confirms paste.a.o retired after March notice. Same April planned withdrawal, actual report now distinct; nobody noticed is officer interpretation, not proof of zero selected-project effects. MFA reset policies finalized but publication future; system security and backup rollout remain scoped service history.",
+      "Privacy handles multiple embedding questions; enforcement ticket omitted from open tasks after April reference, but omission alone cannot date complete deployment. Matomo VM responsibility remains open. Shared blocking family needs original ticket and deployment records.",
+      "Security iterates reminders/actions/escalation and expects future public escalation policy. Existing informal process is not new adopted formal directive; selected-project intervention needs own sources.",
+      "Ant release plan waits FTP community feedback; not formal release opening or external staffing proof. Ant membership unchanged. Attic retires Bahir/Archiva, out of cohort, no IvyDE institutional transfer implied.",
+      "Comdev GSoC 22 slots and mentor summit allocation concern foundation pool without named selected PMC; working groups remain seven proposed informal groups. Community Zones replacement has actual volunteers-page report but no identified cohort exposure. CIRCIA concerns remain proposed-regulation context pending primary dates."
+    ]
+  },
+  "board_minutes_2024_06_19.txt": {
+    "review_scope": "All retained main, officer, cohort and Attic sections read in full; other PMC attachment titles remain outside the fixed cohort.",
+    "findings": [
+      "Tomcat reports June 6 Security Day EU funded with about one third of Google security funding, seven PMC members and five guests, links wiki. Retain allocation episode/precursor and trace original funding request, recipient act, dated provider announcement and invitation/publication bounds; relates to August UML funding discussion but not automatically same independent deliverable.",
+      "Board creates VP Tooling under President with responsibility for hiring/managing paid tooling staff and appoints Myrle Krantz. Historical authority boundary for later Artifact Distribution Platform/ATR requests; check when Infra office changes separately, no automatic PMC decision-rights transfer.",
+      "Infra says GHA monitoring identified disproportionately using projects and worked with them to trim usage, names none. Direct receiver-side service allocation intervention exists but selected exposure unknown. Distinct 2024 quota management from 2023 outside-contributor approval rule.",
+      "Infra deprecates Buildbot Pelican site workflow, says switched to GitHub Action and future project rollout then main website. Shared site-builder service change and response candidates require dated selected-project exposure. ADP release-voting schema work is development, not adopted mandatory release platform.",
+      "Legal routes medical-device license-infringement tip to HTTPD, no follow-up heard. Retain possible cross-boundary legal referral opportunity; unnamed external reporter, original act and timing pending. Silence not project refusal or zero effect.",
+      "Privacy reports signed Automattic DPA for WordPress hosting; Matomo responsibility still open and embedding questions continue. Shared provider approval does not establish selected project uptake.",
+      "Board approves FY2025 aggregate budget, tables reporting-improvement pilots. F2F strategy meeting reported and May agenda referenced: trace accessible strategy record if eligible actions emerge, not assume decisions from consensus summary. General appropriations do not allocate resources to a named selected PMC.",
+      "Attic report absent. Security escalation guidelines still intended future formal/public policy; Guac SBOM incentive experimental. Regulatory working group start and community-congress distancing are central context, selected-project effects unknown."
+    ]
+  },
+  "board_minutes_2024_07_17.txt": {
+    "review_scope": "All retained main, officer, cohort and Attic sections read in full; other PMC attachment titles remain outside the fixed cohort.",
+    "findings": [
+      "Both Infrastructure and newly created Tooling attachments identify Myrle Krantz VP; no inference that Tooling appointment ended Infra role. Tooling developer job description under review and sponsor hiring assistance not actual hire; budgets being coordinated.",
+      "Infra decommissions Jira-to-Slack bridge relying on Qbot, works on Confluence signup selfserve and Bugzilla upgrade, Pelican GHA workflow continues. Shared service changes require named project exposure or public requests; no denial from incomplete upgrade report.",
+      "Maven says Jira signup hurdle based on community feedback may warrant GitHub issues. Same earlier general Jira migration family; hurdle effect is PMC report, not independently measured aggregate. Maven plugin API upgrades and ordinary releases do not automatically become new institutional technical-direction episodes.",
+      "Security reports Arnout participates in Tomcat Security Day; receiver-side participation corroboration is different from funding allocation. DOAP security/EOL proposal and OpenSSF across-repository improvement plans not adopted new platform mandates.",
+      "Privacy does not recommend Kapa AI and requires user consent for urgent embedding; external enthusiasts channels responsibility differentiated. Retain possible shared service/consent rule, while named project exposure unknown and legal/provider factual assertions require historical primary sources.",
+      "Board Chair stresses not-all-public vendor-neutrality oversight without naming hidden cohort acts; no invented intervention. AGE chair intervention and HAWQ/Bloodhound terminations are outside fixed cohort. Legal report absent; silence about prior HTTPD referral not refusal.",
+      "Fundraising targeted/unrestricted project donation names no recipient, so cannot link to Tomcat Google fund solely temporal proximity. Brand infringement/registration actions name other projects; unnamed vendor product-name request remains unknown exposure."
+    ]
+  },
+  "board_minutes_2024_08_21.txt": {
+    "review_scope": "All retained main, officer, cohort and Community Development sections read in full; other PMC attachment titles remain outside the fixed cohort.",
+    "findings": [
+      "Security reports public formal project-security escalation policy published, links historical wiki; separate prior June intent from actual publication. Capture dated version and cohort exposure before coding shared directive. SLA/data-processing/provenance statement published separately with URL, not same deliverable.",
+      "Security branch-protection default proposal with CTR opt-out summarized INFRA-25908, possible precursor to 2025 Maven force/deletion rules. Trace original request and implementation rather than reset onset at 2025 notice; GHA allocation policy is distinct.",
+      "Brand explicitly updates guidance prohibiting ASF feather in new project logos, grandfathers existing usages; retain shared branding-rule candidate. Logo Development Committee established with monthly Board/member reporting; selected-project rights not automatically changed. Proposed September 18 special Members meeting tabled, not scheduled Board special meeting.",
+      "Infra confirms Bugzilla updated/migrated Ubuntu22.04; Confluence signup workflow still being created. Tooling report empty, no zero activity. Privacy reports Infra removed one list archive message at request; unnamed user list/cohort unknown, future transparency guidance planned.",
+      "Ant reports 1.9.x officially EOL after vote and links announcement; same local EOL family with implementation self-report. Planned 1.10.15 in weeks differs formal vote already in exported archive by meeting date; distinguish drafting/event chronology.",
+      "HTTPD scheduled report explicitly absent. Comdev CoC template group only proposed, not mandated project conduct rule. Named nonprofit donor/sponsor recipient unknown; no Tomcat funding assignment from pooled report.",
+      "Main references supplemental Logo process attachment CM outside retained reading aid; inspect bounded original if needed to adjudicate shared branding rule, do not pretend retained aid includes it. Marketing member-only poll/wiki transparency dispute is not independent selected-PMC action."
+    ]
+  },
+  "board_minutes_2024_09_18.txt": {
+    "review_scope": "All retained main, officer and cohort sections read in full; other PMC attachment titles remain outside the fixed cohort.",
+    "findings": [
+      "Infrastructure reports GitHub Enterprise upgrade requested by GitHub Inc to improve support; retain distinct provider initiative, not independently confirmed shock until original provider source captured. Confluence now has signup workflow; Bugzilla upgrade completed with MarkT assistance, same earlier 2024 service history.",
+      "Infrastructure DKIM work responds to large mail-provider demands and mailing-list footer/Reply-To signature failures. Possible shared delivery-service family and independent vendor change require primary provider date, historical implementation and cohort effect rather than generic policy interpretation.",
+      "Privacy given mailing-list redaction tools after earlier request/removal; actual new central operational access, recipient VP role explicit. Not automatic selected-PMC rights shift; unnamed user-list requests remain unknown. Kapa founder meeting planned, not approved DPA or reversed recommendation.",
+      "Legal denies unnamed EU corporate department license-modification request; selected project not named. Debates stopping BIS notifications based on new US Export Administration guidance; no adopted new export rule yet, primary guidance needed for independent shock if project exposure.",
+      "Security expands formal escalation documentation and plans Board health scorecard reports next month. Same earlier process/publication history, no named selected PMC intervention here. OFBiz KEV source mislabeled NIST; direct authoritative record required if relevant, outside selected cohort.",
+      "HTTPD revives read/write GitHub migration after 2023 passed vote, not implemented conversion evidence. July three patch releases for vulnerabilities/regressions remain local release context, not new binding technical direction merely serious fixes.",
+      "Tomcat report explicitly absent. Christofer Dutz resignation and Kanchana Welagedara Board appointment supply dated authority change. Member-only mail subscription validation is proposed resolution to be written; no implemented LDAP restriction yet.",
+      "Brand downstream distributor infringement spans unnamed marks; selected exposure unknown. Tooling hiring launch in progress, no hire yet. Empty Public Affairs report not zero activity; August Board minutes approval tabled, event and publication bounds remain separate."
+    ]
+  },
+  "board_minutes_2024_10_16.txt": {
+    "review_scope": "All retained main, officer, cohort and Attic sections read in full; other PMC attachment titles remain outside the fixed cohort.",
+    "findings": [
+      "Brand advises WEB SERVER about potential infringements. Retain possible HTTPD trademark opportunity but verify identity/target/request and original date before linking to prior screenshot permission or other infringement family.",
+      "Marketing solicits project milestones and reviews/edits Tomcat11 anniversary announcement; selected-project promotional-support episode potentially cross-boundary. Request/response sources and independent execution pending, final release itself remains own release family.",
+      "Privacy says Kapa users/provider agreed suggested changes and service could be used if implemented. Conditional permission is not executed provider change or signed DPA; selected cohort exposure still unknown. Broader mailing-list policy questions unhandled, not blanket prohibition.",
+      "Tomcat report dates Dimitris Soumis committer addition July 5, 2024 despite no-new-committers quarter wording and total50 vs earlier48. Preserve membership dates and interval inconsistency, not assume independent invitations or decision-right shifts from aggregate count.",
+      "Maven agrees Model4.1 term Sub-Project replacing Module; retain potential binding direction if original normative decision supports. Discord only consideration, AI/vacation traffic explanations are self-report speculation. Minimum/API release history remains local context.",
+      "Infrastructure, Tooling, Fundraising and Public Affairs attachments empty; Legal report explicitly absent. Board discusses staffing backfill in executive session without public particulars, not fabricated project staffing intervention. In-kind-service risk review planned but no adopted allocation rule.",
+      "CISA tabletop exercise actually conducted for30 participants by Aeva Black, earlier proposal now execution; selected PMC participation not named. Generic CRA adoption/36month clock needs primary official record, not inferred operative dates from Board prose. Member mail LDAP validation still not started."
+    ]
+  },
+  "board_minutes_2024_11_20.txt": {
+    "review_scope": "All retained main, officer, cohort and Community Development sections read in full; other PMC attachment titles remain outside the fixed cohort.",
+    "findings": [
+      "Board reports simpler PMC member additions and voluntary-removal system implemented. Shared roster process candidate with bylaws boundary; trace earliest formal request/rule, actual tooling and selected changes rather than assume substantive decision-right shift from process simplification.",
+      "Board appoints Ruth Suehle President and David Nalley EVP by unanimous vote during executive session; officer attachment labels reflect preceding report period. Dated historical authority source for later actions; do not silently equate submitted label and postmeeting role.",
+      "Infra short-staffed after personnel changes, reports no immediate staffing risk and provider-related email blocking/rate-limiting slowdowns. Foundation staffing is own-history/institutional state rather than independent external shock; primary provider acts and selected mail impacts still required.",
+      "Comdev says HelpWanted retired after six years dormant; direct service-side report corroborates shared October withdrawal notice. HTTPD website removal response distinct from foundation retirement, not new family per PMC.",
+      "HTTPD says mod_tls removed from both stable and trunk due Rust API instability, continuing April/September local removal family. Primary upstream API change needed for independent shock; local report causal assertion alone insufficient.",
+      "Marketing distributed/promoted Tomcat11 anniversary announcement, follows October editing report. Actual service-side promotional act now reported; capture original project request/public announcement and date, not combine with formal release vote as same deliverable.",
+      "Brand identifies public restack.io issue after months of no email response, possible named anchor for earlier multi-mark distributor infringement; trace scope before identifying HTTPD/Maven exposure. Other named infringements outside fixed cohort, unnamed all-marks effects not presumed.",
+      "Fundraising cash donation for services administered by beneficiary PMC, recipient unnamed; potential allocation distinction from prior sponsor-administered service. Legal DORA request declined as misdirected, DMCA addressed, sanctions response withheld, none identifies selected project. Ant scheduled report absent; Security first public health notes name only other PMCs, not implied selected health-zero."
+    ]
+  },
+  "board_minutes_2024_12_18.txt": {
+    "review_scope": "All retained main, officer and cohort sections read in full; other PMC attachment titles remain outside the fixed cohort.",
+    "findings": [
+      "Brand advises proposed MAVEN domain-name use not permitted. Distinct refusal candidate from earlier logo permission and infringement resolution; requester, original date and requested domain unknown until bounded original search.",
+      "Infra quotes Mark Thomas reporting migration to ssl.com eSigner from scratch under24hours, all code-signing projects moved and tested. Actual central service migration, distinct from earlier 2023 workflow planning; trace original provider trigger, dates, Tomcat request and test sources before witness coding.",
+      "Infra deployed GHA workflow scanner notifying communities of policy infractions/security and remediation; actual implementation after earlier2024 policy/monitoring work. Selected-project exposure and dated rule text needed; quota moderation, scanner security rules and contributor approval are independent deliverables.",
+      "Tooling report Dave Fisher onboarded VP with period November through December9; differs earlier Myrle label. Historical appointment date not exact here; trace President appointment record. InfraAdmin Chris Lambertus explicit. Hiring and ATR/Agenda statements of work remain planned, no completed developer hire.",
+      "Privacy says Kapa changes applied and usable, signature/DPA storage still future; separate operational changes from contract signature. Matomo responsibility renewed INFRA-26365 after earlier2022 question, not automatically new onset. Two archive-redaction requests handled; proposes warnings or subscriber-only posting and asks Board preference, no adopted blanket ban.",
+      "Security disables GitHub Private Vulnerability Reporting for unspecified pre-Apache projects, future support blocked by automation INFRA-25020. Retain shared service restriction candidate and trace original onset/cohort exposure. Escalation step2 messages and SBOM incentives remain separate process development.",
+      "Public Affairs gives CRA official publication November20 and legal dates, accepted ASF expert-group application with primary links. Independently verify dates/exposure before shock coding; earlier forecasts remain distinct. New VP ECMA Relations Piotr Karwasz appointment adopted, no selected-PMC rights change inferred.",
+      "Conference EU2025 canceled in favor alternating NA/EU annual strategy, actual service-allocation decision after prior debate; selected-project request/exposure unknown. Staff401k decision and other project chairs outside fixed cohort; Legal subpoena/merger matters private particulars absent, no guessed selected exposure. Tomcat regular release report contains version typos preserved, formal opening sources control frame."
+    ]
+  },
+  "board_minutes_2025_01_15.txt": {
+    "review_scope": "All retained main, officer, cohort and Attic sections read in full; other PMC attachment titles remain outside the fixed cohort.",
+    "findings": [
+      "Infra schedules organization-wide CSP brownout February1 and full enforcement March1,2025 INFRA-26115 after earlier2024 INFRA-25518 policy/history. Earliest onset retained; planned dates not executed acts. Scope includes unapproved trackers/CDNs pending Privacy validation; links earlier Maven website policy reference.",
+      "Infra schedules new asf.yaml iteration opt-in January19/full January26, roundtableJanuary8 enabling community contributions. Distinct repository-control rollout may relate later Maven branch policies; original directive/implementation needed. GHA approval democratization initial rollout separate from prior scanner/quota.",
+      "Infra admits support gaps after reduced staffing, unlike November no-immediate-risk wording; staffing state not independent external shock. No decision to backfill InfraAdmin. Jira-to-GitHub migration tool fixes showstoppers; same broader migration family and specific project acts still need own evidence.",
+      "Maven Central continuity/sustainability discussion appears as report heading and Board assigns Jean-Baptiste follow-up. Retain new possible cross-boundary opportunity; original PMC request/onset/provider action pending. General GitHub issue use is PMC self-report and forecast, not independent production migration proof.",
+      "Board follow-up provides January privacy-enforcement discussion qfrrhkbonzo335stbrn44f5vg3zszxtw. Member-private LDAP-validation author withdraws support, no adopted restriction inferred. Reporter tool now warns against metric-only reports; shared guidance/template change separate prior reporting-state rule.",
+      "Tooling interviews short-listfive, possible two contractors dependent expected sponsorship, no signed hire yet. Mailing lists and Slack channels actually created; no mandatory PMC release-platform allocation. Conference alternating strategy repeats2024samefamily, no new cancellation.",
+      "Security helps outlets report Tomcat CVE-2024-56337 accurately, potential selected-project communication support but no named project request here. Routine advisories are not binding overall direction; capture independent original if eligible. Legal/Brand/Attic actions name other PMCs or unnamed recipients; no cohort effects inferred."
+    ]
+  },
+  "board_minutes_2025_02_19.txt": {
+    "review_scope": "All retained main, officer, cohort and Community Development sections read in full; other PMC attachment titles remain outside the fixed cohort.",
+    "findings": [
+      "Board unanimously appoints Herve Boutemy Maven chair February 19 after PMC recommendation. This dates office authority, not an automatic change in decision rights; earlier roles need historical sources.",
+      "Board identifies the MFA reset-information gap between Infra implementation and Secretary data collection and agrees with security recommendations. Desired capabilities and priorities are not deployment or selected-PMC denial. Zero preliminary budget lines mean no requests yet, not refusals.",
+      "Infra reports the February 1 CSP brownout affected sites and remediation continues; March 1 full rollout remains future. The Jira-to-GitHub tool migrated unnamed projects. GHA approval rollout is initial and the asf.yaml announcement forthcoming; January proposed dates do not establish execution.",
+      "Tooling contracts begin February 1 and March 1; staff already work on the experimental ATR repository and framework. Hiring does not require PMC platform uptake. Targeted Cassandra funding is outside the cohort and Tooling funding remains discussion.",
+      "Ant reports Maarten Coene maintained Ivy and released 2.5.3 after retirement discussion. This continues the earlier Ivy family, distinct from retired IvyDE. Membership counts 29/22 and maintenance are requester self-report, not receiver-side support.",
+      "HTTPD reports renewed Git discussion nearly two years after its vote, bounding nonimplementation of the 2023 decision. Routine 2.4.63 regression fixes are not automatically binding direction.",
+      "Comdev reports debate over release-candidate public access and a live maturity-model trademark section. These guidance candidates need original directives and cohort exposure. GSoC application is submitted, acceptance February 27 still future; Islamabad ALC membership is outside the cohort.",
+      "Public Affairs describes barriers to normative standards and concerns about LF sanctions interpretation. Selected-project restrictions require original exposure evidence. Oozie retirement and other chair changes are outside the cohort; empty Privacy and Legal reports are not zero activity."
+    ]
+  },
+  "board_minutes_2025_03_19.txt": {
+    "review_scope": "All retained main, officer and cohort sections read in full; other PMC attachment titles remain outside the fixed cohort.",
+    "findings": [
+      "Infra and Privacy separately report CSP fully deployed at the start of March and external resources blocked. Preserve the earlier policy onset. January remediation involved tickets for 87 projects and 67 patches; aggregate affected sites fell from 103 to 52 without naming cohort exposure. Retrieve original policy and tickets.",
+      "Privacy reports Kapa DPA on file and explicit consent required, following conditional approval. Selected exposure remains unknown. Matomo takeover INFRA-26367 continues 2022 hosting history and prior INFRA-26365/25432 references; completion is not reported.",
+      "Legal reports a PR concerning bypass of the mandatory 72-hour release policy merged and website updated. Trace original text, onset, cohort engagement and Maven speedup discussion. This shared rule is separate from formal release-baseline openings.",
+      "GHA approval democratization is planned March 25; late-February asf.yaml opt-in has unnamed test projects. January proposed full rollout is not proof of execution. Abuse tooling is in final development, April MFA remains future and Jira/Confluence cloud tests are not migration.",
+      "President reports Alpha-Omega grant approved and signed. Tooling names Sean Palmer and Thomas Neidhart onboarded, ATR renamed and dependency work started. Independent provider allocation evidence is still needed; no compulsory PMC adoption follows.",
+      "Board appoints Sander Striker Chair and Rich Bowen Vice Chair and adopts a fixed UTC monthly schedule. Submitted officer labels can precede appointments. Directors Zili Chen, Greg Stein and Jim Jagielski supply authority chronology. Budget draft is not adopted.",
+      "Tomcat dates Dimitris Soumis PMC addition February 19 and John Engebretson committer addition February 5; counts are 51/30. This corroborates roles but does not establish a requested causal transfer without originals.",
+      "Conference reports a Webservers/Tomcat track and forthcoming student passes, not a project resource request. Lapsed targeted sponsor is unnamed. UN endorsement is conditional and planned. Security concern about other PMCs does not establish zero selected activity."
+    ]
+  },
+  "board_minutes_2025_04_16.txt": {
+    "review_scope": "All retained main, officer, cohort and Attic sections read in full; other PMC attachment titles remain outside the fixed cohort.",
+    "findings": [
+      "Maven reports shields.io badges blocked by CSP with no solution, interrupting reproducible-build checking. This is named cohort exposure in the earlier CSP family; February website source remains pending. Plugin fixes and analytics cleanup are requester responses, not independent receiver evidence.",
+      "Maven Central sustainability has stalled since January and requests Board-member participation. Preserve the earlier open opportunity, not a denial. Private PMC SVN-to-Git migration is distinct from public issue migration; use bounded public evidence without fetching the private repository.",
+      "Infra reports asf.yaml iteration complete and GHA self-service deployed with manual settings notification and an hourly cron workaround. Later notifier improvement is planned. Abuse/connectivity wizard infra.apache.org/abc is public, not a blanket project denial.",
+      "Infra links staffing and provider sourcing difficulties to operational and MFA delays; April plan slips to May. Institutional staffing and an external provider shock require separate evidence. No mandatory MFA deployment is established.",
+      "Board unanimously removes Joe Orton from Apache Security Team April 16; this is distinct from HTTPD PMC/committer rights, with reason unstated. Jeff Jirsa becomes EVP and Lewis McGibbney Assistant Treasurer. Privacy VP reportedly stepped down during the past week; submitted Christian Grobmeier label does not fix the end date.",
+      "President says budget owners adopted travel policy and requests Board adoption, which is not explicitly recorded. FY26 budget passes 7-1-1, not a named PMC grant. Alpha-Omega funds received and press release distributed; independent provider source is pending.",
+      "Maven dates Martin Desruisseaux committer addition January 29, Matthias Bunger February 5 and Igor Fedorenko PMC/committer resignation April 8. PDF retirement and Jira migration continue earlier families; formal vote openings control release baselines.",
+      "Attic completes Cocoon/Pivot/Oozie retirement, with Mnemonic/Gora pending; Niall Pemberton joins April 4, outside selected retirement. ATR alpha testing remains planned. Marketing posts original-creator guidance on cwiki; selected exposure unknown. Legal absent and Privacy empty do not mean zero activity."
+    ]
+  },
+  "board_minutes_2025_05_21.txt": {
+    "review_scope": "All retained main, officer, cohort and Community Development sections read in full; other PMC attachment titles remain outside the fixed cohort.",
+    "findings": [
+      "Infra supply-chain concerns prompt changes to donated VM/cloud acceptance; Fundraising phases out externally administered targeted in-kind sponsorship on Infra advice. HBase receives temporary nodes outside the cohort. Retain the shared allocation-rule candidate without assuming selected effects or an external shock.",
+      "HTTPD adapts release scripts for planned GitHub migration, continuing the nonexecution bound on its 2023 vote. Quiet-quarter metrics and no release are own history, not refusal or structural failure.",
+      "President appoints Niall Pemberton Assistant VP Data Privacy to help Christian Grobmeier, despite April stepdown language and empty May VP attachment. Resolve exact role boundaries from appointment evidence; do not silently assume vacancy.",
+      "Comdev reports GSoC accepted, with 35 slots requested and 27 granted. Local selected exposure is unknown. History/original-creator guidance links s.apache.org/b610y; retain the shared candidate pending actual cohort records.",
+      "Security reports Tomcat CVE-2025-24813 added to CISA KEV. Retrieve primary dated evidence before shock coding. MFA phase-one wiki is defined, not enacted; issue counts alone are not opportunities.",
+      "Public Affairs reports MITRE CVE funding cutoff and temporary reprieve. Primary provider/government evidence is needed for independence. CRA standards work and UN endorsement remain planned, not new selected-PMC rules.",
+      "Board discusses internal venues and requests Jim seek Legal follow-up; no restriction is adopted. Event/analyst guidance and Attic social policy are drafts. Andrew Musselman joins Legal by approved appointment, not a PMC rights change.",
+      "Ant report is explicitly absent. Membership-wide ATR alpha announcement is future; BAT demonstration and committee-format proposal are separate. China website performance statement seeks Board direction, not a country-specific service refusal."
+    ]
+  },
+  "board_minutes_2025_06_18.txt": {
+    "review_scope": "All retained main, officer and cohort sections read in full; other PMC attachment titles remain outside the fixed cohort.",
+    "findings": [
+      "Tooling reports ATR internal alpha used by seven PMCs including Maven and Tomcat, with feedback handled. This is receiver-side evidence of named exposure; original onboarding/request dates are needed. Two project responses to a shared platform do not automatically create separate families.",
+      "President appoints Danny Angus VP Infrastructure after Myrle Krantz resigns; submitted report still labels Myrle. Board unanimously appoints Christopher Schultz Tomcat chair after Mladen Turk dies and PMC consensus. Chair succession is not automatically a rights transfer; death is own history, not an independent common shock.",
+      "Brand advises an unnamed company about modifying the TOMCAT logo. Retain a new permission candidate distinct from publicity/code-signing; original request/date/disposition is needed. Advice is not approval or refusal.",
+      "Tooling discusses Nexus 3/repository.apache.org updates and possible metadata/SBOM channels. These may join Maven Nexus 2 EOL history; neither migration nor compulsory metadata is executed here. Provider terms and independent acts are pending.",
+      "Donated-cloud policy publication is still planned July despite HBase stopgap implementation. China website statement links sd0sbwb0630b1j9o7y0vg3k4672zjzvs. Shared scope and cohort exposure need originals; no geographic ban inferred.",
+      "MFA Keycloak/PAT POC is planned July, DockerHub self-service late June and SVN upgrade mid-July. Jira/Confluence cloud testing is not migration. Ant scheduled report is absent, not a decision failure.",
+      "Tomcat dates Dimitris Soumis PMC addition July 5 2024, conflicting with March report February 19 2025; July 2024 was previously a committer date. Counts 50/29 after death differ from 51/30. Preserve inconsistency for original grant verification. Release lists do not establish formal vote onset.",
+      "Board charter discussion continues without adoption. Public Affairs detailed report is late; missingness does not establish hidden selected action. ECMA TEA deadline June 2026 concerns a planned standard, not a mandate. Marketing Attic social-guidance PR awaits posting, distinct from earlier project guidance."
+    ]
+  },
+  "board_minutes_2025_07_16.txt": {
+    "review_scope": "All retained main, officer, cohort and Attic sections read in full; other PMC attachment titles remain outside the fixed cohort.",
+    "findings": [
+      "Maven reports Jira accepts no new issues, comments only, and 80 percent of historical projects copied to GitHub toward read-only status. This continues the earlier migration family and needs service-side dates. Central publication changes drive a distinct discussion, not automatically a release baseline.",
+      "Infra attributes Hotmail/Outlook rejection to missing DKIM and tests a solution targeted late July. Retrieve provider policy and selected-message effects before causal coding. Implementation is not yet reported; staffing delays, late-summer DockerHub and SVN tests remain distinct.",
+      "Brand responds to TOMCAT logo request and renews its US mark with counsel. Logo request may join June episode after identity verification; registration renewal is an independent deliverable. IoTDB denial is outside the cohort.",
+      "Ant chair Jan Materne seeks to step down with successor choice for August ongoing. This precedes appointment, not replacement already made. Ivy/Ant maintenance continues without a new release discussion; originals define formal openings.",
+      "Privacy reports January 2023 policy ratification after the June 2022 precursor. Six other policies are drafts; Airflow telemetry discussion is not an adopted ASF rule. Pepy.tech DPA and Matomo 69 codes/seven unused contacts/one uptake have unnamed recipients, not assigned cohort effects.",
+      "Attic removes analytics from 28 retired sites and fixes CSP on 11, outside the active cohort. Mnemonic/Gora retirement completes and jclouds continues. Social offboarding becomes a step first implemented for jclouds; TLP counts do not identify IvyDE.",
+      "Tooling develops ATR checks, voting and CLI; BAT editing is blocked pending Infra SVN upgrade. Trace earliest request and receiver act for shared internal service history without assuming selected exposure. Committee-info freeze/replacement remains proposal, not new PMC rights.",
+      "ECMA confirms full ASF voting membership with primary URL, central rights not a selected-PMC shift. TG3/TG4 volunteer nonresponse is own history, not refusal. TAC reports one Asia visa denied, another pending and 17 of 26 NA slots accepted, recipients unnamed. Legal absent; terminology reminder delivery is not recorded."
+    ]
+  },
+  "board_minutes_2025_08_20.txt": {
+    "review_scope": "All retained main, officer, cohort and Community Development sections read in full; other PMC attachment titles remain outside the fixed cohort.",
+    "findings": [
+      "Board unanimously appoints Jaikiran Pai Ant chair August 20 after PMC vote and Jan Materne resignation. Preserve the earlier submitted label; office change is not automatically a decision-rights shift. Eric Milles contribution is not a role grant; Maarten Ivy maintenance continues the earlier family.",
+      "Infra prioritizes Microsoft mail rejection and completes personal-relay DKIM stopgap; mailing lists still need work. Do not generalize implementation to lists. Provider dates and selected effects are pending. Half-time contractor starts August 5, institutional own history.",
+      "Infra confirms SVN cutover complete; Tooling uses BAT for the whole Board cycle after prior upgrade blockage. DockerHub remains late-summer planning and cloud work remains testing. ATR CLI/API/PAT/JWT work completes, second alpha future; no blanket release mandate.",
+      "Brand answers Apache Web Server logo query and renews TOMCAT US registration. Verify HTTPD identity and separate earlier trademark events without identified link. Swag vendor replacement and ASF logo services have unknown selected exposure.",
+      "Board charter resolution is tabled, not new rights. Assistant Marketing/Publicity position is created and Andrew Wetmore appointed unanimously. Logo Development committee ends after completing objectives, not a repeal of the project-feather restriction.",
+      "Legal Ant Group China documentation concerns a corporation, not Apache Ant; exclude name overlap absent actual link. Texera guidance is outside the cohort. Standards-access concern is central with selected exposure unknown.",
+      "HTTPD 2.4.64-to-65 security regression is release context; formal openings and intended deliverables govern families, not one per version automatically. Possible AI-generated poor PRs are explicitly uncertain, not a ban. Counts 126 versus 127 do not establish removal.",
+      "Privacy empty; Comdev mission draft and ALC approvals are outside selected exposure. TAC has seven Asia attendees and NA visas pending, recipients unknown. Hotel/visa anecdotes need independent provider records for shocks. Marketing jclouds social transfer is outside the cohort."
+    ]
+  },
+  "board_minutes_2025_08_25.txt": {
+    "review_scope": "All retained sections of the special meeting read in full.",
+    "findings": [
+      "Special Board meeting August 25 discusses conduct reports in executive session and explicitly makes no decisions. Projects and particulars are not public; no cohort conduct action or rights transfer inferred. This completes reading this meeting, not the calendar attestation."
+    ]
+  },
+  "board_minutes_2025_09_24.txt": {
+    "review_scope": "All retained main, officer and cohort sections read in full; other PMC attachment titles remain outside the fixed cohort.",
+    "findings": [
+      "Tomcat declines RunLLM free AI Support Engineer offer by consensus after review. Retain the external-service candidate, needing original offer/decision dates and publication. PMC self-report alone is not independent provider evidence. Potential HeroDevs funding for future meetups is separate from the 2024 Google grant, not funds received.",
+      "Tomcat receives notice of Wiz Research zeroday.cloud December targeting, with AWS/Microsoft/Google Cloud sponsors and coordinated disclosure. Capture original notice and provider announcement before shock coding. Tomcat reports few AI vulnerability submissions and no notable problem; preserve variation from general ASF overload.",
+      "Infra reports Atlassian Data Center licensing EOL in March 2029 and cloud evaluation. Primary terms/date are needed; tests are neither operational migration nor a 2025 withdrawal. Ezmlm fork work addresses DMARC; personal DKIM is complete, list delivery work is not.",
+      "Full-time contractor starts September 22, restoring full budgeted staff: institutional own history. Authentik POC deployed with reset flows needed for mid-October ATR testing; no organization-wide MFA mandate. ATR second-alpha announcement is planned at the conference; report period differs from meeting date.",
+      "Board unanimously asks Jeff Jirsa drive CoC process, while committee and timeline remain debated; no new CoC adopted. Reporting direction endorses summary questions, risks and requests; original wiki/PMC notice pending. May terminology page changed, message still future.",
+      "Board agrees to retire five-year plan; short-term replacement goals are not adopted. President/Chair identify logo launch and August 24 action without meeting recorded in PNG, distinct from August 25 executive session.",
+      "BAT email-only reports are not visible in the new tool; Chair posting through old tool can appear late. This bounds publication/report timing, not selected nonresponse absent original submission.",
+      "Tomcat repeats July 2024 PMC date discrepancy with February 2025. Unnamed trademark actions are not selected infringements. Legal absent and Privacy empty are not zero; TAC NA visas affect unnamed recipients. CRA/SBOM drafts are not mandatory selected direction."
+    ]
+  },
+  "board_minutes_2025_10_15.txt": {
+    "review_scope": "All retained main, officer, cohort and Attic sections read in full; other PMC attachment titles remain outside the fixed cohort.",
+    "findings": [
+      "Vice Chair sent all-PMC message in September, links 5v9mjrsfnz2n0xl2wlh01w6ld8jgvbjj; shared reporting/terminology communication now actually sent, original content/date required. Earlier pending notice must not count as a separate episode.",
+      "Infra patched ezmlm tested on several unnamed project lists, all-committer communication/update planned November 2. Distinguish limited production testing from full list deployment and completed personal DKIM; selected list exposure unknown.",
+      "Tooling confirms second ATR alpha announced at Minneapolis. MFA required before integrated beta, presently Authentik demonstration/POC, not organization-wide enforcement. Thomas Neidhart resigns paid team but offers continued BAT support as member; staffing is institutional own history, not independent external shock.",
+      "EVP begins CoC consultation, wider PMC visibility and reconciliation with TLP policies requested before final approval. Composition/independence of enforcement committee still debated; no new binding CoC adopted here.",
+      "Marketing delivered rebranded website, updated 100+ repository logos and began five project logo updates with request template; names absent, selected exposure unknown. Brand adds founder/creator FAQ guidance, same earlier shared guidance history, no rights transfer inferred from asset updates.",
+      "W3C Relations reports signed community contributor agreement and acceptance of W3C CoC for three groups; named participants outside selected PMC action, no assumption that foundation adoption changes project governance. ECMA draft specifications forwarded for December ratification, not ratified standards yet.",
+      "Maven scheduled report absent, Privacy empty. Attic completed jclouds/Mesos retirement with Griffin/Portals pending, not selected subproject retirement. Legal license-amendment request denied and frivolous DMCA rejected, projects unnamed; preserve unknown exposure. Security health-level guide published, original date/rule/cohort action still needed."
+    ]
+  },
+  "board_minutes_2025_11_19.txt": {
+    "review_scope": "All retained main, officer, cohort and Community Development sections read in full; other PMC attachment titles remain outside the fixed cohort.",
+    "findings": [
+      "Maven says Jira migration fully done and now read-only, actual PMC self-report after earlier restricted/80percent phases; independent service record required. ATR integration testing active with wiki link, joins shared June alpha exposure rather than a separate family per report. Maven 4 RC5 vote in progress must be linked to original opening.",
+      "Maven dates Christoph Laubrich committer addition November7. Ant reports possible future release, not formal opening. HTTPD describes mod_ssl restriction BZ69872 and future directive plus mod_random/mod_replace proposals; ordinary patches and proposals not adopted binding direction merely included in Board report.",
+      "Infra mail rollout moved from November2 plan to November20, cites original announcement 4709w2rt5o3yjd0kpmtm8kvhs778ycmn. Full outgoing DKIM remains subsequent planning. Independent provider rejection policies and worldwide DDOS attack described; capture primary dated evidence and selected effects before shock coding.",
+      "Authentik demo at November roundtable, opt-in rollout end-year planned, roadmap December future. Atlassian cloud tests and operating-system upgrades continue, not completed cloud migration. Tooling secretary repository now open all members, roster work in scope; central service boundary not automatically selected PMC rights change.",
+      "EVP/Legal propose separate communication/fiduciary CoC policies and counsel consultation, no adopted final rule. President standard policy template/public section proposal still possible; shared reporting direction not changed without actual notice.",
+      "Brand confirms TOMCAT US trademark renewed, same earlier renewal deliverable; works with unnamed vendor on EOL-support misrepresentation, selected identity unknown. ASF-logo bid request denied but cohort not named. Marketing ATR alpha blog published, underlying platform announcement same earlier family.",
+      "Public Affairs plans Treasury/Legal attestation review if PMCs interested; no obligation, selected request absent. Legal brand contest rules review future. Security OpenOffice ransomware claim not foundation-confirmed compromise and outside cohort; no guessed selected shock. Privacy empty and Chair absent not zero activity."
+    ]
+  },
+  "board_minutes_2025_12_17.txt": {
+    "review_scope": "All retained main, officer and cohort sections read in full; other PMC attachment titles remain outside the fixed cohort.",
+    "findings": [
+      "Infra and Security confirm November mailing-list ezmlm/DMARC updates deployed and concluded without issues; same earlier delivery family, exact date from original announcement/implementation needed. Additional Q1 2026 improvements future; do not generalize to every outgoing DKIM mechanism.",
+      "Infra confirms Matomo moved from Privacy POC to Infra-supported service, actual central responsibility change after 2022 origin and 2024/25 requests. Selected project analytics effects still need own exposure; central service ownership not automatically PMC decision-right shift.",
+      "Tomcat submitted documentation supporting first HeroDevs grant application; funding still potential, joins September discussions with request timing bounded, no actual grant inferred. Dimitris Soumis PMC addition now February18 vs MarchFebruary19 and June/SeptemberJuly2024; preserve discrepancies pending dated original.",
+      "Tooling requires new contributors to introduce themselves on dev list after poor PRs, local platform participation rule distinct from ASF mandatory policy. Alpha2 testing ongoing and policy discussions being prepared; no adopted release obligation. Two engineers contracted, below staff budget, central own history.",
+      "Authentik implementation/backups/disaster-recovery essentially complete but limited beta end-year still future; not universal enforcement. Secretary workbench delayed months, Reporter integration needs planning, no project denial from staffing prioritization.",
+      "ECMA reports December10 ratification of ECMA424 second edition,427PURL and428CLE with primary URLs; prior drafts distinct now external standards adopted. December11 Piotr Karwasz joint TG4 convenor role and Board SecurityTeam appointment supply central dated authority, no selected PMC rights change inferred.",
+      "Board follow-up says Slack-versus-mailing-list communication done but gives unrelated Doris link md36fnsfdxsbs3jqtxf8c30wy5v2bbl6; locate actual original before treating content as sent. Logging RTC feature discussion outside cohort supports policy distinction but is not HTTPD directive. CoC unchanged from November still deliberation.",
+      "TAC FOSDEM support unlikely due budget/time, no named selected request or final refusal. Conference accepts Cvent bid for2026, central provider allocation selected exposure unknown. Marketing site archival/deletion policy draft public wiki, not adopted blanket rule; Brand sponsor-link clarification needs original if selected. GenerativeAI discussion legal contribution not new foundation ban."
+    ]
+  },
+  "board_minutes_2022_10_19.txt": {
+    "review_scope": "All retained main, officer, cohort and Attic sections read in full; other PMC attachment titles remain outside the fixed cohort.",
+    "findings": [
+      "Baseline Infra discusses signing, identity management, SVN migration, donated compute and Matomo transition; hosting began March 2022. Later notices do not reset onset without an independent deliverable.",
+      "Privacy ratification draft zh3hpzqbk677ttotltjyqqmm3r824kp8 awaits feedback after June 15 action. Separate draft committer policy, December tabling and January ratification; June request is not adoption.",
+      "Ant has maintenance and IvyDE Eclipse build-knowledge deficits before the window, while planning continuity. Preserve own-history rival and separate Ivy/IvyDE deliverables; later restrictions did not cause an already recorded deficit.",
+      "Conference reproduces Tomcat track report: no official recording sponsor/volunteers and low attendance except proxying talk, with interest in future participation. This is baseline shortage, not a new refusal without request. TAC approves 30, with 19 attending amid visas and cash instead of Ramp after late setup; selected recipients unknown.",
+      "Jakarta EE Relations asks GitHub sponsorship policy after Paul Buck inquiry, central funding precursor with unknown cohort exposure. David Nalley is President/VP Infra; Mark Thomas Brand, Matt Sicker Secretary, Karl-Heinz Maven and Jan Materne Ant roles are named. Use dated authority, not sender domain.",
+      "Maven report absent. Buildr/REEF retirement does not identify selected subprojects. Unnamed project-logo refusals and draft downstream distribution policy do not establish finalized 2024 policy or cohort exposure."
+    ]
+  },
+  "board_minutes_2022_11_16.txt": {
+    "review_scope": "All retained main, officer, cohort and Community Development sections read in full; other PMC attachment titles remain outside the fixed cohort.",
+    "findings": [
+      "Infra Jira account approval is established and deployed by November 2022, following Confluence/commit approval models. Later signup hurdles do not automatically create new families. Anonymous LDAP lockdown is held after unknown systems discovered; deployment is future.",
+      "HTTPD says Infra notified Travis CI support withdrawal at start of 2023 and GHA migration has not begun. Baseline notice bounds later onset and own history; provider shock needs independent evidence. Emmanuel Dreyfus accepts committer invitation November 5.",
+      "Maven minimum plugin runtime 3.2.5 has already risen, with releases implementing it. October 24 Maven 4 alpha 2 and 3.9 preparation are local history. Guillaume Nodet PMC addition October 17 and Konrad Windszus committer August 21 date roles; preserve any source name typo.",
+      "Ant Ivy 2.5.1 released November 4 and IvyDE build-skill gap continues. Retrieve original baseline vote opening. Jaikiran June 14 2017 committer date differs from later June 15; retain uncertainty if material.",
+      "Secretary/Infra develop 2FA reset policy; pilot is not universal enforcement. Gradle Enterprise nears provider testing and ADP testing already begins; ATR branding alone does not establish a new origin.",
+      "TAC travel policy awaits President/EVP; no-cash trial and FOSDEM support are planned. Comdev GSoC 37 participants/33 passing across 14 projects has unknown selected exposure; Beam/Solr funding is outside cohort. Bylaws revision waits for counsel, not adoption."
+    ]
+  },
+  "board-2022-12-21.txt": {
+    "review_scope": "All retained main, officer and Tomcat sections read in full; other PMC attachment titles remain outside the fixed cohort.",
+    "findings": [
+      "Privacy standardization resolution is tabled after its June 2022 precursor; January 2023 adoption is a later act. Secretary halts MFA pilot pending reset policy. FAQ for new PMC members is updated, a possible precursor for March equal-voice guidance.",
+      "Infra reports the Jira spam-account solution deployed but facing pushback and possible rollback. It therefore predates 2023/25 signup hurdles; rollback is not yet established. Anonymous LDAP ACL deployment remains planned for January after earlier feedback.",
+      "Privacy confirms Matomo management transition and LDAP work already underway, with a Scarf DPA still in progress. Matomo reporting in 2024/25 continues earlier history unless independently new deliverables are identified.",
+      "Gradle/Maven testing meets RAT .mvn issue and proposes a RAT PR/manual plugin exclusion; tests continue, not universal rollout. Atlassian Cloud discussion, Confluence plugin prices and Keycloak evaluation are provider/service context, not actual cloud migration.",
+      "Tomcat reports 8.5 support ending March 31 2024 and November/December release history, including 11.0.0-M1. EOL direction predates window; retrieve original baseline decision and formal vote openings. Han Li August 23 2022 committer date is retained.",
+      "Brand obtains APACHE npm scope without a named selected project. Incubator survey invitation is proposed, not a decision. China email blocks and sponsor onboarding/payment problems require primary provider evidence and named exposure before shock coding.",
+      "TAC travel policy still awaits President/EVP; domain/email change is implemented and FOSDEM support planned. Marketing has no official Mastodon deployment. Legal bylaws revision is on hold for counsel. Security counts alone are not selected decision opportunities.",
+      "David Nalley President/Infra and Matt Sicker Secretary supply dated office context. Out-of-cohort committee establishments are not selected families; Sunny resolution is tabled, not established."
+    ]
+  }
+}

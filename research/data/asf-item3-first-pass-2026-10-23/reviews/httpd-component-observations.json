@@ -1,0 +1,1522 @@
+{
+  "review_date": "2026-10-22",
+  "status": "Component observations before directional opportunity, timing/channel, rival and witness classifications; native measurement grid not assembled.",
+  "records": [
+    {
+      "family_id": "httpd-bugzilla-spam-2024",
+      "project": "httpd",
+      "component_review_complete": true,
+      "onset_earliest": "2024-01-12",
+      "onset_latest": "2024-01-12",
+      "local_origin_reason": "A project participant seeks a consistent tracker moderation response in the public project process.",
+      "observed_component_facts": [
+        {
+          "source_id": "<956ad2a9-23fb-cc04-7675-cf4562407c55@apache.org>",
+          "date": "2024-01-16",
+          "fact": "The requester reports the proposed spam moderation done; this is local moderation, not an identified Infra decision.",
+          "component_values": {
+            "local_disposition": "adopted"
+          }
+        }
+      ],
+      "horizon_components": {
+        "60": {
+          "values": {
+            "local_origin": "pmc",
+            "local_disposition": "adopted",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "unknown",
+            "shared_commitment_named": "unknown",
+            "coordination_disposition": "unknown",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [
+            {
+              "field": "local_disposition",
+              "source_id": "<956ad2a9-23fb-cc04-7675-cf4562407c55@apache.org>",
+              "locator": "Original unquoted act/decision paragraph: The requester reports the proposed spam moderation done; this is local moderation, not an identified Infra decision."
+            }
+          ],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        },
+        "90": {
+          "values": {
+            "local_origin": "pmc",
+            "local_disposition": "adopted",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "unknown",
+            "shared_commitment_named": "unknown",
+            "coordination_disposition": "unknown",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [
+            {
+              "field": "local_disposition",
+              "source_id": "<956ad2a9-23fb-cc04-7675-cf4562407c55@apache.org>",
+              "locator": "Original unquoted act/decision paragraph: The requester reports the proposed spam moderation done; this is local moderation, not an identified Infra decision."
+            }
+          ],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        },
+        "180": {
+          "values": {
+            "local_origin": "pmc",
+            "local_disposition": "adopted",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "unknown",
+            "shared_commitment_named": "unknown",
+            "coordination_disposition": "unknown",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [
+            {
+              "field": "local_disposition",
+              "source_id": "<956ad2a9-23fb-cc04-7675-cf4562407c55@apache.org>",
+              "locator": "Original unquoted act/decision paragraph: The requester reports the proposed spam moderation done; this is local moderation, not an identified Infra decision."
+            }
+          ],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        }
+      },
+      "unresolved_component_reason": "The actor and consistency rule are local. Shared Bugzilla hosting does not establish a Foundation receiving act, a new shared commitment or changed binding institutional jurisdiction.",
+      "additional_source_ids": [],
+      "scope": "Formal release jurisdiction, project moderation, account-service authorization and individual membership are distinct decision classes. Local adoption or an administrative edit alone does not establish an authority shift or a cross-effect."
+    },
+    {
+      "family_id": "httpd-ci-approval-2023",
+      "project": "httpd",
+      "component_review_complete": true,
+      "onset_earliest": "2023-04-12",
+      "onset_latest": "2023-04-12",
+      "local_origin_reason": "The project pursues a specific public request to repair its CI approval route, distinct from the earlier Foundation-wide rule.",
+      "observed_component_facts": [
+        {
+          "source_id": "<CAKQ1sVOb6CvafMBRmGpLr3Oyb8K2NAQnD2wQz7hz96hXUz0GrQ@mail.gmail.com>",
+          "date": "2023-04-12",
+          "fact": "Reports INFRA-24457 created; this is requester conduct, not a service disposition.",
+          "component_values": {}
+        },
+        {
+          "source_id": "<fc63351b-4a8f-0118-bbdb-b6f7f40b47b1@apache.org>",
+          "date": "2023-04-25",
+          "fact": "Relays two possible remedies from an uninspected ticket. No chosen remedy or execution is shown.",
+          "component_values": {}
+        }
+      ],
+      "horizon_components": {
+        "60": {
+          "values": {
+            "local_origin": "pmc",
+            "local_disposition": "unknown",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "unknown",
+            "shared_commitment_named": "unknown",
+            "coordination_disposition": "unknown",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        },
+        "90": {
+          "values": {
+            "local_origin": "pmc",
+            "local_disposition": "unknown",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "unknown",
+            "shared_commitment_named": "unknown",
+            "coordination_disposition": "unknown",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        },
+        "180": {
+          "values": {
+            "local_origin": "pmc",
+            "local_disposition": "unknown",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "unknown",
+            "shared_commitment_named": "unknown",
+            "coordination_disposition": "unknown",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        }
+      },
+      "unresolved_component_reason": "A forwarded account of possible remedies is not an independently documented Foundation commitment. Intent to change CI or canonical repository does not establish applied service configuration; the May migration ballot is a different deliverable.",
+      "additional_source_ids": [],
+      "scope": "Formal release jurisdiction, project moderation, account-service authorization and individual membership are distinct decision classes. Local adoption or an administrative edit alone does not establish an authority shift or a cross-effect."
+    },
+    {
+      "family_id": "httpd-dependency-support-policy-2025",
+      "project": "httpd",
+      "component_review_complete": true,
+      "onset_earliest": "2025-07-07",
+      "onset_latest": "2025-07-07",
+      "local_origin_reason": "The public proposal asks the PMC to agree an ongoing project-wide dependency-support direction.",
+      "observed_component_facts": [],
+      "horizon_components": {
+        "60": {
+          "values": {
+            "local_origin": "pmc",
+            "local_disposition": "unknown",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "unknown",
+            "shared_commitment_named": "unknown",
+            "coordination_disposition": "unknown",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        },
+        "90": {
+          "values": {
+            "local_origin": "pmc",
+            "local_disposition": "unknown",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "unknown",
+            "shared_commitment_named": "unknown",
+            "coordination_disposition": "unknown",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        },
+        "180": {
+          "values": {
+            "local_origin": "pmc",
+            "local_disposition": "unknown",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "unknown",
+            "shared_commitment_named": "unknown",
+            "coordination_disposition": "unknown",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        }
+      },
+      "unresolved_component_reason": "The proposer later accepts the chair\u2019s supported-platform approach, but that does not establish a collective adopted rule, an enacted obligation, or any Foundation response. No terminal disposition inside a horizon is inferred from debate.",
+      "additional_source_ids": [],
+      "scope": "Formal release jurisdiction, project moderation, account-service authorization and individual membership are distinct decision classes. Local adoption or an administrative edit alone does not establish an authority shift or a cross-effect."
+    },
+    {
+      "family_id": "httpd-libapreq-release-account-2023",
+      "project": "httpd",
+      "component_review_complete": true,
+      "onset_earliest": "2023-08-28",
+      "onset_latest": "2023-08-28",
+      "local_origin_reason": "The public exchange explicitly identifies the requester as an HTTPD PMC member and concerns preparing a libapreq release. The service-capacity citation for the other actor is separate.",
+      "observed_component_facts": [
+        {
+          "source_id": "<CAFQGv+bK6OsQgAtnZttkXKWVz=ecooaY2xSav33Em6E7yUM_7g@mail.gmail.com>",
+          "date": "2023-08-28",
+          "fact": "The requester assumes the account no longer exists; the later service reply corrects that assumption because LDAP still contains it.",
+          "component_values": {}
+        },
+        {
+          "source_id": "<CAFQGv+bMFEo4=9L78BwfTzZtf6XO8ybY5sqpX9X-4O9C_P9Kyw@mail.gmail.com>",
+          "date": "2023-08-28",
+          "fact": "The requester expressly accepts restoration and conditionally offers to tag and roll; this is consent to the repair, not approval or execution of a release.",
+          "component_values": {
+            "local_disposition": "adopted",
+            "commitment_mode": "voluntary",
+            "shared_commitment_named": "yes"
+          }
+        },
+        {
+          "source_id": "<CABD8fLVCvcifapr0MfY3Ef2POd_m8Pp5tz48G_pwt+ejoiGaJA@mail.gmail.com>",
+          "date": "2023-08-28",
+          "fact": "The identified Infrastructure Administrator reports re-adding the committers group and explicitly qualifies expected SVN access as should. Only the group edit is an implemented service action.",
+          "component_values": {
+            "coordination_disposition": "implemented"
+          }
+        }
+      ],
+      "horizon_components": {
+        "60": {
+          "values": {
+            "local_origin": "pmc",
+            "local_disposition": "adopted",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "voluntary",
+            "shared_commitment_named": "yes",
+            "coordination_disposition": "implemented",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [
+            {
+              "field": "local_disposition",
+              "source_id": "<CAFQGv+bMFEo4=9L78BwfTzZtf6XO8ybY5sqpX9X-4O9C_P9Kyw@mail.gmail.com>",
+              "locator": "Original unquoted act/decision paragraph: The requester expressly accepts restoration and conditionally offers to tag and roll; this is consent to the repair, not approval or execution of a release."
+            },
+            {
+              "field": "commitment_mode",
+              "source_id": "<CAFQGv+bMFEo4=9L78BwfTzZtf6XO8ybY5sqpX9X-4O9C_P9Kyw@mail.gmail.com>",
+              "locator": "Original unquoted act/decision paragraph: The requester expressly accepts restoration and conditionally offers to tag and roll; this is consent to the repair, not approval or execution of a release."
+            },
+            {
+              "field": "shared_commitment_named",
+              "source_id": "<CAFQGv+bMFEo4=9L78BwfTzZtf6XO8ybY5sqpX9X-4O9C_P9Kyw@mail.gmail.com>",
+              "locator": "Original unquoted act/decision paragraph: The requester expressly accepts restoration and conditionally offers to tag and roll; this is consent to the repair, not approval or execution of a release."
+            },
+            {
+              "field": "coordination_disposition",
+              "source_id": "<CABD8fLVCvcifapr0MfY3Ef2POd_m8Pp5tz48G_pwt+ejoiGaJA@mail.gmail.com>",
+              "locator": "Original unquoted act/decision paragraph: The identified Infrastructure Administrator reports re-adding the committers group and explicitly qualifies expected SVN access as should. Only the group edit is an implemented service action."
+            }
+          ],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        },
+        "90": {
+          "values": {
+            "local_origin": "pmc",
+            "local_disposition": "adopted",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "voluntary",
+            "shared_commitment_named": "yes",
+            "coordination_disposition": "implemented",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [
+            {
+              "field": "local_disposition",
+              "source_id": "<CAFQGv+bMFEo4=9L78BwfTzZtf6XO8ybY5sqpX9X-4O9C_P9Kyw@mail.gmail.com>",
+              "locator": "Original unquoted act/decision paragraph: The requester expressly accepts restoration and conditionally offers to tag and roll; this is consent to the repair, not approval or execution of a release."
+            },
+            {
+              "field": "commitment_mode",
+              "source_id": "<CAFQGv+bMFEo4=9L78BwfTzZtf6XO8ybY5sqpX9X-4O9C_P9Kyw@mail.gmail.com>",
+              "locator": "Original unquoted act/decision paragraph: The requester expressly accepts restoration and conditionally offers to tag and roll; this is consent to the repair, not approval or execution of a release."
+            },
+            {
+              "field": "shared_commitment_named",
+              "source_id": "<CAFQGv+bMFEo4=9L78BwfTzZtf6XO8ybY5sqpX9X-4O9C_P9Kyw@mail.gmail.com>",
+              "locator": "Original unquoted act/decision paragraph: The requester expressly accepts restoration and conditionally offers to tag and roll; this is consent to the repair, not approval or execution of a release."
+            },
+            {
+              "field": "coordination_disposition",
+              "source_id": "<CABD8fLVCvcifapr0MfY3Ef2POd_m8Pp5tz48G_pwt+ejoiGaJA@mail.gmail.com>",
+              "locator": "Original unquoted act/decision paragraph: The identified Infrastructure Administrator reports re-adding the committers group and explicitly qualifies expected SVN access as should. Only the group edit is an implemented service action."
+            }
+          ],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        },
+        "180": {
+          "values": {
+            "local_origin": "pmc",
+            "local_disposition": "adopted",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "voluntary",
+            "shared_commitment_named": "yes",
+            "coordination_disposition": "implemented",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [
+            {
+              "field": "local_disposition",
+              "source_id": "<CAFQGv+bMFEo4=9L78BwfTzZtf6XO8ybY5sqpX9X-4O9C_P9Kyw@mail.gmail.com>",
+              "locator": "Original unquoted act/decision paragraph: The requester expressly accepts restoration and conditionally offers to tag and roll; this is consent to the repair, not approval or execution of a release."
+            },
+            {
+              "field": "commitment_mode",
+              "source_id": "<CAFQGv+bMFEo4=9L78BwfTzZtf6XO8ybY5sqpX9X-4O9C_P9Kyw@mail.gmail.com>",
+              "locator": "Original unquoted act/decision paragraph: The requester expressly accepts restoration and conditionally offers to tag and roll; this is consent to the repair, not approval or execution of a release."
+            },
+            {
+              "field": "shared_commitment_named",
+              "source_id": "<CAFQGv+bMFEo4=9L78BwfTzZtf6XO8ybY5sqpX9X-4O9C_P9Kyw@mail.gmail.com>",
+              "locator": "Original unquoted act/decision paragraph: The requester expressly accepts restoration and conditionally offers to tag and roll; this is consent to the repair, not approval or execution of a release."
+            },
+            {
+              "field": "coordination_disposition",
+              "source_id": "<CABD8fLVCvcifapr0MfY3Ef2POd_m8Pp5tz48G_pwt+ejoiGaJA@mail.gmail.com>",
+              "locator": "Original unquoted act/decision paragraph: The identified Infrastructure Administrator reports re-adding the committers group and explicitly qualifies expected SVN access as should. Only the group edit is an implemented service action."
+            }
+          ],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        }
+      },
+      "unresolved_component_reason": "Named parties and the account-restoration deliverable are explicit, and the service actor reports a concrete edit. No tested checkout, tag or release follows. Initial alleged account disappearance was incorrect. This supports an implemented administrative commitment, not an authority transfer, demonstrated new feasible execution, or discrimination from routine entitlement repair.",
+      "additional_source_ids": [
+        "committee-info-20230328",
+        "committee-info-20240227"
+      ],
+      "scope": "Formal release jurisdiction, project moderation, account-service authorization and individual membership are distinct decision classes. Local adoption or an administrative edit alone does not establish an authority shift or a cross-effect."
+    },
+    {
+      "family_id": "httpd-libapreq-retirement-2024",
+      "project": "httpd",
+      "component_review_complete": true,
+      "onset_earliest": "unknown",
+      "onset_latest": "unknown",
+      "local_origin_reason": "The public retirement discussion explicitly resumes an earlier private project conversation.",
+      "observed_component_facts": [
+        {
+          "source_id": "board-2026-05-20",
+          "date": "2026-05-20",
+          "fact": "HTTPDreportnowstatesPMCvotedtoarchive/retirelibapreq2; exactvotedateandproviderarchivalremainunknown.",
+          "component_values": {}
+        }
+      ],
+      "horizon_components": {
+        "60": {
+          "values": {
+            "local_origin": "pmc",
+            "local_disposition": "unknown",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "unknown",
+            "shared_commitment_named": "unknown",
+            "coordination_disposition": "unknown",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        },
+        "90": {
+          "values": {
+            "local_origin": "pmc",
+            "local_disposition": "unknown",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "unknown",
+            "shared_commitment_named": "unknown",
+            "coordination_disposition": "unknown",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        },
+        "180": {
+          "values": {
+            "local_origin": "pmc",
+            "local_disposition": "unknown",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "unknown",
+            "shared_commitment_named": "unknown",
+            "coordination_disposition": "unknown",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        }
+      },
+      "unresolved_component_reason": "Original initiation is undated and earlier. The newly reviewed May2026report establishes a later adopted retirement but cannot locate it inside the original60/90/180dayhorizons. It does not prove a terminal release, actual provider archival, or cause of the separate posting/member-removal actions.",
+      "additional_source_ids": [],
+      "scope": "Formal release jurisdiction, project moderation, account-service authorization and individual membership are distinct decision classes. Local adoption or an administrative edit alone does not establish an authority shift or a cross-effect."
+    },
+    {
+      "family_id": "httpd-list-posting-restriction-2024",
+      "project": "httpd",
+      "component_review_complete": true,
+      "onset_earliest": "2024-02-16",
+      "onset_latest": "2024-02-16",
+      "local_origin_reason": "The chair explicitly exercises a local project-list moderation decision in his named chair capacity.",
+      "observed_component_facts": [
+        {
+          "source_id": "<Zc8ucTjM1GrOByeb@redhat.com>",
+          "date": "2024-02-16",
+          "fact": "Publicly announces the participant\u2019s removal and ban on further posting to the project list.",
+          "component_values": {
+            "local_disposition": "adopted"
+          }
+        }
+      ],
+      "horizon_components": {
+        "60": {
+          "values": {
+            "local_origin": "pmc",
+            "local_disposition": "adopted",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "unknown",
+            "shared_commitment_named": "unknown",
+            "coordination_disposition": "unknown",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [
+            {
+              "field": "local_disposition",
+              "source_id": "<Zc8ucTjM1GrOByeb@redhat.com>",
+              "locator": "Original unquoted act/decision paragraph: Publicly announces the participant\u2019s removal and ban on further posting to the project list."
+            }
+          ],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        },
+        "90": {
+          "values": {
+            "local_origin": "pmc",
+            "local_disposition": "adopted",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "unknown",
+            "shared_commitment_named": "unknown",
+            "coordination_disposition": "unknown",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [
+            {
+              "field": "local_disposition",
+              "source_id": "<Zc8ucTjM1GrOByeb@redhat.com>",
+              "locator": "Original unquoted act/decision paragraph: Publicly announces the participant\u2019s removal and ban on further posting to the project list."
+            }
+          ],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        },
+        "180": {
+          "values": {
+            "local_origin": "pmc",
+            "local_disposition": "adopted",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "unknown",
+            "shared_commitment_named": "unknown",
+            "coordination_disposition": "unknown",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [
+            {
+              "field": "local_disposition",
+              "source_id": "<Zc8ucTjM1GrOByeb@redhat.com>",
+              "locator": "Original unquoted act/decision paragraph: Publicly announces the participant\u2019s removal and ban on further posting to the project list."
+            }
+          ],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        }
+      },
+      "unresolved_component_reason": "A restriction on an individual\u2019s posting is not by itself a Foundation restriction of PMC discretion. The Board\u2019s later PMC-membership removal is an independent right and separate family; no single omnibus ban is inferred.",
+      "additional_source_ids": [],
+      "scope": "Formal release jurisdiction, project moderation, account-service authorization and individual membership are distinct decision classes. Local adoption or an administrative edit alone does not establish an authority shift or a cross-effect."
+    },
+    {
+      "family_id": "httpd-mod-tls-removal-2024",
+      "project": "httpd",
+      "component_review_complete": true,
+      "onset_earliest": "2024-04-16",
+      "onset_latest": "2024-04-16",
+      "local_origin_reason": "A project-wide module-removal proposal is pursued and later implemented through the public project process.",
+      "observed_component_facts": [
+        {
+          "source_id": "<E9A44F8B-1FBA-4696-9E2D-3DEB61B81F95@eissing.org>",
+          "date": "2024-09-17",
+          "fact": "The proposer reports removal and continuation in an external repository. This falls outside 60/90 days and inside 180 days from April16.",
+          "component_values": {
+            "local_disposition": "adopted"
+          }
+        }
+      ],
+      "horizon_components": {
+        "60": {
+          "values": {
+            "local_origin": "pmc",
+            "local_disposition": "unknown",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "unknown",
+            "shared_commitment_named": "unknown",
+            "coordination_disposition": "unknown",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        },
+        "90": {
+          "values": {
+            "local_origin": "pmc",
+            "local_disposition": "unknown",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "unknown",
+            "shared_commitment_named": "unknown",
+            "coordination_disposition": "unknown",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        },
+        "180": {
+          "values": {
+            "local_origin": "pmc",
+            "local_disposition": "adopted",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "unknown",
+            "shared_commitment_named": "unknown",
+            "coordination_disposition": "unknown",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [
+            {
+              "field": "local_disposition",
+              "source_id": "<E9A44F8B-1FBA-4696-9E2D-3DEB61B81F95@eissing.org>",
+              "locator": "Original unquoted act/decision paragraph: The proposer reports removal and continuation in an external repository. This falls outside 60/90 days and inside 180 days from April16."
+            }
+          ],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        }
+      },
+      "unresolved_component_reason": "Keep the later implementation inside only the 180-day profile. Upstream API/time explanations are participant reports, not independent shocks or Foundation acts. A product-module choice does not demonstrate a changed allocation of binding institutional authority.",
+      "additional_source_ids": [],
+      "scope": "Formal release jurisdiction, project moderation, account-service authorization and individual membership are distinct decision classes. Local adoption or an administrative edit alone does not establish an authority shift or a cross-effect."
+    },
+    {
+      "family_id": "httpd-roadmap-2024",
+      "project": "httpd",
+      "component_review_complete": true,
+      "onset_earliest": "2024-12-13",
+      "onset_latest": "2024-12-13",
+      "local_origin_reason": "The chair and project participants discuss a collective roadmap through the public project process.",
+      "observed_component_facts": [],
+      "horizon_components": {
+        "60": {
+          "values": {
+            "local_origin": "pmc",
+            "local_disposition": "unknown",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "unknown",
+            "shared_commitment_named": "unknown",
+            "coordination_disposition": "unknown",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        },
+        "90": {
+          "values": {
+            "local_origin": "pmc",
+            "local_disposition": "unknown",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "unknown",
+            "shared_commitment_named": "unknown",
+            "coordination_disposition": "unknown",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        },
+        "180": {
+          "values": {
+            "local_origin": "pmc",
+            "local_disposition": "unknown",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "unknown",
+            "shared_commitment_named": "unknown",
+            "coordination_disposition": "unknown",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        }
+      },
+      "unresolved_component_reason": "C11/OpenSSL3 and development-version proposals have no adopted roadmap in the reviewed thread. A chair proposal in discussion is not automatically a binding PMC decision, expanded discretion or a Foundation commitment.",
+      "additional_source_ids": [],
+      "scope": "Formal release jurisdiction, project moderation, account-service authorization and individual membership are distinct decision classes. Local adoption or an administrative edit alone does not establish an authority shift or a cross-effect."
+    },
+    {
+      "family_id": "httpd-rtc-ci-exception-2023",
+      "project": "httpd",
+      "component_review_complete": true,
+      "onset_earliest": "2023-02-15",
+      "onset_latest": "2023-02-15",
+      "local_origin_reason": "A public project vote changes its own review procedure; this is an exercised local governance choice.",
+      "observed_component_facts": [
+        {
+          "source_id": "<Y/SkIz3dlF72dEN4@redhat.com>",
+          "date": "2023-02-21",
+          "fact": "Reports the approved CI review exception implemented at SVN r1907783. Only the project review procedure is adopted.",
+          "component_values": {
+            "local_disposition": "adopted"
+          }
+        }
+      ],
+      "horizon_components": {
+        "60": {
+          "values": {
+            "local_origin": "pmc",
+            "local_disposition": "adopted",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "unknown",
+            "shared_commitment_named": "unknown",
+            "coordination_disposition": "unknown",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [
+            {
+              "field": "local_disposition",
+              "source_id": "<Y/SkIz3dlF72dEN4@redhat.com>",
+              "locator": "Original unquoted act/decision paragraph: Reports the approved CI review exception implemented at SVN r1907783. Only the project review procedure is adopted."
+            }
+          ],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        },
+        "90": {
+          "values": {
+            "local_origin": "pmc",
+            "local_disposition": "adopted",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "unknown",
+            "shared_commitment_named": "unknown",
+            "coordination_disposition": "unknown",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [
+            {
+              "field": "local_disposition",
+              "source_id": "<Y/SkIz3dlF72dEN4@redhat.com>",
+              "locator": "Original unquoted act/decision paragraph: Reports the approved CI review exception implemented at SVN r1907783. Only the project review procedure is adopted."
+            }
+          ],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        },
+        "180": {
+          "values": {
+            "local_origin": "pmc",
+            "local_disposition": "adopted",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "unknown",
+            "shared_commitment_named": "unknown",
+            "coordination_disposition": "unknown",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [
+            {
+              "field": "local_disposition",
+              "source_id": "<Y/SkIz3dlF72dEN4@redhat.com>",
+              "locator": "Original unquoted act/decision paragraph: Reports the approved CI review exception implemented at SVN r1907783. Only the project review procedure is adopted."
+            }
+          ],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        }
+      },
+      "unresolved_component_reason": "The rule change broadens a local review exception. Do not convert fewer internal project review steps into decreased Foundation\u2013project coordination burden, a PMC-to-Foundation authority shift, or actual execution of a newly permitted CI action without an identified example.",
+      "additional_source_ids": [],
+      "scope": "Formal release jurisdiction, project moderation, account-service authorization and individual membership are distinct decision classes. Local adoption or an administrative edit alone does not establish an authority shift or a cross-effect."
+    },
+    {
+      "family_id": "httpd-svn-git-migration-2023",
+      "project": "httpd",
+      "component_review_complete": true,
+      "onset_earliest": "2023-05-04",
+      "onset_latest": "2023-05-04",
+      "local_origin_reason": "The public project ballot exercises the choice of repository strategy.",
+      "observed_component_facts": [
+        {
+          "source_id": "<4458704f-dba7-439b-1e1b-ff57e0f37c4d@apache.org>",
+          "date": "2023-05-11",
+          "fact": "Reports the local vote tally, selecting GitHub over Gitbox-only/status quo. This adopts local direction, not service execution.",
+          "component_values": {
+            "local_disposition": "adopted"
+          }
+        }
+      ],
+      "horizon_components": {
+        "60": {
+          "values": {
+            "local_origin": "pmc",
+            "local_disposition": "adopted",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "unknown",
+            "shared_commitment_named": "unknown",
+            "coordination_disposition": "unknown",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [
+            {
+              "field": "local_disposition",
+              "source_id": "<4458704f-dba7-439b-1e1b-ff57e0f37c4d@apache.org>",
+              "locator": "Original unquoted act/decision paragraph: Reports the local vote tally, selecting GitHub over Gitbox-only/status quo. This adopts local direction, not service execution."
+            }
+          ],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        },
+        "90": {
+          "values": {
+            "local_origin": "pmc",
+            "local_disposition": "adopted",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "unknown",
+            "shared_commitment_named": "unknown",
+            "coordination_disposition": "unknown",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [
+            {
+              "field": "local_disposition",
+              "source_id": "<4458704f-dba7-439b-1e1b-ff57e0f37c4d@apache.org>",
+              "locator": "Original unquoted act/decision paragraph: Reports the local vote tally, selecting GitHub over Gitbox-only/status quo. This adopts local direction, not service execution."
+            }
+          ],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        },
+        "180": {
+          "values": {
+            "local_origin": "pmc",
+            "local_disposition": "adopted",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "unknown",
+            "shared_commitment_named": "unknown",
+            "coordination_disposition": "unknown",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [
+            {
+              "field": "local_disposition",
+              "source_id": "<4458704f-dba7-439b-1e1b-ff57e0f37c4d@apache.org>",
+              "locator": "Original unquoted act/decision paragraph: Reports the local vote tally, selecting GitHub over Gitbox-only/status quo. This adopts local direction, not service execution."
+            }
+          ],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        }
+      },
+      "unresolved_component_reason": "The service cutover is not demonstrated inside 180 days; later reports explicitly describe nonimplementation and renewed preparations. A passing strategy ballot is not proof of a Foundation repository migration or authorization transfer.",
+      "additional_source_ids": [],
+      "scope": "Formal release jurisdiction, project moderation, account-service authorization and individual membership are distinct decision classes. Local adoption or an administrative edit alone does not establish an authority shift or a cross-effect."
+    },
+    {
+      "family_id": "httpd-systemd-dependency-policy-2024",
+      "project": "httpd",
+      "component_review_complete": true,
+      "onset_earliest": "2024-04-02",
+      "onset_latest": "2024-04-02",
+      "local_origin_reason": "The public discussion requests a project-wide dependency/support decision.",
+      "observed_component_facts": [],
+      "horizon_components": {
+        "60": {
+          "values": {
+            "local_origin": "pmc",
+            "local_disposition": "unknown",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "unknown",
+            "shared_commitment_named": "unknown",
+            "coordination_disposition": "unknown",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        },
+        "90": {
+          "values": {
+            "local_origin": "pmc",
+            "local_disposition": "unknown",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "unknown",
+            "shared_commitment_named": "unknown",
+            "coordination_disposition": "unknown",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        },
+        "180": {
+          "values": {
+            "local_origin": "pmc",
+            "local_disposition": "unknown",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "unknown",
+            "shared_commitment_named": "unknown",
+            "coordination_disposition": "unknown",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        }
+      },
+      "unresolved_component_reason": "Support, caution and discussion of dlopen mitigation do not establish an adopted prohibition or changed project option set. The sender\u2019s xz account is not an independent primary common-shock source.",
+      "additional_source_ids": [],
+      "scope": "Formal release jurisdiction, project moderation, account-service authorization and individual membership are distinct decision classes. Local adoption or an administrative edit alone does not establish an authority shift or a cross-effect."
+    },
+    {
+      "family_id": "httpd-vulnerability-report-threshold-2025",
+      "project": "httpd",
+      "component_review_complete": true,
+      "onset_earliest": "unknown",
+      "onset_latest": "unknown",
+      "local_origin_reason": "A project advisory states its own vulnerability-reporting direction, separate from Foundation Security escalation.",
+      "observed_component_facts": [],
+      "horizon_components": {
+        "60": {
+          "values": {
+            "local_origin": "pmc",
+            "local_disposition": "unknown",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "unknown",
+            "shared_commitment_named": "unknown",
+            "coordination_disposition": "unknown",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        },
+        "90": {
+          "values": {
+            "local_origin": "pmc",
+            "local_disposition": "unknown",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "unknown",
+            "shared_commitment_named": "unknown",
+            "coordination_disposition": "unknown",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        },
+        "180": {
+          "values": {
+            "local_origin": "pmc",
+            "local_disposition": "unknown",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "unknown",
+            "shared_commitment_named": "unknown",
+            "coordination_disposition": "unknown",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        }
+      },
+      "unresolved_component_reason": "The first policy decision is undated; the retained advisory\u2019s exact original public timing is separately uncertain. Same-day website repairs do not establish policy onset. No refused individual report or Foundation veto is observed.",
+      "additional_source_ids": [],
+      "scope": "Formal release jurisdiction, project moderation, account-service authorization and individual membership are distinct decision classes. Local adoption or an administrative edit alone does not establish an authority shift or a cross-effect."
+    },
+    {
+      "family_id": "httpd-pmc-membership-removal-2024",
+      "project": "httpd",
+      "component_review_complete": true,
+      "onset_earliest": "unknown",
+      "onset_latest": "unknown",
+      "local_origin_reason": "A later public project report explicitly attributes the request to a prior PMC vote, while the Board resolution supplies the distinct corporate act.",
+      "observed_component_facts": [],
+      "horizon_components": {
+        "60": {
+          "values": {
+            "local_origin": "pmc",
+            "local_disposition": "unknown",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "unknown",
+            "shared_commitment_named": "unknown",
+            "coordination_disposition": "unknown",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        },
+        "90": {
+          "values": {
+            "local_origin": "pmc",
+            "local_disposition": "unknown",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "unknown",
+            "shared_commitment_named": "unknown",
+            "coordination_disposition": "unknown",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        },
+        "180": {
+          "values": {
+            "local_origin": "pmc",
+            "local_disposition": "unknown",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "unknown",
+            "shared_commitment_named": "unknown",
+            "coordination_disposition": "unknown",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        }
+      },
+      "unresolved_component_reason": "February21,2024BoardSpecialOrder7C unanimously removesJoeSchaefer. May15HTTPDreport says earlierPMCvote led to removal and thanksBoard; it explicitly dates member/committer removal2024-02-24. Actual earlierPMCvote/request date is not public in these sources. SeparateFebruary16postingban is not the same right or demonstrated cause. Boardresolution states no cause. Unknown initiation prevents horizon-specific disposition and before/after authority coding. No private counterpart, cause, project response, or independent external act is reconstructed.",
+      "additional_source_ids": [],
+      "scope": "Formal release jurisdiction, project moderation, account-service authorization and individual membership are distinct decision classes. Local adoption or an administrative edit alone does not establish an authority shift or a cross-effect."
+    },
+    {
+      "family_id": "httpd-commit-access-removal-2024",
+      "project": "httpd",
+      "component_review_complete": true,
+      "onset_earliest": "unknown",
+      "onset_latest": "unknown",
+      "local_origin_reason": "The project report explicitly attributes removal to its PMC vote; no date of that vote or directly inspected account-service act is supplied.",
+      "observed_component_facts": [],
+      "horizon_components": {
+        "60": {
+          "values": {
+            "local_origin": "pmc",
+            "local_disposition": "unknown",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "unknown",
+            "shared_commitment_named": "unknown",
+            "coordination_disposition": "unknown",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        },
+        "90": {
+          "values": {
+            "local_origin": "pmc",
+            "local_disposition": "unknown",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "unknown",
+            "shared_commitment_named": "unknown",
+            "coordination_disposition": "unknown",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        },
+        "180": {
+          "values": {
+            "local_origin": "pmc",
+            "local_disposition": "unknown",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "unknown",
+            "shared_commitment_named": "unknown",
+            "coordination_disposition": "unknown",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        }
+      },
+      "unresolved_component_reason": "May15,2024HTTPDreport explicitly saysJoeSchaferremovedfromcommittersandPMCmembershipon2024-02-24andnarrativesaysafterPMCvote. Exact vote/request date and directly inspected account-service execution are unavailable. BoardFebruary21resolution addressesPMCmembershiponly; it is not automatically a separate commit-access order. Unknown initiation prevents horizon-specific disposition and before/after authority coding. No private counterpart, cause, project response, or independent external act is reconstructed.",
+      "additional_source_ids": [],
+      "scope": "Formal release jurisdiction, project moderation, account-service authorization and individual membership are distinct decision classes. Local adoption or an administrative edit alone does not establish an authority shift or a cross-effect."
+    },
+    {
+      "family_id": "httpd-documentation-screenshot-permission-2023",
+      "project": "httpd",
+      "component_review_complete": true,
+      "onset_earliest": "unknown",
+      "onset_latest": "unknown",
+      "local_origin_reason": "The stated request concerns an outside book using a documentation screenshot; no PMC-origin request is identified.",
+      "observed_component_facts": [],
+      "horizon_components": {
+        "60": {
+          "values": {
+            "local_origin": "external",
+            "local_disposition": "unknown",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "unknown",
+            "shared_commitment_named": "unknown",
+            "coordination_disposition": "unknown",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        },
+        "90": {
+          "values": {
+            "local_origin": "external",
+            "local_disposition": "unknown",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "unknown",
+            "shared_commitment_named": "unknown",
+            "coordination_disposition": "unknown",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        },
+        "180": {
+          "values": {
+            "local_origin": "external",
+            "local_disposition": "unknown",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "unknown",
+            "shared_commitment_named": "unknown",
+            "coordination_disposition": "unknown",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        }
+      },
+      "unresolved_component_reason": "November15,2023BrandVPreport saysapprovedscreenshotofHTTPDdocumentationinabook. Requester/date/specificbookunknown;noHTTPDPMCrequestorresponse identified. Unknown initiation prevents horizon-specific disposition and before/after authority coding. No private counterpart, cause, project response, or independent external act is reconstructed.",
+      "additional_source_ids": [],
+      "scope": "Formal release jurisdiction, project moderation, account-service authorization and individual membership are distinct decision classes. Local adoption or an administrative edit alone does not establish an authority shift or a cross-effect."
+    },
+    {
+      "family_id": "httpd-medical-device-license-referral-2024",
+      "project": "httpd",
+      "component_review_complete": true,
+      "onset_earliest": "unknown",
+      "onset_latest": "unknown",
+      "local_origin_reason": "An external tip is referred by Legal to the project; that referral is distinct from a project-origin choice or an infringement finding.",
+      "observed_component_facts": [],
+      "horizon_components": {
+        "60": {
+          "values": {
+            "local_origin": "external",
+            "local_disposition": "unknown",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "unknown",
+            "shared_commitment_named": "unknown",
+            "coordination_disposition": "unknown",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        },
+        "90": {
+          "values": {
+            "local_origin": "external",
+            "local_disposition": "unknown",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "unknown",
+            "shared_commitment_named": "unknown",
+            "coordination_disposition": "unknown",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        },
+        "180": {
+          "values": {
+            "local_origin": "external",
+            "local_disposition": "unknown",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "unknown",
+            "shared_commitment_named": "unknown",
+            "coordination_disposition": "unknown",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        }
+      },
+      "unresolved_component_reason": "June19,2024Legalreport saysmedicaldevicelicense-infringementtipforwardedtoHTTPDandnothingheardback. Exactreport/referraldateunavailable;noacceptedclaim,infringementfindingorPMCdispositionispublic. Unknown initiation prevents horizon-specific disposition and before/after authority coding. No private counterpart, cause, project response, or independent external act is reconstructed.",
+      "additional_source_ids": [],
+      "scope": "Formal release jurisdiction, project moderation, account-service authorization and individual membership are distinct decision classes. Local adoption or an administrative edit alone does not establish an authority shift or a cross-effect."
+    },
+    {
+      "family_id": "httpd-webserver-trademark-advice-2024",
+      "project": "httpd",
+      "component_review_complete": true,
+      "onset_earliest": "unknown",
+      "onset_latest": "unknown",
+      "local_origin_reason": "The report does not identify the initial requester, exact target or first act.",
+      "observed_component_facts": [],
+      "horizon_components": {
+        "60": {
+          "values": {
+            "local_origin": "unknown",
+            "local_disposition": "unknown",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "unknown",
+            "shared_commitment_named": "unknown",
+            "coordination_disposition": "unknown",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        },
+        "90": {
+          "values": {
+            "local_origin": "unknown",
+            "local_disposition": "unknown",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "unknown",
+            "shared_commitment_named": "unknown",
+            "coordination_disposition": "unknown",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        },
+        "180": {
+          "values": {
+            "local_origin": "unknown",
+            "local_disposition": "unknown",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "unknown",
+            "shared_commitment_named": "unknown",
+            "coordination_disposition": "unknown",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        }
+      },
+      "unresolved_component_reason": "October16,2024Brandreport saysadvisedWEB SERVERonpotentialinfringements. Exacttarget,initiatingrequest/dateandrelationshipbetweenreportsareunknown. NeitherissilentlyjoinedtoscreenshotpermissionorotherMaven/HTTPDinfringements. Unknown initiation prevents horizon-specific disposition and before/after authority coding. No private counterpart, cause, project response, or independent external act is reconstructed.",
+      "additional_source_ids": [],
+      "scope": "Formal release jurisdiction, project moderation, account-service authorization and individual membership are distinct decision classes. Local adoption or an administrative edit alone does not establish an authority shift or a cross-effect."
+    },
+    {
+      "family_id": "httpd-webserver-logo-query-2025",
+      "project": "httpd",
+      "component_review_complete": true,
+      "onset_earliest": "unknown",
+      "onset_latest": "unknown",
+      "local_origin_reason": "The report does not identify the initial requester or exact first act; shared generic mark does not establish identity with an earlier case.",
+      "observed_component_facts": [],
+      "horizon_components": {
+        "60": {
+          "values": {
+            "local_origin": "unknown",
+            "local_disposition": "unknown",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "unknown",
+            "shared_commitment_named": "unknown",
+            "coordination_disposition": "unknown",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        },
+        "90": {
+          "values": {
+            "local_origin": "unknown",
+            "local_disposition": "unknown",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "unknown",
+            "shared_commitment_named": "unknown",
+            "coordination_disposition": "unknown",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        },
+        "180": {
+          "values": {
+            "local_origin": "unknown",
+            "local_disposition": "unknown",
+            "decision_right": "unknown",
+            "before_authority": "unknown",
+            "after_authority": "unknown",
+            "decision_authority_shift": "unknown",
+            "autonomy_change": "unknown",
+            "newly_feasible_action_executed": "unknown",
+            "commitment_mode": "unknown",
+            "shared_commitment_named": "unknown",
+            "coordination_disposition": "unknown",
+            "coordination_burden_change": "unknown",
+            "viability_event": "unknown"
+          },
+          "evidence": [],
+          "limit": "Only explicitly observed component events within this horizon are coded. Unknown initiation, an unadopted proposal, or a later response does not establish an earlier terminal state. No causal attribution is supplied."
+        }
+      },
+      "unresolved_component_reason": "August20,2025Brandreport saysansweredApacheWebServerlogoquery. Exacttarget,initiatingrequest/dateandrelationshipbetweenreportsareunknown. NeitherissilentlyjoinedtoscreenshotpermissionorotherMaven/HTTPDinfringements. Unknown initiation prevents horizon-specific disposition and before/after authority coding. No private counterpart, cause, project response, or independent external act is reconstructed.",
+      "additional_source_ids": [],
+      "scope": "Formal release jurisdiction, project moderation, account-service authorization and individual membership are distinct decision classes. Local adoption or an administrative edit alone does not establish an authority shift or a cross-effect."
+    }
+  ],
+  "limits": [
+    "Observed local decisions and provider edits are not automatically qualified cross-effects. Unknown horizon states are not no effect or unchanged options.",
+    "The separate central Security Team removal is excluded from the selected HTTPD relationship; personal cross-affiliation alone does not supply institutional scope."
+  ]
+}

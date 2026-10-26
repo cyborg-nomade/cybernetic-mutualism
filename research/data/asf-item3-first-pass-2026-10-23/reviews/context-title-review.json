@@ -1,0 +1,957 @@
+{
+  "title_review_ranges": {
+    "baseline_context-ant": [
+      [
+        1,
+        39
+      ]
+    ],
+    "baseline_context-httpd": [
+      [
+        1,
+        42
+      ]
+    ],
+    "baseline_context-maven": [
+      [
+        1,
+        167
+      ]
+    ],
+    "bounded_followup-ant": [
+      [
+        1,
+        104
+      ]
+    ],
+    "bounded_followup-httpd": [
+      [
+        1,
+        93
+      ]
+    ],
+    "bounded_followup-maven": [
+      [
+        1,
+        220
+      ]
+    ]
+  },
+  "scope": "Manually inspected all literal subject variants in these title aids; baseline context is not a new in-window onset or release draw. Follow-up restricted to existing families. Body reading is independent and still incomplete.",
+  "body_candidates": {
+    "ant": [
+      "af3273a96eed874d",
+      "5aaf6f1bfd028b8d",
+      "b285b9427d095bd7",
+      "eae65ede393fb282",
+      "8ef4bc8abb42be68",
+      "20ee97fd75d4f792"
+    ],
+    "httpd": [
+      "ca53aefe5b3a9020",
+      "6aad37296020be27",
+      "0cd035add6681f1c",
+      "3ac2f31c2c701e4d",
+      "be82642938257f30",
+      "0958b5efb36f58c0"
+    ],
+    "maven": [
+      "d7922a0ee1e10491",
+      "746d41c75036f857",
+      "2c287bac370849e1",
+      "57c3635bd38ce4d1",
+      "02db1ab61d200eba",
+      "002e949af2bddc13",
+      "abf2a8f1b0cf2362",
+      "b69df1bea79350cd",
+      "f019e5b174ca823d",
+      "61b60fb5b04fc9ab",
+      "1d3f0775611dbb4f",
+      "c86c5bf529bda11f",
+      "fe971c849bd69c9a",
+      "078105818a573b17",
+      "7f4d7397aec37562",
+      "377184b6f7af79e1",
+      "fd1ac89b493444d9",
+      "85c792cd9bbce20e",
+      "da3470e7506f02a8",
+      "0b68f3583aba1a64",
+      "5e12df5854eff18c",
+      "065798cb4948414d",
+      "eb4f5eee30f38705",
+      "0db7aef679a37e09",
+      "e030ebd6a5895a1a",
+      "64d4660f319e5c9b",
+      "c7f05ec34b850a71",
+      "c8c9d590667e7359",
+      "549b8e60171549c3",
+      "40ef0c9c868a5555",
+      "dd05f2bb6e196b1a",
+      "382c566de55551d0"
+    ],
+    "tomcat": [
+      "topic-00f80c6d948ee096",
+      "topic-0354061979888cbf",
+      "topic-0404f128e3f8ad16",
+      "topic-063f43aa47f12420",
+      "topic-06cee522857817a5",
+      "topic-0c5ed169c80708b1",
+      "topic-1045a8fa773ded8d",
+      "topic-12c80a708ceccc18",
+      "topic-14192667094551d3",
+      "topic-1c7babea6ef8cce8",
+      "topic-29fad783bbfc2695",
+      "topic-2e55d97a012a56c8",
+      "topic-40c933dacdf075f3",
+      "topic-49e1f99977b06239",
+      "topic-4cf02c8624deb0d9",
+      "topic-507f980f89a65efb",
+      "topic-55bdf6f032dbfd22",
+      "topic-57c935442fa8b661",
+      "topic-5b1681a904278c2a",
+      "topic-5c97a1e7cc170f8e",
+      "topic-63cb4edf6412e546",
+      "topic-6516f3be28cf506b",
+      "topic-6a721634ee633035",
+      "topic-6bde9ad8499bbe12",
+      "topic-6d98b006a00ab4c8",
+      "topic-6ed85040c8dcabfa",
+      "topic-724d56fe797ee9da",
+      "topic-726e4440a30532f3",
+      "topic-7beac12295125891",
+      "topic-7e5494b12df396fd",
+      "topic-7e86e6ce252ef8dc",
+      "topic-8065065dd49b116e",
+      "topic-88bc6bcc05692eb1",
+      "topic-8c200d18f8b16b96",
+      "topic-8e0bd6b582a10f9c",
+      "topic-8e31deb58e10aeb0",
+      "topic-8ff53238af05731f",
+      "topic-908018e738b35461",
+      "topic-940d61e2d6cff832",
+      "topic-9803fa8bfece87f0",
+      "topic-98c3066d80d01add",
+      "topic-990ae44fb93a3036",
+      "topic-9b39db7ae4c809be",
+      "topic-a0db35d2ed511b05",
+      "topic-a35f73262e46c78f",
+      "topic-a8f581f2b50e7486",
+      "topic-b4700264bd4916f1",
+      "topic-b8b7ead16342da9e",
+      "topic-b9d13e058cbaaaa9",
+      "topic-bc559918edc1fcd8",
+      "topic-bcc06e095d0dc33a",
+      "topic-c8b5a004882231c8",
+      "topic-ca05cadf8446523c",
+      "topic-caeadf800ec00010",
+      "topic-ce58e11f86c42513",
+      "topic-d4c5125c8236545b",
+      "topic-d7b375c6a5e56401",
+      "topic-dcfcc8f573717ffc",
+      "topic-ddd4b33a56abdd95",
+      "topic-dec3e52414fedcd1",
+      "topic-e0ff7260ff06e2c1",
+      "topic-e80bd1a3d5d90027",
+      "topic-ebb3afa05dfc93cd",
+      "topic-ed0da32bd8a6661a",
+      "topic-ee7286ba8d064c01",
+      "topic-f13cdea88dd3de8b",
+      "topic-f24c06830ac198bf",
+      "topic-f4b88624eeec0dc9",
+      "topic-f801bf6b1a3f823d",
+      "topic-fc75fb02cbc1321c",
+      "topic-fce7a5c1935e2c8c",
+      "topic-ff088326bed9f7e2"
+    ]
+  },
+  "findings": [
+    "Ordinary named patches, support questions, bug summaries, dependency updates, release announcements/results and baseline-only formal openings are contextual title exclusions, not primary sample candidates. Generic default changes, contribution/publication rules, overall support/technical direction and institutional accounts require bodies.",
+    "Maven baseline speed-up/restart release-process discussions and parent min/style adoption may precede later policy candidates; preserve earlier scope and dates.",
+    "Maven project-utils PR5 bot submission comments may contain contributor treatment, not automatically excluded by notification routing."
+  ],
+  "baseline_tomcat_group_read_ranges": [
+    [
+      1,
+      759
+    ]
+  ],
+  "baseline_tomcat_original_navigation_read_ranges": [
+    [
+      1,
+      125
+    ]
+  ],
+  "baseline_tomcat_grouping_scope": "759 exact-payload groups account for1009topic IDs. Only reply and exact notification branch/sequence prefixes are factored; original subjects retained in grouping JSON. Source-side ellipses not reconstructed. Body candidates pending.",
+  "baseline_tomcat_body_candidate_groups": [
+    {
+      "group_id": 4,
+      "payload": "Add a few items",
+      "topic_ids": [
+        "topic-726e4440a30532f3"
+      ],
+      "subjects": [
+        "[tomcat] branch main updated: Add a few items"
+      ],
+      "first_index_date": "2022-10-11"
+    },
+    {
+      "group_id": 10,
+      "payload": "Add current branches to GitHub actions CI",
+      "topic_ids": [
+        "topic-e80bd1a3d5d90027"
+      ],
+      "subjects": [
+        "[tomcat] branch main updated: Add current branches to GitHub actions CI"
+      ],
+      "first_index_date": "2022-10-28"
+    },
+    {
+      "group_id": 14,
+      "payload": "Add items for Tomcat 11",
+      "topic_ids": [
+        "topic-7e86e6ce252ef8dc"
+      ],
+      "subjects": [
+        "[tomcat] branch main updated: Add items for Tomcat 11"
+      ],
+      "first_index_date": "2022-10-08"
+    },
+    {
+      "group_id": 143,
+      "payload": "Checkstyle - import order",
+      "topic_ids": [
+        "topic-6d98b006a00ab4c8",
+        "topic-b4700264bd4916f1",
+        "topic-f13cdea88dd3de8b",
+        "topic-f24c06830ac198bf"
+      ],
+      "subjects": [
+        "[tomcat] branch 10.0.x updated: Checkstyle - import order",
+        "[tomcat] branch 8.5.x updated: Checkstyle - import order",
+        "[tomcat] branch 9.0.x updated: Checkstyle - import order",
+        "[tomcat] branch main updated: Checkstyle - import order"
+      ],
+      "first_index_date": "2022-10-10"
+    },
+    {
+      "group_id": 144,
+      "payload": "Code signing certificate renewal",
+      "topic_ids": [
+        "topic-bc559918edc1fcd8"
+      ],
+      "subjects": [
+        "Code signing certificate renewal",
+        "Re: Code signing certificate renewal"
+      ],
+      "first_index_date": "2022-11-13"
+    },
+    {
+      "group_id": 152,
+      "payload": "Drop Travis CI",
+      "topic_ids": [
+        "topic-063f43aa47f12420",
+        "topic-06cee522857817a5",
+        "topic-1c7babea6ef8cce8",
+        "topic-507f980f89a65efb",
+        "topic-98c3066d80d01add"
+      ],
+      "subjects": [
+        "[tomcat] branch 10.0.x updated: Drop Travis CI",
+        "[tomcat] branch 10.1.x updated: Drop Travis CI",
+        "[tomcat] branch 8.5.x updated: Drop Travis CI",
+        "[tomcat] branch 9.0.x updated: Drop Travis CI",
+        "[tomcat] branch main updated: Drop Travis CI"
+      ],
+      "first_index_date": "2022-10-28"
+    },
+    {
+      "group_id": 195,
+      "payload": "Formatting. Use 120 characters as the line length limit for code.",
+      "topic_ids": [
+        "topic-7beac12295125891",
+        "topic-7e5494b12df396fd",
+        "topic-f801bf6b1a3f823d"
+      ],
+      "subjects": [
+        "[tomcat] branch 10.0.x updated: Formatting. Use 120 characters as the line length limit for code.",
+        "[tomcat] branch 9.0.x updated: Formatting. Use 120 characters as the line length limit for code.",
+        "[tomcat] branch main updated: Formatting. Use 120 characters as the line length limit for code."
+      ],
+      "first_index_date": "2022-10-10"
+    },
+    {
+      "group_id": 198,
+      "payload": "Handling reports from oss-fuzz",
+      "topic_ids": [
+        "topic-4cf02c8624deb0d9"
+      ],
+      "subjects": [
+        "Handling reports from oss-fuzz",
+        "Re: Handling reports from oss-fuzz"
+      ],
+      "first_index_date": "2022-11-24"
+    },
+    {
+      "group_id": 199,
+      "payload": "Hi",
+      "topic_ids": [
+        "topic-ff088326bed9f7e2"
+      ],
+      "subjects": [
+        "Hi"
+      ],
+      "first_index_date": "2022-11-12"
+    },
+    {
+      "group_id": 200,
+      "payload": "I think this is only required on main",
+      "topic_ids": [
+        "topic-8e31deb58e10aeb0"
+      ],
+      "subjects": [
+        "[tomcat] branch 10.1.x updated: I think this is only required on main"
+      ],
+      "first_index_date": "2022-10-28"
+    },
+    {
+      "group_id": 219,
+      "payload": "JEP code is now in Java 20",
+      "topic_ids": [
+        "topic-dcfcc8f573717ffc"
+      ],
+      "subjects": [
+        "[tomcat] branch main updated: JEP code is now in Java 20"
+      ],
+      "first_index_date": "2022-12-08"
+    },
+    {
+      "group_id": 221,
+      "payload": "Javadoc beyond 17",
+      "topic_ids": [
+        "topic-ed0da32bd8a6661a"
+      ],
+      "subjects": [
+        "Javadoc beyond 17",
+        "Re: Javadoc beyond 17"
+      ],
+      "first_index_date": "2022-11-02"
+    },
+    {
+      "group_id": 223,
+      "payload": "Migrating away from Travis CI",
+      "topic_ids": [
+        "topic-e0ff7260ff06e2c1"
+      ],
+      "subjects": [
+        "Migrating away from Travis CI",
+        "Re: Migrating away from Travis CI"
+      ],
+      "first_index_date": "2022-10-25"
+    },
+    {
+      "group_id": 229,
+      "payload": "Next EL release will be 6.0",
+      "topic_ids": [
+        "topic-8e0bd6b582a10f9c"
+      ],
+      "subjects": [
+        "[tomcat] 06/08: Next EL release will be 6.0"
+      ],
+      "first_index_date": "2022-10-19"
+    },
+    {
+      "group_id": 230,
+      "payload": "Next JSP version will be 4.0",
+      "topic_ids": [
+        "topic-d4c5125c8236545b"
+      ],
+      "subjects": [
+        "[tomcat] 01/08: Next JSP version will be 4.0"
+      ],
+      "first_index_date": "2022-10-19"
+    },
+    {
+      "group_id": 231,
+      "payload": "Next iteration of the Servlet spec currently planned to be 6.1",
+      "topic_ids": [
+        "topic-14192667094551d3"
+      ],
+      "subjects": [
+        "[tomcat] 01/03: Next iteration of the Servlet spec currently planned to be 6.1"
+      ],
+      "first_index_date": "2022-11-18"
+    },
+    {
+      "group_id": 239,
+      "payload": "Plans for Tomcat 11 milestone releases",
+      "topic_ids": [
+        "topic-990ae44fb93a3036"
+      ],
+      "subjects": [
+        "Plans for Tomcat 11 milestone releases"
+      ],
+      "first_index_date": "2022-11-18"
+    },
+    {
+      "group_id": 240,
+      "payload": "Populate min Java version at build time",
+      "topic_ids": [
+        "topic-6ed85040c8dcabfa",
+        "topic-ee7286ba8d064c01",
+        "topic-fc75fb02cbc1321c"
+      ],
+      "subjects": [
+        "[tomcat] branch 10.1.x updated: Populate min Java version at build time",
+        "[tomcat] branch 8.5.x updated: Populate min Java version at build time",
+        "[tomcat] branch 9.0.x updated: Populate min Java version at build time"
+      ],
+      "first_index_date": "2022-10-20"
+    },
+    {
+      "group_id": 264,
+      "payload": "Remove Panama modules",
+      "topic_ids": [
+        "topic-d7b375c6a5e56401"
+      ],
+      "subjects": [
+        "[tomcat] branch 10.1.x updated: Remove Panama modules"
+      ],
+      "first_index_date": "2022-10-14"
+    },
+    {
+      "group_id": 274,
+      "payload": "Replace references to CVS with more generic language",
+      "topic_ids": [
+        "topic-2e55d97a012a56c8",
+        "topic-40c933dacdf075f3",
+        "topic-724d56fe797ee9da",
+        "topic-c8b5a004882231c8"
+      ],
+      "subjects": [
+        "[tomcat] branch 10.1.x updated: Replace references to CVS with more generic language",
+        "[tomcat] branch 8.5.x updated: Replace references to CVS with more generic language",
+        "[tomcat] branch 9.0.x updated: Replace references to CVS with more generic language",
+        "[tomcat] branch main updated: Replace references to CVS with more generic language"
+      ],
+      "first_index_date": "2022-11-30"
+    },
+    {
+      "group_id": 276,
+      "payload": "Revert accidental commit",
+      "topic_ids": [
+        "topic-00f80c6d948ee096",
+        "topic-55bdf6f032dbfd22",
+        "topic-a8f581f2b50e7486"
+      ],
+      "subjects": [
+        "[tomcat] branch 10.1.x updated: Revert accidental commit",
+        "[tomcat] branch 9.0.x updated: Revert accidental commit",
+        "[tomcat] branch main updated: Revert accidental commit"
+      ],
+      "first_index_date": "2022-11-18"
+    },
+    {
+      "group_id": 277,
+      "payload": "Security manager support",
+      "topic_ids": [
+        "topic-63cb4edf6412e546"
+      ],
+      "subjects": [
+        "Re: Security manager support"
+      ],
+      "first_index_date": "2022-10-02"
+    },
+    {
+      "group_id": 284,
+      "payload": "Status of 10.0.x",
+      "topic_ids": [
+        "topic-88bc6bcc05692eb1"
+      ],
+      "subjects": [
+        "RE: Status of 10.0.x",
+        "Re: Status of 10.0.x"
+      ],
+      "first_index_date": "2022-10-26"
+    },
+    {
+      "group_id": 285,
+      "payload": "Support for OpenSSL 3.0 in TOMCAT",
+      "topic_ids": [
+        "topic-5c97a1e7cc170f8e"
+      ],
+      "subjects": [
+        "RE: Support for OpenSSL 3.0 in TOMCAT",
+        "Re: Support for OpenSSL 3.0 in TOMCAT",
+        "Support for OpenSSL 3.0 in TOMCAT"
+      ],
+      "first_index_date": "2022-11-22"
+    },
+    {
+      "group_id": 305,
+      "payload": "Tomcat 11.0.x implements Servlet 6.1",
+      "topic_ids": [
+        "topic-a0db35d2ed511b05"
+      ],
+      "subjects": [
+        "[tomcat] branch main updated: Tomcat 11.0.x implements Servlet 6.1"
+      ],
+      "first_index_date": "2022-11-21"
+    },
+    {
+      "group_id": 317,
+      "payload": "Update README",
+      "topic_ids": [
+        "topic-8065065dd49b116e"
+      ],
+      "subjects": [
+        "[tomcat] branch main updated: Update README"
+      ],
+      "first_index_date": "2022-10-14"
+    },
+    {
+      "group_id": 320,
+      "payload": "Update build.xml - remove not available path.",
+      "topic_ids": [
+        "topic-12c80a708ceccc18",
+        "topic-57c935442fa8b661",
+        "topic-8c200d18f8b16b96",
+        "topic-9b39db7ae4c809be"
+      ],
+      "subjects": [
+        "[tomcat] branch 10.1.x updated: Update build.xml - remove not available path.",
+        "[tomcat] branch 8.5.x updated: Update build.xml - remove not available path.",
+        "[tomcat] branch 9.0.x updated: Update build.xml - remove not available path.",
+        "[tomcat] branch main updated: Update build.xml - remove not available path."
+      ],
+      "first_index_date": "2022-12-09"
+    },
+    {
+      "group_id": 336,
+      "payload": "Update to use new code signing cert",
+      "topic_ids": [
+        "topic-a35f73262e46c78f",
+        "topic-bcc06e095d0dc33a",
+        "topic-ce58e11f86c42513",
+        "topic-ebb3afa05dfc93cd"
+      ],
+      "subjects": [
+        "[tomcat] branch 10.1.x updated: Update to use new code signing cert",
+        "[tomcat] branch 8.5.x updated: Update to use new code signing cert",
+        "[tomcat] branch 9.0.x updated: Update to use new code signing cert",
+        "[tomcat] branch main updated: Update to use new code signing cert"
+      ],
+      "first_index_date": "2022-11-14"
+    },
+    {
+      "group_id": 340,
+      "payload": "Updates for javadoc 18+",
+      "topic_ids": [
+        "topic-1045a8fa773ded8d"
+      ],
+      "subjects": [
+        "[tomcat-jakartaee-migration] branch main updated: Updates for javadoc 18+"
+      ],
+      "first_index_date": "2022-11-03"
+    },
+    {
+      "group_id": 357,
+      "payload": "[ANN] End of life for Apache Tomcat 8.5.x",
+      "topic_ids": [
+        "topic-0404f128e3f8ad16"
+      ],
+      "subjects": [
+        "[ANN] End of life for Apache Tomcat 8.5.x"
+      ],
+      "first_index_date": "2022-12-13"
+    },
+    {
+      "group_id": 443,
+      "payload": "[Bug 66381] New: Apache Tomcat on IRC: Refers to wrong channel and/or broken",
+      "topic_ids": [
+        "topic-6bde9ad8499bbe12"
+      ],
+      "subjects": [
+        "[Bug 66381] New: Apache Tomcat on IRC: Refers to wrong channel and/or broken"
+      ],
+      "first_index_date": "2022-12-08"
+    },
+    {
+      "group_id": 456,
+      "payload": "[DISCUSS] EOL date for 8.5.x",
+      "topic_ids": [
+        "topic-49e1f99977b06239"
+      ],
+      "subjects": [
+        "Re: [DISCUSS] EOL date for 8.5.x",
+        "[DISCUSS] EOL date for 8.5.x"
+      ],
+      "first_index_date": "2022-10-07"
+    },
+    {
+      "group_id": 507,
+      "payload": "[GitHub] [tomcat] aooohan closed pull request #568: 10.1.x",
+      "topic_ids": [
+        "topic-5b1681a904278c2a"
+      ],
+      "subjects": [
+        "[GitHub] [tomcat] aooohan closed pull request #568: 10.1.x"
+      ],
+      "first_index_date": "2022-11-14"
+    },
+    {
+      "group_id": 510,
+      "payload": "[GitHub] [tomcat] aooohan commented on pull request #523: Polished.",
+      "topic_ids": [
+        "topic-908018e738b35461"
+      ],
+      "subjects": [
+        "[GitHub] [tomcat] aooohan commented on pull request #523: Polished."
+      ],
+      "first_index_date": "2022-10-08"
+    },
+    {
+      "group_id": 522,
+      "payload": "[GitHub] [tomcat] boahc077 opened a new pull request, #554: ci: add minimum GitHub token permissions for workflow",
+      "topic_ids": [
+        "topic-0c5ed169c80708b1"
+      ],
+      "subjects": [
+        "[GitHub] [tomcat] boahc077 opened a new pull request, #554: ci: add minimum GitHub token permissions for workflow"
+      ],
+      "first_index_date": "2022-10-05"
+    },
+    {
+      "group_id": 523,
+      "payload": "[GitHub] [tomcat] dhirajk4 opened a new pull request, #574: Update web.xml",
+      "topic_ids": [
+        "topic-caeadf800ec00010"
+      ],
+      "subjects": [
+        "[GitHub] [tomcat] dhirajk4 opened a new pull request, #574: Update web.xml"
+      ],
+      "first_index_date": "2022-12-28"
+    },
+    {
+      "group_id": 535,
+      "payload": "[GitHub] [tomcat] markt-asf closed pull request #554: ci: add minimum GitHub token permissions for workflow",
+      "topic_ids": [
+        "topic-fce7a5c1935e2c8c"
+      ],
+      "subjects": [
+        "[GitHub] [tomcat] markt-asf closed pull request #554: ci: add minimum GitHub token permissions for workflow"
+      ],
+      "first_index_date": "2022-10-05"
+    },
+    {
+      "group_id": 542,
+      "payload": "[GitHub] [tomcat] markt-asf closed pull request #574: Update web.xml",
+      "topic_ids": [
+        "topic-9803fa8bfece87f0"
+      ],
+      "subjects": [
+        "[GitHub] [tomcat] markt-asf closed pull request #574: Update web.xml"
+      ],
+      "first_index_date": "2022-12-28"
+    },
+    {
+      "group_id": 544,
+      "payload": "[GitHub] [tomcat] markt-asf commented on pull request #554: ci: add minimum GitHub token permissions for workflow",
+      "topic_ids": [
+        "topic-b8b7ead16342da9e"
+      ],
+      "subjects": [
+        "[GitHub] [tomcat] markt-asf commented on pull request #554: ci: add minimum GitHub token permissions for workflow"
+      ],
+      "first_index_date": "2022-10-05"
+    },
+    {
+      "group_id": 552,
+      "payload": "[GitHub] [tomcat] markt-asf commented on pull request #574: Update web.xml",
+      "topic_ids": [
+        "topic-b9d13e058cbaaaa9"
+      ],
+      "subjects": [
+        "[GitHub] [tomcat] markt-asf commented on pull request #574: Update web.xml"
+      ],
+      "first_index_date": "2022-12-28"
+    },
+    {
+      "group_id": 562,
+      "payload": "[GitHub] [tomcat] suamly2021 opened a new pull request, #568: 10.1.x",
+      "topic_ids": [
+        "topic-29fad783bbfc2695"
+      ],
+      "subjects": [
+        "[GitHub] [tomcat] suamly2021 opened a new pull request, #568: 10.1.x"
+      ],
+      "first_index_date": "2022-11-14"
+    },
+    {
+      "group_id": 564,
+      "payload": "[GitHub] [tomcat] vassilismourikis opened a new pull request, #567: conf permissions in Dockerfile",
+      "topic_ids": [
+        "topic-f4b88624eeec0dc9"
+      ],
+      "subjects": [
+        "[GitHub] [tomcat] vassilismourikis opened a new pull request, #567: conf permissions in Dockerfile"
+      ],
+      "first_index_date": "2022-11-14"
+    },
+    {
+      "group_id": 653,
+      "payload": "conf permissions in Dockerfile",
+      "topic_ids": [
+        "topic-8ff53238af05731f",
+        "topic-ca05cadf8446523c"
+      ],
+      "subjects": [
+        "[tomcat] branch 10.1.x updated: conf permissions in Dockerfile",
+        "[tomcat] branch main updated: conf permissions in Dockerfile"
+      ],
+      "first_index_date": "2022-11-17"
+    },
+    {
+      "group_id": 674,
+      "payload": "svn commit: r1904816 - in /tomcat/site/trunk: docs/whichversion.html xdocs/whichversion.xml",
+      "topic_ids": [
+        "topic-6a721634ee633035"
+      ],
+      "subjects": [
+        "svn commit: r1904816 - in /tomcat/site/trunk: docs/whichversion.html xdocs/whichversion.xml"
+      ],
+      "first_index_date": "2022-10-24"
+    },
+    {
+      "group_id": 676,
+      "payload": "svn commit: r1904954 - in /tomcat/site/trunk: docs/security-10.html docs/tomcat-10.0-eol.html docs/whichversion.html xdocs/security-10.xml xdocs/tomcat-10.0-eol.xml xdocs/whichversion.xml",
+      "topic_ids": [
+        "topic-6516f3be28cf506b"
+      ],
+      "subjects": [
+        "Re: svn commit: r1904954 - in /tomcat/site/trunk: docs/security-10.html docs/tomcat-10.0-eol.html docs/whichversion.html xdocs/security-10.xml xdocs/tomcat-10.0-eol.xml xdocs/whichversion.xml",
+        "svn commit: r1904954 - in /tomcat/site/trunk: docs/security-10.html docs/tomcat-10.0-eol.html docs/whichversion.html xdocs/security-10.xml xdocs/tomcat-10.0-eol.xml xdocs/whichversion.xml"
+      ],
+      "first_index_date": "2022-10-31"
+    },
+    {
+      "group_id": 679,
+      "payload": "svn commit: r1905034 - in /tomcat/site/trunk: docs/getinvolved.html xdocs/getinvolved.xml",
+      "topic_ids": [
+        "topic-940d61e2d6cff832"
+      ],
+      "subjects": [
+        "svn commit: r1905034 - in /tomcat/site/trunk: docs/getinvolved.html xdocs/getinvolved.xml"
+      ],
+      "first_index_date": "2022-11-03"
+    },
+    {
+      "group_id": 703,
+      "payload": "svn commit: r1905770 - in /tomcat/site/trunk: build.properties.default build.xml",
+      "topic_ids": [
+        "topic-dec3e52414fedcd1"
+      ],
+      "subjects": [
+        "svn commit: r1905770 - in /tomcat/site/trunk: build.properties.default build.xml"
+      ],
+      "first_index_date": "2022-12-05"
+    },
+    {
+      "group_id": 715,
+      "payload": "svn commit: r1905773 - in /tomcat/site/trunk: docs/migration-11.0.html xdocs/migration-11.0.xml",
+      "topic_ids": [
+        "topic-ddd4b33a56abdd95"
+      ],
+      "subjects": [
+        "svn commit: r1905773 - in /tomcat/site/trunk: docs/migration-11.0.html xdocs/migration-11.0.xml"
+      ],
+      "first_index_date": "2022-12-05"
+    },
+    {
+      "group_id": 719,
+      "payload": "svn commit: r1905967 - in /tomcat/site/trunk: docs/tomcat-85-eol.html docs/whichversion.html xdocs/tomcat-85-eol.xml xdocs/whichversion.xml",
+      "topic_ids": [
+        "topic-0354061979888cbf"
+      ],
+      "subjects": [
+        "svn commit: r1905967 - in /tomcat/site/trunk: docs/tomcat-85-eol.html docs/whichversion.html xdocs/tomcat-85-eol.xml xdocs/whichversion.xml"
+      ],
+      "first_index_date": "2022-12-13"
+    }
+  ],
+  "bounded_followup_candidates": {
+    "ant": [
+      "69ac2001fe160b21",
+      "28ef146bd232a4a5",
+      "32d019fe44623b8d",
+      "87921d44f519c491",
+      "70028d6a19fd2478",
+      "43401f302b4479ee"
+    ],
+    "httpd": [
+      "25ec9a12d91a55a9"
+    ],
+    "maven": [
+      "9863ca2ea6b9db6d",
+      "67f37e733f21938d",
+      "95cb26f5874487c8",
+      "307a54321bcfc2bf",
+      "8205b7b4cad1ab99"
+    ],
+    "tomcat": [
+      "topic-18ba371dc9c39577",
+      "topic-32838debb5f099b7",
+      "topic-42623887cef35723",
+      "topic-8a5f45cc69355653",
+      "topic-8e793d967f62861e",
+      "topic-a9e87c7de48c176f",
+      "topic-cc0f260df41da293",
+      "topic-d274ded22eff835c",
+      "topic-db949fb35a47f59c",
+      "topic-f39e61e600f405f8",
+      "topic-fc6294f6507444b1"
+    ]
+  },
+  "followup_scope_notes": [
+    "New2026onsets and ordinary new releases are not added to the primary frame. Retirements/logo/funding/new service proposals need linkage and horizon checks before any body follow-up; similarly named later initiatives are not presumed same deliverable.",
+    "Ant May/JuneSBOM implementation may follow November2025 proposal, but dates must be evaluated against each independent60/90/180-day horizon. Do not forward-fill June releases into earlier horizons.",
+    "HTTPD and Maven FebruaryGHAarchitecture replies likely continue December2025 provider enablement; preserve same family rather than independently count cross-list replies.",
+    "Maven JDeps2026result continues December2025formal opening. New2026release openings are out-of-window. FebruaryATRtrial may be follow-up to prior2025direction; linkage remains uncertain.",
+    "Tomcat2026 release openings do not create new eligible onsets. January Native1.3.2/1.3.3 and2.0.11 cancellations and replacement1.3.4/2.0.12 votes/announcements may continue December2025 formal release deliverables; complete bodies queued before family grouping.",
+    "Tomcat2026 LTS/EOL, AI guardrail, branch-protection, signing, logo and ATR titles either open new2026 proposals or are later than180days from known2025/earlier corresponding onset. Retain as navigation; do not forward-fill outcomes or infer silence as failure. Generic Progress update and Native EOL question receive body checks for earlier linkage."
+  ],
+  "followup_tomcat_group_read_ranges": [
+    [
+      1,
+      2720
+    ]
+  ],
+  "followup_tomcat_grouping_scope": "2720 exact-payload groups inspected, accounting for4655 topic IDs. Only reply and exact commit branch/sequence prefixes factored; every original title retained in JSON. Generic-only update hashes remain navigation, not body or decision evidence.",
+  "followup_tomcat_body_candidate_groups": [
+    {
+      "group_id": 1530,
+      "payload": "Official EOL for older tcnative branches?",
+      "topic_ids": [
+        "topic-cc0f260df41da293"
+      ],
+      "subjects": [
+        "Official EOL for older tcnative branches?",
+        "Re: Official EOL for older tcnative branches?"
+      ],
+      "first_index_date": "2026-01-14"
+    },
+    {
+      "group_id": 1557,
+      "payload": "Progress update",
+      "topic_ids": [
+        "topic-32838debb5f099b7"
+      ],
+      "subjects": [
+        "Progress update",
+        "Re: Progress update"
+      ],
+      "first_index_date": "2026-01-14"
+    },
+    {
+      "group_id": 1979,
+      "payload": "[ANN] Apache Tomcat Native 1.3.4 released",
+      "topic_ids": [
+        "topic-8e793d967f62861e"
+      ],
+      "subjects": [
+        "[ANN] Apache Tomcat Native 1.3.4 released"
+      ],
+      "first_index_date": "2026-01-12"
+    },
+    {
+      "group_id": 1983,
+      "payload": "[ANN] Apache Tomcat Native 2.0.12 released",
+      "topic_ids": [
+        "topic-a9e87c7de48c176f"
+      ],
+      "subjects": [
+        "[ANN] Apache Tomcat Native 2.0.12 released"
+      ],
+      "first_index_date": "2026-01-12"
+    },
+    {
+      "group_id": 2485,
+      "payload": "[VOTE] Release Apache Tomcat Native 1.3.3",
+      "topic_ids": [
+        "topic-18ba371dc9c39577"
+      ],
+      "subjects": [
+        "Re: [VOTE] Release Apache Tomcat Native 1.3.3",
+        "[VOTE] Release Apache Tomcat Native 1.3.3"
+      ],
+      "first_index_date": "2026-01-06"
+    },
+    {
+      "group_id": 2486,
+      "payload": "[VOTE] Release Apache Tomcat Native 1.3.4",
+      "topic_ids": [
+        "topic-db949fb35a47f59c"
+      ],
+      "subjects": [
+        "Re: [VOTE] Release Apache Tomcat Native 1.3.4",
+        "[VOTE] Release Apache Tomcat Native 1.3.4"
+      ],
+      "first_index_date": "2026-01-07"
+    },
+    {
+      "group_id": 2491,
+      "payload": "[VOTE] Release Apache Tomcat Native 2.0.12",
+      "topic_ids": [
+        "topic-fc6294f6507444b1"
+      ],
+      "subjects": [
+        "Re: [VOTE] Release Apache Tomcat Native 2.0.12",
+        "[VOTE] Release Apache Tomcat Native 2.0.12"
+      ],
+      "first_index_date": "2026-01-06"
+    },
+    {
+      "group_id": 2501,
+      "payload": "[VOTE][CANCELLED] Release Apache Tomcat Native 1.3.2",
+      "topic_ids": [
+        "topic-42623887cef35723"
+      ],
+      "subjects": [
+        "[VOTE][CANCELLED] Release Apache Tomcat Native 1.3.2"
+      ],
+      "first_index_date": "2026-01-05"
+    },
+    {
+      "group_id": 2502,
+      "payload": "[VOTE][CANCELLED] Release Apache Tomcat Native 1.3.3",
+      "topic_ids": [
+        "topic-8a5f45cc69355653"
+      ],
+      "subjects": [
+        "[VOTE][CANCELLED] Release Apache Tomcat Native 1.3.3"
+      ],
+      "first_index_date": "2026-01-07"
+    },
+    {
+      "group_id": 2503,
+      "payload": "[VOTE][CANCELLED] Release Apache Tomcat Native 2.0.11",
+      "topic_ids": [
+        "topic-d274ded22eff835c"
+      ],
+      "subjects": [
+        "[VOTE][CANCELLED] Release Apache Tomcat Native 2.0.11"
+      ],
+      "first_index_date": "2026-01-05"
+    },
+    {
+      "group_id": 2522,
+      "payload": "[VOTE][RESULT] Release Apache Tomcat Native 2.0.12",
+      "topic_ids": [
+        "topic-f39e61e600f405f8"
+      ],
+      "subjects": [
+        "[VOTE][RESULT] Release Apache Tomcat Native 2.0.12"
+      ],
+      "first_index_date": "2026-01-12"
+    }
+  ]
+}

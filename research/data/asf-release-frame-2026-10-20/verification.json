@@ -1,0 +1,16 @@
+{
+  "candidate_originals": 724,
+  "canonical_release_families": 647,
+  "families_by_project": {
+    "ant": 5,
+    "httpd": 12,
+    "maven": 475,
+    "tomcat": 155
+  },
+  "first_pass_locked_at": null,
+  "formal_opening_originals": 698,
+  "publication_and_authority_verification_complete": false,
+  "selected_nonempty_strata": 36,
+  "status": "verified_release_frame_only",
+  "strata": 48
+}

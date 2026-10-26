@@ -1,0 +1,9 @@
+{
+  "baseline_families": 36,
+  "complete_infra_policy_versions": 24,
+  "first_pass_complete": false,
+  "first_pass_locked_at": null,
+  "reviewed_export_occurrences": 458,
+  "reviewed_original_variants": 458,
+  "status": "evidence_review_integrity_only"
+}

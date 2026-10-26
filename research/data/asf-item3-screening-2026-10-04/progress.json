@@ -1,0 +1,105 @@
+{
+  "status": "incomplete",
+  "baseline_selected": false,
+  "first_pass_locked_at": null,
+  "complete_subject_indices_screened": false,
+  "board_and_officer_reports_screened": false,
+  "all_required_records_coded": false,
+  "full_topic_title_review_ranges": {
+    "ant": [
+      [
+        1,
+        137
+      ]
+    ],
+    "httpd": [
+      [
+        1,
+        424
+      ]
+    ],
+    "maven": [
+      [
+        1,
+        2004
+      ]
+    ],
+    "tomcat": [
+      [
+        1,
+        3450
+      ]
+    ]
+  },
+  "other_topic_title_review_counts": {
+    "ant": 68,
+    "httpd": 163,
+    "maven": 505,
+    "tomcat": 388
+  },
+  "mechanical_topic_title_review_counts": {
+    "ant": 137,
+    "httpd": 2,
+    "maven": 58,
+    "tomcat": 11987
+  },
+  "new_body_reviewed_topics": 539,
+  "new_reviewed_export_variants": 2473,
+  "fully_read_board_records": [
+    "board-2022-12-21.txt",
+    "board_minutes_2022_10_19.txt",
+    "board_minutes_2022_11_16.txt",
+    "board_minutes_2023_01_18.txt",
+    "board_minutes_2023_02_15.txt",
+    "board_minutes_2023_03_22.txt",
+    "board_minutes_2023_04_19.txt",
+    "board_minutes_2023_05_17.txt",
+    "board_minutes_2023_06_21.txt",
+    "board_minutes_2023_07_19.txt",
+    "board_minutes_2023_08_16.txt",
+    "board_minutes_2023_09_20.txt",
+    "board_minutes_2023_10_18.txt",
+    "board_minutes_2023_11_15.txt",
+    "board_minutes_2023_12_20.txt",
+    "board_minutes_2024_01_17.txt",
+    "board_minutes_2024_02_21.txt",
+    "board_minutes_2024_03_20.txt",
+    "board_minutes_2024_04_17.txt",
+    "board_minutes_2024_05_15.txt",
+    "board_minutes_2024_06_19.txt",
+    "board_minutes_2024_07_17.txt",
+    "board_minutes_2024_08_21.txt",
+    "board_minutes_2024_09_18.txt",
+    "board_minutes_2024_10_16.txt",
+    "board_minutes_2024_11_20.txt",
+    "board_minutes_2024_12_18.txt",
+    "board_minutes_2025_01_15.txt",
+    "board_minutes_2025_02_19.txt",
+    "board_minutes_2025_03_19.txt",
+    "board_minutes_2025_04_16.txt",
+    "board_minutes_2025_05_21.txt",
+    "board_minutes_2025_06_18.txt",
+    "board_minutes_2025_07_16.txt",
+    "board_minutes_2025_08_20.txt",
+    "board_minutes_2025_08_25.txt",
+    "board_minutes_2025_09_24.txt",
+    "board_minutes_2025_10_15.txt",
+    "board_minutes_2025_11_19.txt",
+    "board_minutes_2025_12_17.txt"
+  ],
+  "fully_read_board_actions_without_meeting": [
+    "research/data/asf-access-2026-09-21/sources/board_minutes_2025_08_24.png"
+  ],
+  "pending": [
+    "baseline and follow-up subject indices",
+    "remaining eligible and ambiguous bodies",
+    "remaining Board/officer/cohort reports",
+    "dated role and publication checks",
+    "references and bounded follow-up",
+    "complete release frame and deterministic draw",
+    "component, shock, rival and contrast coding",
+    "audit supplement",
+    "valid registered first-pass lock and blank recode bundle"
+  ],
+  "scope": "Working continuation within PR #19. No new owner review checkpoint requested."
+}
