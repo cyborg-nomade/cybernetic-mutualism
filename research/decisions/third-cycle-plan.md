@@ -5,7 +5,7 @@
 - **Entry state:** Accepted [second-cycle synthesis](second-cycle-synthesis.md);
   PR #15 merged at `360fa99903a12315446b10766c7d88af11b20979`.
 - **Scope:** The registered ASF comparison, beginning with executable tooling.
-- **Current state:** Items 1–4 are accepted. The owner approved item 3 and
+- **Current state:** All five items are accepted; the third cycle is complete. The owner approved item 3 and
   authorized its merge on 2026-10-26. [PR #19](https://github.com/cyborg-nomade/cybernetic-mutualism/pull/19)
   was merged at `c592e40a24184ee979e76dbd2950a8f8599cc600`, preserving reviewed
   head `46d08fe31b33f5b2ad1709a422719bd501ed3bb2`; both validation runs passed.
@@ -16,8 +16,10 @@
   records G1 passing, G2 failing at 60/90/180 days, and G3 not reached. The owner
   confirmed abstention on 2026-11-10 before substantive resumption. All claims
   remain C1; CM-04's observational mapping is narrowed for this design.
-  Item 5's [synthesis](third-cycle-synthesis.md) is complete for owner review;
-  the cycle remains active until that synthesis is accepted.
+  Item 5's [synthesis](third-cycle-synthesis.md) was accepted through
+  [PR #21](https://github.com/cyborg-nomade/cybernetic-mutualism/pull/21), merged
+  at `793ad8596ed6c184508b63708bf64768be43fa67` on 2026-11-10. Both CI runs
+  passed; CodeRabbit skipped automatic review. This acceptance closes the cycle.
 - **Accepted first-pass checkpoint:** `98561adb68ced781767ce4c4dc43143ebdc6a88a`,
   accepted through [PR #18](https://github.com/cyborg-nomade/cybernetic-mutualism/pull/18)
   and merged at `bec2d0787f7fd5772ca8aeae11ff4a7892b46a7a`. This is a staged
@@ -117,17 +119,16 @@ other claims outside the registered ASF decisions remain unchanged.
 
 ## Conclusions and Next Steps
 
-Items 1–4 are accepted and merged. Access and executable integrity pass, while
-receiver and time-order observability fails G2 in both directions at all
-horizons. G3, initial agreement, reconciliation and downstream causal
+All five items are accepted and merged; the third cycle is complete. Access
+and executable integrity pass, while receiver and time-order observability
+fails G2 in both directions at all horizons. G3 and downstream causal
 comparisons are unreached. All claims remain C1; CM-04's empirical mapping is
 narrowed for this design with its earlier formal-model narrowing retained.
-The accepted input, machine stop report and frozen implementation remain unchanged.
+The accepted inputs, machine report and frozen implementation remain unchanged.
 
-The [item 5 synthesis](third-cycle-synthesis.md) applies every cycle-completion
-criterion and proposes closure through this registered stop. Owner acceptance
-is the remaining close condition. Its next proposed discriminator is a
-separately registered prospective observability pilot, beginning with a writing
-and design item. New collection and any conditional capture software need their
-own reviewable scope. The cycle remains active, and no next cycle, publication
-or deferred print/Reformation collection is activated here.
+The accepted [synthesis](third-cycle-synthesis.md) applies every completion
+criterion and selects observability as the next empirical discriminator. At
+the owner's request, the [fourth-cycle draft](fourth-cycle-plan.md) now pairs
+that pilot with two full Roadmap essays. Review of that plan is the next action.
+Its proposed first item is writing/source research; new pilot intake, software,
+publication and cycle activation are separate from this completed cycle.

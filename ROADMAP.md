@@ -690,7 +690,7 @@ Targeted historical follow-up remains queued; neither evidence work nor a new
 publication begins with this synthesis. The next cycle should receive its own
 scope and decision criteria before activation.
 
-## Third Research Cycle — Active
+## Third Research Cycle — Complete
 
 **Activated:** 2026-09-16 on the owner's instruction, in the dedicated “3rd
 Cycle” task. The [activation and decision plan](research/decisions/third-cycle-plan.md)
@@ -726,12 +726,35 @@ merged on 2026-11-10. Access and executable integrity pass; identifiability
 fails at all horizons; G3 and causal comparisons are not reached. All claims
 remain C1, with CM-04's observational mapping narrowed for this design.
 
-The [item 5 synthesis](research/decisions/third-cycle-synthesis.md) is complete
-for review and proposes closing the cycle through this registered stop. The
-cycle remains active until owner acceptance. The next proposed item is writing
-a prospective observability-pilot registration to test whether a fixed new
-intake can yield independently dated receiving acts across the eligible receiver
-set. Any capture software would be a conditional, separate code item; executing
-the pilot would be research/evidence work. No fourth cycle or collection is
-activated by this proposal. The print/Reformation follow-up, wider revision
-queue and publication remain deferred.
+The [item 5 synthesis](research/decisions/third-cycle-synthesis.md) was accepted
+through [PR #21](https://github.com/cyborg-nomade/cybernetic-mutualism/pull/21),
+merged on 2026-11-10, closing the third cycle through the registered G2 stop.
+All five deliverables are accepted. Coding stability and causal comparisons
+remain unreached; cycle closure supplies no new evidence or confidence increase.
+
+## Fourth Research Cycle — Proposed
+
+At the owner's request, the [fourth-cycle draft](research/decisions/fourth-cycle-plan.md)
+pairs the prospective observability pilot with concrete progress in the
+publication architecture. This is a proposal for review, not an activated cycle.
+The required writing outputs are full, source-checked drafts of **“Marx against
+the Philosophy of Misery”** and **“the base has a topology.”** Start with the
+Marx/Proudhon essay; the second essay does not depend on a successful pilot.
+
+The proposed items are:
+
+1. **Writing/source research:** the paired Marx/Proudhon essay.
+2. **Writing/research design:** preregister a finite observability pilot.
+3. **Code, conditional:** prepare capture/validation tools only if existing
+   tools do not satisfy the accepted design; otherwise record the no-code path.
+4. **Research/evidence:** execute the pilot and report its reached feasibility
+   result, including low observability, insufficient intake or a registered stop.
+5. **Writing/source research:** “the base has a topology,” independently
+   reviewable while the pilot's timing permits it.
+6. **Writing:** synthesize both strands and select the next discriminator.
+
+Cycle completion requires both accepted essay drafts and the pilot's registered
+reporting path, followed by an accepted synthesis. Live publication is a
+separate owner decision. The plan fixes no intake start date or schedule and
+starts no new source collection. The deferred historical comparison and wider
+revision queue remain outside the proposed cycle's scope.

@@ -204,8 +204,9 @@ infrastructure and narrows CM-04's empirical mapping for this design; all
 claim confidence remains C1 and the earlier formal-model narrowing stands.
 
 The owner accepted this result and authorized its merge on November 10.
-Item 5, the [third-cycle synthesis](../decisions/third-cycle-synthesis.md), now
-applies the stop and proposes the next discriminator for separate review.
+Item 5, the accepted [third-cycle synthesis](../decisions/third-cycle-synthesis.md),
+now closes the cycle through PR #21 and carries its bounded claim consequences.
+The next plan is the [fourth-cycle draft](../decisions/fourth-cycle-plan.md).
 The continuation schedule was deleted when item 4 became reviewable. Its
 accepted data, report and frozen executable remain unchanged. No new evidence
 collection or causal comparison follows from this administrative closeout.

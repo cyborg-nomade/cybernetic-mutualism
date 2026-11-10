@@ -1,8 +1,13 @@
 # Third Research Cycle Synthesis and Decision Record
 
 - **Proposed:** 2026-11-10.
-- **Status:** Item 5 complete for owner review; cycle closure proposed, awaiting
-  owner acceptance. Items 1–4 are accepted and merged.
+- **Accepted:** 2026-11-10, following owner review and approval of
+  [PR #21](https://github.com/cyborg-nomade/cybernetic-mutualism/pull/21).
+- **Status:** Accepted; third cycle complete. All five items are accepted.
+- **Merge:** `793ad8596ed6c184508b63708bf64768be43fa67`, preserving reviewed head
+  `21e0718a74bb12cd79521f7982aa7aa536ba30c8`. Both CI runs passed; no unresolved
+  review threads remained. Approval was given in the coordinating chat;
+  CodeRabbit skipped automatic review.
 - **Scope:** The five deliverables in the
   [third-cycle plan](third-cycle-plan.md), including the registered ASF G2 stop.
 - **Accepted empirical result:** [PR #20](https://github.com/cyborg-nomade/cybernetic-mutualism/pull/20),
@@ -10,7 +15,7 @@
   `3d668d83b899d6b7875c0ec83e1e683e0f362bfb`, preserving reviewed head
   `75c6e4b02d0c3b527cd5a522d7d4290728de80a7`. Both validation runs passed.
   CodeRabbit skipped automatic review; its status supplies no additional review.
-- **Proposed decision:** Close this cycle through the registered identifiability
+- **Decision:** Close this cycle through the registered identifiability
   stop. Retain every claim at C1, narrow CM-04's observational mapping for this
   design and propose a separately registered observability pilot as the next
   empirical discriminator. No new collection or next-cycle activation occurs
@@ -27,7 +32,8 @@ at G2 at all three horizons. They supply a completed research path with a
 substantive measurement consequence, while leaving the causal claims unresolved.
 
 This synthesis applies the cycle's declared completion criteria to the accepted
-artifacts. Acceptance of item 4 does not itself accept this cycle-close proposal.
+artifacts. The owner's November 10 acceptance of PR #21 satisfies the remaining
+cycle-close condition; acceptance of item 4 alone had not done so.
 
 | Declared criterion | Accepted evidence and adjudication | Decision |
 | --- | --- | --- |
@@ -35,7 +41,7 @@ artifacts. Acceptance of item 4 does not itself accept this cycle-close proposal
 | Apply gates in order and publish a registered failure | G1 passes. G2 fails in both directions at 60, 90 and 180 days. Available descriptive records and missingness are published. | Met through the G2 stop. G3 and later causal comparisons are unreached, not measured failures. |
 | Report the primary and independent sensitivity paths | The 90-day primary and 60/180-day sensitivity paths all stop at G2 with the same opportunity denominators and classifiable-family counts. | Met for the reached path. The stop is unchanged across horizons; causal-category timing sensitivity is unassessed. |
 | Apply bounded claim consequences | The item 4 report retains CM-01, CM-12 and CM-13 at C1 without causal direction and narrows CM-04's empirical mapping under its G1-pass/G2-fail rule. | Met. No numerical-model validation, confidence increase or selected causal account. |
-| State programme consequences and choose the next discriminator | The distinctions, claim table and ordered handoff below identify the observability bottleneck and a prospective test of measurement feasibility. | Met as a synthesis proposal. Owner acceptance is the remaining cycle-close condition. |
+| State programme consequences and choose the next discriminator | The distinctions, claim table and ordered handoff below identify the observability bottleneck and a prospective test of measurement feasibility. | Met; the owner accepted this synthesis through PR #21. |
 
 The study's completion is not inferred from elapsed time, computing expenditure,
 file count or resource exhaustion. Required first-pass collection was completed
@@ -220,7 +226,7 @@ with the unfinished historical sampling obligations explicit. It is not
 reopened here. Owner review of the cycle synthesis can change the next priority
 without altering the accepted ASF stop.
 
-## Review and Verification
+## Item 5 Review and Verification
 
 The existing research-artifact and item 4 report checks pass: 12 tests and
 40 subtests. Changed local document links resolve, `git diff --check` passes,
@@ -232,18 +238,17 @@ does not substitute for a new evidence or coding-stability assessment.
 
 ## Conclusions and Next Steps
 
-The five-deliverable cycle now has a complete synthesis for owner review.
-Closing it is warranted by the accepted registered path: public-source access
-and executable integrity pass, while joint receiver/timing observability fails
-G2 at every horizon. G3 and downstream causal comparisons remain unreached.
-The programme gains reproducible descriptive infrastructure, narrows CM-04's
-empirical mapping for this design and retains all claims at C1, with the prior
-formal-model and historical limitations unchanged.
+The owner accepted this synthesis through PR #21, closing the third cycle.
+Public-source access and executable integrity pass, while joint receiver/timing
+observability fails G2 at every horizon. G3 and downstream causal comparisons
+remain unreached. The programme gains reproducible descriptive infrastructure,
+narrows CM-04's empirical mapping for this design and retains all claims at C1,
+with the prior formal-model and historical limitations unchanged.
 
-The next action is owner acceptance or revision of this synthesis. Acceptance
-would close the third cycle; it would not activate a fourth cycle or authorize
-new evidence work. The next proposed item is writing a prospective observability
-pilot registration. Its empirical discriminator is whether a fixed new intake
-can yield dated receiving acts across the entire eligible receiver set before
-another full causal study is warranted. Publication, historical follow-up,
-new coding and new software remain separate future actions.
+After acceptance, the owner requested a fourth-cycle draft that retains the
+observability pilot and also advances the Roadmap's blog writing. The
+[fourth-cycle proposal](fourth-cycle-plan.md) combines a bounded pilot with two
+full essay drafts. The next action is owner review of that scope; no new cycle,
+evidence intake or publication has been activated by this closeout. Its first
+proposed execution item is writing and source research for the Marx/Proudhon
+essay, with a separately registered observability design to follow.
