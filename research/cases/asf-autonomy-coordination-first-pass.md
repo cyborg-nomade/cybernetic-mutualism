@@ -12,7 +12,8 @@
   The [item 4 audit report](asf-autonomy-coordination-audit.md) now records the
   registered G2 stop after the owner confirmed abstention on 2026-11-10. G1
   passes; G2 fails at every horizon; G3 and causal comparisons are not reached.
-  All claims remain C1. The original first-pass package remains unchanged.
+  Item 4 is accepted and merged through PR #20; its machine report and this
+  first-pass package remain unchanged. All claims remain C1.
 - **Checkpoint acceptance:** The owner approved the initial checkpoint through
   [PR #18](https://github.com/cyborg-nomade/cybernetic-mutualism/pull/18) on
   2026-09-23. Reviewed head `98561adb68ced781767ce4c4dc43143ebdc6a88a` was merged
@@ -491,8 +492,9 @@ work. Any renewed evidence work requires a fresh valid washout boundary.
 
 Owner review of item 3 is complete. Following the valid waiting period and
 owner abstention confirmation, the [item 4 report](asf-autonomy-coordination-audit.md)
-now supplies the registered G2 stop for review. G1 and executable integrity
+supplies the accepted registered G2 stop. G1 and executable integrity
 pass; G2 fails at all three horizons; G3 and causal comparisons are unreached.
-No locked first-pass value was altered. Item 5 remains a **writing task**:
-apply the reached stop to the cycle synthesis and choose the next discriminator.
+No locked first-pass value was altered. The [item 5 synthesis](../decisions/third-cycle-synthesis.md)
+now applies that stop and proposes the next discriminator for owner review.
 All claims remain C1, with the registered CM-04 mapping narrowing for this design.
+Cycle closure awaits acceptance of the synthesis; new evidence work is separate.

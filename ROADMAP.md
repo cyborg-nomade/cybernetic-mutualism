@@ -718,13 +718,20 @@ tooling is reviewed and frozen and the evidence item is separately authorized.
 
 The [tooling implementation record](research/cases/asf-autonomy-coordination-tooling.md)
 records the accepted audit supplement, execution conventions, and review fixes.
-Items 1–3 are accepted and merged, including the completed first-pass lock
-through [PR #19](https://github.com/cyborg-nomade/cybernetic-mutualism/pull/19).
-The [item 4 audit report](research/cases/asf-autonomy-coordination-audit.md)
-is complete under the registered G2 stop and pending owner review: G1 and
-executable integrity pass; identifiability fails at all horizons; G3 and causal
-comparisons are not reached. All claims remain C1, with CM-04's observational
-mapping narrowed for this design. Item 5 is writing the cycle synthesis and
-selecting the next discriminator; it has not started. Cycle completion requires
-an accepted synthesis applying this registered stop. The print/Reformation
-follow-up, wider revision queue and publication work remain deferred.
+Items 1–4 are accepted and merged, including the complete first-pass lock
+through [PR #19](https://github.com/cyborg-nomade/cybernetic-mutualism/pull/19)
+and the [registered G2 stop](research/cases/asf-autonomy-coordination-audit.md)
+through [PR #20](https://github.com/cyborg-nomade/cybernetic-mutualism/pull/20),
+merged on 2026-11-10. Access and executable integrity pass; identifiability
+fails at all horizons; G3 and causal comparisons are not reached. All claims
+remain C1, with CM-04's observational mapping narrowed for this design.
+
+The [item 5 synthesis](research/decisions/third-cycle-synthesis.md) is complete
+for review and proposes closing the cycle through this registered stop. The
+cycle remains active until owner acceptance. The next proposed item is writing
+a prospective observability-pilot registration to test whether a fixed new
+intake can yield independently dated receiving acts across the eligible receiver
+set. Any capture software would be a conditional, separate code item; executing
+the pilot would be research/evidence work. No fourth cycle or collection is
+activated by this proposal. The print/Reformation follow-up, wider revision
+queue and publication remain deferred.
