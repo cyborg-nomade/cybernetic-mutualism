@@ -495,6 +495,7 @@ owner abstention confirmation, the [item 4 report](asf-autonomy-coordination-aud
 supplies the accepted registered G2 stop. G1 and executable integrity
 pass; G2 fails at all three horizons; G3 and causal comparisons are unreached.
 No locked first-pass value was altered. The [item 5 synthesis](../decisions/third-cycle-synthesis.md)
-now applies that stop and proposes the next discriminator for owner review.
+is accepted through PR #21 and closes the cycle through that stop.
 All claims remain C1, with the registered CM-04 mapping narrowing for this design.
-Cycle closure awaits acceptance of the synthesis; new evidence work is separate.
+The [fourth-cycle proposal](../decisions/fourth-cycle-plan.md) is now the next
+reviewable plan; new evidence work remains separate.
