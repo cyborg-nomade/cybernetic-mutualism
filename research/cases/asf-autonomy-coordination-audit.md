@@ -2,8 +2,13 @@
 
 ## Status and Authority
 
-- **Status:** Item 4 completed through the registered G2 stop, pending owner
-  review. G1 passes; G2 fails at 60, 90 and 180 days. G3 was not reached.
+- **Status:** Item 4 accepted by the owner on 2026-11-10 through the registered
+  G2 stop. G1 passes; G2 fails at 60, 90 and 180 days. G3 was not reached.
+- **Acceptance:** [PR #20](https://github.com/cyborg-nomade/cybernetic-mutualism/pull/20)
+  merged at `3d668d83b899d6b7875c0ec83e1e683e0f362bfb`, preserving reviewed head
+  `75c6e4b02d0c3b527cd5a522d7d4290728de80a7`. Both CI runs passed; no unresolved
+  review threads remained. Owner approval was given in the coordinating chat.
+  CodeRabbit skipped automatic review; no executed review is inferred.
 - **Authorized:** 2026-10-26 following approval of item 3; continuation confirmed
   on 2026-11-10 after the owner supplied the missing abstention confirmation.
 - **Accepted first pass:** Reviewed head
@@ -198,9 +203,9 @@ are unreached. The programme gains reusable source, screening and missingness
 infrastructure and narrows CM-04's empirical mapping for this design; all
 claim confidence remains C1 and the earlier formal-model narrowing stands.
 
-The next action is owner review of this item-sized result. Item 5 is a writing
-task: synthesize the completed registered path and choose the next discriminator.
-A useful future empirical discriminator would test, under a separate prospective
-registration, whether independently dated sender and receiving acts can be
-observed across every eligible response of shared families. That follow-up is
-not executed here. This PR remains unmerged, and item 5 is not started.
+The owner accepted this result and authorized its merge on November 10.
+Item 5, the [third-cycle synthesis](../decisions/third-cycle-synthesis.md), now
+applies the stop and proposes the next discriminator for separate review.
+The continuation schedule was deleted when item 4 became reviewable. Its
+accepted data, report and frozen executable remain unchanged. No new evidence
+collection or causal comparison follows from this administrative closeout.

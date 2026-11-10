@@ -926,6 +926,22 @@ The proposed handoff prioritizes the registered ASF audit and evidence sequence.
 The historical sample and durability gaps and the revision queue below remain
 open; a cycle-close decision is not additional evidence for any claim.
 
+## Third-Cycle Synthesis — Proposed
+
+The [third-cycle synthesis](decisions/third-cycle-synthesis.md) consolidates the
+accepted ASF identifiability stop through PR #20 and proposes cycle closure.
+G1 and executable integrity pass; G2 fails in both directions at 60, 90 and
+180 days; G3 and downstream causal/nested comparisons are unreached. CM-01,
+CM-12 and CM-13 retain C1 without a claim-level causal direction. CM-04 retains
+C1 and its earlier formal-model narrowing, with the registered narrowing of
+its observational mapping for this public-record design. Other claims and
+historical obligations remain unchanged.
+
+The synthesis awaits owner acceptance. Its next proposed discriminator is a
+separately registered prospective observability pilot, beginning with a writing
+and design item. This proposal starts no new collection, coding, software,
+publication or next research cycle.
+
 ## revision queue after the first-cycle synthesis
 
 The registry itself has already found claims that should not remain in their
