@@ -9,8 +9,10 @@
   head `46d08fe31b33f5b2ad1709a422719bd501ed3bb2`. The
   [completion package](../data/asf-item3-first-pass-2026-10-23/README.md)
   and simultaneous source/first-pass/frame/blank-recode lock are unchanged.
-  Item 4 is authorized; its waiting period and blinded audit remain pending.
-  G2/G3 and aggregate claim decisions are uncalculated. All claims remain C1.
+  The [item 4 audit report](asf-autonomy-coordination-audit.md) now records the
+  registered G2 stop after the owner confirmed abstention on 2026-11-10. G1
+  passes; G2 fails at every horizon; G3 and causal comparisons are not reached.
+  All claims remain C1. The original first-pass package remains unchanged.
 - **Checkpoint acceptance:** The owner approved the initial checkpoint through
   [PR #18](https://github.com/cyborg-nomade/cybernetic-mutualism/pull/18) on
   2026-09-23. Reviewed head `98561adb68ced781767ce4c4dc43143ebdc6a88a` was merged
@@ -487,10 +489,10 @@ programme and every claim remain at C1. The simultaneous lock begins the
 washout recorded in the package receipt, subject to no further ASF evidence
 work. Any renewed evidence work requires a fresh valid washout boundary.
 
-Owner review is complete. After the required 14 complete UTC days, item 4 is a
-**research and writing task using the frozen code**: delayed blinded recoding,
-initial agreement, reconciliation and the registered gate/claim report. A
-registered gate failure stops subsequent causal comparison. Item 5 is a
-**writing task** applying the reached result or registered stop to the cycle
-synthesis and next discriminator. No favorable finding or new code is needed
-for either item to produce a valid research result.
+Owner review of item 3 is complete. Following the valid waiting period and
+owner abstention confirmation, the [item 4 report](asf-autonomy-coordination-audit.md)
+now supplies the registered G2 stop for review. G1 and executable integrity
+pass; G2 fails at all three horizons; G3 and causal comparisons are unreached.
+No locked first-pass value was altered. Item 5 remains a **writing task**:
+apply the reached stop to the cycle synthesis and choose the next discriminator.
+All claims remain C1, with the registered CM-04 mapping narrowing for this design.

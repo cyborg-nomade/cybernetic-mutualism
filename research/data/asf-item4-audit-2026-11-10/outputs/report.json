@@ -1,0 +1,245 @@
+{
+  "G1": {
+    "board_months": 36,
+    "denominator_months": 36,
+    "development_months": {
+      "ant": 36,
+      "httpd": 36,
+      "maven": 36,
+      "tomcat": 36
+    },
+    "eligible_projects": [
+      "ant",
+      "httpd",
+      "maven",
+      "tomcat"
+    ],
+    "pass": true,
+    "required_months": 33,
+    "special_meetings_complete": true
+  },
+  "analysis_pairs": 368,
+  "audit_frame_sha256": "d41d1d8e66334ef5d13a52da66428748f449fa706d4c87e6e9cc16736f2b624e",
+  "causal_category_timing_sensitivity": null,
+  "claim_consequences": {
+    "CM-01": {
+      "causal_direction": null,
+      "confidence": "C1"
+    },
+    "CM-04": {
+      "confidence": "C1",
+      "numerical_model_validated": false,
+      "observational_mapping": "narrow"
+    },
+    "CM-12": {
+      "causal_direction": null,
+      "confidence": "C1"
+    },
+    "CM-13": {
+      "causal_direction": null,
+      "confidence": "C1"
+    },
+    "other_claims": "unchanged"
+  },
+  "eligible_screening_pairs": 979,
+  "execution": {
+    "abstention_basis": "Owner-reported no evidence access since closure, together with this chat's clock-only waiting checks; no independent surveillance of activity outside this chat is claimed.",
+    "complete_utc_days": "2026-10-24 through 2026-11-06 inclusive",
+    "earliest_permitted_resumption": "2026-11-07T00:00:00+00:00",
+    "local_lock_verification_scope": "Frozen verify_lock matched the retained digest, first-pass bytes, original blank bundle, frame selection and operative provenance before G1; no recode start, submission, score or reconciliation artifact existed.",
+    "original_local_lock_contents": [
+      "audit-frame.json",
+      "blank-recode",
+      "first-pass",
+      "lock.json"
+    ],
+    "original_local_lock_verified": true,
+    "owner_confirmation": "no evidence has been opened since you closed it in this chat. the scheduled task elapsed on Nov 7th, but usage was exceeded at that point, so you couldn't continue the task. you may continue with the necessary actions.",
+    "owner_confirmation_date": "2026-11-10",
+    "prior_context_exposure": "The coordinating chat contains first-pass interpretations and is not a blind recoding context. No recoding was performed.",
+    "recode_started": false,
+    "resumed_at": "2026-11-10T12:07:04+00:00"
+  },
+  "first_pass_sha256": "f805f859f5cf3d88e06d87a16902ef9940072ffa1f68b3c34f511069104fd94c",
+  "frozen_implementation_commit": "18b13ff18500c33d8812459eda72ad6c11640f1a",
+  "gate_stop_timing_sensitive": false,
+  "horizons": {
+    "180": {
+      "G2": {
+        "A_to_C": {
+          "classifiable": 0,
+          "classifiable_fraction": 0.0,
+          "families": 34,
+          "pass": false,
+          "projects": [
+            "ant",
+            "httpd",
+            "maven",
+            "tomcat"
+          ]
+        },
+        "C_to_A": {
+          "classifiable": 1,
+          "classifiable_fraction": 0.024390243902439025,
+          "families": 41,
+          "pass": false,
+          "projects": [
+            "ant",
+            "httpd",
+            "maven",
+            "tomcat"
+          ]
+        }
+      },
+      "G3": {
+        "agreement": null,
+        "pass": null,
+        "status": "not_reached"
+      },
+      "causal_category": null,
+      "decision": "registered_stop",
+      "nested_claim_comparison": null,
+      "stop_gate": "G2"
+    },
+    "60": {
+      "G2": {
+        "A_to_C": {
+          "classifiable": 0,
+          "classifiable_fraction": 0.0,
+          "families": 34,
+          "pass": false,
+          "projects": [
+            "ant",
+            "httpd",
+            "maven",
+            "tomcat"
+          ]
+        },
+        "C_to_A": {
+          "classifiable": 1,
+          "classifiable_fraction": 0.024390243902439025,
+          "families": 41,
+          "pass": false,
+          "projects": [
+            "ant",
+            "httpd",
+            "maven",
+            "tomcat"
+          ]
+        }
+      },
+      "G3": {
+        "agreement": null,
+        "pass": null,
+        "status": "not_reached"
+      },
+      "causal_category": null,
+      "decision": "registered_stop",
+      "nested_claim_comparison": null,
+      "stop_gate": "G2"
+    },
+    "90": {
+      "G2": {
+        "A_to_C": {
+          "classifiable": 0,
+          "classifiable_fraction": 0.0,
+          "families": 34,
+          "pass": false,
+          "projects": [
+            "ant",
+            "httpd",
+            "maven",
+            "tomcat"
+          ]
+        },
+        "C_to_A": {
+          "classifiable": 1,
+          "classifiable_fraction": 0.024390243902439025,
+          "families": 41,
+          "pass": false,
+          "projects": [
+            "ant",
+            "httpd",
+            "maven",
+            "tomcat"
+          ]
+        }
+      },
+      "G3": {
+        "agreement": null,
+        "pass": null,
+        "status": "not_reached"
+      },
+      "causal_category": null,
+      "decision": "registered_stop",
+      "nested_claim_comparison": null,
+      "stop_gate": "G2"
+    }
+  },
+  "integrity": {
+    "errors": [],
+    "original_lock_errors": [],
+    "package_native_and_blank_reconstruction_pass": true,
+    "pass": true,
+    "records_checked": 2946,
+    "source_records_checked": 4740
+  },
+  "lock_sha256": "2c5bf03e56aeb8cea66879f82acef46a6ecef05511e23d74a24451da712a4cb7",
+  "native_table_rows": {
+    "attestations": 6,
+    "cohort": 4,
+    "contrasts": 510,
+    "coverage": 180,
+    "episodes": 500,
+    "evidence": 9831,
+    "families": 1028,
+    "measurements": 2946,
+    "rivals": 2550,
+    "screening": 1110,
+    "shock_searches": 510,
+    "shocks": 25,
+    "sources": 4740,
+    "special_meetings": 1
+  },
+  "primary_horizon": 90,
+  "provenance": {
+    "amendment_ids": [
+      "pr13-review-clarifications-2026-09-04",
+      "solo-completion-and-research-yield-2026-09-05"
+    ],
+    "files": {
+      "research/cases/../decisions/antinomy-structural-robustness.md": "35e63c476f9f740bc4bcf72aec55b050552e10b9431a469d1cd23bacd21bb471",
+      "research/cases/asf-autonomy-coordination-codebook.md": "6605b6eb93e8f07f1889096d55dfcc8ff7f892d7ecab42bdbda5eb6390779546",
+      "research/cases/asf-autonomy-coordination-preregistration.md": "e8b266e580914752efddb1e68d1d6c80710ea2aa73cd990432aa83642c2222a1",
+      "research/cases/asf-autonomy-coordination-registration.toml": "d7901212c06131efc0086c1d38c5f080e64f47f672df063465b88df391a85864",
+      "research/cases/asf-autonomy-coordination-source-audit.md": "01d7c074230d8a29fa08af2487f13be2bf82b4cd159daa2396aa35e7c446f9ab",
+      "research/cases/asf-autonomy-coordination-tooling.md": "f1029a9fae9dac93d6d91c8dc0e5b72044b391a5fe93b203b8bd1c9d4b99d879",
+      "scripts/asf_audit/__init__.py": "2956f1c60ef304911f03beb7431dbe2ab657e8ad66ccc56131026bd8c15bd26a",
+      "scripts/asf_audit/__main__.py": "0975ae227898b6dde5be177a35de6a3e47788443270bb26538d8ce87a67a6508",
+      "scripts/asf_audit/analysis.py": "0a11f44f0b694783d62b0382b41158e7bdbc509ddfe281a44a9f09c73631ab48",
+      "scripts/asf_audit/freeze.py": "fc63d671464df843bab09d9886874fa577a865623a914ab1a097a7773a8af203",
+      "scripts/asf_audit/protocol.py": "a00381b011320fa3ea85f20ab7c178456669ef33665431efd3336d2f1abfdd92",
+      "scripts/asf_audit/report.py": "da44f783119144a932cf4ceee78aa8211648a18bd594c96c5aa21d997663db18",
+      "scripts/asf_audit/sampling.py": "09d0f7bad816597c7177562058943782bfc15ebcd6b04cb558d60eca85794520",
+      "scripts/asf_audit/schema.py": "a29ffb4cd8d6b9ac13c15078ce8c299ec8757114fb08646d81f94c666efd6d91",
+      "scripts/asf_audit/stability.py": "837627674c0bc8bc1012a7b854396513464e81cfa6e633438b4e017293b5467d",
+      "scripts/asf_audit/timing.py": "50bc0f8717294c6aebacd9d1a9fcf0ff971774a96f68ea2f0b614eb83513901c",
+      "scripts/asf_audit/validation.py": "a398bab9d8d59d13efc1d7e4dc77e7e27e34914bcb0229ad599e3bc09bef3107",
+      "uv.lock": "5c7bc2264c02f783a843eb107888a59fe86c1d56a6430a84764b3c9909358588"
+    },
+    "implementation_clarification_id": "tooling-audit-supplement-2026-09-16",
+    "registration_commit": "00d696ed80bd388955f622e0611853165f19508c"
+  },
+  "report_type": "registered_gate_stop",
+  "reporting_adapter_sha256": "5645fe8d327883bb800440f8d8bdbea1a590508e7d327d6e34309cf1ba0f90f6",
+  "required_pairs": 491,
+  "sensitivity_horizons": [
+    60,
+    180
+  ],
+  "thresholds": {
+    "classifiable_opportunity_fraction_required": 0.75,
+    "opportunity_families_per_direction_required": 4,
+    "projects_per_direction_required": 2
+  }
+}

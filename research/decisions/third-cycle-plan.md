@@ -10,10 +10,11 @@
   was merged at `c592e40a24184ee979e76dbd2950a8f8599cc600`, preserving reviewed
   head `46d08fe31b33f5b2ad1709a422719bd501ed3bb2`; both validation runs passed.
   The [completion package](../data/asf-item3-first-pass-2026-10-23/README.md)
-  and its lock remain unchanged. Item 4 is authorized and awaiting the
-  registered waiting period. Its [audit execution record](../cases/asf-autonomy-coordination-audit.md)
-  distinguishes administrative preparation from an executed audit. No G2/G3
-  result, recode score or aggregate claim decision exists; all claims remain C1.
+  and its lock remain unchanged. Item 4 is complete under the registered G2
+  stop and pending owner review. Its [audit report](../cases/asf-autonomy-coordination-audit.md)
+  records G1 passing, G2 failing at 60/90/180 days, and G3 not reached. The owner
+  confirmed abstention on 2026-11-10 before substantive resumption. All claims
+  remain C1; CM-04's observational mapping is narrowed for this design.
 - **Accepted first-pass checkpoint:** `98561adb68ced781767ce4c4dc43143ebdc6a88a`,
   accepted through [PR #18](https://github.com/cyborg-nomade/cybernetic-mutualism/pull/18)
   and merged at `bec2d0787f7fd5772ca8aeae11ff4a7892b46a7a`. This is a staged
@@ -113,23 +114,18 @@ other claims outside the registered ASF decisions remain unchanged.
 
 ## Conclusions and Next Steps
 
-The accepted executable and access audit now have a completed first-pass
-input for review: the fixed census/baseline, independent horizon measurements,
-explicit unresolved evidence, source-qualified rival/search records and
-simultaneous audit lock. Item 3 is now accepted and merged. The exact receipt
-and reconstruction instructions are in the completion package. Completion
-changes the programme's readiness
-for registered evaluation; it supplies no aggregate causal result or claim
-confidence increase. All claims remain C1.
+Items 1–3 are accepted and merged. Item 4 now supplies a complete registered
+stop for owner review: access and executable integrity pass, while receiver
+and time-order observability fails G2 in both directions at all horizons.
+The original lock and frozen implementation remain unchanged. G3, initial
+agreement, reconciliation and downstream causal comparisons are unreached,
+not measured failures. All claims remain C1; the prespecified CM-04 mapping
+consequence narrows its empirical applicability for this design while retaining
+the earlier formal-model narrowing.
 
-The owner has authorized item 4. Its delayed blinded recode may start
-only after the receipt's earliest date and an attestation of no intervening
-ASF evidence work; the 14 complete UTC days begin at the actual lock, not at
-preregistration or a prior checkpoint. Review corrections involving evidence
-require a new valid boundary. A guarded scheduled continuation is active;
-before the earliest date it may perform no evidence work. The audit execution
-record remains incomplete until the registered path is actually executed.
-Item 4 is research and writing using the frozen
-code, with G1–G3 applied in order and subsequent causal comparison stopped at
-any registered gate failure. Item 5 is writing: the synthesis and claim-level
-disposition for the path actually reached, including a registered stop.
+The next action is owner review of item 4 without merging it automatically.
+Item 5 remains a writing task: synthesize the registered path and select the
+next discriminating design. A future empirical study would need a separately
+registered way to observe independently dated receiving acts across shared
+families. The cycle stays active until its synthesis is accepted. Deferred
+print/Reformation collection and publication remain outside this item.
