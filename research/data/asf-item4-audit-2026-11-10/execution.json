@@ -1,0 +1,13 @@
+{
+  "resumed_at": "2026-11-10T12:07:04+00:00",
+  "owner_confirmation_date": "2026-11-10",
+  "owner_confirmation": "no evidence has been opened since you closed it in this chat. the scheduled task elapsed on Nov 7th, but usage was exceeded at that point, so you couldn't continue the task. you may continue with the necessary actions.",
+  "abstention_basis": "Owner-reported no evidence access since closure, together with this chat's clock-only waiting checks; no independent surveillance of activity outside this chat is claimed.",
+  "complete_utc_days": "2026-10-24 through 2026-11-06 inclusive",
+  "earliest_permitted_resumption": "2026-11-07T00:00:00+00:00",
+  "recode_started": false,
+  "original_local_lock_verified": true,
+  "original_local_lock_contents": ["audit-frame.json", "blank-recode", "first-pass", "lock.json"],
+  "local_lock_verification_scope": "Frozen verify_lock matched the retained digest, first-pass bytes, original blank bundle, frame selection and operative provenance before G1; no recode start, submission, score or reconciliation artifact existed.",
+  "prior_context_exposure": "The coordinating chat contains first-pass interpretations and is not a blind recoding context. No recoding was performed."
+}

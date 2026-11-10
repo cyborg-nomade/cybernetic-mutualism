@@ -1,0 +1,11 @@
+{
+  "candidate-blockers.csv.gz": "f609f8928ad8bf1ef2bc762b1c18e7c25d7e9d828ef20ec125887b9232cfc38b",
+  "family-inventory.csv.gz": "f0b5d7426ed2d7ac7e240050fe0a36972585337516cfa87bb65b96049bd389f8",
+  "family-observability.csv": "62bd25409c44c0b85aa58a3099aedd4a7903f2c967bd092d8922d7f4a2736e31",
+  "field-missingness.csv": "37e16d31e0f0e8636f3c896b88a1cf2a69552dd18a71474dcd93b7dbdb390b4e",
+  "local-baseline.csv": "cc20852506cdab0d88f596e3d83724729555fa50f08dfe3cf8dd6c0b803644a8",
+  "recorded-label-counts.csv": "a58bac30c2d940067a7fe05bc5c9be9c0132938c20fa315693a35414666618f9",
+  "report.json": "5d24858478dd84290d9e32906050b044d420eae60336d11750d8ad476a148fa4",
+  "screened-inventory.csv.gz": "bfcf457c0c7de59f5ae4d57cc4e2169442382484c80ae9625ac34bea3b7e382a",
+  "source-access.csv": "2385b6f7bf9d8fd6ef46e182666af088a8de4f7e31c1d87072c3d85ad190682e"
+}

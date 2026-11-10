@@ -718,10 +718,13 @@ tooling is reviewed and frozen and the evidence item is separately authorized.
 
 The [tooling implementation record](research/cases/asf-autonomy-coordination-tooling.md)
 records the accepted audit supplement, execution conventions, and review fixes.
-Item 2 is complete. Item 3, complete screening and the registered first pass,
-is underway. The census, sampling, coding, and first-pass lock remain unfinished.
-Cycle completion requires an accepted synthesis applying the registered
-claim decisions or an explicit registered stop, with missingness and incomplete
-work preserved. A favorable finding or confidence increase is not required.
-All claims remain C1. The print/Reformation follow-up, wider revision queue,
-and publication work remain deferred.
+Items 1–3 are accepted and merged, including the completed first-pass lock
+through [PR #19](https://github.com/cyborg-nomade/cybernetic-mutualism/pull/19).
+The [item 4 audit report](research/cases/asf-autonomy-coordination-audit.md)
+is complete under the registered G2 stop and pending owner review: G1 and
+executable integrity pass; identifiability fails at all horizons; G3 and causal
+comparisons are not reached. All claims remain C1, with CM-04's observational
+mapping narrowed for this design. Item 5 is writing the cycle synthesis and
+selecting the next discriminator; it has not started. Cycle completion requires
+an accepted synthesis applying this registered stop. The print/Reformation
+follow-up, wider revision queue and publication work remain deferred.

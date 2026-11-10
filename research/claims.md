@@ -67,7 +67,7 @@ changes require a dated revision note.
 
 | ID | Short name | Type | Confidence | Status |
 | --- | --- | --- | --- | --- |
-| [CM-01](#cm-01--antinomies-as-mutually-dependent-relations) | Antinomies as mutually dependent relations | Conceptual; causal | C1 | Under test: registered design |
+| [CM-01](#cm-01--antinomies-as-mutually-dependent-relations) | Antinomies as mutually dependent relations | Conceptual; causal | C1 | ASF design stopped at identifiability gate |
 | [CM-02](#cm-02--mutualism-as-a-theory-of-progress) | Mutualism as a theory of progress | Historical interpretation | C1 | Needs specification |
 | [CM-03](#cm-03--historical-change-is-nonlinear-and-scale-dependent) | Historical change is nonlinear and scale-dependent | Empirical generalisation | C1 | Needs specification |
 | [CM-04](#cm-04--cybernetic-dynamics-can-formalise-antinomies) | Cybernetic dynamics can formalise antinomies | Model claim | C1 | Provisionally retained in narrowed domain |
@@ -78,8 +78,8 @@ changes require a dated revision note.
 | [CM-09](#cm-09--durable-phenomena-enter-a-five-domain-circuit) | Durable phenomena enter a five-domain circuit | Causal; model claim | C1 | Under test |
 | [CM-10](#cm-10--substrates-define-feasible-topology-spaces) | Substrates define feasible topology spaces | Conceptual; causal | C1 | Needs revision |
 | [CM-11](#cm-11--substrate-change-pressures-inherited-institutions) | Substrate change pressures inherited institutions | Causal | C1 | Needs specification |
-| [CM-12](#cm-12--decentralisation-has-generative-and-disorganising-effects) | Decentralisation has mixed effects | Causal | C1 | Under test: ASF decision-authority layer |
-| [CM-13](#cm-13--centralisation-has-enabling-and-suppressive-effects) | Centralisation has mixed effects | Causal | C1 | Under test: ASF decision-authority layer |
+| [CM-12](#cm-12--decentralisation-has-generative-and-disorganising-effects) | Decentralisation has mixed effects | Causal | C1 | ASF nested test not reached: G2 stop |
+| [CM-13](#cm-13--centralisation-has-enabling-and-suppressive-effects) | Centralisation has mixed effects | Causal | C1 | ASF nested test not reached: G2 stop |
 | [CM-14](#cm-14--decentralising-innovations-tend-toward-recapture) | Decentralising innovations tend toward recapture | Empirical generalisation; causal | C1 | Needs specification |
 | [CM-15](#cm-15--inhibitory-institutions-can-make-rivalry-productive) | Inhibitory institutions can make rivalry productive | Causal | C1 | Needs specification |
 | [CM-16](#cm-16--recurrence-does-not-confer-legitimacy) | Recurrence does not confer legitimacy | Conceptual; normative | C1 | Proposed |
@@ -98,7 +98,7 @@ changes require a dated revision note.
 
 - **Type:** Conceptual; causal.
 - **Confidence:** C1 — conjectural.
-- **Status:** Under test: empirical design registered; collection not begun.
+- **Status:** ASF design stopped at G2; no claim-level causal direction.
 - **Statement:** Some opposed social tendencies are co-constitutive: each helps
   produce, enable, or delimit the other within a shared relation, so removing
   either pole transforms the relation rather than finally resolving it.
@@ -127,6 +127,11 @@ changes require a dated revision note.
   may prevent identification. A full reciprocal result stable at all three
   horizons is prespecified to raise only the bounded ASF instantiation to C2.
   Registration is not evidence; the packet was accepted in PR #13 on 2026-09-05.
+- **Registered result, 2026-11-10:** The [item 4 audit](cases/asf-autonomy-coordination-audit.md)
+  passes access and executable integrity but stops at G2 at every horizon.
+  Receiving conduct and timing are jointly classifiable for 0/34 A → C and
+  1/41 C → A opportunity families. G3 and causal comparison are not reached;
+  retain C1 with no claim-level direction.
 - **Dependencies:** Grounds CM-04, CM-05, CM-12, and CM-13.
 - **Revision history:** 2026-08-30 — extracted; wording narrowed from all
   manifesto oppositions to **some** named social tendencies.
@@ -245,6 +250,11 @@ changes require a dated revision note.
   withhold outcomes for that observational mapping. It does not fit or validate
   the toy model's parameters or attractors. No case evidence is supplied by
   registration.
+- **Registered empirical consequence, 2026-11-10:** The [ASF audit](cases/asf-autonomy-coordination-audit.md)
+  passes G1 and fails G2 through unclassifiable opportunities at all horizons.
+  Narrow the observational mapping's empirical applicability in this design.
+  The earlier structural narrowing and C1 numerical-model confidence remain
+  unchanged; no parameters or attractors are validated.
 - **Dependencies:** Requires a specified instance of CM-01.
 - **Revision history:** 2026-08-30 — extracted as a model-performance claim,
   not evidence that Proudhon's language was already cybernetic.
@@ -495,7 +505,7 @@ changes require a dated revision note.
 
 - **Type:** Causal.
 - **Confidence:** C1 — conjectural.
-- **Status:** Under test: ASF decision-authority layer.
+- **Status:** ASF nested test not reached because G2 fails.
 - **Statement:** Under specifiable conditions, decreasing concentration in a
   named network layer increases variation, local information, experimentation,
   or edge formation while also raising coordination cost, fragmentation, or
@@ -519,6 +529,9 @@ changes require a dated revision note.
   show executed expanded options and increased coordination burden or failed
   shared commitment across at least two PMCs. Stability at all three horizons
   can support only this bounded instantiation at C2.
+- **Registered result, 2026-11-10:** The [ASF audit](cases/asf-autonomy-coordination-audit.md)
+  stops at G2 at all horizons. The nested authority-shift comparison is not
+  reached; retain C1 without a claim-level causal direction.
 - **Dependencies:** Uses [the glossary definition](glossary.md#decentralisation)
   and must not infer one layer from another.
 - **Revision history:** 2026-08-30 — extracted.
@@ -530,7 +543,7 @@ changes require a dated revision note.
 
 - **Type:** Causal.
 - **Confidence:** C1 — conjectural.
-- **Status:** Under test: ASF decision-authority layer.
+- **Status:** ASF nested test not reached because G2 fails.
 - **Statement:** Under specifiable conditions, increasing concentration in a
   named network layer enables standards, memory, scale, or coordinated action
   while also reducing variation, signal correction, or adaptability and
@@ -555,6 +568,9 @@ changes require a dated revision note.
   families must show enablement and restriction across at least two PMCs.
   Stability at all three horizons can support only this bounded instantiation
   at C2.
+- **Registered result, 2026-11-10:** The [ASF audit](cases/asf-autonomy-coordination-audit.md)
+  stops at G2 at all horizons. The nested authority-shift comparison is not
+  reached; retain C1 without a claim-level causal direction.
 - **Dependencies:** Uses [the glossary definition](glossary.md#centralisation)
   and must be evaluated separately by layer.
 - **Revision history:** 2026-08-30 — extracted.
